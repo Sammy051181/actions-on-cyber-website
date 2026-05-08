@@ -1,14 +1,21 @@
 import os
 import re
 import json
-import requests
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+import requests
 from slugify import slugify
 from openai import OpenAI
 
+
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+
+# =========================
+# Date and folder settings
+# =========================
 
 UK_NOW = datetime.now(ZoneInfo("Europe/London"))
 
@@ -19,80 +26,78 @@ MONTH_FOLDER = UK_NOW.strftime("%B-%Y")
 
 SITE_ROOT = Path(".")
 PAGES_DIR = SITE_ROOT / "pages"
+DAILY_ROOT_DIR = PAGES_DIR / "daily"
+MONTH_DIR = DAILY_ROOT_DIR / MONTH_FOLDER
+
 DAILY_INDEX = PAGES_DIR / "daily-int-brief.html"
-DAILY_ROOT = PAGES_DIR / "daily"
-MONTH_DIR = DAILY_ROOT / MONTH_FOLDER
 MONTH_INDEX = MONTH_DIR / "index.html"
 
 MONTH_DIR.mkdir(parents=True, exist_ok=True)
 
-CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+
+# =========================
+# CISA KEV settings
+# =========================
+
+CISA_KEV_PRIMARY_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+CISA_KEV_FALLBACK_URL = "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json"
 
 
-def esc(value):
-    if value is None:
-        return ""
-    return (
-        str(value)
-        .replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
-
-
-def render_list(items, ordered=False):
-    tag = "ol" if ordered else "ul"
-    body = "\n".join(f"<li>{esc(item)}</li>" for item in items)
-    return f"<{tag}>{body}</{tag}>"
-
-
-def render_sources(sources):
-    items = []
-    for source in sources:
-        title = esc(source.get("title", "Source"))
-        url = esc(source.get("url", "#"))
-        items.append(f'<li><a href="{url}">{title}</a></li>')
-    return "<ul>" + "\n".join(items) + "</ul>"
-
-
-def fetch_top_kev():
+def fetch_top_5_kev():
     """
-    Fetch the latest 5 entries from CISA's Known Exploited Vulnerabilities catalogue.
-    These are included in every Daily Int Brief as the 'Top 5 Known Exploited Vulnerabilities'.
+    Fetch the latest five CISA Known Exploited Vulnerabilities.
+    Falls back to the CISA GitHub mirror if the main CISA feed is unavailable.
     """
-    try:
-        response = requests.get(CISA_KEV_URL, timeout=20)
-        response.raise_for_status()
-        data = response.json()
-        vulns = data.get("vulnerabilities", [])
 
-        vulns = sorted(
-            vulns,
-            key=lambda item: item.get("dateAdded", ""),
-            reverse=True
-        )
+    headers = {
+        "User-Agent": "ActionsOnCyberDailyBrief/1.0"
+    }
 
-        top_five = []
-        for vuln in vulns[:5]:
-            top_five.append({
-                "cve": vuln.get("cveID", "Unknown CVE"),
-                "vendor": vuln.get("vendorProject", "Unknown vendor"),
-                "product": vuln.get("product", "Unknown product"),
-                "name": vuln.get("vulnerabilityName", "Known exploited vulnerability"),
-                "date_added": vuln.get("dateAdded", "Unknown date"),
-                "required_action": vuln.get("requiredAction", "Check vendor guidance and apply mitigations or updates where relevant."),
-            })
+    for url in [CISA_KEV_PRIMARY_URL, CISA_KEV_FALLBACK_URL]:
+        try:
+            response = requests.get(url, headers=headers, timeout=30)
+            response.raise_for_status()
+            data = response.json()
 
-        return top_five
+            vulnerabilities = data.get("vulnerabilities", [])
 
-    except Exception as error:
-        print(f"Warning: Could not fetch CISA KEV feed: {error}")
-        return []
+            vulnerabilities = sorted(
+                vulnerabilities,
+                key=lambda item: item.get("dateAdded", ""),
+                reverse=True
+            )
+
+            top_5 = vulnerabilities[:5]
+
+            return [
+                {
+                    "cve_id": item.get("cveID", "Unknown CVE"),
+                    "vendor_project": item.get("vendorProject", "Unknown vendor"),
+                    "product": item.get("product", "Unknown product"),
+                    "vulnerability_name": item.get("vulnerabilityName", "Unknown vulnerability"),
+                    "date_added": item.get("dateAdded", "Unknown date"),
+                    "required_action": item.get(
+                        "requiredAction",
+                        "Check vendor guidance and apply mitigations or updates where relevant."
+                    ),
+                    "due_date": item.get("dueDate", "N/A"),
+                    "notes": item.get("notes", "")
+                }
+                for item in top_5
+            ]
+
+        except Exception as exc:
+            print(f"Warning: failed to fetch KEV feed from {url}: {exc}")
+
+    return []
 
 
-TOP_KEV = fetch_top_kev()
+TOP_5_KEV = fetch_top_5_kev()
 
-TOP_KEV_PROMPT = json.dumps(TOP_KEV, indent=2)
+
+# =========================
+# Prompt
+# =========================
 
 PROMPT = f"""
 You are writing for Actions On Cyber.
@@ -113,11 +118,8 @@ Prioritise reliable sources:
 - vendor advisories
 - reputable cyber security reporting
 
-Also include the following latest CISA Known Exploited Vulnerabilities in the brief as a separate section called:
-Top 5 Known Exploited Vulnerabilities.
-
-Use this CISA KEV data:
-{TOP_KEV_PROMPT}
+Also include the provided Top 5 Known Exploited Vulnerabilities from CISA KEV.
+Do not invent vulnerabilities. Use the provided KEV list exactly.
 
 Rules:
 - Do not copy source wording.
@@ -128,8 +130,14 @@ Rules:
 - Focus on what organisations should do next.
 - Include source links.
 - Use the heading Executive Summary, not One-paragraph summary.
-- The Daily Int Brief should be practical and suitable for Actions On Cyber.
-- The Top 5 Known Exploited Vulnerabilities section should tell readers what to ask their IT provider, not how to exploit anything.
+- The main Daily Int Brief topic does not have to be one of the KEV items, but the KEV table must still be included.
+- Do not create a LinkedIn post.
+- Do not create a social media post.
+- Do not include a section called LinkedIn post draft.
+- Do not include any LinkedIn content in the JSON.
+
+Top 5 Known Exploited Vulnerabilities from CISA KEV:
+{json.dumps(TOP_5_KEV, indent=2)}
 
 Return only valid JSON with this exact structure:
 {{
@@ -140,31 +148,113 @@ Return only valid JSON with this exact structure:
   "situation": "",
   "who_should_care": [],
   "why_it_matters": "",
-  "top_5_known_exploited_vulnerabilities": [
-    {{
-      "cve": "",
-      "vendor": "",
-      "product": "",
-      "plain_english_risk": "",
-      "question_to_ask_it_provider": ""
-    }}
-  ],
+  "top_5_kev_summary": "",
   "actions_on": [],
   "question_to_ask_it_provider": "",
   "after_action_review": [],
   "sources": [
     {{"title": "", "url": ""}}
   ],
-  "archive_tags": [],
-  "linkedin_post": ""
+  "archive_tags": []
 }}
 """
 
 
+# =========================
+# HTML helpers
+# =========================
+
+def esc(value):
+    if value is None:
+        return ""
+
+    return (
+        str(value)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def render_list(items, ordered=False):
+    tag = "ol" if ordered else "ul"
+    body = "\n".join(f"<li>{esc(item)}</li>" for item in items)
+    return f"<{tag}>{body}</{tag}>"
+
+
+def render_sources(sources):
+    items = []
+
+    for source in sources:
+        title = esc(source.get("title", "Source"))
+        url = esc(source.get("url", "#"))
+        items.append(f'<li><a href="{url}">{title}</a></li>')
+
+    return "<ul>" + "\n".join(items) + "</ul>"
+
+
+def render_kev_table(kev_items):
+    if not kev_items:
+        return """
+        <div class="warning">
+          <strong>Top 5 Known Exploited Vulnerabilities unavailable:</strong>
+          The CISA KEV feed could not be retrieved when this brief was generated.
+        </div>
+        """
+
+    rows = []
+
+    for item in kev_items:
+        rows.append(
+            f"""
+            <tr>
+              <td>{esc(item["date_added"])}</td>
+              <td>{esc(item["cve_id"])}</td>
+              <td>{esc(item["vendor_project"])}</td>
+              <td>{esc(item["product"])}</td>
+              <td>{esc(item["vulnerability_name"])}</td>
+              <td>{esc(item["required_action"])}</td>
+            </tr>
+            """
+        )
+
+    return f"""
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date added</th>
+            <th>CVE</th>
+            <th>Vendor</th>
+            <th>Product</th>
+            <th>Vulnerability</th>
+            <th>Required action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {''.join(rows)}
+        </tbody>
+      </table>
+    </div>
+    """
+
+
+def make_page_shell(title, body):
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{esc(title)} | Actions On Cyber</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  {body}
+</body>
+</html>
+"""
+
+
 def clean_json(raw):
-    """
-    Extract a JSON object even if the model returns markdown around it.
-    """
     raw = raw.strip()
 
     if raw.startswith("```"):
@@ -172,52 +262,61 @@ def clean_json(raw):
         raw = re.sub(r"```$", "", raw).strip()
 
     match = re.search(r"\{.*\}", raw, re.S)
+
     if not match:
-        raise ValueError("The model did not return a valid JSON object.")
+        raise ValueError("The model did not return valid JSON.")
 
     return json.loads(match.group(0))
 
 
-def render_kev_table(items):
-    if not items:
-        return """
-        <div class="warning">
-          <strong>Known exploited vulnerabilities unavailable:</strong>
-          The CISA KEV feed could not be retrieved when this brief was generated.
-        </div>
-        """
+# =========================
+# Remove old LinkedIn sections
+# =========================
 
-    rows = []
-    for item in items:
-        rows.append(f"""
-          <tr>
-            <td><strong>{esc(item.get("cve", ""))}</strong></td>
-            <td>{esc(item.get("vendor", ""))}</td>
-            <td>{esc(item.get("product", ""))}</td>
-            <td>{esc(item.get("plain_english_risk", ""))}</td>
-            <td>{esc(item.get("question_to_ask_it_provider", ""))}</td>
-          </tr>
-        """)
-
-    return f"""
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>CVE</th>
-              <th>Vendor</th>
-              <th>Product</th>
-              <th>Plain-English risk</th>
-              <th>Question to ask IT provider</th>
-            </tr>
-          </thead>
-          <tbody>
-            {''.join(rows)}
-          </tbody>
-        </table>
-      </div>
+def remove_existing_linkedin_sections():
+    """
+    Removes old LinkedIn post draft sections from existing generated pages.
+    This cleans previously published pages as well as preventing future output.
     """
 
+    if not PAGES_DIR.exists():
+        return
+
+    changed_files = []
+
+    patterns = [
+        re.compile(
+            r"\s*<h2>\s*LinkedIn post draft\s*</h2>\s*<p>.*?</p>",
+            re.IGNORECASE | re.DOTALL
+        ),
+        re.compile(
+            r"\s*<h2>\s*LinkedIn post draft\s*</h2>.*?(?=<h2>|</article>|</main>|</body>|</html>)",
+            re.IGNORECASE | re.DOTALL
+        ),
+    ]
+
+    for html_file in PAGES_DIR.rglob("*.html"):
+        text = html_file.read_text(encoding="utf-8")
+        new_text = text
+
+        for pattern in patterns:
+            new_text = pattern.sub("", new_text)
+
+        if new_text != text:
+            html_file.write_text(new_text, encoding="utf-8")
+            changed_files.append(str(html_file))
+
+    if changed_files:
+        print("Removed old LinkedIn post draft sections from:")
+        for file_name in changed_files:
+            print(f"- {file_name}")
+    else:
+        print("No old LinkedIn post draft sections found.")
+
+
+# =========================
+# Article generation
+# =========================
 
 def create_article(data):
     slug = slugify(data["title"])[:90]
@@ -226,14 +325,7 @@ def create_article(data):
 
     tags = ", ".join(esc(tag) for tag in data.get("archive_tags", []))
 
-    html = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{esc(data["title"])} | Actions On Cyber</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-</head>
-<body>
+    body = f"""
   <main class="section">
     <div class="container content-layout">
       <aside class="sidebar">
@@ -244,7 +336,7 @@ def create_article(data):
           <p><strong>Rating:</strong><br>{esc(data["relevance_rating"])}</p>
           <p><strong>Tags:</strong><br>{tags}</p>
           <p><a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a></p>
-          <p><a class="btn btn-secondary" href="/pages/daily/{MONTH_FOLDER}/index.html">Back to {MONTH_TITLE} archive</a></p>
+          <p><a class="btn btn-secondary" href="/pages/daily/{MONTH_FOLDER}/index.html">View {MONTH_TITLE} Archive</a></p>
         </div>
       </aside>
 
@@ -270,11 +362,8 @@ def create_article(data):
         <p>{esc(data["why_it_matters"])}</p>
 
         <h2>Top 5 Known Exploited Vulnerabilities</h2>
-        <p>
-          These are the latest known exploited vulnerabilities from the CISA KEV catalogue at the time this brief was generated.
-          Small organisations do not need the technical exploit detail. The practical action is to ask whether affected products are used and whether vendor mitigations or updates have been applied.
-        </p>
-        {render_kev_table(data.get("top_5_known_exploited_vulnerabilities", []))}
+        <p>{esc(data.get("top_5_kev_summary", "These are the latest entries from the CISA Known Exploited Vulnerabilities catalogue."))}</p>
+        {render_kev_table(TOP_5_KEV)}
 
         <h2>Actions On</h2>
         {render_list(data.get("actions_on", []), ordered=True)}
@@ -289,16 +378,18 @@ def create_article(data):
 
         <h2>Sources</h2>
         {render_sources(data.get("sources", []))}
-
-        <h2>LinkedIn post draft</h2>
-        <p>{esc(data.get("linkedin_post", "")).replace(chr(10), "<br>")}</p>
+        <ul>
+          <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
+          <li><a href="https://github.com/cisagov/kev-data">CISA KEV JSON/CSV data mirror</a></li>
+        </ul>
       </article>
     </div>
   </main>
-</body>
-</html>
 """
+
+    html = make_page_shell(data["title"], body)
     path.write_text(html, encoding="utf-8")
+
     return filename
 
 
@@ -316,13 +407,81 @@ def create_card(data, filename):
 """
 
 
-def update_daily_index(data, filename):
-    """
-    Update the main Daily Int Brief page with the new brief card and a link to the month archive.
-    """
+# =========================
+# Index page updates
+# =========================
+
+def create_month_archive_if_missing():
+    if MONTH_INDEX.exists():
+        return
+
+    body = f"""
+  <main>
+    <section class="page-hero">
+      <div class="container page-title">
+        <a class="breadcrumb" href="/pages/daily-int-brief.html">← Back to Daily Int Briefs</a>
+        <h1>{MONTH_TITLE} Daily Int Brief Archive</h1>
+        <p>Daily Int Briefs produced during {MONTH_TITLE}.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-3">
+          <!-- MONTH_DAILY_BRIEFS_START -->
+        </div>
+      </div>
+    </section>
+  </main>
+"""
+
+    MONTH_INDEX.write_text(
+        make_page_shell(f"{MONTH_TITLE} Daily Int Brief Archive", body),
+        encoding="utf-8"
+    )
+
+
+def update_month_archive(data, filename):
+    create_month_archive_if_missing()
+
     link = f"/pages/daily/{MONTH_FOLDER}/{filename}"
-    archive_link = f"/pages/daily/{MONTH_FOLDER}/index.html"
     card = create_card(data, filename)
+
+    content = MONTH_INDEX.read_text(encoding="utf-8")
+
+    if link in content:
+        return
+
+    if "<!-- MONTH_DAILY_BRIEFS_START -->" in content:
+        content = content.replace(
+            "<!-- MONTH_DAILY_BRIEFS_START -->",
+            "<!-- MONTH_DAILY_BRIEFS_START -->\n" + card,
+            1
+        )
+    elif '<div class="grid-3">' in content:
+        content = content.replace(
+            '<div class="grid-3">',
+            '<div class="grid-3">\n      <!-- MONTH_DAILY_BRIEFS_START -->\n' + card,
+            1
+        )
+    else:
+        content += card
+
+    MONTH_INDEX.write_text(content, encoding="utf-8")
+
+
+def update_daily_index(data, filename):
+    link = f"/pages/daily/{MONTH_FOLDER}/{filename}"
+    card = create_card(data, filename)
+
+    month_archive_card = f"""
+      <article class="card">
+        <span class="tag">Monthly Archive</span>
+        <h3>{MONTH_TITLE}</h3>
+        <p>Daily Int Briefs produced during {MONTH_TITLE}.</p>
+        <a class="btn btn-secondary" href="/pages/daily/{MONTH_FOLDER}/index.html">Open archive</a>
+      </article>
+"""
 
     if DAILY_INDEX.exists():
         content = DAILY_INDEX.read_text(encoding="utf-8")
@@ -342,116 +501,92 @@ def update_daily_index(data, filename):
     <p>Daily cyber intelligence for small organisations, archived by month.</p>
   </div>
 </section>
+
 <section class="section">
   <div class="container">
-    <h2>Monthly archives</h2>
-    <div class="grid-3">
-      <!-- MONTHLY_ARCHIVES_START -->
+    <div class="section-head">
+      <div>
+        <span class="badge">Latest Daily Briefs</span>
+        <h2>Latest briefings</h2>
+        <p>New Daily Int Briefs are added automatically.</p>
+      </div>
     </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <h2>Latest Daily Int Briefs</h2>
     <div class="grid-3">
       <!-- DAILY_BRIEFS_START -->
     </div>
   </div>
 </section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Monthly Archives</span>
+        <h2>Daily Int Brief archives</h2>
+        <p>Each month has its own archive folder.</p>
+      </div>
+    </div>
+    <div class="grid-3">
+      <!-- MONTH_ARCHIVES_START -->
+    </div>
+  </div>
+</section>
 </main>
 </body>
 </html>
 """
 
-    if "<!-- MONTHLY_ARCHIVES_START -->" not in content:
+    if "<!-- DAILY_BRIEFS_START -->" not in content and '<div class="grid-3">' in content:
         content = content.replace(
-            "<main>",
-            """<main>
-<section class="section">
-  <div class="container">
-    <h2>Monthly archives</h2>
-    <div class="grid-3">
-      <!-- MONTHLY_ARCHIVES_START -->
-    </div>
-  </div>
-</section>""",
+            '<div class="grid-3">',
+            '<div class="grid-3">\n      <!-- DAILY_BRIEFS_START -->',
             1
         )
 
-    archive_card = f"""
-      <article class="card">
-        <span class="tag">Archive</span>
-        <h3>{MONTH_TITLE}</h3>
-        <p>Daily Int Briefs produced during {MONTH_TITLE}.</p>
-        <a class="btn btn-secondary" href="{archive_link}">Open archive</a>
-      </article>
+    if link not in content:
+        content = content.replace(
+            "<!-- DAILY_BRIEFS_START -->",
+            "<!-- DAILY_BRIEFS_START -->\n" + card,
+            1
+        )
+
+    if "<!-- MONTH_ARCHIVES_START -->" not in content:
+        content += f"""
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Monthly Archives</span>
+        <h2>Daily Int Brief archives</h2>
+        <p>Each month has its own archive folder.</p>
+      </div>
+    </div>
+    <div class="grid-3">
+      <!-- MONTH_ARCHIVES_START -->
+    </div>
+  </div>
+</section>
 """
 
-    if archive_link not in content:
-        content = content.replace("<!-- MONTHLY_ARCHIVES_START -->", "<!-- MONTHLY_ARCHIVES_START -->\n" + archive_card, 1)
+    month_link = f"/pages/daily/{MONTH_FOLDER}/index.html"
 
-    if link in content:
-        DAILY_INDEX.write_text(content, encoding="utf-8")
-        return
-
-    if "<!-- DAILY_BRIEFS_START -->" in content:
-        content = content.replace("<!-- DAILY_BRIEFS_START -->", "<!-- DAILY_BRIEFS_START -->\n" + card, 1)
-    elif '<div class="grid-3">' in content:
-        content = content.replace('<div class="grid-3">', '<div class="grid-3">\n      <!-- DAILY_BRIEFS_START -->\n' + card, 1)
-    else:
-        content += card
+    if month_link not in content:
+        content = content.replace(
+            "<!-- MONTH_ARCHIVES_START -->",
+            "<!-- MONTH_ARCHIVES_START -->\n" + month_archive_card,
+            1
+        )
 
     DAILY_INDEX.write_text(content, encoding="utf-8")
 
 
-def update_month_index(data, filename):
-    """
-    Create/update the monthly archive page, for example:
-    /pages/daily/May-2026/index.html
-    """
-    link = f"/pages/daily/{MONTH_FOLDER}/{filename}"
-    card = create_card(data, filename)
-
-    if MONTH_INDEX.exists():
-        content = MONTH_INDEX.read_text(encoding="utf-8")
-    else:
-        content = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{MONTH_TITLE} Daily Int Brief Archive | Actions On Cyber</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-</head>
-<body>
-<main>
-<section class="page-hero">
-  <div class="container page-title">
-    <a class="breadcrumb" href="/pages/daily-int-brief.html">← Back to Daily Int Briefs</a>
-    <h1>{MONTH_TITLE} Daily Int Brief Archive</h1>
-    <p>Daily Int Briefs produced during {MONTH_TITLE}.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="grid-3">
-      <!-- MONTH_DAILY_BRIEFS_START -->
-    </div>
-  </div>
-</section>
-</main>
-</body>
-</html>
-"""
-
-    if link in content:
-        return
-
-    content = content.replace("<!-- MONTH_DAILY_BRIEFS_START -->", "<!-- MONTH_DAILY_BRIEFS_START -->\n" + card, 1)
-    MONTH_INDEX.write_text(content, encoding="utf-8")
-
+# =========================
+# Main
+# =========================
 
 def main():
+    remove_existing_linkedin_sections()
+
     response = client.responses.create(
         model="gpt-5.5",
         tools=[{"type": "web_search"}],
@@ -469,18 +604,28 @@ def main():
         "reverse shell",
         "weaponize",
         "malware code",
+        "step-by-step exploit",
+        "exploit chain",
+        "linkedin_post",
+        "linkedin post draft",
+        "social media post draft"
     ]
 
     combined = json.dumps(data).lower()
+
     if any(term in combined for term in forbidden_terms):
-        raise ValueError("Blocked: output contained offensive technical detail.")
+        raise ValueError("Blocked: output contained forbidden content.")
 
     filename = create_article(data)
+    update_month_archive(data, filename)
     update_daily_index(data, filename)
-    update_month_index(data, filename)
+
+    remove_existing_linkedin_sections()
 
     print(f"Created Daily Int Brief: /pages/daily/{MONTH_FOLDER}/{filename}")
     print(f"Updated monthly archive: /pages/daily/{MONTH_FOLDER}/index.html")
+    print("Included Top 5 CISA Known Exploited Vulnerabilities.")
+    print("Removed LinkedIn post draft sections from website output.")
 
 
 if __name__ == "__main__":
