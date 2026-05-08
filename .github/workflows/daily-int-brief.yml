@@ -1,0 +1,40 @@
+name: Generate Daily Int Brief
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+      timezone: "Europe/London"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-daily-int-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install openai python-slugify
+
+      - name: Generate Daily Int Brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/generate_daily_int_brief.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Actions On Cyber Bot"
+          git config user.email "bot@actionsoncyber.com"
+          git add .
+          git commit -m "Add Daily Int Brief" || echo "No changes to commit"
+          git push
