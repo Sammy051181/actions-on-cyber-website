@@ -1,0 +1,255 @@
+import os
+import re
+import json
+from datetime import datetime
+from pathlib import Path
+from slugify import slugify
+from openai import OpenAI
+
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+TODAY = datetime.now().strftime("%Y-%m-%d")
+DISPLAY_DATE = datetime.now().strftime("%d %B %Y")
+
+SITE_ROOT = Path(".")
+PAGES_DIR = SITE_ROOT / "pages"
+DAILY_DIR = PAGES_DIR / "daily"
+DAILY_INDEX = PAGES_DIR / "daily-int-brief.html"
+
+DAILY_DIR.mkdir(parents=True, exist_ok=True)
+
+PROMPT = f"""
+You are writing for Actions On Cyber.
+
+Create one Actions On Cyber Daily Int Brief for {DISPLAY_DATE}.
+
+Audience:
+UK small businesses, charities, clubs and community organisations without a cyber security team.
+
+Task:
+Search for current cyber threat topics relevant to the audience.
+Select the strongest topic suitable for a Daily Int Brief.
+
+Prioritise reliable sources:
+- NCSC
+- CISA
+- NVD
+- vendor advisories
+- reputable cyber security reporting
+
+Rules:
+- Do not copy source wording.
+- Do not reproduce full articles.
+- Do not include exploit instructions, malware code, payloads, proof-of-concept details or offensive technical steps.
+- Keep the tone calm, practical and plain-English.
+- Write for non-technical leaders.
+- Focus on what organisations should do next.
+- Include source links.
+
+Return only valid JSON with this exact structure:
+{{
+  "title": "",
+  "date": "{DISPLAY_DATE}",
+  "relevance_rating": "Act Now | Check | Monitor | Low relevance",
+  "executive_summary": "",
+  "situation": "",
+  "who_should_care": [],
+  "why_it_matters": "",
+  "actions_on": [],
+  "question_to_ask_it_provider": "",
+  "after_action_review": [],
+  "sources": [
+    {{"title": "", "url": ""}}
+  ],
+  "archive_tags": [],
+  "linkedin_post": ""
+}}
+"""
+
+
+def esc(value):
+    if value is None:
+        return ""
+    return (
+        str(value)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def render_list(items, ordered=False):
+    tag = "ol" if ordered else "ul"
+    body = "\n".join(f"<li>{esc(item)}</li>" for item in items)
+    return f"<{tag}>{body}</{tag}>"
+
+
+def render_sources(sources):
+    items = []
+    for source in sources:
+        title = esc(source.get("title", "Source"))
+        url = esc(source.get("url", "#"))
+        items.append(f'<li><a href="{url}">{title}</a></li>')
+    return "<ul>" + "\n".join(items) + "</ul>"
+
+
+def create_article(data):
+    slug = slugify(data["title"])[:90]
+    filename = f"{TODAY}-{slug}.html"
+    path = DAILY_DIR / filename
+
+    tags = ", ".join(esc(tag) for tag in data.get("archive_tags", []))
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{esc(data["title"])} | Actions On Cyber</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <main class="section">
+    <div class="container content-layout">
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Brief details</h3>
+          <p><strong>Date:</strong><br>{DISPLAY_DATE}</p>
+          <p><strong>Rating:</strong><br>{esc(data["relevance_rating"])}</p>
+          <p><strong>Tags:</strong><br>{tags}</p>
+          <p><a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a></p>
+        </div>
+      </aside>
+
+      <article class="article">
+        <h1>Daily Int Brief: {esc(data["title"])}</h1>
+
+        <div class="danger">
+          <strong>Relevance rating: {esc(data["relevance_rating"])}</strong>
+        </div>
+
+        <h2>Executive Summary</h2>
+        <p>{esc(data["executive_summary"])}</p>
+
+        <h2>Situation</h2>
+        <p>{esc(data["situation"])}</p>
+
+        <h2>Who should care</h2>
+        {render_list(data.get("who_should_care", []))}
+
+        <h2>Why it matters</h2>
+        <p>{esc(data["why_it_matters"])}</p>
+
+        <h2>Actions On</h2>
+        {render_list(data.get("actions_on", []), ordered=True)}
+
+        <h2>Question to ask your IT provider</h2>
+        <div class="success">
+          {esc(data["question_to_ask_it_provider"])}
+        </div>
+
+        <h2>After-action review</h2>
+        {render_list(data.get("after_action_review", []))}
+
+        <h2>Sources</h2>
+        {render_sources(data.get("sources", []))}
+
+        <h2>LinkedIn post draft</h2>
+        <p>{esc(data.get("linkedin_post", "")).replace(chr(10), "<br>")}</p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
+"""
+    path.write_text(html, encoding="utf-8")
+    return filename
+
+
+def update_daily_index(data, filename):
+    link = f"/pages/daily/{filename}"
+
+    card = f"""
+      <article class="card">
+        <span class="tag">{esc(data["relevance_rating"])}</span>
+        <h3>{esc(data["title"])}</h3>
+        <p>{esc(data["executive_summary"])}</p>
+        <a class="btn btn-secondary" href="{link}">Read brief</a>
+      </article>
+"""
+
+    if DAILY_INDEX.exists():
+        content = DAILY_INDEX.read_text(encoding="utf-8")
+    else:
+        content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Int Brief | Actions On Cyber</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<main>
+<section class="page-hero">
+  <div class="container page-title">
+    <h1>Daily Int Brief</h1>
+    <p>Approved Daily Int Briefs are listed below.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+    </div>
+  </div>
+</section>
+</main>
+</body>
+</html>
+"""
+
+    if link in content:
+        return
+
+    if '<div class="grid-3">' in content:
+        content = content.replace('<div class="grid-3">', '<div class="grid-3">\n' + card, 1)
+    else:
+        content += card
+
+    DAILY_INDEX.write_text(content, encoding="utf-8")
+
+
+def main():
+    response = client.responses.create(
+        model="gpt-5.5",
+        tools=[{"type": "web_search"}],
+        input=PROMPT
+    )
+
+    raw = response.output_text.strip()
+
+    match = re.search(r"\{.*\}", raw, re.S)
+    if not match:
+        raise ValueError("The model did not return valid JSON.")
+
+    data = json.loads(match.group(0))
+
+    forbidden_terms = [
+        "exploit code",
+        "proof of concept",
+        "payload",
+        "reverse shell",
+        "weaponize",
+        "malware code",
+    ]
+
+    combined = json.dumps(data).lower()
+    if any(term in combined for term in forbidden_terms):
+        raise ValueError("Blocked: output contained offensive technical detail.")
+
+    filename = create_article(data)
+    update_daily_index(data, filename)
+
+    print(f"Created Daily Int Brief: /pages/daily/{filename}")
+
+
+if __name__ == "__main__":
+    main()
