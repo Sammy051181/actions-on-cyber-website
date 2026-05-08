@@ -39,7 +39,7 @@ a{color:inherit}
 }
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0}
 .logo-link{display:flex;align-items:center;text-decoration:none}
-.logo-link img{height:auto;width:320dx;display:block}
+.logo-link img{height:auto;width:320px;display:block}
 .nav{display:flex;align-items:center;gap:18px;font-size:14px;font-weight:850;color:#334155}
 .nav a{text-decoration:none}
 .nav a:hover{color:var(--teal)}
