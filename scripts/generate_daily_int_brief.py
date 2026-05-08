@@ -588,7 +588,7 @@ def main():
     remove_existing_linkedin_sections()
 
     response = client.responses.create(
-        model="gpt-5.5",
+        model="gpt-5.4-mini",
         tools=[{"type": "web_search"}],
         input=PROMPT
     )
