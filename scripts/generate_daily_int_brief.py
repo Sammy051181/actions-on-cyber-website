@@ -1,1009 +1,704 @@
-import datetime
-import email.utils
+import calendar
+import datetime as dt
+import hashlib
 import html
 import json
 import os
 import re
-import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import unquote
+from typing import Any, Dict, List, Optional
 from zoneinfo import ZoneInfo
 
+import feedparser
 import requests
+from bs4 import BeautifulSoup
+from dateutil import parser as date_parser
 from openai import OpenAI
-from slugify import slugify
 
 
 # ============================================================
 # Configuration
 # ============================================================
 
-SITE_NAME = "Actions On Cyber"
 TIMEZONE = ZoneInfo("Europe/London")
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 
-DAILY_BRIEF_INDEX = ROOT_DIR / "pages" / "daily-int-brief.html"
-BRIEF_OUTPUT_DIR = ROOT_DIR / "pages" / "daily-int-briefs"
+INDEX_PAGE = ROOT_DIR / "pages" / "daily-int-brief.html"
+ARCHIVE_DIR = ROOT_DIR / "pages" / "daily-int-briefs"
+STATE_FILE = ROOT_DIR / "data" / "daily-int-brief-seen-items.json"
 
-DATA_DIR = ROOT_DIR / "data"
-SEEN_ITEMS_FILE = DATA_DIR / "daily-int-brief-seen-items.json"
+MAX_BRIEFS_PER_DAY = 3
+LOOKBACK_HOURS = 48
+MAX_ITEMS_TO_REVIEW = 60
+MAX_CANDIDATES_FOR_AI = 12
+MIN_SCORE_TO_PUBLISH = 10
+STATE_RETENTION_DAYS = 90
 
-BRIEF_SECTION_START = "<!-- DAILY_INT_BRIEF_START -->"
-BRIEF_SECTION_END = "<!-- DAILY_INT_BRIEF_END -->"
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")
+FORCE_PUBLISH = os.getenv("FORCE_PUBLISH", "false").lower() == "true"
 
-CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-NVD_CVE_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+USER_AGENT = (
+    "ActionsOnCyberDailySMBIntelligenceBrief/1.0 "
+    "(https://actionsoncyber.com; hello@actionsoncyber.com)"
+)
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 
-NEWS_LOOKBACK_HOURS = int(os.getenv("NEWS_LOOKBACK_HOURS", "72"))
-CISA_KEV_LOOKBACK_DAYS = int(os.getenv("CISA_KEV_LOOKBACK_DAYS", "2"))
-EDITORIAL_SCORE_THRESHOLD = int(os.getenv("EDITORIAL_SCORE_THRESHOLD", "75"))
-EDITORIAL_MAX_ARTICLES = int(os.getenv("EDITORIAL_MAX_ARTICLES", "3"))
+# ============================================================
+# Feeds
+# ============================================================
+#
+# The aim is not to make this a vulnerability feed.
+# These sources are used to spot:
+# - major cyber incidents
+# - supplier risk
+# - ransomware
+# - cloud/SaaS disruption
+# - scams and phishing campaigns
+# - big cyber stories being widely reported
+# - official UK/US cyber warnings
+#
+# You can add/remove feeds later.
 
-TRUSTED_NEWS_FEEDS = [
+FEEDS = [
+    {
+        "name": "NCSC All Updates",
+        "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+        "weight": 6,
+    },
+    {
+        "name": "NCSC News",
+        "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml",
+        "weight": 6,
+    },
+    {
+        "name": "NCSC Threat Reports",
+        "url": "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml",
+        "weight": 7,
+    },
+    {
+        "name": "CISA Cybersecurity Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+        "weight": 5,
+    },
+    {
+        "name": "CISA Alerts",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+        "weight": 5,
+    },
+    {
+        "name": "CISA News",
+        "url": "https://www.cisa.gov/news.xml",
+        "weight": 4,
+    },
     {
         "name": "BleepingComputer",
         "url": "https://www.bleepingcomputer.com/feed/",
-        "weight": 18,
+        "weight": 4,
     },
     {
         "name": "The Hacker News",
-        "url": "https://feeds.feedburner.com/TheHackersNews",
-        "weight": 16,
+        "url": "https://thehackernews.com/feeds/posts/default",
+        "weight": 3,
     },
     {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/feed/",
-        "weight": 14,
+        "name": "Google Threat Intelligence",
+        "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+        "weight": 5,
     },
     {
-        "name": "Rapid7 Blog",
-        "url": "https://www.rapid7.com/blog/rss/",
-        "weight": 12,
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/",
+        "weight": 4,
+    },
+    {
+        "name": "Sophos News",
+        "url": "https://news.sophos.com/en-us/feed/",
+        "weight": 3,
+    },
+    {
+        "name": "Cisco Talos",
+        "url": "https://blog.talosintelligence.com/rss/",
+        "weight": 3,
     },
 ]
 
-HIGH_SIGNAL_KEYWORDS = [
-    "actively exploited",
-    "exploited in the wild",
-    "known exploited",
-    "zero-day",
-    "0-day",
-    "emergency patch",
-    "critical flaw",
-    "critical vulnerability",
-    "remote code execution",
-    "rce",
-    "authentication bypass",
-    "auth bypass",
-    "privilege escalation",
-    "sql injection",
-    "command injection",
-    "mass exploitation",
+
+# ============================================================
+# Scoring terms
+# ============================================================
+
+SME_RELEVANT_TERMS = {
+    "ransomware": 8,
+    "extortion": 6,
+    "data breach": 7,
+    "data leak": 6,
+    "cyber attack": 7,
+    "cyberattack": 7,
+    "outage": 6,
+    "disruption": 6,
+    "supplier": 7,
+    "supply chain": 8,
+    "managed service provider": 8,
+    "msp": 8,
+    "it provider": 7,
+    "cloud": 5,
+    "saas": 5,
+    "microsoft 365": 8,
+    "office 365": 8,
+    "google workspace": 7,
+    "email compromise": 8,
+    "business email compromise": 9,
+    "bec": 7,
+    "phishing": 7,
+    "smishing": 6,
+    "vishing": 6,
+    "invoice": 7,
+    "payment": 7,
+    "bank details": 8,
+    "fraud": 8,
+    "scam": 7,
+    "credential": 6,
+    "password": 5,
+    "mfa": 6,
+    "token theft": 8,
+    "session cookie": 7,
+    "help desk": 6,
+    "social engineering": 7,
+    "deepfake": 7,
+    "ai-generated": 5,
+    "malware": 5,
+    "infostealer": 7,
+    "stealer": 6,
+    "remote access": 6,
+    "vpn": 5,
+    "rdp": 5,
+    "router": 5,
+    "firewall": 5,
+    "backup": 5,
+    "retail": 4,
+    "school": 5,
+    "college": 5,
+    "charity": 5,
+    "healthcare": 4,
+    "nhs": 5,
+    "council": 5,
+    "local government": 5,
+    "law firm": 5,
+    "accounting": 5,
+    "payroll": 8,
+    "hr": 5,
+    "telecom": 5,
+    "logistics": 5,
+    "shipping": 5,
+    "payment processor": 8,
+    "bank": 5,
+    "insurance": 4,
+}
+
+VULNERABILITY_ONLY_TERMS = [
+    "cve-",
+    "cvss",
     "proof-of-concept",
     "poc exploit",
-    "patch now",
-    "urgent patch",
+    "patch tuesday",
+    "security update",
+    "remote code execution",
+    "rce",
+    "buffer overflow",
 ]
 
-SMALL_BUSINESS_TECH_KEYWORDS = [
-    "wordpress",
-    "woocommerce",
-    "plugin",
-    "microsoft",
-    "windows",
-    "office",
-    "outlook",
-    "exchange",
-    "sharepoint",
-    "teams",
-    "azure",
-    "microsoft 365",
-    "chrome",
-    "google chrome",
-    "apple",
-    "macos",
-    "ios",
-    "adobe",
-    "acrobat",
-    "reader",
-    "vpn",
-    "firewall",
-    "router",
-    "fortinet",
-    "fortigate",
-    "sonicwall",
-    "cisco",
-    "palo alto",
-    "ivanti",
-    "citrix",
-    "remote access",
-    "rdp",
-    "nas",
-    "qnap",
-    "synology",
-    "backup",
-    "veeam",
-    "connectwise",
-    "teamviewer",
-    "screenconnect",
-    "msp",
-    "helpdesk",
-    "it management",
-    "email gateway",
-    "web server",
-    "apache",
-    "nginx",
-    "linux",
-    "ai",
-    "chatbot",
-    "llm",
-]
+STOPWORDS = {
+    "the", "and", "for", "with", "from", "this", "that", "have", "has", "are",
+    "was", "were", "into", "after", "over", "under", "new", "latest", "update",
+    "updates", "security", "cyber", "attack", "attacks", "hacking", "hackers",
+    "breach", "data", "malware", "vulnerability", "vulnerabilities", "exploit",
+    "exploits", "warns", "warning", "says", "report", "reports", "reported",
+}
 
 
 # ============================================================
-# Generic helpers
+# Utility functions
 # ============================================================
 
-def now_london() -> datetime.datetime:
-    return datetime.datetime.now(TIMEZONE)
+def now_london() -> dt.datetime:
+    return dt.datetime.now(TIMEZONE)
 
 
-def parse_date(value: str) -> datetime.datetime | None:
+def utc_now() -> dt.datetime:
+    return dt.datetime.now(dt.timezone.utc)
+
+
+def ensure_dirs() -> None:
+    INDEX_PAGE.parent.mkdir(parents=True, exist_ok=True)
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+
+def clean_text(value: str) -> str:
     if not value:
-        return None
+        return ""
+    soup = BeautifulSoup(value, "html.parser")
+    text = soup.get_text(" ", strip=True)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
-    value = value.strip()
+
+def stable_id(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()[:16]
+
+
+def slugify(value: str) -> str:
+    value = value.lower().strip()
+    value = re.sub(r"[^a-z0-9]+", "-", value)
+    value = re.sub(r"-+", "-", value).strip("-")
+    return value[:80] or "brief"
+
+
+def parse_entry_date(entry: Any) -> dt.datetime:
+    for key in ("published_parsed", "updated_parsed"):
+        parsed = entry.get(key)
+        if parsed:
+            return dt.datetime.fromtimestamp(calendar.timegm(parsed), tz=dt.timezone.utc)
+
+    for key in ("published", "updated", "created"):
+        raw = entry.get(key)
+        if raw:
+            try:
+                parsed_date = date_parser.parse(raw)
+                if parsed_date.tzinfo is None:
+                    parsed_date = parsed_date.replace(tzinfo=dt.timezone.utc)
+                return parsed_date.astimezone(dt.timezone.utc)
+            except Exception:
+                pass
+
+    return utc_now()
+
+
+def read_state() -> Dict[str, Any]:
+    if not STATE_FILE.exists():
+        return {"seen_urls": {}, "published_briefs": []}
 
     try:
-        parsed = email.utils.parsedate_to_datetime(value)
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=datetime.timezone.utc)
-        return parsed
+        with STATE_FILE.open("r", encoding="utf-8") as f:
+            data = json.load(f)
     except Exception:
-        pass
+        return {"seen_urls": {}, "published_briefs": []}
 
-    try:
-        parsed = datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=datetime.timezone.utc)
-        return parsed
-    except Exception:
-        pass
+    data.setdefault("seen_urls", {})
+    data.setdefault("published_briefs", [])
+    return data
 
-    for fmt in ("%Y-%m-%d", "%d %b %Y", "%d %B %Y"):
+
+def save_state(state: Dict[str, Any]) -> None:
+    cutoff = now_london() - dt.timedelta(days=STATE_RETENTION_DAYS)
+
+    cleaned_seen = {}
+    for url_hash, item in state.get("seen_urls", {}).items():
+        seen_at = item.get("seen_at")
         try:
-            return datetime.datetime.strptime(value, fmt).replace(
-                tzinfo=datetime.timezone.utc
-            )
+            seen_dt = date_parser.parse(seen_at)
+            if seen_dt.tzinfo is None:
+                seen_dt = seen_dt.replace(tzinfo=TIMEZONE)
         except Exception:
-            pass
-
-    return None
-
-
-def strip_html(value: str) -> str:
-    if not value:
-        return ""
-
-    value = re.sub(r"<[^>]+>", " ", value)
-    value = html.unescape(value)
-    value = re.sub(r"\s+", " ", value).strip()
-
-    return value
-
-
-def clean_generated_text(text: str) -> str:
-    if not text:
-        return ""
-
-    text = unquote(str(text))
-    text = strip_html(text)
-
-    text = re.sub(r"https?://\S+", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"[?&][a-zA-Z0-9_\-\[\]]+=[^\s,.;)]*", "", text)
-
-    junk_patterns = [
-        r"\bvendor_project(?:\[[^\]]*\])?:[^\s,.;)]*",
-        r"\bvendor_project(?:\[[^\]]*\])?=[^\s,.;)]*",
-        r"\[[0-9]+\]=[^\s,.;)]*",
-        r"%[0-9A-Fa-f]{2}",
-        r"\bquery=[^\s,.;)]*",
-        r"\bsource=[^\s,.;)]*",
-        r"\bref=[^\s,.;)]*",
-        r"\butm_[a-zA-Z0-9_]+=[^\s,.;)]*",
-    ]
-
-    for pattern in junk_patterns:
-        text = re.sub(pattern, "", text, flags=re.IGNORECASE)
-
-    text = re.sub(r"\b[a-zA-Z0-9_\-]{70,}\b", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    return text
-
-
-def clean_object(value):
-    if isinstance(value, dict):
-        return {key: clean_object(item) for key, item in value.items()}
-
-    if isinstance(value, list):
-        return [clean_object(item) for item in value]
-
-    if isinstance(value, str):
-        return clean_generated_text(value)
-
-    return value
-
-
-def validate_article(article: dict) -> None:
-    combined = json.dumps(article, ensure_ascii=False).lower()
-
-    blocked_fragments = [
-        "%5b",
-        "%5d",
-        "%3a",
-        "vendor_project",
-        "utm_",
-        "query=",
-        "source=",
-        "ref=",
-        "http://",
-        "https://",
-    ]
-
-    found = [fragment for fragment in blocked_fragments if fragment in combined]
-
-    if found:
-        raise ValueError(f"Generated article contains blocked fragments: {found}")
-
-
-def extract_cves(text: str) -> list[str]:
-    if not text:
-        return []
-
-    return sorted(set(re.findall(r"CVE-\d{4}-\d{4,}", text.upper())))
-
-
-def esc(value: str) -> str:
-    return html.escape(value or "", quote=True)
-
-
-def render_list(items: list[str]) -> str:
-    cleaned_items = [
-        clean_generated_text(item)
-        for item in items
-        if clean_generated_text(item)
-    ]
-
-    return "\n".join(f"<li>{esc(item)}</li>" for item in cleaned_items)
-
-
-# ============================================================
-# Seen items / anti-repeat logic
-# ============================================================
-
-def load_seen_items() -> set[str]:
-    if not SEEN_ITEMS_FILE.exists():
-        return set()
-
-    try:
-        data = json.loads(SEEN_ITEMS_FILE.read_text(encoding="utf-8"))
-        return set(data.get("seen_items", []))
-    except Exception as exc:
-        print(f"Warning: could not read seen-items file: {exc}")
-        return set()
-
-
-def save_seen_items(seen_items: set[str]) -> None:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-    data = {
-        "seen_items": sorted(seen_items),
-        "last_updated": now_london().isoformat(),
-    }
-
-    SEEN_ITEMS_FILE.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-
-
-# ============================================================
-# Source collection
-# ============================================================
-
-def fetch_json(url: str, timeout: int = 20) -> dict:
-    response = requests.get(
-        url,
-        timeout=timeout,
-        headers={
-            "User-Agent": "ActionsOnCyberBot/1.0",
-            "Accept": "application/json,*/*",
-        },
-    )
-
-    response.raise_for_status()
-    return response.json()
-
-
-def fetch_text(url: str, timeout: int = 20) -> str:
-    response = requests.get(
-        url,
-        timeout=timeout,
-        headers={
-            "User-Agent": "ActionsOnCyberBot/1.0",
-            "Accept": "application/rss+xml,application/atom+xml,text/xml,*/*",
-        },
-    )
-
-    response.raise_for_status()
-    return response.text
-
-
-def fetch_recent_cisa_kev() -> list[dict]:
-    try:
-        data = fetch_json(CISA_KEV_URL)
-    except Exception as exc:
-        print(f"Warning: could not fetch CISA KEV feed: {exc}")
-        return []
-
-    cutoff = now_london().date() - datetime.timedelta(days=CISA_KEV_LOOKBACK_DAYS)
-    candidates = []
-
-    for item in data.get("vulnerabilities", []):
-        cve = item.get("cveID", "").strip().upper()
-        date_added_raw = item.get("dateAdded", "")
-        date_added = parse_date(date_added_raw)
-
-        if not cve:
             continue
 
-        if not date_added:
-            continue
+        if seen_dt >= cutoff:
+            cleaned_seen[url_hash] = item
 
-        if date_added.date() < cutoff:
-            continue
-
-        vendor = item.get("vendorProject", "")
-        product = item.get("product", "")
-        vulnerability_name = item.get(
-            "vulnerabilityName",
-            "Known exploited vulnerability",
-        )
-        required_action = item.get("requiredAction", "")
-
-        candidates.append(
-            {
-                "key": cve,
-                "cve": cve,
-                "headline": f"{cve} added to CISA Known Exploited Vulnerabilities",
-                "source_names": ["CISA KEV"],
-                "source_weight": 40,
-                "source_headlines": [f"CISA KEV: {vulnerability_name}"],
-                "vendor": vendor,
-                "product": product,
-                "known_exploited": True,
-                "cisa_date_added": date_added_raw,
-                "cisa_required_action": required_action,
-                "raw_text": " ".join(
-                    [
-                        cve,
-                        vendor,
-                        product,
-                        vulnerability_name,
-                        required_action,
-                        "known exploited actively exploited",
-                    ]
-                ),
-            }
-        )
-
-    return candidates
-
-
-def fetch_rss_entries() -> list[dict]:
-    cutoff = now_london() - datetime.timedelta(hours=NEWS_LOOKBACK_HOURS)
-    entries = []
-
-    for feed in TRUSTED_NEWS_FEEDS:
+    cleaned_briefs = []
+    for brief in state.get("published_briefs", []):
+        published_at = brief.get("published_at")
         try:
-            xml_text = fetch_text(feed["url"])
-            root = ET.fromstring(xml_text)
-        except Exception as exc:
-            print(f"Warning: could not read feed {feed['name']}: {exc}")
+            brief_dt = date_parser.parse(published_at)
+            if brief_dt.tzinfo is None:
+                brief_dt = brief_dt.replace(tzinfo=TIMEZONE)
+        except Exception:
             continue
 
-        for item in root.findall(".//item"):
-            title = clean_generated_text(item.findtext("title", default=""))
-            summary = clean_generated_text(item.findtext("description", default=""))
-            pub_date_raw = item.findtext("pubDate", default="")
-            published = parse_date(pub_date_raw)
+        if brief_dt >= cutoff:
+            cleaned_briefs.append(brief)
 
-            if published and published.astimezone(TIMEZONE) < cutoff:
-                continue
+    cleaned_briefs.sort(key=lambda x: x.get("published_at", ""), reverse=True)
 
-            entries.append(
-                {
-                    "source_name": feed["name"],
-                    "source_weight": feed["weight"],
-                    "title": title,
-                    "summary": summary,
-                    "published": published.isoformat() if published else "",
-                }
-            )
+    state["seen_urls"] = cleaned_seen
+    state["published_briefs"] = cleaned_briefs[:250]
 
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
+    with STATE_FILE.open("w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
 
-        for entry in root.findall(".//atom:entry", ns):
-            title = clean_generated_text(
-                entry.findtext("atom:title", default="", namespaces=ns)
-            )
-            summary = clean_generated_text(
-                entry.findtext("atom:summary", default="", namespaces=ns)
-            )
-            updated_raw = entry.findtext("atom:updated", default="", namespaces=ns)
-            published_raw = entry.findtext("atom:published", default="", namespaces=ns)
-            published = parse_date(published_raw or updated_raw)
 
-            if published and published.astimezone(TIMEZONE) < cutoff:
-                continue
+def count_briefs_today(state: Dict[str, Any]) -> int:
+    today = now_london().date().isoformat()
+    count = 0
 
-            entries.append(
-                {
-                    "source_name": feed["name"],
-                    "source_weight": feed["weight"],
-                    "title": title,
-                    "summary": summary,
-                    "published": published.isoformat() if published else "",
-                }
-            )
+    for brief in state.get("published_briefs", []):
+        published_at = brief.get("published_at", "")
+        if published_at.startswith(today):
+            count += 1
 
-    return entries
+    return count
 
 
 # ============================================================
-# Candidate building and editorial judgement
+# Feed collection and scoring
 # ============================================================
 
-def is_vulnerability_story(text: str) -> bool:
-    text_l = text.lower()
-
-    if extract_cves(text):
-        return True
-
-    indicators = [
-        "vulnerability",
-        "vulnerabilities",
-        "zero-day",
-        "0-day",
-        "security flaw",
-        "critical flaw",
-        "rce",
-        "remote code execution",
-        "authentication bypass",
-        "actively exploited",
-        "exploited in the wild",
-        "patch",
-        "security update",
-        "fixes flaw",
-        "bug exploited",
-    ]
-
-    return any(indicator in text_l for indicator in indicators)
-
-
-def topic_key_from_entry(entry: dict) -> str:
-    title = entry.get("title", "")
-
-    words = re.findall(r"[A-Za-z0-9][A-Za-z0-9\-]{2,}", title.lower())
-
-    stop_words = {
-        "the",
-        "and",
-        "for",
-        "with",
-        "from",
-        "this",
-        "that",
-        "new",
-        "security",
-        "vulnerability",
-        "vulnerabilities",
-        "flaw",
-        "flaws",
-        "critical",
-        "zero",
-        "day",
-        "patch",
-        "update",
-        "exploited",
-        "hackers",
-        "attackers",
-        "bug",
-        "bugs",
-    }
-
-    useful = [word for word in words if word not in stop_words]
-
-    if not useful:
-        useful = words[:6]
-
-    return "topic:" + slugify("-".join(useful[:8]))
-
-
-def build_news_candidates(entries: list[dict]) -> list[dict]:
-    grouped: dict[str, dict] = {}
-
-    for entry in entries:
-        text = f"{entry.get('title', '')} {entry.get('summary', '')}"
-
-        if not is_vulnerability_story(text):
-            continue
-
-        cves = extract_cves(text)
-        keys = cves if cves else [topic_key_from_entry(entry)]
-
-        for key in keys:
-            if key not in grouped:
-                grouped[key] = {
-                    "key": key,
-                    "cve": key if key.startswith("CVE-") else "",
-                    "headline": entry.get("title", ""),
-                    "source_names": [],
-                    "source_weight": 0,
-                    "source_headlines": [],
-                    "vendor": "",
-                    "product": "",
-                    "known_exploited": False,
-                    "raw_text": "",
-                }
-
-            candidate = grouped[key]
-            source_name = entry.get("source_name", "Unknown source")
-
-            if source_name not in candidate["source_names"]:
-                candidate["source_names"].append(source_name)
-                candidate["source_weight"] += int(entry.get("source_weight", 10))
-
-            candidate["source_headlines"].append(
-                f"{source_name}: {entry.get('title', '')}"
-            )
-            candidate["raw_text"] += " " + text
-
-    for candidate in grouped.values():
-        candidate["source_count"] = len(candidate["source_names"])
-        candidate["source_headlines"] = candidate["source_headlines"][:10]
-
-    return list(grouped.values())
-
-
-def merge_candidates(cisa_candidates: list[dict], news_candidates: list[dict]) -> list[dict]:
-    merged: dict[str, dict] = {}
-
-    for candidate in cisa_candidates + news_candidates:
-        key = candidate.get("key", "")
-
-        if not key:
-            continue
-
-        if key not in merged:
-            merged[key] = candidate
-            continue
-
-        existing = merged[key]
-
-        existing["headline"] = existing.get("headline") or candidate.get("headline", "")
-        existing["cve"] = existing.get("cve") or candidate.get("cve", "")
-        existing["vendor"] = existing.get("vendor") or candidate.get("vendor", "")
-        existing["product"] = existing.get("product") or candidate.get("product", "")
-        existing["known_exploited"] = existing.get("known_exploited", False) or candidate.get(
-            "known_exploited", False
-        )
-        existing["source_weight"] = existing.get("source_weight", 0) + candidate.get(
-            "source_weight", 0
-        )
-        existing["raw_text"] = existing.get("raw_text", "") + " " + candidate.get(
-            "raw_text", ""
-        )
-
-        for source in candidate.get("source_names", []):
-            if source not in existing["source_names"]:
-                existing["source_names"].append(source)
-
-        existing["source_headlines"].extend(candidate.get("source_headlines", []))
-        existing["source_headlines"] = existing["source_headlines"][:10]
-        existing["source_count"] = len(existing["source_names"])
-
-        for field in ("cisa_date_added", "cisa_required_action"):
-            if candidate.get(field) and not existing.get(field):
-                existing[field] = candidate[field]
-
-    return list(merged.values())
-
-
-def enrich_with_nvd(candidate: dict) -> dict:
-    cve = candidate.get("cve", "")
-
-    if not cve:
-        return candidate
+def fetch_feed(feed: Dict[str, Any]) -> List[Dict[str, Any]]:
+    headers = {"User-Agent": USER_AGENT}
+    items = []
 
     try:
-        response = requests.get(
-            NVD_CVE_API_URL,
-            params={"cveId": cve},
-            timeout=20,
-            headers={"User-Agent": "ActionsOnCyberBot/1.0"},
-        )
+        response = requests.get(feed["url"], headers=headers, timeout=20)
         response.raise_for_status()
-        data = response.json()
     except Exception as exc:
-        print(f"Warning: could not enrich {cve} from NVD: {exc}")
-        return candidate
+        print(f"Feed fetch failed: {feed['name']} - {exc}")
+        return items
 
-    vulnerabilities = data.get("vulnerabilities", [])
+    parsed = feedparser.parse(response.content)
 
-    if not vulnerabilities:
-        return candidate
+    for entry in parsed.entries[:30]:
+        title = clean_text(entry.get("title", ""))
+        summary = clean_text(entry.get("summary", "") or entry.get("description", ""))
+        link = entry.get("link", "").strip()
 
-    cve_data = vulnerabilities[0].get("cve", {})
+        if not title or not link:
+            continue
 
-    description = ""
+        published_utc = parse_entry_date(entry)
+        age_hours = (utc_now() - published_utc).total_seconds() / 3600
 
-    for desc in cve_data.get("descriptions", []):
-        if desc.get("lang") == "en":
-            description = desc.get("value", "")
-            break
+        if age_hours > LOOKBACK_HOURS and not FORCE_PUBLISH:
+            continue
 
-    severity = ""
-    metrics = cve_data.get("metrics", {})
+        item_id = stable_id(link or title)
 
-    for group in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
-        if group in metrics and metrics[group]:
-            severity = metrics[group][0].get("cvssData", {}).get("baseSeverity", "")
-            break
+        items.append({
+            "id": f"item_{item_id}",
+            "source": feed["name"],
+            "source_weight": feed.get("weight", 1),
+            "title": title,
+            "summary": summary[:800],
+            "url": link,
+            "published_utc": published_utc.isoformat(),
+            "age_hours": round(age_hours, 1),
+        })
 
-    candidate["nvd_description"] = clean_generated_text(description)
-    candidate["nvd_published"] = cve_data.get("published", "")
-    candidate["severity"] = severity
-    candidate["raw_text"] += " " + description + " " + severity
-
-    if "NVD" not in candidate["source_names"]:
-        candidate["source_names"].append("NVD")
-
-    candidate["source_count"] = len(candidate["source_names"])
-
-    return candidate
+    return items
 
 
-def reputable_signal_count(candidate: dict) -> int:
-    ignored = {"NVD"}
+def topic_tokens(text: str) -> set:
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9\s-]", " ", text)
+    words = [w for w in text.split() if len(w) > 3 and w not in STOPWORDS]
+    return set(words)
 
-    return len(
-        [
-            source
-            for source in candidate.get("source_names", [])
-            if source not in ignored
+
+def score_item(item: Dict[str, Any]) -> int:
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    score = int(item.get("source_weight", 1))
+
+    for term, weight in SME_RELEVANT_TERMS.items():
+        if term in text:
+            score += weight
+
+    vuln_term_hits = sum(1 for term in VULNERABILITY_ONLY_TERMS if term in text)
+    has_business_context = any(
+        term in text
+        for term in [
+            "supplier", "supply chain", "ransomware", "phishing", "fraud",
+            "data breach", "outage", "msp", "managed service provider",
+            "microsoft 365", "payment", "invoice", "cloud", "school",
+            "charity", "retail", "healthcare", "council", "smb", "small business",
         ]
     )
 
+    if vuln_term_hits >= 2 and not has_business_context:
+        score -= 8
+    elif vuln_term_hits >= 1 and not has_business_context:
+        score -= 4
 
-def score_candidate(candidate: dict) -> dict:
-    score = 0
-    reasons = []
+    if item.get("age_hours", 999) <= 12:
+        score += 3
+    elif item.get("age_hours", 999) <= 24:
+        score += 2
 
-    combined = f"{candidate.get('headline', '')} {candidate.get('raw_text', '')}".lower()
-
-    if candidate.get("known_exploited"):
-        score += 55
-        reasons.append("Listed by CISA as a known exploited vulnerability")
-
-    real_reporting_sources = reputable_signal_count(candidate)
-
-    if real_reporting_sources >= 3:
-        score += 35
-        reasons.append("Reported by three or more reputable sources")
-    elif real_reporting_sources == 2:
-        score += 24
-        reasons.append("Reported by two reputable sources")
-    elif real_reporting_sources == 1:
-        score += 10
-        reasons.append("Reported by one reputable source")
-
-    score += min(candidate.get("source_weight", 0), 35)
-
-    matched_high_signal = [
-        keyword for keyword in HIGH_SIGNAL_KEYWORDS if keyword in combined
-    ]
-
-    if matched_high_signal:
-        score += min(30, 10 + len(matched_high_signal) * 4)
-        reasons.append(
-            "High-signal language: " + ", ".join(matched_high_signal[:5])
-        )
-
-    matched_sme = [
-        keyword for keyword in SMALL_BUSINESS_TECH_KEYWORDS if keyword in combined
-    ]
-
-    if matched_sme:
-        score += min(25, 8 + len(matched_sme) * 3)
-        reasons.append(
-            "Relevant to common small-business technology: "
-            + ", ".join(matched_sme[:5])
-        )
-
-    severity = candidate.get("severity", "").upper()
-
-    if severity == "CRITICAL":
-        score += 15
-        reasons.append("Critical severity")
-    elif severity == "HIGH":
-        score += 8
-        reasons.append("High severity")
-
-    if candidate.get("cve"):
-        score += 5
-        reasons.append(f"Tracked as {candidate.get('cve')}")
-
-    action_words = [
-        "patch",
-        "update",
-        "upgrade",
-        "mitigation",
-        "fix",
-        "disable",
-        "workaround",
-    ]
-
-    if any(word in combined for word in action_words):
-        score += 8
-        reasons.append("There appears to be a practical action available")
-
-    candidate["score"] = score
-    candidate["score_reasons"] = reasons
-
-    return candidate
+    return score
 
 
-def has_news_reporting(candidate: dict) -> bool:
-    news_sources = {feed["name"] for feed in TRUSTED_NEWS_FEEDS}
+def apply_cross_source_boost(items: List[Dict[str, Any]]) -> None:
+    token_map = {}
 
-    return any(source in news_sources for source in candidate.get("source_names", []))
+    for item in items:
+        tokens = topic_tokens(f"{item['title']} {item['summary']}")
+        item["topic_tokens"] = list(tokens)
 
+    for i, item in enumerate(items):
+        boost = 0
+        item_tokens = set(item.get("topic_tokens", []))
 
-def is_sme_relevant(candidate: dict) -> bool:
-    combined = f"{candidate.get('headline', '')} {candidate.get('raw_text', '')}".lower()
+        if not item_tokens:
+            item["score"] = item.get("score", 0)
+            continue
 
-    return any(keyword in combined for keyword in SMALL_BUSINESS_TECH_KEYWORDS)
+        for j, other in enumerate(items):
+            if i == j:
+                continue
+            if item["source"] == other["source"]:
+                continue
 
+            other_tokens = set(other.get("topic_tokens", []))
+            overlap = item_tokens.intersection(other_tokens)
 
-def passes_editorial_judgement(candidate: dict, seen_items: set[str]) -> bool:
-    key = candidate.get("key", "")
+            if len(overlap) >= 4:
+                boost += 2
 
-    if not key:
-        return False
-
-    if key in seen_items:
-        print(f"Skipping already seen item: {key}")
-        return False
-
-    score = candidate.get("score", 0)
-    real_sources = reputable_signal_count(candidate)
-    known_exploited = candidate.get("known_exploited", False)
-    news_reporting = has_news_reporting(candidate)
-    sme_relevant = is_sme_relevant(candidate)
-    severity = candidate.get("severity", "").upper()
-
-    if known_exploited and score >= EDITORIAL_SCORE_THRESHOLD:
-        print(f"Selected CISA KEV item: {key} score={score}")
-        return True
-
-    if real_sources >= 3 and score >= 70:
-        print(f"Selected multi-source item: {key} score={score} sources={real_sources}")
-        return True
-
-    if real_sources >= 2 and news_reporting and sme_relevant and score >= 70:
-        print(
-            f"Selected SME-relevant reported item: {key} "
-            f"score={score} sources={real_sources}"
-        )
-        return True
-
-    if (
-        real_sources >= 1
-        and news_reporting
-        and sme_relevant
-        and severity in {"CRITICAL", "HIGH"}
-        and score >= 80
-    ):
-        print(f"Selected high-severity SME item: {key} score={score}")
-        return True
-
-    print(f"Skipping after editorial review: {key} score={score} sources={real_sources}")
-    return False
+        item["cross_source_boost"] = min(boost, 6)
+        item["score"] = item.get("score", 0) + min(boost, 6)
 
 
-def select_publish_candidates(candidates: list[dict], seen_items: set[str]) -> list[dict]:
-    selected = []
+def collect_candidates(state: Dict[str, Any]) -> List[Dict[str, Any]]:
+    all_items = []
 
-    for candidate in candidates:
-        if passes_editorial_judgement(candidate, seen_items):
-            selected.append(candidate)
+    for feed in FEEDS:
+        all_items.extend(fetch_feed(feed))
 
-        if len(selected) >= EDITORIAL_MAX_ARTICLES:
-            break
+    deduped = {}
+    for item in all_items:
+        url_hash = stable_id(item["url"])
 
-    return selected
+        if url_hash in state.get("seen_urls", {}) and not FORCE_PUBLISH:
+            continue
+
+        if item["url"] not in deduped:
+            item["score"] = score_item(item)
+            deduped[item["url"]] = item
+        else:
+            # Keep the higher scoring version if duplicated.
+            existing = deduped[item["url"]]
+            new_score = score_item(item)
+            if new_score > existing.get("score", 0):
+                item["score"] = new_score
+                deduped[item["url"]] = item
+
+    candidates = list(deduped.values())
+    apply_cross_source_boost(candidates)
+
+    candidates.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    return candidates[:MAX_ITEMS_TO_REVIEW]
 
 
 # ============================================================
-# Article generation
+# OpenAI generation
 # ============================================================
 
-def build_candidate_context(candidate: dict) -> str:
-    lines = []
+SYSTEM_INSTRUCTIONS = """
+You write the Actions On Cyber Daily SMB Cyber Intelligence Brief.
 
-    for label, field in [
-        ("CVE", "cve"),
-        ("Vendor", "vendor"),
-        ("Product", "product"),
-        ("NVD severity", "severity"),
-        ("NVD published date", "nvd_published"),
-        ("NVD description", "nvd_description"),
-        ("CISA KEV date added", "cisa_date_added"),
-        ("CISA required action", "cisa_required_action"),
-    ]:
-        value = clean_generated_text(candidate.get(field, ""))
+Audience:
+Small and medium-sized businesses, charities, schools, professional services, local businesses, owners, office managers, finance teams and outsourced IT providers.
 
-        if value:
-            lines.append(f"{label}: {value}")
+Purpose:
+Explain what SMEs should look out for today. Focus on:
+- big cyber stories being widely reported;
+- scams and phishing themes;
+- supplier or SaaS risk;
+- ransomware and business disruption;
+- data breach ripple effects;
+- cloud, payment, payroll, HR, telecoms, logistics or MSP dependency risk;
+- practical warning signs;
+- questions to ask an IT provider.
 
-    if candidate.get("known_exploited"):
-        lines.append("CISA KEV: This vulnerability is listed as known exploited.")
+Important:
+Do not turn this into a vulnerability brief.
+Do not lead with CVEs, CVSS, affected versions or patch lists.
+A CVE can be mentioned only if it creates a broader SME look-out, supplier risk or business disruption issue.
+Do not include exploit instructions, proof-of-concept details, payloads, commands or offensive steps.
 
-    lines.append(f"Editorial score: {candidate.get('score', 0)}")
+Style:
+Plain English.
+UK-friendly.
+Calm and practical.
+Useful to non-cyber professionals.
+Avoid hype.
+Avoid fearmongering.
+Avoid long technical explanations.
 
-    lines.append("Reasons this was selected:")
-
-    for reason in candidate.get("score_reasons", []):
-        lines.append(f"- {clean_generated_text(reason)}")
-
-    lines.append("Reporting signals/headlines:")
-
-    for headline in candidate.get("source_headlines", []):
-        lines.append(f"- {clean_generated_text(headline)}")
-
-    return "\n".join(lines)
+Use only the supplied candidate items as source material.
+Do not invent facts.
+Do not include source URLs inside the HTML fragment.
+Return valid JSON only.
+"""
 
 
-def generate_article(candidate: dict, brief_date: datetime.date) -> dict:
-    api_key = os.environ.get("OPENAI_API_KEY")
+def build_ai_prompt(candidates: List[Dict[str, Any]]) -> str:
+    simple_candidates = []
 
-    if not api_key:
-        raise RuntimeError("OPENAI_API_KEY is not set.")
+    for item in candidates[:MAX_CANDIDATES_FOR_AI]:
+        simple_candidates.append({
+            "id": item["id"],
+            "source": item["source"],
+            "title": item["title"],
+            "summary": item["summary"],
+            "url": item["url"],
+            "published_utc": item["published_utc"],
+            "score": item["score"],
+        })
 
-    client = OpenAI(api_key=api_key)
-
-    context = build_candidate_context(candidate)
-
-    system_prompt = """
-You write plain-English vulnerability intelligence briefs for Actions On Cyber.
-
-Audience: UK small businesses, charities, clubs, trustees, owners and office managers.
-They may not have a cyber security team.
-
-Your job:
-- Explain what is being reported.
-- Explain what it means in simple business language.
-- Explain whether a small organisation could be affected.
-- Give practical actions.
-- Give one copy-and-paste question for their IT provider.
-
-Rules:
-- Do not write a generic cyber article.
-- Only use the facts in the provided context.
-- Do not invent product names, versions, exploitation details or fixes.
-- If something is uncertain, say to ask the IT provider or software supplier.
-- Do not include raw URLs.
-- Do not include URL query strings.
-- Do not include encoded characters.
-- Do not include API parameters or tracking parameters.
-- Use British English.
-- Keep it practical and calm.
-- Return valid JSON only.
-""".strip()
-
-    user_prompt = f"""
-Create a vulnerability brief for {brief_date.strftime('%d %B %Y')}.
-
-This item has passed editorial selection because reputable sources are reporting it,
-it appears in CISA KEV, or it is relevant to common small-business technology.
-
-Source context:
-{context}
-
-Return this exact JSON structure:
-
-{{
-  "title": "Plain-English title for a small business audience",
-  "tag": "New Vulnerability",
-  "summary": "One short paragraph summarising what has been reported and why it matters.",
-  "what_is_being_reported": "Explain what is being reported in plain English.",
-  "what_this_means": "Explain the risk in simple terms for a small organisation.",
-  "could_this_affect_a_small_business": "Explain who may be affected and who is probably not affected.",
-  "what_to_do_now": [
-    "Practical action 1",
-    "Practical action 2",
-    "Practical action 3",
-    "Practical action 4"
-  ],
-  "ask_your_it_provider": "One copy-and-paste question to ask an IT provider or software supplier.",
-  "bottom_line": "One short closing takeaway.",
-  "source_note": "Short sentence naming the source types used, such as CISA KEV, NVD and reputable security reporting. Do not include URLs."
-}}
-
-Before returning JSON, check there are no raw URLs, no encoded fragments, no API parameters and no long machine strings.
-""".strip()
-
-    response = client.chat.completions.create(
-        model=MODEL,
-        temperature=0.25,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
+    return json.dumps({
+        "task": "Select whether to publish an SMB cyber intelligence brief from these candidates. Publish only if there is something SMEs should look out for, question, prepare for, or warn staff about.",
+        "current_date_london": now_london().strftime("%A %d %B %Y"),
+        "candidate_items": simple_candidates,
+        "required_json_schema": {
+            "publish": "boolean",
+            "reason": "short explanation of why to publish or not publish",
+            "headline": "short page headline",
+            "risk_level": "Low | Moderate | High | Critical",
+            "todays_lookout": "short theme, e.g. Supplier incident scams, fake payment changes, cloud disruption",
+            "html_fragment": "HTML fragment only. Use h2, h3, p, ul, li, table where helpful. Do not include html/head/body/source URLs.",
+            "source_ids": ["candidate item ids used as sources"],
+            "one_action": "single practical action SMEs should take today",
+            "related_resource": "one suggested Actions On Cyber resource or checklist CTA",
+        },
+        "html_fragment_required_sections": [
+            "What to look out for today",
+            "Why this matters to smaller businesses",
+            "Warning signs",
+            "How attackers may exploit the situation",
+            "What to do today",
+            "Ask your IT provider",
+            "Patch watch - only one short paragraph, and only if relevant",
         ],
-    )
+    }, ensure_ascii=False, indent=2)
 
-    content = response.choices[0].message.content.strip()
+
+def extract_json_object(text: str) -> Dict[str, Any]:
+    text = text.strip()
+
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?", "", text.strip(), flags=re.IGNORECASE).strip()
+        text = re.sub(r"```$", "", text.strip()).strip()
 
     try:
-        article = json.loads(content)
-    except json.JSONDecodeError:
-        print("Raw model response:")
-        print(content)
-        raise
+        return json.loads(text)
+    except Exception:
+        pass
 
-    article = clean_object(article)
-    validate_article(article)
+    match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+    if not match:
+        raise ValueError("No JSON object found in model response.")
 
-    article["candidate_key"] = candidate.get("key", "")
-    article["selection_score"] = candidate.get("score", 0)
-    article["selection_reasons"] = candidate.get("score_reasons", [])
+    return json.loads(match.group(0))
 
-    if candidate.get("cve"):
-        article["cve"] = candidate.get("cve")
 
-    return article
+def generate_brief_with_ai(candidates: List[Dict[str, Any]]) -> Dict[str, Any]:
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
+    response = client.responses.create(
+        model=MODEL,
+        instructions=SYSTEM_INSTRUCTIONS,
+        input=build_ai_prompt(candidates),
+        max_output_tokens=4500,
+    )
+
+    return extract_json_object(response.output_text)
+
+
+def fallback_brief(candidates: List[Dict[str, Any]]) -> Dict[str, Any]:
+    top = candidates[0]
+    title = html.escape(top["title"])
+    source = html.escape(top["source"])
+
+    fragment = f"""
+<h2>What to look out for today</h2>
+<p>A cyber story from <strong>{source}</strong> may be relevant to small and medium-sized businesses today: <strong>{title}</strong>.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Even when a cyber incident affects a larger organisation, SMEs can still be exposed through suppliers, IT providers, cloud services, payment systems, email platforms or customer confidence.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected supplier updates or service notices.</li>
+  <li>Requests to reset passwords or re-authenticate through links.</li>
+  <li>Changed payment or bank details.</li>
+  <li>Delays or disruption in services you rely on.</li>
+  <li>Unusual emails claiming to be linked to a cyber incident.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<p>Attackers often use public cyber incidents as cover for phishing, fake support calls, invoice fraud and credential theft.</p>
+
+<h2>What to do today</h2>
+<ul>
+  <li>Do not approve payment changes by email alone.</li>
+  <li>Verify supplier messages using a known contact route.</li>
+  <li>Report suspicious emails or login prompts quickly.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are any of our key suppliers affected by this issue?</li>
+  <li>Do any suppliers have remote access to our systems?</li>
+  <li>Are unusual sign-ins, forwarding rules and admin changes being monitored?</li>
+</ul>
+
+<h2>Patch watch</h2>
+<p>If the issue is vulnerability-related, use the separate Daily Vulnerability Brief for patch details.</p>
+"""
+
+    return {
+        "publish": True,
+        "reason": "Fallback brief generated from the top-ranked SME-relevant item.",
+        "headline": "Cyber story SMEs should watch today",
+        "risk_level": "Moderate",
+        "todays_lookout": "Supplier, scam or disruption risk",
+        "html_fragment": fragment,
+        "source_ids": [top["id"]],
+        "one_action": "Verify any unexpected supplier, payment or password-reset request using a trusted contact route.",
+        "related_resource": "Supplier Security Questionnaire",
+    }
 
 
 # ============================================================
-# HTML rendering
+# HTML generation
 # ============================================================
 
-def render_article_page(article: dict, brief_date: datetime.date) -> str:
-    cve = article.get("cve", "")
-    cve_html = f'<p class="small"><strong>Reference:</strong> {esc(cve)}</p>' if cve else ""
+def sanitise_html_fragment(fragment: str) -> str:
+    if not fragment:
+        return ""
 
+    fragment = re.sub(
+        r"<\s*/?\s*(script|style|iframe|object|embed)[^>]*>",
+        "",
+        fragment,
+        flags=re.IGNORECASE,
+    )
+    fragment = re.sub(
+        r"\son\w+\s*=\s*(['\"]).*?\1",
+        "",
+        fragment,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    return fragment.strip()
+
+
+def risk_badge(risk_level: str) -> str:
+    value = html.escape(risk_level or "Moderate")
+    return f'<span class="tag">{value}</span>'
+
+
+def page_header(title: str, asset_prefix: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta
-    name="description"
-    content="{esc(article.get('summary', ''))}"
-  />
-
-  <title>{esc(article.get('title', 'Daily Int Brief'))} | Actions On Cyber</title>
-
-  <link rel="stylesheet" href="../../assets/styles.css" />
-  <link rel="icon" href="../../assets/actions-on-cyber-logo.svg" type="image/svg+xml" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>{html.escape(title)} | Actions On Cyber</title>
+  <link rel="stylesheet" href="{asset_prefix}assets/styles.css" />
+  <link rel="icon" href="{asset_prefix}assets/actions-on-cyber-logo.png" type="image/png" />
 </head>
-
 <body>
 <a href="#main" class="skip">Skip to content</a>
 
@@ -1016,259 +711,292 @@ def render_article_page(article: dict, brief_date: datetime.date) -> str:
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo-link" href="/index.html" aria-label="Actions On Cyber home">
-      <img src="../../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" />
+    <a href="{asset_prefix}index.html" class="brand">
+      <img src="{asset_prefix}assets/actions-on-cyber-logo.png" alt="Actions On Cyber logo" />
+      <span>Actions On Cyber</span>
     </a>
 
-    <button class="mobile-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-
-    <nav class="nav" id="site-nav" aria-label="Main navigation">
-      <a href="/index.html">Start Here</a>
-      <a href="/pages/actions-on.html">Actions On</a>
-      <a href="/pages/daily-int-brief.html" aria-current="page">Daily Int Brief</a>
-      <a href="/pages/cyber-stand-to.html">Cyber Stand-To</a>
-      <a href="/pages/field-manual.html">Field Manual</a>
-      <a href="/pages/training.html">Training</a>
-      <a href="/pages/consultancy.html">Consultancy</a>
+    <nav class="nav">
+      <a href="{asset_prefix}pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="{asset_prefix}pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="{asset_prefix}pages/field-manual.html">Field Manual</a>
+      <a href="{asset_prefix}pages/contact.html">Contact</a>
     </nav>
-
-    <div class="header-actions">
-      <a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
-      <a class="btn btn-teal" href="/pages/contact.html">Contact</a>
-    </div>
   </div>
 </header>
+"""
 
-<main id="main">
 
-  <section class="page-hero">
-    <div class="container page-title">
-      <a class="breadcrumb" href="/pages/daily-int-brief.html">← Back to Daily Int Briefs</a>
-      <h1>{esc(article.get('title', 'Daily Int Brief'))}</h1>
-      <p>{esc(article.get('summary', ''))}</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <article class="article daily-brief-article">
-        <p class="small"><strong>{brief_date.strftime('%d %B %Y')}</strong></p>
-        {cve_html}
-
-        <h2>1. What is being reported?</h2>
-        <p>{esc(article.get('what_is_being_reported', ''))}</p>
-
-        <h2>2. What this means in plain English</h2>
-        <p>{esc(article.get('what_this_means', ''))}</p>
-
-        <h2>3. Could this affect a small business?</h2>
-        <p>{esc(article.get('could_this_affect_a_small_business', ''))}</p>
-
-        <h2>4. What to do now</h2>
-        <ul>
-          {render_list(article.get('what_to_do_now', []))}
-        </ul>
-
-        <h2>5. Ask your IT provider</h2>
-        <p><strong>{esc(article.get('ask_your_it_provider', ''))}</strong></p>
-
-        <h2>6. Bottom line</h2>
-        <p>{esc(article.get('bottom_line', ''))}</p>
-
-        <p class="small">{esc(article.get('source_note', ''))}</p>
-
-        <p>
-          <a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a>
-        </p>
-      </article>
-    </div>
-  </section>
-
-</main>
-
+def page_footer() -> str:
+    year = now_london().year
+    return f"""
 <footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <img src="../../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" style="max-width:280px" />
-      <p class="small">Free cyber drills, Daily Int Briefs, templates and practical guidance for organisations without a security team.</p>
-      <p><a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a></p>
-      <p class="small">Defensive guidance only. Templates are starting points, not legal advice.</p>
-    </div>
-
-    <div>
-      <h4>Guidance</h4>
-      <a href="/pages/actions-on.html">Actions On</a>
-      <a href="/pages/daily-int-brief.html">Daily Int Brief</a>
-      <a href="/pages/cyber-stand-to.html">Cyber Stand-To</a>
-      <a href="/pages/field-manual.html">Field Manual</a>
-    </div>
-
-    <div>
-      <h4>Services</h4>
-      <a href="/pages/training.html">Training</a>
-      <a href="/pages/consultancy.html">Consultancy</a>
-      <a href="/pages/contact.html">Contact</a>
-      <a href="/pages/about.html">About</a>
-    </div>
-
-    <div>
-      <h4>Legal</h4>
-      <a href="/pages/privacy.html">Privacy</a>
-      <a href="/pages/terms.html">Terms & Disclaimer</a>
-      <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
-    </div>
+  <div class="container">
+    <p>&copy; {year} Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
   </div>
 </footer>
-
-<script src="../../assets/script.js"></script>
 </body>
 </html>
 """
 
 
-def render_article_card(article: dict, brief_date: datetime.date, relative_url: str) -> str:
-    cve = article.get("cve", "")
-    cve_line = f'<p class="small"><strong>{esc(cve)}</strong></p>' if cve else ""
+def build_archive_page(brief: Dict[str, Any], source_items: List[Dict[str, Any]], slug: str) -> str:
+    published_at = now_london()
+    title = brief.get("headline") or "Daily SMB Cyber Intelligence Brief"
+    risk_level = brief.get("risk_level") or "Moderate"
+    lookout = brief.get("todays_lookout") or "Cyber risk watch"
+    one_action = brief.get("one_action") or ""
+    related_resource = brief.get("related_resource") or ""
+    fragment = sanitise_html_fragment(brief.get("html_fragment", ""))
 
-    return f"""
-        <article class="card daily-brief-card">
-          <span class="tag">{esc(article.get('tag', 'New Vulnerability'))}</span>
-          <p class="small"><strong>{brief_date.strftime('%d %B %Y')}</strong></p>
-          {cve_line}
-          <h3>{esc(article.get('title', 'Daily Int Brief'))}</h3>
-          <p>{esc(article.get('summary', ''))}</p>
-          <a class="btn btn-secondary" href="/pages/{esc(relative_url)}">Read brief</a>
+    source_html = ""
+    if source_items:
+        source_html += "<ul>"
+        for item in source_items:
+            source_html += (
+                f'<li><a href="{html.escape(item["url"])}" rel="noopener noreferrer">'
+                f'{html.escape(item["title"])}</a> '
+                f'<span class="muted">({html.escape(item["source"])})</span></li>'
+            )
+        source_html += "</ul>"
+
+    return f"""{page_header(title, "../../")}
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>{html.escape(title)}</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        {risk_badge(risk_level)}
+        <span>{html.escape(published_at.strftime("%A %d %B %Y, %H:%M"))} UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> {html.escape(lookout)}
+        </div>
+
+        {fragment}
+
+        <h2>One action today</h2>
+        <p>{html.escape(one_action)}</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>{html.escape(related_resource)}</p>
+
+        <h2>Sources</h2>
+        {source_html}
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+{page_footer()}"""
+
+
+def build_index_page(state: Dict[str, Any]) -> str:
+    briefs = state.get("published_briefs", [])[:30]
+
+    if briefs:
+        latest = briefs[0]
+        latest_html = f"""
+        <article class="card feature-card">
+          <p class="eyebrow">Latest brief</p>
+          <h2><a href="daily-int-briefs/{html.escape(latest['slug'])}.html">{html.escape(latest['headline'])}</a></h2>
+          <p><strong>Look-out:</strong> {html.escape(latest.get('todays_lookout', 'Cyber risk watch'))}</p>
+          <p><strong>Risk level:</strong> {html.escape(latest.get('risk_level', 'Moderate'))}</p>
+          <p class="muted">{html.escape(latest.get('published_label', ''))}</p>
+          <a class="button" href="daily-int-briefs/{html.escape(latest['slug'])}.html">Read latest brief</a>
         </article>
-""".rstrip()
+        """
+    else:
+        latest_html = """
+        <article class="card feature-card">
+          <p class="eyebrow">Latest brief</p>
+          <h2>No intelligence brief has been published yet.</h2>
+          <p>The automation will publish when there is a strong SME-relevant cyber story.</p>
+        </article>
+        """
 
+    archive_items = ""
+    for brief in briefs:
+        archive_items += f"""
+        <li>
+          <a href="daily-int-briefs/{html.escape(brief['slug'])}.html">{html.escape(brief['headline'])}</a>
+          <span class="muted"> — {html.escape(brief.get('published_label', ''))}</span>
+        </li>
+        """
 
-def update_daily_brief_index(cards_html: list[str]) -> None:
-    if not cards_html:
-        return
+    if not archive_items:
+        archive_items = "<li>No archived briefs yet.</li>"
 
-    if not DAILY_BRIEF_INDEX.exists():
-        raise FileNotFoundError(f"Could not find {DAILY_BRIEF_INDEX}")
+    return f"""{page_header("Daily SMB Cyber Intelligence Brief", "../")}
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Actions On Cyber</p>
+      <h1>Daily SMB Cyber Intelligence Brief</h1>
+      <p class="lede">
+        What small and medium-sized businesses should look out for today —
+        including scams, attacker behaviour, supplier risk, major cyber incidents and practical actions.
+      </p>
+    </div>
+  </section>
 
-    content = DAILY_BRIEF_INDEX.read_text(encoding="utf-8")
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        {latest_html}
 
-    if BRIEF_SECTION_START not in content or BRIEF_SECTION_END not in content:
-        raise RuntimeError(
-            f"Could not find markers in {DAILY_BRIEF_INDEX}. "
-            f"Add {BRIEF_SECTION_START} and {BRIEF_SECTION_END}."
-        )
+        <div class="callout">
+          <strong>How this differs from the Daily Vulnerability Brief:</strong>
+          this page focuses on what SMEs should watch, question and prepare for.
+          The vulnerability brief focuses on what to patch.
+        </div>
 
-    before, rest = content.split(BRIEF_SECTION_START, 1)
-    existing_cards, after = rest.split(BRIEF_SECTION_END, 1)
+        <h2>Recent intelligence briefs</h2>
+        <ul>
+          {archive_items}
+        </ul>
+      </article>
 
-    new_cards = []
+      <aside class="content-side">
+        <div class="card">
+          <h2>What we monitor</h2>
+          <ul>
+            <li>Major cyber incidents</li>
+            <li>Supplier and MSP risk</li>
+            <li>Ransomware and data breaches</li>
+            <li>Phishing and payment fraud</li>
+            <li>Cloud, SaaS and business disruption</li>
+            <li>Stories widely reported by credible cyber sources</li>
+          </ul>
+        </div>
 
-    for card in cards_html:
-        href_match = re.search(r'href="([^"]+)"', card)
-        href = href_match.group(1) if href_match else ""
-
-        if href and href in existing_cards:
-            print(f"Skipping duplicate card for {href}")
-            continue
-
-        new_cards.append(card)
-
-    if not new_cards:
-        return
-
-    updated_cards = "\n" + "\n".join(new_cards) + "\n" + existing_cards.strip() + "\n"
-
-    updated_content = before + BRIEF_SECTION_START + updated_cards + BRIEF_SECTION_END + after
-
-    DAILY_BRIEF_INDEX.write_text(updated_content, encoding="utf-8")
+        <div class="card">
+          <h2>Need CVE and patch detail?</h2>
+          <p>Use the separate Daily Vulnerability Brief for exploited vulnerabilities and patch priorities.</p>
+          <a class="button" href="daily-vulnerability-brief.html">Daily Vulnerability Brief</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+{page_footer()}"""
 
 
 # ============================================================
-# Main
+# Main flow
 # ============================================================
 
 def main() -> None:
-    today = now_london().date()
+    ensure_dirs()
+    state = read_state()
 
-    BRIEF_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    seen_items = load_seen_items()
-
-    print("Fetching CISA KEV candidates...")
-    cisa_candidates = fetch_recent_cisa_kev()
-    print(f"Recent CISA KEV candidates: {len(cisa_candidates)}")
-
-    print("Fetching reputable security reporting feeds...")
-    rss_entries = fetch_rss_entries()
-    print(f"Recent RSS entries: {len(rss_entries)}")
-
-    news_candidates = build_news_candidates(rss_entries)
-    print(f"News candidates: {len(news_candidates)}")
-
-    candidates = merge_candidates(cisa_candidates, news_candidates)
-    print(f"Merged candidates: {len(candidates)}")
-
-    enriched = []
-
-    for candidate in candidates:
-        candidate = enrich_with_nvd(candidate)
-        candidate = score_candidate(candidate)
-        enriched.append(candidate)
-
-    enriched.sort(key=lambda item: item.get("score", 0), reverse=True)
-
-    print("Top editorial candidates:")
-
-    for candidate in enriched[:10]:
-        print(
-            f"- {candidate.get('key')} | "
-            f"score={candidate.get('score')} | "
-            f"sources={candidate.get('source_names')} | "
-            f"headline={candidate.get('headline')}"
-        )
-
-    publish_candidates = select_publish_candidates(enriched, seen_items)
-
-    if not publish_candidates:
-        print("No publishable vulnerability briefs today. Nothing will be added to the website.")
+    todays_count = count_briefs_today(state)
+    if todays_count >= MAX_BRIEFS_PER_DAY and not FORCE_PUBLISH:
+        print(f"Already published {todays_count} intelligence briefs today. No action.")
+        save_state(state)
         return
 
-    cards = []
-    published_keys = []
+    candidates = collect_candidates(state)
 
-    for candidate in publish_candidates:
-        print(f"Generating article for {candidate.get('key')}...")
+    if not candidates:
+        print("No new candidate items found.")
+        save_state(state)
+        return
 
-        article = generate_article(candidate, today)
+    best_score = candidates[0].get("score", 0)
+    print(f"Top candidate score: {best_score}")
+    print(f"Top candidate: {candidates[0].get('title')}")
 
-        date_slug = today.strftime("%Y-%m-%d")
-        key_slug = slugify(candidate.get("key", "brief"))
-        title_slug = slugify(article.get("title", f"daily-int-brief-{date_slug}"))
+    if best_score < MIN_SCORE_TO_PUBLISH and not FORCE_PUBLISH:
+        print("No candidate met the publish threshold.")
+        save_state(state)
+        return
 
-        filename = f"{date_slug}-{key_slug}-{title_slug}.html"
+    try:
+        brief = generate_brief_with_ai(candidates)
+    except Exception as exc:
+        print(f"AI generation failed; using fallback brief. Error: {exc}")
+        brief = fallback_brief(candidates)
 
-        output_path = BRIEF_OUTPUT_DIR / filename
+    if not brief.get("publish") and not FORCE_PUBLISH:
+        print(f"AI decided not to publish: {brief.get('reason', 'No reason provided')}")
+        save_state(state)
+        return
 
-        output_path.write_text(
-            render_article_page(article, today),
-            encoding="utf-8",
-        )
+    allowed_by_id = {item["id"]: item for item in candidates}
+    source_ids = brief.get("source_ids") or []
 
-        relative_url = f"daily-int-briefs/{filename}"
+    source_items = []
+    for source_id in source_ids:
+        item = allowed_by_id.get(source_id)
+        if item and item not in source_items:
+            source_items.append(item)
 
-        cards.append(render_article_card(article, today, relative_url))
-        published_keys.append(candidate.get("key", ""))
+    if not source_items:
+        source_items = candidates[:3]
 
-        print(f"Generated article page: {output_path}")
+    published_at = now_london()
+    headline = brief.get("headline") or "Daily SMB Cyber Intelligence Brief"
+    slug_base = slugify(headline)
+    slug = f"{published_at.strftime('%Y-%m-%d-%H%M')}-{slug_base}"
 
-    update_daily_brief_index(cards)
+    archive_html = build_archive_page(brief, source_items, slug)
+    archive_path = ARCHIVE_DIR / f"{slug}.html"
+    archive_path.write_text(archive_html, encoding="utf-8")
 
-    for key in published_keys:
-        if key:
-            seen_items.add(key)
+    brief_record = {
+        "slug": slug,
+        "headline": headline,
+        "risk_level": brief.get("risk_level", "Moderate"),
+        "todays_lookout": brief.get("todays_lookout", "Cyber risk watch"),
+        "published_at": published_at.isoformat(),
+        "published_label": published_at.strftime("%A %d %B %Y, %H:%M UK time"),
+        "source_urls": [item["url"] for item in source_items],
+    }
 
-    save_seen_items(seen_items)
+    state.setdefault("published_briefs", [])
+    state["published_briefs"].insert(0, brief_record)
 
-    print(f"Published {len(published_keys)} vulnerability brief(s).")
+    state.setdefault("seen_urls", {})
+    for item in source_items:
+        url_hash = stable_id(item["url"])
+        state["seen_urls"][url_hash] = {
+            "url": item["url"],
+            "title": item["title"],
+            "source": item["source"],
+            "seen_at": published_at.isoformat(),
+            "brief_slug": slug,
+        }
+
+    INDEX_PAGE.write_text(build_index_page(state), encoding="utf-8")
+    save_state(state)
+
+    print(f"Published intelligence brief: {archive_path}")
 
 
 if __name__ == "__main__":
