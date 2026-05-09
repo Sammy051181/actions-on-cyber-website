@@ -711,8 +711,12 @@ def page_header(title: str, asset_prefix: str) -> str:
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{asset_prefix}index.html" class="brand">
-      <img src="{asset_prefix}assets/actions-on-cyber-logo.png" alt="Actions On Cyber" />
+    <a href="{asset_prefix}index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="{asset_prefix}assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
     </a>
 
     <nav class="nav">
