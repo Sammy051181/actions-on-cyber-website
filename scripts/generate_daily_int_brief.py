@@ -22,8 +22,10 @@ SITE_NAME = "Actions On Cyber"
 TIMEZONE = ZoneInfo("Europe/London")
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
+
 DAILY_BRIEF_INDEX = ROOT_DIR / "pages" / "daily-int-brief.html"
 BRIEF_OUTPUT_DIR = ROOT_DIR / "pages" / "daily-int-briefs"
+
 DATA_DIR = ROOT_DIR / "data"
 SEEN_ITEMS_FILE = DATA_DIR / "daily-int-brief-seen-items.json"
 
@@ -41,28 +43,103 @@ EDITORIAL_SCORE_THRESHOLD = int(os.getenv("EDITORIAL_SCORE_THRESHOLD", "75"))
 EDITORIAL_MAX_ARTICLES = int(os.getenv("EDITORIAL_MAX_ARTICLES", "3"))
 
 TRUSTED_NEWS_FEEDS = [
-    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "weight": 18},
-    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "weight": 16},
-    {"name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "weight": 14},
-    {"name": "Rapid7 Blog", "url": "https://www.rapid7.com/blog/rss/", "weight": 12},
+    {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/feed/",
+        "weight": 18,
+    },
+    {
+        "name": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews",
+        "weight": 16,
+    },
+    {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/feed/",
+        "weight": 14,
+    },
+    {
+        "name": "Rapid7 Blog",
+        "url": "https://www.rapid7.com/blog/rss/",
+        "weight": 12,
+    },
 ]
 
 HIGH_SIGNAL_KEYWORDS = [
-    "actively exploited", "exploited in the wild", "known exploited", "zero-day", "0-day",
-    "emergency patch", "critical flaw", "critical vulnerability", "remote code execution", "rce",
-    "authentication bypass", "auth bypass", "privilege escalation", "sql injection",
-    "command injection", "mass exploitation", "proof-of-concept", "poc exploit", "patch now",
+    "actively exploited",
+    "exploited in the wild",
+    "known exploited",
+    "zero-day",
+    "0-day",
+    "emergency patch",
+    "critical flaw",
+    "critical vulnerability",
+    "remote code execution",
+    "rce",
+    "authentication bypass",
+    "auth bypass",
+    "privilege escalation",
+    "sql injection",
+    "command injection",
+    "mass exploitation",
+    "proof-of-concept",
+    "poc exploit",
+    "patch now",
     "urgent patch",
 ]
 
 SMALL_BUSINESS_TECH_KEYWORDS = [
-    "wordpress", "woocommerce", "plugin", "microsoft", "windows", "office", "outlook", "exchange",
-    "sharepoint", "teams", "azure", "microsoft 365", "chrome", "google chrome", "apple",
-    "macos", "ios", "adobe", "acrobat", "reader", "vpn", "firewall", "router",
-    "fortinet", "fortigate", "sonicwall", "cisco", "palo alto", "ivanti", "citrix",
-    "remote access", "rdp", "nas", "qnap", "synology", "backup", "veeam", "connectwise",
-    "teamviewer", "screenconnect", "msp", "helpdesk", "it management", "email gateway",
-    "web server", "apache", "nginx", "linux", "ai", "chatbot", "llm",
+    "wordpress",
+    "woocommerce",
+    "plugin",
+    "microsoft",
+    "windows",
+    "office",
+    "outlook",
+    "exchange",
+    "sharepoint",
+    "teams",
+    "azure",
+    "microsoft 365",
+    "chrome",
+    "google chrome",
+    "apple",
+    "macos",
+    "ios",
+    "adobe",
+    "acrobat",
+    "reader",
+    "vpn",
+    "firewall",
+    "router",
+    "fortinet",
+    "fortigate",
+    "sonicwall",
+    "cisco",
+    "palo alto",
+    "ivanti",
+    "citrix",
+    "remote access",
+    "rdp",
+    "nas",
+    "qnap",
+    "synology",
+    "backup",
+    "veeam",
+    "connectwise",
+    "teamviewer",
+    "screenconnect",
+    "msp",
+    "helpdesk",
+    "it management",
+    "email gateway",
+    "web server",
+    "apache",
+    "nginx",
+    "linux",
+    "ai",
+    "chatbot",
+    "llm",
 ]
 
 
@@ -98,7 +175,9 @@ def parse_date(value: str) -> datetime.datetime | None:
 
     for fmt in ("%Y-%m-%d", "%d %b %Y", "%d %B %Y"):
         try:
-            return datetime.datetime.strptime(value, fmt).replace(tzinfo=datetime.timezone.utc)
+            return datetime.datetime.strptime(value, fmt).replace(
+                tzinfo=datetime.timezone.utc
+            )
         except Exception:
             pass
 
@@ -108,9 +187,12 @@ def parse_date(value: str) -> datetime.datetime | None:
 def strip_html(value: str) -> str:
     if not value:
         return ""
+
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
-    return re.sub(r"\s+", " ", value).strip()
+    value = re.sub(r"\s+", " ", value).strip()
+
+    return value
 
 
 def clean_generated_text(text: str) -> str:
@@ -139,26 +221,41 @@ def clean_generated_text(text: str) -> str:
 
     text = re.sub(r"\b[a-zA-Z0-9_\-]{70,}\b", "", text)
     text = re.sub(r"\s+", " ", text).strip()
+
     return text
 
 
 def clean_object(value):
     if isinstance(value, dict):
         return {key: clean_object(item) for key, item in value.items()}
+
     if isinstance(value, list):
         return [clean_object(item) for item in value]
+
     if isinstance(value, str):
         return clean_generated_text(value)
+
     return value
 
 
 def validate_article(article: dict) -> None:
     combined = json.dumps(article, ensure_ascii=False).lower()
+
     blocked_fragments = [
-        "%5b", "%5d", "%3a", "vendor_project", "utm_", "query=", "source=", "ref=",
-        "http://", "https://",
+        "%5b",
+        "%5d",
+        "%3a",
+        "vendor_project",
+        "utm_",
+        "query=",
+        "source=",
+        "ref=",
+        "http://",
+        "https://",
     ]
+
     found = [fragment for fragment in blocked_fragments if fragment in combined]
+
     if found:
         raise ValueError(f"Generated article contains blocked fragments: {found}")
 
@@ -166,6 +263,7 @@ def validate_article(article: dict) -> None:
 def extract_cves(text: str) -> list[str]:
     if not text:
         return []
+
     return sorted(set(re.findall(r"CVE-\d{4}-\d{4,}", text.upper())))
 
 
@@ -174,7 +272,12 @@ def esc(value: str) -> str:
 
 
 def render_list(items: list[str]) -> str:
-    cleaned_items = [clean_generated_text(item) for item in items if clean_generated_text(item)]
+    cleaned_items = [
+        clean_generated_text(item)
+        for item in items
+        if clean_generated_text(item)
+    ]
+
     return "\n".join(f"<li>{esc(item)}</li>" for item in cleaned_items)
 
 
@@ -196,11 +299,16 @@ def load_seen_items() -> set[str]:
 
 def save_seen_items(seen_items: set[str]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+
     data = {
         "seen_items": sorted(seen_items),
         "last_updated": now_london().isoformat(),
     }
-    SEEN_ITEMS_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    SEEN_ITEMS_FILE.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
 
 
 # ============================================================
@@ -211,8 +319,12 @@ def fetch_json(url: str, timeout: int = 20) -> dict:
     response = requests.get(
         url,
         timeout=timeout,
-        headers={"User-Agent": "ActionsOnCyberBot/1.0", "Accept": "application/json,*/*"},
+        headers={
+            "User-Agent": "ActionsOnCyberBot/1.0",
+            "Accept": "application/json,*/*",
+        },
     )
+
     response.raise_for_status()
     return response.json()
 
@@ -221,8 +333,12 @@ def fetch_text(url: str, timeout: int = 20) -> str:
     response = requests.get(
         url,
         timeout=timeout,
-        headers={"User-Agent": "ActionsOnCyberBot/1.0", "Accept": "application/rss+xml,application/atom+xml,text/xml,*/*"},
+        headers={
+            "User-Agent": "ActionsOnCyberBot/1.0",
+            "Accept": "application/rss+xml,application/atom+xml,text/xml,*/*",
+        },
     )
+
     response.raise_for_status()
     return response.text
 
@@ -242,28 +358,48 @@ def fetch_recent_cisa_kev() -> list[dict]:
         date_added_raw = item.get("dateAdded", "")
         date_added = parse_date(date_added_raw)
 
-        if not cve or not date_added or date_added.date() < cutoff:
+        if not cve:
+            continue
+
+        if not date_added:
+            continue
+
+        if date_added.date() < cutoff:
             continue
 
         vendor = item.get("vendorProject", "")
         product = item.get("product", "")
-        vulnerability_name = item.get("vulnerabilityName", "Known exploited vulnerability")
+        vulnerability_name = item.get(
+            "vulnerabilityName",
+            "Known exploited vulnerability",
+        )
         required_action = item.get("requiredAction", "")
 
-        candidates.append({
-            "key": cve,
-            "cve": cve,
-            "headline": f"{cve} added to CISA Known Exploited Vulnerabilities",
-            "source_names": ["CISA KEV"],
-            "source_weight": 40,
-            "source_headlines": [f"CISA KEV: {vulnerability_name}"],
-            "vendor": vendor,
-            "product": product,
-            "known_exploited": True,
-            "cisa_date_added": date_added_raw,
-            "cisa_required_action": required_action,
-            "raw_text": " ".join([cve, vendor, product, vulnerability_name, required_action, "known exploited actively exploited"]),
-        })
+        candidates.append(
+            {
+                "key": cve,
+                "cve": cve,
+                "headline": f"{cve} added to CISA Known Exploited Vulnerabilities",
+                "source_names": ["CISA KEV"],
+                "source_weight": 40,
+                "source_headlines": [f"CISA KEV: {vulnerability_name}"],
+                "vendor": vendor,
+                "product": product,
+                "known_exploited": True,
+                "cisa_date_added": date_added_raw,
+                "cisa_required_action": required_action,
+                "raw_text": " ".join(
+                    [
+                        cve,
+                        vendor,
+                        product,
+                        vulnerability_name,
+                        required_action,
+                        "known exploited actively exploited",
+                    ]
+                ),
+            }
+        )
 
     return candidates
 
@@ -289,18 +425,25 @@ def fetch_rss_entries() -> list[dict]:
             if published and published.astimezone(TIMEZONE) < cutoff:
                 continue
 
-            entries.append({
-                "source_name": feed["name"],
-                "source_weight": feed["weight"],
-                "title": title,
-                "summary": summary,
-                "published": published.isoformat() if published else "",
-            })
+            entries.append(
+                {
+                    "source_name": feed["name"],
+                    "source_weight": feed["weight"],
+                    "title": title,
+                    "summary": summary,
+                    "published": published.isoformat() if published else "",
+                }
+            )
 
         ns = {"atom": "http://www.w3.org/2005/Atom"}
+
         for entry in root.findall(".//atom:entry", ns):
-            title = clean_generated_text(entry.findtext("atom:title", default="", namespaces=ns))
-            summary = clean_generated_text(entry.findtext("atom:summary", default="", namespaces=ns))
+            title = clean_generated_text(
+                entry.findtext("atom:title", default="", namespaces=ns)
+            )
+            summary = clean_generated_text(
+                entry.findtext("atom:summary", default="", namespaces=ns)
+            )
             updated_raw = entry.findtext("atom:updated", default="", namespaces=ns)
             published_raw = entry.findtext("atom:published", default="", namespaces=ns)
             published = parse_date(published_raw or updated_raw)
@@ -308,13 +451,15 @@ def fetch_rss_entries() -> list[dict]:
             if published and published.astimezone(TIMEZONE) < cutoff:
                 continue
 
-            entries.append({
-                "source_name": feed["name"],
-                "source_weight": feed["weight"],
-                "title": title,
-                "summary": summary,
-                "published": published.isoformat() if published else "",
-            })
+            entries.append(
+                {
+                    "source_name": feed["name"],
+                    "source_weight": feed["weight"],
+                    "title": title,
+                    "summary": summary,
+                    "published": published.isoformat() if published else "",
+                }
+            )
 
     return entries
 
@@ -325,28 +470,67 @@ def fetch_rss_entries() -> list[dict]:
 
 def is_vulnerability_story(text: str) -> bool:
     text_l = text.lower()
+
     if extract_cves(text):
         return True
 
     indicators = [
-        "vulnerability", "vulnerabilities", "zero-day", "0-day", "security flaw", "critical flaw",
-        "rce", "remote code execution", "authentication bypass", "actively exploited",
-        "exploited in the wild", "patch", "security update", "fixes flaw", "bug exploited",
+        "vulnerability",
+        "vulnerabilities",
+        "zero-day",
+        "0-day",
+        "security flaw",
+        "critical flaw",
+        "rce",
+        "remote code execution",
+        "authentication bypass",
+        "actively exploited",
+        "exploited in the wild",
+        "patch",
+        "security update",
+        "fixes flaw",
+        "bug exploited",
     ]
+
     return any(indicator in text_l for indicator in indicators)
 
 
 def topic_key_from_entry(entry: dict) -> str:
     title = entry.get("title", "")
+
     words = re.findall(r"[A-Za-z0-9][A-Za-z0-9\-]{2,}", title.lower())
+
     stop_words = {
-        "the", "and", "for", "with", "from", "this", "that", "new", "security", "vulnerability",
-        "vulnerabilities", "flaw", "flaws", "critical", "zero", "day", "patch", "update",
-        "exploited", "hackers", "attackers", "bug", "bugs",
+        "the",
+        "and",
+        "for",
+        "with",
+        "from",
+        "this",
+        "that",
+        "new",
+        "security",
+        "vulnerability",
+        "vulnerabilities",
+        "flaw",
+        "flaws",
+        "critical",
+        "zero",
+        "day",
+        "patch",
+        "update",
+        "exploited",
+        "hackers",
+        "attackers",
+        "bug",
+        "bugs",
     }
+
     useful = [word for word in words if word not in stop_words]
+
     if not useful:
         useful = words[:6]
+
     return "topic:" + slugify("-".join(useful[:8]))
 
 
@@ -355,6 +539,7 @@ def build_news_candidates(entries: list[dict]) -> list[dict]:
 
     for entry in entries:
         text = f"{entry.get('title', '')} {entry.get('summary', '')}"
+
         if not is_vulnerability_story(text):
             continue
 
@@ -383,7 +568,9 @@ def build_news_candidates(entries: list[dict]) -> list[dict]:
                 candidate["source_names"].append(source_name)
                 candidate["source_weight"] += int(entry.get("source_weight", 10))
 
-            candidate["source_headlines"].append(f"{source_name}: {entry.get('title', '')}")
+            candidate["source_headlines"].append(
+                f"{source_name}: {entry.get('title', '')}"
+            )
             candidate["raw_text"] += " " + text
 
     for candidate in grouped.values():
@@ -398,6 +585,7 @@ def merge_candidates(cisa_candidates: list[dict], news_candidates: list[dict]) -
 
     for candidate in cisa_candidates + news_candidates:
         key = candidate.get("key", "")
+
         if not key:
             continue
 
@@ -406,13 +594,20 @@ def merge_candidates(cisa_candidates: list[dict], news_candidates: list[dict]) -
             continue
 
         existing = merged[key]
+
         existing["headline"] = existing.get("headline") or candidate.get("headline", "")
         existing["cve"] = existing.get("cve") or candidate.get("cve", "")
         existing["vendor"] = existing.get("vendor") or candidate.get("vendor", "")
         existing["product"] = existing.get("product") or candidate.get("product", "")
-        existing["known_exploited"] = existing.get("known_exploited", False) or candidate.get("known_exploited", False)
-        existing["source_weight"] = existing.get("source_weight", 0) + candidate.get("source_weight", 0)
-        existing["raw_text"] = existing.get("raw_text", "") + " " + candidate.get("raw_text", "")
+        existing["known_exploited"] = existing.get("known_exploited", False) or candidate.get(
+            "known_exploited", False
+        )
+        existing["source_weight"] = existing.get("source_weight", 0) + candidate.get(
+            "source_weight", 0
+        )
+        existing["raw_text"] = existing.get("raw_text", "") + " " + candidate.get(
+            "raw_text", ""
+        )
 
         for source in candidate.get("source_names", []):
             if source not in existing["source_names"]:
@@ -431,6 +626,7 @@ def merge_candidates(cisa_candidates: list[dict], news_candidates: list[dict]) -
 
 def enrich_with_nvd(candidate: dict) -> dict:
     cve = candidate.get("cve", "")
+
     if not cve:
         return candidate
 
@@ -448,11 +644,14 @@ def enrich_with_nvd(candidate: dict) -> dict:
         return candidate
 
     vulnerabilities = data.get("vulnerabilities", [])
+
     if not vulnerabilities:
         return candidate
 
     cve_data = vulnerabilities[0].get("cve", {})
+
     description = ""
+
     for desc in cve_data.get("descriptions", []):
         if desc.get("lang") == "en":
             description = desc.get("value", "")
@@ -460,6 +659,7 @@ def enrich_with_nvd(candidate: dict) -> dict:
 
     severity = ""
     metrics = cve_data.get("metrics", {})
+
     for group in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
         if group in metrics and metrics[group]:
             severity = metrics[group][0].get("cvssData", {}).get("baseSeverity", "")
@@ -472,6 +672,7 @@ def enrich_with_nvd(candidate: dict) -> dict:
 
     if "NVD" not in candidate["source_names"]:
         candidate["source_names"].append("NVD")
+
     candidate["source_count"] = len(candidate["source_names"])
 
     return candidate
@@ -479,7 +680,14 @@ def enrich_with_nvd(candidate: dict) -> dict:
 
 def reputable_signal_count(candidate: dict) -> int:
     ignored = {"NVD"}
-    return len([source for source in candidate.get("source_names", []) if source not in ignored])
+
+    return len(
+        [
+            source
+            for source in candidate.get("source_names", [])
+            if source not in ignored
+        ]
+    )
 
 
 def score_candidate(candidate: dict) -> dict:
@@ -493,6 +701,7 @@ def score_candidate(candidate: dict) -> dict:
         reasons.append("Listed by CISA as a known exploited vulnerability")
 
     real_reporting_sources = reputable_signal_count(candidate)
+
     if real_reporting_sources >= 3:
         score += 35
         reasons.append("Reported by three or more reputable sources")
@@ -505,17 +714,29 @@ def score_candidate(candidate: dict) -> dict:
 
     score += min(candidate.get("source_weight", 0), 35)
 
-    matched_high_signal = [keyword for keyword in HIGH_SIGNAL_KEYWORDS if keyword in combined]
+    matched_high_signal = [
+        keyword for keyword in HIGH_SIGNAL_KEYWORDS if keyword in combined
+    ]
+
     if matched_high_signal:
         score += min(30, 10 + len(matched_high_signal) * 4)
-        reasons.append("High-signal language: " + ", ".join(matched_high_signal[:5]))
+        reasons.append(
+            "High-signal language: " + ", ".join(matched_high_signal[:5])
+        )
 
-    matched_sme = [keyword for keyword in SMALL_BUSINESS_TECH_KEYWORDS if keyword in combined]
+    matched_sme = [
+        keyword for keyword in SMALL_BUSINESS_TECH_KEYWORDS if keyword in combined
+    ]
+
     if matched_sme:
         score += min(25, 8 + len(matched_sme) * 3)
-        reasons.append("Relevant to common small-business technology: " + ", ".join(matched_sme[:5]))
+        reasons.append(
+            "Relevant to common small-business technology: "
+            + ", ".join(matched_sme[:5])
+        )
 
     severity = candidate.get("severity", "").upper()
+
     if severity == "CRITICAL":
         score += 15
         reasons.append("Critical severity")
@@ -527,27 +748,41 @@ def score_candidate(candidate: dict) -> dict:
         score += 5
         reasons.append(f"Tracked as {candidate.get('cve')}")
 
-    if any(word in combined for word in ["patch", "update", "upgrade", "mitigation", "fix", "disable", "workaround"]):
+    action_words = [
+        "patch",
+        "update",
+        "upgrade",
+        "mitigation",
+        "fix",
+        "disable",
+        "workaround",
+    ]
+
+    if any(word in combined for word in action_words):
         score += 8
         reasons.append("There appears to be a practical action available")
 
     candidate["score"] = score
     candidate["score_reasons"] = reasons
+
     return candidate
 
 
 def has_news_reporting(candidate: dict) -> bool:
     news_sources = {feed["name"] for feed in TRUSTED_NEWS_FEEDS}
+
     return any(source in news_sources for source in candidate.get("source_names", []))
 
 
 def is_sme_relevant(candidate: dict) -> bool:
     combined = f"{candidate.get('headline', '')} {candidate.get('raw_text', '')}".lower()
+
     return any(keyword in combined for keyword in SMALL_BUSINESS_TECH_KEYWORDS)
 
 
 def passes_editorial_judgement(candidate: dict, seen_items: set[str]) -> bool:
     key = candidate.get("key", "")
+
     if not key:
         return False
 
@@ -571,10 +806,19 @@ def passes_editorial_judgement(candidate: dict, seen_items: set[str]) -> bool:
         return True
 
     if real_sources >= 2 and news_reporting and sme_relevant and score >= 70:
-        print(f"Selected SME-relevant reported item: {key} score={score} sources={real_sources}")
+        print(
+            f"Selected SME-relevant reported item: {key} "
+            f"score={score} sources={real_sources}"
+        )
         return True
 
-    if real_sources >= 1 and news_reporting and sme_relevant and severity in {"CRITICAL", "HIGH"} and score >= 80:
+    if (
+        real_sources >= 1
+        and news_reporting
+        and sme_relevant
+        and severity in {"CRITICAL", "HIGH"}
+        and score >= 80
+    ):
         print(f"Selected high-severity SME item: {key} score={score}")
         return True
 
@@ -584,11 +828,14 @@ def passes_editorial_judgement(candidate: dict, seen_items: set[str]) -> bool:
 
 def select_publish_candidates(candidates: list[dict], seen_items: set[str]) -> list[dict]:
     selected = []
+
     for candidate in candidates:
         if passes_editorial_judgement(candidate, seen_items):
             selected.append(candidate)
+
         if len(selected) >= EDITORIAL_MAX_ARTICLES:
             break
+
     return selected
 
 
@@ -610,6 +857,7 @@ def build_candidate_context(candidate: dict) -> str:
         ("CISA required action", "cisa_required_action"),
     ]:
         value = clean_generated_text(candidate.get(field, ""))
+
         if value:
             lines.append(f"{label}: {value}")
 
@@ -617,11 +865,14 @@ def build_candidate_context(candidate: dict) -> str:
         lines.append("CISA KEV: This vulnerability is listed as known exploited.")
 
     lines.append(f"Editorial score: {candidate.get('score', 0)}")
+
     lines.append("Reasons this was selected:")
+
     for reason in candidate.get("score_reasons", []):
         lines.append(f"- {clean_generated_text(reason)}")
 
     lines.append("Reporting signals/headlines:")
+
     for headline in candidate.get("source_headlines", []):
         lines.append(f"- {clean_generated_text(headline)}")
 
@@ -630,10 +881,12 @@ def build_candidate_context(candidate: dict) -> str:
 
 def generate_article(candidate: dict, brief_date: datetime.date) -> dict:
     api_key = os.environ.get("OPENAI_API_KEY")
+
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is not set.")
 
     client = OpenAI(api_key=api_key)
+
     context = build_candidate_context(candidate)
 
     system_prompt = """
@@ -666,7 +919,8 @@ Rules:
     user_prompt = f"""
 Create a vulnerability brief for {brief_date.strftime('%d %B %Y')}.
 
-This item has passed editorial selection because reputable sources are reporting it, it appears in CISA KEV, or it is relevant to common small-business technology.
+This item has passed editorial selection because reputable sources are reporting it,
+it appears in CISA KEV, or it is relevant to common small-business technology.
 
 Source context:
 {context}
@@ -718,6 +972,7 @@ Before returning JSON, check there are no raw URLs, no encoded fragments, no API
     article["candidate_key"] = candidate.get("key", "")
     article["selection_score"] = candidate.get("score", 0)
     article["selection_reasons"] = candidate.get("score_reasons", [])
+
     if candidate.get("cve"):
         article["cve"] = candidate.get("cve")
 
@@ -730,15 +985,21 @@ Before returning JSON, check there are no raw URLs, no encoded fragments, no API
 
 def render_article_page(article: dict, brief_date: datetime.date) -> str:
     cve = article.get("cve", "")
-    cve_html = f'<p class="meta">Reference: {esc(cve)}</p>' if cve else ""
+    cve_html = f'<p class="small"><strong>Reference:</strong> {esc(cve)}</p>' if cve else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="{esc(article.get('summary', ''))}" />
+
+  <meta
+    name="description"
+    content="{esc(article.get('summary', ''))}"
+  />
+
   <title>{esc(article.get('title', 'Daily Int Brief'))} | Actions On Cyber</title>
+
   <link rel="stylesheet" href="../../assets/styles.css" />
   <link rel="icon" href="../../assets/actions-on-cyber-logo.svg" type="image/svg+xml" />
 </head>
@@ -754,39 +1015,44 @@ def render_article_page(article: dict, brief_date: datetime.date) -> str:
 </div>
 
 <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="../../index.html" aria-label="Actions On Cyber home">
+  <div class="container header-inner">
+    <a class="logo-link" href="/index.html" aria-label="Actions On Cyber home">
       <img src="../../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" />
     </a>
 
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="../../index.html">Start Here</a>
-      <a href="../actions-on.html">Actions On</a>
-      <a href="../daily-int-brief.html">Daily Int Brief</a>
-      <a href="../cyber-stand-to.html">Cyber Stand-To</a>
-      <a href="../field-manual.html">Field Manual</a>
-      <a href="../training.html">Training</a>
-      <a href="../consultancy.html">Consultancy</a>
+    <button class="mobile-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="/index.html">Start Here</a>
+      <a href="/pages/actions-on.html">Actions On</a>
+      <a href="/pages/daily-int-brief.html" aria-current="page">Daily Int Brief</a>
+      <a href="/pages/cyber-stand-to.html">Cyber Stand-To</a>
+      <a href="/pages/field-manual.html">Field Manual</a>
+      <a href="/pages/training.html">Training</a>
+      <a href="/pages/consultancy.html">Consultancy</a>
     </nav>
 
-    <a class="nav-email" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
-    <a class="btn btn-primary" href="../contact.html">Contact</a>
+    <div class="header-actions">
+      <a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+      <a class="btn btn-teal" href="/pages/contact.html">Contact</a>
+    </div>
   </div>
 </header>
 
 <main id="main">
+
   <section class="page-hero">
-    <div class="container narrow">
-      <span class="eyebrow">Daily Int Brief</span>
+    <div class="container page-title">
+      <a class="breadcrumb" href="/pages/daily-int-brief.html">← Back to Daily Int Briefs</a>
       <h1>{esc(article.get('title', 'Daily Int Brief'))}</h1>
       <p>{esc(article.get('summary', ''))}</p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container narrow">
-      <article class="content-card daily-brief-article">
-        <p class="meta">{brief_date.strftime('%d %B %Y')}</p>
+    <div class="container">
+      <article class="article daily-brief-article">
+        <p class="small"><strong>{brief_date.strftime('%d %B %Y')}</strong></p>
         {cve_html}
 
         <h2>1. What is being reported?</h2>
@@ -809,23 +1075,52 @@ def render_article_page(article: dict, brief_date: datetime.date) -> str:
         <h2>6. Bottom line</h2>
         <p>{esc(article.get('bottom_line', ''))}</p>
 
-        <p class="meta">{esc(article.get('source_note', ''))}</p>
+        <p class="small">{esc(article.get('source_note', ''))}</p>
 
-        <p><a class="btn btn-secondary" href="../daily-int-brief.html">Back to Daily Int Briefs</a></p>
+        <p>
+          <a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a>
+        </p>
       </article>
     </div>
   </section>
+
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
+  <div class="container footer-grid">
     <div>
-      <strong>Actions On Cyber</strong>
-      <p>Practical cyber support for organisations without a security team.</p>
+      <img src="../../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" style="max-width:280px" />
+      <p class="small">Free cyber drills, Daily Int Briefs, templates and practical guidance for organisations without a security team.</p>
+      <p><a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a></p>
+      <p class="small">Defensive guidance only. Templates are starting points, not legal advice.</p>
     </div>
-    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+
+    <div>
+      <h4>Guidance</h4>
+      <a href="/pages/actions-on.html">Actions On</a>
+      <a href="/pages/daily-int-brief.html">Daily Int Brief</a>
+      <a href="/pages/cyber-stand-to.html">Cyber Stand-To</a>
+      <a href="/pages/field-manual.html">Field Manual</a>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <a href="/pages/training.html">Training</a>
+      <a href="/pages/consultancy.html">Consultancy</a>
+      <a href="/pages/contact.html">Contact</a>
+      <a href="/pages/about.html">About</a>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <a href="/pages/privacy.html">Privacy</a>
+      <a href="/pages/terms.html">Terms & Disclaimer</a>
+      <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+    </div>
   </div>
 </footer>
+
+<script src="../../assets/script.js"></script>
 </body>
 </html>
 """
@@ -833,17 +1128,17 @@ def render_article_page(article: dict, brief_date: datetime.date) -> str:
 
 def render_article_card(article: dict, brief_date: datetime.date, relative_url: str) -> str:
     cve = article.get("cve", "")
-    cve_line = f'<p class="meta">{esc(cve)}</p>' if cve else ""
+    cve_line = f'<p class="small"><strong>{esc(cve)}</strong></p>' if cve else ""
 
     return f"""
-      <article class="content-card daily-brief-card">
-        <span class="pill">{esc(article.get('tag', 'New Vulnerability'))}</span>
-        <p class="meta">{brief_date.strftime('%d %B %Y')}</p>
-        {cve_line}
-        <h3>{esc(article.get('title', 'Daily Int Brief'))}</h3>
-        <p>{esc(article.get('summary', ''))}</p>
-        <a class="btn btn-secondary" href="{esc(relative_url)}">Read brief</a>
-      </article>
+        <article class="card daily-brief-card">
+          <span class="tag">{esc(article.get('tag', 'New Vulnerability'))}</span>
+          <p class="small"><strong>{brief_date.strftime('%d %B %Y')}</strong></p>
+          {cve_line}
+          <h3>{esc(article.get('title', 'Daily Int Brief'))}</h3>
+          <p>{esc(article.get('summary', ''))}</p>
+          <a class="btn btn-secondary" href="/pages/{esc(relative_url)}">Read brief</a>
+        </article>
 """.rstrip()
 
 
@@ -858,26 +1153,33 @@ def update_daily_brief_index(cards_html: list[str]) -> None:
 
     if BRIEF_SECTION_START not in content or BRIEF_SECTION_END not in content:
         raise RuntimeError(
-            f"Could not find markers in {DAILY_BRIEF_INDEX}. Add {BRIEF_SECTION_START} and {BRIEF_SECTION_END}."
+            f"Could not find markers in {DAILY_BRIEF_INDEX}. "
+            f"Add {BRIEF_SECTION_START} and {BRIEF_SECTION_END}."
         )
 
     before, rest = content.split(BRIEF_SECTION_START, 1)
     existing_cards, after = rest.split(BRIEF_SECTION_END, 1)
 
     new_cards = []
+
     for card in cards_html:
         href_match = re.search(r'href="([^"]+)"', card)
         href = href_match.group(1) if href_match else ""
+
         if href and href in existing_cards:
             print(f"Skipping duplicate card for {href}")
             continue
+
         new_cards.append(card)
 
     if not new_cards:
         return
 
     updated_cards = "\n" + "\n".join(new_cards) + "\n" + existing_cards.strip() + "\n"
-    DAILY_BRIEF_INDEX.write_text(before + BRIEF_SECTION_START + updated_cards + BRIEF_SECTION_END + after, encoding="utf-8")
+
+    updated_content = before + BRIEF_SECTION_START + updated_cards + BRIEF_SECTION_END + after
+
+    DAILY_BRIEF_INDEX.write_text(updated_content, encoding="utf-8")
 
 
 # ============================================================
@@ -886,6 +1188,7 @@ def update_daily_brief_index(cards_html: list[str]) -> None:
 
 def main() -> None:
     today = now_london().date()
+
     BRIEF_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     seen_items = load_seen_items()
@@ -905,6 +1208,7 @@ def main() -> None:
     print(f"Merged candidates: {len(candidates)}")
 
     enriched = []
+
     for candidate in candidates:
         candidate = enrich_with_nvd(candidate)
         candidate = score_candidate(candidate)
@@ -913,10 +1217,13 @@ def main() -> None:
     enriched.sort(key=lambda item: item.get("score", 0), reverse=True)
 
     print("Top editorial candidates:")
+
     for candidate in enriched[:10]:
         print(
-            f"- {candidate.get('key')} | score={candidate.get('score')} | "
-            f"sources={candidate.get('source_names')} | headline={candidate.get('headline')}"
+            f"- {candidate.get('key')} | "
+            f"score={candidate.get('score')} | "
+            f"sources={candidate.get('source_names')} | "
+            f"headline={candidate.get('headline')}"
         )
 
     publish_candidates = select_publish_candidates(enriched, seen_items)
@@ -930,17 +1237,24 @@ def main() -> None:
 
     for candidate in publish_candidates:
         print(f"Generating article for {candidate.get('key')}...")
+
         article = generate_article(candidate, today)
 
         date_slug = today.strftime("%Y-%m-%d")
         key_slug = slugify(candidate.get("key", "brief"))
         title_slug = slugify(article.get("title", f"daily-int-brief-{date_slug}"))
+
         filename = f"{date_slug}-{key_slug}-{title_slug}.html"
 
         output_path = BRIEF_OUTPUT_DIR / filename
-        output_path.write_text(render_article_page(article, today), encoding="utf-8")
+
+        output_path.write_text(
+            render_article_page(article, today),
+            encoding="utf-8",
+        )
 
         relative_url = f"daily-int-briefs/{filename}"
+
         cards.append(render_article_card(article, today, relative_url))
         published_keys.append(candidate.get("key", ""))
 
@@ -951,6 +1265,7 @@ def main() -> None:
     for key in published_keys:
         if key:
             seen_items.add(key)
+
     save_seen_items(seen_items)
 
     print(f"Published {len(published_keys)} vulnerability brief(s).")
