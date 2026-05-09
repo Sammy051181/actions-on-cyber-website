@@ -36,8 +36,10 @@ jobs:
       - name: Generate Daily Int Brief
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PUBLISH_SCORE_THRESHOLD: "40"
-          MAX_ARTICLES_PER_RUN: "3"
+          EDITORIAL_SCORE_THRESHOLD: "75"
+          EDITORIAL_MAX_ARTICLES: "3"
+          CISA_KEV_LOOKBACK_DAYS: "2"
+          NEWS_LOOKBACK_HOURS: "72"
         run: python scripts/generate_daily_int_brief.py
 
       - name: Commit and push changes
