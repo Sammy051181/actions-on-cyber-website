@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Actions On Cyber Daily Int Brief — 09 May 2026 | Actions On Cyber</title>
+  <title>Actions On Cyber Daily Int Brief: 09 May 2026 | Actions On Cyber</title>
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
           <p><strong>Date:</strong><br>09 May 2026</p>
           <p><strong>Archive:</strong><br>May 2026</p>
           <p><strong>Rating:</strong><br>Act Now</p>
-          <p><strong>Tags:</strong><br>UK, SME, charities, community-organisations, KEV, vulnerability-management, edge-devices, firewalls, hosting-panels, mobile-device-management, NCSC, CISA</p>
+          <p><strong>Tags:</strong><br>Daily Int Brief, UK small business, charities, community organisations, known exploited vulnerabilities, PAN-OS, perimeter security, urgent mitigation, CISA KEV, NCSC</p>
           <p><a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a></p>
           <p><a class="btn btn-secondary" href="/pages/daily/May-2026/index.html">View May 2026 Archive</a></p>
         </div>
@@ -24,30 +24,29 @@
       <article class="article">
         <p class="small"><strong>09 May 2026</strong></p>
 
-        <h1>Daily Int Brief: Actions On Cyber Daily Int Brief — 09 May 2026</h1>
+        <h1>Daily Int Brief: Actions On Cyber Daily Int Brief: 09 May 2026</h1>
 
         <div class="danger">
           <strong>Relevance rating: Act Now</strong>
         </div>
 
         <h2>Executive Summary</h2>
-        <p>The most urgent issue for UK small businesses, charities, clubs and community groups today is a new wave of high-risk edge and admin portal vulnerabilities being actively tracked by CISA and vendors. Of the listed KEV items, Palo Alto PAN-OS CVE-2026-0300 has the tightest deadline today (09 May 2026), and CISA has also added Ivanti EPMM, LiteLLM, Linux kernel and cPanel-related issues to its exploited list. For non-technical organisations, the practical message is simple: if you use any of these products, confirm patch status now, apply vendor mitigation guidance, and ask your provider whether you are exposed. ([cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A800&amp;f%5B10%5D=vendor_project%3A842&amp;f%5B11%5D=vendor_project%3A845&amp;f%5B12%5D=vendor_project%3A851&amp;f%5B13%5D=vendor_project%3A854&amp;f%5B14%5D=vendor_project%3A858&amp;f%5B15%5D=vendor_project%3A866&amp;f%5B16%5D=vendor_project%3A872&amp;f%5B17%5D=vendor_project%3A886&amp;f%5B18%5D=vendor_project%3A892&amp;f%5B19%5D=vendor_project%3A893&amp;f%5B1%5D=vendor_project%3A801&amp;f%5B20%5D=vendor_project%3A900&amp;f%5B21%5D=vendor_project%3A902&amp;f%5B22%5D=vendor_project%3A909&amp;f%5B23%5D=vendor_project%3A915&amp;f%5B24%5D=vendor_project%3A917&amp;f%5B25%5D=vendor_project%3A927&amp;f%5B26%5D=vendor_project%3A931&amp;f%5B27%5D=vendor_project%3A938&amp;f%5B28%5D=vendor_project%3A940&amp;f%5B29%5D=vendor_project%3A945&amp;f%5B2%5D=vendor_project%3A809&amp;f%5B3%5D=vendor_project%3A813&amp;f%5B4%5D=vendor_project%3A817&amp;f%5B5%5D=vendor_project%3A820&amp;f%5B6%5D=vendor_project%3A823&amp;f%5B7%5D=vendor_project%3A824&amp;f%5B8%5D=vendor_project%3A828&amp;f%5B9%5D=vendor_project%3A837&amp;page=1&amp;utm_source=openai))</p>
+        <p>The most urgent issue for UK small organisations today is a critical Palo Alto Networks PAN-OS vulnerability in the User-ID Authentication Portal. Palo Alto says the issue is being actively attacked, and the workaround is to restrict portal access to trusted zones or disable it if it is not needed. For any organisation that uses Palo Alto firewalls, this should be treated as an immediate check-and-fix item. If you do not use Palo Alto, the broader message still matters: edge devices and remote access systems are high-value targets, and exposed admin or authentication services should be reviewed now. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=openai))</p>
 
         <h2>Situation</h2>
-        <p>CISA’s Known Exploited Vulnerabilities catalog is the clearest signal of what attackers are actively using in the wild, and it should be treated as a priority list rather than a general vulnerability feed. On the UK side, the NCSC has recently warned about attackers abusing vulnerable edge devices and public-facing services, which makes internet-facing infrastructure and admin portals especially important to check. For smaller organisations, this is usually a supplier or hosted-service issue rather than an in-house technical project, so the first step is to identify whether you use any affected products or rely on a managed provider that does. ([cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A800&amp;f%5B10%5D=vendor_project%3A842&amp;f%5B11%5D=vendor_project%3A845&amp;f%5B12%5D=vendor_project%3A851&amp;f%5B13%5D=vendor_project%3A854&amp;f%5B14%5D=vendor_project%3A858&amp;f%5B15%5D=vendor_project%3A866&amp;f%5B16%5D=vendor_project%3A872&amp;f%5B17%5D=vendor_project%3A886&amp;f%5B18%5D=vendor_project%3A892&amp;f%5B19%5D=vendor_project%3A893&amp;f%5B1%5D=vendor_project%3A801&amp;f%5B20%5D=vendor_project%3A900&amp;f%5B21%5D=vendor_project%3A902&amp;f%5B22%5D=vendor_project%3A909&amp;f%5B23%5D=vendor_project%3A915&amp;f%5B24%5D=vendor_project%3A917&amp;f%5B25%5D=vendor_project%3A927&amp;f%5B26%5D=vendor_project%3A931&amp;f%5B27%5D=vendor_project%3A938&amp;f%5B28%5D=vendor_project%3A940&amp;f%5B29%5D=vendor_project%3A945&amp;f%5B2%5D=vendor_project%3A809&amp;f%5B3%5D=vendor_project%3A813&amp;f%5B4%5D=vendor_project%3A817&amp;f%5B5%5D=vendor_project%3A820&amp;f%5B6%5D=vendor_project%3A823&amp;f%5B7%5D=vendor_project%3A824&amp;f%5B8%5D=vendor_project%3A828&amp;f%5B9%5D=vendor_project%3A837&amp;page=1&amp;utm_source=openai))</p>
+        <p>Palo Alto Networks published an advisory for CVE-2026-0300 on 5 May 2026. The company says the flaw affects PAN-OS User-ID Authentication Portal and is being attacked in the wild. The vendor notes that risk is reduced when access to the portal is limited to trusted internal IP addresses, and that Prisma Access, Cloud NGFW and Panorama are not impacted. For non-technical leaders, the practical point is simple: if you have a Palo Alto firewall in use, ask whether the User-ID Authentication Portal is enabled and whether it is exposed beyond trusted zones. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=openai))</p>
 
         <h2>Who should care</h2>
-        <ul><li>Charities and community groups using hosted web platforms, admin portals, or outsourced IT</li>
-<li>Small businesses running internet-facing security appliances or remote access services</li>
-<li>Organisations using cPanel/WHM or WordPress hosting platforms</li>
-<li>Teams using Ivanti EPMM for mobile device management</li>
-<li>Any organisation that relies on a third-party IT provider to patch and monitor systems</li></ul>
+        <ul><li>Any organisation using Palo Alto Networks PAN-OS firewalls</li>
+<li>IT providers and managed service providers supporting firewalls or remote access systems</li>
+<li>Small businesses, charities and clubs that rely on externally exposed admin portals</li>
+<li>Organisations without in-house security teams that depend on a supplier for patching and perimeter protection</li></ul>
 
         <h2>Why it matters</h2>
-        <p>A public-facing vulnerability in a firewall, VPN, hosting panel or mobile management platform can be used as an entry point into the rest of your systems. For small organisations, that can mean account takeover, website defacement, email compromise, data theft, or ransomware disruption. The practical risk is not only the flaw itself, but slow patching, forgotten hosted services, and providers that have not yet confirmed whether they are affected. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=openai))</p>
+        <p>Edge devices are a common way into small organisations because they sit on the internet and often support remote access, login or admin functions. When a flaw is already being attacked, the priority is not investigation first, but reducing exposure first. If your supplier says the service is not needed, switch it off. If it is needed, confirm it is restricted to trusted zones and patched or mitigated as soon as possible. This is especially important for small organisations that may not notice compromise quickly. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=openai))</p>
 
         <h2>Top 5 Known Exploited Vulnerabilities</h2>
-        <p>1) CVE-2026-42208 — BerriAI LiteLLM SQL Injection Vulnerability. Date added: 2026-05-08. Due: 2026-05-11. Action: apply vendor mitigations or stop using the product if mitigations are not available. 2) CVE-2026-6973 — Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability. Date added: 2026-05-07. Due: 2026-05-10. Action: apply vendor mitigations or stop using the product if mitigations are not available. 3) CVE-2026-0300 — Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability. Date added: 2026-05-06. Due: 2026-05-09. Action: apply mitigations; until an official fix is released, restrict User-ID Authentication Portal access to trusted zones and disable it if not required. 4) CVE-2026-31431 — Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability. Date added: 2026-05-01. Due: 2026-05-15. Action: apply vendor mitigations or stop using the product if mitigations are not available. 5) CVE-2026-41940 — WebPros cPanel &amp; WHM and WP2 Missing Authentication for Critical Function Vulnerability. Date added: 2026-04-30. Due: 2026-05-03. Action: apply vendor mitigations or stop using the product if mitigations are not available. ([cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A800&amp;f%5B10%5D=vendor_project%3A842&amp;f%5B11%5D=vendor_project%3A845&amp;f%5B12%5D=vendor_project%3A851&amp;f%5B13%5D=vendor_project%3A854&amp;f%5B14%5D=vendor_project%3A858&amp;f%5B15%5D=vendor_project%3A866&amp;f%5B16%5D=vendor_project%3A872&amp;f%5B17%5D=vendor_project%3A886&amp;f%5B18%5D=vendor_project%3A892&amp;f%5B19%5D=vendor_project%3A893&amp;f%5B1%5D=vendor_project%3A801&amp;f%5B20%5D=vendor_project%3A900&amp;f%5B21%5D=vendor_project%3A902&amp;f%5B22%5D=vendor_project%3A909&amp;f%5B23%5D=vendor_project%3A915&amp;f%5B24%5D=vendor_project%3A917&amp;f%5B25%5D=vendor_project%3A927&amp;f%5B26%5D=vendor_project%3A931&amp;f%5B27%5D=vendor_project%3A938&amp;f%5B28%5D=vendor_project%3A940&amp;f%5B29%5D=vendor_project%3A945&amp;f%5B2%5D=vendor_project%3A809&amp;f%5B3%5D=vendor_project%3A813&amp;f%5B4%5D=vendor_project%3A817&amp;f%5B5%5D=vendor_project%3A820&amp;f%5B6%5D=vendor_project%3A823&amp;f%5B7%5D=vendor_project%3A824&amp;f%5B8%5D=vendor_project%3A828&amp;f%5B9%5D=vendor_project%3A837&amp;page=1&amp;utm_source=openai))</p>
+        <p>CISA KEV items provided for today: 1) CVE-2026-42208 — BerriAI LiteLLM SQL Injection Vulnerability; added 2026-05-08; due 2026-05-11. 2) CVE-2026-6973 — Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability; added 2026-05-07; due 2026-05-10. 3) CVE-2026-0300 — Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability; added 2026-05-06; due 2026-05-09. 4) CVE-2026-31431 — Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability; added 2026-05-01; due 2026-05-15. 5) CVE-2026-41940 — WebPros cPanel &amp; WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability; added 2026-04-30; due 2026-05-03. Treat the due dates as urgent action dates, especially for internet-facing systems. ([nvd.nist.gov](https://nvd.nist.gov/vuln/detail/CVE-2026-6973?utm_source=openai))</p>
         
     <div class="table-wrap">
       <table>
@@ -114,30 +113,31 @@
     
 
         <h2>Actions On</h2>
-        <ol><li>Ask your IT provider or hosting company today whether you use PAN-OS, Ivanti EPMM, LiteLLM, cPanel/WHM, WP2, or affected Linux kernel versions.</li>
-<li>If you use Palo Alto PAN-OS, confirm whether CVE-2026-0300 is patched and whether User-ID Authentication Portal access is restricted to trusted zones or disabled if unnecessary.</li>
-<li>If you use Ivanti EPMM, LiteLLM, or cPanel/WHM/WP2, request confirmation of patching and any compensating controls already in place.</li>
-<li>Check whether any internet-facing admin portal, VPN, firewall, mobile device manager, or hosting panel is exposed to the public internet.</li>
-<li>Review recent sign-in alerts, account changes, and website or mail logs for unusual activity.</li>
-<li>Make sure backups are current and that you know how to restore key services if a provider asks you to take a system offline.</li></ol>
+        <ol><li>Check whether your organisation uses Palo Alto PAN-OS and whether the User-ID Authentication Portal is enabled.</li>
+<li>If the portal is not required, disable it now.</li>
+<li>If the portal is required, restrict access to trusted internal zones only, as the vendor advises.</li>
+<li>Ask your IT provider whether PAN-OS devices are on a fixed, vulnerable version and whether the vendor fix has been applied.</li>
+<li>Review all internet-facing admin, login and remote-access services for anything that can be turned off or narrowed to trusted addresses.</li>
+<li>For the KEV items, confirm whether you use any of the listed products and put each one on a same-day or next-business-day remediation plan based on the due date.</li></ol>
 
         <h2>Question to ask your IT provider</h2>
         <div class="success">
-          Are we using any of the five CISA KEV items listed today, are they patched, and if not, what compensating controls or service changes are in place right now?
+          Do we use any Palo Alto PAN-OS devices, is the User-ID Authentication Portal enabled, is it restricted to trusted zones only, and have you applied the vendor mitigation or upgrade for CVE-2026-0300? Please also confirm whether any of the other CISA KEV items listed today affect us.
         </div>
 
         <h2>After-action review</h2>
-        <ul><li>Did we identify every internet-facing system and provider service that matters to us?</li>
-<li>Did our provider confirm patching or mitigations for any KEV-listed products?</li>
-<li>Do we have a named owner for urgent vendor advisories in future?</li>
-<li>Would we know who to call and what to disconnect if an exposed service were compromised?</li></ul>
+        <ul><li>Did we identify every exposed firewall, VPN, admin portal and remote-access service we run?</li>
+<li>Did we confirm whether the affected feature was enabled and externally reachable?</li>
+<li>Did we record who owns the fix and the deadline for each KEV item that applies to us?</li>
+<li>Did we ask the supplier for written confirmation of patching or mitigation?</li>
+<li>Did we check for signs of unusual access or alerts around the affected system?</li></ul>
 
         <h2>Sources</h2>
-        <ul><li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
-<li><a href="https://security.paloaltonetworks.com/CVE-2026-0300">Palo Alto Networks: CVE-2026-0300 PAN-OS advisory</a></li>
-<li><a href="https://www.ncsc.gov.uk/news/uk-exposes-russian-military-intelligence-hijacking-vulnerable-routers-for-cyber-attacks">NCSC: UK exposes Russian military intelligence hijacking vulnerable routers for cyber attacks</a></li>
-<li><a href="https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices">NCSC: Executive Summary - Defending against China-nexus covert networks of compromised devices</a></li>
-<li><a href="https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/2-protecting-your-devices">NCSC: Small organisations guide to cyber security - Protecting your devices</a></li></ul>
+        <ul><li><a href="https://security.paloaltonetworks.com/CVE-2026-0300">Palo Alto Networks Security Advisory for CVE-2026-0300</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0300">NVD entry for CVE-2026-0300</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-6973">NVD entry for CVE-2026-6973</a></li>
+<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
+<li><a href="https://www.ncsc.gov.uk/news">NCSC news and guidance on vulnerabilities and protective action</a></li></ul>
         <ul>
           <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
           <li><a href="https://github.com/cisagov/kev-data">CISA KEV JSON/CSV data mirror</a></li>
