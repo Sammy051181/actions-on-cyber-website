@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Actions On Cyber Daily Int Brief: PAN-OS flaw now in CISA KEV, with patching pressure building | Actions On Cyber</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  
+  <main class="section">
+    <div class="container content-layout">
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Brief details</h3>
+          <p><strong>Date:</strong><br>09 May 2026</p>
+          <p><strong>Archive:</strong><br>May 2026</p>
+          <p><strong>Rating:</strong><br>Act Now</p>
+          <p><strong>Tags:</strong><br>Daily Int Brief, UK SMB, Charities, Community organisations, CISA KEV, Active exploitation, Firewall, Palo Alto Networks, Patch management, Perimeter security</p>
+          <p><a class="btn btn-secondary" href="/pages/daily-int-brief.html">Back to Daily Int Briefs</a></p>
+          <p><a class="btn btn-secondary" href="/pages/daily/May-2026/index.html">View May 2026 Archive</a></p>
+        </div>
+      </aside>
+
+      <article class="article">
+        <p class="small"><strong>09 May 2026</strong></p>
+
+        <h1>Daily Int Brief: Actions On Cyber Daily Int Brief: PAN-OS flaw now in CISA KEV, with patching pressure building</h1>
+
+        <div class="danger">
+          <strong>Relevance rating: Act Now</strong>
+        </div>
+
+        <h2>Executive Summary</h2>
+        <p>The strongest current issue for UK small organisations is the actively exploited Palo Alto Networks PAN-OS vulnerability, CVE-2026-0300. Palo Alto says exploitation has been observed on internet-exposed User-ID Authentication Portal services, and CISA has added the issue to its Known Exploited Vulnerabilities list. For non-technical organisations, the key point is simple: if you use Palo Alto firewalls or a managed service built on them, check urgently whether the affected portal is exposed to the internet and apply the vendor workaround or patch path immediately. NCSC’s current guidance also stresses that organisations should prioritise external attack surfaces first and accelerate patching when active exploitation is happening. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300))</p>
+
+        <h2>Situation</h2>
+        <p>This week’s signal is not a broad phishing trend or a vague warning: it is a specific, actively exploited firewall vulnerability affecting a widely used perimeter product. Palo Alto lists the issue as critical, says limited exploitation has been observed, and notes the risk is much lower when the portal is restricted to trusted internal IP addresses. That makes this especially relevant to charities, clubs and small businesses that rely on third-party IT providers or internet-facing security appliances they may not actively manage day to day. NCSC’s latest guidance says organisations should expect a wave of vulnerabilities and should update quickly, more often and at scale, starting with anything exposed to the internet. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300))</p>
+
+        <h2>Who should care</h2>
+        <ul><li>Small businesses using Palo Alto Networks PAN-OS firewalls directly or through a managed service</li>
+<li>Charities, clubs and community organisations with internet-facing firewalls or remote access portals</li>
+<li>Organisations that outsource IT but still depend on perimeter devices for network protection</li>
+<li>Any group that has a website, member portal or cloud service hosted behind a managed firewall</li></ul>
+
+        <h2>Why it matters</h2>
+        <p>If an internet-facing firewall or authentication portal is compromised, attackers can potentially reach internal systems, intercept traffic, disrupt services or use the device as a foothold into the wider network. For smaller organisations, the practical risk is not just data theft: it can mean email, file sharing, membership systems, payment pages or volunteers’ access being interrupted. Because this is already in CISA’s KEV catalogue and vendor exploitation has been observed, it should be treated as an urgent maintenance task rather than a routine patch item. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300))</p>
+
+        <h2>Top 5 Known Exploited Vulnerabilities</h2>
+        <p>CISA’s KEV list provided for this brief includes five currently tracked vulnerabilities. The most urgent for today is CVE-2026-0300 in Palo Alto Networks PAN-OS, due 09 May 2026, with vendor advice to restrict or disable the User-ID Authentication Portal until fixed. CVE-2026-6973 in Ivanti EPMM is due 10 May 2026 and should be patched or mitigated immediately if used. CVE-2026-42208 in BerriAI LiteLLM is due 11 May 2026 and requires vendor mitigations or discontinuation if no mitigation exists. CVE-2026-31431 in the Linux Kernel is due 15 May 2026 and should be prioritised where the kernel is in use, especially on externally exposed systems. CVE-2026-41940 in cPanel &amp; WHM and WP2 was due 03 May 2026 and is already overdue; if you host websites or use a managed hosting provider, ask whether this has been patched. Use the provided KEV list exactly, and treat every item as operationally important until confirmed otherwise. ([security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0300))</p>
+        
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date added</th>
+            <th>CVE</th>
+            <th>Vendor</th>
+            <th>Product</th>
+            <th>Vulnerability</th>
+            <th>Required action</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td>2026-05-08</td>
+              <td>CVE-2026-42208</td>
+              <td>BerriAI</td>
+              <td>LiteLLM</td>
+              <td>BerriAI LiteLLM SQL Injection Vulnerability</td>
+              <td>Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</td>
+            </tr>
+            
+            <tr>
+              <td>2026-05-07</td>
+              <td>CVE-2026-6973</td>
+              <td>Ivanti</td>
+              <td>Endpoint Manager Mobile (EPMM)</td>
+              <td>Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability</td>
+              <td>Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</td>
+            </tr>
+            
+            <tr>
+              <td>2026-05-06</td>
+              <td>CVE-2026-0300</td>
+              <td>Palo Alto Networks</td>
+              <td>PAN-OS</td>
+              <td>Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability</td>
+              <td>Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.</td>
+            </tr>
+            
+            <tr>
+              <td>2026-05-01</td>
+              <td>CVE-2026-31431</td>
+              <td>Linux</td>
+              <td>Kernel</td>
+              <td>Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability</td>
+              <td>"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</td>
+            </tr>
+            
+            <tr>
+              <td>2026-04-30</td>
+              <td>CVE-2026-41940</td>
+              <td>WebPros</td>
+              <td>cPanel &amp; WHM and WP2 (WordPress Squared)</td>
+              <td>WebPros cPanel &amp; WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability</td>
+              <td>Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </div>
+    
+
+        <h2>Actions On</h2>
+        <ol><li>Ask your IT provider or managed service company today whether you use Palo Alto Networks PAN-OS and whether the User-ID Authentication Portal is exposed to the internet.</li>
+<li>If you use PAN-OS, apply the vendor’s recommended workaround immediately: restrict the portal to trusted internal IP ranges or disable it if it is not needed.</li>
+<li>Confirm whether any of your externally facing systems appear in CISA KEV and set them to highest-priority patching.</li>
+<li>If you use hosted email, web hosting or a managed firewall, ask the supplier whether CVE-2026-41940, CVE-2026-6973, CVE-2026-42208 or CVE-2026-31431 affects your environment.</li>
+<li>Check that you have an owner for urgent patching decisions, even if that owner is an outsourced provider.</li>
+<li>Document what was checked, what was patched, and any compensating controls applied today.</li></ol>
+
+        <h2>Question to ask your IT provider</h2>
+        <div class="success">
+          Do we use any Palo Alto PAN-OS firewalls, and if so is the User-ID Authentication Portal exposed to untrusted or internet traffic? If yes, what immediate mitigation or patch have you applied, and are any of our other services affected by the current CISA KEV items?
+        </div>
+
+        <h2>After-action review</h2>
+        <ul><li>Did we identify every internet-facing firewall, portal and hosted service we rely on?</li>
+<li>Did we get a clear yes/no answer from the provider on PAN-OS exposure and mitigation?</li>
+<li>Did we apply or schedule the fix before the relevant due date?</li>
+<li>Do we know who is responsible for checking KEV items each week?</li>
+<li>Do we need a standing process for urgent vulnerability alerts from vendors and NCSC?</li></ul>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://security.paloaltonetworks.com/CVE-2026-0300">Palo Alto Networks advisory: CVE-2026-0300 PAN-OS</a></li>
+<li><a href="https://www.ncsc.gov.uk/collection/vulnerability-management/guidance/responding-to-active-exploitation">NCSC guidance: Responding to active exploitation of vulnerabilities</a></li>
+<li><a href="https://www.ncsc.gov.uk/sites/default/files/2026-05/Preparing-for-a-%E2%80%98vulnerability-patch-wave%E2%80%99.pdf">NCSC: Preparing for a vulnerability patch wave</a></li>
+<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0300">NVD: CVE-2026-0300</a></li>
+<li><a href="https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US">Vendor advisory: Ivanti EPMM May 2026 Security Advisory</a></li>
+<li><a href="https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc">Vendor advisory: BerriAI LiteLLM security advisory</a></li>
+<li><a href="https://support.cpanel.net/hc/en-us/articles/40073787579671-cPanel-WHM-Security-Update-04-28-2026">Vendor advisory: cPanel &amp; WHM Security Update 04-28-2026</a></li></ul>
+        <ul>
+          <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
+          <li><a href="https://github.com/cisagov/kev-data">CISA KEV JSON/CSV data mirror</a></li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+</body>
+</html>
