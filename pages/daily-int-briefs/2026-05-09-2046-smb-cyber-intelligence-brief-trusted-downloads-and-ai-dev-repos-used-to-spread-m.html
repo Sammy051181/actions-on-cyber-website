@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Trusted downloads and AI/dev repos used to spread malware | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Trusted downloads and AI/dev repos used to spread malware</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 09 May 2026, 20:46 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; download-chain malware (fake repos, compromised installer sites) targeting staff and developers
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two separate stories point to the same practical risk for SMEs: <strong>malware being delivered via places people normally trust</strong> (popular download sites and “official-looking” AI/dev repositories).</p>
+<ul>
+  <li>A <strong>fake OpenAI project</strong> on Hugging Face reportedly reached trending and was used to push <strong>information-stealing malware</strong> to Windows users.</li>
+  <li>The <strong>JDownloader website</strong> was reportedly compromised so that visitors downloaded <strong>malicious installers</strong> (Windows and Linux), including a Python-based remote access trojan.</li>
+  <li>Research also highlights <strong>Linux malware aimed at stealing developer/DevOps credentials</strong> to enable wider software supply-chain compromise.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a mix of in-house staff, contractors and outsourced IT. If just one person installs a “helpful tool” from a compromised site or pulls code from a lookalike repo, attackers may gain:</p>
+<ul>
+  <li><strong>Saved passwords and browser sessions</strong> (email, Microsoft 365/Google, accounting, CRM)</li>
+  <li><strong>Remote access</strong> to a laptop or server (leading to ransomware or data theft)</li>
+  <li><strong>Developer and automation secrets</strong> (API keys, tokens, CI/CD credentials) that can be reused to access cloud services and suppliers</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff installing software because it’s <strong>“trending”</strong>, “recommended on GitHub”, or shared in a chat/forum without IT approval.</li>
+  <li>Installers that suddenly require <strong>disabling security</strong>, running as admin, or granting unusual permissions.</li>
+  <li>Unexpected prompts to <strong>sign in</strong> or provide tokens/keys during a “tool” install or setup.</li>
+  <li>New outbound connections, unusual CPU usage, or security tools reporting <strong>credential dumping / infostealer</strong>-type detections after an install.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Lookalike projects and brand impersonation</strong> (e.g., reputable AI brand names) to trick users into running malware.</li>
+  <li><strong>Compromising legitimate download sites</strong> so the victim thinks they are downloading the real tool.</li>
+  <li><strong>Credential theft first</strong>: stealing passwords, cookies, and tokens to get into email and cloud systems without “hacking” them directly.</li>
+  <li><strong>Targeting developers/IT</strong> for higher-value access (scripts, automation, cloud admin, supplier portals).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a same-day staff note</strong>: only install software via your approved process; don’t trust “trending” repos or random links; report anything that asks to disable security.</li>
+  <li><strong>Lock down installs</strong> where you can: standard user accounts for day-to-day work; admin rights only when necessary and controlled.</li>
+  <li><strong>Prioritise developer/admin accounts</strong>: ensure MFA is on, and review who has access to password managers, code repos, and cloud admin.</li>
+  <li><strong>Review logs for unusual sign-ins</strong> to email, file storage and finance systems (especially new locations/devices soon after any new software install).</li>
+  <li>If anyone recently installed JDownloader (or similar tools), consider a <strong>rapid check</strong>: isolate the device, run your endpoint security scan, and reset passwords for key services if you suspect exposure.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a <strong>software allow-list / controlled installation</strong> approach for company devices (or at least for finance and admin users)?</li>
+  <li>How do we detect and respond to <strong>infostealer infections</strong> (browser credential/session theft) on endpoints?</li>
+  <li>Are <strong>developer and admin accounts</strong> covered by stronger controls (MFA, conditional access, separate admin accounts, device compliance)?</li>
+  <li>What is our playbook for <strong>“suspicious installer downloaded”</strong>—who to call, what gets isolated, what gets reset?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged active exploitation activity in its known-exploited catalogue, and separately highlighted an Ivanti EPMM issue being used as a zero-day. If you use <strong>Ivanti</strong> (or your MSP does on your behalf), ask for confirmation that relevant systems are identified and remediated as a priority.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: only install software via approved channels—do not download “trending” tools or repos, and report any installer that asks to disable security or run with unusual permissions.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: “Suspicious email/link/software” quick-report checklist (staff-ready template)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" rel="noopener noreferrer">Fake OpenAI repository on Hugging Face pushes infostealer malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/" rel="noopener noreferrer">JDownloader site hacked to replace installers with Python RAT malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html" rel="noopener noreferrer">Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/" rel="noopener noreferrer">CISA gives feds four days to patch Ivanti flaw exploited as zero-day</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

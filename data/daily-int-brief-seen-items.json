@@ -55,9 +55,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-09T13:27:43.824531+01:00",
       "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
+    },
+    "08421650b8c15ac1": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-09T20:46:46.343642+01:00",
+      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
+    },
+    "b81fa31519f7da4e": {
+      "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "title": "JDownloader site hacked to replace installers with Python RAT malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-09T20:46:46.343642+01:00",
+      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
+    },
+    "06209b4eb0d9b402": {
+      "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-09T20:46:46.343642+01:00",
+      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
+    },
+    "602ea85607361819": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-05-09T20:46:46.343642+01:00",
+      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
+    },
+    "c3640fa51273e089": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+      "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-09T20:46:46.343642+01:00",
+      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m",
+      "headline": "SMB Cyber Intelligence Brief: Trusted downloads and AI/dev repos used to spread malware",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & download-chain malware (fake repos, compromised installer sites) targeting staff and developers",
+      "published_at": "2026-05-09T20:46:46.343642+01:00",
+      "published_label": "Saturday 09 May 2026, 20:46 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+        "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+        "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+        "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/"
+      ]
+    },
     {
       "slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th",
       "headline": "Today’s SMB cyber lookout: SaaS disruption scams, “ClickFix” lures, and credential theft aimed at cloud & finance",
