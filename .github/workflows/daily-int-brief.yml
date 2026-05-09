@@ -2,7 +2,7 @@ name: Generate Daily Int Brief
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "7 7 * * *"
       timezone: "Europe/London"
   workflow_dispatch:
 
@@ -16,6 +16,12 @@ jobs:
     steps:
       - name: Check out website
         uses: actions/checkout@v4
+
+      - name: Show trigger information
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          date
+          TZ="Europe/London" date
 
       - name: Set up Python
         uses: actions/setup-python@v5
