@@ -1,18 +1,60 @@
-name: Generate Daily Int Brief - Paused
+name: Daily SMB Cyber Intelligence Brief
 
 on:
+  schedule:
+    # GitHub cron uses UTC.
+    # UK winter: 07:15, 12:15, 16:15
+    # UK summer: 08:15, 13:15, 17:15
+    - cron: "15 7,12,16 * * *"
+
   workflow_dispatch:
+    inputs:
+      force_publish:
+        description: "Publish even if the score is below threshold?"
+        required: false
+        default: "false"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  daily-int-brief-paused:
+  generate-intelligence-brief:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Daily Int Brief paused
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
         run: |
-          echo "The old Daily Int Brief workflow is paused."
-          echo "Use Generate Daily Vulnerability Brief for vulnerability updates."
-          echo "This workflow no longer runs automatically."
+          python -m pip install --upgrade pip
+          pip install openai requests feedparser beautifulsoup4 python-dateutil
+
+      - name: Generate intelligence brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.2' }}
+          FORCE_PUBLISH: ${{ github.event.inputs.force_publish || 'false' }}
+        run: |
+          python scripts/generate_daily_int_brief.py
+
+      - name: Commit generated brief
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add pages/daily-int-brief.html
+          git add pages/daily-int-briefs/
+          git add data/daily-int-brief-seen-items.json
+
+          if git diff --cached --quiet; then
+            echo "No new intelligence brief to publish."
+          else
+            git commit -m "Update daily SMB cyber intelligence brief"
+            git push
+          fi
