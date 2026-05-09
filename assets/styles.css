@@ -192,12 +192,15 @@ th{background:#f1f5f9}
 
 .trust-item:hover{background:#ffffff;color:var(--teal);box-shadow:0 10px 28px rgba(15,23,42,.10)}
 
+/* Daily Vulnerability Brief safety wrapping */
 .daily-brief-card,
 .daily-brief-card p,
 .daily-brief-article,
 .daily-brief-article p,
-.content-card,
-.content-card p {
+.card,
+.card p,
+.article,
+.article p {
   overflow-wrap: anywhere;
   word-break: break-word;
 }
