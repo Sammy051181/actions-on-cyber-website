@@ -1,51 +1,18 @@
-name: Generate Daily Int Brief
+name: Generate Daily Int Brief - Paused
 
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "7 7 * * *"
-      timezone: "Europe/London"
-
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  generate-daily-int-brief:
+  daily-int-brief-paused:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out website
-        uses: actions/checkout@v4
-
-      - name: Show trigger information
+      - name: Daily Int Brief paused
         run: |
-          echo "Triggered by: ${{ github.event_name }}"
-          date
-          TZ="Europe/London" date
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          pip install openai python-slugify requests
-
-      - name: Generate Daily Int Brief
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          EDITORIAL_SCORE_THRESHOLD: "75"
-          EDITORIAL_MAX_ARTICLES: "3"
-          CISA_KEV_LOOKBACK_DAYS: "2"
-          NEWS_LOOKBACK_HOURS: "72"
-        run: python scripts/generate_daily_int_brief.py
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "Actions On Cyber Bot"
-          git config user.email "bot@actionsoncyber.com"
-          git add .
-          git commit -m "Add Daily Int Brief" || echo "No changes to commit"
-          git push
+          echo "The old Daily Int Brief workflow is paused."
+          echo "Use Generate Daily Vulnerability Brief for vulnerability updates."
+          echo "This workflow no longer runs automatically."
