@@ -204,3 +204,67 @@ th{background:#f1f5f9}
   overflow-wrap: anywhere;
   word-break: break-word;
 }
+
+/* ============================================================
+   Daily brief header logo fix
+   Keeps the Actions On Cyber logo usable in generated pages
+   ============================================================ */
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.site-header .brand img {
+  display: block;
+  height: 56px;
+  width: auto;
+  max-width: 260px;
+  object-fit: contain;
+}
+
+.site-header .brand span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+  white-space: nowrap;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.site-header .nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-header .nav a {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-header .brand img {
+    height: 48px;
+    max-width: 220px;
+  }
+
+  .site-header .nav {
+    gap: 0.75rem;
+  }
+}
