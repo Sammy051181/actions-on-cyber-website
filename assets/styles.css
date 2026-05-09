@@ -268,3 +268,178 @@ th{background:#f1f5f9}
     gap: 0.75rem;
   }
 }
+
+/* ============================================================
+   Responsive page-width and Field Manual improvements
+   Add this at the very bottom of styles.css
+   ============================================================ */
+
+/* Widen the site on large screens while keeping safe margins */
+.container {
+  width: min(1440px, calc(100% - 56px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep long text readable even when the page is wider */
+.page-title,
+.section-head > div {
+  max-width: 860px;
+}
+
+/* Let the Field Manual illustration use more width */
+.field-manual-visual {
+  padding: 16px;
+  margin: 0 auto 56px;
+  max-width: 1280px;
+  overflow: hidden;
+}
+
+.field-manual-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+/* Better card grid behaviour */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* Prevent cards and images from overflowing on smaller screens */
+.card,
+.article,
+.panel {
+  min-width: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header: keep it tidy on desktop */
+.header-inner {
+  width: min(1440px, calc(100% - 56px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Large tablet */
+@media (max-width: 1050px) {
+  .container,
+  .header-inner {
+    width: min(100% - 40px, 1440px);
+  }
+
+  .grid-4,
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-grid,
+  .cta,
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .container,
+  .header-inner {
+    width: min(100% - 28px, 1440px);
+  }
+
+  .grid-4,
+  .grid-3,
+  .grid-2,
+  .trust-row,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero {
+    padding: 40px 0 32px;
+  }
+
+  .section {
+    padding: 44px 0;
+  }
+
+  h1,
+  .page-title h1 {
+    font-size: clamp(2rem, 10vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+  }
+
+  .section-head h2 {
+    font-size: clamp(1.7rem, 8vw, 2.5rem);
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .page-title p,
+  .section-head p {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .field-manual-visual {
+    padding: 8px;
+    margin-bottom: 36px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .topbar-inner {
+    display: block;
+    line-height: 1.7;
+  }
+}
+
+/* Small phones */
+@media (max-width: 420px) {
+  .container,
+  .header-inner {
+    width: min(100% - 22px, 1440px);
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .warning {
+    font-size: 0.95rem;
+  }
+
+  .logo-link img {
+    width: 210px;
+  }
+}
