@@ -1,46 +1,467 @@
-name: Generate Daily Int Brief
+import os
+import re
+import json
+import html
+import datetime
+from pathlib import Path
+from urllib.parse import unquote
 
-on:
-  schedule:
-    - cron: "7 7 * * *"
-      timezone: "Europe/London"
-  workflow_dispatch:
+import requests
+from slugify import slugify
+from openai import OpenAI
 
-permissions:
-  contents: write
 
-jobs:
-  generate-daily-int-brief:
-    runs-on: ubuntu-latest
+# -----------------------------
+# Configuration
+# -----------------------------
 
-    steps:
-      - name: Check out website
-        uses: actions/checkout@v4
+SITE_NAME = "Actions On Cyber"
+BRIEF_SECTION_START = "<!-- DAILY_INT_BRIEF_START -->"
+BRIEF_SECTION_END = "<!-- DAILY_INT_BRIEF_END -->"
 
-      - name: Show trigger information
-        run: |
-          echo "Triggered by: ${{ github.event_name }}"
-          date
-          TZ="Europe/London" date
+ROOT_DIR = Path(__file__).resolve().parents[1]
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+DAILY_BRIEF_INDEX = ROOT_DIR / "pages" / "daily-int-brief.html"
+BRIEF_OUTPUT_DIR = ROOT_DIR / "pages" / "daily-int-briefs"
 
-      - name: Install dependencies
-        run: |
-          pip install openai python-slugify requests
+CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
-      - name: Generate Daily Int Brief
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python scripts/generate_daily_int_brief.py
+MODEL = "gpt-4.1-mini"
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "Actions On Cyber Bot"
-          git config user.email "bot@actionsoncyber.com"
-          git add .
-          git commit -m "Add Daily Int Brief" || echo "No changes to commit"
-          git push
+
+# -----------------------------
+# Safety and cleaning helpers
+# -----------------------------
+
+def clean_generated_text(text: str) -> str:
+    """
+    Remove URL-encoded junk, tracking fragments, API/query parameters and
+    anything likely to break the page or look unprofessional.
+    """
+    if not text:
+        return ""
+
+    text = unquote(str(text))
+
+    # Remove raw URLs.
+    text = re.sub(r"https?://\S+", "", text, flags=re.IGNORECASE)
+
+    # Remove URL query strings and API fragments.
+    text = re.sub(r"[?&][a-zA-Z0-9_\-\[\]]+=[^\s,.;)]*", "", text)
+
+    # Remove known junk patterns seen in generated output.
+    junk_patterns = [
+        r"\bvendor_project(?:\[[^\]]*\])?:[^\s,.;)]*",
+        r"\bvendor_project(?:\[[^\]]*\])?=[^\s,.;)]*",
+        r"\[[0-9]+\]=[^\s,.;)]*",
+        r"%[0-9A-Fa-f]{2}",
+        r"\bquery=[^\s,.;)]*",
+        r"\bsource=[^\s,.;)]*",
+        r"\bref=[^\s,.;)]*",
+        r"\butm_[a-zA-Z0-9_]+=[^\s,.;)]*",
+    ]
+
+    for pattern in junk_patterns:
+        text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+
+    # Remove remaining suspicious long machine strings.
+    text = re.sub(r"\b[a-zA-Z0-9_\-]{45,}\b", "", text)
+
+    # Normalise whitespace.
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
+
+
+def clean_brief_object(brief: dict) -> dict:
+    cleaned = {}
+
+    for key, value in brief.items():
+        if isinstance(value, str):
+            cleaned[key] = clean_generated_text(value)
+        elif isinstance(value, list):
+            cleaned[key] = [clean_generated_text(item) for item in value if clean_generated_text(item)]
+        else:
+            cleaned[key] = value
+
+    return cleaned
+
+
+def validate_brief(brief: dict) -> None:
+    """
+    Fail the workflow if the brief still contains machine junk.
+    This protects the public website.
+    """
+    combined = json.dumps(brief, ensure_ascii=False)
+
+    blocked_patterns = [
+        "%5B",
+        "%5D",
+        "%3A",
+        "vendor_project",
+        "utm_",
+        "query=",
+        "source=",
+        "ref=",
+        "http://",
+        "https://",
+    ]
+
+    found = [pattern for pattern in blocked_patterns if pattern.lower() in combined.lower()]
+
+    if found:
+        raise ValueError(f"Generated brief contains blocked fragments: {found}")
+
+
+# -----------------------------
+# Threat intelligence input
+# -----------------------------
+
+def fetch_cisa_kev_items(limit: int = 8) -> list[dict]:
+    """
+    Fetch a small number of recent CISA KEV items.
+    If the feed fails, return an empty list and allow the AI to produce
+    a general practical brief.
+    """
+    try:
+        response = requests.get(CISA_KEV_URL, timeout=20)
+        response.raise_for_status()
+        data = response.json()
+
+        vulnerabilities = data.get("vulnerabilities", [])
+
+        # Sort by date added, newest first.
+        vulnerabilities.sort(
+            key=lambda item: item.get("dateAdded", ""),
+            reverse=True
+        )
+
+        return vulnerabilities[:limit]
+
+    except Exception as exc:
+        print(f"Warning: could not fetch CISA KEV feed: {exc}")
+        return []
+
+
+def build_source_context(items: list[dict]) -> str:
+    if not items:
+        return (
+            "No live CISA KEV items were available. Create a practical small-business "
+            "cyber brief based on common current risks such as phishing, exposed admin "
+            "portals, unpatched systems, ransomware preparation, supplier risk, cloud "
+            "account security, MFA, backups and incident readiness."
+        )
+
+    lines = []
+
+    for item in items:
+        cve = item.get("cveID", "Unknown CVE")
+        vendor = item.get("vendorProject", "Unknown vendor")
+        product = item.get("product", "Unknown product")
+        name = item.get("vulnerabilityName", "Known exploited vulnerability")
+        date_added = item.get("dateAdded", "Unknown date")
+        action = item.get("requiredAction", "Apply vendor guidance and reduce exposure.")
+
+        lines.append(
+            f"- {cve} | Vendor: {vendor} | Product: {product} | "
+            f"Issue: {name} | Date added: {date_added} | Action: {action}"
+        )
+
+    return "\n".join(lines)
+
+
+# -----------------------------
+# OpenAI generation
+# -----------------------------
+
+def generate_brief(source_context: str, brief_date: datetime.date) -> dict:
+    api_key = os.environ.get("OPENAI_API_KEY")
+
+    if not api_key:
+        raise RuntimeError("OPENAI_API_KEY is not set.")
+
+    client = OpenAI(api_key=api_key)
+
+    system_prompt = """
+You are writing the Actions On Cyber Daily Int Brief for UK small businesses,
+charities, community groups and non-technical leaders.
+
+Write in clear British English.
+
+The audience does not have a dedicated cyber security team.
+
+Do not use hype.
+Do not use fearmongering.
+Do not use raw URLs.
+Do not include URL query strings.
+Do not include encoded characters.
+Do not include API parameters.
+Do not include tracking parameters.
+Do not include fragments such as %5B, %5D, %3A, vendor_project, query=, source=, ref= or utm_.
+Write only clean, plain English.
+
+Return valid JSON only.
+"""
+
+    user_prompt = f"""
+Create today's Daily Int Brief for {brief_date.strftime('%d %B %Y')}.
+
+Use this source context as background only. Do not copy machine-readable field names.
+Do not include raw feed text.
+
+Source context:
+{source_context}
+
+Return this exact JSON structure:
+
+{{
+  "title": "Actions On Cyber Daily Int Brief — DD Month YYYY",
+  "tag": "Act Now",
+  "summary": "One short paragraph explaining the main issue today.",
+  "threat_of_the_week": "The main thing to watch.",
+  "why_it_matters": "The practical impact for a small organisation.",
+  "who_should_care": "Who in the organisation should care.",
+  "what_to_check": [
+    "Check 1",
+    "Check 2",
+    "Check 3",
+    "Check 4"
+  ],
+  "actions_on": [
+    "Action 1",
+    "Action 2",
+    "Action 3",
+    "Action 4"
+  ],
+  "question_for_it_provider": "One useful question to ask an IT provider.",
+  "closing_note": "One short closing sentence."
+}}
+
+Before returning the JSON, check that there are no raw URLs, no URL encoded fragments,
+no API parameters and no long machine strings.
+"""
+
+    response = client.chat.completions.create(
+        model=MODEL,
+        temperature=0.4,
+        messages=[
+            {"role": "system", "content": system_prompt.strip()},
+            {"role": "user", "content": user_prompt.strip()},
+        ],
+    )
+
+    content = response.choices[0].message.content.strip()
+
+    try:
+        brief = json.loads(content)
+    except json.JSONDecodeError:
+        print("Raw model response:")
+        print(content)
+        raise
+
+    brief = clean_brief_object(brief)
+    validate_brief(brief)
+
+    return brief
+
+
+# -----------------------------
+# HTML rendering
+# -----------------------------
+
+def esc(value: str) -> str:
+    return html.escape(value or "", quote=True)
+
+
+def render_list(items: list[str]) -> str:
+    return "\n".join(f"<li>{esc(item)}</li>" for item in items)
+
+
+def render_brief_page(brief: dict, brief_date: datetime.date) -> str:
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="{esc(brief.get("summary", ""))}"
+  />
+
+  <title>{esc(brief.get("title", "Daily Int Brief"))} | Actions On Cyber</title>
+
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.svg" type="image/svg+xml" />
+</head>
+
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../../index.html" aria-label="Actions On Cyber home">
+      <img src="../../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" />
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="../../index.html">Start Here</a>
+      <a href="../actions-on.html">Actions On</a>
+      <a href="../daily-int-brief.html">Daily Int Brief</a>
+      <a href="../cyber-stand-to.html">Cyber Stand-To</a>
+      <a href="../field-manual.html">Field Manual</a>
+      <a href="../training.html">Training</a>
+      <a href="../consultancy.html">Consultancy</a>
+    </nav>
+
+    <a class="nav-email" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+    <a class="btn btn-primary" href="../contact.html">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container narrow">
+      <span class="eyebrow">Daily Int Brief</span>
+      <h1>{esc(brief.get("title", "Daily Int Brief"))}</h1>
+      <p>{esc(brief.get("summary", ""))}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <article class="content-card daily-brief-article">
+        <p class="meta">{brief_date.strftime("%d %B %Y")}</p>
+
+        <h2>1. Threat of the week</h2>
+        <p>{esc(brief.get("threat_of_the_week", ""))}</p>
+
+        <h2>2. Why it matters</h2>
+        <p>{esc(brief.get("why_it_matters", ""))}</p>
+
+        <h2>3. Who should care</h2>
+        <p>{esc(brief.get("who_should_care", ""))}</p>
+
+        <h2>4. What to check</h2>
+        <ul>
+          {render_list(brief.get("what_to_check", []))}
+        </ul>
+
+        <h2>5. Actions on</h2>
+        <ul>
+          {render_list(brief.get("actions_on", []))}
+        </ul>
+
+        <h2>6. Question for IT provider</h2>
+        <p><strong>{esc(brief.get("question_for_it_provider", ""))}</strong></p>
+
+        <p>{esc(brief.get("closing_note", ""))}</p>
+
+        <p>
+          <a class="btn btn-secondary" href="../daily-int-brief.html">Back to Daily Int Briefs</a>
+        </p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>Actions On Cyber</strong>
+      <p>Practical cyber support for organisations without a security team.</p>
+    </div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</footer>
+</body>
+</html>
+"""
+
+
+def render_brief_card(brief: dict, brief_date: datetime.date, relative_url: str) -> str:
+    return f"""
+      <article class="content-card daily-brief-card">
+        <span class="pill">{esc(brief.get("tag", "Act Now"))}</span>
+        <p class="meta">{brief_date.strftime("%d %B %Y")}</p>
+        <h3>{esc(brief.get("title", "Daily Int Brief"))}</h3>
+        <p>{esc(brief.get("summary", ""))}</p>
+        <a class="btn btn-secondary" href="{esc(relative_url)}">Read brief</a>
+      </article>
+""".rstrip()
+
+
+# -----------------------------
+# Index page update
+# -----------------------------
+
+def update_daily_brief_index(card_html: str) -> None:
+    if not DAILY_BRIEF_INDEX.exists():
+        raise FileNotFoundError(f"Could not find {DAILY_BRIEF_INDEX}")
+
+    content = DAILY_BRIEF_INDEX.read_text(encoding="utf-8")
+
+    if BRIEF_SECTION_START not in content or BRIEF_SECTION_END not in content:
+        raise RuntimeError(
+            f"Could not find markers in {DAILY_BRIEF_INDEX}. "
+            f"Add {BRIEF_SECTION_START} and {BRIEF_SECTION_END} around the brief card area."
+        )
+
+    before, rest = content.split(BRIEF_SECTION_START, 1)
+    existing_cards, after = rest.split(BRIEF_SECTION_END, 1)
+
+    # Avoid duplicate card for the same title/date.
+    title_match = re.search(r"<h3>(.*?)</h3>", card_html, flags=re.DOTALL)
+    title = title_match.group(1) if title_match else ""
+
+    if title and title in existing_cards:
+        print("Brief card already exists on index page. Skipping duplicate insert.")
+        return
+
+    updated_cards = f"\n{card_html}\n{existing_cards.strip()}\n"
+
+    updated = before + BRIEF_SECTION_START + updated_cards + BRIEF_SECTION_END + after
+
+    DAILY_BRIEF_INDEX.write_text(updated, encoding="utf-8")
+
+
+# -----------------------------
+# Main
+# -----------------------------
+
+def main() -> None:
+    today = datetime.datetime.now(datetime.timezone.utc).astimezone().date()
+
+    BRIEF_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    source_items = fetch_cisa_kev_items()
+    source_context = build_source_context(source_items)
+
+    brief = generate_brief(source_context, today)
+
+    date_slug = today.strftime("%Y-%m-%d")
+    title_slug = slugify(brief.get("title", f"daily-int-brief-{date_slug}"))
+    filename = f"{date_slug}-{title_slug}.html"
+
+    output_path = BRIEF_OUTPUT_DIR / filename
+
+    page_html = render_brief_page(brief, today)
+    output_path.write_text(page_html, encoding="utf-8")
+
+    relative_url = f"daily-int-briefs/{filename}"
+    card_html = render_brief_card(brief, today, relative_url)
+
+    update_daily_brief_index(card_html)
+
+    print(f"Generated Daily Int Brief: {output_path}")
+
+
+if __name__ == "__main__":
+    main()
