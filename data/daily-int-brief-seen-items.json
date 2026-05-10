@@ -90,9 +90,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-09T20:46:46.343642+01:00",
       "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
+    },
+    "bd0fed1e91099da8": {
+      "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-10T11:49:07.014906+01:00",
+      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
+    },
+    "88cf530572c3f3c2": {
+      "url": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "title": "Trellix source code breach claimed by RansomHouse hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-10T11:49:07.014906+01:00",
+      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
+    },
+    "bbcca5ac07c6c9b6": {
+      "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-10T11:49:07.014906+01:00",
+      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese",
+      "headline": "Supplier breach follow‑up scams: watch for fake “security notices” and account resets",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams and security-software trust risk",
+      "published_at": "2026-05-10T11:49:07.014906+01:00",
+      "published_label": "Sunday 10 May 2026, 11:49 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+        "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+        "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html"
+      ]
+    },
     {
       "slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m",
       "headline": "SMB Cyber Intelligence Brief: Trusted downloads and AI/dev repos used to spread malware",
