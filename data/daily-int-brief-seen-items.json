@@ -111,9 +111,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-10T11:49:07.014906+01:00",
       "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
+    },
+    "b72e557552efd429": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-10T20:48:05.282487+01:00",
+      "brief_slug": "2026-05-10-2048-malvertising-warning-fake-claude-for-mac-downloads-via-google-ads-and-shared-cha"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-10-2048-malvertising-warning-fake-claude-for-mac-downloads-via-google-ads-and-shared-cha",
+      "headline": "Malvertising warning: fake Claude for Mac downloads via Google Ads and shared chats",
+      "risk_level": "High",
+      "todays_lookout": "Malvertising and fake software downloads impersonating trusted AI services",
+      "published_at": "2026-05-10T20:48:05.282487+01:00",
+      "published_label": "Sunday 10 May 2026, 20:48 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/"
+      ]
+    },
     {
       "slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese",
       "headline": "Supplier breach follow‑up scams: watch for fake “security notices” and account resets",
