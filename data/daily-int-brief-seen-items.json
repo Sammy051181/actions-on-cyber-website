@@ -167,9 +167,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-11T18:11:42.893841+01:00",
       "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
+    },
+    "f9795c5690a3aefc": {
+      "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "a6001f4e5eace5ba": {
+      "url": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+      "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "b545435b9df2ee3d": {
+      "url": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+      "title": "Official CheckMarx Jenkins package compromised with infostealer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "f69a535e4a6c7aa3": {
+      "url": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "bf4145a899ec9e41": {
+      "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "ca69ec3053feeff8": {
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+      "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "086a27a40d8dcd1d": {
+      "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+      "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T14:27:44.174978+01:00",
+      "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-",
+      "headline": "Today’s SMB cyber lookout: software supply-chain tampering + Canvas breach fallout scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and software supply-chain risk (developer tooling) + supplier-incident themed phishing",
+      "published_at": "2026-05-12T14:27:44.174978+01:00",
+      "published_label": "Tuesday 12 May 2026, 14:27 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+        "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+        "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+        "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+        "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+        "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+        "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/"
+      ]
+    },
     {
       "slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi",
       "headline": "SMB Cyber Intelligence Brief: AI-boosted attacks, SaaS portal tampering, and Android banking malware",

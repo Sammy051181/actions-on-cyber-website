@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: software supply-chain tampering + Canvas breach fallout scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: software supply-chain tampering + Canvas breach fallout scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 12 May 2026, 14:27 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier and software supply-chain risk (developer tooling) + supplier-incident themed phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two themes to watch closely:</strong></p>
+<ul>
+  <li><strong>Software supply-chain tampering</strong> affecting developer ecosystems (npm/PyPI packages) and a <strong>Jenkins Marketplace plugin</strong>. This matters if you build software, run CI/CD pipelines, or use an MSP/dev partner that does.</li>
+  <li><strong>Supplier-incident themed scams</strong> riding on the news of a major education technology breach involving <strong>Instructure/Canvas</strong> (schools, colleges, training providers and anyone using related services should be alert for impersonation emails).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Indirect impact is common:</strong> you might not use the affected tools directly, but your <strong>web agency, software supplier, or MSP</strong> might. Compromised build tools can lead to compromised websites, apps, or updates delivered to customers.</li>
+  <li><strong>Business disruption risk:</strong> if credentials are stolen from developers or CI systems, attackers can move into cloud accounts, source code, customer data, and even payment or email systems.</li>
+  <li><strong>Scam risk spikes after big incidents:</strong> when a supplier breach hits the headlines, criminals often send convincing “security update”, “password reset”, “invoice re-issue”, or “new bank details” messages.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails claiming to be from <strong>Canvas/Instructure</strong> (or your LMS provider) asking you to <strong>re-authenticate</strong>, download a “security tool”, or urgently reset passwords via a link.</li>
+  <li>Unexpected <strong>MFA prompts</strong> for email, Microsoft 365/Google Workspace, GitHub/GitLab, cloud consoles, or finance platforms.</li>
+  <li>Your IT/dev team reports unusual behaviour in build pipelines: new dependencies, odd package updates, or unexpected outbound connections.</li>
+  <li>Jenkins admins notice a plugin update they didn’t schedule, or new credentials/secrets accessed unexpectedly.</li>
+  <li>Suppliers requesting <strong>payment detail changes</strong> “due to the breach” or asking to re-issue invoices.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Trojanised packages/plugins</strong> can steal browser/session tokens, API keys and passwords from developer machines and CI systems.</li>
+  <li>Stolen access can be used to <strong>change code</strong> (e.g., inserting skimmers, backdoors, or redirecting payments) and then ship it as a legitimate update.</li>
+  <li>Attackers may leverage the Canvas/Instructure news to run <strong>high-volume phishing</strong> against schools, charities, and training providers—especially targeting admin accounts and helpdesks.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff</strong> (especially finance, IT, and school admin teams): treat any supplier “security notice” or “bank change” as suspicious; verify via known phone numbers.</li>
+  <li><strong>Check who builds/maintains your website or apps</strong> (internal team or supplier). Ask if they use npm/PyPI heavily, and whether they’ve checked for suspicious dependency updates.</li>
+  <li><strong>If you run Jenkins</strong> (or your MSP does): confirm plugin changes are controlled, and investigate any unexpected plugin updates or new credentials access.</li>
+  <li><strong>Lock down key accounts:</strong> ensure MFA is enabled for email, cloud, accounting, and code repositories; review recent sign-ins for anomalies.</li>
+  <li><strong>Prepare for customer queries:</strong> if you’re a school/training provider using Canvas, decide who handles parent/student/vendor calls and what you will say if asked about data exposure.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do any of our suppliers (web/dev/MSP) use <strong>Jenkins</strong>, npm, or PyPI in production build pipelines? If yes, what checks have been done since these reports?</li>
+  <li>How do you <strong>control software updates</strong> to build tools and plugins (approval process, logging, and rollback plan)?</li>
+  <li>Do we have <strong>alerting for suspicious logins</strong> and MFA fatigue (repeated prompts) on Microsoft 365/Google, cloud consoles, and admin portals?</li>
+  <li>If a supplier is breached, what is our <strong>playbook</strong> for verifying requests, communicating internally, and protecting payments?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>SAP has published its May 2026 security updates. If you use <strong>SAP Commerce Cloud</strong> or <strong>S/4HANA</strong>, make sure your SAP support partner has a clear plan and timeline to apply relevant fixes and confirm any additional monitoring during the change window.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 5-minute internal alert: “No supplier payment changes or ‘security resets’ are actioned from email alone—verify via a known phone number,” and remind staff to report unexpected MFA prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier incident &amp; payment-change verification mini-playbook (call-back verification, approval steps, and who to notify)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html" rel="noopener noreferrer">Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI &amp; More Packages</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/" rel="noopener noreferrer">Shai Hulud attack ships signed malicious TanStack, Mistral npm packages</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/" rel="noopener noreferrer">Official CheckMarx Jenkins package compromised with infostealer</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html" rel="noopener noreferrer">TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html" rel="noopener noreferrer">Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/" rel="noopener noreferrer">Instructure reaches &#x27;agreement&#x27; with ShinyHunters to stop data leak</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/" rel="noopener noreferrer">SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
