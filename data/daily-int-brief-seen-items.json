@@ -216,9 +216,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-12T14:27:44.174978+01:00",
       "brief_slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-"
+    },
+    "899bdc42d149e503": {
+      "url": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+      "title": "Signal adds security warnings for social engineering, phishing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T22:08:31.531426+01:00",
+      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
+    },
+    "12dc409c89ec1a63": {
+      "url": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+      "title": "Android 17 to expand banking scam call and privacy protections",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T22:08:31.531426+01:00",
+      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
+    },
+    "849dd8fc0bb8c5f8": {
+      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T22:08:31.531426+01:00",
+      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
+    },
+    "ed36a2b927798b2d": {
+      "url": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+      "title": "Škoda warns of customer data breach after online shop hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-12T22:08:31.531426+01:00",
+      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi",
+      "headline": "Today’s SMB cyber lookout: scam follow‑ups after breaches, and smarter social engineering on messaging & mobiles",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/brand breach follow‑up scams and mobile banking scam calls",
+      "published_at": "2026-05-12T22:08:31.531426+01:00",
+      "published_label": "Tuesday 12 May 2026, 22:08 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+        "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+        "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+        "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/"
+      ]
+    },
     {
       "slug": "2026-05-12-1427-today-s-smb-cyber-lookout-software-supply-chain-tampering-canvas-breach-fallout-",
       "headline": "Today’s SMB cyber lookout: software supply-chain tampering + Canvas breach fallout scams",
