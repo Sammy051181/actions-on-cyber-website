@@ -244,9 +244,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-12T22:08:31.531426+01:00",
       "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
+    },
+    "35bf5b947d3c4b98": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-13T17:12:45.280041+01:00",
+      "brief_slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r"
+    },
+    "73e540519f844793": {
+      "url": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-13T17:12:45.280041+01:00",
+      "brief_slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r"
+    },
+    "8ccb473bd1f57651": {
+      "url": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-13T17:12:45.280041+01:00",
+      "brief_slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r"
+    },
+    "f42d900629cb626d": {
+      "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "title": "Patch Tuesday, May 2026 Edition",
+      "source": "Krebs on Security",
+      "seen_at": "2026-05-13T17:12:45.280041+01:00",
+      "brief_slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r",
+      "headline": "SMB Cyber Intelligence Brief: SaaS breach follow‑on scams + ransomware disruption ripple effects",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and SaaS incident scams (education platforms + manufacturing supply chains)",
+      "published_at": "2026-05-13T17:12:45.280041+01:00",
+      "published_label": "Wednesday 13 May 2026, 17:12 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+        "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+        "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/"
+      ]
+    },
     {
       "slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi",
       "headline": "Today’s SMB cyber lookout: scam follow‑ups after breaches, and smarter social engineering on messaging & mobiles",
