@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber look-out: software supply-chain noise around RubyGems | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber look-out: software supply-chain noise around RubyGems</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Wednesday 13 May 2026, 22:13 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier / software supply-chain risk (malicious packages &amp; developer tooling disruption)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two related themes are worth flagging to staff and suppliers today:</p>
+<ul>
+  <li><strong>Software supply-chain disruption:</strong> RubyGems has <strong>paused new sign-ups</strong> following a reported malicious attack, and researchers report a campaign using many Ruby gems in unusual ways.</li>
+  <li><strong>Ripple effects via your suppliers:</strong> if your website, apps, integrations, or internal tools are maintained by a developer, agency, MSP, or SaaS vendor using Ruby, their build pipelines and dependency choices matter to you.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>SMEs inherit supplier risk:</strong> you may not run Ruby yourselves, but your web agency, e-commerce partner, CRM integrator, or hosted service might.</li>
+  <li><strong>Operational disruption:</strong> a repository incident can cause build failures, delayed releases, emergency changes, or rushed workarounds—times when mistakes (and security gaps) happen.</li>
+  <li><strong>Data handling risk:</strong> one reported campaign theme involved <strong>data exfiltration via package infrastructure</strong> rather than typical “mass malware”, which is a reminder that data can leak in less obvious ways.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Suppliers telling you they need to <strong>rush an emergency change</strong> to a website/app, or asking to <strong>temporarily disable security controls</strong> to “get builds working”.</li>
+  <li>Unexpected or unexplained <strong>changes to your website/app behaviour</strong> after a “dependency update” or “maintenance release”.</li>
+  <li>New <strong>admin accounts</strong> or access requests to your hosting, code repository, domain/DNS, or analytics “to investigate an issue”.</li>
+  <li>Unusual <strong>outbound traffic</strong> alerts from a hosted app/service (especially if a provider mentions “package updates” around the same time).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Typosquatting / lookalike packages:</strong> attackers rely on busy developers grabbing the wrong dependency name during an urgent fix.</li>
+  <li><strong>Compromised build pipelines:</strong> if a supplier pulls in unsafe dependencies, the resulting code can be deployed into customer environments.</li>
+  <li><strong>Social engineering of non-technical teams:</strong> incidents like this can be used as a pretext for emails such as “we must verify your admin access” or “confirm credentials to apply the hotfix”.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Identify exposure:</strong> ask your web/app supplier (or internal dev lead) whether any of your customer-facing services, internal tools, or integrations depend on Ruby/RubyGems.</li>
+  <li><strong>Put change control on high alert:</strong> require a short written change summary for any emergency releases this week (what changed, why, and how it was tested).</li>
+  <li><strong>Harden access requests:</strong> do not approve new admin access or password resets based on email alone—verify via a known phone number or your ticketing system.</li>
+  <li><strong>Log and monitor:</strong> ensure someone is watching for unusual sign-ins to hosting, DNS/domain registrar, code repos, and SaaS admin consoles.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do any of our suppliers or hosted services <strong>build using Ruby/RubyGems</strong> (directly or indirectly)?</li>
+  <li>What’s our process to <strong>review and approve emergency software changes</strong> from suppliers?</li>
+  <li>Can we quickly verify <strong>who has admin access</strong> to our hosting, domain/DNS, and key SaaS platforms—and do we have MFA enforced?</li>
+  <li>If a supplier reports a dependency incident, what <strong>evidence</strong> do we ask for (what was affected, what actions taken, and what monitoring is in place)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch rush from these items. The practical focus today is <strong>supplier change control and dependency hygiene</strong>: emergency updates after repository incidents are when risky mistakes and rushed approvals tend to occur.</p>
+
+        <h2>One action today</h2>
+        <p>Contact your web/app supplier today and ask them to confirm whether any of your services rely on RubyGems and what extra checks they’ve put in place before deploying any “emergency dependency updates” this week.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier Security Check (questions to ask your IT provider and key vendors)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html" rel="noopener noreferrer">RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html" rel="noopener noreferrer">GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

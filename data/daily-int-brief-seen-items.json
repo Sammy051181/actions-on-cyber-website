@@ -272,9 +272,35 @@
       "source": "Krebs on Security",
       "seen_at": "2026-05-13T17:12:45.280041+01:00",
       "brief_slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r"
+    },
+    "bf9d5851a6323b07": {
+      "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-13T22:13:34.269226+01:00",
+      "brief_slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems"
+    },
+    "39e9640cb93a0543": {
+      "url": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
+      "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-13T22:13:34.269226+01:00",
+      "brief_slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems",
+      "headline": "Today’s SMB cyber look-out: software supply-chain noise around RubyGems",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier / software supply-chain risk (malicious packages & developer tooling disruption)",
+      "published_at": "2026-05-13T22:13:34.269226+01:00",
+      "published_label": "Wednesday 13 May 2026, 22:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+        "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html"
+      ]
+    },
     {
       "slug": "2026-05-13-1712-smb-cyber-intelligence-brief-saas-breach-follow-on-scams-ransomware-disruption-r",
       "headline": "SMB Cyber Intelligence Brief: SaaS breach follow‑on scams + ransomware disruption ripple effects",
