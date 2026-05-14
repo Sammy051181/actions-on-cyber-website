@@ -286,9 +286,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-13T22:13:34.269226+01:00",
       "brief_slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems"
+    },
+    "1e80b9662a6d9493": {
+      "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+      "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T14:19:35.683018+01:00",
+      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
+    },
+    "108c944a2ccf1e7a": {
+      "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T14:19:35.683018+01:00",
+      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
+    },
+    "86c1d7895bec52ac": {
+      "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T14:19:35.683018+01:00",
+      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
+    },
+    "ea1099323cacca3d": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T14:19:35.683018+01:00",
+      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru",
+      "headline": "SMB Cyber Intel Brief: Microsoft Teams social-engineering breaches + supplier disruption watch",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft Teams impersonation and urgent “IT/security” requests; plus supplier disruption risks (ransomware, endpoint tool crashes)",
+      "published_at": "2026-05-14T14:19:35.683018+01:00",
+      "published_label": "Thursday 14 May 2026, 14:19 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+        "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+        "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/"
+      ]
+    },
     {
       "slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems",
       "headline": "Today’s SMB cyber look-out: software supply-chain noise around RubyGems",
