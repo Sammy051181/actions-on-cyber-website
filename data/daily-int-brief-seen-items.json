@@ -314,9 +314,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-14T14:19:35.683018+01:00",
       "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
+    },
+    "958ff8fa0446dd7d": {
+      "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-14T21:59:40.909051+01:00",
+      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
+    },
+    "22f033ba062e3ccc": {
+      "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+      "title": "OpenAI confirms security breach in TanStack supply chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T21:59:40.909051+01:00",
+      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
+    },
+    "8063eaf76e3376a8": {
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-14T21:59:40.909051+01:00",
+      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
+    },
+    "7a960182ffefc712": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-05-14T21:59:40.909051+01:00",
+      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel",
+      "headline": "SMB Cyber Brief: supply-chain package tampering, freight reroute fraud, and actively exploited network edge risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & software supply-chain risk + logistics/invoice fraud themes",
+      "published_at": "2026-05-14T21:59:40.909051+01:00",
+      "published_label": "Thursday 14 May 2026, 21:59 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+        "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+        "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog"
+      ]
+    },
     {
       "slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru",
       "headline": "SMB Cyber Intel Brief: Microsoft Teams social-engineering breaches + supplier disruption watch",

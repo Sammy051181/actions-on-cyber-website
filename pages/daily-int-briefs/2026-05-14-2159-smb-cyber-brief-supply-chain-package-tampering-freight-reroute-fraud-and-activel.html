@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: supply-chain package tampering, freight reroute fraud, and actively exploited network edge risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: supply-chain package tampering, freight reroute fraud, and actively exploited network edge risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 14 May 2026, 21:59 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; software supply-chain risk + logistics/invoice fraud themes
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain tampering (npm/PyPI ecosystem):</strong> reports of malicious versions of a popular Node package (node-ipc), and continuing fallout from the TanStack supply-chain incident (including OpenAI rotating code-signing certificates as a precaution).</li>
+  <li><strong>Cyber-enabled cargo crime:</strong> freight theft that starts with phishing/stolen credentials, then uses fake change requests and re-routing inside supply chain processes.</li>
+  <li><strong>Network edge exposure via suppliers/MSPs:</strong> CISA has flagged an actively exploited issue affecting Cisco Catalyst SD-WAN Controller (relevant if you, or your IT provider, run SD-WAN).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often don’t write the software they run, but they <em>do</em> depend on it—via websites, apps, managed IT, and third-party platforms. Supply-chain incidents can translate into stolen credentials, poisoned updates, or unexpected downtime. Separately, logistics fraud can hit any business that ships, receives, or pays for goods—especially where requests arrive by email and changes aren’t verified out-of-band.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Developers/IT seeing unexpected dependency updates, sudden build failures, or new “urgent” library version bumps that weren’t planned.</li>
+  <li>Security or IT alerts about unusual outbound connections from build servers, CI/CD pipelines, developer laptops, or web servers.</li>
+  <li>Email requests to <strong>change delivery address</strong>, <strong>switch carrier</strong>, <strong>release goods</strong>, or <strong>change collection details</strong>—especially last-minute or framed as “we’re in a rush”.</li>
+  <li>Supplier/customer messages that don’t match normal tone, include unusual attachments, or insist on moving the conversation off your usual channels.</li>
+  <li>Unexpected admin logins, new admin accounts, or configuration changes in network/remote access tooling (particularly SD-WAN/edge management).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain tampering:</strong> attackers publish or compromise software packages so that when organisations update, secrets (API keys, tokens) or credentials may be exposed—often through developer tooling or automated build systems.</li>
+  <li><strong>Certificate/trust chain disruption:</strong> when a major vendor rotates signing certificates as a precaution after an incident, attackers may piggyback with <em>fake “security update”</em> messages to trick staff into installing the wrong thing.</li>
+  <li><strong>Freight rerouting fraud:</strong> stolen email credentials (or convincing phishing) are used to impersonate shippers, carriers, or customers to redirect shipments, change pickup details, or approve releases.</li>
+  <li><strong>Edge device takeover:</strong> if a managed network controller is exposed and exploited, attackers can gain a foothold that leads to wider disruption, credential theft, or ransomware deployment.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff:</strong> treat any request to change bank details, delivery locations, carrier, or release authorisation as high-risk and verify via a known phone number or portal (not reply-to email).</li>
+  <li><strong>If you have in-house devs or a web agency:</strong> ask them to confirm whether your projects use <em>node-ipc</em> or were impacted by the wider TanStack supply-chain incident, and what they’ve done to validate dependencies and rebuild cleanly.</li>
+  <li><strong>Protect keys/tokens:</strong> review where API keys live (CI/CD, password managers, configuration files). If you suspect exposure, rotate secrets and review access logs.</li>
+  <li><strong>Logistics controls:</strong> require a second-person approval for delivery address changes and collection authorisations—especially for high-value items.</li>
+  <li><strong>MSP-managed networks:</strong> confirm whether any SD-WAN controller services are in use and whether your provider has checked exposure and applied mitigations.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or any of our suppliers) use Cisco SD-WAN/Catalyst SD-WAN Controller, and have you verified whether we’re exposed to the actively exploited issue CISA referenced?</li>
+  <li>What monitoring is in place for unusual admin activity or configuration changes on edge/network management systems?</li>
+  <li>For our websites/apps: do our builds rely on npm/PyPI dependencies, and do we have controls like dependency pinning, package integrity checks, and build isolation?</li>
+  <li>If a developer machine or build pipeline is suspected compromised, what is the containment plan (credential resets, secret rotation, rebuild process)?</li>
+  <li>Do we have a tested process for verifying supplier change requests (delivery/bank details) outside email?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has highlighted active exploitation of an authentication bypass affecting Cisco Catalyst SD-WAN Controller. Even if you don’t manage this directly, it’s worth asking your MSP/IT provider today whether any SD-WAN controller components exist in your environment or your managed service stack, and what confirmation they have that exposure is mitigated.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to finance/ops: “No delivery address, carrier, or bank-detail changes will be accepted from email alone—verify using a known phone number or portal before approving.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Verify payment &amp; supplier change requests (anti-invoice fraud quick checks)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html" rel="noopener noreferrer">Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/" rel="noopener noreferrer">OpenAI confirms security breach in TanStack supply chain attack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/" rel="noopener noreferrer">Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
