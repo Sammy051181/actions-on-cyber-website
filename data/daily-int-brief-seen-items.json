@@ -342,9 +342,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-05-14T21:59:40.909051+01:00",
       "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
+    },
+    "3e8a4c15a7e65ae9": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-15T14:16:50.010064+01:00",
+      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
+    },
+    "21a9615c326f6ca8": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-15T14:16:50.010064+01:00",
+      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
+    },
+    "5806f447b99d840f": {
+      "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-15T14:16:50.010064+01:00",
+      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
+    },
+    "987fbb6a6a300fa7": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-15T14:16:50.010064+01:00",
+      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses",
+      "headline": "Today’s SME cyber lookout: exploited email, website and network edge weaknesses",
+      "risk_level": "High",
+      "todays_lookout": "Business email, website takeover, and edge/network device compromise leading to disruption and ransomware risk",
+      "published_at": "2026-05-15T14:16:50.010064+01:00",
+      "published_label": "Friday 15 May 2026, 14:16 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+        "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/"
+      ]
+    },
     {
       "slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel",
       "headline": "SMB Cyber Brief: supply-chain package tampering, freight reroute fraud, and actively exploited network edge risk",
