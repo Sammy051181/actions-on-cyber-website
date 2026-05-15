@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: vishing-led cloud account takeovers and software supply-chain risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: vishing-led cloud account takeovers and software supply-chain risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 15 May 2026, 21:39 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Vishing extortion, session-token theft, and supplier/software supply-chain risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes SMEs should actively watch today:</strong></p>
+<ul>
+  <li><strong>“Helpdesk” voice calls (vishing) leading to cloud account takeover</strong> — attackers are using convincing phone calls to push staff into approving sign-ins or handing over login steps, then moving into Microsoft 365/Okta and stealing data for extortion.</li>
+  <li><strong>Session theft (stolen browser tokens) rather than passwords</strong> — malware can steal logged-in sessions, letting criminals access email and SaaS even when MFA is enabled.</li>
+  <li><strong>Software supply-chain risk</strong> — a widely used npm package has been reported compromised to steal credentials, which matters if you build software, use web agencies, or have apps maintained by third parties.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>M365 and SaaS are your business</strong>: email, files, finance workflows and client data live in the cloud. A single stolen session can mean immediate access without “breaking in”.</li>
+  <li><strong>Phones are trusted</strong>: staff often treat a confident caller as “internal IT” or “Microsoft support”, especially when busy.</li>
+  <li><strong>Suppliers write your code and run your sites</strong>: even if you don’t develop in-house, your website/CRM integrations and internal tools may depend on third-party components.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected calls claiming to be IT/helpdesk, your MSP, Microsoft, or your identity provider, urging urgent action “to stop an attack”.</li>
+  <li>Pressure to <strong>read out codes</strong>, <strong>approve MFA prompts</strong>, or visit a link while on the phone.</li>
+  <li>Staff report being asked to install “remote support”, “security tools”, or to sign in to a page the caller provides.</li>
+  <li>Sudden account lockouts, new sign-in notifications, new MFA prompts, or users being asked to re-authenticate repeatedly.</li>
+  <li>Unexplained new inbox rules, forwarding set up, or shared mailbox changes.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Vishing + SSO compromise</strong>: the caller guides a user through a login flow designed to capture access and then pivots into Microsoft 365/Okta environments.</li>
+  <li><strong>Adversary-in-the-middle style sign-in capture</strong>: instead of “cracking” passwords, criminals trick users into signing in in a way that hands over access.</li>
+  <li><strong>Session/token theft</strong>: infostealer malware can grab browser sessions so criminals inherit access to email, files, and SaaS without needing the password again.</li>
+  <li><strong>Compromised software components</strong>: malicious updates to common development packages can introduce credential theft into internal apps or build pipelines at suppliers.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Run a 10-minute staff message</strong>: “No IT/support will ever ask you to read out codes, approve an unexpected MFA prompt, or click a link while you’re on the phone. Hang up and call back via a known number.”</li>
+  <li><strong>Set a clear callback rule</strong> for finance/admin and customer-facing teams (reception, office managers) who are most likely to get these calls.</li>
+  <li><strong>Check your cloud login alerts</strong>: ensure sign-in notifications are enabled and being monitored (especially for admin accounts).</li>
+  <li><strong>Confirm your MSP/helpdesk process</strong>: how they verify identity over the phone, and how they would handle a suspected account takeover.</li>
+  <li><strong>If you use developers/agencies</strong>: ask them whether they are checking for compromised dependencies and how quickly they can respond to supply-chain alerts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>What is our <strong>procedure for suspected vishing</strong> (hang up, verify, isolate, reset sessions/tokens)? Who do staff contact?</li>
+  <li>Do we have <strong>conditional access / sign-in risk controls</strong> for Microsoft 365/Okta users, especially admins?</li>
+  <li>Can you <strong>force sign-out / revoke sessions</strong> quickly if a browser session is stolen?</li>
+  <li>How are we monitoring for <strong>new inbox forwarding rules</strong> and suspicious mailbox access?</li>
+  <li>For any in-house or supplier-built apps: how do you manage <strong>third-party dependency risk</strong> (e.g., npm packages) and detect malicious updates?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged an exploited Microsoft Exchange Server cross-site scripting issue in its known-exploited list. If you (or your IT provider) run Exchange on-prem, treat this as a prompt to confirm you’re on a supported, maintained setup and that your provider is actively tracking exploited issues that could lead to account compromise or data exposure.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “If anyone phones claiming to be IT/Microsoft/MSP and asks you to approve an MFA prompt, read out a code, or click a link—hang up and call back using a known internal number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Stop Phone-Based Account Takeover (Vishing) – Staff Script &amp; Callback Checklist” for reception, admin and finance teams.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/" rel="noopener noreferrer">Welcome to BlackFile: Inside a Vishing Extortion Operation</a> <span class="muted">(Google Threat Intelligence)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/" rel="noopener noreferrer">Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/" rel="noopener noreferrer">Popular node-ipc npm package compromised to steal credentials</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

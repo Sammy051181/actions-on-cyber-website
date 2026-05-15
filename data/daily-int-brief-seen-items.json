@@ -370,9 +370,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-15T14:16:50.010064+01:00",
       "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
+    },
+    "6257462df1733580": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+      "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-05-15T21:39:25.796285+01:00",
+      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
+    },
+    "84eb2799ddb4d536": {
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-15T21:39:25.796285+01:00",
+      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
+    },
+    "4a26b33b7d4985a0": {
+      "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+      "title": "Popular node-ipc npm package compromised to steal credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-15T21:39:25.796285+01:00",
+      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
+    },
+    "8f5dc67818fcdfd7": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-05-15T21:39:25.796285+01:00",
+      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl",
+      "headline": "Today’s SME cyber lookout: vishing-led cloud account takeovers and software supply-chain risks",
+      "risk_level": "High",
+      "todays_lookout": "Vishing extortion, session-token theft, and supplier/software supply-chain risk",
+      "published_at": "2026-05-15T21:39:25.796285+01:00",
+      "published_label": "Friday 15 May 2026, 21:39 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+        "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+        "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+        "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog"
+      ]
+    },
     {
       "slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses",
       "headline": "Today’s SME cyber lookout: exploited email, website and network edge weaknesses",
