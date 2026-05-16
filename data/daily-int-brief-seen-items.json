@@ -398,9 +398,59 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-05-15T21:39:25.796285+01:00",
       "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
+    },
+    "bf21843079485575": {
+      "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T11:49:42.483466+01:00",
+      "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
+    },
+    "fc7663ed1850fcf5": {
+      "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T11:49:42.483466+01:00",
+      "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
+    },
+    "ef5e7bcddb85ecdc": {
+      "url": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-16T11:49:42.483466+01:00",
+      "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
+    },
+    "35abd53d057b167c": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T11:49:42.483466+01:00",
+      "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
+    },
+    "fe83fe5e37a482b0": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+      "title": "Microsoft to automatically roll back faulty Windows drivers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T11:49:42.483466+01:00",
+      "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential",
+      "headline": "SMB Cyber Intelligence Brief — WordPress checkout skimming risk + website credential theft themes",
+      "risk_level": "High",
+      "todays_lookout": "Website and supplier/SaaS compromise leading to payment theft and account takeover",
+      "published_at": "2026-05-16T11:49:42.483466+01:00",
+      "published_label": "Saturday 16 May 2026, 11:49 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+        "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+        "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/"
+      ]
+    },
     {
       "slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl",
       "headline": "Today’s SME cyber lookout: vishing-led cloud account takeovers and software supply-chain risks",
