@@ -461,9 +461,43 @@
       "source": "NCSC All Updates",
       "seen_at": "2026-05-16T16:40:57.939463+01:00",
       "brief_slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care"
+    },
+    "2458d5eedbd97437": {
+      "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-16T20:53:22.744677+01:00",
+      "brief_slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita"
+    },
+    "813d5d1dd99f0d48": {
+      "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-16T20:53:22.744677+01:00",
+      "brief_slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita"
+    },
+    "42e8c65fa106c99e": {
+      "url": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-16T20:53:22.744677+01:00",
+      "brief_slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita",
+      "headline": "Weekend lookout: WooCommerce checkout skimming and Exchange email-server exploitation",
+      "risk_level": "High",
+      "todays_lookout": "E‑commerce payment skimming + email server compromise (supplier/SaaS dependency and business disruption risk)",
+      "published_at": "2026-05-16T20:53:22.744677+01:00",
+      "published_label": "Saturday 16 May 2026, 20:53 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+        "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+        "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html"
+      ]
+    },
     {
       "slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care",
       "headline": "Today’s SMB cyber lookout: network edge supplier risk, ‘urgent patch’ lures, and careful use of agentic AI",
