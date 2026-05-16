@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: network edge supplier risk, ‘urgent patch’ lures, and careful use of agentic AI | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: network edge supplier risk, ‘urgent patch’ lures, and careful use of agentic AI</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 16 May 2026, 16:40 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier / SaaS &amp; network edge risk plus ‘urgent security update’ phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Network edge / remote network management systems being targeted</strong> (especially SD-WAN controllers/managers). If you outsource networking or have multiple sites, your “internet edge” and its management console is a high-value target.</p>
+<p><strong>2) “Urgent patch” and “IT support” messages</strong> leveraging headlines about Windows 11 / Exchange being hacked at security competitions. Expect more convincing emails/calls pushing staff to “install updates”, “approve admin access”, or “re-enter Microsoft passwords”.</p>
+<p><strong>3) Pressure to adopt agentic AI quickly</strong> without guardrails. If you’re trialling AI that can take actions (send emails, change records, move files), treat it as a privileged user.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Edge systems are a shortcut to everything</strong>: if an attacker gets into a network controller/management system, they may be able to pivot across sites, change routing, or disrupt connectivity.</li>
+  <li><strong>Business impact is immediate</strong>: internet outage, site-to-site disruption, and knock-on issues with cloud apps, VoIP, card terminals, and remote working.</li>
+  <li><strong>Public security headlines drive scams</strong>: attackers routinely exploit news cycles to make phishing feel credible (“this is related to the Exchange/Windows hack in the news”).</li>
+  <li><strong>Agentic AI can magnify mistakes</strong>: a poorly configured tool can leak data or perform unsafe actions at speed if it has broad permissions.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to <strong>log in again</strong> to Microsoft 365, email, or VPN “due to security updates”.</li>
+  <li>Emails/calls claiming to be your <strong>IT provider, ISP, or network supplier</strong> requesting urgent access, MFA approval, or a remote support session.</li>
+  <li><strong>Unplanned network changes</strong>: new admin accounts, configuration changes, sudden VPN/SD-WAN reconfigurations, or unusual reboots.</li>
+  <li><strong>Connectivity oddities</strong>: multiple sites drop at once, VoIP degrades, card terminals fail, or cloud apps become intermittently unreachable.</li>
+  <li>AI pilots where the tool has <strong>write access</strong> to shared drives, mailboxes, CRM/finance systems, or HR folders without clear approval steps.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Targeting remote network management</strong> (directly or via an MSP) to gain admin-level control and persistence.</li>
+  <li><strong>Follow-on disruption</strong>: once inside, attackers may disable security tools, create backdoor access, or prepare for ransomware by mapping your environment.</li>
+  <li><strong>Phishing and fake help-desk</strong> campaigns referencing “Exchange/Windows emergency fixes” to trick staff into handing over credentials or approving MFA prompts.</li>
+  <li><strong>Abusing trust in automation</strong>: if an agentic AI has broad permissions, an attacker (or a bad integration) can use it to exfiltrate files or send convincing internal emails.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm who manages your network edge</strong> (SD-WAN, firewall, VPN, routers) and how access is controlled (named accounts, MFA, logging).</li>
+  <li><strong>Brief staff</strong>: no-one should install software, approve MFA prompts, or start a remote support session based on an email/call. Use a known phone number to verify.</li>
+  <li><strong>Check admin access hygiene</strong>: remove shared admin logins; ensure MFA is enforced; review recent admin logins and configuration changes.</li>
+  <li><strong>If trialling agentic AI</strong>, start with least privilege: read-only where possible; human approval for sending emails, changing records, or moving/deleting files.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run (or do you manage) any <strong>Cisco Catalyst SD-WAN Controller/Manager</strong> environments for us or within our wider group? If yes, what’s our exposure and what checks have you done for suspicious access?</li>
+  <li>How do you <strong>monitor and alert</strong> on changes to network edge configurations and creation of new admin accounts?</li>
+  <li>What is our process for <strong>verifying supplier “urgent update” requests</strong> (including you), and how do you prevent your support channels being spoofed?</li>
+  <li>If we use AI tools, can you help us define <strong>permission boundaries</strong>, audit logs, and an approval workflow for high-risk actions?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Cisco Talos reports active exploitation of an authentication bypass affecting Cisco Catalyst SD-WAN Controller/Manager (CVE-2026-20182). If you (or your MSP) use these products, treat this as time-sensitive: confirm ownership, review access logs and admin accounts, and ensure updates/mitigations are being handled under change control with clear evidence.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day instruction to staff: do not approve MFA prompts or start remote support sessions from unsolicited ‘urgent update’ emails/calls—verify via a known internal or supplier phone number.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Run the Actions On Cyber ‘Payment &amp; account change request verification’ mini-checklist (adapt it for IT support and ‘urgent security update’ requests).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/" rel="noopener noreferrer">Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities</a> <span class="muted">(Cisco Talos)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/" rel="noopener noreferrer">Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/" rel="noopener noreferrer">Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai" rel="noopener noreferrer">Thinking carefully before adopting agentic AI</a> <span class="muted">(NCSC All Updates)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

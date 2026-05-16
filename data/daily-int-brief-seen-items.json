@@ -433,9 +433,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-16T11:49:42.483466+01:00",
       "brief_slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential"
+    },
+    "5fa1408c201ae063": {
+      "url": "https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/",
+      "title": "Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities",
+      "source": "Cisco Talos",
+      "seen_at": "2026-05-16T16:40:57.939463+01:00",
+      "brief_slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care"
+    },
+    "09cad3c84ab78d3c": {
+      "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T16:40:57.939463+01:00",
+      "brief_slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care"
+    },
+    "0bc4426c74e45d38": {
+      "url": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+      "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-16T16:40:57.939463+01:00",
+      "brief_slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care"
+    },
+    "b130e5fa18b9586a": {
+      "url": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+      "title": "Thinking carefully before adopting agentic AI",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-05-16T16:40:57.939463+01:00",
+      "brief_slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-16-1640-today-s-smb-cyber-lookout-network-edge-supplier-risk-urgent-patch-lures-and-care",
+      "headline": "Today’s SMB cyber lookout: network edge supplier risk, ‘urgent patch’ lures, and careful use of agentic AI",
+      "risk_level": "High",
+      "todays_lookout": "Supplier / SaaS & network edge risk plus ‘urgent security update’ phishing",
+      "published_at": "2026-05-16T16:40:57.939463+01:00",
+      "published_label": "Saturday 16 May 2026, 16:40 UK time",
+      "source_urls": [
+        "https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/",
+        "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+        "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+        "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai"
+      ]
+    },
     {
       "slug": "2026-05-16-1149-smb-cyber-intelligence-brief-wordpress-checkout-skimming-risk-website-credential",
       "headline": "SMB Cyber Intelligence Brief — WordPress checkout skimming risk + website credential theft themes",
