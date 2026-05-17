@@ -59,12 +59,13 @@ body{font-family:var(--font);background:var(--off-white);color:var(--text);font-
 .faq-btn:hover,.faq-btn.active{background:var(--teal);color:var(--white);border-color:var(--teal);}
 
 /* DOMAIN NAV */
-.domain-nav{display:flex;overflow-x:auto;background:#f0efeb;border-bottom:0.5px solid var(--border);}
+.domain-nav{display:flex;overflow-x:auto;background:#f0efeb;border-bottom:0.5px solid var(--border);gap:3px;padding:10px 10px 0;}
 .domain-nav::-webkit-scrollbar{display:none;}
-.dnav-item{flex-shrink:0;padding:9px 14px;font-size:10px;font-weight:500;color:var(--text-muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all 0.15s;display:flex;align-items:center;gap:5px;font-family:var(--font);}
-.dnav-item:hover{color:var(--text);}
-.dnav-item.active{color:var(--teal);border-bottom-color:var(--teal);background:var(--white);}
-.dnav-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+.dnav-item{flex-shrink:0;padding:8px 13px 10px;cursor:pointer;border-radius:7px 7px 0 0;border-bottom:3px solid transparent;white-space:nowrap;transition:all 0.15s;display:flex;flex-direction:column;align-items:center;gap:2px;font-family:var(--font);color:var(--text-muted);background:rgba(255,255,255,0.45);}
+.dnav-item:hover{color:var(--text);background:rgba(255,255,255,0.8);}
+.dnav-item.active{color:#fff;border-bottom-color:transparent;}
+.dnav-num{font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;opacity:0.8;}
+.dnav-name{font-size:11px;font-weight:700;white-space:nowrap;}
 
 /* DOMAIN VIEW */
 .domain-view{display:none;}
@@ -194,7 +195,7 @@ body{font-family:var(--font);background:var(--off-white);color:var(--text);font-
 const DOMAINS = [
   {
     id:1, color:"#1A7F8E", pct:"15%", qs:"~19",
-    name:"Security and Risk Management",
+    name:"Security and Risk Management", short:"Risk Mgmt",
     hook:"Think like a CISO, not a technician. This domain is about managing risk from a business perspective.",
     clusters:[
       {
@@ -327,7 +328,7 @@ const DOMAINS = [
   },
   {
     id:2, color:"#3B6D11", pct:"10%", qs:"~13",
-    name:"Asset Security",
+    name:"Asset Security", short:"Asset Security",
     hook:"Know what you have, who owns it, and what it is worth. Then protect it accordingly.",
     clusters:[
       {label:"Data classification", color:"#3B6D11",
@@ -410,7 +411,7 @@ const DOMAINS = [
   },
   {
     id:3, color:"#185FA5", pct:"13%", qs:"~16",
-    name:"Security Architecture and Engineering",
+    name:"Security Architecture and Engineering", short:"Architecture",
     hook:"Build security into the design. A system that is secure by accident is not secure at all.",
     clusters:[
       {label:"Security models", color:"#185FA5",
@@ -509,7 +510,7 @@ const DOMAINS = [
   },
   {
     id:4, color:"#854F0B", pct:"12%", qs:"~15",
-    name:"Communication and Network Security",
+    name:"Communication and Network Security", short:"Network Security",
     hook:"Control what moves between systems. Every connection is a potential attack path.",
     clusters:[
       {label:"Network models and protocols", color:"#854F0B",
@@ -595,7 +596,7 @@ const DOMAINS = [
   },
   {
     id:5, color:"#534AB7", pct:"13%", qs:"~16",
-    name:"Identity and Access Management",
+    name:"Identity and Access Management", short:"IAM",
     hook:"Right people, right access, right time. Everything else follows from getting this right.",
     clusters:[
       {label:"Identity and authentication", color:"#534AB7",
@@ -689,7 +690,7 @@ const DOMAINS = [
   },
   {
     id:6, color:"#0F6E56", pct:"12%", qs:"~15",
-    name:"Security Assessment and Testing",
+    name:"Security Assessment and Testing", short:"Assessment",
     hook:"You cannot protect what you cannot measure. Test continuously, not just before an audit.",
     clusters:[
       {label:"Assessment types", color:"#0F6E56",
@@ -767,7 +768,7 @@ const DOMAINS = [
   },
   {
     id:7, color:"#993556", pct:"13%", qs:"~16",
-    name:"Security Operations",
+    name:"Security Operations", short:"Operations",
     hook:"Detect, respond, recover, repeat. Every incident is a lesson if you close the loop.",
     clusters:[
       {label:"Incident response", color:"#993556",
@@ -852,7 +853,7 @@ const DOMAINS = [
   },
   {
     id:8, color:"#A32D2D", pct:"11%", qs:"~14",
-    name:"Software Development Security",
+    name:"Software Development Security", short:"Software Dev",
     hook:"Security that is not in the design is not in the product. Build it in from the start.",
     clusters:[
       {label:"Secure SDLC", color:"#A32D2D",
@@ -974,14 +975,16 @@ function init(){
 
 function renderNav(){
   const nav = document.getElementById('domainNav');
-  nav.innerHTML = DOMAINS.map(d => `
-    <div class="dnav-item ${!showFaq && d.id===currentDomain?'active':''}"
+  nav.innerHTML = DOMAINS.map(d => {
+    const active = !showFaq && d.id===currentDomain;
+    return `
+    <div class="dnav-item ${active?'active':''}"
          onclick="selectDomain(${d.id})"
-         style="${!showFaq && d.id===currentDomain?'color:'+d.color+';border-bottom-color:'+d.color:''}">
-      <span class="dnav-dot" style="background:${d.color}"></span>
-      Domain ${d.id}
+         style="${active?'background:'+d.color+';border-bottom-color:'+d.color:'border-bottom-color:'+d.color+'40'}">
+      <span class="dnav-num">Domain ${d.id}</span>
+      <span class="dnav-name">${d.short}</span>
     </div>
-  `).join('');
+  `}).join('');
 }
 
 function selectDomain(id){
