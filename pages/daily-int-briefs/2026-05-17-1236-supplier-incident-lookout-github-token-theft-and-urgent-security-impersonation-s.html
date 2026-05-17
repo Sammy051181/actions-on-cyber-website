@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Supplier incident lookout: GitHub token theft and “urgent security” impersonation scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Supplier incident lookout: GitHub token theft and “urgent security” impersonation scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Sunday 17 May 2026, 12:36 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams and repo/token security knock-on risks
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be alert for scam emails or calls that reference a well-known supplier incident and try to rush you into “security steps”, credential resets, or payments. Today’s widely reported example: Grafana disclosed an unauthorised party obtained a token that allowed access to its GitHub environment and a codebase download, followed by an extortion attempt.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supplier incidents are often used as bait</strong> for phishing (“we’re fixing your Grafana account”, “download the hotfix”, “rotate your token here”).</li>
+  <li><strong>Code and configuration reuse is common</strong>: if attackers get source code, they may look for patterns, integrations, or misconfigurations to exploit elsewhere (including in customer environments), even if the supplier says customer systems weren’t impacted.</li>
+  <li><strong>GitHub/API tokens are a real-world weak point</strong> for many SMEs and MSPs because they can unlock automation, CI/CD, scripts, and deployments.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails/Teams messages claiming your supplier account is “at risk” and asking you to <strong>log in via a link</strong> or “confirm” credentials.</li>
+  <li>Requests to <strong>rotate API tokens</strong> or “reconnect GitHub” with a link to a lookalike site.</li>
+  <li>“Emergency patch” attachments, ZIPs, or scripts from someone claiming to be support.</li>
+  <li>Unexpected prompts for MFA, password resets you didn’t start, or new GitHub/SaaS authorisations appearing.</li>
+  <li>Any request to pay to avoid disruption or data release (extortion language, short deadlines).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Impersonation:</strong> criminals pose as the affected vendor, your MSP, or “security” and push a fake remediation step.</li>
+  <li><strong>Token/credential harvesting:</strong> “rotate your token” becomes the excuse to steal the new one.</li>
+  <li><strong>Follow-on targeting:</strong> if an attacker learns how a product is typically deployed, they may craft more convincing lures aimed at admins and IT contractors.</li>
+  <li><strong>Persistence risk in managed environments:</strong> separate reporting this week highlights long-running backdoor tooling evolving for stealth and persistence—reinforcing the need to investigate unusual admin activity promptly.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff who handle IT/admin requests</strong> (office manager, finance, ops, IT admin): don’t click “urgent security” links; verify via your usual support portal/bookmarked login.</li>
+  <li><strong>Check where GitHub/API tokens are used</strong> (automation, backup scripts, deployment tools). Make sure tokens are stored securely and have only the permissions they need.</li>
+  <li><strong>Review access logs/alerts</strong> for your code repos and key SaaS tools for unusual logins, new app authorisations, or token creations.</li>
+  <li><strong>Reconfirm escalation paths</strong>: who can approve changes to integrations, tokens, SSO, and admin accounts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an inventory of <strong>API keys/tokens</strong> (GitHub and other SaaS) and who owns them?</li>
+  <li>How do we <strong>monitor for new tokens/app authorisations</strong> and unusual admin actions?</li>
+  <li>What’s our standard process to <strong>verify vendor/security alerts</strong> before taking action?</li>
+  <li>If a supplier incident triggers impersonation campaigns, what’s our <strong>rapid comms plan</strong> to staff?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>A separate dispute in reporting about a potential Azure Backup for AKS issue is a reminder to treat cloud platform changes and security advisories as an operational risk: ensure your IT provider can explain how they track cloud security updates and validate backup/restore behaviour in your environment, without relying solely on public CVEs.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “No one should act on supplier ‘urgent security’ emails—only use bookmarked portals and confirm any token/password reset requests with IT via a known contact method.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Verify-before-you-act: supplier incident &amp; impersonation scam playbook (email + phone)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html" rel="noopener noreferrer">Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/" rel="noopener noreferrer">Microsoft rejects critical Azure vulnerability report, no CVE issued</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/" rel="noopener noreferrer">Russian hackers turn Kazuar backdoor into modular P2P botnet</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html" rel="noopener noreferrer">Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

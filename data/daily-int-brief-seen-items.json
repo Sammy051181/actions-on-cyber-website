@@ -482,9 +482,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-16T20:53:22.744677+01:00",
       "brief_slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita"
+    },
+    "42fc5f50e98cee5c": {
+      "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-17T12:36:10.655520+01:00",
+      "brief_slug": "2026-05-17-1236-supplier-incident-lookout-github-token-theft-and-urgent-security-impersonation-s"
+    },
+    "189314d5a4d0ae05": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+      "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-17T12:36:10.655520+01:00",
+      "brief_slug": "2026-05-17-1236-supplier-incident-lookout-github-token-theft-and-urgent-security-impersonation-s"
+    },
+    "8380987eb59b874d": {
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+      "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-17T12:36:10.655520+01:00",
+      "brief_slug": "2026-05-17-1236-supplier-incident-lookout-github-token-theft-and-urgent-security-impersonation-s"
+    },
+    "309cba5eea4a5d7d": {
+      "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-17T12:36:10.655520+01:00",
+      "brief_slug": "2026-05-17-1236-supplier-incident-lookout-github-token-theft-and-urgent-security-impersonation-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-17-1236-supplier-incident-lookout-github-token-theft-and-urgent-security-impersonation-s",
+      "headline": "Supplier incident lookout: GitHub token theft and “urgent security” impersonation scams",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams and repo/token security knock-on risks",
+      "published_at": "2026-05-17T12:36:10.655520+01:00",
+      "published_label": "Sunday 17 May 2026, 12:36 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+        "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+        "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+        "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html"
+      ]
+    },
     {
       "slug": "2026-05-16-2053-weekend-lookout-woocommerce-checkout-skimming-and-exchange-email-server-exploita",
       "headline": "Weekend lookout: WooCommerce checkout skimming and Exchange email-server exploitation",
