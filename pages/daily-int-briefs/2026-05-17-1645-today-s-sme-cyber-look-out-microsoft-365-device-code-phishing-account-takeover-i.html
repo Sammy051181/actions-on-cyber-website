@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look‑out: Microsoft 365 device‑code phishing (account takeover) + “in the wild” NGINX exploitation risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look‑out: Microsoft 365 device‑code phishing (account takeover) + “in the wild” NGINX exploitation risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 17 May 2026, 16:45 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover phishing and internet‑facing web service disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Microsoft 365 “device-code” phishing</strong>: emails or messages that try to get a staff member to enter a short code on a genuine Microsoft sign-in page (often framed as “secure login”, “update access”, “new Teams/SharePoint document”, or “verify your account”).</li>
+  <li><strong>Unexpected Microsoft 365 sign-in prompts</strong> and new device registrations that staff don’t recognise.</li>
+  <li><strong>Website or portal instability</strong> (errors, worker crashes, unexplained restarts) if your organisation runs NGINX or relies on a supplier that does.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>For many SMEs, Microsoft 365 is the front door to email, invoices, customer data and internal documents. A successful account takeover can quickly lead to:</p>
+<ul>
+  <li>Invoice/payment diversion (attackers replying from a real mailbox).</li>
+  <li>Payroll/HR data exposure and social engineering of staff.</li>
+  <li>Wider compromise via password resets and access to other SaaS tools.</li>
+</ul>
+<p>Separately, reports of active exploitation affecting NGINX matter because SMEs may run it directly (website, reverse proxy) or be indirectly exposed through hosting providers, web agencies, ecommerce platforms, and managed IT/security services.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails telling staff to <strong>visit a Microsoft page and enter a code</strong> to “continue signing in”.</li>
+  <li>Messages using <strong>tracking/click-protection style links</strong> that redirect through a third party before landing on Microsoft.</li>
+  <li>Staff report “I didn’t request this sign-in”, “I got a login code I didn’t ask for”, or repeated authentication prompts.</li>
+  <li>Mailbox rules created or changed unexpectedly (e.g., forwarding, hiding messages, moving finance emails to archives).</li>
+  <li>Web services showing unusual instability: repeated restarts, spikes in errors, or unexplained downtime.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Device-code phishing</strong> can trick a user into authorising a sign-in on a legitimate Microsoft page, which may bypass some of the usual “fake login page” tell-tales.</li>
+  <li>Once inside Microsoft 365, attackers often target <strong>finance and supplier conversations</strong>, then send believable payment-change requests from the compromised account.</li>
+  <li>For NGINX, attackers may target <strong>internet-facing services</strong> to cause disruption and, in worst cases, attempt deeper access—meaning your exposure can be direct (your server) or via a supplier’s infrastructure.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Warn staff (especially finance/admin)</strong>: Microsoft will never ask you to type a “device code” from an email into a sign-in page to view a document or fix a mailbox issue.</li>
+  <li><strong>Require stronger sign-in controls</strong> for Microsoft 365 (MFA and conditional access where available) and ensure staff know how to report suspicious sign-in prompts immediately.</li>
+  <li><strong>Review mailbox forwarding and rules</strong> for finance and senior leadership accounts (and investigate anything new or unexplained).</li>
+  <li><strong>Check key suppliers</strong> (web host, ecommerce provider, MSP) for any service advisories or unusual instability today, and ensure you have a clear escalation route if a portal goes down.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we seeing <strong>device-code phishing attempts</strong> against our Microsoft 365 users, and do we have an agreed process for rapid account lockout and session revocation?</li>
+  <li>Do we have <strong>alerting for suspicious Microsoft 365 activity</strong> (new sign-ins, unusual locations, new inbox rules, forwarding, OAuth/app consent changes) for priority accounts?</li>
+  <li>Do we (or any critical supplier we depend on) run <strong>NGINX on internet-facing systems</strong>, and have we confirmed mitigations/updates and monitoring are in place?</li>
+  <li>If our email or website is disrupted, what’s our <strong>business continuity fallback</strong> (alternate contact route, invoice approval process, customer comms plan)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of active exploitation affecting NGINX (CVE-2026-42945). Even if you don’t run servers yourself, ask your website/hosting/MSP suppliers to confirm whether they use NGINX in your service path and what they’ve done to reduce risk and monitor for abnormal crashes or exploitation attempts.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Do not enter ‘device codes’ from emails/messages into Microsoft sign-in pages—report it immediately,” and have IT review forwarding/rules on finance and leadership mailboxes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – Phishing reporting &amp; invoice fraud (payment change) checklist</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/" rel="noopener noreferrer">Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html" rel="noopener noreferrer">NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
