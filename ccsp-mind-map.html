@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCSP Mind Map — All 6 Domains Explained | Actions on Cyber</title>
+<meta name="description" content="Free interactive CCSP study guide covering all 6 domains, every topic, and exam traps retakers get wrong. The clearest CCSP mind map available — no signup required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What are the 6 CCSP domains?","acceptedAnswer":{"@type":"Answer","text":"The 6 CCSP domains are: Cloud Concepts, Architecture and Design (17%), Cloud Data Security (20%), Cloud Platform and Infrastructure Security (17%), Cloud Application Security (17%), Cloud Security Operations (16%), and Legal, Risk and Compliance (13%)."}},
+    {"@type":"Question","name":"How hard is the CCSP exam?","acceptedAnswer":{"@type":"Answer","text":"The CCSP is a difficult certification aimed at experienced cloud and security professionals. It uses adaptive testing and requires deep understanding of cloud-specific concepts across all six domains. Most candidates study for 3–6 months and benefit from hands-on cloud experience alongside study."}},
+    {"@type":"Question","name":"How long does it take to study for CCSP?","acceptedAnswer":{"@type":"Answer","text":"Most candidates study for 3 to 6 months. Those with existing cloud architecture or security operations experience may need less. The most common gaps are in legal and compliance topics and cloud-specific cryptography."}},
+    {"@type":"Question","name":"How many questions are on the CCSP exam?","acceptedAnswer":{"@type":"Answer","text":"The CCSP uses Computer Adaptive Testing and contains between 125 and 175 questions. The exam ends when the system has sufficient confidence in your result, within a 4-hour window."}},
+    {"@type":"Question","name":"What is the CCSP pass rate?","acceptedAnswer":{"@type":"Answer","text":"ISC² does not publish official pass rate figures. Industry estimates suggest it is a challenging exam, particularly for candidates without hands-on cloud experience. Targeted preparation across all six domains is essential."}},
+    {"@type":"Question","name":"How do you pass the CCSP exam?","acceptedAnswer":{"@type":"Answer","text":"Think like a cloud security architect and risk manager, not a cloud engineer. The exam tests your ability to evaluate trade-offs and make risk-based decisions in cloud environments. Study all 6 domains, understand shared responsibility models, and focus on cloud-specific versions of security concepts you may already know from on-premises contexts."}}
+  ]
+}
+</script>
+<style>
+:root {
+  --navy: #1C2B3A;
+  --navy-light: #243547;
+  --teal: #1A7F8E;
+  --teal-light: #e8f6f8;
+  --olive: #4A6741;
+  --olive-light: #eef3ec;
+  --red: #A32D2D;
+  --red-light: #fdf0f0;
+  --white: #ffffff;
+  --off-white: #f8f7f4;
+  --border: #e4e2da;
+  --border-mid: #d3d1c7;
+  --text: #1a1a18;
+  --text-mid: #555550;
+  --text-muted: #888880;
+  --font: 'DM Sans', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font);background:var(--off-white);color:var(--text);font-size:14px;line-height:1.5;}
+
+.ccsp-tool{background:var(--white);border:0.5px solid var(--border);border-radius:12px;overflow:hidden;max-width:960px;margin:0 auto;}
+
+.tool-header{background:var(--navy);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;}
+.header-left{display:flex;align-items:center;gap:12px;}
+.header-logo{width:36px;height:36px;background:var(--teal);border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.header-logo svg{width:22px;height:22px;}
+.header-title{font-size:15px;font-weight:600;color:var(--white);letter-spacing:-0.01em;}
+.header-sub{font-size:10px;color:rgba(255,255,255,0.4);margin-top:1px;}
+.header-right{display:flex;align-items:center;gap:8px;}
+.faq-btn{font-size:11px;font-weight:500;color:rgba(255,255,255,0.6);background:rgba(255,255,255,0.08);border:0.5px solid rgba(255,255,255,0.15);border-radius:5px;padding:5px 12px;cursor:pointer;transition:all 0.15s;font-family:var(--font);}
+.faq-btn:hover,.faq-btn.active{background:var(--teal);color:var(--white);border-color:var(--teal);}
+
+.domain-nav{display:flex;overflow-x:auto;background:#f0efeb;border-bottom:0.5px solid var(--border);}
+.domain-nav::-webkit-scrollbar{display:none;}
+.dnav-item{flex-shrink:0;padding:10px 16px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap;transition:all 0.15s;display:flex;flex-direction:column;align-items:flex-start;gap:2px;font-family:var(--font);background:transparent;}
+.dnav-item:hover{background:rgba(255,255,255,0.5);}
+.dnav-item.active{background:var(--white);}
+.dnav-label{font-size:8px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);}
+.dnav-short{font-size:11px;font-weight:600;color:var(--text-mid);}
+.dnav-item.active .dnav-short{color:var(--navy);}
+
+.domain-view{display:none;}
+.domain-view.active{display:block;}
+
+.domain-hdr{padding:16px 20px 14px;border-bottom:0.5px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.domain-hdr-left{}
+.domain-num{font-size:9px;font-weight:500;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:3px;text-transform:uppercase;}
+.domain-name{font-size:17px;font-weight:600;color:var(--navy);letter-spacing:-0.02em;}
+.domain-hook{font-size:12px;color:var(--text-mid);margin-top:4px;font-style:italic;}
+.domain-pct-block{text-align:right;flex-shrink:0;}
+.domain-pct{font-size:30px;font-weight:600;line-height:1;letter-spacing:-0.03em;}
+.domain-pct-label{font-size:9px;color:var(--text-muted);margin-top:2px;}
+.domain-pct-q{font-size:10px;font-weight:500;margin-top:1px;}
+
+.clusters-grid{display:grid;grid-template-columns:1fr 1fr;border-bottom:0.5px solid var(--border);}
+.cluster{border-right:0.5px solid var(--border);border-bottom:0.5px solid var(--border);}
+.cluster:nth-child(even){border-right:none;}
+.cluster:nth-child(3),.cluster:nth-child(4){border-bottom:none;}
+.cluster-hdr{padding:9px 14px;font-size:11px;font-weight:600;color:var(--white);letter-spacing:0.01em;}
+.cluster-body{padding:10px 12px;background:#fafaf8;display:flex;gap:8px;min-height:120px;}
+
+.sg{flex:1;min-width:0;}
+.sg-label{font-size:7.5px;font-weight:600;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:5px;text-transform:uppercase;}
+.vchips{display:flex;flex-direction:column;gap:2px;}
+.vchip{font-size:9.5px;padding:4px 7px;border:0.5px solid var(--border-mid);border-radius:4px;color:var(--text);background:var(--white);cursor:pointer;line-height:1.3;transition:all 0.12s;font-family:var(--font);}
+.vchip:hover{border-color:var(--teal);color:var(--teal);background:var(--teal-light);}
+.vchip.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
+
+.explanation-drawer{border-top:0.5px solid var(--border);background:var(--white);display:none;}
+.explanation-drawer.open{display:block;}
+.ed-inner{padding:16px 20px;}
+.ed-breadcrumb{font-size:9px;font-weight:500;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;}
+.ed-title{font-size:15px;font-weight:600;color:var(--navy);margin-bottom:10px;letter-spacing:-0.01em;}
+.ed-text{font-size:13px;color:var(--text-mid);line-height:1.7;margin-bottom:14px;}
+.ed-insight{border-left:3px solid var(--olive);padding:10px 14px;background:var(--olive-light);border-radius:0 6px 6px 0;}
+.ed-insight-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--olive);margin-bottom:4px;text-transform:uppercase;}
+.ed-insight-text{font-size:12px;color:#3a4a35;line-height:1.6;}
+.ed-close{float:right;font-size:11px;color:var(--text-muted);cursor:pointer;background:none;border:none;font-family:var(--font);padding:0;margin-top:1px;}
+.ed-close:hover{color:var(--red);}
+
+.traps-section{background:#fdf8f6;border-bottom:0.5px solid #f0d8d0;padding:10px 16px;}
+.traps-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--red);margin-bottom:7px;display:flex;align-items:center;gap:5px;text-transform:uppercase;}
+.traps-dot{width:6px;height:6px;background:#D85A30;border-radius:50%;flex-shrink:0;}
+.traps-chips{display:flex;flex-wrap:wrap;gap:4px;}
+.trap-chip{font-size:10px;padding:3px 9px;border:0.5px solid #f0b8a8;border-radius:4px;color:#7a2020;background:var(--white);}
+
+.connects-section{background:#f6f8f5;padding:10px 16px;}
+.connects-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--olive);margin-bottom:7px;text-transform:uppercase;}
+.connects-flow{display:flex;flex-wrap:wrap;align-items:center;gap:5px;}
+.flow-chip{font-size:10px;padding:3px 10px;border:0.5px solid #b8ccb4;border-radius:4px;color:#2a4025;background:var(--white);}
+.flow-arr{font-size:12px;color:var(--border-mid);}
+
+.faq-view{display:none;padding:20px;}
+.faq-view.active{display:block;}
+.faq-intro{font-size:13px;color:var(--text-mid);margin-bottom:20px;line-height:1.6;}
+.faq-item{border:0.5px solid var(--border);border-radius:8px;margin-bottom:10px;overflow:hidden;}
+.faq-q{padding:12px 16px;font-size:13px;font-weight:600;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:var(--white);transition:background 0.12s;}
+.faq-q:hover{background:var(--off-white);}
+.faq-q.open{background:var(--navy);color:var(--white);}
+.faq-chevron{font-size:12px;transition:transform 0.2s;flex-shrink:0;}
+.faq-q.open .faq-chevron{transform:rotate(180deg);}
+.faq-a{display:none;padding:14px 16px;font-size:13px;color:var(--text-mid);line-height:1.7;border-top:0.5px solid var(--border);background:#fafaf8;}
+.faq-a.open{display:block;}
+.faq-seo-note{margin-top:6px;font-size:11px;color:var(--text-muted);font-style:italic;}
+
+.tool-footer{background:var(--navy);padding:8px 20px;display:flex;align-items:center;justify-content:space-between;}
+.tool-footer-left{font-size:9px;color:rgba(255,255,255,0.35);}
+.tool-footer-right{font-size:9px;color:var(--teal);}
+
+@media(max-width:600px){
+  .clusters-grid{grid-template-columns:1fr;}
+  .cluster{border-right:none;}
+  .cluster:nth-child(3){border-bottom:0.5px solid var(--border);}
+  .domain-hdr{flex-direction:column;}
+  .domain-pct-block{text-align:left;}
+}
+</style>
+</head>
+<body>
+
+<div class="ccsp-tool">
+
+<div class="tool-header">
+  <div class="header-left">
+    <div class="header-logo">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="#9FE1CB" stroke-width="1.5" fill="none"/>
+        <path d="M12 6v6l4 2" stroke="#5DCAA5" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="2" fill="#1A7F8E" opacity="0.9"/>
+      </svg>
+    </div>
+    <div>
+      <div class="header-title">CCSP Mind Map</div>
+      <div class="header-sub">Actions on Cyber · All 6 Domains · Free Study Resource</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="faq-btn" id="faqBtn" onclick="toggleFaq()">FAQ</button>
+  </div>
+</div>
+
+<div class="domain-nav" id="domainNav"></div>
+<div id="mainContent"></div>
+
+<div class="tool-footer">
+  <div class="tool-footer-left">Actions on Cyber · CCSP Mind Map · Free Resource</div>
+  <div class="tool-footer-right">Practical Guidance. Real Protection.</div>
+</div>
+
+</div>
+
+<script>
+const DOMAINS = [
+  {
+    id:1, color:"#1A7F8E", pct:"17%", qs:"~21",
+    shortName:"Cloud Concepts",
+    name:"Cloud Concepts, Architecture and Design",
+    hook:"Before you secure anything in the cloud, you must understand what the cloud actually is and how it differs from on-premises. Everything else builds on this.",
+    clusters:[
+      {
+        label:"Cloud fundamentals", color:"#1A7F8E",
+        groups:[
+          {label:"Service models", chips:[
+            {name:"IaaS",explain:"Infrastructure as a Service provides virtualised compute, storage and networking. The customer manages everything from the OS upward — patching, applications, data. The provider manages the physical hardware and hypervisor. Maximum flexibility, maximum customer responsibility. Examples: AWS EC2, Azure Virtual Machines.",insight:"In IaaS, the customer is responsible for OS security, patching, and everything built on top. The exam frequently tests where responsibility boundaries sit across the three service models."},
+            {name:"PaaS",explain:"Platform as a Service provides a managed environment for developing and running applications. The provider manages the OS, runtime and middleware. The customer manages applications and data only. Developers can build without managing infrastructure. Examples: AWS Elastic Beanstalk, Azure App Service.",insight:"PaaS reduces customer responsibility but also reduces control. The provider patching the underlying OS is a benefit — but it also means the customer cannot control when patches are applied. The exam tests these trade-offs."},
+            {name:"SaaS",explain:"Software as a Service delivers fully managed applications over the internet. The provider manages everything — infrastructure, platform, application and updates. The customer typically controls only data and user access configuration. Examples: Microsoft 365, Salesforce, Google Workspace.",insight:"In SaaS, the customer has the least control and the least responsibility for the underlying stack. Data governance remains the customer's problem regardless of the service model — the provider never owns responsibility for customer data."},
+            {name:"FaaS / Serverless",explain:"Function as a Service runs individual functions in response to events without the customer managing servers at all. Compute is ephemeral and scales automatically. The customer writes code only. Security concerns include function permissions, dependencies, and event source validation.",insight:"Serverless reduces attack surface in some ways (no persistent servers) but introduces new concerns: over-permissioned function roles, dependency chain attacks, and short execution windows that may limit monitoring. The exam treats serverless as a variant of PaaS in terms of responsibility."},
+          ]},
+          {label:"Deployment models", chips:[
+            {name:"Public cloud",explain:"Public cloud infrastructure is owned and operated by a third-party provider and shared across multiple tenants. Customers access resources over the internet. Economies of scale make it cost-effective. Multi-tenancy introduces logical isolation requirements — data from different customers shares physical infrastructure.",insight:"The key concern in public cloud is multi-tenancy and logical isolation. Physical separation does not exist — logical controls (hypervisors, network segmentation, IAM) are what prevent one tenant accessing another's data. The exam tests whether you understand this."},
+            {name:"Private cloud",explain:"Private cloud infrastructure is dedicated to a single organisation. It can be on-premises or hosted by a third party. It provides the operational model of cloud (self-service, elasticity, measured service) without multi-tenancy. It costs more but provides greater control and isolation.",insight:"Private cloud gives more control but does not eliminate cloud security risks — misconfiguration, access management and data classification remain critical. The exam may contrast private cloud as appropriate for regulated industries requiring data isolation."},
+            {name:"Hybrid cloud",explain:"Hybrid cloud combines public and private cloud environments, connected by technology that allows data and applications to move between them. It lets organisations keep sensitive workloads on-premises while using public cloud for less sensitive or scalable workloads. Complexity increases with hybrid architectures.",insight:"Hybrid cloud introduces data flow and policy consistency challenges. Ensuring security controls are uniformly applied across environments is harder than in a single environment. The exam tests data classification and workload placement decisions in hybrid contexts."},
+            {name:"Community cloud",explain:"Community cloud infrastructure is shared among organisations with common concerns — regulatory requirements, security standards, or mission. It is managed by one or more of the community members or a third party. Less common than the other models but important for regulated sectors.",insight:"Community cloud is relatively rare in practice but appears on the exam. It sits between private (single tenant) and public (open multi-tenant). Shared governance among members is a key characteristic."},
+          ]},
+        ]
+      },
+      {
+        label:"Architecture and design", color:"#2E6DA4",
+        groups:[
+          {label:"Key concepts", chips:[
+            {name:"Shared responsibility",explain:"The shared responsibility model defines which security tasks the cloud provider handles and which the customer handles. The boundary shifts by service model — IaaS leaves more to the customer, SaaS leaves very little. Misunderstanding this boundary is the single most common cause of cloud security failures.",insight:"The exam will present scenarios and ask who is responsible. The rule: the provider is always responsible for the physical infrastructure. The customer is always responsible for their data. Everything in between depends on the service model. Never assume the provider handles something you have not confirmed."},
+            {name:"Cloud reference architecture",explain:"A cloud reference architecture provides a standard framework for designing cloud deployments. CSA's cloud reference model and NIST SP 800-145 provide widely referenced frameworks. They describe the relationships between service models, deployment models, and the actors involved (cloud service provider, cloud service customer, cloud broker).",insight:"NIST 800-145 defines cloud computing formally and is the reference the exam uses. Know the five essential characteristics: on-demand self-service, broad network access, resource pooling, rapid elasticity, measured service."},
+            {name:"Cloud design patterns",explain:"Design patterns for cloud include high availability patterns (multi-region, active-active), resilience patterns (circuit breakers, retry logic), and security patterns (defence in depth, least privilege). Cloud-native design differs from lifting-and-shifting on-premises applications.",insight:"Cloud-native design takes advantage of elasticity, managed services and distributed architecture. Lift-and-shift takes on-premises applications without redesign — often losing the security and operational benefits of cloud. The exam may ask which approach better aligns with cloud security principles."},
+            {name:"DevSecOps",explain:"DevSecOps integrates security into the software development lifecycle from the start, rather than treating it as a final gate. It emphasises automated security testing, infrastructure as code security, and shared responsibility for security across development, operations and security teams.",insight:"DevSecOps shifts security left — finding vulnerabilities early when they are cheaper to fix. The exam may contrast DevSecOps with traditional security approaches that slow deployment. Automated testing and pipeline security gates are key DevSecOps mechanisms."},
+          ]},
+          {label:"Virtualisation", chips:[
+            {name:"Hypervisor types",explain:"Type 1 (bare metal) hypervisors run directly on hardware — VMware ESXi, Microsoft Hyper-V. Type 2 (hosted) hypervisors run on top of an OS — VMware Workstation, VirtualBox. Cloud environments use Type 1. A compromised hypervisor can expose all VMs running on it — VM escape is the critical threat.",insight:"VM escape attacks exploit hypervisor vulnerabilities to break out of a VM and access the host or other VMs. This is catastrophic in multi-tenant environments. Hypervisor security is a provider responsibility in IaaS — another reason the shared responsibility model matters."},
+            {name:"Container security",explain:"Containers share the host OS kernel, making them more efficient but also more coupled than VMs. A vulnerability in the kernel can affect all containers. Container security includes image hardening, runtime protection, registry security, and ensuring containers do not run as root.",insight:"Containers are not as isolated as VMs. A compromised container with excessive privileges can affect the host. The exam may contrast container and VM security models — VMs provide stronger isolation, containers provide lighter-weight deployment."},
+            {name:"Microservices",explain:"Microservices architectures break applications into small, independently deployable services that communicate via APIs. Security must be applied to each service individually and to the communication between them. API security, service-to-service authentication, and service mesh tools are all relevant.",insight:"Microservices increase the attack surface — many services, many APIs, many communication paths. Zero trust principles apply well to microservices: each service authenticates every request rather than trusting based on network location."},
+          ]},
+        ]
+      },
+      {
+        label:"Cloud roles and responsibilities", color:"#4A6741",
+        groups:[
+          {label:"Key actors", chips:[
+            {name:"Cloud service provider",explain:"The CSP owns and operates the cloud infrastructure. They are responsible for the physical security of data centres, hypervisor security, and the underlying network. They publish their security controls and compliance certifications — customers should review these before adopting a provider.",insight:"CSP responsibility varies by service model. In SaaS the CSP does almost everything. In IaaS they do very little above the hypervisor. Never assume the CSP handles security controls you have not verified in their service documentation or SLA."},
+            {name:"Cloud service customer",explain:"The cloud customer is the organisation purchasing cloud services. They are responsible for configuring services securely, managing access, classifying data, and ensuring their workloads comply with relevant regulations. Misconfiguration by customers is the leading cause of cloud breaches.",insight:"Misconfiguration is the cloud's biggest security problem — not provider breaches. S3 buckets left publicly readable, storage accounts open to the internet, overly permissive IAM roles — all customer failures. The exam frames the customer as responsible for configuration security."},
+            {name:"Cloud broker",explain:"A cloud broker is an intermediary that manages the use, performance and delivery of cloud services, negotiating relationships between cloud providers and customers. Brokers can aggregate services from multiple providers, provide value-add services, or act as marketplace intermediaries.",insight:"Cloud brokers introduce a third party into the trust chain. Their security practices and access to customer data must be evaluated carefully. The exam includes cloud brokers as one of the defined roles in cloud service relationships."},
+            {name:"Cloud carrier",explain:"The cloud carrier provides the connectivity and transport services between cloud service providers and customers — internet service providers and network carriers. While less commonly tested, they are part of the formal cloud reference architecture defined by NIST.",insight:"Cloud carriers are responsible for network connectivity, not security of data in transit — that remains the customer's responsibility through encryption. The exam uses this role to round out the actor model rather than as a deep topic."},
+          ]},
+        ]
+      },
+      {
+        label:"Emerging trends", color:"#6B4E8A",
+        groups:[
+          {label:"CASB and SASE", chips:[
+            {name:"CASB",explain:"Cloud Access Security Broker sits between cloud service users and providers to enforce security policies. It provides visibility into cloud usage, data loss prevention, threat protection, and compliance controls for cloud services. It can operate in API mode (out-of-band) or proxy mode (inline).",insight:"CASB addresses the visibility and control gap when employees use cloud services. Shadow IT — unsanctioned cloud services used without IT knowledge — is a primary CASB use case. The exam tests CASB as the control for governing cloud service usage."},
+            {name:"SASE",explain:"Secure Access Service Edge converges networking (SD-WAN) and network security (CASB, SWG, ZTNA, FWaaS) into a cloud-delivered service. It applies security policy at the edge, close to users and devices, rather than routing all traffic through a central data centre. Designed for distributed, cloud-first environments.",insight:"SASE is a newer architecture that recognises perimeter-based security no longer fits distributed workforces and cloud services. The exam may test SASE as a modern alternative to traditional VPN and perimeter security models."},
+          ]},
+          {label:"Zero trust", chips:[
+            {name:"Zero trust principles",explain:"Zero trust assumes no implicit trust based on network location. Every access request — from inside or outside the network — must be authenticated, authorised, and continuously validated. It moves security from network perimeter to identity, device, and data. Key principle: verify explicitly, use least privilege, assume breach.",insight:"Zero trust is the dominant security architecture model for cloud environments. The exam tests it as a philosophy and as a set of controls: MFA, device health verification, microsegmentation, continuous monitoring. Know the core principles rather than specific vendor implementations."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Shared responsibility does not mean shared equally — the boundary shifts by service model","The CSP is never responsible for customer data classification","Multi-tenancy uses logical isolation, not physical separation","Private cloud is not necessarily more secure than public cloud","NIST 800-145 is the exam's reference definition for cloud computing","SaaS gives customers the least control AND the least responsibility for infrastructure"],
+    connects:["Understand the service model","Identify the responsibility boundary","Apply appropriate controls","Govern cloud usage","Architect for resilience"]
+  },
+  {
+    id:2, color:"#2E6DA4", pct:"20%", qs:"~25",
+    shortName:"Data Security",
+    name:"Cloud Data Security",
+    hook:"Data is why organisations exist in the cloud. Securing it — at rest, in transit, and in use — is the highest-weighted domain in the CCSP exam.",
+    clusters:[
+      {
+        label:"Data lifecycle", color:"#2E6DA4",
+        groups:[
+          {label:"CSA phases", chips:[
+            {name:"Create",explain:"Data is created or first entered into the system. Security at this phase means classifying data on creation and applying appropriate handling controls immediately.",insight:"The exam uses the CSA Data Security Lifecycle: Create, Store, Use, Share, Archive, Destroy. Know all six phases and what security activities are relevant at each."},
+            {name:"Store",explain:"Data at rest in cloud storage. Encryption at rest protects against physical media theft and provider breaches. Key management is critical — encrypted data is only as secure as the keys protecting it.",insight:"Encryption at rest is a minimum baseline for sensitive data. Customer-managed keys (CMK) give the customer control over key access even when using provider storage."},
+            {name:"Use",explain:"Data in use — being processed in memory, queried in a database. This is the hardest phase to protect because data must be decrypted to be processed. Confidential computing aims to protect data in use.",insight:"Data in use is largely unprotected by encryption during active processing. Access controls, monitoring, and application security are the primary protections."},
+            {name:"Share",explain:"Data shared with users, partners, or other systems. DLP controls prevent inappropriate sharing. Rights management and data access governance ensure shared data is only accessible to authorised recipients.",insight:"Sharing is where data most often leaves intended boundaries. DLP, IRM and access controls are the key mechanisms."},
+            {name:"Archive",explain:"Data moved to long-term storage for retention compliance. Archived data must remain protected — encryption applies. Retention schedules must be defined and enforced.",insight:"Archived data can be as sensitive as active data. Encryption, access controls and retention schedules must apply to archived data."},
+            {name:"Destroy",explain:"Secure deletion ensures data is unrecoverable. In cloud environments, cryptographic erasure (destroying the encryption keys) is the standard method.",insight:"Crypto-shredding is the cloud method for secure deletion. Delete the keys, lose the data — permanently. The exam tests this as the accepted cloud data destruction method."},
+          ]},
+        ]
+      },
+      {
+        label:"Data classification and governance", color:"#1C6B78",
+        groups:[
+          {label:"Classification", chips:[
+            {name:"Data classification",explain:"Classification assigns sensitivity labels to data based on its value and the harm that would result from unauthorised disclosure. Controls applied to data must match its classification.",insight:"Classification must happen at data creation. The exam tests classification as foundational to all other data security controls."},
+            {name:"Data discovery",explain:"Data discovery tools scan cloud environments to find, inventory and classify data — including shadow data stores created outside official channels.",insight:"Shadow data is a significant cloud risk. Data discovery tools are the control for finding and governing this data."},
+            {name:"Data ownership",explain:"Data ownership assigns accountability for a data set to a specific individual or role. In cloud environments, ownership accountability must be assigned even when data is stored by a third-party provider.",insight:"The cloud provider never owns customer data. The exam may test data owner responsibilities versus data custodian responsibilities."},
+          ]},
+          {label:"Governance", chips:[
+            {name:"Data residency",explain:"Data residency requirements specify where data must be stored geographically. Cloud providers offer region selection to meet these requirements.",insight:"Data residency is a legal and regulatory requirement in many jurisdictions. The exam tests residency as a constraint built into cloud architecture decisions."},
+            {name:"Data sovereignty",explain:"Data sovereignty is the principle that data is subject to the laws of the country in which it is located. Moving data to a cloud provider in another country means it becomes subject to that country's laws.",insight:"Data sovereignty means jurisdiction matters. The exam may test sovereignty as the legal dimension of data residency."},
+            {name:"Information rights management",explain:"IRM embeds access controls and usage restrictions directly in documents and files, so they travel with the data wherever it goes.",insight:"IRM is useful when data must leave organisational control. The exam positions IRM as a control for data at the Share phase."},
+          ]},
+        ]
+      },
+      {
+        label:"Encryption and key management", color:"#4A6741",
+        groups:[
+          {label:"Encryption approaches", chips:[
+            {name:"Encryption at rest",explain:"Protecting stored data using encryption. Can be implemented by the provider (server-side) or the customer before upload (client-side). Client-side encryption means the provider never has access to plaintext.",insight:"Provider-managed encryption protects against physical media theft but not against provider access. Customer-managed keys are required when the provider must never see plaintext."},
+            {name:"Encryption in transit",explain:"Protecting data moving between systems using transport encryption. TLS 1.2 minimum, TLS 1.3 preferred. All data movement between cloud services and between customers and cloud services should be encrypted.",insight:"Encryption in transit is a baseline expectation. In cloud environments, assume network traffic can be intercepted and encrypt accordingly."},
+            {name:"Tokenisation",explain:"Tokenisation replaces sensitive data values with non-sensitive placeholders (tokens). The original data is stored in a secure token vault; the token is used everywhere else.",insight:"Tokenisation reduces the scope of compliance requirements. The exam may contrast tokenisation with encryption: tokenisation replaces the value, encryption transforms it."},
+            {name:"Homomorphic encryption",explain:"Allows computation on encrypted data without decrypting it. It would allow cloud providers to process sensitive data without ever seeing it in plaintext. Currently too computationally expensive for mainstream use.",insight:"Homomorphic encryption is an emerging technology. Understand what it does (compute on encrypted data) and why it matters (cloud processing without exposing plaintext)."},
+          ]},
+          {label:"Key management", chips:[
+            {name:"HSM",explain:"Hardware Security Module is a dedicated hardware device for generating, storing and managing cryptographic keys. Keys never leave the HSM in usable form.",insight:"HSMs provide the highest assurance for key protection. The exam tests HSMs as the solution for highest-assurance key management scenarios."},
+            {name:"BYOK",explain:"Bring Your Own Key allows customers to generate encryption keys themselves and import them into the cloud provider's key management service.",insight:"BYOK gives the customer control over key material. The exam positions BYOK as a control that shifts key management responsibility to the customer."},
+            {name:"HYOK",explain:"Hold Your Own Key is a more restrictive model where the customer maintains keys on-premises entirely. The cloud provider cannot access the keys at any time.",insight:"HYOK provides maximum customer control but reduces functionality. The exam positions HYOK for the most sensitive data where no provider access is acceptable."},
+          ]},
+        ]
+      },
+      {
+        label:"Data security controls", color:"#7A4F3A",
+        groups:[
+          {label:"DLP and masking", chips:[
+            {name:"DLP",explain:"Data Loss Prevention tools monitor data movement and enforce policies to prevent sensitive data leaving authorised boundaries. Cloud DLP tools can scan cloud storage for sensitive data and monitor egress.",insight:"Cloud DLP differs from traditional DLP. The exam tests DLP as a control for the Share phase, and CASB as the delivery mechanism for DLP in cloud environments."},
+            {name:"Data masking",explain:"Data masking replaces real data with realistic but fictitious data for development and testing. Masking creates test datasets that preserve data structure without containing real sensitive values.",insight:"Data masking is a preventive control for test environment data exposure. The exam may contrast static masking with dynamic masking."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Crypto-shredding destroys keys, not data — the data may persist but is unrecoverable","Provider encryption protects against hardware theft, not provider access","Data residency and data sovereignty are related but not the same thing","BYOK still uses the provider's KMS infrastructure — HYOK keeps keys entirely separate","Classification must happen at creation, not retroactively","Deletion in cloud environments requires cryptographic erasure, not overwriting"],
+    connects:["Classify at creation","Encrypt at rest and in transit","Manage keys separately from data","Apply DLP at share boundaries","Destroy via crypto-shredding"]
+  },
+  {
+    id:3, color:"#4A6741", pct:"17%", qs:"~21",
+    shortName:"Infrastructure",
+    name:"Cloud Platform and Infrastructure Security",
+    hook:"The cloud infrastructure is someone else's data centre — but its security is still your problem. Know what the provider controls and what you must control.",
+    clusters:[
+      {
+        label:"Infrastructure components", color:"#4A6741",
+        groups:[
+          {label:"Physical layer", chips:[
+            {name:"Data centre security",explain:"Cloud data centres use multiple physical security layers: perimeter fencing, CCTV, mantraps, badge access, biometric authentication, environmental controls. The customer cannot inspect these directly — they rely on the provider's compliance certifications.",insight:"Physical security of cloud data centres is entirely the provider's responsibility. SOC 2 Type II reports are the primary mechanism for validating provider physical security controls."},
+            {name:"Shared tenancy risks",explain:"Multiple customers share physical infrastructure. The risk is that a flaw in isolation mechanisms allows one tenant to access another's data. Side-channel attacks (like Spectre/Meltdown) exploit shared hardware resources.",insight:"Side-channel attacks on shared hardware are real threats. The exam may reference them as a risk specific to shared infrastructure."},
+          ]},
+          {label:"Virtualisation security", chips:[
+            {name:"VM hardening",explain:"Virtual machines should be configured with minimum necessary services, hardened OS settings, current patches, and appropriate monitoring. VM sprawl — unmanaged proliferation of VMs — is a cloud-specific risk.",insight:"VM sprawl leads to unpatched, forgotten VMs. The exam may test this as a risk of elasticity: easy provisioning without equivalent decommissioning discipline."},
+            {name:"Snapshot security",explain:"VM snapshots can contain sensitive data, credentials, or application state. They must be encrypted and access-controlled like production data.",insight:"Snapshots are a data security risk. A snapshot taken before a credential rotation still contains the old credentials."},
+            {name:"VM escape",explain:"VM escape is an attack where malicious code inside a VM breaks out of the virtualisation layer to interact with the hypervisor or other VMs. Hypervisor patching is critical.",insight:"VM escape requires exploiting hypervisor vulnerabilities. Hypervisor security is the provider's responsibility in IaaS. Know what it is, know that patching the hypervisor prevents it."},
+          ]},
+        ]
+      },
+      {
+        label:"Network security", color:"#2E6DA4",
+        groups:[
+          {label:"Cloud networking", chips:[
+            {name:"VPC / VNet",explain:"Virtual Private Clouds and Virtual Networks provide logically isolated network segments within public cloud. Security groups and network ACLs control traffic. Misconfigurations here are a leading cause of cloud breaches.",insight:"VPC misconfiguration is a major cloud breach vector. The exam tests proper VPC architecture: public subnets for internet-facing resources, private subnets for databases."},
+            {name:"Security groups",explain:"Security groups are stateful, instance-level firewalls. They control inbound and outbound traffic for individual compute instances. Over-permissive security groups are a chronic misconfiguration problem.",insight:"Security groups should follow least privilege. The exam may contrast security groups (stateful, instance-level) with network ACLs (stateless, subnet-level)."},
+            {name:"Network ACLs",explain:"Network ACLs operate at subnet level and are stateless — return traffic must be explicitly allowed. They provide coarser-grained control than security groups.",insight:"The stateless nature of NACLs means both inbound and outbound rules must be explicitly defined. The exam tests the difference between stateful (security groups) and stateless (NACLs)."},
+            {name:"Microsegmentation",explain:"Microsegmentation divides networks into small zones with individual security controls between each segment. Each workload is isolated so a breach cannot spread laterally.",insight:"Microsegmentation aligns with zero trust principles — no implicit trust based on network location, even within the cloud environment."},
+          ]},
+          {label:"Connectivity", chips:[
+            {name:"VPN to cloud",explain:"Site-to-site VPNs connect on-premises environments to cloud VPCs over encrypted tunnels. Standard for hybrid cloud architectures.",insight:"The exam may ask about VPN versus dedicated private connectivity for connecting on-premises to cloud."},
+            {name:"Direct connect",explain:"Dedicated private connectivity from on-premises to cloud providers (AWS Direct Connect, Azure ExpressRoute) provides consistent bandwidth and lower latency. Traffic does not traverse the public internet.",insight:"Direct connect is appropriate when internet-based VPN does not meet performance or compliance requirements."},
+          ]},
+        ]
+      },
+      {
+        label:"Compute and workload security", color:"#6B4E8A",
+        groups:[
+          {label:"Workload security", chips:[
+            {name:"Patch management",explain:"Keeping cloud compute instances patched is the customer's responsibility in IaaS. The provider patches the hypervisor; the customer patches the OS and applications.",insight:"Patch management responsibility is clearly in the shared responsibility model. Automated patch management is the practical solution at cloud scale."},
+            {name:"Immutable infrastructure",explain:"Immutable infrastructure treats compute instances as disposable — rather than patching running servers, replace them with new instances built from updated images.",insight:"Immutable infrastructure aligns with DevSecOps. The exam may contrast mutable (patch in place) with immutable (replace) infrastructure."},
+          ]},
+          {label:"Identity in infrastructure", chips:[
+            {name:"Instance metadata",explain:"Cloud providers expose instance metadata via a special IP. SSRF attacks can exploit applications to retrieve credentials from the metadata service, gaining full IAM permissions of the instance role.",insight:"Instance metadata credential theft via SSRF is a well-known cloud attack pattern. AWS IMDSv2 requires a session token before metadata access, mitigating many SSRF attacks."},
+            {name:"Service accounts",explain:"Cloud services authenticate to other cloud services using service accounts or IAM roles. These must follow least privilege. Over-privileged service accounts are a major lateral movement risk.",insight:"Service account over-privilege is a chronic cloud security problem. Least privilege must be applied to service identities as rigorously as to human identities."},
+          ]},
+        ]
+      },
+      {
+        label:"Business continuity", color:"#7A4F3A",
+        groups:[
+          {label:"Resilience", chips:[
+            {name:"Availability zones",explain:"Availability zones are physically separate data centres within a cloud region. Deploying across multiple AZs provides resilience against single data centre failures.",insight:"Multi-AZ deployment is the minimum for production workloads requiring high availability. The exam tests AZs as the mechanism for resilience within a region."},
+            {name:"Multi-region",explain:"Deploying across multiple cloud regions provides resilience against regional outages and geographic disasters. Significantly more complex and expensive than multi-AZ.",insight:"Multi-region is appropriate for business-critical workloads where regional outage is unacceptable. The exam tests the difference between multi-AZ and multi-region."},
+            {name:"RTO and RPO",explain:"Recovery Time Objective is the maximum acceptable time for restoring service. Recovery Point Objective is the maximum acceptable data loss. Both are defined by business requirements.",insight:"RTO and RPO drive cloud architecture decisions. The exam presents scenarios requiring you to select the appropriate resilience pattern based on stated RTO/RPO values."},
+          ]},
+        ]
+      },
+    ],
+    traps:["VM escape requires a hypervisor vulnerability — not just VM access","Security groups are stateful, network ACLs are stateless","Customer is responsible for OS patches in IaaS, even in cloud","Availability zones provide resilience — they do not eliminate all failure modes","SSRF can expose instance metadata credentials if IMDS is not properly configured","Shared tenancy introduces side-channel risks that on-premises environments do not have"],
+    connects:["Secure the network layer","Segment workloads","Harden compute","Apply least privilege to service identities","Build for resilience"]
+  },
+  {
+    id:4, color:"#6B4E8A", pct:"17%", qs:"~21",
+    shortName:"App Security",
+    name:"Cloud Application Security",
+    hook:"Applications are built differently in the cloud. The attack surface includes APIs, pipelines, dependencies, and serverless functions — not just web forms.",
+    clusters:[
+      {
+        label:"Secure development", color:"#6B4E8A",
+        groups:[
+          {label:"SDLC", chips:[
+            {name:"Secure SDLC",explain:"Security integrated into every phase of the software development lifecycle. In cloud environments, this includes infrastructure as code security, pipeline security, and automated testing.",insight:"Security gates in CI/CD pipelines are the practical implementation of secure SDLC. The exam tests secure SDLC as a preventive approach versus finding vulnerabilities in production."},
+            {name:"Threat modelling",explain:"Threat modelling identifies potential threats to an application during design. STRIDE is a common methodology. Cloud applications have specific threat vectors: public APIs, shared services, identity federation, supply chain.",insight:"Threat modelling is most valuable early in design. The exam tests threat modelling as a design-phase security activity and STRIDE as the primary methodology."},
+            {name:"Code review",explain:"Static code analysis tools automatically scan source code for known vulnerability patterns. Cloud applications should also review IaC for misconfigurations.",insight:"Hardcoded credentials in source code are a persistent problem. Automated credential scanning in CI/CD pipelines is now a standard control."},
+          ]},
+          {label:"Testing", chips:[
+            {name:"SAST",explain:"Static Application Security Testing analyses source code without executing the program. Identifies vulnerability patterns early in development. Integrated into IDEs and CI/CD pipelines.",insight:"SAST is shift-left security. The exam contrasts SAST (static, source code) with DAST (dynamic, running application)."},
+            {name:"DAST",explain:"Dynamic Application Security Testing tests a running application by simulating attacks. Finds vulnerabilities that only manifest at runtime — SQL injection, XSS, authentication flaws.",insight:"DAST tests the application as an attacker would see it. The exam tests SAST and DAST as complementary testing types."},
+            {name:"Penetration testing",explain:"Penetration testing uses human testers who simulate real attackers. Cloud penetration testing requires coordination with the cloud provider — most providers have pre-authorised testing policies.",insight:"Cloud pen testing has unique rules of engagement. Testing the provider's shared infrastructure is not permitted. The exam tests that candidates understand cloud pen testing constraints."},
+          ]},
+        ]
+      },
+      {
+        label:"API security", color:"#2E6DA4",
+        groups:[
+          {label:"API design", chips:[
+            {name:"REST API security",explain:"REST APIs must authenticate every request, validate all input, enforce rate limiting, and return appropriate error messages. Broken Object Level Authorisation (BOLA) is the most common REST API vulnerability.",insight:"OWASP API Security Top 10 is relevant for the CCSP exam. Rate limiting prevents abuse and credential stuffing."},
+            {name:"API gateway",explain:"API gateways sit in front of API backends and provide centralised authentication, authorisation, rate limiting, input validation, and monitoring.",insight:"API gateways centralise security controls that would otherwise need to be implemented in every individual service."},
+            {name:"OAuth 2.0",explain:"OAuth 2.0 is the standard framework for API authorisation. It allows users to grant applications access to their data without sharing passwords.",insight:"OAuth 2.0 is the dominant API authorisation framework. Know the difference between authentication (who you are) and authorisation (what you can do) — OAuth is authorisation, not authentication."},
+          ]},
+          {label:"Microservice APIs", chips:[
+            {name:"Service mesh",explain:"A service mesh provides infrastructure-level service-to-service communication security, observability and traffic management. It handles mutual TLS automatically.",insight:"Service meshes solve the problem of securing microservice-to-microservice communication at scale."},
+            {name:"mTLS",explain:"Mutual TLS requires both parties to authenticate. In microservice environments, each service presents a certificate, allowing services to verify they are communicating with a legitimate peer.",insight:"mTLS implements zero trust between services. Service meshes automate mTLS at scale."},
+          ]},
+        ]
+      },
+      {
+        label:"Application vulnerabilities", color:"#4A6741",
+        groups:[
+          {label:"OWASP risks", chips:[
+            {name:"Injection",explain:"Injection attacks send untrusted data to an interpreter, causing it to execute unintended commands. SQL injection remains one of the most common and damaging web application vulnerabilities.",insight:"Injection is consistently in the OWASP Top 10. Prevention: parameterised queries, input validation, least privilege database accounts."},
+            {name:"XSS",explain:"Cross-Site Scripting injects malicious scripts into web pages viewed by other users. Scripts execute in the victim's browser, allowing session theft and credential capture.",insight:"XSS exploits the trust a browser has in a website's content. Content Security Policy (CSP) is a key defence."},
+            {name:"SSRF",explain:"Server-Side Request Forgery tricks a server into making HTTP requests on behalf of an attacker. In cloud environments, SSRF can retrieve instance metadata service credentials.",insight:"SSRF is a cloud-amplified vulnerability. Cloud SSRF can retrieve temporary IAM credentials from IMDS. AWS IMDSv2 reduces SSRF exploitability."},
+          ]},
+          {label:"Supply chain", chips:[
+            {name:"Dependency risks",explain:"Modern applications use hundreds of open source libraries. A vulnerability in any dependency can affect all applications using it. Software composition analysis (SCA) tools scan dependencies for known vulnerabilities.",insight:"Software supply chain attacks have become a top threat. Log4Shell showed that vulnerabilities in dependencies can be catastrophic. SCA scanning in CI/CD pipelines is now a standard control."},
+            {name:"Container images",explain:"Container images may contain base OS vulnerabilities or inadvertently included secrets. Container image scanning tools check images for known vulnerabilities before deployment.",insight:"Container image security is the build-time equivalent of VM patching. Use minimal base images and ensure secrets are not baked into images."},
+          ]},
+        ]
+      },
+      {
+        label:"Identity in applications", color:"#7A4F3A",
+        groups:[
+          {label:"Identity federation", chips:[
+            {name:"SAML",explain:"Security Assertion Markup Language enables single sign-on between identity providers and service providers. An identity provider asserts the user's identity to a service provider.",insight:"SAML is the primary protocol for enterprise SSO to cloud applications. The exam tests SAML as the solution for federated identity."},
+            {name:"OIDC / OAuth",explain:"OpenID Connect adds identity (authentication) on top of OAuth 2.0 (authorisation). OAuth issues access tokens; OIDC issues ID tokens that contain user identity claims.",insight:"OIDC is the modern successor to SAML for many cloud and mobile scenarios. The exam tests both as federated identity solutions."},
+            {name:"MFA in applications",explain:"Multi-Factor Authentication requires users to provide two or more verification factors. FIDO2/WebAuthn provides phishing-resistant hardware-based authentication.",insight:"MFA is the single most effective control against account compromise. Phishing-resistant MFA (FIDO2, hardware tokens) is preferred over SMS MFA."},
+          ]},
+        ]
+      },
+    ],
+    traps:["SAST tests code, DAST tests running applications — they find different vulnerabilities","OAuth 2.0 is authorisation, not authentication — OIDC adds authentication","SSRF in cloud environments can expose IAM credentials via instance metadata","API keys are not OAuth — they do not expire or scope permissions the same way","Cloud pen testing requires provider pre-approval — testing shared infrastructure is prohibited","Supply chain attacks target dependencies, not just your code"],
+    connects:["Design securely with threat modelling","Build with SAST in the pipeline","Protect APIs with gateways and OAuth","Test running apps with DAST","Monitor for injection and SSRF in production"]
+  },
+  {
+    id:5, color:"#7A4F3A", pct:"16%", qs:"~20",
+    shortName:"SecOps",
+    name:"Cloud Security Operations",
+    hook:"Running cloud securely is not a one-time configuration. It requires continuous monitoring, incident response capability, and rigorous change management.",
+    clusters:[
+      {
+        label:"Monitoring and detection", color:"#7A4F3A",
+        groups:[
+          {label:"Cloud monitoring", chips:[
+            {name:"Cloud-native monitoring",explain:"Cloud providers offer native monitoring services: AWS CloudWatch, Azure Monitor, GCP Cloud Monitoring. These collect logs, metrics and events from cloud resources.",insight:"Cloud-native monitoring is the first layer of operational visibility. Disabling logging is a red flag — sometimes the first step in an attack."},
+            {name:"SIEM in cloud",explain:"Security Information and Event Management collects, correlates and analyses security events. Cloud-delivered SIEM (Microsoft Sentinel, Splunk Cloud) scales elastically and integrates with cloud provider APIs.",insight:"SIEM is the operational hub for security monitoring. Correlation rules and alerting are what make it valuable, not just log aggregation."},
+            {name:"Cloud audit logs",explain:"Audit logs record who did what, when, and from where. AWS CloudTrail, Azure Activity Log, GCP Cloud Audit Logs record API calls and management plane activity.",insight:"Protecting audit logs is critical — an attacker who can delete logs can cover their tracks. Logs should be sent to a separate account with write-once protection."},
+            {name:"Threat intelligence",explain:"Threat intelligence provides information about known attackers, attack techniques, and indicators of compromise. Used to enrich SIEM alerts and identify known malicious IP addresses, domains, and file hashes.",insight:"Threat intelligence operationalises external knowledge about attacker behaviour. Integration of threat intelligence feeds is a SIEM capability."},
+          ]},
+          {label:"Vulnerability management", chips:[
+            {name:"Cloud vulnerability scanning",explain:"Continuously scanning cloud environments for misconfigurations and vulnerabilities. CSPM tools scan cloud APIs to identify misconfigurations that traditional vulnerability scanners miss.",insight:"CSPM is the cloud-native approach to vulnerability and misconfiguration management. Traditional vulnerability scanners test running services; CSPM tests cloud configuration via APIs."},
+            {name:"CSPM",explain:"Cloud Security Posture Management continuously assesses cloud configuration against security best practices and compliance frameworks. Examples: AWS Security Hub, Prisma Cloud, Wiz.",insight:"CSPM is the operational tool for misconfiguration management — the leading cause of cloud breaches. It provides ongoing visibility as environments change."},
+          ]},
+        ]
+      },
+      {
+        label:"Incident response", color:"#2E6DA4",
+        groups:[
+          {label:"Cloud IR", chips:[
+            {name:"Cloud incident response",explain:"Incident response in cloud requires different procedures. Evidence is ephemeral — compute instances can be terminated, removing evidence. Forensic collection must happen before remediation.",insight:"Cloud IR differs fundamentally from on-premises IR. Automated evidence preservation (snapshot, memory capture) must happen before remediation."},
+            {name:"Evidence collection",explain:"Collecting forensic evidence involves: taking volume snapshots before terminating instances, preserving CloudTrail and application logs, and isolating — not terminating — compromised instances where forensic investigation is needed.",insight:"Snapshot before terminating is the cloud forensic mantra. Auto-scaling groups may automatically replace terminated instances — forensic procedures must pause auto-scaling first."},
+            {name:"Isolation",explain:"Isolating a compromised cloud instance involves detaching it from load balancers, modifying security groups to block traffic, and disabling its IAM role.",insight:"Cloud isolation is achieved through API calls. It can be done programmatically and rapidly. The exam tests isolation as a containment action that preserves evidence while stopping the attack."},
+          ]},
+          {label:"Logging for IR", chips:[
+            {name:"Log retention",explain:"Logs must be retained long enough to support incident investigation. Attackers often act months before discovery. Compliance frameworks specify minimum retention periods.",insight:"Log retention strategy must consider both operational needs and compliance requirements. Immutable, long-term log storage is best practice."},
+            {name:"Centralised logging",explain:"Centralising logs from all cloud accounts into a dedicated logging account provides consistent visibility and protects logs from compromise of individual accounts.",insight:"Log centralisation to a separate, restricted account is a cloud security architecture pattern. The logging account should have strict access controls."},
+          ]},
+        ]
+      },
+      {
+        label:"Change and configuration management", color:"#4A6741",
+        groups:[
+          {label:"IaC security", chips:[
+            {name:"Infrastructure as code",explain:"IaC tools (Terraform, CloudFormation) define cloud infrastructure in code that can be version-controlled, reviewed and automated. Security benefits: peer review, consistent deployment, drift detection.",insight:"IaC brings software development discipline to infrastructure. Scanning IaC templates before deployment is a DevSecOps practice."},
+            {name:"Configuration drift",explain:"Configuration drift occurs when cloud resources deviate from their defined baseline — often due to manual changes made outside IaC processes.",insight:"Drift is the enemy of consistent security posture. Drift detection tools compare actual state with defined state and alert or auto-remediate."},
+            {name:"Secrets management",explain:"Cloud applications need secrets to function. These must never be hardcoded in source code. Dedicated secrets management services (AWS Secrets Manager, Azure Key Vault) store, rotate, and audit access to secrets.",insight:"Hardcoded secrets are found in code repositories daily. Secrets management services provide centralised storage with access control and automatic rotation."},
+          ]},
+        ]
+      },
+      {
+        label:"Supply chain and third-party", color:"#6B4E8A",
+        groups:[
+          {label:"Cloud marketplace", chips:[
+            {name:"Third-party cloud software",explain:"Cloud marketplaces offer software that runs in the customer's cloud account. The customer must evaluate it for security — vendor reputation, scanning practices, update mechanisms.",insight:"Marketplace software may request broad IAM permissions. Customers must review and restrict permissions granted to third-party software."},
+            {name:"Managed services",explain:"Cloud providers offer managed services that abstract operational complexity. The provider manages the underlying service; the customer configures and uses it.",insight:"Managed services shift more responsibility to the provider. For a managed database, the provider patches the engine; the customer configures access controls and encryption."},
+          ]},
+        ]
+      },
+    ],
+    traps:["CSPM tests cloud configuration, not running services — different from traditional vulnerability scanning","Audit logs must be protected from modification, not just collected","Cloud IR requires snapshot before termination — auto-scaling can destroy evidence","Configuration drift is an ongoing risk, not a one-time problem","Managed services shift patching responsibility to the provider — verify what you still own","Centralise logs to a separate account — an attacker who compromises your account can delete logs in the same account"],
+    connects:["Enable all audit logging","Monitor with SIEM and CSPM","Detect drift and misconfigurations","Respond to incidents with forensic preservation","Manage secrets and configuration as code"]
+  },
+  {
+    id:6, color:"#854F0B", pct:"13%", qs:"~16",
+    shortName:"Legal & Risk",
+    name:"Legal, Risk and Compliance",
+    hook:"Cloud changes the legal landscape. Data crosses borders, contracts replace controls, and your compliance obligations follow your data regardless of where it sits.",
+    clusters:[
+      {
+        label:"Legal frameworks", color:"#854F0B",
+        groups:[
+          {label:"Privacy regulations", chips:[
+            {name:"GDPR",explain:"The General Data Protection Regulation applies to processing personal data of EU residents. Key requirements: lawful basis for processing, data subject rights, privacy by design, breach notification within 72 hours.",insight:"GDPR is the exam's primary privacy regulation reference. Key concepts: data controller, data processor, data subject rights, breach notification, and data transfer restrictions."},
+            {name:"CCPA",explain:"California Consumer Privacy Act gives California residents rights over their personal data. Key difference from GDPR: CCPA is opt-out, GDPR requires opt-in for many processing activities.",insight:"The exam may contrast GDPR (opt-in consent required) with CCPA (opt-out). Data privacy law applies based on the data subject's location, not the business's location."},
+            {name:"Data subject rights",explain:"Privacy regulations grant individuals rights over their personal data. GDPR rights include: right of access, right to rectification, right to erasure, right to portability, right to object.",insight:"Right to erasure is technically challenging in cloud environments. Systems must be designed with data subject rights in mind — not retrofitted."},
+          ]},
+          {label:"Cloud contracts", chips:[
+            {name:"Cloud SLA",explain:"Service Level Agreements define the provider's commitments on availability, performance, and support response times. They specify remedies for failures — typically service credits, not liability for consequential damages.",insight:"Cloud SLAs offer availability guarantees with service credit remedies — not compensation for business losses. The exam tests SLAs as the mechanism for formalising provider commitments."},
+            {name:"Right to audit",explain:"Cloud customers have the right to audit their provider's security controls — but in practice providers provide third-party audit reports (SOC 2, ISO 27001) rather than allowing direct customer audits.",insight:"Right to audit clauses are typically satisfied by the provider's third-party certifications. You cannot walk into AWS's data centre, but you can review their SOC 2 Type II report."},
+            {name:"Provider lock-in",explain:"Proprietary cloud services, data formats, and APIs create dependency on a specific provider. Legal contracts should address data portability on exit.",insight:"Lock-in is a strategic and operational risk. The exam may test portability as a contractual requirement."},
+          ]},
+        ]
+      },
+      {
+        label:"Risk management", color:"#2E6DA4",
+        groups:[
+          {label:"Cloud risk", chips:[
+            {name:"Risk transfer",explain:"Cloud adoption transfers some risk to the provider — physical security, hypervisor security, network infrastructure. But risk transfer is not risk elimination. The customer retains responsibility for data and application security.",insight:"Risk transfer in cloud means the provider accepts responsibility for the infrastructure they control. The exam tests risk transfer as one of four risk responses: avoid, transfer, mitigate, accept."},
+            {name:"Cloud risk assessment",explain:"Assessing risk in cloud requires evaluating: the shared responsibility model, third-party concentration risk, compliance risk, and supply chain risk. Standard risk frameworks (NIST, ISO) apply.",insight:"Cloud risk assessment extends to concentration risk — dependence on a single provider. Regulatory risk — workloads that may not comply with applicable law in the chosen region."},
+            {name:"Business impact analysis",explain:"A BIA identifies critical business functions and the impact of their disruption. In cloud contexts, it determines which workloads require the highest availability and recovery objectives.",insight:"BIA drives RTO and RPO targets which in turn drive cloud architecture decisions. BIA is the starting point for cloud resilience design."},
+          ]},
+          {label:"Third-party management", chips:[
+            {name:"Supply chain risk",explain:"Cloud service providers have their own supply chains. A compromise in a provider's supply chain can affect all cloud customers.",insight:"Supply chain risk in cloud extends to the provider's own supply chain. SolarWinds demonstrated that a software supply chain attack can compromise thousands of downstream organisations."},
+            {name:"Due diligence",explain:"Before selecting a cloud provider, organisations should review security certifications, audit reports, the provider's incident response procedures, and contractual terms.",insight:"Due diligence is the pre-contract phase of cloud risk management. Key outputs: understanding of the provider's security posture, contractual protections, and compliance coverage."},
+          ]},
+        ]
+      },
+      {
+        label:"Compliance frameworks", color:"#4A6741",
+        groups:[
+          {label:"Audit and certification", chips:[
+            {name:"SOC 2",explain:"SOC 2 reports assess a service organisation's controls across five trust service criteria: Security, Availability, Processing Integrity, Confidentiality, and Privacy. Type I assesses controls at a point in time. Type II assesses controls over a period.",insight:"SOC 2 Type II is the primary mechanism for cloud providers to demonstrate security control effectiveness. The exam consistently distinguishes Type I (point in time) from Type II (period of time)."},
+            {name:"ISO 27001",explain:"ISO 27001 is the international standard for information security management systems. Certification requires implementing the ISMS framework, conducting risk assessments, and passing an independent audit.",insight:"ISO 27001 demonstrates a systematic, risk-based approach to information security management. The exam may test ISO 27001 as the framework for ISMS implementation."},
+            {name:"PCI DSS",explain:"Payment Card Industry Data Security Standard applies to any organisation handling cardholder data in cloud environments. Using a PCI-compliant provider does not make the customer compliant.",insight:"PCI DSS compliance in cloud requires both provider compliance and customer compliance. The provider's PCI compliance does not automatically make the customer compliant."},
+            {name:"CSA STAR",explain:"The CSA Security, Trust, Assurance and Risk programme is a cloud-specific assurance framework. STAR Level 1 is self-assessment. Level 2 adds independent third-party assessment.",insight:"CSA STAR is the cloud-specific equivalent of SOC 2 and ISO 27001. The CAIQ questionnaire is the self-assessment mechanism."},
+          ]},
+          {label:"e-Discovery", chips:[
+            {name:"e-Discovery in cloud",explain:"Electronic discovery requires organisations to produce relevant electronic data in legal proceedings. In cloud, data may be distributed across regions and stored by a third party.",insight:"e-Discovery in cloud is complicated by data location, data custody, and provider cooperation. Cloud contracts should explicitly address e-discovery procedures."},
+            {name:"Legal holds",explain:"Legal holds require organisations to preserve potentially relevant data when litigation is reasonably anticipated. In cloud, this means suspending normal deletion schedules.",insight:"Legal holds can conflict with data minimisation principles. Cloud governance must apply holds to specific data sets while continuing normal operations for others."},
+          ]},
+        ]
+      },
+      {
+        label:"Privacy engineering", color:"#6B4E8A",
+        groups:[
+          {label:"By design", chips:[
+            {name:"Privacy by design",explain:"Privacy by design embeds privacy protections into systems from the start. Seven foundational principles include proactive not reactive, privacy as default, full functionality, and end-to-end security. GDPR makes privacy by design a legal requirement.",insight:"Privacy by design is both a best practice and a GDPR legal requirement. Privacy controls built into architecture from the start, not retrofitted."},
+            {name:"Data minimisation",explain:"Collecting only the personal data necessary for the specified purpose. GDPR requires data minimisation as a core principle.",insight:"Data minimisation reduces both security risk and regulatory exposure — you cannot lose data you do not have."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Provider SOC 2 compliance does not make the customer compliant — configuration is the customer's responsibility","GDPR applies to EU data subjects, not just EU organisations","SOC 2 Type I is point-in-time, Type II covers a period — Type II provides stronger assurance","Right to audit in cloud contracts is typically satisfied by third-party certifications, not direct inspection","Data sovereignty and data residency are related but distinct concepts","Legal holds can conflict with data minimisation — systems must handle both"],
+    connects:["Understand applicable regulations","Assess provider compliance certifications","Review SLAs and contractual protections","Implement privacy by design","Maintain audit trail and e-discovery capability"]
+  },
+];
+
+const FAQS = [
+  {
+    q:"What are the 6 CCSP domains?",
+    a:"The CCSP covers six domains: Cloud Concepts, Architecture and Design (17%), Cloud Data Security (20%), Cloud Platform and Infrastructure Security (17%), Cloud Application Security (17%), Cloud Security Operations (16%), and Legal, Risk and Compliance (13%). Cloud Data Security carries the highest weighting.",
+    note:"This tool covers all six domains in full — use the domain tabs above to explore each one."
+  },
+  {
+    q:"How hard is the CCSP exam?",
+    a:"The CCSP is consistently rated one of the hardest cloud security certifications available. It uses Computer Adaptive Testing and tests risk-based and architectural thinking, not operational execution. Most candidates have a gap — the exam finds it.",
+    note:"The 'Exam traps' section in each domain highlights the most common ways candidates answer incorrectly."
+  },
+  {
+    q:"How long does it take to study for CCSP?",
+    a:"Most candidates study for three to six months. The most common mistake is spending study time only on familiar domains. Every domain contributes — neglecting any one creates a predictable weak point.",
+    note:"The 'How it all connects' section at the bottom of each domain shows how topics link across the CCSP."
+  },
+  {
+    q:"How many questions are on the CCSP exam?",
+    a:"The CCSP uses Computer Adaptive Testing with between 125 and 175 questions, within a 4-hour window. Finishing early is not necessarily a sign of passing or failing.",
+    note:"The exam weighting per domain is shown in the percentage figure on each domain header in this tool."
+  },
+  {
+    q:"What is the CCSP pass rate?",
+    a:"ISC2 does not publish official pass rate statistics. The exam is widely considered difficult, particularly for candidates without practical cloud security experience spanning multiple domains.",
+    note:"The 'Exam traps' sections in this tool are written specifically for candidates who have already attempted the exam."
+  },
+  {
+    q:"How do you pass the CCSP exam?",
+    a:"The most important mental shift is from cloud engineer thinking to cloud security architect and risk manager thinking. Study all six domains, understand how they connect, and focus on scenarios — not just memorising definitions.",
+    note:"Every concept in this tool includes an 'Exam insight' that explains specifically how it is tested, not just what it means."
+  }
+];
+
+let currentDomain = 1;
+let showFaq = false;
+let activeChip = null;
+
+function init(){
+  renderNav();
+  renderMain();
+}
+
+function renderNav(){
+  const nav = document.getElementById('domainNav');
+  nav.innerHTML = DOMAINS.map(d => {
+    const isActive = !showFaq && d.id===currentDomain;
+    return `
+      <div class="dnav-item ${isActive?'active':''}"
+           onclick="selectDomain(${d.id})"
+           style="border-bottom-color:${isActive?d.color:'transparent'}">
+        <span class="dnav-label">Domain ${d.id}</span>
+        <span class="dnav-short">${d.shortName}</span>
+      </div>
+    `;
+  }).join('');
+}
+
+function selectDomain(id){
+  currentDomain = id;
+  showFaq = false;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.remove('active');
+  renderNav();
+  renderMain();
+}
+
+function toggleFaq(){
+  showFaq = !showFaq;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.toggle('active', showFaq);
+  renderNav();
+  renderMain();
+}
+
+function renderMain(){
+  const mc = document.getElementById('mainContent');
+  if(showFaq){
+    mc.innerHTML = renderFaqView();
+    return;
+  }
+  const d = DOMAINS.find(x=>x.id===currentDomain);
+  mc.innerHTML = renderDomainView(d);
+}
+
+function renderDomainView(d){
+  return `
+    <div class="domain-hdr">
+      <div class="domain-hdr-left">
+        <div class="domain-num">Domain ${d.id} of 6</div>
+        <div class="domain-name">${d.name}</div>
+        <div class="domain-hook">${d.hook}</div>
+      </div>
+      <div class="domain-pct-block">
+        <div class="domain-pct" style="color:${d.color}">${d.pct}</div>
+        <div class="domain-pct-label">exam weight</div>
+        <div class="domain-pct-q" style="color:${d.color}">${d.qs} questions</div>
+      </div>
+    </div>
+    <div class="clusters-grid">
+      ${d.clusters.map(cl => `
+        <div class="cluster">
+          <div class="cluster-hdr" style="background:${cl.color}">${cl.label}</div>
+          <div class="cluster-body">
+            ${cl.groups.map(g => `
+              <div class="sg">
+                <div class="sg-label">${g.label}</div>
+                <div class="vchips">
+                  ${g.chips.map(c => `
+                    <div class="vchip ${activeChip && activeChip.name===c.name?'active':''}"
+                         onclick="selectChip(${d.id},'${c.name.replace(/'/g,"\\'")}',' ${cl.label.replace(/'/g,"\\'")}',' ${g.label.replace(/'/g,"\\'")}')">  
+                      ${c.name}
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    ${activeChip ? renderDrawer(d) : ''}
+    <div class="traps-section">
+      <div class="traps-label"><span class="traps-dot"></span>Exam traps — what retakers get wrong</div>
+      <div class="traps-chips">
+        ${d.traps.map(t=>`<span class="trap-chip">${t}</span>`).join('')}
+      </div>
+    </div>
+    <div class="connects-section">
+      <div class="connects-label">How it all connects</div>
+      <div class="connects-flow">
+        ${d.connects.map((c,i)=>`
+          <span class="flow-chip">${c}</span>
+          ${i<d.connects.length-1?'<span class="flow-arr">→</span>':''}
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderDrawer(d){
+  const chip = activeChip;
+  const allChips = d.clusters.flatMap(cl=>cl.groups.flatMap(g=>g.chips));
+  const chipData = allChips.find(c=>c.name===chip.name);
+  if(!chipData) return '';
+  return `
+    <div class="explanation-drawer open">
+      <div class="ed-inner">
+        <button class="ed-close" onclick="closeDrawer()">✕ close</button>
+        <div class="ed-breadcrumb">${chip.cluster} · ${chip.group}</div>
+        <div class="ed-title">${chipData.name}</div>
+        <div class="ed-text">${chipData.explain}</div>
+        <div class="ed-insight">
+          <div class="ed-insight-label">Exam insight</div>
+          <div class="ed-insight-text">${chipData.insight}</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function selectChip(domainId, chipName, clusterLabel, groupLabel){
+  if(activeChip && activeChip.name===chipName){
+    activeChip = null;
+  } else {
+    activeChip = {name:chipName, cluster:clusterLabel.trim(), group:groupLabel.trim()};
+  }
+  renderMain();
+  if(activeChip){
+    setTimeout(()=>{
+      const drawer = document.querySelector('.explanation-drawer');
+      if(drawer) drawer.scrollIntoView({behavior:'smooth',block:'nearest'});
+    },50);
+  }
+}
+
+function closeDrawer(){
+  activeChip = null;
+  renderMain();
+}
+
+function renderFaqView(){
+  return `
+    <div class="faq-view active">
+      <p class="faq-intro">Common questions about the CCSP exam — written to be genuinely useful, not just reassuring.</p>
+      ${FAQS.map((f,i)=>`
+        <div class="faq-item">
+          <div class="faq-q" id="fq${i}" onclick="toggleFaqItem(${i})">
+            ${f.q}
+            <span class="faq-chevron">▾</span>
+          </div>
+          <div class="faq-a" id="fa${i}">
+            ${f.a}
+            <div class="faq-seo-note">${f.note}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function toggleFaqItem(i){
+  const q = document.getElementById('fq'+i);
+  const a = document.getElementById('fa'+i);
+  q.classList.toggle('open');
+  a.classList.toggle('open');
+}
+
+init();
+</script>
+</body>
+</html>
