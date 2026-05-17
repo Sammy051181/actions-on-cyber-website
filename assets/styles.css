@@ -443,3 +443,10 @@ img {
     width: 210px;
   }
 }
+
+@media (max-width: 600px) {
+  .cissp-iframe {
+    height: 700px !important;
+    min-height: 700px;
+  }
+}
