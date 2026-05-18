@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Free CCSP Mind Map — All 6 Domains Explained | Actions on Cyber</title>
+  <title>Free CCSP Mind Map — All 6 Domains Explained | Actions On Cyber</title>
 
   <meta
     name="description"
@@ -151,7 +151,7 @@
       <div class="panel-list">
         <div><strong>6 domains</strong><p>All CCSP domains covered in full — click any domain to explore its topics, sub-groups, and key concepts.</p></div>
         <div><strong>Exam traps</strong><p>The mistakes that catch retakers out, highlighted per domain so you know exactly what to watch for.</p></div>
-        <div><strong>Free</strong><p>No signup, no paywall. Created by Actions on Cyber for the CCSP community.</p></div>
+        <div><strong>Free</strong><p>No signup, no paywall. Created by Actions On Cyber for the CCSP community.</p></div>
       </div>
     </aside>
   </div>
@@ -166,7 +166,7 @@
 
     <p>Understanding the CCSP domains and how they connect — and how the exam approaches cloud-specific versions of security concepts you may already know from on-premises contexts — is what separates candidates who pass from those who retake. The shared responsibility model, the CSA data security lifecycle, cloud-specific cryptography controls, and the legal obligations that follow data across jurisdictions are the areas most candidates underestimate.</p>
 
-    <p>Created by Actions on Cyber to give the CCSP community a free, practical alternative to expensive study materials. Practical Guidance. Real Protection.</p>
+    <p>Created by Actions On Cyber to give the CCSP community a free, practical alternative to expensive study materials. Practical Guidance. Real Protection.</p>
   </div>
 </section>
 
@@ -174,18 +174,62 @@
 <section class="section section-alt">
   <div class="container">
     <iframe
-      src="/ccsp-mind-map.html"
+      id="ccspMindMapFrame"
+      src="/pages/ccsp-mind-map-tool.html"
       width="100%"
-      height="1100"
+      height="760"
       frameborder="0"
-      scrolling="yes"
+      scrolling="no"
       title="CCSP Mind Map — All 6 Domains Interactive Study Tool"
       loading="lazy"
       class="cissp-iframe"
-      style="border:1px solid #e4e2da;border-radius:8px;display:block;max-width:980px;margin:0 auto;">
+      style="border:1px solid #e4e2da;border-radius:8px;display:block;max-width:1100px;margin:0 auto;background:#fff;">
     </iframe>
+
+    <p class="small" style="text-align:center;margin-top:1rem;">
+      If the mind map does not load, open the
+      <a href="/pages/ccsp-mind-map-tool.html">CCSP interactive mind map</a>
+      directly.
+    </p>
   </div>
 </section>
+
+<script>
+  function resizeCcspMindMapFrame() {
+    const iframe = document.getElementById("ccspMindMapFrame");
+    if (!iframe) return;
+
+    try {
+      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+      const body = iframeDocument.body;
+      const html = iframeDocument.documentElement;
+
+      const height = Math.max(
+        body ? body.scrollHeight : 0,
+        body ? body.offsetHeight : 0,
+        html ? html.clientHeight : 0,
+        html ? html.scrollHeight : 0,
+        html ? html.offsetHeight : 0
+      );
+
+      if (height > 0) {
+        iframe.style.height = (height + 12) + "px";
+      }
+    } catch (error) {
+      iframe.style.height = "760px";
+    }
+  }
+
+  window.addEventListener("load", resizeCcspMindMapFrame);
+  window.addEventListener("resize", resizeCcspMindMapFrame);
+
+  const ccspMindMapFrame = document.getElementById("ccspMindMapFrame");
+  if (ccspMindMapFrame) {
+    ccspMindMapFrame.addEventListener("load", resizeCcspMindMapFrame);
+  }
+
+  setInterval(resizeCcspMindMapFrame, 750);
+</script>
 
 <!-- CCSP VS CISSP -->
 <section class="section">
@@ -304,9 +348,9 @@
 <section class="section dark-section">
   <div class="container cta">
     <div>
-      <span class="badge">Actions on Cyber</span>
+      <span class="badge">Actions On Cyber</span>
       <h2>A full CCSP course is coming.</h2>
-      <p>This free CCSP Mind Map is part of Actions on Cyber's commitment to making high-quality security education accessible. A full CCSP course is in development — covering all 6 domains in depth, with video lessons, worked examples, and the exam technique that turns retakers into passers.</p>
+      <p>This free CCSP Mind Map is part of Actions On Cyber's commitment to making high-quality security education accessible. A full CCSP course is in development — covering all 6 domains in depth, with video lessons, worked examples, and the exam technique that turns retakers into passers.</p>
       <p>Also available: our free <a href="/pages/cissp-mind-map">CISSP Mind Map</a> — the same format, all 8 CISSP domains, completely free.</p>
       <p><strong>Practical Guidance. Real Protection.</strong></p>
     </div>
