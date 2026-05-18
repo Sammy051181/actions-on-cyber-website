@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Free CISSP-ISSAP Mind Map — All 4 Domains Explained | Actions On Cyber</title>
+  <meta
+    name="description"
+    content="Free CISSP-ISSAP study guide and interactive mind map covering all 4 ISSAP domains, exam topics, architecture concepts, study tips, practice prompts and common exam traps. No signup required."
+  />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://www.actionsoncyber.com/pages/cissp-issap" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Actions On Cyber" />
+  <meta property="og:title" content="Free CISSP-ISSAP Mind Map — All 4 Domains Explained" />
+  <meta property="og:description" content="A free CISSP-ISSAP study guide and interactive mind map for security architecture candidates." />
+  <meta property="og:url" content="https://www.actionsoncyber.com/pages/cissp-issap" />
+
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <link rel="icon" href="../assets/actions-on-cyber-logo.svg" type="image/svg+xml" />
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="qYz/3u8yv0OLv9zOmJkNmg" async></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is CISSP-ISSAP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CISSP-ISSAP, now commonly referred to as ISSAP, is the ISC2 Information Systems Security Architecture Professional certification. It is an advanced security architecture certification for professionals who design, analyse and validate security solutions and provide risk-based guidance to meet organisational goals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the CISSP-ISSAP domains?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The current ISSAP exam outline has 4 domains: Governance, Risk and Compliance (21%), Security Architecture Modeling (22%), Infrastructure and System Security Architecture (32%), and Identity and Access Management Architecture (25%)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between CISSP and CISSP-ISSAP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CISSP is a broad cybersecurity leadership and management certification across multiple security domains. ISSAP is a deeper security architecture certification focused on designing secure architectures, validating designs, advising on risk treatment, and aligning security solutions with organisational objectives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is CISSP-ISSAP worth it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CISSP-ISSAP can be worth it for security architects, enterprise architects, senior security consultants, system designers and security leaders who need to prove advanced architecture capability. It is most useful when your role involves designing security solutions rather than only operating tools."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the CISSP-ISSAP experience requirements?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ISC2 states that candidates can qualify with a CISSP in good standing plus two years of cumulative full-time experience in one or more ISSAP domains, or through a non-CISSP route with seven years of cumulative full-time experience in two or more ISSAP domains."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many questions are on the ISSAP exam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The ISSAP exam is listed by ISC2 as a 3-hour exam with 125 items, using multiple choice and advanced item types, with a passing grade of 700 out of 1000 points."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does this page include CISSP-ISSAP practice questions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This page includes practice prompts and scenario-style study questions to help candidates think like a security architect. They are not exam dumps or copied exam questions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a CISSP-ISSAP PDF study guide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This page is designed as a free online CISSP-ISSAP study guide. A downloadable PDF version can be added later, but the interactive mind map is the main study resource."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo-link" href="/" aria-label="Actions On Cyber home">
+      <img src="../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" />
+    </a>
+
+    <button class="mobile-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="/">Start Here</a>
+      <a href="/pages/actions-on">Actions On</a>
+      <a href="/pages/daily-int-brief">Daily Int Brief</a>
+      <a href="/pages/daily-vulnerability-brief">Vulnerability Brief</a>
+      <a href="/pages/cyber-stand-to">Cyber Stand-To</a>
+      <a href="/pages/field-manual">Field Manual</a>
+      <a href="/pages/training">Training</a>
+      <a href="/pages/cissp-mind-map">CISSP Mind Map</a>
+      <a href="/pages/cissp-issap" aria-current="page">CISSP-ISSAP</a>
+      <a href="/pages/ccsp-mind-map">CCSP Mind Map</a>
+      <a href="/pages/csslp-mind-map">CSSLP Mind Map</a>
+      <a href="/pages/consultancy">Consultancy</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+      <a class="btn btn-teal" href="/pages/contact">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="badge">Free Study Resource</span>
+      <h1>CISSP-ISSAP Mind Map</h1>
+      <p class="lead">All 4 ISSAP domains. Architecture-focused. Zero cost.</p>
+      <p>
+        A free CISSP-ISSAP study guide and interactive ISSAP mind map for security architects,
+        senior security consultants, enterprise architects and CISSP holders preparing for the
+        Information Systems Security Architecture Professional certification.
+      </p>
+      <div class="trust-row">
+        <span class="trust-item">No signup required</span>
+        <span class="trust-item">All 4 domains covered</span>
+        <span class="trust-item">Architecture exam traps included</span>
+      </div>
+    </div>
+
+    <aside class="panel panel-dark">
+      <span class="badge">What is this?</span>
+      <h2>An interactive CISSP-ISSAP study tool for architecture-level thinking.</h2>
+      <div class="panel-list">
+        <div>
+          <strong>4 ISSAP domains</strong>
+          <p>Governance, architecture modelling, infrastructure and systems, and IAM architecture.</p>
+        </div>
+        <div>
+          <strong>Scenario mindset</strong>
+          <p>Built around how architects translate requirements, risk, constraints and controls into defensible designs.</p>
+        </div>
+        <div>
+          <strong>Free</strong>
+          <p>No signup, no paywall. Created by Actions On Cyber as a practical study resource.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p>
+      CISSP-ISSAP is commonly used to describe the ISC2 ISSAP security architecture certification.
+      The current ISSAP outline focuses on designing security solutions, validating architecture
+      decisions and giving risk-based guidance to meet organisational goals.
+    </p>
+    <p>
+      Unlike a broad CISSP study page, this guide is deliberately architecture-led. It focuses on
+      the decisions a security architect must make: how to translate legal and business obligations
+      into controls, how to choose a security architecture approach, how to design infrastructure
+      and cryptographic protections, and how to build identity and access management architecture
+      that can be governed, audited and defended.
+    </p>
+    <p>
+      This page is also written around common search questions such as <strong>what is CISSP ISSAP</strong>,
+      <strong>CISSP-ISSAP vs CISSP</strong>, <strong>CISSP-ISSAP study material</strong>, <strong>CISSP-ISSAP practice questions</strong>,
+      <strong>CISSP-ISSAP exam</strong>, <strong>CISSP ISSAP PDF</strong> and <strong>is CISSP-ISSAP worth it</strong>.
+    </p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Interactive tool</span>
+        <h2>Explore the CISSP-ISSAP mind map</h2>
+      </div>
+    </div>
+
+    <iframe
+      id="cisspIssapMindMapFrame"
+      src="/pages/cissp-issap-tool.html"
+      width="100%"
+      height="900"
+      frameborder="0"
+      scrolling="no"
+      title="CISSP-ISSAP Mind Map — All 4 Domains Interactive Study Tool"
+      loading="lazy"
+      class="cissp-iframe"
+      style="border:1px solid #e4e2da;border-radius:8px;display:block;max-width:1100px;margin:0 auto;background:#fff;">
+    </iframe>
+
+    <p class="small" style="text-align:center;margin-top:1rem;">
+      If the mind map does not load, open the
+      <a href="/pages/cissp-issap-tool.html">CISSP-ISSAP interactive mind map</a>
+      directly.
+    </p>
+  </div>
+</section>
+
+<script>
+  function resizeCisspIssapMindMapFrame() {
+    const iframe = document.getElementById("cisspIssapMindMapFrame");
+    if (!iframe) return;
+
+    try {
+      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+      const height = iframeDocument.documentElement.scrollHeight;
+      iframe.style.height = Math.max(height + 12, 760) + "px";
+    } catch (error) {
+      iframe.style.height = "900px";
+    }
+  }
+
+  window.addEventListener("load", resizeCisspIssapMindMapFrame);
+  window.addEventListener("resize", resizeCisspIssapMindMapFrame);
+
+  const cisspIssapFrame = document.getElementById("cisspIssapMindMapFrame");
+  if (cisspIssapFrame) {
+    cisspIssapFrame.addEventListener("load", resizeCisspIssapMindMapFrame);
+  }
+</script>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Exam domains</span>
+        <h2>CISSP-ISSAP domains and weights</h2>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Domain 1: Governance, Risk and Compliance — 21%</h3>
+        <p>
+          Covers legal, regulatory, organisational and industry requirements, plus how the architect
+          designs for governance, risk, compliance, monitoring, reporting, auditability and risk treatment.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Domain 2: Security Architecture Modeling — 22%</h3>
+        <p>
+          Covers architecture approaches, frameworks such as TOGAF and SABSA, reference architectures,
+          threat modelling, design validation, compensating controls and review methods.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Domain 3: Infrastructure and System Security Architecture — 32%</h3>
+        <p>
+          The largest ISSAP domain. Covers deployment models, IT and OT, physical security, platform
+          security, network security, storage, cloud, endpoints, monitoring, DLP and cryptographic architecture.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Domain 4: IAM Architecture — 25%</h3>
+        <p>
+          Covers identity lifecycle, authentication, authorisation and accounting architecture, including
+          federation, SSO, PAM, access reviews, audit events, log integrity and reporting.
+        </p>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top:1rem;">
+      Domain weights and exam details should always be checked against the
+      <a href="https://www.isc2.org/certifications/issap/issap-certification-exam-outline">official ISC2 ISSAP exam outline</a>.
+    </p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Explainer</span>
+        <h2>What is CISSP-ISSAP?</h2>
+      </div>
+    </div>
+
+    <p>
+      CISSP-ISSAP is the security architecture specialism associated with ISC2’s ISSAP certification.
+      It is aimed at experienced professionals who design and analyse security solutions, sit between
+      senior leadership and implementation teams, and provide risk-based architecture guidance.
+    </p>
+    <p>
+      The exam is not asking you to think like a tool administrator. It is asking whether you can
+      design a secure architecture that meets business objectives, regulatory obligations, risk appetite,
+      operational constraints and assurance requirements.
+    </p>
+
+    <div class="grid-2" style="margin-top:1.5rem;">
+      <div class="panel">
+        <h3>Good fit for</h3>
+        <p>Security architects, chief security architects, enterprise architects, system designers, senior security consultants, security analysts and leaders who provide architecture direction.</p>
+      </div>
+      <div class="panel">
+        <h3>Less useful for</h3>
+        <p>People looking for entry-level security knowledge, hands-on tool training only, or a general cyber qualification without a security architecture focus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Comparison</span>
+        <h2>CISSP-ISSAP vs CISSP</h2>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>CISSP</h3>
+        <p>
+          CISSP is a broad security leadership certification. It tests whether you understand security
+          governance, risk, architecture, engineering, IAM, operations, assessment and software security
+          from a managerial and risk-based viewpoint.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>CISSP-ISSAP / ISSAP</h3>
+        <p>
+          ISSAP goes deeper into security architecture. It tests whether you can design, validate and
+          defend security architectures that align with organisational goals, legal duties, risk decisions,
+          infrastructure constraints and identity requirements.
+        </p>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:1.5rem;">
+      <h3>Which should you do first?</h3>
+      <p>
+        For most people, CISSP comes first because it builds the broad governance and security foundation.
+        ISSAP then makes sense when your role has moved into architecture, enterprise design, solution review,
+        high-assurance systems, identity architecture or senior risk-based design decisions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Concentrations</span>
+        <h2>ISSAP, ISSEP and ISSMP — what is the difference?</h2>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <div class="panel">
+        <h3>ISSAP</h3>
+        <p><strong>Architecture.</strong> Best for security architects and people designing secure systems, infrastructure and IAM architectures.</p>
+      </div>
+      <div class="panel">
+        <h3>ISSEP</h3>
+        <p><strong>Engineering.</strong> Best for security engineers, systems engineers and assurance-focused roles, especially in defence or high-assurance environments.</p>
+      </div>
+      <div class="panel">
+        <h3>ISSMP</h3>
+        <p><strong>Management.</strong> Best for CISOs, security managers, governance leaders and people running security programmes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Study material</span>
+        <h2>CISSP-ISSAP study material and practice prompts</h2>
+      </div>
+    </div>
+
+    <p>
+      The best CISSP-ISSAP study material should help you reason like an architect. Do not only memorise
+      definitions. Practise turning constraints into architecture decisions and then explaining why the
+      design is appropriate, auditable and aligned to risk.
+    </p>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Use these study angles</h3>
+        <p>Read the official outline, map each bullet to a real design decision, build your own architecture decision records, compare alternative control designs, and practise explaining residual risk.</p>
+      </div>
+      <div class="panel">
+        <h3>Practice prompt examples</h3>
+        <p>What architecture supports a regulated cloud migration? Where should trust boundaries sit? What compensating controls are acceptable? How would you prove auditability? What breaks if identity provisioning fails?</p>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:1.5rem;">
+      <h3>Important note on CISSP-ISSAP practice questions</h3>
+      <p>
+        Use practice questions to test architecture reasoning, not to memorise exam dumps. A good practice
+        question should force you to balance risk, business objectives, compliance, operational constraints
+        and assurance evidence. That is why this page uses scenario prompts rather than copied exam questions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Exam overview</span>
+        <h2>CISSP-ISSAP exam and requirements</h2>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Exam format</h3>
+        <p>
+          ISC2 lists the ISSAP exam as a 3-hour exam with 125 items. The item format is multiple choice
+          and advanced item types, and the passing grade is 700 out of 1000 points.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Experience route</h3>
+        <p>
+          Candidates can qualify with CISSP in good standing plus 2 years of full-time experience in one
+          or more ISSAP domains, or through a non-CISSP route with 7 years of cumulative full-time
+          experience in two or more ISSAP domains.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">Career value</span>
+        <h2>Is CISSP-ISSAP worth it?</h2>
+      </div>
+    </div>
+
+    <p>
+      CISSP-ISSAP is worth considering if your target role involves architecture authority: designing
+      security solutions, reviewing enterprise designs, advising senior stakeholders, translating regulation
+      into technical architecture, or setting standards for infrastructure and IAM.
+    </p>
+    <p>
+      It is especially relevant for security architect, chief security architect, enterprise security architect,
+      solution security architect, senior security consultant, system and network designer, and security
+      leadership roles where architecture decisions have to be defended to both technical teams and executives.
+    </p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">PDF and course</span>
+        <h2>CISSP-ISSAP PDF, book and online training</h2>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Free online guide</h3>
+        <p>
+          This page is the free online CISSP-ISSAP study guide. The interactive tool above gives you the
+          domain map, topic breakdowns, architecture insights and exam traps in one place.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Future downloadable version</h3>
+        <p>
+          A CISSP-ISSAP PDF or printable guide can be added later. For now, use the web version so the
+          content can be updated quickly when the official outline changes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="badge">FAQ</span>
+        <h2>Frequently asked questions about CISSP-ISSAP</h2>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>What is CISSP-ISSAP?</h3>
+        <p>CISSP-ISSAP refers to the ISC2 ISSAP security architecture certification. It validates advanced security architecture knowledge for professionals who design, analyse and validate security solutions.</p>
+      </div>
+      <div class="panel">
+        <h3>What are the CISSP-ISSAP domains?</h3>
+        <p>The 4 current ISSAP domains are Governance, Risk and Compliance; Security Architecture Modeling; Infrastructure and System Security Architecture; and Identity and Access Management Architecture.</p>
+      </div>
+      <div class="panel">
+        <h3>What is the difference between CISSP and CISSP-ISSAP?</h3>
+        <p>CISSP is broad and managerial. ISSAP is narrower and deeper, focused on architecture design, validation, assurance and risk-based guidance.</p>
+      </div>
+      <div class="panel">
+        <h3>Is CISSP-ISSAP harder than CISSP?</h3>
+        <p>It can be harder if you do not work in architecture. CISSP is broad; ISSAP is specialised. The difficulty is less about memorisation and more about applying architecture judgement to scenarios.</p>
+      </div>
+      <div class="panel">
+        <h3>How should I study for CISSP-ISSAP?</h3>
+        <p>Start with the official outline, then use the mind map to organise the domains. Build scenario notes, compare design options, practise explaining risk treatment and focus on architecture trade-offs.</p>
+      </div>
+      <div class="panel">
+        <h3>Are there CISSP-ISSAP practice questions here?</h3>
+        <p>This page includes practice prompts and scenario thinking. It does not provide exam dumps or copied exam content.</p>
+      </div>
+      <div class="panel">
+        <h3>Is there a CISSP-ISSAP PDF?</h3>
+        <p>A downloadable PDF can be added later. This page is currently the free online guide, supported by the interactive mind map.</p>
+      </div>
+      <div class="panel">
+        <h3>What jobs is CISSP-ISSAP useful for?</h3>
+        <p>It is useful for security architect, enterprise security architect, chief security architect, senior security consultant, system designer, network designer, CTO and security leadership roles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-section">
+  <div class="container cta">
+    <div>
+      <span class="badge">Actions On Cyber</span>
+      <h2>A full CISSP-ISSAP course can come next.</h2>
+      <p>
+        This free CISSP-ISSAP Mind Map is part of Actions On Cyber’s wider study resources. A full
+        ISSAP course could expand this into video lessons, worked architecture scenarios, practice
+        prompts, PDF notes and exam technique.
+      </p>
+      <p>
+        Also available free:
+        <a href="/pages/cissp-mind-map">CISSP Mind Map</a>,
+        <a href="/pages/ccsp-mind-map">CCSP Mind Map</a> and
+        <a href="/pages/csslp-mind-map">CSSLP Mind Map</a>.
+      </p>
+      <p><strong>Practical Guidance. Real Protection.</strong></p>
+    </div>
+    <div>
+      <a class="btn btn-teal" href="mailto:hello@actionsoncyber.com">Get notified when the course launches</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="../assets/actions-on-cyber-logo.svg" alt="Actions On Cyber logo" style="max-width:280px" />
+      <p class="small">
+        Free cyber drills, Daily Int Briefs, vulnerability briefs, templates and practical guidance for organisations without a security team.
+      </p>
+      <p>
+        <a class="email-pill" href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+      </p>
+      <p class="small">Defensive guidance only. Templates and study resources are starting points, not legal or certification guarantees.</p>
+    </div>
+
+    <div>
+      <h4>Guidance</h4>
+      <a href="/pages/actions-on">Actions On</a>
+      <a href="/pages/daily-int-brief">Daily Int Brief</a>
+      <a href="/pages/daily-vulnerability-brief">Vulnerability Brief</a>
+      <a href="/pages/cyber-stand-to">Cyber Stand-To</a>
+      <a href="/pages/field-manual">Field Manual</a>
+      <a href="/pages/cissp-mind-map">CISSP Mind Map</a>
+      <a href="/pages/cissp-issap" aria-current="page">CISSP-ISSAP</a>
+      <a href="/pages/ccsp-mind-map">CCSP Mind Map</a>
+      <a href="/pages/csslp-mind-map">CSSLP Mind Map</a>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <a href="/pages/training">Training</a>
+      <a href="/pages/consultancy">Consultancy</a>
+      <a href="/pages/contact">Contact</a>
+      <a href="/pages/about">About</a>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <a href="/pages/privacy">Privacy</a>
+      <a href="/pages/terms">Terms &amp; Disclaimer</a>
+      <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>

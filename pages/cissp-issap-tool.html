@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CISSP-ISSAP Mind Map — All 4 Domains Explained | Actions On Cyber</title>
+<meta name="description" content="Free interactive CISSP-ISSAP study tool covering all 4 ISSAP domains, key architecture topics, exam traps and study insights. No signup required." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1C2B3A;
+  --navy-light:#243547;
+  --teal:#0f766e;
+  --teal-light:#e8f6f8;
+  --olive:#4A6741;
+  --olive-light:#eef3ec;
+  --blue:#1B5E8C;
+  --purple:#6B4E8A;
+  --amber:#854F0B;
+  --red:#A32D2D;
+  --red-light:#fdf0f0;
+  --white:#ffffff;
+  --off-white:#f8f7f4;
+  --border:#e4e2da;
+  --border-mid:#d3d1c7;
+  --text:#1a1a18;
+  --text-mid:#555550;
+  --text-muted:#888880;
+  --font:'DM Sans',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --mono:'DM Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{background:var(--off-white);}
+body{font-family:var(--font);background:var(--off-white);color:var(--text);font-size:14px;line-height:1.5;padding:0;}
+.issap-tool{background:var(--white);border:0.5px solid var(--border);border-radius:12px;overflow:hidden;width:100%;max-width:1100px;margin:0 auto;box-shadow:0 10px 26px rgba(28,43,58,0.06);}
+.tool-header{background:var(--navy);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.header-left{display:flex;align-items:center;gap:12px;min-width:0;}
+.header-logo{width:38px;height:38px;background:linear-gradient(135deg,#0f766e,#1B5E8C);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.header-logo svg{width:24px;height:24px;}
+.header-title{font-size:16px;font-weight:700;color:var(--white);letter-spacing:-0.01em;}
+.header-sub{font-size:10px;color:rgba(255,255,255,0.48);margin-top:1px;}
+.header-right{display:flex;align-items:center;gap:8px;flex-shrink:0;}
+.faq-btn{font-size:11px;font-weight:600;color:rgba(255,255,255,0.68);background:rgba(255,255,255,0.08);border:0.5px solid rgba(255,255,255,0.18);border-radius:6px;padding:6px 13px;cursor:pointer;transition:all 0.15s;font-family:var(--font);}
+.faq-btn:hover,.faq-btn.active{background:var(--teal);color:var(--white);border-color:var(--teal);}
+.domain-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#f0efeb;border-bottom:0.5px solid var(--border);gap:0;padding:0;width:100%;}
+.domain-nav::-webkit-scrollbar{display:none;}
+.dnav-item{min-width:0;padding:13px 14px 14px;cursor:pointer;border:0;border-bottom:4px solid transparent;transition:all 0.15s;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;font-family:var(--font);color:var(--text-muted);background:rgba(255,255,255,0.45);overflow:hidden;border-right:0.5px solid var(--border);}
+.dnav-item:last-child{border-right:none;}
+.dnav-item:hover{color:var(--text);background:rgba(255,255,255,0.82);}
+.dnav-item.active{color:var(--text);background:var(--white);}
+.dnav-label{font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;opacity:0.75;white-space:nowrap;}
+.dnav-short{font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;color:var(--text-mid);}
+.dnav-item.active .dnav-short{color:var(--navy);}
+.domain-hdr{padding:20px 24px 18px;border-bottom:0.5px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;gap:18px;background:#fff;}
+.domain-num{font-size:9px;font-weight:700;letter-spacing:0.12em;color:var(--text-muted);margin-bottom:4px;text-transform:uppercase;}
+.domain-name{font-size:22px;font-weight:700;color:var(--navy);letter-spacing:-0.02em;line-height:1.15;}
+.domain-hook{font-size:12px;color:var(--text-mid);margin-top:6px;font-style:italic;max-width:760px;}
+.domain-pct-block{text-align:right;flex-shrink:0;}
+.domain-pct{font-size:38px;font-weight:700;line-height:1;letter-spacing:-0.04em;}
+.domain-pct-label{font-size:9px;color:var(--text-muted);margin-top:2px;}
+.domain-pct-q{font-size:10px;font-weight:700;margin-top:1px;}
+.clusters-grid{display:grid;grid-template-columns:1fr 1fr;border-bottom:0.5px solid var(--border);}
+.cluster{border-right:0.5px solid var(--border);border-bottom:0.5px solid var(--border);}
+.cluster:nth-child(even){border-right:none;}
+.cluster:nth-last-child(-n+2){border-bottom:none;}
+.cluster:nth-child(odd):last-child{grid-column:1/-1;border-right:none;border-bottom:none;}
+.cluster:nth-child(odd):last-child .cluster-body{min-height:130px;}
+.cluster-hdr{padding:10px 16px;font-size:12px;font-weight:700;color:var(--white);letter-spacing:0.01em;}
+.cluster-body{padding:13px 14px;background:#fafaf8;display:flex;gap:10px;min-height:182px;}
+.sg{flex:1;min-width:0;}
+.sg-label{font-size:8px;font-weight:700;letter-spacing:0.11em;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;}
+.vchips{display:flex;flex-direction:column;gap:3px;}
+.vchip{font-size:10px;text-align:left;padding:5px 8px;border:0.5px solid var(--border-mid);border-radius:5px;color:var(--text);background:var(--white);cursor:pointer;line-height:1.25;transition:all 0.12s;font-family:var(--font);}
+.vchip:hover{border-color:var(--teal);color:var(--teal);background:var(--teal-light);}
+.vchip.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
+.explanation-drawer{border-top:0.5px solid var(--border);background:var(--white);display:block;}
+.ed-inner{padding:17px 21px;}
+.ed-close{float:right;font-size:11px;color:var(--text-muted);cursor:pointer;background:none;border:none;font-family:var(--font);padding:0;margin-top:1px;}
+.ed-close:hover{color:var(--red);}
+.ed-breadcrumb{font-size:9px;font-weight:700;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;}
+.ed-title{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:9px;letter-spacing:-0.01em;}
+.ed-text{font-size:13px;color:var(--text-mid);line-height:1.7;margin-bottom:14px;}
+.ed-insight{border-left:3px solid var(--olive);padding:10px 14px;background:var(--olive-light);border-radius:0 7px 7px 0;}
+.ed-insight-label{font-size:8px;font-weight:700;letter-spacing:0.1em;color:var(--olive);margin-bottom:4px;text-transform:uppercase;}
+.ed-insight-text{font-size:12px;color:#3a4a35;line-height:1.6;}
+.traps-section{background:#fdf8f6;border-bottom:0.5px solid #f0d8d0;padding:11px 16px;}
+.traps-label{font-size:8px;font-weight:700;letter-spacing:0.1em;color:var(--red);margin-bottom:7px;display:flex;align-items:center;gap:5px;text-transform:uppercase;}
+.traps-dot{width:6px;height:6px;background:#D85A30;border-radius:50%;flex-shrink:0;}
+.traps-chips{display:flex;flex-wrap:wrap;gap:5px;}
+.trap-chip{font-size:10px;padding:4px 9px;border:0.5px solid #f0b8a8;border-radius:5px;color:#7a2020;background:var(--white);}
+.connects-section{background:#f6f8f5;padding:11px 16px;}
+.connects-label{font-size:8px;font-weight:700;letter-spacing:0.1em;color:var(--olive);margin-bottom:7px;text-transform:uppercase;}
+.connects-flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;}
+.flow-chip{font-size:10px;padding:4px 10px;border:0.5px solid #b8ccb4;border-radius:5px;color:#2a4025;background:var(--white);}
+.flow-arr{font-size:12px;color:var(--border-mid);}
+.faq-view{display:none;padding:22px;background:#fff;}
+.faq-view.active{display:block;}
+.faq-intro{font-size:13px;color:var(--text-mid);margin-bottom:18px;line-height:1.65;}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.faq-item{border:0.5px solid var(--border);border-radius:9px;overflow:hidden;background:#fafaf8;}
+.faq-q{padding:12px 14px;font-size:13px;font-weight:700;color:var(--navy);}
+.faq-a{padding:0 14px 14px;font-size:12px;color:var(--text-mid);line-height:1.65;}
+.tool-footer{background:var(--navy);padding:9px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px;}
+.tool-footer-left{font-size:9px;color:rgba(255,255,255,0.38);}
+.tool-footer-right{font-size:9px;color:#5DCAA5;}
+@media(max-width:760px){
+  .domain-nav{display:flex;overflow-x:auto;}
+  .dnav-item{flex:0 0 170px;}
+  .clusters-grid{grid-template-columns:1fr;}
+  .cluster,.cluster:nth-child(even){border-right:none;}
+  .cluster:nth-last-child(-n+2){border-bottom:0.5px solid var(--border);}
+  .cluster:last-child{border-bottom:none;}
+  .cluster:nth-child(odd):last-child{grid-column:1;}
+  .cluster-body{flex-direction:column;min-height:0;}
+  .domain-hdr{flex-direction:column;padding:18px 18px 16px;}
+  .domain-pct-block{text-align:left;}
+  .faq-grid{grid-template-columns:1fr;}
+  .tool-header{align-items:flex-start;}
+  .header-title{font-size:15px;}
+  .header-sub{font-size:9px;}
+}
+</style>
+</head>
+<body>
+<div class="issap-tool" id="issapTool">
+  <div class="tool-header">
+    <div class="header-left">
+      <div class="header-logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 2.5l8 4.2v5.6c0 4.8-3.3 7.9-8 9.2-4.7-1.3-8-4.4-8-9.2V6.7l8-4.2z" stroke="#9FE1CB" stroke-width="1.4" fill="none"/>
+          <path d="M8 12.2l2.5 2.5L16.5 8.8" stroke="#5DCAA5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="header-title">CISSP-ISSAP Mind Map</div>
+        <div class="header-sub">Actions On Cyber · All 4 Domains · Free Study Resource</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="faq-btn" id="faqBtn" type="button">FAQ</button>
+    </div>
+  </div>
+
+  <div class="domain-nav" id="domainNav" aria-label="ISSAP domain navigation"></div>
+  <div id="mainContent"></div>
+
+  <div class="tool-footer">
+    <div class="tool-footer-left">Actions On Cyber · CISSP-ISSAP Mind Map · Free Resource</div>
+    <div class="tool-footer-right">Practical Guidance. Real Protection.</div>
+  </div>
+</div>
+
+<script>
+const DOMAINS = [
+  {
+    id:1, color:'#0f766e', pct:'21%', qs:'~26', shortName:'GRC',
+    name:'Governance, Risk and Compliance',
+    hook:'Architecture must translate obligations, business objectives and risk decisions into defensible design.',
+    clusters:[
+      {label:'Legal and regulatory requirements', color:'#0f766e', groups:[
+        {label:'External obligations', chips:[
+          {name:'Security standards and guidelines', explain:'Security standards and guidelines turn broad governance expectations into architecture requirements. For ISSAP, the important skill is not naming ISO, NIST, PCI or sector guidance; it is mapping those obligations to design decisions, control objectives, assurance evidence and traceability.', insight:'Think like an architect: standards are inputs to architecture, not decorations in a policy document. The exam will expect you to translate obligations into controls and evidence.'},
+          {name:'Privacy regulations', explain:'Privacy regulations such as GDPR-style requirements shape architecture through data minimisation, purpose limitation, subject rights, retention, lawful processing, consent handling and breach reporting. These requirements affect data flows, repositories, logging, backup and deletion design.', insight:'Privacy is an architecture constraint. If the system cannot locate, export, restrict or erase personal data, the architecture has failed before implementation starts.'},
+          {name:'Sensitive data requirements', explain:'Sensitive and personal data standards define how information must be classified, stored, transmitted, processed, retained and destroyed. Architecture decisions must reflect data type, business value, legal sensitivity and harm from disclosure, alteration or loss.', insight:'ISSAP questions often hide the answer in the data type. The controls for payment data, health data, national security data and normal business data are not the same.'},
+          {name:'Jurisdiction and data location', explain:'Jurisdiction and data location influence where systems, backups, logs, replicas and administrators may be located. Architecture must consider residency, sovereignty, lawful access, cross-border transfer and conflict-of-law risks.', insight:'Do not treat cloud region choice as an operations detail. For ISSAP, data location is a legal, risk and architecture decision.'},
+          {name:'Resilient solution requirements', explain:'Resilience is a governance requirement when services support critical business objectives. Architecture must design for availability, continuity, recovery, redundancy, failover and degraded-mode operation according to the business impact.', insight:'Resilience is not just a technical availability feature. It is the architectural response to business continuity and risk requirements.'}
+        ]},
+        {label:'Third parties', chips:[
+          {name:'Third-party obligations', explain:'Third-party obligations include security requirements imposed on vendors, partners, managed service providers, cloud providers and outsourced functions. Architecture must define boundaries, interfaces, trust assumptions, access controls, monitoring and evidence expectations.', insight:'Third parties extend the architecture. If a partner processes data or connects to systems, their controls and responsibilities must be represented in the design.'},
+          {name:'Contractual obligations', explain:'Contracts convert security expectations into enforceable requirements. Architecture should account for audit rights, incident notification, data handling, encryption, retention, subcontractors, service levels, exit arrangements and evidence production.', insight:'A contract cannot compensate for a bad architecture, but architecture must be designed so contractual obligations can actually be met.'},
+          {name:'Supply chain requirements', explain:'Supply chain security addresses dependencies, suppliers, software components, service providers and outsourced operations. Architecture must support supplier assurance, component provenance, controlled integration and dependency risk management.', insight:'The exam may frame supply chain as a governance issue, not just a software dependency problem. Design trust boundaries and assurance mechanisms.'},
+          {name:'Outsourcing risk', explain:'Outsourcing changes control ownership but not accountability. Architecture must show what the organisation retains, what the provider performs, how the controls are monitored, and how evidence is obtained.', insight:'Risk can be transferred contractually, but accountability for business outcomes usually remains with the organisation.'}
+        ]}
+      ]},
+      {label:'Governance and business alignment', color:'#1B5E8C', groups:[
+        {label:'Business alignment', chips:[
+          {name:'Business objectives', explain:'Business objectives define what the architecture must protect and enable. ISSAP architecture decisions should support mission, strategy, operational needs, regulatory posture, customer expectations and acceptable risk.', insight:'Start with the business objective, not the control catalogue. The right architecture is the one that supports the mission within risk appetite.'},
+          {name:'Stakeholder identification', explain:'Stakeholders include business owners, data owners, legal, compliance, operations, engineering, procurement, third parties and users. Architecture must identify who owns decisions, who provides requirements and who accepts residual risk.', insight:'Architecture failure often comes from missing stakeholders. For exam scenarios, identify who must approve or accept the architectural trade-off.'},
+          {name:'Key asset identification', explain:'Key assets include information, business services, platforms, identities, cryptographic keys, integrations, operational processes and dependencies. Architecture protects assets according to criticality, sensitivity and business impact.', insight:'You cannot design meaningful controls until you know what the high-value assets are and how they support business objectives.'},
+          {name:'Enterprise risk alignment', explain:'Enterprise risk alignment ensures security architecture supports organisational risk appetite, risk taxonomy, governance committees, risk registers and investment priorities. Architecture should not create isolated technical risk models that conflict with enterprise risk management.', insight:'ISSAP expects the architect to align security design with enterprise risk governance, not run a separate technical universe.'}
+        ]},
+        {label:'Architecture governance', chips:[
+          {name:'Security architecture principles', explain:'Security architecture principles establish consistent design rules such as least privilege, defence in depth, secure by design, resilience, separation of duties, open design and minimisation of attack surface.', insight:'Principles guide decisions when the scenario does not give a specific standard. They are the architect’s compass.'},
+          {name:'Policy-to-architecture mapping', explain:'Policy-to-architecture mapping turns policy statements into architecture patterns, control placements, system requirements and verification evidence. This creates traceability between governance and implementation.', insight:'A policy without an architectural mapping is difficult to implement and harder to prove. ISSAP rewards traceability.'},
+          {name:'Security design authority', explain:'A security design authority reviews architecture decisions, exceptions, patterns and risk trade-offs. It provides governance over consistency, technical debt, residual risk and alignment with enterprise standards.', insight:'The architect does not just design systems; they help govern design decisions across the enterprise.'},
+          {name:'Architecture decision records', explain:'Architecture decision records document key design decisions, options considered, rationale, constraints, risks, assumptions and consequences. They support auditability, knowledge transfer and future change impact analysis.', insight:'Decision records are powerful in ISSAP scenarios because they preserve why a design choice was made, not just what was built.'},
+          {name:'Security portfolio governance', explain:'Security portfolio governance prioritises architecture investments, common platforms, reference designs, reusable patterns and control improvements across business services.', insight:'Architects should avoid one-off designs where reusable enterprise patterns would reduce risk and cost.'}
+        ]}
+      ]},
+      {label:'Risk architecture and treatment', color:'#6B4E8A', groups:[
+        {label:'Risk inputs', chips:[
+          {name:'Risk assessment artefacts', explain:'Risk assessment artefacts include risk registers, threat models, impact assessments, vulnerability findings, control assessments and residual risk statements. Architecture should incorporate these artefacts as design inputs.', insight:'Risk artefacts are not paperwork after the fact. They feed design choices, control selection and assurance activities.'},
+          {name:'Threat and risk context', explain:'Threat and risk context describes adversaries, business exposure, attack surface, environment, vulnerabilities, likelihood, impact and operational constraints. Architecture must reflect the actual context, not a generic control baseline.', insight:'A control that is reasonable in one context may be inadequate or excessive in another. Context drives architecture.'},
+          {name:'Risk appetite', explain:'Risk appetite is the amount and type of risk the organisation is willing to pursue or tolerate in achieving objectives. It shapes control strength, resilience investment, assurance depth and acceptance thresholds.', insight:'Architects advise; management decides. The exam will usually make risk acceptance a business decision, not an architect-only decision.'},
+          {name:'Risk tolerance', explain:'Risk tolerance defines more specific acceptable variation around risk appetite for particular services, data sets, processes or environments. It translates broad appetite into usable architectural thresholds.', insight:'Tolerance is where architecture becomes measurable: acceptable downtime, acceptable exposure, acceptable residual risk and required assurance level.'},
+          {name:'Residual risk ownership', explain:'Residual risk is the risk remaining after controls are applied. It must be documented and accepted by an authorised risk owner who understands the business impact and alternatives.', insight:'Never let the technical team silently accept business risk. The architect presents the residual risk clearly for accountable approval.'}
+        ]},
+        {label:'Treatment options', chips:[
+          {name:'Mitigate risk', explain:'Mitigation reduces likelihood or impact through controls such as segmentation, encryption, strong identity, monitoring, hardening, resilience, secure design and assurance testing.', insight:'Mitigation is the default technical instinct, but not always the best business answer. Compare it to transfer, avoid and accept.'},
+          {name:'Transfer risk', explain:'Risk transfer shifts financial or operational responsibility through insurance, outsourcing, contractual clauses or managed services. It rarely removes accountability entirely.', insight:'Transfer changes who performs or absorbs parts of the risk; it does not make the risk disappear.'},
+          {name:'Accept risk', explain:'Risk acceptance is a formal business decision to proceed despite known residual risk. It requires documented rationale, accountable ownership, time limits where appropriate and monitoring.', insight:'Acceptance is valid only when informed and authorised. Silent acceptance by engineers is not acceptable.'},
+          {name:'Avoid risk', explain:'Risk avoidance changes the plan to eliminate exposure, such as not processing a data type, not deploying in a jurisdiction, or removing a risky integration.', insight:'Avoidance can be the best architectural decision when the business benefit does not justify the control cost or exposure.'},
+          {name:'Compensating controls', explain:'Compensating controls reduce risk where a primary control cannot be implemented as designed. They must provide comparable risk reduction and be justified, documented and monitored.', insight:'A compensating control is not a weaker excuse. It must address the same risk objective in another defensible way.'},
+          {name:'Design trade-offs', explain:'Design trade-offs balance security, usability, cost, performance, resilience, compliance and operational complexity. ISSAP architecture requires documenting options and explaining consequences.', insight:'Expect scenario answers where the best option is the one that balances business risk, not the one with the most security technology.'}
+        ]}
+      ]},
+      {label:'Auditability, monitoring and assurance', color:'#854F0B', groups:[
+        {label:'Evidence by design', chips:[
+          {name:'Design for auditability', explain:'Auditability means the architecture can demonstrate control operation, decision history, access, change, configuration and evidence integrity. It must be planned into logging, workflows, repositories and reporting.', insight:'You cannot reliably add auditability at the end. ISSAP expects audit evidence to be designed into the architecture.'},
+          {name:'Compliance monitoring', explain:'Compliance monitoring tracks control status, configuration state, vulnerability posture, exceptions, policy violations and regulatory evidence. Architecture must define data sources, dashboards, alerts and accountable owners.', insight:'Monitoring should answer: are controls present, operating and still effective?'},
+          {name:'Vulnerability management reporting', explain:'Vulnerability reporting requires accurate asset context, severity, exploitability, business criticality, remediation ownership and exception tracking. Architecture must support repeatable reporting across environments.', insight:'Raw scan results are not architecture-level reporting. ISSAP expects risk-based prioritisation and traceability.'},
+          {name:'Compliance audit evidence', explain:'Compliance evidence includes logs, configurations, approvals, test results, risk acceptances, third-party reports and control attestations. Architecture should make this evidence obtainable and trustworthy.', insight:'Good architecture reduces audit panic because evidence is produced as a normal output of the system.'},
+          {name:'Control effectiveness reporting', explain:'Control effectiveness reporting shows whether controls are achieving their intended risk objective. It combines monitoring, testing, incidents, metrics and exceptions.', insight:'A control that exists but does not work is not an effective control. The architect must consider measurement.'}
+        ]},
+        {label:'Assurance requirements', chips:[
+          {name:'Forensic requirements', explain:'Forensic requirements define what evidence must be preserved for investigation, how logs are protected, how time is synchronised and how chain of custody can be maintained.', insight:'Forensic requirements must be designed before the incident. After compromise, missing logs cannot be recreated.'},
+          {name:'Segregation requirements', explain:'Segregation requirements separate duties, environments, tenants, workloads, data types, networks and administrative roles to reduce conflict of interest and blast radius.', insight:'Segregation is both governance and architecture. It appears in access, network, environment and operational design.'},
+          {name:'High assurance systems', explain:'High assurance systems require stronger evidence, stricter controls, independent review, formal verification, hardened platforms and well-defined trust boundaries.', insight:'High assurance is about confidence in correctness and control effectiveness, not just adding more tools.'},
+          {name:'Log and evidence integrity', explain:'Logs and evidence must be protected from tampering, deletion and unauthorised access. Architecture may use centralised logging, write-once storage, signing, hashing, time synchronisation and separation of duties.', insight:'Logs stored only on the compromised system are weak evidence. Preserve logs outside the trust boundary being monitored.'},
+          {name:'Third-party assurance', explain:'Third-party assurance uses independent reports, attestations, certifications, audit results and contractual evidence to support confidence in external providers.', insight:'You may not be allowed to inspect the provider directly, so the architecture must rely on credible assurance artefacts and compensating controls.'}
+        ]}
+      ]}
+    ],
+    traps:['GRC is not paperwork — it drives architecture requirements.','Compliance does not equal security; the architecture still has to manage risk.','Risk acceptance belongs to accountable management, not the architect alone.','Auditability must be designed in, not added at the end.','Third-party obligations must flow into architecture, contracts and evidence.','Resilience is a governance requirement, not just an operations feature.'],
+    connects:['Identify obligations','Map assets and stakeholders','Assess risk','Choose treatment','Design controls','Prove compliance']
+  },
+  {
+    id:2, color:'#1B5E8C', pct:'22%', qs:'~28', shortName:'Modeling',
+    name:'Security Architecture Modeling',
+    hook:'Model the architecture before you build it: scope, frameworks, threats, alternatives and validation evidence.',
+    clusters:[
+      {label:'Architecture approach', color:'#1B5E8C', groups:[
+        {label:'Scope and type', chips:[
+          {name:'Enterprise scope', explain:'Enterprise scope considers business capabilities, information flows, shared platforms, governance, risk, operations and long-term strategy across the organisation. It avoids narrow one-system designs that create fragmentation.', insight:'ISSAP is often asking for the enterprise-level architectural answer, not a point solution.'},
+          {name:'Cloud scope', explain:'Cloud scope includes shared responsibility, identity federation, data location, cloud service models, management plane security, provider assurance and multicloud or hybrid integration.', insight:'Cloud architecture is not simply hosting. It changes control ownership, assurance and design assumptions.'},
+          {name:'Network architecture', explain:'Network architecture defines segmentation, routing, trust boundaries, ingress and egress controls, management access, monitoring points and resilience paths.', insight:'When modelling network architecture, identify trust boundaries and control placement before discussing individual appliances.'},
+          {name:'Service-oriented architecture', explain:'SOA and service-based designs model services, interfaces, data contracts, dependencies, identity, policy enforcement and service trust. Modern API and microservice architectures use similar principles.', insight:'Service orientation increases the importance of interface security, authentication, authorisation and monitoring.'},
+          {name:'Target and transition states', explain:'Architects model current state, target state and transition states. Security risk exists during migration as well as at the final architecture.', insight:'Do not ignore interim architecture. Migration phases often create temporary risk that must be governed.'}
+        ]},
+        {label:'Reusable architecture', chips:[
+          {name:'Reference architectures', explain:'Reference architectures provide reusable patterns for common use cases such as zero trust access, secure cloud landing zones, segmented networks, identity federation or secure application hosting.', insight:'Reference architectures reduce design inconsistency and speed up assurance.'},
+          {name:'Blueprints and build guides', explain:'Blueprints and build guides translate architecture into repeatable implementation patterns, baseline configurations, control placement and deployment guidance.', insight:'Blueprints are where architecture becomes repeatable engineering.'},
+          {name:'Security patterns', explain:'Security patterns are reusable solutions to common problems: brokered authentication, secure gateway, segmentation, logging pipeline, key isolation, privileged access workflow and secure service integration.', insight:'The exam may favour a proven pattern over a custom design that is harder to assure.'},
+          {name:'Architecture views', explain:'Architecture views represent the same system from business, data, application, technology, security, operational and risk perspectives. Different stakeholders need different views.', insight:'A single diagram rarely answers every architecture question. ISSAP expects multiple viewpoints.'}
+        ]}
+      ]},
+      {label:'Frameworks and modelling methods', color:'#0f766e', groups:[
+        {label:'Frameworks', chips:[
+          {name:'TOGAF', explain:'TOGAF provides an enterprise architecture method for developing and governing architectures. ISSAP candidates should understand its value in structuring architecture work, stakeholder views and lifecycle governance.', insight:'Do not memorise TOGAF as trivia. Know that it gives a structured enterprise architecture process.'},
+          {name:'SABSA', explain:'SABSA is a business-driven security architecture framework. It links business requirements to security services, attributes, controls and operational assurance.', insight:'SABSA is especially relevant when the question asks how to align security architecture with business objectives and risk.'},
+          {name:'Service-oriented modelling framework', explain:'Service-oriented modelling helps define services, service contracts, service boundaries, orchestration, policy enforcement points and dependencies in service-based architecture.', insight:'Use service modelling when the architecture is built around reusable services and interfaces.'},
+          {name:'Capability mapping', explain:'Capability mapping links security capabilities to business needs, architecture components, controls and maturity. It helps identify gaps, duplication and investment priorities.', insight:'Capability maps are useful for portfolio-level security architecture decisions.'}
+        ]},
+        {label:'Architecture models', chips:[
+          {name:'Reference models', explain:'Reference models provide conceptual structures for consistent design. They define common components, relationships, responsibilities and control categories.', insight:'Reference models help compare alternative architectures using a common vocabulary.'},
+          {name:'Data flow models', explain:'Data flow models show where information enters, moves, transforms, stores and leaves the system. They reveal trust boundaries, sensitive flows and control points.', insight:'Threat modelling is much stronger when based on real data flows instead of assumptions.'},
+          {name:'Trust boundary models', explain:'Trust boundary models identify where data or control crosses between different trust levels, organisations, networks, identities, zones, services or providers.', insight:'Controls belong at trust boundaries. If the model has no trust boundaries, the architecture is not ready.'},
+          {name:'Control placement models', explain:'Control placement models show where preventive, detective, corrective and compensating controls sit across layers and flows.', insight:'ISSAP architecture is about placing controls effectively, not listing controls generically.'}
+        ]}
+      ]},
+      {label:'Threat modelling and intelligence', color:'#6B4E8A', groups:[
+        {label:'Threat methods', chips:[
+          {name:'STRIDE', explain:'STRIDE categorises threats as spoofing, tampering, repudiation, information disclosure, denial of service and elevation of privilege. It helps systematically examine components, data flows and trust boundaries.', insight:'Map STRIDE to controls: authentication, integrity, non-repudiation, confidentiality, availability and authorisation.'},
+          {name:'CVSS', explain:'CVSS scores vulnerability severity using base, temporal and environmental metrics. Architects should use CVSS as one input, not as the whole risk decision.', insight:'CVSS is technical severity, not business risk. ISSAP expects context: asset criticality, exposure and compensating controls.'},
+          {name:'Threat vectors', explain:'Threat vectors are paths or mechanisms used by adversaries, such as exposed APIs, identity compromise, supply chain dependencies, lateral movement, physical access or privileged administration paths.', insight:'Good architecture closes or monitors likely vectors rather than treating all threats equally.'},
+          {name:'Impact and probability', explain:'Impact and probability help prioritise threats by business consequence and likelihood. Architecture decisions should reflect high-impact, plausible threats first.', insight:'Prioritisation is part of the architect’s risk-based guidance role.'},
+          {name:'Threat intelligence', explain:'Threat intelligence informs architecture by identifying relevant adversaries, tactics, vulnerabilities, sectors, technologies and emerging attack patterns.', insight:'Intelligence is valuable only when it changes architectural decisions or control priorities.'}
+        ]},
+        {label:'Attack surface analysis', chips:[
+          {name:'Attack surface mapping', explain:'Attack surface mapping identifies all exposed interfaces, services, APIs, users, administrators, integrations, data flows and physical or logical entry points.', insight:'Reducing attack surface is often more architectural than adding another control.'},
+          {name:'Misuse and abuse cases', explain:'Misuse and abuse cases model how legitimate functions can be attacked, misused or accidentally abused. They help generate security requirements and validation scenarios.', insight:'Architecture should anticipate malicious and accidental misuse, not only normal use cases.'},
+          {name:'Trust assumptions', explain:'Trust assumptions state what the design assumes about identities, networks, providers, administrators, devices, data and components. Invalid trust assumptions are a major source of architectural failure.', insight:'Always challenge hidden trust. Zero trust thinking is a useful lens for ISSAP modelling.'},
+          {name:'Architecture risk scenarios', explain:'Risk scenarios combine asset, threat, vulnerability, impact and control context into testable narratives. They support tabletop exercises and design validation.', insight:'Scenarios turn abstract threats into concrete architecture questions.'}
+        ]}
+      ]},
+      {label:'Verification and validation', color:'#854F0B', groups:[
+        {label:'Design validation', chips:[
+          {name:'Functional acceptance testing', explain:'Functional acceptance testing verifies that security-relevant functions operate as intended, such as access workflows, logging, encryption, failover and policy enforcement.', insight:'Acceptance testing must include security functions, not just business functions.'},
+          {name:'Regression testing', explain:'Regression testing ensures architecture or implementation changes do not break existing security controls, integrations, workflows or assurance evidence.', insight:'Security can regress silently. Design validation must account for change.'},
+          {name:'Threat model results', explain:'Threat model results should feed design changes, requirements, test cases, risk acceptance decisions and compensating controls.', insight:'A threat model that produces no design action is incomplete.'},
+          {name:'Gap analysis', explain:'Gap analysis compares current architecture against target state, standards, requirements, risk appetite and known threats to identify missing or weak controls.', insight:'Gaps must be linked to risk and prioritised, not just listed.'},
+          {name:'Alternative solutions', explain:'Architects compare alternative solutions by risk reduction, cost, complexity, operability, compliance, resilience and long-term maintainability.', insight:'ISSAP often expects you to evaluate options rather than jump to one product.'}
+        ]},
+        {label:'Review methods', chips:[
+          {name:'Compensating control review', explain:'Compensating control review validates whether alternative controls genuinely meet the original security objective when the primary control is not feasible.', insight:'A compensating control must be defensible and measurable.'},
+          {name:'Tabletop exercises', explain:'Tabletop exercises test architecture assumptions, response processes, escalation paths, decision points and evidence availability using realistic scenarios.', insight:'Tabletops validate design and governance before real incidents expose weaknesses.'},
+          {name:'Modelling and simulation', explain:'Modelling and simulation examine architecture behaviour under load, failure, attack, migration or disaster scenarios. They are useful for resilience and complex dependencies.', insight:'Simulation is valuable when real-world testing would be too risky or expensive.'},
+          {name:'Manual and peer review', explain:'Manual and peer review bring expert judgement to architecture, code, configuration and design artefacts. They identify issues automated tools may miss.', insight:'For high-value systems, independent review improves assurance.'},
+          {name:'Static, dynamic and SCA review', explain:'Static review examines source or configuration before execution. Dynamic review tests running systems. Software composition analysis identifies vulnerable or risky dependencies.', insight:'ISSAP needs to know which review method fits which evidence need.'}
+        ]}
+      ]}
+    ],
+    traps:['A framework is a method, not a substitute for architectural judgement.','CVSS is not the same as business risk.','Threat modelling should drive requirements, controls and test cases.','A reference architecture still needs tailoring to the organisation.','Validation includes design review, not just final testing.','Compensating controls must meet the original risk objective.'],
+    connects:['Define scope','Choose framework','Model flows and trust','Identify threats','Compare options','Validate design']
+  },
+  {
+    id:3, color:'#4A6741', pct:'32%', qs:'~40', shortName:'Infrastructure',
+    name:'Infrastructure and System Security Architecture',
+    hook:'The largest ISSAP domain: design secure platforms, networks, storage, cloud, OT, endpoints, monitoring and cryptography as one coherent architecture.',
+    clusters:[
+      {label:'Requirements and deployment context', color:'#4A6741', groups:[
+        {label:'Environment', chips:[
+          {name:'Deployment models', explain:'Deployment models include on-premises, cloud-based, hybrid and multicloud. Each changes control ownership, trust boundaries, monitoring, identity, resilience and assurance.', insight:'The same control may be implemented differently depending on deployment model. Always identify the model first.'},
+          {name:'IT and operational technology', explain:'IT and OT have different priorities, lifecycles, protocols and risk tolerances. OT often prioritises safety and availability, with longer patch cycles and stricter change control.', insight:'Do not apply normal IT assumptions blindly to OT. Availability and safety can outweigh rapid patching.'},
+          {name:'Physical security requirements', explain:'Physical requirements include perimeter protection, internal zoning, access controls, cameras, doors, fire suppression, environmental controls and system controllers.', insight:'Physical controls are still part of security architecture, especially for data centres, OT and high assurance systems.'},
+          {name:'Infrastructure monitoring', explain:'Infrastructure monitoring captures system health, security events, configuration, network flows, privileged activity, capacity, availability and anomalous behaviour.', insight:'Monitoring requirements influence architecture: sensors, log flows, storage, time synchronisation and access to evidence.'},
+          {name:'Infrastructure cryptography', explain:'Infrastructure cryptography protects management channels, storage, backups, network links, platform secrets, certificates, service identities and data flows.', insight:'Cryptography must be designed as a lifecycle and operational capability, not added as isolated encryption settings.'}
+        ]},
+        {label:'Application interface', chips:[
+          {name:'Requirements traceability matrix', explain:'An RTM links security requirements to architecture, implementation and test evidence. In infrastructure architecture, it helps ensure controls are not lost across platforms, networks and applications.', insight:'Traceability is critical when infrastructure supports regulated or high assurance services.'},
+          {name:'Security architecture documentation', explain:'Architecture documentation records diagrams, assumptions, control placement, dependencies, risk decisions, data flows, trust boundaries and operational requirements.', insight:'If architecture is not documented, it cannot be governed, reviewed or reliably maintained.'},
+          {name:'Secure coding dependencies', explain:'Infrastructure architecture must support secure application delivery through build environments, code repositories, CI/CD controls, secrets management and runtime isolation.', insight:'Even though ISSAP is architecture-focused, application security requirements appear through infrastructure and system design.'},
+          {name:'Workload classification', explain:'Workload classification groups systems by sensitivity, criticality, exposure, compliance and operational importance so architecture can apply appropriate zones, controls and assurance levels.', insight:'Classification prevents under-protecting critical workloads and over-engineering low-risk ones.'}
+        ]}
+      ]},
+      {label:'Platform, network and storage security', color:'#1B5E8C', groups:[
+        {label:'Platform and network', chips:[
+          {name:'Platform security', explain:'Platform security covers physical hardware, virtual machines, containers, firmware, operating systems and management layers. Architecture must harden, isolate, monitor and maintain each platform layer.', insight:'Platform architecture includes management plane protection, not just workload hardening.'},
+          {name:'Firmware and hardware trust', explain:'Firmware and hardware trust controls include secure boot, trusted platform modules, hardware roots of trust, attestation and supply chain assurance for platform integrity.', insight:'High assurance architectures increasingly rely on hardware-rooted trust and attestation.'},
+          {name:'Network segmentation', explain:'Segmentation separates networks, workloads, tenants, environments and administrative paths to limit lateral movement and reduce blast radius.', insight:'Segmentation is a core architectural control. Design it around trust boundaries and business flows.'},
+          {name:'Firewalls and WAF', explain:'Firewalls control network flows; web application firewalls inspect web traffic. Architecture must place them where they can enforce policy without creating blind spots or bottlenecks.', insight:'A WAF is not a replacement for secure application design, but it can provide a useful control layer.'},
+          {name:'Air gaps and software-defined perimeters', explain:'Air gaps physically or logically separate critical systems. Software-defined perimeters hide services until identity and policy checks are satisfied.', insight:'Air gaps are strong but operationally difficult. Software-defined perimeter approaches can reduce exposure in modern environments.'},
+          {name:'VPN, IPsec and NAC', explain:'VPN and IPsec protect traffic over untrusted networks. Network Access Control evaluates devices before granting network access. Architecture must define where these controls are needed and how they integrate with identity.', insight:'Network access should be conditional and monitored, not simply allowed because a device is on the internal network.'},
+          {name:'DNS, NTP and VoIP security', explain:'Core services such as DNS, time and voice often underpin authentication, logging, routing and communications. Their compromise can undermine the wider architecture.', insight:'Do not forget shared infrastructure services. Time integrity affects logs, Kerberos and forensic timelines.'}
+        ]},
+        {label:'Storage and repositories', chips:[
+          {name:'Storage security', explain:'Storage security covers direct attached storage, SAN, NAS, archival storage, removable media, encryption, access control, replication and backup.', insight:'Storage architecture must align sensitivity, performance, resilience and retention needs.'},
+          {name:'Data repository security', explain:'Repositories require access controls, encryption, redaction, masking, monitoring, backup and lifecycle management according to data sensitivity and business use.', insight:'The repository is often the real target. Secure the data store, not just the application in front of it.'},
+          {name:'Encryption for storage', explain:'Storage encryption protects data at rest, but architecture must also govern key management, access paths, snapshots, backups and administrative access.', insight:'Encrypted storage is only as strong as key custody and administrative controls.'},
+          {name:'Redaction and masking', explain:'Redaction removes sensitive data from outputs; masking hides or substitutes sensitive values for display, testing or analytics. Architecture should use them to reduce unnecessary exposure.', insight:'Masking is especially useful when data must be used outside production or by lower-trust roles.'},
+          {name:'Archival and removable media', explain:'Archival and removable media require retention, encryption, inventory, access control, destruction and chain-of-custody considerations.', insight:'Old archives can contain live risk. Retention does not mean neglect.'}
+        ]}
+      ]},
+      {label:'Cloud, OT, endpoint and integrations', color:'#6B4E8A', groups:[
+        {label:'Modern environments', chips:[
+          {name:'Cloud security architecture', explain:'Cloud security architecture includes public/private cloud, IaaS, PaaS, SaaS, identity federation, landing zones, shared responsibility, management plane security, logging and provider assurance.', insight:'Cloud shifts boundaries. Know what the provider controls and what the customer must design.'},
+          {name:'Operational technology architecture', explain:'OT architecture includes ICS, SCADA, IoT, process control and safety-critical networks. It requires segmentation, controlled remote access, monitoring, asset visibility and carefully managed change.', insight:'For OT, a technically correct IT control may be operationally dangerous if it threatens safety or availability.'},
+          {name:'IoT architecture', explain:'IoT architecture must address device identity, firmware integrity, network segmentation, secure onboarding, telemetry, patching, lifecycle, constrained hardware and insecure protocols.', insight:'IoT expands attack surface at scale. Device identity and lifecycle management are central.'},
+          {name:'Endpoint security', explain:'Endpoint architecture includes BYOD, mobile, EDR, HIDS/HIPS, configuration baselines, device compliance, patching, encryption and conditional access.', insight:'Endpoint controls should integrate with identity and monitoring; isolated endpoint tools are weaker.'},
+          {name:'Secure shared services', explain:'Shared services such as email, VoIP and unified communications require secure configuration, identity integration, monitoring, anti-abuse controls and resilience.', insight:'Shared services are high-value because many business processes depend on them.'}
+        ]},
+        {label:'External connections', chips:[
+          {name:'Third-party integrations', explain:'Third-party integrations include internal/external APIs, federation, VPN, SFTP, managed services and partner connections. Architecture must define trust boundaries, authentication, monitoring and data handling.', insight:'Every integration is a new trust relationship. Design it deliberately.'},
+          {name:'Federation architecture', explain:'Federation allows identity and trust relationships across organisations or providers. Architecture must define identity proofing, claims, trust anchors, protocol choices and revocation.', insight:'Federation reduces duplicate identity stores but increases reliance on trust configuration.'},
+          {name:'API integration security', explain:'API integrations require authentication, authorisation, rate limiting, input validation, logging, schema control, secret management and versioning.', insight:'APIs are often the boundary between organisations and services. Treat them as first-class architecture components.'},
+          {name:'SFTP and managed transfer', explain:'Secure file transfer architecture protects bulk or scheduled data exchange using encryption, authentication, integrity, logging, automation and operational ownership.', insight:'File transfer may look old-fashioned but is still a major enterprise data flow that needs architecture controls.'}
+        ]}
+      ]},
+      {label:'Monitoring, content controls and resilience', color:'#854F0B', groups:[
+        {label:'Monitoring and controls', chips:[
+          {name:'Infrastructure monitoring design', explain:'Monitoring design defines collection points, telemetry types, logging pipelines, alerting, retention, integrity, dashboards, ownership and response workflows.', insight:'Monitoring must be designed around risks and decisions, not just tool defaults.'},
+          {name:'Content monitoring', explain:'Content monitoring covers email, web, data, social media, collaboration tools and DLP channels to detect sensitive data movement, abuse or policy violations.', insight:'Content controls should be risk-based to avoid noise and support privacy obligations.'},
+          {name:'Data loss prevention', explain:'DLP architecture identifies, monitors and controls movement of sensitive data across endpoints, networks, cloud services, email and repositories.', insight:'DLP works best when data classification and business processes are understood.'},
+          {name:'Proxy and application services', explain:'Proxy and application services can centralise access, inspection, authentication, caching, filtering and logging. Architecture must evaluate where they provide meaningful risk reduction.', insight:'A proxy control is useful when it sits on the real traffic path and can enforce policy.'},
+          {name:'Control applicability assessment', explain:'Architects must evaluate whether controls are appropriate for web clients, proxy services, application services, workloads and trust zones.', insight:'Not every control fits every component. Applicability matters.'}
+        ]},
+        {label:'Operational resilience', chips:[
+          {name:'Out-of-band communications', explain:'Out-of-band communications provide separate channels for incident response, IT management and BC/DR when normal systems are compromised or unavailable.', insight:'If your only communication channel depends on the compromised environment, response will fail.'},
+          {name:'Management plane separation', explain:'Management plane separation isolates administrative access, control APIs and privileged operations from user traffic and lower-trust networks.', insight:'Attackers seek control planes. Protect administration paths aggressively.'},
+          {name:'BC/DR architecture', explain:'BC/DR architecture aligns RTO, RPO, failover, backups, recovery sites, runbooks, testing and dependencies with business requirements.', insight:'Recovery design is security architecture because availability is a security objective.'},
+          {name:'Resilient monitoring', explain:'Resilient monitoring ensures logs, alerts and telemetry continue during failures, attacks and disaster scenarios. It may require separate accounts, networks or regions.', insight:'Monitoring that dies during an incident is not an effective control.'}
+        ]}
+      ]},
+      {label:'Cryptographic architecture', color:'#0f766e', groups:[
+        {label:'Design considerations', chips:[
+          {name:'Cryptographic constraints', explain:'Cryptographic constraints include computational capacity, latency, legacy compatibility, regulatory approval, algorithm strength, operational support, lifecycle and attack models.', insight:'Choosing cryptography is an architecture trade-off, not only an algorithm decision.'},
+          {name:'Algorithm selection', explain:'Algorithm selection must consider approved standards, strength, use case, mode of operation, key length, implementation quality and expected lifetime.', insight:'Do not roll your own. Use approved algorithms and mature libraries.'},
+          {name:'Data in transit', explain:'Cryptography in transit protects data moving between users, services, networks, APIs and third parties. Architecture must define protocols, certificates, mutual authentication and downgrade prevention.', insight:'Transport security depends on certificate lifecycle and correct configuration, not just saying TLS.'},
+          {name:'Data at rest', explain:'Cryptography at rest protects stored data, backups, snapshots, databases, logs and media. It must be paired with access control, key management and separation of duties.', insight:'At-rest encryption does little if the same administrator controls data and keys without oversight.'},
+          {name:'Data in use', explain:'Data in use protection may involve trusted execution environments, confidential computing, memory protections, tokenisation or minimising sensitive processing.', insight:'Data in use is difficult. The architecture should reduce exposure and protect processing environments.'}
+        ]},
+        {label:'Key lifecycle', chips:[
+          {name:'Key generation', explain:'Key generation requires approved randomness, suitable algorithms, secure environments and documented ownership. Weak generation compromises everything that follows.', insight:'The lifecycle starts before the key exists: define purpose, owner and protection level.'},
+          {name:'Key storage', explain:'Key storage protects keys using HSMs, KMS, secure enclaves, access controls, backup, separation of duties and monitoring.', insight:'Keys should be protected separately from the data they protect.'},
+          {name:'Key distribution', explain:'Key distribution ensures keys, certificates or secrets reach authorised entities securely, with integrity, authentication and revocation capability.', insight:'Distribution is often the weak point in otherwise strong cryptography.'},
+          {name:'Key rotation and retirement', explain:'Rotation and retirement manage cryptoperiods, compromise response, decommissioning, archival access and secure destruction.', insight:'Architectures need planned key rotation before the first incident forces emergency change.'},
+          {name:'PKI, HSM and KMS', explain:'PKI manages certificates and trust chains. HSMs protect high-assurance key material. KMS platforms automate storage, rotation, policy and audit of keys.', insight:'Select PKI, HSM or KMS based on assurance needs, operational model and control ownership.'}
+        ]}
+      ]}
+    ],
+    traps:['Infrastructure is not only networks — it includes platforms, storage, cloud, OT, endpoints, monitoring and crypto.','Cloud changes control ownership; do not assume the provider secures the customer’s data or configuration.','OT architecture prioritises safety and availability differently from normal IT.','Encryption without key lifecycle design is incomplete.','Monitoring must survive incidents and support evidence integrity.','Out-of-band communications are essential when normal channels are compromised.'],
+    connects:['Classify environment','Design platforms and networks','Secure data stores','Integrate cloud and OT','Monitor content and infrastructure','Engineer cryptography']
+  },
+  {
+    id:4, color:'#854F0B', pct:'25%', qs:'~31', shortName:'IAM Architecture',
+    name:'Identity and Access Management Architecture',
+    hook:'Design identity as the control plane: lifecycle, authentication, authorisation and accounting for humans, services, devices and components.',
+    clusters:[
+      {label:'Identity lifecycle architecture', color:'#854F0B', groups:[
+        {label:'Identity establishment', chips:[
+          {name:'Identity proofing and verification', explain:'Identity proofing establishes confidence that an entity is who or what it claims to be. Verification may be physical, logical, HR-driven, device-based or service registration based.', insight:'The strength of authentication later depends on how well identity was established at the start.'},
+          {name:'Assigning identifiers', explain:'Identifiers must uniquely represent users, services, processes, devices and components. Architecture should prevent ambiguity, reuse issues and unmanaged identities.', insight:'ISSAP IAM includes non-human identities, not just employee accounts.'},
+          {name:'Authoritative sources', explain:'Authoritative sources such as HR systems, device inventories, service registries and CMDBs drive identity creation, updates and termination.', insight:'If the source of truth is unclear, provisioning and revocation become unreliable.'},
+          {name:'Identity management technologies', explain:'Identity management technologies include directories, identity governance platforms, IDaaS, federation services, PAM tools and lifecycle automation.', insight:'Choose technology based on lifecycle, governance and integration requirements, not brand preference.'}
+        ]},
+        {label:'Provisioning lifecycle', chips:[
+          {name:'Provisioning', explain:'Provisioning creates accounts, credentials, roles, attributes and access based on approved business need and identity evidence.', insight:'Automated provisioning reduces delay but must be governed by policy and approval workflows.'},
+          {name:'Joiners, movers and leavers', explain:'JML processes ensure new starters get appropriate access, role changes trigger review, and leavers are removed quickly and completely.', insight:'Mover risk is often underestimated. People accumulate access unless architecture forces review and removal.'},
+          {name:'De-provisioning', explain:'De-provisioning removes or disables access, credentials, sessions, tokens, keys and privileged roles when no longer needed.', insight:'Fast de-provisioning is one of the most important IAM security outcomes.'},
+          {name:'Service and process identities', explain:'Service identities represent applications, workloads, automation, APIs and processes. They require ownership, least privilege, credential rotation and monitoring.', insight:'Non-human identities can become powerful hidden attack paths if unmanaged.'},
+          {name:'Identity governance', explain:'Identity governance manages access requests, approvals, certification, SoD checks, policy enforcement, audit evidence and lifecycle controls.', insight:'IAM architecture must support governance, not just authentication.'}
+        ]}
+      ]},
+      {label:'Authentication architecture', color:'#1B5E8C', groups:[
+        {label:'Authentication approach', chips:[
+          {name:'Single-factor authentication', explain:'Single-factor authentication relies on one factor, usually a password or shared secret. It may be acceptable for low-risk contexts but is weak for privileged, remote or sensitive access.', insight:'Do not select single-factor for high-risk access when MFA or risk-based elevation is available.'},
+          {name:'Multi-factor authentication', explain:'MFA combines two or more factors such as knowledge, possession and inherence. Strong MFA reduces account compromise risk and should be used for privileged and sensitive access.', insight:'MFA is not all equal. Phishing-resistant methods are stronger than SMS or push-only approaches.'},
+          {name:'Risk-based elevation', explain:'Risk-based elevation increases authentication strength based on context such as device posture, location, behaviour, sensitivity, transaction type or anomaly.', insight:'Adaptive authentication balances security and usability by increasing friction only when risk rises.'},
+          {name:'Passwordless and strong authenticators', explain:'Passwordless approaches use cryptographic authenticators, biometrics, FIDO-style devices or platform credentials to reduce phishing and password reuse risks.', insight:'Passwordless is an architecture direction, but recovery and enrolment flows must be designed carefully.'}
+        ]},
+        {label:'Protocols and trust', chips:[
+          {name:'SAML', explain:'SAML supports federated single sign-on by exchanging signed assertions between an identity provider and service provider.', insight:'SAML is common in enterprise federation. Protect signing keys and trust configuration.'},
+          {name:'Kerberos', explain:'Kerberos uses tickets and a trusted key distribution centre to authenticate entities in a domain environment.', insight:'Kerberos depends heavily on time synchronisation and protection of privileged domain infrastructure.'},
+          {name:'RADIUS', explain:'RADIUS provides centralised authentication, authorisation and accounting for network access such as VPN, wireless and infrastructure devices.', insight:'RADIUS often appears in network access scenarios, especially remote access and wireless.'},
+          {name:'OAuth and OIDC', explain:'OAuth is an authorisation framework for delegated access. OpenID Connect adds authentication and identity claims on top of OAuth.', insight:'OAuth is not authentication by itself. OIDC is the identity layer.'},
+          {name:'LDAP', explain:'LDAP provides directory access for identity attributes, groups and authentication-related lookups. It must be secured and integrated carefully.', insight:'Directory services often become critical dependencies for authentication and authorisation.'},
+          {name:'XACML', explain:'XACML defines attribute-based access control policies and decisions. It supports policy decision and enforcement separation in complex authorisation environments.', insight:'XACML is relevant when policy-based, attribute-rich authorisation is needed.'},
+          {name:'Federated trust relationships', explain:'Federated trust relationships allow external identity providers or partners to assert identity. Architecture must define trust anchors, claims, assurance level and revocation.', insight:'Federation reduces duplicate accounts but increases reliance on trust governance.'},
+          {name:'Standalone trust relationships', explain:'Standalone trust keeps identity and authentication within a local boundary, reducing external dependency but increasing local management burden.', insight:'Standalone is simpler for isolated environments but less scalable for enterprise and cloud integration.'}
+        ]}
+      ]},
+      {label:'Authorisation architecture', color:'#6B4E8A', groups:[
+        {label:'Models and principles', chips:[
+          {name:'Discretionary access control', explain:'DAC allows owners to decide who can access objects. It is flexible but can be hard to govern consistently.', insight:'DAC may be appropriate for user-owned resources but is weaker for high assurance environments.'},
+          {name:'Mandatory access control', explain:'MAC uses centrally enforced labels and clearances. Users cannot override policy decisions. It is common in high assurance or classified environments.', insight:'MAC provides strong central control but can be operationally rigid.'},
+          {name:'Role-based access control', explain:'RBAC grants permissions through roles aligned to job functions. It is manageable when roles are well-designed and reviewed.', insight:'RBAC fails when roles sprawl or become too broad. Governance matters.'},
+          {name:'Attribute-based access control', explain:'ABAC uses attributes about users, resources, actions and context to make fine-grained decisions.', insight:'ABAC is powerful for dynamic environments but requires strong attribute quality and policy governance.'},
+          {name:'Rule, token and certificate access', explain:'Authorisation can be based on rules, tokens, certificates or combinations of identity and context. Architecture must define policy decision and enforcement points.', insight:'Tokens and certificates are not automatically sufficient; claims, scope, expiry and validation matter.'},
+          {name:'Least privilege', explain:'Least privilege grants only the access needed for an approved purpose and duration. It applies to users, services, devices, processes and administrators.', insight:'Least privilege is an architectural principle, not a one-time access review.'},
+          {name:'Separation of duties', explain:'Separation of duties prevents one person or process from controlling a sensitive workflow end to end. It reduces fraud, error and abuse.', insight:'SoD can be enforced through workflow, roles, approvals and monitoring.'}
+        ]},
+        {label:'Access workflows', chips:[
+          {name:'Authorisation process', explain:'Authorisation processes define request, approval, issuance, review, suspension, revocation and exception handling for access.', insight:'Access decisions need workflow and evidence, not informal approval.'},
+          {name:'Periodic access review', explain:'Periodic reviews confirm that access remains appropriate as roles, systems and risk change.', insight:'Review frequency should reflect privilege and sensitivity.'},
+          {name:'Revocation and suspension', explain:'Revocation permanently removes access; suspension temporarily disables it. Both must apply to accounts, roles, sessions, tokens and keys where relevant.', insight:'Revoking the account but leaving active tokens can leave access open.'},
+          {name:'Privileged Access Management', explain:'PAM manages administrative accounts, vaulting, session recording, just-in-time elevation, approval, rotation and monitoring.', insight:'Privileged access is a control plane risk. PAM architecture is central to ISSAP IAM.'},
+          {name:'Digital Rights Management', explain:'DRM applies usage controls to documents or content, such as read, copy, print, forward and expiry restrictions.', insight:'DRM protects data after it leaves normal repositories, but it is not a universal data protection answer.'}
+        ]}
+      ]},
+      {label:'Accounting, audit and reporting', color:'#0f766e', groups:[
+        {label:'Accounting requirements', chips:[
+          {name:'Accounting and analysis', explain:'Accounting records who did what, when, where and using which identity or privilege. Analysis turns records into detections, evidence and governance reporting.', insight:'Authentication without accounting leaves no reliable way to investigate or prove control operation.'},
+          {name:'Forensic requirements', explain:'Forensic requirements define event capture, time integrity, retention, evidence protection, chain of custody and privileged activity logging.', insight:'Design IAM logging for investigations before an incident occurs.'},
+          {name:'Audit events', explain:'Audit events include logon, failed logon, privilege elevation, access grant, access revocation, policy change, sensitive data access and administrative action.', insight:'Audit event design should focus on decisions and high-risk actions, not just raw volume.'},
+          {name:'Alerts and notifications', explain:'Alerts and notifications warn of suspicious activity, policy violations, privileged actions, failed access, anomalous behaviour or control failure.', insight:'Alerts need ownership and response workflows or they become noise.'}
+        ]},
+        {label:'Logs and compliance', chips:[
+          {name:'Log retention', explain:'Log retention defines how long identity and access records are kept for operational, legal, regulatory and forensic purposes.', insight:'Retention must balance investigation needs, privacy obligations and storage practicality.'},
+          {name:'Log integrity', explain:'Log integrity protects identity evidence from tampering, deletion and unauthorised access using centralisation, write-once storage, hashing, signing and access controls.', insight:'Identity logs are high-value evidence and high-value targets.'},
+          {name:'Log analysis and reporting', explain:'Log analysis identifies suspicious patterns, excessive privilege, dormant accounts, policy violations and audit evidence. Reporting supports governance and compliance.', insight:'IAM reporting should show risk and control effectiveness, not just event counts.'},
+          {name:'Policy and regulatory compliance', explain:'IAM architecture must support obligations such as PCI-DSS, FISMA, HIPAA and GDPR where relevant, including access control, accountability, retention and evidence.', insight:'Compliance requirements shape which events must be logged, who can access them and how long they must be retained.'},
+          {name:'SIEM and identity analytics', explain:'SIEM and identity analytics correlate IAM events with endpoint, network, cloud and application telemetry to detect misuse and compromise.', insight:'Identity is often the best detection signal in modern architecture.'}
+        ]}
+      ]}
+    ],
+    traps:['IAM architecture includes users, services, devices, processes and components.','OAuth is authorisation; OIDC adds authentication.','Provisioning is easy to start and hard to stop — de-provisioning must be designed.','Privileged access is a control plane risk, not just an admin convenience.','Authorisation must be reviewed, revoked and evidenced over time.','Logs need integrity, retention and analysis to support accounting.'],
+    connects:['Establish identity','Provision access','Authenticate strongly','Authorise by policy','Control privilege','Account and audit']
+  }
+];
+
+const FAQS = [
+  {q:'What is CISSP-ISSAP?', a:'CISSP-ISSAP is the Information Systems Security Architecture Professional certification from ISC2. It focuses on designing security solutions and giving risk-based architectural guidance aligned with organisational goals.'},
+  {q:'What are the CISSP-ISSAP domains?', a:'The current ISSAP outline has four domains: Governance, Risk and Compliance; Security Architecture Modeling; Infrastructure and System Security Architecture; and Identity and Access Management Architecture.'},
+  {q:'Which ISSAP domain is the largest?', a:'Infrastructure and System Security Architecture is the largest domain at 32 percent of the exam, so it deserves the most study time and the deepest architectural practice.'},
+  {q:'Is ISSAP just a harder CISSP?', a:'No. CISSP is broad security management. ISSAP is specialised security architecture. It expects you to design, model, justify and validate architecture decisions.'},
+  {q:'How should I use this tool?', a:'Work through one domain at a time. Click each topic chip, read the explanation and exam insight, then use the exam traps to check whether you are thinking like an architect rather than a technician.'},
+  {q:'What mindset does ISSAP test?', a:'ISSAP tests architecture judgement: aligning design with mission, risk, governance, infrastructure, identity, compliance and assurance. The best answer is usually the most defensible architecture decision, not the most technical product.'}
+];
+
+let currentDomain = 1;
+let showFaq = false;
+let activeChip = null;
+
+function esc(value){
+  return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+}
+
+function init(){
+  document.getElementById('faqBtn').addEventListener('click', toggleFaq);
+  renderNav();
+  renderMain();
+  notifyHeight();
+}
+
+function renderNav(){
+  const nav = document.getElementById('domainNav');
+  nav.innerHTML = DOMAINS.map(d => {
+    const isActive = !showFaq && d.id === currentDomain;
+    return `<button class="dnav-item ${isActive ? 'active' : ''}" type="button" data-domain="${d.id}" style="border-bottom-color:${isActive ? d.color : 'transparent'}">
+      <span class="dnav-label">Domain ${d.id}</span>
+      <span class="dnav-short">${esc(d.shortName)}</span>
+    </button>`;
+  }).join('');
+  nav.querySelectorAll('.dnav-item').forEach(btn => {
+    btn.addEventListener('click', () => selectDomain(Number(btn.dataset.domain)));
+  });
+}
+
+function selectDomain(id){
+  currentDomain = id;
+  showFaq = false;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.remove('active');
+  renderNav();
+  renderMain();
+}
+
+function toggleFaq(){
+  showFaq = !showFaq;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.toggle('active', showFaq);
+  renderNav();
+  renderMain();
+}
+
+function renderMain(){
+  const mc = document.getElementById('mainContent');
+  if(showFaq){
+    mc.innerHTML = renderFaqView();
+    notifyHeight();
+    return;
+  }
+  const d = DOMAINS.find(x => x.id === currentDomain);
+  mc.innerHTML = renderDomainView(d);
+  attachChipHandlers();
+  notifyHeight();
+}
+
+function renderDomainView(d){
+  return `<div class="domain-hdr">
+      <div class="domain-hdr-left">
+        <div class="domain-num">Domain ${d.id} of 4</div>
+        <div class="domain-name">${esc(d.name)}</div>
+        <div class="domain-hook">${esc(d.hook)}</div>
+      </div>
+      <div class="domain-pct-block">
+        <div class="domain-pct" style="color:${d.color}">${esc(d.pct)}</div>
+        <div class="domain-pct-label">exam weight</div>
+        <div class="domain-pct-q" style="color:${d.color}">${esc(d.qs)} items</div>
+      </div>
+    </div>
+    <div class="clusters-grid">
+      ${d.clusters.map((cl,ci) => `<div class="cluster">
+        <div class="cluster-hdr" style="background:${cl.color}">${esc(cl.label)}</div>
+        <div class="cluster-body">
+          ${cl.groups.map((g,gi) => `<div class="sg">
+            <div class="sg-label">${esc(g.label)}</div>
+            <div class="vchips">
+              ${g.chips.map((c,chi) => {
+                const isActive = activeChip && activeChip.domainId === d.id && activeChip.clusterIndex === ci && activeChip.groupIndex === gi && activeChip.chipIndex === chi;
+                return `<button class="vchip ${isActive ? 'active' : ''}" type="button" data-domain="${d.id}" data-cluster="${ci}" data-group="${gi}" data-chip="${chi}">${esc(c.name)}</button>`;
+              }).join('')}
+            </div>
+          </div>`).join('')}
+        </div>
+      </div>`).join('')}
+    </div>
+    ${activeChip ? renderDrawer(d) : ''}
+    <div class="traps-section">
+      <div class="traps-label"><span class="traps-dot"></span>Exam traps — what retakers get wrong</div>
+      <div class="traps-chips">${d.traps.map(t => `<span class="trap-chip">${esc(t)}</span>`).join('')}</div>
+    </div>
+    <div class="connects-section">
+      <div class="connects-label">How it all connects</div>
+      <div class="connects-flow">
+        ${d.connects.map((c,i) => `<span class="flow-chip">${esc(c)}</span>${i < d.connects.length - 1 ? '<span class="flow-arr">→</span>' : ''}`).join('')}
+      </div>
+    </div>`;
+}
+
+function attachChipHandlers(){
+  document.querySelectorAll('.vchip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeChip = {
+        domainId:Number(btn.dataset.domain),
+        clusterIndex:Number(btn.dataset.cluster),
+        groupIndex:Number(btn.dataset.group),
+        chipIndex:Number(btn.dataset.chip)
+      };
+      renderMain();
+      const drawer = document.querySelector('.explanation-drawer');
+      if(drawer){drawer.scrollIntoView({behavior:'smooth', block:'nearest'});}
+    });
+  });
+}
+
+function renderDrawer(d){
+  const cl = d.clusters[activeChip.clusterIndex];
+  const g = cl.groups[activeChip.groupIndex];
+  const chip = g.chips[activeChip.chipIndex];
+  return `<div class="explanation-drawer">
+    <div class="ed-inner">
+      <button class="ed-close" type="button" onclick="closeDrawer()">Close</button>
+      <div class="ed-breadcrumb">Domain ${d.id} · ${esc(cl.label)} · ${esc(g.label)}</div>
+      <div class="ed-title">${esc(chip.name)}</div>
+      <div class="ed-text">${esc(chip.explain)}</div>
+      <div class="ed-insight">
+        <div class="ed-insight-label">ISSAP exam insight</div>
+        <div class="ed-insight-text">${esc(chip.insight)}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function closeDrawer(){
+  activeChip = null;
+  renderMain();
+}
+
+function renderFaqView(){
+  return `<div class="faq-view active">
+    <div class="faq-intro"><strong>CISSP-ISSAP study focus:</strong> this tool is built for architecture thinking. Use it to connect governance, modelling, infrastructure and identity into risk-based design decisions.</div>
+    <div class="faq-grid">${FAQS.map(item => `<div class="faq-item"><div class="faq-q">${esc(item.q)}</div><div class="faq-a">${esc(item.a)}</div></div>`).join('')}</div>
+  </div>`;
+}
+
+function notifyHeight(){
+  window.setTimeout(() => {
+    try{
+      const height = document.documentElement.scrollHeight;
+      window.parent.postMessage({type:'aoc-issap-tool-height', height:height}, '*');
+    }catch(e){}
+  }, 80);
+}
+
+window.addEventListener('load', notifyHeight);
+window.addEventListener('resize', notifyHeight);
+init();
+</script>
+</body>
+</html>
