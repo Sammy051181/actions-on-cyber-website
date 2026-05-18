@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSSLP Mind Map — All 8 Domains Explained | Actions On Cyber</title>
+<meta name="description" content="Free interactive CSSLP study guide covering all 8 domains, every topic, and exam traps retakers get wrong. The clearest CSSLP mind map available — no signup required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1C2B3A;
+  --navy-light: #243547;
+  --teal: #1A7F8E;
+  --teal-light: #e8f6f8;
+  --olive: #4A6741;
+  --olive-light: #eef3ec;
+  --red: #A32D2D;
+  --red-light: #fdf0f0;
+  --white: #ffffff;
+  --off-white: #f8f7f4;
+  --border: #e4e2da;
+  --border-mid: #d3d1c7;
+  --text: #1a1a18;
+  --text-mid: #555550;
+  --text-muted: #888880;
+  --font: 'DM Sans', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font);background:var(--off-white);color:var(--text);font-size:14px;line-height:1.5;}
+.csslp-tool{background:var(--white);border:0.5px solid var(--border);border-radius:12px;overflow:hidden;width:100%;margin:0 auto;}
+.tool-header{background:var(--navy);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;}
+.header-left{display:flex;align-items:center;gap:12px;}
+.header-logo{width:36px;height:36px;background:#1A6B4A;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.header-logo svg{width:22px;height:22px;}
+.header-title{font-size:15px;font-weight:600;color:var(--white);letter-spacing:-0.01em;}
+.header-sub{font-size:10px;color:rgba(255,255,255,0.4);margin-top:1px;}
+.header-right{display:flex;align-items:center;gap:8px;}
+.faq-btn{font-size:11px;font-weight:500;color:rgba(255,255,255,0.6);background:rgba(255,255,255,0.08);border:0.5px solid rgba(255,255,255,0.15);border-radius:5px;padding:5px 12px;cursor:pointer;transition:all 0.15s;font-family:var(--font);}
+.faq-btn:hover,.faq-btn.active{background:#1A6B4A;color:var(--white);border-color:#1A6B4A;}
+.domain-nav{display:flex;overflow-x:hidden;background:#f0efeb;border-bottom:0.5px solid var(--border);gap:2px;padding:10px 10px 0;}
+.domain-nav::-webkit-scrollbar{display:none;}
+.dnav-item{flex:1;min-width:0;padding:12px 6px 14px;cursor:pointer;border-radius:9px 9px 0 0;border-bottom:4px solid transparent;white-space:nowrap;transition:all 0.15s;display:flex;flex-direction:column;align-items:center;gap:3px;font-family:var(--font);color:var(--text-muted);background:rgba(255,255,255,0.45);}
+.dnav-item:hover{color:var(--text);background:rgba(255,255,255,0.8);}
+.dnav-item.active{color:#fff;border-bottom-color:transparent;}
+.dnav-num{font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;opacity:0.8;}
+.dnav-name{font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;}
+.domain-view{display:none;}
+.domain-view.active{display:block;}
+.domain-hdr{padding:20px 26px 18px;border-bottom:0.5px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;gap:16px;}
+.domain-hdr-left{}
+.domain-num{font-size:9px;font-weight:500;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:3px;text-transform:uppercase;}
+.domain-name{font-size:22px;font-weight:600;color:var(--navy);letter-spacing:-0.02em;}
+.domain-hook{font-size:12px;color:var(--text-mid);margin-top:4px;font-style:italic;}
+.domain-pct-block{text-align:right;flex-shrink:0;}
+.domain-pct{font-size:38px;font-weight:600;line-height:1;letter-spacing:-0.03em;}
+.domain-pct-label{font-size:9px;color:var(--text-muted);margin-top:2px;}
+.domain-pct-q{font-size:10px;font-weight:500;margin-top:1px;}
+.clusters-grid{display:grid;grid-template-columns:1fr 1fr;border-bottom:0.5px solid var(--border);}
+.clusters-grid.five .cluster:last-child{grid-column:1/-1;}
+.cluster{border-right:0.5px solid var(--border);border-bottom:0.5px solid var(--border);}
+.cluster:nth-child(even){border-right:none;}
+.clusters-grid:not(.five) .cluster:nth-child(3),.clusters-grid:not(.five) .cluster:nth-child(4){border-bottom:none;}
+.clusters-grid.five .cluster:nth-child(4){border-bottom:0.5px solid var(--border);}
+.clusters-grid.five .cluster:nth-child(5){border-bottom:none;border-right:none;}
+.cluster-hdr{padding:11px 18px;font-size:13px;font-weight:600;color:var(--white);letter-spacing:0.01em;}
+.cluster-body{padding:14px 16px;background:#fafaf8;display:flex;gap:10px;min-height:160px;}
+.sg{flex:1;min-width:0;}
+.sg-label{font-size:9px;font-weight:600;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;}
+.vchips{display:flex;flex-direction:column;gap:2px;}
+.vchip{font-size:11px;padding:5px 9px;border:0.5px solid var(--border-mid);border-radius:5px;color:var(--text);background:var(--white);cursor:pointer;line-height:1.3;transition:all 0.12s;font-family:var(--font);}
+.vchip:hover{border-color:#1A6B4A;color:#1A6B4A;background:#e8f5f0;}
+.vchip.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
+.explanation-drawer{border-top:0.5px solid var(--border);background:var(--white);display:none;}
+.explanation-drawer.open{display:block;}
+.ed-inner{padding:16px 20px;}
+.ed-breadcrumb{font-size:9px;font-weight:500;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;}
+.ed-title{font-size:15px;font-weight:600;color:var(--navy);margin-bottom:10px;letter-spacing:-0.01em;}
+.ed-text{font-size:13px;color:var(--text-mid);line-height:1.7;margin-bottom:14px;}
+.ed-insight{border-left:3px solid var(--olive);padding:10px 14px;background:var(--olive-light);border-radius:0 6px 6px 0;}
+.ed-insight-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--olive);margin-bottom:4px;text-transform:uppercase;}
+.ed-insight-text{font-size:12px;color:#3a4a35;line-height:1.6;}
+.ed-close{float:right;font-size:11px;color:var(--text-muted);cursor:pointer;background:none;border:none;font-family:var(--font);padding:0;margin-top:1px;}
+.ed-close:hover{color:var(--red);}
+.traps-section{background:#fdf8f6;border-bottom:0.5px solid #f0d8d0;padding:10px 16px;}
+.traps-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--red);margin-bottom:7px;display:flex;align-items:center;gap:5px;text-transform:uppercase;}
+.traps-dot{width:6px;height:6px;background:#D85A30;border-radius:50%;flex-shrink:0;}
+.traps-chips{display:flex;flex-wrap:wrap;gap:4px;}
+.trap-chip{font-size:10px;padding:3px 9px;border:0.5px solid #f0b8a8;border-radius:4px;color:#7a2020;background:var(--white);}
+.connects-section{background:#f6f8f5;padding:10px 16px;}
+.connects-label{font-size:8px;font-weight:600;letter-spacing:0.1em;color:var(--olive);margin-bottom:7px;text-transform:uppercase;}
+.connects-flow{display:flex;flex-wrap:wrap;align-items:center;gap:5px;}
+.flow-chip{font-size:10px;padding:3px 10px;border:0.5px solid #b8ccb4;border-radius:4px;color:#2a4025;background:var(--white);}
+.flow-arr{font-size:12px;color:var(--border-mid);}
+.faq-view{display:none;padding:20px;}
+.faq-view.active{display:block;}
+.faq-intro{font-size:13px;color:var(--text-mid);margin-bottom:20px;line-height:1.6;}
+.faq-item{border:0.5px solid var(--border);border-radius:8px;margin-bottom:10px;overflow:hidden;}
+.faq-q{padding:12px 16px;font-size:13px;font-weight:600;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:var(--white);transition:background 0.12s;}
+.faq-q:hover{background:var(--off-white);}
+.faq-q.open{background:var(--navy);color:var(--white);}
+.faq-chevron{font-size:12px;transition:transform 0.2s;flex-shrink:0;}
+.faq-q.open .faq-chevron{transform:rotate(180deg);}
+.faq-a{display:none;padding:14px 16px;font-size:13px;color:var(--text-mid);line-height:1.7;border-top:0.5px solid var(--border);background:#fafaf8;}
+.faq-a.open{display:block;}
+.faq-seo-note{margin-top:6px;font-size:11px;color:var(--text-muted);font-style:italic;}
+.tool-footer{background:var(--navy);padding:8px 20px;display:flex;align-items:center;justify-content:space-between;}
+.tool-footer-left{font-size:9px;color:rgba(255,255,255,0.35);}
+.tool-footer-right{font-size:9px;color:#4AC99A;}
+@media(max-width:600px){
+  .clusters-grid{grid-template-columns:1fr;}
+  .clusters-grid.five .cluster:last-child{grid-column:1;}
+  .cluster{border-right:none;}
+  .domain-hdr{flex-direction:column;}
+  .domain-pct-block{text-align:left;}
+}
+</style>
+</head>
+<body>
+<div class="csslp-tool">
+
+<div class="tool-header">
+  <div class="header-left">
+    <div class="header-logo">
+      <svg viewBox="0 0 24 24" fill="none">
+        <polygon points="12,2 21,7 21,17 12,22 3,17 3,7" stroke="#9FE1CB" stroke-width="1.5" fill="none"/>
+        <polygon points="12,5 18.5,8.5 18.5,15.5 12,19 5.5,15.5 5.5,8.5" stroke="#5DCAA5" stroke-width="1" fill="none"/>
+        <polygon points="12,8 15,9.5 15,14.5 12,16 9,14.5 9,9.5" fill="#1A6B4A" opacity="0.9"/>
+      </svg>
+    </div>
+    <div>
+      <div class="header-title">CSSLP Mind Map</div>
+      <div class="header-sub">Actions On Cyber · All 8 Domains · Free Study Resource</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="faq-btn" id="faqBtn" onclick="toggleFaq()">FAQ</button>
+  </div>
+</div>
+
+<div class="domain-nav" id="domainNav"></div>
+<div id="mainContent"></div>
+
+<div class="tool-footer">
+  <div class="tool-footer-left">Actions On Cyber · CSSLP Mind Map · Free Resource</div>
+  <div class="tool-footer-right">Practical Guidance. Real Protection.</div>
+</div>
+</div>
+
+<script>
+const DOMAINS = [
+  {
+    id:1, color:"#1A6B4A", pct:"10%", qs:"~13",
+    name:"Secure Software Concepts", short:"Concepts",
+    hook:"Security belongs in the design — not the patch notes. Understand the foundations first.",
+    clusters:[
+      {
+        label:"Core security principles", color:"#1A6B4A",
+        groups:[
+          {label:"CIA Triad", chips:[
+            {name:"Confidentiality",explain:"Confidentiality ensures that software only exposes information to those authorised to see it. In secure software, this means proper access controls, encryption of sensitive data at rest and in transit, and ensuring data is not inadvertently exposed through logs, error messages, or APIs.",insight:"The CSSLP exam tests confidentiality in the context of software — not just networks. Think: does your API return more data than the caller is authorised to see? Does your error message reveal a stack trace with sensitive paths?"},
+            {name:"Integrity",explain:"Integrity ensures that data and software have not been altered without authorisation. In software, this covers input validation, parameterised queries, digital signatures on code, and hash verification of downloads. Integrity failures in software include SQL injection, buffer overflows, and code tampering.",insight:"Integrity in software goes beyond data — it applies to the code itself. Code signing ensures the software you deploy is the software you built. Integrity checking in CI/CD pipelines catches tampering in the build process."},
+            {name:"Availability",explain:"Availability means software is accessible and functional when needed. In secure software development, availability concerns include graceful degradation under load, resilient error handling, rate limiting to prevent resource exhaustion, and secure failover mechanisms.",insight:"The CSSLP tests availability through the software lens — not hardware redundancy. Think: does your software handle unexpected input without crashing? Does it fail gracefully or does it bring down the entire service?"},
+            {name:"Non-repudiation",explain:"Non-repudiation ensures that actions taken within software cannot be denied by the party who took them. This requires audit logging, digital signatures, and authenticated sessions. Every sensitive action should be attributed to an authenticated identity and logged in tamper-evident storage.",insight:"Non-repudiation is an exam favourite for CSSLP. It appears in the context of audit trails, digital signatures, and access logging. The key is that logs must be protected — logs stored on the compromised system cannot support non-repudiation."},
+            {name:"Authentication & authorisation",explain:"Authentication confirms identity; authorisation determines what that identity can do. In software, these are distinct functions and must both be implemented correctly. A common failure is to authenticate correctly but then authorise based on client-supplied data that can be manipulated.",insight:"Authentication and authorisation failures are consistently in the OWASP Top 10. The CSSLP exam tests the distinction: being authenticated does not mean being authorised for every function. Always authorise each action, not just the session."},
+          ]},
+          {label:"Design principles", chips:[
+            {name:"Least privilege",explain:"Every process, user, and component should have only the minimum access necessary. In software, this means database users should only have SELECT on tables they need to read, service accounts should not be domain admins, and application components should not have write access to areas they only read.",insight:"Least privilege in software is frequently violated by developers who use admin accounts for convenience during development and leave them in production. The exam tests whether you apply least privilege to software components, not just users."},
+            {name:"Separation of duties",explain:"No single function should have end-to-end control over a sensitive process. In software, this means separating code development from deployment approvals, separating financial transaction initiation from authorisation, and ensuring no single developer can push to production without review.",insight:"Separation of duties in software maps to code review requirements, deployment approval workflows, and the separation of development, test, and production environments. A developer who can write code and deploy it directly to production without review violates this principle."},
+            {name:"Defence in depth",explain:"Layering multiple independent security controls means that no single failure results in compromise. In software, this means input validation at the UI layer AND the API layer AND the database layer — not trusting any single control to be the last line of defence.",insight:"The CSSLP exam tests defence in depth as applied to software layers. Trusting the UI to validate input and doing nothing at the API is a single layer — if the attacker bypasses the UI, there is no defence left. Multiple independent layers are required."},
+            {name:"Fail secure",explain:"When software encounters an unexpected state, it should fail to a secure condition — denying access, not granting it. An authentication system that throws an unhandled exception should deny access, not default to authenticated. Error conditions should never inadvertently grant permissions.",insight:"Fail secure is the opposite of fail open. The exam will present scenarios where error conditions must be resolved — always choose the option that denies access on failure. Fail open is only acceptable where availability genuinely outweighs security."},
+            {name:"Economy of mechanism",explain:"Security mechanisms should be as simple as possible. Complex security code is harder to review, harder to test, and more likely to contain errors. Simple, well-understood cryptographic libraries are preferable to custom implementations regardless of how clever the custom approach is.",insight:"Economy of mechanism is why you should never roll your own cryptography. Simple, proven mechanisms are testable and auditable. Custom implementations are not. The exam rewards choosing simplicity over cleverness in security design."},
+          ]},
+        ]
+      },
+      {
+        label:"Security policies and governance", color:"#155a3c",
+        groups:[
+          {label:"Policy hierarchy", chips:[
+            {name:"Security policies",explain:"Organisational security policies define the rules that software must comply with — data handling requirements, access control standards, encryption mandates, and retention rules. Software development must be guided by these policies from the requirements phase, not retrofitted after the policy is discovered during audit.",insight:"The CSSLP exam expects you to understand that policies drive software requirements. A GDPR data protection policy, for example, must translate into specific software requirements — encryption, data minimisation, right to erasure — not just procedural compliance."},
+            {name:"Standards and procedures",explain:"Standards define specific, measurable requirements that software must meet — which encryption algorithms are acceptable, which authentication mechanisms are required, which coding standards apply. Procedures define how developers implement those standards in practice.",insight:"Standards make policies actionable. A policy saying 'data must be encrypted' is vague. A standard saying 'all data at rest must use AES-256 with keys managed through the corporate vault' is testable. The exam tests whether you can translate policy into implementable standards."},
+            {name:"Compliance frameworks",explain:"GDPR, HIPAA, PCI-DSS, and SOX all impose software-specific requirements. GDPR requires privacy by design, data minimisation, and breach notification. PCI-DSS requires specific controls around cardholder data in software. HIPAA imposes audit logging and access control requirements on healthcare software.",insight:"Compliance frameworks translate into software requirements. The CSSLP exam tests whether you know what each framework requires from a software perspective — not just what the framework says in the abstract."},
+            {name:"Risk tolerance",explain:"Risk tolerance defines how much security risk the organisation is willing to accept in its software. High-risk applications (those handling financial data, health data, or critical infrastructure) require more rigorous security controls than low-risk applications. Risk tolerance shapes the security investment in any given system.",insight:"Risk tolerance drives security investment decisions. The exam may present scenarios where controls are being cut — the correct answer always involves understanding the risk implications and getting formal acceptance of residual risk from appropriate management."},
+          ]},
+          {label:"Regulatory context", chips:[
+            {name:"GDPR for software",explain:"GDPR requires software that processes EU/UK personal data to implement privacy by design and by default, data minimisation, the right to erasure, and breach notification within 72 hours. These are software requirements that must be built in — not legal obligations that exist only in documentation.",insight:"GDPR directly shapes software architecture. The right to erasure requires software to be able to find and delete all instances of a person's data. This is an architectural constraint that must be considered at design time, not retrofitted."},
+            {name:"HIPAA for software",explain:"HIPAA requires software handling protected health information to implement access controls, audit logging, encryption, and integrity controls. These are technical safeguards that must be implemented in the software itself — not just in the network or physical environment around it.",insight:"HIPAA audit logging requirements are a software requirement. The software must log who accessed what PHI, when, and from where. The logs must be tamper-evident. This is a specific, testable software requirement, not a general policy statement."},
+            {name:"PCI-DSS for software",explain:"PCI-DSS requires specific controls in any software that stores, processes, or transmits cardholder data. This includes requirements for secure coding practices (Requirement 6), access controls, audit logging, and vulnerability management. PA-DSS applies specifically to payment applications.",insight:"PCI-DSS Requirement 6 mandates secure development practices including code review, vulnerability scanning, and developer training. The exam may test specific PCI-DSS requirements as they apply to software development practices."},
+          ]},
+        ]
+      },
+      {
+        label:"Threat landscape", color:"#0d4230",
+        groups:[
+          {label:"Attack taxonomy", chips:[
+            {name:"OWASP Top 10",explain:"The OWASP Top 10 catalogues the most critical web application security risks — injection, broken authentication, sensitive data exposure, XML external entities, broken access control, security misconfiguration, cross-site scripting, insecure deserialisation, using components with known vulnerabilities, and insufficient logging. It is the baseline reference for application security.",insight:"The OWASP Top 10 is directly tested in the CSSLP exam. Know each category, what causes it, and what prevents it. Broken access control has been number one in recent editions — the exam tests whether you can identify access control failures in scenario questions."},
+            {name:"CWE/SANS Top 25",explain:"The Common Weakness Enumeration Top 25 Most Dangerous Software Errors covers the most impactful software weaknesses including buffer overflows, SQL injection, OS command injection, cross-site scripting, and path traversal. CWE provides a standardised taxonomy for discussing software weaknesses.",insight:"CWE is the language of software vulnerability classification. The exam may reference specific CWEs in scenario questions. Understanding the major categories — memory management errors, injection weaknesses, access control failures — is more important than memorising individual CWE numbers."},
+            {name:"STRIDE",explain:"STRIDE is a threat categorisation framework: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. It is used in threat modelling to systematically identify potential threats to a software system by asking which STRIDE categories apply to each component and data flow.",insight:"STRIDE maps directly to security properties: Spoofing → Authentication, Tampering → Integrity, Repudiation → Non-repudiation, Information Disclosure → Confidentiality, DoS → Availability, EoP → Authorisation. Knowing this mapping helps answer exam questions about appropriate mitigations."},
+            {name:"Threat actors",explain:"Software threats come from external attackers, malicious insiders, accidental insiders, third-party components, and nation-state actors. Different threat actors have different capabilities and motivations. Software security controls must account for the full threat actor spectrum, not just external hackers.",insight:"The exam may present scenarios involving specific threat actors. An insider threat requires different mitigations than an external attacker — separation of duties, access logging, and least privilege are particularly effective against insiders."},
+          ]},
+          {label:"Attack surface", chips:[
+            {name:"Attack surface definition",explain:"The attack surface of a software system is the sum of all points where an attacker can try to enter, extract data, or cause harm. This includes all input fields, APIs, file uploads, authentication mechanisms, network ports, and third-party integrations. Reducing the attack surface is a fundamental security improvement.",insight:"Attack surface reduction is a design principle. Every feature added to a system potentially adds attack surface. The exam tests whether you understand that simplicity reduces attack surface — unnecessary features, open ports, and unused APIs should be removed."},
+            {name:"Trust boundaries",explain:"Trust boundaries exist wherever software transitions between components with different trust levels — from the internet to the application, from the application to the database, from one microservice to another. Every trust boundary crossing is a potential attack point requiring validation and access control.",insight:"Trust boundaries must be identified during threat modelling and documented in data flow diagrams. Every crossing of a trust boundary is where an attacker can inject, intercept, or manipulate. Controls must be placed at trust boundaries, not just at the perimeter."},
+            {name:"Security debt",explain:"Security debt accumulates when security shortcuts are taken during development — hardcoded credentials left in place, known vulnerabilities not patched, security controls deferred to future sprints. Like technical debt, security debt compounds over time and becomes increasingly expensive to address.",insight:"Security debt is a risk management concept for CSSLP. The exam may present scenarios where security issues are deferred — the correct response involves quantifying the risk, formally accepting it at the appropriate level, and creating a remediation roadmap, not simply deferring indefinitely."},
+          ]},
+        ]
+      },
+      {
+        label:"Software security fundamentals", color:"#1A6B4A",
+        groups:[
+          {label:"Security concepts in software", chips:[
+            {name:"Secure by design",explain:"Secure by design means security is a foundational requirement, not an afterthought. Architecture and design decisions explicitly account for security from the outset. Security controls are built into the design rather than bolted on after the fact.",insight:"Secure by design versus secure by default are distinct concepts. Secure by design is about the architecture; secure by default is about the initial configuration. Both are required — a securely designed system configured insecurely is still vulnerable."},
+            {name:"Secure by default",explain:"A system is secure by default when its out-of-the-box configuration is the most secure reasonable option. Users should have to deliberately take action to reduce security, not to enable it. Default passwords, open ports, and permissive configurations are violations of secure by default.",insight:"Secure by default is directly tested in the CSSLP. The exam may present scenarios where a developer enables a feature that disables a default security control — this is a secure-by-default violation and represents a risk that should be formally assessed."},
+            {name:"Privacy by design",explain:"Privacy by design means data protection is built into software architecture from the start rather than added later. This includes data minimisation (only collect what you need), purpose limitation (only use data for stated purposes), and building in the technical capability for data subject rights such as erasure and portability.",insight:"Privacy by design is a legal requirement under GDPR, not just a best practice. The exam tests whether you understand that privacy requirements — like the right to erasure — must be designed into the system, not retrofitted. An architecture that cannot support data deletion without breaking the system has violated privacy by design."},
+            {name:"Open design principle",explain:"Security should not depend on the secrecy of the design or implementation (Kerckhoffs's principle). Security through obscurity — hiding how the system works to prevent attacks — is not genuine security. If the design were published, the system should still be secure because security depends on secret keys, not secret algorithms.",insight:"The CSSLP exam rejects security through obscurity as a valid control. A proprietary encryption algorithm is not more secure than AES just because fewer people know how it works. The exam will mark down any answer that relies on keeping the design secret."},
+          ]},
+          {label:"Software risk concepts", chips:[
+            {name:"Residual risk",explain:"After implementing security controls, some risk remains — this is residual risk. No control eliminates risk entirely. Residual risk must be formally accepted by the appropriate level of management. The CSSLP professional must be able to quantify and communicate residual risk clearly.",insight:"Residual risk acceptance is a management decision, not a technical one. The exam expects you to understand that the security team's role is to identify, assess, and present risk — the decision to accept residual risk belongs to management."},
+            {name:"Risk assessment",explain:"A software risk assessment systematically identifies threats, vulnerabilities, and the potential impact of exploitation. For software, this includes threat modelling, vulnerability scanning, code review findings, and dependency analysis. Risk assessments should be conducted at design time and repeated as the system evolves.",insight:"Risk assessment in software has specific phases. Threat modelling at design, SAST during development, DAST and pen testing before release, and continuous vulnerability monitoring in production. The exam tests whether you know which assessment technique applies at which phase."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Secure by design and secure by default are different — design is architecture, default is configuration","Security through obscurity is not a valid control — the exam always rejects it","Least privilege applies to software components, not just human users","Fail secure means deny on failure — never grant access on error","Non-repudiation requires logs stored separately from the system being logged","OWASP Top 10 is directly tested — know each category and its prevention"],
+    connects:["Understand principles","Apply to design","Drive requirements","Assess risk","Govern the programme"]
+  },
+  {
+    id:2, color:"#2E7D6B", pct:"14%", qs:"~18",
+    name:"Secure Software Requirements", short:"Requirements",
+    hook:"If you don't define what secure looks like, you can't build it — and you can't test it.",
+    clusters:[
+      {
+        label:"Requirements types", color:"#2E7D6B",
+        groups:[
+          {label:"Functional security requirements", chips:[
+            {name:"Authentication requirements",explain:"Authentication requirements specify how the system must verify user identity — which factors are required, what strength is needed, how failed attempts are handled, and how sessions are managed. These must be explicit requirements, not assumptions left to developers.",insight:"Authentication requirements must be specific and testable. 'The system must authenticate users' is not a requirement. 'The system must require MFA for all administrative functions using TOTP or hardware token' is a requirement. The exam tests specificity."},
+            {name:"Authorisation requirements",explain:"Authorisation requirements define who can access what and perform which operations. They should be expressed as access control matrices or role definitions — mapping subjects to objects and permitted actions. Vague authorisation requirements lead to over-permissive implementations.",insight:"Authorisation requirements drive access control model selection. If the requirements specify role-based access, the design implements RBAC. If they specify attribute-based decisions, ABAC is appropriate. Requirements must drive design, not the other way around."},
+            {name:"Audit and logging requirements",explain:"Logging requirements specify what events must be logged, at what level of detail, with what fields, and for how long. They must cover authentication events, authorisation failures, data access, and administrative actions. The format and tamper-evidence requirements must also be specified.",insight:"Logging requirements are often underspecified. The exam may present scenarios where an incident cannot be investigated because logs were insufficient — the correct lesson is that logging requirements must be defined at requirements time, not after an incident."},
+            {name:"Data protection requirements",explain:"Data protection requirements specify how sensitive data must be handled — classification levels, encryption requirements for data at rest and in transit, masking requirements for display and logging, and retention and deletion requirements. These are software requirements that must be implemented in code.",insight:"Data protection requirements must be specific enough to drive implementation. 'Protect sensitive data' is not implementable. 'PII must be encrypted using AES-256 at rest with keys managed in the corporate vault and masked in all log output' is implementable."},
+          ]},
+          {label:"Non-functional security requirements", chips:[
+            {name:"Performance under attack",explain:"The system must remain available and functional under attack conditions — including brute force attempts, DDoS, and resource exhaustion. Non-functional security requirements specify rate limiting, connection limits, timeout handling, and graceful degradation requirements.",insight:"Non-functional security requirements are often forgotten entirely. Performance under attack is a requirement that shapes architecture — rate limiting, caching, and autoscaling decisions are all driven by these requirements. The exam tests whether you include them."},
+            {name:"Recoverability requirements",explain:"RTO and RPO requirements for security incidents must be specified — how quickly must the system recover from a security-related outage, and how much data can be lost? These requirements drive backup, replication, and incident response design decisions.",insight:"Recovery requirements shape security architecture. A system with a one-hour RTO requires active-standby infrastructure. A system with a 24-hour RTO can use warm standby. The exam expects you to connect recovery requirements to architecture decisions."},
+            {name:"Scalability and security",explain:"Security controls must scale with the system. An authentication control that works for 100 users but fails under load at 10,000 users is not adequate. Non-functional requirements must specify the load conditions under which security controls must remain effective.",insight:"Security controls that break under load are a common architectural failure. Rate limiting implemented in application code on a single instance breaks when the application scales horizontally. The exam tests whether security requirements account for scale."},
+          ]},
+        ]
+      },
+      {
+        label:"Misuse and abuse case modelling", color:"#236859",
+        groups:[
+          {label:"Misuse cases", chips:[
+            {name:"Misuse case definition",explain:"A misuse case documents how an attacker or malicious user would intentionally abuse a system's functionality to cause harm. It is the adversarial mirror of a use case — instead of 'user logs in to access their account', the misuse case is 'attacker brute-forces login to access victim account'.",insight:"Misuse cases are distinct from abuse cases. Misuse cases involve intentional malicious behaviour. Abuse cases involve unintentional misuse that causes harm. The CSSLP exam tests this distinction — know both and know the difference."},
+            {name:"Deriving security requirements",explain:"Each misuse case generates one or more security requirements. The misuse case 'attacker brute-forces login' generates requirements for account lockout, CAPTCHA, MFA, rate limiting, and alerting on unusual authentication patterns. Misuse case analysis is a structured way to derive comprehensive security requirements.",insight:"This is the practical value of misuse cases — they generate requirements. The exam tests whether you can read a misuse case and identify what security requirements it implies. Practice moving from attacker scenario to security control to requirement."},
+            {name:"Attacker perspective",explain:"Developing misuse cases requires thinking like an attacker — what is the attacker's goal, what access do they have, and what legitimate functionality can they abuse? This perspective reveals requirements that use-case analysis alone will miss because use cases assume benign intent.",insight:"Thinking like an attacker is a core CSSLP competency. The exam will present scenarios from the attacker's perspective and ask what security requirements or controls are needed. Practise the shift: 'if I were trying to compromise this, what would I do?'"},
+          ]},
+          {label:"Abuse cases", chips:[
+            {name:"Abuse case definition",explain:"An abuse case documents unintentional misuse of a system that results in harm — a user who accidentally deletes another user's data, a batch process that runs with excessive privileges and corrupts data, or an error in user input that triggers unintended behaviour. Abuse cases highlight safety and integrity risks.",insight:"Abuse cases identify risks from legitimate users behaving unexpectedly. They drive requirements for confirmation dialogs, rollback capability, input validation, and privilege scoping. The exam distinguishes abuse cases (unintentional) from misuse cases (intentional)."},
+            {name:"Input abuse scenarios",explain:"Users will enter unexpected, malformed, or boundary-violating input — intentionally or accidentally. Abuse cases document these scenarios: what happens if a user enters a negative quantity, a date 200 years in the future, or a 10,000-character string in a name field? Requirements must address each scenario.",insight:"Input abuse scenarios drive input validation requirements. Each scenario generates a specific validation rule. The exam may present a scenario with unexpected input and ask what requirement should have been defined — the answer involves specific, testable validation rules."},
+          ]},
+        ]
+      },
+      {
+        label:"Data classification and privacy requirements", color:"#1a5045",
+        groups:[
+          {label:"Data classification", chips:[
+            {name:"Classification schemes",explain:"Software must classify the data it handles and apply appropriate controls for each classification level. Data classifications (public, internal, confidential, restricted) map to different encryption, access control, logging, and retention requirements. Software requirements must specify the classification of each data element.",insight:"Classification drives controls. The exam tests whether you can read a data classification and determine what controls are required. Confidential data requires encryption at rest and in transit; public data may not. Know the control implications of each classification level."},
+            {name:"PII identification",explain:"Requirements must identify all personally identifiable information processed by the system. PII includes names, addresses, national insurance numbers, IP addresses, biometric data, and any combination of data that could identify an individual. Each PII element requires specific protection requirements.",insight:"PII identification is a prerequisite for privacy requirements. The exam may present a system description and ask which elements are PII. Remember that combinations of individually non-identifying data can constitute PII if they identify a person when combined."},
+            {name:"PHI requirements",explain:"Protected health information requires specific software controls under HIPAA — access logging, encryption, breach notification capability, and minimum necessary access. Software requirements for systems handling PHI must explicitly address each HIPAA technical safeguard.",insight:"PHI requirements are more prescriptive than general PII requirements. HIPAA's technical safeguard requirements map directly to software requirements. The exam tests whether you can identify the HIPAA technical safeguards and translate them into software requirements."},
+            {name:"Data minimisation",explain:"Requirements should specify that the system only collects and retains the minimum data necessary for its stated purpose. Data minimisation is a GDPR principle and a security principle — data you do not hold cannot be breached. Requirements must include explicit constraints on data collection scope.",insight:"Data minimisation is a design constraint, not just a compliance principle. The exam may present scenarios where a system collects more data than needed — the correct response is to revise the requirements to constrain collection, not just implement privacy controls on excess data."},
+          ]},
+          {label:"Privacy requirements", chips:[
+            {name:"Right to erasure",explain:"Systems processing personal data under GDPR must support the right to erasure (right to be forgotten). This is a software requirement — the system must be able to find and delete all instances of a person's data, including in backups and archives. This has significant architectural implications.",insight:"Right to erasure is an architectural requirement. A system with immutable audit logs containing PII has a conflict between audit requirements and erasure requirements. This must be resolved at requirements time — the exam tests whether you identify this conflict."},
+            {name:"Data portability",explain:"GDPR requires that individuals can request their data in a portable, machine-readable format. This is a software requirement — the system must be able to export a person's data in a structured format on request. This must be designed in, not added as an afterthought.",insight:"Data portability requires an export capability that may not exist in many systems. The exam tests whether you identify data portability as a software requirement that must be designed in from the start."},
+            {name:"Consent management",explain:"For systems that process data based on consent, requirements must specify how consent is obtained, recorded, and managed. The system must be able to record when consent was given, for what purpose, and must be able to revoke processing when consent is withdrawn.",insight:"Consent management is a software capability, not just a legal process. The system must technically enforce consent withdrawal — if a user withdraws consent, the system must stop processing their data. This is a software requirement with architecture implications."},
+          ]},
+        ]
+      },
+      {
+        label:"Compliance-driven requirements", color:"#2E7D6B",
+        groups:[
+          {label:"Standards mapping", chips:[
+            {name:"Requirements traceability matrix",explain:"An RTM maps each security requirement to its source (regulation, policy, threat model, business need) and to the design, implementation, and test artefacts that satisfy it. It provides evidence that all requirements have been addressed and enables impact analysis when requirements change.",insight:"The RTM is a governance and audit tool. The exam tests whether you know why an RTM is maintained — not just what it contains. It provides evidence of compliance, supports change impact analysis, and ensures no requirement is overlooked in testing."},
+            {name:"Acceptance criteria",explain:"Security requirements must have measurable acceptance criteria — specific, testable conditions that define when the requirement is satisfied. 'The system must be secure' has no acceptance criteria. 'Authentication must lock the account after 5 consecutive failures' has clear, testable acceptance criteria.",insight:"Acceptance criteria make requirements testable. The exam may present requirements without acceptance criteria and ask what is wrong — the answer is that without measurable criteria, you cannot objectively determine whether the requirement has been met."},
+            {name:"Vendor requirements",explain:"When third-party components, libraries, or services are used, security requirements must flow down to vendors. Contracts should specify security requirements, audit rights, breach notification obligations, and security testing requirements for vendor-supplied components.",insight:"Vendor security requirements are a supply chain control. The exam tests whether you include vendor security requirements in the requirements phase — not just in procurement contracts. Requirements must specify what security evidence vendors must provide."},
+          ]},
+          {label:"Security SLAs", chips:[
+            {name:"Response time requirements",explain:"Requirements must specify security-related response times — how quickly must the system lock an account after a brute force attempt, how quickly must a session timeout after inactivity, how quickly must a security alert be generated after an anomalous event. These are testable requirements.",insight:"Security response time requirements are often omitted. The exam may present a scenario where an account is locked too slowly to prevent credential stuffing — the correct lesson is that response time is a security requirement that must be specified."},
+            {name:"Availability requirements",explain:"Security-critical components — authentication services, authorisation policy engines, security logging infrastructure — must have explicit availability requirements. If the authentication service is down and the application fails open, availability of the security control is a security requirement.",insight:"The availability of security controls is itself a security requirement. The exam may present a scenario where an authentication service outage causes the application to bypass authentication — the correct lesson is that security control availability must be a specified requirement."},
+          ]},
+        ]
+      },
+      {
+        label:"Requirements validation", color:"#155a3c",
+        groups:[
+          {label:"Validation techniques", chips:[
+            {name:"Requirements review",explain:"Security requirements should be reviewed by security specialists, developers, testers, and business stakeholders before development begins. Reviews catch ambiguity, missing requirements, conflicting requirements, and requirements that are not technically feasible.",insight:"Requirements reviews are cheaper than finding gaps in testing. The exam tests the principle that the cost of fixing a requirement error increases by an order of magnitude at each subsequent phase — fixing at requirements review costs 1x; fixing in production costs 100x."},
+            {name:"Threat model validation",explain:"Security requirements should be validated against the threat model — for each identified threat, there should be at least one requirement that addresses it. If a threat has no corresponding requirement, either the threat should be accepted or a requirement should be added.",insight:"Threat model to requirements mapping is a validation technique. The exam may present a threat model and ask whether the requirements adequately address it. A threat with no corresponding requirement is a requirements gap."},
+            {name:"Prototyping",explain:"Security-critical requirements — particularly those involving novel authentication mechanisms, complex access control models, or integration with external security services — may benefit from prototyping to validate feasibility before full development begins.",insight:"Prototyping validates technical feasibility of security requirements. The exam may present a security requirement that sounds reasonable but is technically challenging to implement — prototyping is the appropriate technique to validate feasibility before committing to full development."},
+          ]},
+          {label:"Requirements security review", chips:[
+            {name:"Privacy impact assessment",explain:"A Privacy Impact Assessment (PIA) or Data Protection Impact Assessment (DPIA) evaluates the privacy implications of a new system or feature at the requirements stage. Under GDPR, a DPIA is mandatory for high-risk processing activities. It must be completed before development begins.",insight:"DPIAs are legally required for high-risk processing under GDPR and must be completed at the requirements stage — not after the system is built. The exam tests whether you know the DPIA is triggered by requirements, not by deployment."},
+            {name:"Security requirements sign-off",explain:"Security requirements must be formally reviewed and approved by both the security team and business stakeholders. Sign-off creates accountability, confirms that security implications are understood, and establishes the baseline against which the delivered system will be assessed.",insight:"Security requirements sign-off is a governance control. The exam tests whether requirements are formally approved — not just informally agreed. Formal sign-off creates a documented baseline and shared accountability between security and the business."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Misuse cases are intentional attacks — abuse cases are unintentional misuse — they are different","Security requirements must be testable — 'be secure' is not a requirement","Data minimisation means don't collect it, not just protect what you have","Right to erasure is an architectural requirement — you can't retrofit it","RTM maps requirements to tests — gaps in the RTM are gaps in coverage","Vendor requirements must flow down in contracts — verbal assurances are not adequate"],
+    connects:["Identify data","Classify it","Define protection needs","Model misuse","Validate requirements","Get sign-off"]
+  },
+  {
+    id:3, color:"#1B5E8C", pct:"14%", qs:"~18",
+    name:"Secure Software Architecture and Design", short:"Architecture",
+    hook:"The decisions made in design are the most powerful — and the most expensive to reverse.",
+    clusters:[
+      {
+        label:"Threat modelling", color:"#1B5E8C",
+        groups:[
+          {label:"Methodologies", chips:[
+            {name:"STRIDE",explain:"STRIDE systematically identifies threats by category: Spoofing (fake identity), Tampering (modifying data), Repudiation (denying actions), Information Disclosure (data exposure), Denial of Service (availability attack), Elevation of Privilege (gaining unauthorised access). Applied to each component and data flow in the system.",insight:"STRIDE maps to mitigations: Spoofing → authentication; Tampering → integrity controls; Repudiation → logging/non-repudiation; Information Disclosure → encryption/access control; DoS → availability controls; EoP → authorisation. Know the mapping for the exam."},
+            {name:"PASTA",explain:"Process for Attack Simulation and Threat Analysis is a risk-centric threat modelling methodology with seven stages: define objectives, define technical scope, application decomposition, threat analysis, vulnerability analysis, attack modelling, and risk/impact analysis. It aligns threat modelling with business risk.",insight:"PASTA is business-risk focused — it connects technical threats to business impact. The exam may ask which methodology is most appropriate when the goal is to prioritise mitigations based on business risk rather than technical severity. PASTA is designed for this purpose."},
+            {name:"LINDDUN",explain:"LINDDUN focuses specifically on privacy threats: Linkability, Identifiability, Non-repudiation (as a privacy threat), Detectability, Disclosure of information, Unawareness, and Non-compliance. It is the privacy-focused complement to STRIDE and is particularly relevant for systems handling personal data.",insight:"LINDDUN is the privacy threat modelling counterpart to STRIDE. The exam may test LINDDUN in the context of GDPR requirements or privacy by design. If the scenario involves a system handling personal data and asks about threat modelling, LINDDUN is relevant."},
+            {name:"TRIKE",explain:"TRIKE is a threat modelling methodology that uses requirements models to define acceptable system behaviour, then threat models to identify deviations. It focuses on the risk equation from the defender's perspective and prioritises threats based on their acceptability relative to requirements.",insight:"TRIKE uses a requirements-first approach — acceptable behaviour is defined first, then threats are identified as deviations from that behaviour. The exam may distinguish TRIKE from other methodologies by its requirements-centric approach."},
+            {name:"Attack trees",explain:"Attack trees model how an attacker can achieve a goal — the root is the attacker's objective, branches represent sub-goals, and leaves represent specific attacks. They help identify all paths to an objective and evaluate which controls at which nodes block the most attack paths.",insight:"Attack trees are particularly useful for identifying alternative attack paths. The exam may present a scenario and ask how to identify all ways an attacker could achieve a goal — attack trees are the structured technique for this analysis."},
+          ]},
+          {label:"Threat model artefacts", chips:[
+            {name:"Data flow diagrams",explain:"DFDs document how data moves through a system — what data enters, how it is processed, where it is stored, and how it exits. Trust boundaries are marked on DFDs. They are the foundation artefact for STRIDE-based threat modelling because STRIDE is applied to each element and flow on the DFD.",insight:"DFDs are the starting point for threat modelling. The exam may present a DFD and ask what threats apply to a specific component or data flow. Practice applying STRIDE to each element: processes, data stores, external entities, and data flows."},
+            {name:"Trust boundary identification",explain:"Trust boundaries mark where data crosses between components with different trust levels. Every trust boundary crossing is a potential attack point. Trust boundaries must be explicitly identified on DFDs and each crossing must have appropriate controls — validation, authentication, authorisation.",insight:"Trust boundaries are where controls are most important. The exam will present scenarios where data crosses a trust boundary without appropriate controls — this is the threat model gap to identify. Every trust boundary must have a control."},
+            {name:"Threat register",explain:"A threat register documents all identified threats, their likelihood, impact, the controls that mitigate them, and the residual risk. It is the output of threat modelling and the input to security requirements and design decisions. It should be maintained throughout the software lifecycle.",insight:"The threat register is a living document. The exam tests whether you understand that threat modelling is not a one-time exercise — threats change as the system evolves, and the threat register must be updated. Changes to the system should trigger threat model review."},
+          ]},
+        ]
+      },
+      {
+        label:"Security design principles", color:"#16497a",
+        groups:[
+          {label:"Architectural principles", chips:[
+            {name:"Secure architecture patterns",explain:"Proven secure architecture patterns — layered architecture with security at each layer, API gateways for centralised authentication and authorisation, service mesh for inter-service authentication — provide reusable security solutions. Using established patterns reduces the risk of custom security design errors.",insight:"The exam rewards established patterns over custom security designs. A custom authentication mechanism is higher risk than using OAuth 2.0 with OIDC. Know the standard patterns and why they are preferable to custom implementations."},
+            {name:"Zero trust architecture",explain:"Zero trust rejects the concept of a trusted internal network. Every request, regardless of origin, must be authenticated, authorised, and continuously validated. In software, this means inter-service calls require authentication even on the internal network, and access is granted per-request, not per-session.",insight:"Zero trust is increasingly tested in CSSLP. The key principle is 'never trust, always verify'. Applied to software, this means microservices must authenticate to each other — a compromised internal service should not automatically have access to all other internal services."},
+            {name:"Microservices security",explain:"Microservices architecture introduces specific security challenges — each service is a potential attack surface, inter-service communication must be secured, and the distributed nature makes consistent policy enforcement harder. Service mesh, mutual TLS, and centralised identity are common solutions.",insight:"Microservices change the attack surface compared to monolithic applications. The exam may present microservices scenarios and test whether you understand the security implications — more trust boundaries, more authentication requirements, more logging points."},
+            {name:"API-first security",explain:"In API-first architectures, the API is the primary attack surface. API security design includes authentication (OAuth 2.0, API keys), authorisation (scopes, claims-based access), rate limiting, input validation, output filtering, and versioning. Security must be designed into the API specification.",insight:"API security is designed in the specification, not added to the implementation. The exam tests whether security requirements — authentication, authorisation, rate limiting — are part of the API design, not implementation details left to developers."},
+          ]},
+          {label:"Design patterns", chips:[
+            {name:"Input validation pattern",explain:"The input validation pattern establishes a dedicated validation layer that all inputs pass through before entering business logic. This layer enforces type checking, range validation, format validation, and length limits. Input that fails validation is rejected before it can reach processing logic.",insight:"The input validation pattern is a defence in depth control. Validation at the UI alone is insufficient — attackers bypass the UI. Validation must occur at the API gateway or service boundary, regardless of whether the UI validated first."},
+            {name:"Secure session management",explain:"Secure session management design specifies how sessions are created, maintained, and terminated. Sessions must use cryptographically random tokens, be invalidated on logout and privilege change, have appropriate timeouts, and be protected against fixation and hijacking attacks.",insight:"Session management design is a common exam topic. Know the requirements: random tokens, invalidate on logout, absolute and idle timeouts, secure and HttpOnly cookie flags, regenerate session on privilege elevation."},
+            {name:"Centralised security controls",explain:"Security controls — authentication, authorisation, logging, error handling — should be centralised rather than implemented ad hoc in each component. Centralised controls are easier to audit, test, and update. Distributed security implementations lead to inconsistency and gaps.",insight:"Centralised security controls are more maintainable and auditable. The exam may present a scenario with security controls implemented differently across multiple components — the correct recommendation is to centralise them in a shared security library or service."},
+          ]},
+        ]
+      },
+      {
+        label:"Cryptography in design", color:"#0d3a5e",
+        groups:[
+          {label:"Algorithm selection", chips:[
+            {name:"Symmetric encryption",explain:"AES with 256-bit keys is the standard for symmetric encryption in modern software. It should be used with appropriate modes — GCM for authenticated encryption (provides both confidentiality and integrity), CTR or CBC with separate HMAC if GCM is not available. Never use ECB mode.",insight:"AES-GCM is the preferred symmetric encryption mode because it provides authenticated encryption — it guarantees both confidentiality and integrity in one operation. The exam tests algorithm selection: AES-256 with GCM, not DES, 3DES, or AES-ECB."},
+            {name:"Asymmetric encryption",explain:"RSA with 2048-bit minimum keys (4096 preferred) and ECC with 256-bit keys (ECDSA, ECDH) are the current standards. ECC provides equivalent security to RSA with significantly smaller keys, making it preferable for resource-constrained environments and mobile applications.",insight:"ECC is more efficient than RSA for equivalent security. The exam may ask which is preferable for a mobile application — ECC provides the same security as RSA-3072 with a 256-bit key. RSA-1024 is broken; the minimum is RSA-2048."},
+            {name:"Hashing algorithms",explain:"SHA-256 or SHA-3 for general hashing and integrity verification. bcrypt, Argon2, or PBKDF2 for password hashing — general-purpose hashes are too fast for password storage and enable brute force. MD5 and SHA-1 are cryptographically broken and must not be used for security purposes.",insight:"Password hashing is a specific use case requiring slow algorithms. SHA-256 is too fast — it enables billions of guesses per second with GPU acceleration. bcrypt or Argon2 are designed to be slow and resistant to GPU acceleration. The exam distinguishes general hashing from password hashing."},
+            {name:"Key exchange",explain:"Diffie-Hellman (DH) and Elliptic Curve Diffie-Hellman (ECDH) are used for key exchange — establishing a shared secret over an insecure channel without transmitting the secret itself. ECDH provides the same security as DH with smaller parameters. Forward secrecy requires ephemeral key exchange.",insight:"Perfect forward secrecy (PFS) means that compromise of long-term keys does not expose past sessions. PFS requires ephemeral key exchange (DHE or ECDHE) where session keys are generated fresh for each connection and discarded afterwards. The exam tests PFS as a design requirement."},
+          ]},
+          {label:"Cryptographic implementation", chips:[
+            {name:"Key management design",explain:"Cryptographic key management must be designed explicitly — how keys are generated (using cryptographically secure random number generators), stored (in dedicated key management systems, not hardcoded), rotated (with defined schedules and procedures), and destroyed (securely, completely). Key management is where most cryptographic implementations fail.",insight:"Key management is the most common point of cryptographic failure. The exam tests key management design: keys must never be hardcoded, must be stored in dedicated systems (HSM, KMS), must be rotated, and must be destroyed securely at end of life."},
+            {name:"Certificate management",explain:"TLS certificate management must be designed into the system — how certificates are issued, renewed, revoked, and monitored for expiry. Certificate pinning may be appropriate for high-security applications. Certificate transparency logs should be monitored for unauthorised certificate issuance.",insight:"Certificate expiry causing production outages is a common, preventable failure. The exam tests whether certificate lifecycle management — automated renewal, expiry monitoring, revocation checking — is designed into the system."},
+            {name:"Cryptographic agility",explain:"Cryptographic agility means designing software so that cryptographic algorithms can be replaced without major rearchitecting. As algorithms age and vulnerabilities are discovered, systems must be able to migrate to newer algorithms. Hard-coding algorithm choices makes migration expensive.",insight:"Cryptographic agility is a design principle for longevity. The exam may present a scenario where a deprecated algorithm needs to be replaced — systems designed for cryptographic agility can do this with configuration changes; systems that hardcoded the algorithm require significant rework."},
+          ]},
+        ]
+      },
+      {
+        label:"Architecture frameworks", color:"#1B5E8C",
+        groups:[
+          {label:"Reference frameworks", chips:[
+            {name:"SABSA",explain:"Sherwood Applied Business Security Architecture provides a risk-driven framework that derives security requirements from business objectives. It works through layers from business context down to technical implementation, ensuring security architecture is traceable to business need rather than built on assumptions.",insight:"SABSA starts with business attributes — what does the business need to be able to do securely? Security architecture flows from these attributes. The exam may ask which framework starts with business requirements and derives architecture — SABSA is the answer."},
+            {name:"TOGAF with security",explain:"The Open Group Architecture Framework provides an enterprise architecture methodology. Security architecture integrated with TOGAF ensures security is addressed across all architecture domains — business, data, application, and technology. Security becomes part of enterprise architecture rather than a separate concern.",insight:"TOGAF with security integration ensures security architecture is aligned with overall enterprise architecture. The exam may present a scenario where security and enterprise architecture are misaligned — the correct recommendation is to integrate security into the enterprise architecture process."},
+            {name:"NIST Secure Software Framework",explain:"NIST provides guidance for secure software development through the Secure Software Development Framework (SSDF) and related publications. The SSDF organises secure development practices into four groups: prepare the organisation, protect the software, produce well-secured software, and respond to vulnerabilities.",insight:"The NIST SSDF is increasingly referenced in the CSSLP exam. Know the four practice groups and be able to map secure development activities to the appropriate group. The SSDF is also referenced in US executive orders on software security."},
+          ]},
+          {label:"Cloud architecture security", chips:[
+            {name:"Shared responsibility model",explain:"In cloud environments, security responsibilities are divided between the provider and the customer. The provider secures the underlying infrastructure; the customer secures their data, applications, access controls, and configurations. For software, the customer is always responsible for application security regardless of deployment model.",insight:"Shared responsibility is a cloud design principle. The exam tests whether you understand that moving to the cloud does not transfer application security responsibility. The customer remains responsible for authentication, authorisation, input validation, and data protection in their application."},
+            {name:"Cloud-native security patterns",explain:"Cloud-native applications should use managed identity services (rather than stored credentials), managed key services (rather than implementing key management), security groups and network policies (rather than application-layer network controls), and cloud-native logging and monitoring.",insight:"Cloud-native security patterns use the platform's security capabilities rather than reimplementing them. The exam may present a choice between implementing custom authentication versus using a managed identity provider — managed services are preferable unless there is a specific reason not to use them."},
+            {name:"Container security design",explain:"Container security design includes using minimal base images (reducing attack surface), running containers as non-root, implementing image signing and verification, designing for immutable infrastructure (no patching of running containers — rebuild and redeploy), and network policy enforcement.",insight:"Containers are immutable infrastructure. The exam tests the principle that you do not patch running containers — you rebuild the image with the fix and redeploy. A container that needs patching represents a design flaw (mutable containers) that should be corrected."},
+          ]},
+        ]
+      },
+      {
+        label:"Secure design verification", color:"#0d3a5e",
+        groups:[
+          {label:"Design review", chips:[
+            {name:"Architecture security review",explain:"A formal security review of the architecture before development begins identifies design-level security flaws that are cheapest to fix at this stage. Reviews should cover threat model completeness, control adequacy, cryptographic choices, trust boundary management, and compliance requirements.",insight:"Architecture security reviews are the highest-ROI security activity. A finding at design review costs a fraction of the same finding in production. The exam tests whether architecture reviews are a mandatory gate before development, not an optional activity."},
+            {name:"Design patterns compliance",explain:"Architecture reviews should verify that established secure design patterns are used correctly — that session management follows the pattern, that cryptography is implemented using approved libraries, and that no custom security mechanisms have been invented where standard solutions exist.",insight:"Compliance with design patterns is verifiable. The exam may present a custom security mechanism and ask whether it is appropriate — the answer is that standard, proven patterns are preferable to custom implementations unless there is a specific, documented reason for deviation."},
+          ]},
+          {label:"Threat model review", chips:[
+            {name:"Completeness assessment",explain:"Threat model reviews verify that all components, data flows, and trust boundaries have been modelled, all STRIDE categories have been considered for each element, all identified threats have mitigating controls, and the threat register is current.",insight:"Threat model completeness is measurable. The exam may present a threat model and ask what is missing — look for unmodelled components, uncovered threat categories, or threats without corresponding controls."},
+            {name:"Control adequacy",explain:"For each identified threat, the proposed control must be adequate — sufficient to reduce the threat to an acceptable level. A weak control that does not actually mitigate the threat provides false assurance. Threat model review must verify control adequacy, not just control existence.",insight:"Control adequacy is distinct from control existence. Having a control that does not adequately address the threat is worse than acknowledging there is no control — it creates false confidence. The exam tests whether you can assess whether a control adequately addresses a threat."},
+          ]},
+        ]
+      },
+    ],
+    traps:["STRIDE maps directly to security properties — know the mapping for each threat category","DFDs are the foundation of threat modelling — trust boundaries must be marked","AES-ECB is insecure — always use AES-GCM or AES-CBC with HMAC","bcrypt/Argon2 for passwords — SHA-256 alone is too fast","Cryptographic agility means you can swap algorithms without rearchitecting","Zero trust applies inside the network too — internal services must authenticate to each other"],
+    connects:["Model threats","Identify boundaries","Select controls","Choose cryptography","Review design","Approve before building"]
+  },
+  {
+    id:4, color:"#6B3A2A", pct:"14%", qs:"~18",
+    name:"Secure Software Implementation", short:"Implementation",
+    hook:"Code is where intent meets reality — and where most vulnerabilities are actually introduced.",
+    clusters:[
+      {
+        label:"Secure coding standards", color:"#6B3A2A",
+        groups:[
+          {label:"Standards and guidelines", chips:[
+            {name:"CERT Secure Coding",explain:"The CERT Secure Coding Standards provide language-specific rules for C, C++, Java, and other languages. Rules address memory management, input validation, integer arithmetic, file I/O, and error handling. Each rule has a severity rating and examples of compliant and non-compliant code.",insight:"CERT rules are language-specific. The exam may test whether you know which CERT rules apply to a given scenario. The key categories — memory management in C/C++, integer overflow, input validation — appear most frequently."},
+            {name:"OWASP Secure Coding Practices",explain:"OWASP provides a quick-reference guide to secure coding practices covering input validation, output encoding, authentication, session management, access control, cryptographic practices, error handling, logging, data protection, and communication security.",insight:"OWASP Secure Coding Practices is directly referenced in the CSSLP curriculum. Know the categories — the exam may present a coding scenario and ask which practice category applies or which practice was violated."},
+            {name:"Code review process",explain:"Secure code review systematically examines source code for security vulnerabilities. It should be a mandatory gate before merging to main branches and before deployment. Reviews should cover the OWASP Top 10, common CWEs, and business logic issues that automated tools cannot find.",insight:"Code review is a human control that finds what automated tools miss — particularly business logic vulnerabilities. The exam tests code review as a mandatory gate, not an optional best practice. Code that has not been reviewed should not be deployable."},
+            {name:"Secure coding training",explain:"Developers must receive secure coding training specific to the languages and frameworks they use. Training should cover the most common vulnerability patterns for those technologies, secure coding standards, and how to use security testing tools. Training must be ongoing, not a one-time induction.",insight:"Developer training is an administrative control that prevents vulnerabilities from being introduced. The exam treats training as a prerequisite for a secure development programme — without trained developers, technical controls alone are insufficient."},
+          ]},
+          {label:"Memory safety", chips:[
+            {name:"Buffer overflow",explain:"Buffer overflow occurs when a program writes data beyond the allocated buffer boundary, overwriting adjacent memory. It can corrupt data, crash the application, or allow arbitrary code execution. Prevention requires bounds checking on all array and buffer operations and use of safe string handling functions.",insight:"Buffer overflow is a foundational vulnerability that remains relevant despite being decades old. The exam tests prevention: bounds checking, safe string functions (strncpy not strcpy), stack canaries, ASLR, and DEP/NX. Memory-safe languages (Rust, Go) eliminate this class of vulnerability."},
+            {name:"Integer overflow",explain:"Integer overflow occurs when arithmetic produces a value outside the range of the data type, wrapping around to an unexpected value. In security contexts, this can cause allocations to be smaller than expected (leading to buffer overflows) or bypass security checks that compare integers.",insight:"Integer overflow is particularly dangerous in C and C++ when the result is used to calculate allocation sizes. The exam tests whether you know to validate arithmetic results before use, particularly before using the result in memory allocation."},
+            {name:"Use after free",explain:"Use-after-free vulnerabilities occur when a program continues to use a pointer after the memory it references has been freed. This can allow an attacker to control the freed memory and influence program behaviour. It is a common vulnerability in C and C++ programs.",insight:"Use-after-free is a memory management vulnerability that leads to code execution. Prevention involves setting pointers to NULL after freeing, using smart pointers in C++, or using memory-safe languages. The exam tests whether you know this vulnerability class and its mitigations."},
+          ]},
+        ]
+      },
+      {
+        label:"Injection and input vulnerabilities", color:"#8a4a35",
+        groups:[
+          {label:"Injection attacks", chips:[
+            {name:"SQL injection",explain:"SQL injection occurs when user input is incorporated into database queries without parameterisation. The attacker manipulates the query structure to read unauthorised data, modify records, or execute database commands. Prevention is parameterised queries (prepared statements) — not input sanitisation.",insight:"Parameterised queries are the definitive SQL injection prevention. The exam distinguishes parameterised queries (which completely prevent SQL injection) from input sanitisation (which can be bypassed). The correct answer is always parameterised queries, not sanitisation."},
+            {name:"Command injection",explain:"Command injection occurs when user input is passed to a system shell command. The attacker can terminate the intended command and append their own shell commands, executed with the application's privileges. Prevention requires avoiding shell commands entirely — use library functions instead.",insight:"The safest prevention for command injection is to avoid executing shell commands with user input entirely. If shell execution is unavoidable, use parameterised APIs that do not invoke a shell interpreter. The exam tests whether you choose the safest approach (avoid) over mitigation (sanitise)."},
+            {name:"LDAP injection",explain:"LDAP injection occurs when user input is included in LDAP queries without escaping. Attackers can modify query logic to bypass authentication or extract directory information. Prevention requires proper escaping of all user-supplied values before inclusion in LDAP queries.",insight:"LDAP injection is less commonly tested than SQL injection but appears in CSSLP exam questions on injection vulnerabilities. The prevention principle is the same — parameterise or escape all user input before including it in queries."},
+            {name:"XML/XPath injection",explain:"XML injection occurs when user input is embedded in XML documents, allowing an attacker to modify the XML structure. XPath injection is analogous to SQL injection but for XPath queries. Prevention requires input validation and encoding before embedding in XML, and parameterised XPath queries.",insight:"XML and XPath injection are injection variants specific to XML-based systems and web services. The exam tests whether you understand that injection is a class of vulnerability that applies to any system where input is incorporated into a query or command."},
+          ]},
+          {label:"Cross-site vulnerabilities", chips:[
+            {name:"Reflected XSS",explain:"Reflected cross-site scripting occurs when user input is immediately returned in the HTTP response without encoding, causing the browser to execute attacker-controlled script. Prevention requires output encoding — converting special characters to their HTML entity equivalents before rendering.",insight:"Reflected XSS prevention is output encoding, not input validation. Input validation reduces the attack surface but encoding is the control that prevents execution. The exam distinguishes: validate to reduce surface area, encode to prevent execution."},
+            {name:"Stored XSS",explain:"Stored XSS occurs when malicious script is persisted in the application (in a database, comment field, or profile) and then rendered to other users without encoding. It is more dangerous than reflected XSS because one attacker can target all subsequent visitors.",insight:"Stored XSS is more impactful than reflected XSS because it persists and affects multiple users. Prevention requires encoding output at render time, not just at input time. Content Security Policy (CSP) provides defence in depth by restricting script execution origins."},
+            {name:"CSRF",explain:"Cross-site request forgery tricks an authenticated user's browser into making an unauthorised request using their active session. Prevention requires CSRF tokens — unpredictable, session-tied values included in forms and validated server-side. The SameSite cookie attribute provides additional protection.",insight:"CSRF exploits the trust the application has in the user's browser. CSRF tokens are the primary mitigation — the attacker cannot read the token from another origin. The SameSite=Strict cookie attribute prevents cookies from being sent in cross-site requests entirely."},
+          ]},
+        ]
+      },
+      {
+        label:"Authentication and session implementation", color:"#4a2518",
+        groups:[
+          {label:"Authentication implementation", chips:[
+            {name:"Password storage",explain:"Passwords must never be stored in plaintext or with reversible encryption. They must be hashed using adaptive, salted algorithms — bcrypt, Argon2, or PBKDF2 with high iteration counts. The salt must be unique per password. The hash must be long enough to resist brute force.",insight:"Password storage is a fundamental requirement. The exam tests that you know adaptive hashing algorithms (bcrypt, Argon2) are required — not SHA-256, MD5, or any general-purpose hash. Adaptive means the work factor can be increased as hardware improves."},
+            {name:"MFA implementation",explain:"Multi-factor authentication implementation must use time-based one-time passwords (TOTP) or hardware tokens rather than SMS OTP, which is vulnerable to SIM swapping. FIDO2/WebAuthn provides the strongest form of MFA — phishing-resistant because authentication is bound to the relying party origin.",insight:"MFA implementation choices have security implications. FIDO2/WebAuthn is phishing-resistant; TOTP is not (can be phished in real-time); SMS OTP is the weakest (vulnerable to SIM swap). The exam tests which implementation is most secure."},
+            {name:"Account lockout",explain:"Account lockout or progressive delay must be implemented to prevent brute force attacks. Lockout must occur after a defined number of failures (typically 5-10), must apply to the account not the IP (to prevent enumeration bypass), and must have a lockout notification mechanism.",insight:"Account lockout must be on the account, not just the IP address. An attacker using multiple IPs can bypass IP-based lockout. Account-based lockout is effective but introduces a denial-of-service risk — lockout with notification is preferable to indefinite lockout."},
+            {name:"Credential management",explain:"Credentials must never be hardcoded in source code, stored in version control, logged in cleartext, or transmitted without encryption. They must be stored in dedicated secrets management systems and retrieved at runtime. Rotation procedures must be defined and testable.",insight:"Hardcoded credentials in source code are a common and severe vulnerability. The exam tests that credentials must be externalised to secrets management systems. Once committed to a repository — even if removed — credentials must be considered compromised and rotated."},
+          ]},
+          {label:"Session management", chips:[
+            {name:"Session token generation",explain:"Session tokens must be cryptographically random, generated with a cryptographically secure pseudorandom number generator (CSPRNG), and of sufficient length (minimum 128 bits of entropy). Predictable session tokens enable session prediction attacks.",insight:"Session token strength is about entropy. A token generated with Math.random() in JavaScript is not cryptographically secure. The exam tests that session tokens require CSPRNG generation and sufficient entropy — 128 bits minimum."},
+            {name:"Session fixation prevention",explain:"Session fixation occurs when an attacker sets a known session ID before authentication, then the application elevates that session after login. Prevention requires regenerating the session ID after successful authentication — the post-login session ID must differ from the pre-login session ID.",insight:"Session regeneration on login is a mandatory control. The exam tests whether you know that the session ID must change at authentication — not just that a new session is created, but that the old session ID is invalidated and a new one issued."},
+            {name:"Cookie security attributes",explain:"Session cookies must have the Secure attribute (HTTPS only), HttpOnly (not accessible to JavaScript), SameSite (controls cross-site sending), and appropriate domain and path scoping. Each attribute prevents a specific attack class.",insight:"Cookie attributes are a set of independent controls, each preventing a different attack. Secure prevents transmission over HTTP. HttpOnly prevents XSS-based theft. SameSite prevents CSRF. The exam tests which attribute prevents which attack."},
+          ]},
+        ]
+      },
+      {
+        label:"Error handling and logging", color:"#6B3A2A",
+        groups:[
+          {label:"Secure error handling", chips:[
+            {name:"Generic error messages",explain:"Error messages shown to users must never reveal technical details — stack traces, database queries, server paths, software versions, or internal identifiers. Generic error messages (e.g. 'An error occurred. Reference: ERR-2024-001') provide enough for support without assisting attackers.",insight:"Error messages are an information disclosure vulnerability. The exam tests that external error messages must be generic while detailed errors are logged internally. The reference code approach allows internal tracking without external exposure."},
+            {name:"Exception handling",explain:"All exceptions must be caught and handled explicitly. Unhandled exceptions can leak information through default error pages, may cause undefined behaviour, and in some cases allow security bypasses. Security-sensitive code must have explicit exception handling that fails securely.",insight:"Catch-all exception handlers that swallow errors silently are as dangerous as unhandled exceptions — they prevent detection of security-relevant events. Exceptions must be logged internally even if the user sees a generic message."},
+            {name:"Error logging",explain:"Security-relevant errors — authentication failures, authorisation denials, input validation failures, and system errors — must be logged with sufficient context for investigation: timestamp, user identity (if available), IP address, action attempted, and outcome. Logs must be stored securely.",insight:"Error logging must be designed explicitly. The exam tests whether logging captures sufficient context for investigation. Authentication failure logs without IP addresses cannot support brute force detection. The right fields must be designed into the logging system."},
+          ]},
+          {label:"Security logging", chips:[
+            {name:"What to log",explain:"Security events requiring logging include: authentication events (success and failure), authorisation failures, session management events, data access and modification of sensitive data, administrative actions, and input validation failures. The goal is sufficient information to reconstruct any security-relevant event.",insight:"Completeness of logging is a design decision. The exam may present a scenario where an incident cannot be investigated due to insufficient logging — the correct lesson is that logging requirements must define the minimum events and fields required."},
+            {name:"Log protection",explain:"Logs must be protected from modification and deletion, particularly by the application itself. Logs should be written to a separate, access-controlled system. Write-only log forwarding to a SIEM ensures that even if the application is compromised, the attacker cannot modify or delete logs.",insight:"Log integrity is essential for non-repudiation and forensic investigation. The exam tests that logs stored on the compromised system cannot be trusted. Log forwarding to a separate system (SIEM) at write time is the control."},
+            {name:"Sensitive data in logs",explain:"Logs must never contain sensitive data — passwords, credit card numbers, social security numbers, session tokens, or API keys. If such data appears in a parameter that is logged, the logging must be designed to mask or exclude it. Log injection (attacker-controlled data in logs) must also be prevented.",insight:"Sensitive data in logs is a compliance and security violation. The exam tests that logging design must explicitly exclude sensitive fields. A log that records the full request body for debugging purposes is likely logging sensitive data inadvertently."},
+          ]},
+        ]
+      },
+      {
+        label:"API and integration security", color:"#8a4a35",
+        groups:[
+          {label:"API security implementation", chips:[
+            {name:"Input validation for APIs",explain:"APIs must validate all input independently of any validation performed by the calling client. API input validation covers type, format, length, range, and permitted values for all parameters. APIs that trust client-side validation are vulnerable to attacks that bypass the client entirely.",insight:"API input validation is independent of client-side validation. An API that relies on the UI to validate input is vulnerable to direct API calls. Every API endpoint must validate its own inputs as if the caller is untrusted — because it may be."},
+            {name:"Output filtering",explain:"APIs must return only the minimum data necessary for the caller's authorised use. Returning complete database records when the caller only needs two fields is excessive data exposure (OWASP API Top 10 #3). Output filtering removes fields the caller is not authorised to see.",insight:"Excessive data exposure in APIs is a common vulnerability. The exam tests whether API responses are filtered to return only what the caller is authorised to receive. A single 'get user' API that returns all user data including sensitive fields to any authenticated caller is vulnerable."},
+            {name:"Rate limiting",explain:"APIs without rate limiting are vulnerable to brute force attacks on authentication, credential stuffing, data scraping, and resource exhaustion. Rate limiting must be implemented per user, per IP, and per API key, at the API gateway level rather than individual service level.",insight:"Rate limiting at the application code level fails when the service scales horizontally. Rate limiting must be implemented at a centralised point — API gateway or load balancer — to be effective across all instances. The exam tests implementation location, not just the concept."},
+            {name:"API versioning security",explain:"API versions must maintain security controls across versions. Deprecated API versions often have weaker security controls than current versions. Access to deprecated API versions should be controlled and eventually removed. Security requirements must apply consistently across all active versions.",insight:"Legacy API versions are a common attack vector. Attackers deliberately target older API versions that may lack newer security controls. The exam tests whether version management includes security review — deprecated versions should be removed or hardened before attackers exploit them."},
+          ]},
+          {label:"Third-party integration", chips:[
+            {name:"Library security",explain:"Third-party libraries must be validated before use — known vulnerabilities checked in CVE databases and NVD, licence compliance verified, and maintenance status assessed. Libraries that are no longer maintained accumulate security vulnerabilities with no patches available.",insight:"Third-party library validation is a supply chain control. The exam tests whether you validate libraries before use — not just check for known vulnerabilities but also assess maintenance status. An unmaintained library will not receive security patches for future discoveries."},
+            {name:"Dependency pinning",explain:"Dependency versions should be pinned in package management files to prevent unexpected updates that could introduce vulnerabilities or breaking changes. Floating dependencies (e.g. 'latest') can introduce compromised versions silently. Pinned versions provide a known, auditable baseline.",insight:"Dependency pinning is a supply chain integrity control. The exam tests whether you understand the risk of floating dependencies — an attacker who compromises a package repository can push a malicious 'latest' version to all consumers. Pinned, hashed dependencies prevent this."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Parameterised queries prevent SQL injection — sanitisation does not","Output encoding prevents XSS — input validation alone is not sufficient","CSRF tokens must be unpredictable and server-validated — client-side checks are useless","bcrypt/Argon2 for passwords — SHA-256 is too fast","Session ID must regenerate after login — session fixation exploits failure to do this","Hardcoded credentials in source code are compromised even after removal — rotate immediately"],
+    connects:["Validate input","Encode output","Parameterise queries","Hash passwords correctly","Secure sessions","Log security events"]
+  },
+  {
+    id:5, color:"#4A5E2A", pct:"14%", qs:"~18",
+    name:"Secure Software Testing", short:"Testing",
+    hook:"You can't ship what you haven't broken. Security testing finds what developers missed.",
+    clusters:[
+      {
+        label:"Static and dynamic analysis", color:"#4A5E2A",
+        groups:[
+          {label:"Static analysis", chips:[
+            {name:"SAST overview",explain:"Static Application Security Testing analyses source code, bytecode, or compiled binaries without executing the application. It finds vulnerabilities by scanning code patterns — hardcoded credentials, SQL concatenation, buffer allocation without bounds checking, insecure API usage. SAST integrates into development pipelines for immediate feedback.",insight:"SAST finds code-level vulnerabilities without running the application. It is best integrated into the development IDE and CI/CD pipeline for early detection. The exam tests that SAST cannot find runtime vulnerabilities — it only sees what is in the code, not how the application behaves."},
+            {name:"SAST limitations",explain:"SAST has a high false positive rate — it flags code patterns that may not be exploitable in context. It cannot find vulnerabilities that depend on runtime state, environment configuration, or external system interaction. Business logic vulnerabilities that are syntactically correct are invisible to SAST.",insight:"SAST false positives require analyst triage. The exam tests that SAST findings must be reviewed — not all SAST findings are real vulnerabilities. Automated SAST integrated into CI/CD should fail the build on high-severity findings and flag others for review."},
+            {name:"Manual code review",explain:"Manual code review by security-trained reviewers finds vulnerabilities that automated tools miss — particularly business logic flaws, complex authorisation issues, and subtle cryptographic misuse. Manual review is more expensive but provides higher-confidence findings for complex security-critical code.",insight:"Manual code review complements SAST. The exam tests that some vulnerability classes — business logic, complex authorisation flows, subtle crypto misuse — require human review. SAST and manual review together provide more comprehensive coverage than either alone."},
+          ]},
+          {label:"Dynamic analysis", chips:[
+            {name:"DAST overview",explain:"Dynamic Application Security Testing tests a running application by sending crafted inputs and analysing responses. It finds vulnerabilities that only manifest at runtime — injection flaws in context, authentication issues, session management weaknesses, and server-side processing errors.",insight:"DAST requires a running application. It finds what SAST misses — runtime vulnerabilities that depend on application state and behaviour. DAST does not require source code access, making it applicable to third-party applications and black-box testing scenarios."},
+            {name:"IAST",explain:"Interactive Application Security Testing instruments the application with runtime sensors that monitor execution during testing. It combines the accuracy of SAST (seeing code execution paths) with the realism of DAST (actual runtime behaviour). It significantly reduces SAST false positives by only flagging code that is actually executed in a potentially vulnerable way.",insight:"IAST provides the most accurate results by seeing both code and runtime simultaneously. The exam tests that IAST requires instrumentation — it cannot be used on applications you cannot instrument. It is most effective during functional testing when the application is being exercised normally."},
+            {name:"RASP",explain:"Runtime Application Self-Protection embeds security controls within the application itself, allowing it to detect and block attacks in real-time during production execution. RASP monitors application behaviour from the inside and can terminate sessions or block requests that exhibit attack patterns.",insight:"RASP is a production control, not a testing tool — it protects running applications, not pre-release code. The exam distinguishes RASP from IAST: IAST is used during testing to find vulnerabilities; RASP is deployed in production to block exploitation."},
+          ]},
+        ]
+      },
+      {
+        label:"Test planning and methodology", color:"#3a4a20",
+        groups:[
+          {label:"Security test planning", chips:[
+            {name:"Security test plan",explain:"A security test plan defines the scope, objectives, methodology, tools, and acceptance criteria for security testing. It maps test cases to security requirements and threat model findings, ensuring complete coverage. It is a prerequisite for meaningful security testing, not an optional formality.",insight:"Security test plans ensure requirements traceability — every security requirement should have at least one test case. The exam tests whether security testing is requirements-driven rather than ad hoc. A test plan without requirements traceability leaves coverage gaps."},
+            {name:"Threat model-driven testing",explain:"Security test cases should be derived from the threat model — for each identified threat, there should be at least one test case that attempts to exploit it. Threat model-driven testing ensures that testing covers the specific risks identified for the system rather than generic vulnerability categories.",insight:"Threat model-driven testing is more targeted than generic security testing. The exam tests whether test cases trace back to threat model findings. If a threat is identified in the threat model but has no corresponding test case, the test coverage is incomplete."},
+            {name:"Risk-based test prioritisation",explain:"Security testing resources must be prioritised based on risk — critical assets and high-risk functions get more rigorous testing than low-risk components. Risk-based prioritisation ensures testing effort is focused where compromise would have the greatest impact.",insight:"Risk-based testing prioritisation is a resource management principle. The exam may present a scenario with limited testing budget — the correct approach is to prioritise testing of high-risk, high-impact components rather than testing everything equally."},
+            {name:"Regression testing",explain:"Security regression testing verifies that previously fixed vulnerabilities have not been reintroduced. Vulnerabilities that have been fixed should have automated test cases that run on every build to prevent regression. Security debt from unfixed vulnerabilities must be tracked.",insight:"Security regression tests are automated tests for previously discovered vulnerabilities. The exam tests that fixing a vulnerability is not sufficient — a regression test must be created to prevent recurrence. Without regression tests, the same vulnerability can be reintroduced with every refactor."},
+          ]},
+          {label:"Test environment controls", chips:[
+            {name:"Test data management",explain:"Test environments must not use real production data — particularly personal data, financial data, or health data. Synthetic data that reflects the structure and format of production data must be created. If production data is used, it must be anonymised or masked before use in testing.",insight:"Using real personal data in test environments is a GDPR violation and a security risk. The exam tests that test data management is a security requirement — production PII in development or test environments is an immediate compliance issue."},
+            {name:"Environment parity",explain:"Security testing is only valid if the test environment accurately reflects the production environment — same operating system, same versions, same configuration. Differences between test and production environments mean that findings may not reflect production reality.",insight:"Environment parity ensures test findings are relevant to production. The exam tests that security testing in a significantly different environment provides limited assurance. Infrastructure-as-code helps maintain environment parity by using the same configuration for all environments."},
+          ]},
+        ]
+      },
+      {
+        label:"Penetration testing", color:"#2a3818",
+        groups:[
+          {label:"Pen test types", chips:[
+            {name:"Black box testing",explain:"Black box testing simulates an external attacker with no prior knowledge of the target. The tester conducts reconnaissance, identifies attack surfaces, and attempts exploitation using only publicly available information and discovered vulnerabilities. It most accurately simulates an external threat actor.",insight:"Black box testing is the most realistic simulation of an external attack. It tests what an uninformed attacker can discover and exploit. The exam tests that black box testing may miss internal vulnerabilities that require authenticated access or prior knowledge."},
+            {name:"White box testing",explain:"White box testing provides the tester with full knowledge — source code, architecture documentation, credentials. It enables deeper, more thorough testing and finds more vulnerabilities per hour than black box. It is appropriate when the goal is maximum vulnerability discovery rather than realistic simulation.",insight:"White box testing is most efficient for finding vulnerabilities. Given equal time, white box testing finds more issues than black box. The exam may ask when each is appropriate — white box for comprehensive security review; black box for realistic external attacker simulation."},
+            {name:"Grey box testing",explain:"Grey box testing provides partial knowledge — a user account, network diagrams, or application documentation. It simulates a post-compromise scenario — an attacker who has gained initial access — or an insider threat. It is the most common real-world approach, balancing realism with efficiency.",insight:"Grey box is the most common enterprise approach. It is more realistic than white box (not all knowledge is available to attackers) and more efficient than black box. The exam may present a scenario where a compromised employee account is the starting point — this is grey box territory."},
+            {name:"Rules of engagement",explain:"Rules of engagement must be documented and signed before any penetration test begins. They specify scope (which systems), out-of-scope systems, permitted techniques, prohibited techniques, communication protocols, emergency contacts, and what to do if a critical vulnerability is found in production.",insight:"Rules of engagement are legally essential. Testing without written authorisation is potentially criminal. The exam tests that rules of engagement are a prerequisite, not a formality. The document protects both the tester (legal cover) and the organisation (defined scope and emergency procedures)."},
+          ]},
+          {label:"Application pen testing", chips:[
+            {name:"Authentication testing",explain:"Authentication testing examines whether authentication controls can be bypassed, brute-forced, or circumvented. It includes testing for default credentials, brute force protection, MFA bypass, password reset flaws, and authentication bypass via parameter manipulation.",insight:"Authentication testing is a structured examination of all authentication mechanisms. The exam tests whether you understand the range of authentication attacks — not just password guessing, but also password reset abuse, session fixation, and account enumeration."},
+            {name:"Authorisation testing",explain:"Authorisation testing verifies that users can only access the functions and data they are authorised for. It tests for IDOR vulnerabilities, privilege escalation paths, horizontal privilege escalation (accessing another user's data), and vertical privilege escalation (gaining admin access from a regular account).",insight:"Authorisation testing is distinct from authentication testing. Authentication tests if you can log in; authorisation tests what you can do after logging in. IDOR is the most common authorisation vulnerability — changing a record ID in a request to access another user's data."},
+            {name:"Business logic testing",explain:"Business logic testing examines whether business processes can be abused — skipping required steps, repeating steps that should only occur once, applying discounts incorrectly, or manipulating workflow state. These vulnerabilities are application-specific and cannot be found by automated tools.",insight:"Business logic testing requires understanding the intended workflow and attempting to deviate from it. Automated tools cannot test business logic because they do not understand the intended behaviour. The exam tests that business logic testing requires manual testing by testers who understand the application."},
+          ]},
+        ]
+      },
+      {
+        label:"Fuzzing and adversarial testing", color:"#4A5E2A",
+        groups:[
+          {label:"Fuzzing techniques", chips:[
+            {name:"Mutation fuzzing",explain:"Mutation fuzzing takes valid inputs and randomly mutates them — flipping bits, adding characters, changing values. It is simple to implement and effective at finding parser vulnerabilities, input handling errors, and memory corruption issues. It requires a corpus of valid inputs to mutate.",insight:"Mutation fuzzing is most effective for testing file format parsers and protocol implementations. The exam tests that fuzzing finds vulnerabilities through volume and randomness — it is complementary to structured testing, not a replacement."},
+            {name:"Generation fuzzing",explain:"Generation fuzzing creates inputs from a formal specification of the input format — a grammar or protocol specification. It generates valid-looking but edge-case inputs that exercise all paths through the parser. It is more targeted than mutation fuzzing and better at finding protocol-specific issues.",insight:"Generation fuzzing is more sophisticated than mutation fuzzing. It requires a model of the input format but generates more meaningful edge cases. The exam may distinguish generation and mutation fuzzing — generation is appropriate when a formal specification exists."},
+            {name:"Coverage-guided fuzzing",explain:"Coverage-guided fuzzing uses instrumentation to track which code paths are executed by each input. It uses this feedback to generate new inputs that exercise previously untested paths. This approach dramatically increases the probability of finding deep vulnerabilities by maximising code coverage.",insight:"Coverage-guided fuzzing (AFL, libFuzzer) is the most effective modern fuzzing approach. It finds vulnerabilities that pure random mutation misses by systematically exploring code paths. The exam recognises coverage-guided fuzzing as the current state of the art."},
+          ]},
+          {label:"Red team activities", chips:[
+            {name:"Red team vs pen test",explain:"Red team engagements simulate real threat actors using all available techniques — social engineering, physical access, technical exploitation — to achieve specific objectives (exfiltrate data, gain domain admin). They differ from pen tests in duration (weeks to months), realism, and focus on detection capability.",insight:"Red team exercises test the organisation's detection and response capability, not just the presence of vulnerabilities. The exam distinguishes red team (objective-based, full kill chain, tests detection) from pen test (vulnerability-focused, agreed scope, technical only)."},
+            {name:"Adversary simulation",explain:"Adversary simulation uses threat intelligence to emulate specific threat actor techniques, tactics, and procedures (TTPs). MITRE ATT&CK provides a framework of adversary techniques that can be used to design simulation scenarios relevant to the organisation's specific threat landscape.",insight:"MITRE ATT&CK-based adversary simulation tests defences against specific, relevant threat actors. The exam may reference ATT&CK in the context of threat-intelligence-driven security testing — testing against the TTPs of adversaries who actually target your sector."},
+          ]},
+        ]
+      },
+      {
+        label:"Vulnerability management and remediation", color:"#3a4a20",
+        groups:[
+          {label:"Finding management", chips:[
+            {name:"CVSS in context",explain:"The Common Vulnerability Scoring System provides an inherent severity score (0-10) but does not reflect your specific risk. A critical CVSS score on an isolated, non-public system may be lower priority than a medium CVSS score on a public-facing authentication endpoint. Context determines true risk.",insight:"CVSS is a starting point, not a final risk assessment. The exam tests that you apply context to CVSS scores — asset criticality, exploitability in your environment, compensating controls, and exposure all affect priority. High CVSS on a low-value, isolated system is lower priority than medium CVSS on a high-value, exposed system."},
+            {name:"False positive triage",explain:"SAST and DAST findings include false positives — reported vulnerabilities that are not actually exploitable in context. False positives must be triaged by security analysts before being assigned to development teams. Sending developers false positives creates alert fatigue and erodes trust in the security programme.",insight:"False positive triage is an analyst function. The exam tests that security teams are responsible for triaging tool findings before presenting them to development. Development teams that receive large numbers of false positives lose confidence in security testing and begin to ignore findings."},
+            {name:"Remediation SLAs",explain:"Vulnerability remediation must have defined SLAs — critical vulnerabilities remediated within a specified timeframe (often 24-72 hours for externally exploitable critical), high within two weeks, medium within 30 days. SLAs create accountability and enable tracking.",insight:"Remediation SLAs are a governance control. The exam tests that finding vulnerabilities without a defined remediation timeline is insufficient. SLAs must be agreed between security and development leadership and tracked against actual remediation time."},
+            {name:"Risk acceptance",explain:"Vulnerabilities that cannot be immediately remediated must be formally risk-accepted — documented with the risk description, reason for deferral, compensating controls, and sign-off from management at the appropriate level. Unaccepted vulnerabilities in backlog are not risk-managed — they are ignored.",insight:"Risk acceptance is a formal management decision. The exam tests that vulnerabilities not yet remediated must be formally accepted by management — not just left in a backlog. Formal acceptance with compensating controls and a remediation commitment is required."},
+          ]},
+          {label:"Retesting", chips:[
+            {name:"Verification testing",explain:"After a vulnerability is remediated, verification testing confirms that the fix actually works — that the vulnerability cannot still be exploited, that the fix did not introduce a new vulnerability, and that related vulnerabilities were also addressed. Remediation without verification is insufficient.",insight:"Verification testing closes the remediation loop. The exam tests that finding and fixing a vulnerability is not sufficient — the fix must be verified. Verification should be performed by the original tester where possible, using the same techniques that found the original vulnerability."},
+            {name:"Regression after fix",explain:"Security fixes must be tested for regression — ensuring that the fix did not break existing functionality and that related code was not inadvertently affected. Security regression tests should be added to the automated test suite to prevent the vulnerability from recurring.",insight:"Security regression tests are the long-term control that prevents reintroduction of fixed vulnerabilities. The exam tests that remediation should include creating an automated regression test, not just fixing the code. Without the test, the same vulnerability can return with any future refactor."},
+          ]},
+        ]
+      },
+    ],
+    traps:["SAST cannot find runtime vulnerabilities — it only analyses code","RASP is a production runtime control — IAST is a testing tool — they are not interchangeable","DAST requires a running application — it cannot test code that is not deployed","Business logic vulnerabilities require manual testing — automated tools cannot find them","CVSS score is not your risk — context, exposure, and compensating controls all matter","Rules of engagement must be signed before any pen test begins — verbal authorisation is not sufficient"],
+    connects:["Plan tests from requirements","Run SAST in pipeline","DAST on running app","Pen test before release","Triage findings","Verify fixes","Automate regression"]
+  },
+  {
+    id:6, color:"#3A3A7C", pct:"11%", qs:"~14",
+    name:"Secure Software Lifecycle Management", short:"Lifecycle Mgmt",
+    hook:"Security isn't a phase — it's a discipline woven through every stage of the lifecycle.",
+    clusters:[
+      {
+        label:"SDLC security integration", color:"#3A3A7C",
+        groups:[
+          {label:"SDLC models", chips:[
+            {name:"Waterfall security integration",explain:"In waterfall development, security activities must be embedded in each phase: security requirements in requirements phase, threat modelling and security architecture review in design phase, secure coding and code review in development phase, security testing in test phase. Security cannot be a gate only at the end.",insight:"Waterfall's sequential nature means security gaps found late are expensive. The exam tests that security must be embedded in each waterfall phase — not deferred to a security testing sprint at the end. Late-phase security findings cost significantly more to remediate."},
+            {name:"Agile security integration",explain:"In agile, security must be integrated into each sprint rather than deferred. Security user stories belong in the product backlog. Threat modelling should be performed for each significant feature. SAST runs on every commit. Security acceptance criteria are part of the definition of done.",insight:"Agile security requires 'security in every sprint' not 'a security sprint'. The exam tests that agile does not defer security — it integrates it continuously. Security acceptance criteria in the definition of done ensures security is not dropped under sprint pressure."},
+            {name:"DevSecOps",explain:"DevSecOps extends DevOps by embedding security throughout the CI/CD pipeline — automated SAST on every commit, dependency scanning, container scanning, secrets detection, infrastructure security scanning, and automated security tests as part of the deployment gate. Security is automated and continuous.",insight:"DevSecOps is about automation and shifting left. The exam tests that DevSecOps is a culture and process change with automation support — not just a set of tools. The goal is to make security fast enough to not slow development, by automating repetitive security checks."},
+            {name:"BSIMM",explain:"Building Security in Maturity Model is a data-driven assessment of software security practices. It documents what real organisations actually do and provides a benchmark for measuring programme maturity. BSIMM is descriptive — it describes what organisations do — rather than prescriptive.",insight:"BSIMM is descriptive, not prescriptive. It tells you what other organisations at your maturity level do. The exam may distinguish BSIMM (descriptive, data-driven) from SAMM (prescriptive, guidance-driven). Both help organisations improve their software security programme."},
+            {name:"OpenSAMM",explain:"The Software Assurance Maturity Model provides prescriptive guidance for building a software security programme. It defines practices across five business functions: Governance, Design, Implementation, Verification, and Operations. Each practice has three maturity levels with defined activities.",insight:"SAMM is prescriptive — it tells you what to do to improve. The exam tests SAMM in the context of software security programme improvement. SAMM's five functions map to the SDLC phases, making it directly applicable to programme planning."},
+          ]},
+          {label:"Security gates", chips:[
+            {name:"Security approval gates",explain:"Security approval gates are mandatory checkpoints in the development pipeline where security conditions must be met before progression. Common gates include: threat model review complete before design sign-off, SAST below threshold before merge, security test pass before production deployment.",insight:"Security gates make security mandatory. The exam tests that security gates must be enforced — not advisory. A gate that developers can bypass under schedule pressure is not a gate. Automated gates in CI/CD are more reliable than manual approval processes."},
+            {name:"Definition of done",explain:"The definition of done for any software feature should include security acceptance criteria — SAST complete with findings below threshold, security tests passing, threat model updated if architecture changed, no high or critical unresolved security findings. Security done means security tested.",insight:"Definition of done with security criteria prevents security debt accumulation. The exam tests that security is part of done — not a separate track. Features that pass functional tests but fail security tests are not done."},
+          ]},
+        ]
+      },
+      {
+        label:"Risk management in the SDLC", color:"#2d2d6b",
+        groups:[
+          {label:"Risk identification", chips:[
+            {name:"Risk identification per phase",explain:"Risk identification must occur at each SDLC phase — new risks emerge as design decisions are made, as implementation choices are finalised, and as deployment architecture is determined. A risk identified in design that was not visible at requirements time must be captured and managed.",insight:"Risk is dynamic — new risks emerge as design decisions are made. The exam tests that risk management is continuous throughout the SDLC, not a one-time requirements-phase activity. Each phase should have a risk review that captures newly identified risks."},
+            {name:"Third-party risk",explain:"Third-party components, libraries, and services introduce risks that must be assessed — vulnerability exposure from known CVEs, supply chain compromise risk, licence compliance risk, and the risk of the vendor discontinuing support. Third-party risk must be assessed before components are incorporated.",insight:"Third-party risk assessment is a procurement and requirements activity. The exam tests that third-party risk is assessed before adoption — not just when vulnerabilities are discovered. Ongoing monitoring of third-party components for new vulnerabilities is also required."},
+            {name:"End-of-life risk",explain:"Software dependencies that reach end-of-life no longer receive security patches. EOL components accumulate vulnerabilities with no remediation path. EOL risk must be tracked and managed — components must be upgraded or replaced before EOL, with planned migration rather than emergency response.",insight:"EOL risk management is proactive planning. The exam tests that EOL dates for all significant dependencies must be tracked and migration planned before EOL occurs. Discovering a critical dependency is EOL during an incident is avoidable with proactive management."},
+          ]},
+          {label:"Security debt", chips:[
+            {name:"Security debt tracking",explain:"Security debt — known vulnerabilities and security deficiencies not yet remediated — must be tracked in a risk register. Each item of security debt should have an owner, a remediation plan, and an expected completion date. Security debt that is not tracked is not managed.",insight:"Security debt must be visible. The exam tests that untracked security debt is unmanaged risk. A risk register or security backlog that captures known issues — with owners and dates — is the management tool. Security debt hidden in individual team backlogs is organisational risk."},
+            {name:"Risk acceptance process",explain:"Security debt that cannot be immediately remediated must be formally risk-accepted. The process requires documenting the risk, identifying compensating controls, getting sign-off at the appropriate management level, and setting a review date. Informal acceptance is not acceptance.",insight:"Formal risk acceptance creates accountability. The exam tests that informal 'we'll fix it later' is not risk acceptance. A documented decision with management sign-off, compensating controls, and a review commitment is required for each item of accepted risk."},
+          ]},
+        ]
+      },
+      {
+        label:"Security governance and programme management", color:"#1e1e50",
+        groups:[
+          {label:"Programme management", chips:[
+            {name:"Security champions",explain:"Security champions are development team members with security interest and training who act as the security team's representatives within development. They help teams apply security practices, triage security findings, and escalate issues. Security champions scale security expertise across a large development organisation.",insight:"Security champions bridge the gap between security and development. The exam tests the security champion model as a scaling strategy — a small security team cannot review all code and attend all meetings; champions embedded in teams extend the security team's reach."},
+            {name:"Secure coding policy",explain:"A secure coding policy defines the mandatory practices developers must follow — which standards apply, which tools are required, what constitutes a security violation that blocks deployment. The policy provides the framework within which all other security programme activities operate.",insight:"Secure coding policy provides the governance foundation. The exam tests that technical security controls must be backed by policy. Without policy, security practices are optional and inconsistent. Policy makes compliance mandatory and enforceable."},
+            {name:"Developer training programme",explain:"A software security training programme must be ongoing — initial onboarding plus regular updates as new threats emerge. Training must be relevant to the developer's technology stack and role. Metrics must track training completion and measure effectiveness through testing or simulation.",insight:"Developer training is a preventive control. The exam tests that training must be ongoing and relevant — not a one-time annual video. Training effectiveness should be measured — completion rates alone do not demonstrate that developers can actually write more secure code."},
+          ]},
+          {label:"Metrics and measurement", chips:[
+            {name:"Security programme KPIs",explain:"Software security programme KPIs include: mean time to remediate security findings by severity, percentage of applications with threat models, SAST finding density per release, percentage of developers trained, and security findings per code review. Metrics demonstrate programme effectiveness and identify gaps.",insight:"Security metrics must be leading and lagging indicators. Lagging: number of vulnerabilities in production (outcome). Leading: percentage of releases with security testing (activity). The exam tests that a security programme without metrics cannot demonstrate effectiveness or improvement."},
+            {name:"Vulnerability density",explain:"Vulnerability density — security findings per thousand lines of code — is a measure of code security quality. Tracking density over time shows whether the development programme is improving. Higher density indicates more security problems per unit of code; lower density indicates improvement.",insight:"Vulnerability density is a code quality metric. The exam tests it as a way to measure and compare security quality across teams and over time. A team whose vulnerability density is increasing despite training indicates the training is not effective."},
+            {name:"Mean time to remediate",explain:"Mean Time to Remediate (MTTR) for security findings measures how quickly the development team addresses identified vulnerabilities. MTTR broken down by severity shows whether critical findings receive appropriate urgency. Long MTTR for critical findings indicates prioritisation failure.",insight:"MTTR is an operational effectiveness metric. The exam tests that MTTR by severity is more informative than overall MTTR — if critical findings take 90 days to remediate while medium findings take 10, there is a prioritisation failure despite the medium finding results looking good."},
+          ]},
+        ]
+      },
+      {
+        label:"Continuous improvement", color:"#3A3A7C",
+        groups:[
+          {label:"Programme evolution", chips:[
+            {name:"Lessons learned",explain:"Post-incident and post-release lessons learned must be integrated back into the software security programme — updating threat models, adding new test cases, improving developer training with real examples, and revising standards to prevent recurrence. Lessons learned that do not change practice do not improve security.",insight:"Lessons learned that do not change practice are wasted effort. The exam tests that findings from incidents and vulnerabilities must produce specific, actionable changes to the programme — not just documented in a report. What changes to prevent this from happening again?"},
+            {name:"Threat intelligence integration",explain:"Current threat intelligence should inform the software security programme — new attack techniques should trigger updates to threat models, new vulnerability patterns should be added to SAST rules and developer training, and emerging threats to technologies in use should prompt proactive security review.",insight:"Threat intelligence makes the security programme proactive. The exam tests that a security programme that does not consume threat intelligence is reactive — it only responds to known threats. Integrating threat intelligence enables preparation for emerging threats."},
+            {name:"Technology refresh",explain:"As technology stacks evolve — new frameworks, new deployment patterns, new language versions — the security programme must adapt. Security standards, training content, and tool configurations must be updated to address the security implications of new technologies before they are adopted at scale.",insight:"Technology refresh is a programme management activity. The exam tests that new technology adoption should trigger security programme updates — not be treated as a standard change. A new framework may have different vulnerability patterns that existing SAST rules and training do not address."},
+          ]},
+          {label:"Audit and assurance", chips:[
+            {name:"Internal security audit",explain:"Internal audits of the software security programme verify that defined practices are being followed, controls are operating effectively, and the programme is achieving its objectives. Audits should be independent of the development teams they assess and should produce findings with remediation commitments.",insight:"Internal security audits verify programme effectiveness. The exam tests that audits assess whether practices are actually being followed — not just defined. A well-documented security programme where practices are not followed provides false assurance."},
+            {name:"External assessment",explain:"External security assessments by independent third parties provide objective assurance that the software security programme is effective. They are less susceptible to internal bias and carry more weight with customers, regulators, and boards. They should be conducted periodically and after significant changes.",insight:"External assessments provide independent assurance. The exam tests that external assessments are more credible than internal assessments because they are independent of the organisation's interests. Customers and regulators typically require external assessment as evidence of security effectiveness."},
+          ]},
+        ]
+      },
+    ],
+    traps:["DevSecOps is a culture change with automation — not just a set of tools","BSIMM is descriptive — SAMM is prescriptive — they serve different purposes","Security debt that is not tracked is not managed — a backlog is not a risk register","Lessons learned that do not change practice are useless","Definition of done must include security acceptance criteria — security is not separate from done","Risk acceptance must be formal and documented — informal acceptance is not governance"],
+    connects:["Integrate security","Gate each phase","Track risk","Manage debt","Measure effectiveness","Improve continuously"]
+  },
+  {
+    id:7, color:"#7C4A1A", pct:"12%", qs:"~15",
+    name:"Secure Software Deployment, Operations and Maintenance", short:"Deploy & Ops",
+    hook:"Getting it out safely is as important as building it securely. Deployment is an attack surface.",
+    clusters:[
+      {
+        label:"Secure deployment", color:"#7C4A1A",
+        groups:[
+          {label:"CI/CD pipeline security", chips:[
+            {name:"Pipeline security controls",explain:"CI/CD pipeline security includes: restricting who can modify pipeline definitions, requiring code signing for pipeline scripts, segregating pipeline environments from production, preventing secret exposure in build logs, and enforcing security gates that cannot be bypassed.",insight:"CI/CD pipelines are increasingly targeted by attackers because they have privileged access to production environments. The exam tests that pipeline security is a security design concern — not just an operational configuration. A compromised pipeline can deploy malicious code to production."},
+            {name:"Secrets in pipelines",explain:"Build pipelines must not expose secrets — API keys, deployment credentials, signing keys — in build logs, environment variables accessible to build scripts, or artefact metadata. Secrets should be accessed through dedicated vault integrations that inject them at runtime without logging.",insight:"Pipeline secrets exposure is a common vulnerability. The exam tests that secrets must be managed through vault integrations in CI/CD — not stored as environment variables or hardcoded in pipeline scripts. A leaked CI/CD credential gives an attacker production access."},
+            {name:"Artefact signing",explain:"Build artefacts — container images, packages, compiled binaries — should be cryptographically signed using the organisation's signing key and the signature verified before deployment. Signing ensures that only artefacts built by the authorised pipeline are deployed, preventing tampering between build and deployment.",insight:"Artefact signing is a supply chain integrity control. The exam tests that the artefact deployed to production should be provably the same artefact that passed security testing. Unsigned artefacts can be tampered with between build and deployment."},
+            {name:"Deployment approval",explain:"Production deployments must require approval from authorised individuals — not just automated pipeline success. High-risk deployments should require security team sign-off in addition to development and operations approval. Approval workflows create accountability and a controlled deployment process.",insight:"Deployment approval is a change management control. The exam tests that automated pipeline success alone is not sufficient for production deployment — human approval for significant changes provides a final check and creates accountability."},
+          ]},
+          {label:"Infrastructure security", chips:[
+            {name:"Infrastructure as code security",explain:"IaC templates (Terraform, CloudFormation, Ansible) must be security-reviewed before use. IaC scanning tools check for misconfigurations — open security groups, unencrypted storage, overly permissive IAM policies. IaC changes should go through the same security review process as application code.",insight:"IaC is code and must be treated as code from a security perspective. The exam tests that IaC requires security review — not just functional review. A misconfigured IaC template that creates an open S3 bucket or overly permissive IAM role is a security vulnerability."},
+            {name:"Immutable infrastructure",explain:"Immutable infrastructure means deployed components are never modified after deployment — when a change is needed, a new version is built and deployed, replacing the old version entirely. This prevents configuration drift, ensures consistency between deployed instances, and simplifies security auditing.",insight:"Immutable infrastructure eliminates configuration drift. The exam tests that immutable infrastructure is a security principle — patching a running container is not consistent with immutable infrastructure, which requires rebuilding and redeploying the image."},
+          ]},
+        ]
+      },
+      {
+        label:"Environment and configuration security", color:"#9a5f22",
+        groups:[
+          {label:"Environment separation", chips:[
+            {name:"Environment segregation",explain:"Development, test, staging, and production environments must be segregated — separate networks, separate credentials, separate access controls. Production data must not be accessible from development or test environments. Production credentials must not be shared with lower environments.",insight:"Environment segregation prevents cross-contamination. The exam tests that production credentials in development environments are a security violation — developers with production access through shared credentials can accidentally or deliberately affect production."},
+            {name:"Production access controls",explain:"Production environment access must be strictly controlled — only operations and security teams with business need should have production access, all access must be logged and monitored, privileged access should use just-in-time provisioning, and developer production access should be restricted to break-glass emergency scenarios.",insight:"Developer production access is a risk. The exam tests that production access should be restricted and monitored. Developers who routinely access production to debug issues should have that need addressed through better observability tools, not standing production access."},
+            {name:"Configuration management",explain:"Configuration must be managed as code — stored in version control, reviewed before deployment, applied consistently, and auditable. Configuration drift between instances creates security inconsistency. Automated configuration management tools ensure all instances match the defined secure baseline.",insight:"Configuration drift is a security risk. The exam tests that configuration management must be automated to prevent instances diverging from the secure baseline. Manual configuration management at scale is error-prone and creates inconsistency."},
+          ]},
+          {label:"Hardening", chips:[
+            {name:"Application hardening",explain:"Application hardening removes unnecessary features and components, disables debug endpoints and development mode settings, removes default credentials, hardens error handling to prevent information disclosure, and configures security headers. Hardening reduces attack surface for deployed applications.",insight:"Hardening is a deployment activity, not a development activity. The exam tests that applications must be hardened for production — development convenience features (debug mode, verbose errors, default credentials) must be removed before deployment."},
+            {name:"Container hardening",explain:"Container hardening includes: using minimal base images (distroless or alpine), removing unnecessary tools and packages, running as a non-root user, making the filesystem read-only where possible, dropping Linux capabilities not required by the application, and implementing seccomp profiles.",insight:"Container hardening reduces the blast radius of container compromise. The exam tests container-specific hardening: non-root user, read-only filesystem, minimal base image. A container running as root with a full OS image has a much larger attack surface than a hardened container."},
+          ]},
+        ]
+      },
+      {
+        label:"Operations, monitoring and incident response", color:"#5a3010",
+        groups:[
+          {label:"Security monitoring", chips:[
+            {name:"Application security monitoring",explain:"Production applications must generate security-relevant log events that are forwarded to a centralised SIEM. Application security monitoring covers authentication events, authorisation failures, input validation failures, and unusual usage patterns that may indicate attack or abuse.",insight:"Application security monitoring requires the application to generate appropriate security events. The exam tests that monitoring is a software requirement — applications must be designed to produce the log events needed for security monitoring. Monitoring cannot be added to an application that does not log security events."},
+            {name:"Anomaly detection",explain:"Anomaly detection identifies unusual patterns in application behaviour — unexpected traffic volumes, unusual access patterns, logins from unexpected locations, or transactions that deviate from normal patterns. Machine learning and rule-based approaches identify anomalies that signature-based detection misses.",insight:"Anomaly detection catches novel attacks that signatures miss. The exam tests anomaly detection as a complement to signature-based detection — signatures catch known attack patterns; anomaly detection catches deviations from normal behaviour that may indicate unknown attacks."},
+            {name:"Runtime application monitoring",explain:"Runtime monitoring of production applications tracks performance metrics, error rates, and security events in real-time. Unusual error rate increases, unexpected resource consumption, and abnormal traffic patterns may indicate active attacks. Monitoring must be designed into the application, not added retrospectively.",insight:"Runtime monitoring requires application instrumentation. The exam tests that monitoring must be designed in — not added after deployment. An application with no logging or monitoring is effectively blind. Monitoring is a software requirement, not an operations afterthought."},
+          ]},
+          {label:"Incident response for software", chips:[
+            {name:"Software incident response",explain:"Incident response for software vulnerabilities includes: confirming the vulnerability and its exploitability, assessing impact and scope of exploitation, implementing immediate mitigations (WAF rules, feature flags, rate limiting), deploying a permanent fix, and conducting post-incident review.",insight:"Software incident response has software-specific steps. The exam tests that immediate mitigation of a software vulnerability may not involve patching — WAF rules and feature flags can provide temporary protection while a permanent fix is developed and tested."},
+            {name:"Emergency patching",explain:"Emergency patching for critical vulnerabilities requires accelerated testing and deployment procedures that maintain security control without the normal development timeline. Emergency changes still require approval and testing — just with compressed timelines. Changes that cannot be adequately tested should use alternative mitigations.",insight:"Emergency patching has a lower testing bar but not a zero testing bar. The exam tests that deploying an untested emergency patch to production can cause an outage — alternative mitigations should be used if the fix cannot be adequately tested in the available time."},
+          ]},
+        ]
+      },
+      {
+        label:"Maintenance, patching and EOL management", color:"#7C4A1A",
+        groups:[
+          {label:"Patch management", chips:[
+            {name:"Dependency tracking",explain:"All third-party dependencies must be tracked with current versions and known vulnerability status. Software Composition Analysis (SCA) tools continuously monitor dependencies against CVE databases and alert on new vulnerabilities. Dependency tracking is the foundation of patch management.",insight:"Dependency tracking is a prerequisite for patch management. The exam tests that you cannot manage what you cannot see — a complete, current inventory of dependencies with vulnerability status is required. SCA tools automate this tracking."},
+            {name:"Patch testing and deployment",explain:"Security patches must be tested in a representative non-production environment before production deployment. The test must verify that the patch addresses the vulnerability and does not break existing functionality. Patch deployment should be automated where possible to reduce time to remediation.",insight:"Patch testing prevents patch-induced outages. The exam tests that patches require testing even when urgency is high. A patch that breaks production functionality is an availability incident. The risk of the vulnerability is weighed against the risk of an untested patch."},
+            {name:"SLA compliance",explain:"Vulnerability remediation SLAs must be tracked and reported. Critical vulnerabilities must be remediated within defined timeframes. SLA breaches must be escalated with formal risk acceptance for vulnerabilities that cannot be remediated within the SLA. Unmeasured SLAs are unmanaged.",insight:"SLA compliance is a governance metric. The exam tests that SLAs must be tracked and breaches escalated — not silently accepted. SLA breach with formal risk acceptance is appropriate; SLA breach without visibility is a governance failure."},
+          ]},
+          {label:"EOL management", chips:[
+            {name:"EOL component strategy",explain:"Components approaching end of life must be replaced or upgraded before EOL occurs. Migration should be planned and resourced before the EOL date — not treated as an emergency when EOL arrives. The risk of continued use of EOL components must be documented and formally accepted if migration is delayed.",insight:"EOL management is proactive planning. The exam tests that EOL migration should begin before the EOL date — not after. Organisations that plan EOL migrations proactively avoid the emergency cost and risk of operating unsupported components."},
+            {name:"Legacy software risk",explain:"Legacy software that cannot be updated may require compensating controls — network isolation, WAF protection, enhanced monitoring, or application wrapping. Legacy software risk must be formally managed and reviewed regularly — not accepted indefinitely without reassessment.",insight:"Legacy software compensating controls are not permanent solutions. The exam tests that compensating controls for legacy software reduce but do not eliminate risk, and must be reviewed regularly. The goal is migration — compensating controls buy time, they do not resolve the underlying issue."},
+          ]},
+        ]
+      },
+    ],
+    traps:["Immutable containers are not patched — they are rebuilt and redeployed","Production secrets in development environments are a security violation","CI/CD pipeline compromise gives production access — pipelines are a critical attack surface","Emergency changes still require approval — just faster approval","Application monitoring must be designed in — it cannot be added to an application that does not log","EOL migration must begin before EOL — not after"],
+    connects:["Secure the pipeline","Sign artefacts","Harden before deploy","Monitor in production","Respond to incidents","Manage patches","Plan EOL migration"]
+  },
+  {
+    id:8, color:"#5C2A6B", pct:"11%", qs:"~14",
+    name:"Secure Software Supply Chain", short:"Supply Chain",
+    hook:"You inherit every vulnerability in every component you didn't write — and every line you did.",
+    clusters:[
+      {
+        label:"Third-party and open source risk", color:"#5C2A6B",
+        groups:[
+          {label:"Open source risk management", chips:[
+            {name:"Software Composition Analysis",explain:"SCA tools scan application dependencies and identify known vulnerabilities (CVEs), licence issues, and outdated components. SCA should be integrated into the CI/CD pipeline to catch vulnerable dependencies before deployment. SCA findings must be triaged and remediated like any other security finding.",insight:"SCA is the primary tool for managing open source risk. The exam tests SCA as a CI/CD pipeline integration — not just a periodic scan. Continuous SCA means new CVEs are detected as they are published, not weeks later during a scheduled scan."},
+            {name:"Software Bill of Materials",explain:"An SBOM is a formal, structured inventory of all software components — first-party and third-party — in an application, including versions and licensing. SBOMs enable rapid response to new vulnerabilities by identifying all affected applications. US executive orders and regulatory requirements increasingly mandate SBOMs.",insight:"SBOMs are becoming a regulatory requirement. The exam tests that SBOMs enable rapid impact assessment when a new vulnerability is published — if you have an SBOM, you can immediately identify which of your applications use the affected component."},
+            {name:"Licence compliance",explain:"Open source components carry licence obligations — some licences require that derivative works be open-sourced (copyleft), others require attribution, and some prohibit commercial use. Licence compliance must be assessed before adopting open source components and monitored as licences change.",insight:"Licence compliance is a legal risk as well as a security consideration. The exam tests that SCA tools should check licence compliance alongside vulnerability status. Using a GPL-licensed component in proprietary software without licence compliance creates legal exposure."},
+            {name:"Dependency confusion attacks",explain:"Dependency confusion attacks publish malicious packages to public repositories with names that match internal package names, exploiting package managers that prioritise public repositories. Attackers can cause organisations to download and execute malicious code masquerading as an internal package.",insight:"Dependency confusion is a specific supply chain attack vector. Prevention requires configuring package managers to only download internal packages from internal repositories (private scope, namespace reservation). The exam tests this as a concrete supply chain attack with specific mitigations."},
+          ]},
+          {label:"Component risk assessment", chips:[
+            {name:"Component vetting",explain:"Third-party components must be assessed before adoption: known vulnerabilities, maintenance status, contributor reputation, download volume (popular packages are better tested), security disclosures history, and whether the project has a published security policy.",insight:"Component vetting is a risk assessment activity. The exam tests that not all open source components are equal — a widely used, actively maintained component with a published security policy is lower risk than an obscure, unmaintained package with no security policy."},
+            {name:"Maintenance status",explain:"Components that are no longer maintained accumulate vulnerabilities with no patches available. Before adopting a component, its maintenance status must be assessed — last commit date, issue response rate, and whether it has active maintainers. EOL risk must be considered at adoption, not discovered later.",insight:"Maintenance status is a forward-looking risk. The exam tests that an unmaintained component is a long-term liability — it will accumulate vulnerabilities that will never be patched. Selecting maintained alternatives at adoption time is far preferable to migrating under emergency conditions later."},
+          ]},
+        ]
+      },
+      {
+        label:"Vendor and supplier management", color:"#4a2258",
+        groups:[
+          {label:"Vendor security requirements", chips:[
+            {name:"Security in contracts",explain:"Contracts with software vendors and suppliers must include security requirements — minimum security standards, breach notification timelines, audit rights, security testing requirements, vulnerability disclosure obligations, and requirements for providing SBOMs. Security requirements in contracts are enforceable; verbal assurances are not.",insight:"Contract security requirements are the primary enforcement mechanism for vendor security. The exam tests that verbal assurances from vendors are not adequate — enforceable contractual obligations with defined timelines and audit rights are required."},
+            {name:"Vendor security assessment",explain:"Vendors should be assessed for security maturity before contract award and periodically during the relationship. Assessments may include questionnaires (SOC 2, ISO 27001 certification), penetration test results, vulnerability management practices, and incident response capability.",insight:"Vendor security assessment is a procurement and ongoing management activity. The exam tests that vendor security is assessed before adoption — not just when an incident occurs. Periodic reassessment ensures ongoing assurance."},
+            {name:"Breach notification requirements",explain:"Contracts must specify the vendor's obligations to notify the organisation of security incidents affecting the organisation's data or software. Notification timelines must be specified — typically 24-72 hours for critical incidents. Vague 'prompt notification' language is insufficient.",insight:"Breach notification timelines must be specific. The exam tests that 'prompt notification' is not a sufficient contractual requirement — specific timeframes must be defined. Under GDPR, you have 72 hours to notify regulators; your vendor notification obligation must be shorter than this."},
+          ]},
+          {label:"Vendor access management", chips:[
+            {name:"Third-party access controls",explain:"Vendors and contractors accessing development systems, source code, or production environments require the same access controls as employees — least privilege, MFA, just-in-time access, session monitoring, and access reviews. Privileged vendor access must be managed through PAM solutions.",insight:"Vendor access is a significant insider threat risk. The exam tests that vendors with access to source code or production environments require the same access controls as privileged employees. Unmonitored vendor access to production systems is a high-risk configuration."},
+            {name:"Offboarding vendors",explain:"When a vendor relationship ends, all access must be revoked — accounts disabled, API keys rotated, SSH keys removed, credentials changed for any shared systems. Vendor access that persists after relationship termination is a significant security risk.",insight:"Vendor offboarding is as important as employee offboarding. The exam tests that vendor access revocation must be complete — all access methods, not just the primary account. Forgotten API keys and SSH keys from former vendors are a persistent access risk."},
+          ]},
+        ]
+      },
+      {
+        label:"Build integrity and signing", color:"#371650",
+        groups:[
+          {label:"Build pipeline security", chips:[
+            {name:"Secure build environment",explain:"Build environments must be hardened and isolated — separate from development environments, with minimal tools installed, access restricted to build processes, and monitored for unexpected behaviour. A compromised build environment can insert malicious code into any software it builds.",insight:"Build environment compromise is the highest-impact supply chain attack vector. The exam tests that build environments require the same security attention as production environments — they have production-equivalent impact through the software they produce."},
+            {name:"Reproducible builds",explain:"Reproducible builds produce bit-for-bit identical output from identical inputs, allowing verification that a binary was produced from the published source code. Reproducible builds enable independent verification and detect tampering in the build process.",insight:"Reproducible builds enable verification. The exam tests reproducible builds as a supply chain integrity control — if the binary does not match what a reproducible build from the same source produces, it has been tampered with. This detects attacks that insert malicious code after the build."},
+            {name:"Code signing",explain:"Code signing uses the organisation's private key to cryptographically sign build artefacts. Recipients verify the signature using the corresponding public key to confirm the artefact was produced by the organisation and has not been modified. Unsigned or invalidly signed artefacts should be rejected.",insight:"Code signing provides integrity and authenticity assurance for build artefacts. The exam tests code signing as the mechanism that ensures the software deployed is the software that was built. The security of code signing depends on the security of the signing key."},
+          ]},
+          {label:"Artefact management", chips:[
+            {name:"Artefact repository security",explain:"Artefact repositories (Nexus, JFrog, container registries) must be secured — access controls that prevent unauthorised upload, integrity verification of stored artefacts, scanning of stored artefacts for vulnerabilities, and audit logging of all access and changes.",insight:"Artefact repositories are a supply chain attack target. An attacker who can upload to your internal repository can inject malicious components that appear to be internal packages. Repository access controls and upload signing prevent this attack."},
+            {name:"Container image security",explain:"Container images in registries must be scanned for vulnerabilities before deployment. Images should be signed using container signing tools (Cosign, Notary). Only signed images from approved registries should be deployable to production. Unsigned images should be rejected by admission controllers.",insight:"Container image security requires both scanning (vulnerability management) and signing (integrity verification). The exam tests both — an image without known vulnerabilities but without a valid signature may have been tampered with. Both controls are required."},
+          ]},
+        ]
+      },
+      {
+        label:"Supply chain attacks and defences", color:"#5C2A6B",
+        groups:[
+          {label:"Attack patterns", chips:[
+            {name:"SolarWinds-style attacks",explain:"Supply chain attacks through trusted software updates — exemplified by the SolarWinds Orion compromise — insert malicious code into legitimate software updates. The attack exploits the trust organisations place in vendor updates. Defence requires verification of update integrity, anomaly detection in software behaviour, and zero trust network segmentation.",insight:"SolarWinds demonstrated that vendor software updates are a high-trust attack vector. The exam tests that vendor update trust must be supplemented by technical controls — integrity verification, anomaly detection for unusual software behaviour, and network segmentation that limits blast radius."},
+            {name:"Typosquatting",explain:"Typosquatting publishes malicious packages to public repositories with names that closely resemble legitimate packages — 'requets' instead of 'requests', 'nmap-python' instead of 'python-nmap'. Developers accidentally install the malicious package when they mistype the package name.",insight:"Typosquatting exploits developer error and inattention. Prevention requires exact package name verification, using private repositories with allowlisted packages, and SCA tools that detect unexpected new packages. The exam tests typosquatting as a concrete package repository attack."},
+            {name:"Compromised developer accounts",explain:"Developer accounts with access to source code repositories or package publishing are high-value targets. A compromised developer account can push malicious code or publish a compromised package version. MFA, access reviews, and code review requirements reduce the impact of a compromised developer account.",insight:"Developer account compromise is a supply chain attack vector. The exam tests that developer accounts require the same security controls as privileged accounts — MFA, monitoring, and review requirements. A developer who can push directly to main without review is a single point of supply chain compromise."},
+          ]},
+          {label:"Supply chain defences", chips:[
+            {name:"Trusted supplier programme",explain:"A trusted supplier programme defines criteria for approving software suppliers — security assessment requirements, SCA and SBOM requirements, security testing evidence, breach notification obligations, and regular reassessment. Only suppliers meeting the criteria are approved for use.",insight:"Trusted supplier programmes create a governance framework for supply chain risk. The exam tests that ad hoc vendor selection without security criteria is insufficient. A defined programme with measurable criteria creates consistent, auditable supply chain risk management."},
+            {name:"Zero trust for supply chain",explain:"Zero trust principles applied to supply chain mean that supplier software is not automatically trusted because it comes from an approved vendor — it is verified on receipt (signature verification, vulnerability scanning) and at deployment (admission controls). Trust is earned through verification, not assumed through relationship.",insight:"Zero trust for supply chain is an evolving but important concept. The exam tests that verification supplements trust — even software from a trusted vendor should be verified on receipt. The SolarWinds attack exploited the assumption that trusted vendor software was safe without verification."},
+            {name:"SLSA framework",explain:"Supply chain Levels for Software Artefacts (SLSA) is a framework for assessing and improving software supply chain security. It defines four levels of increasingly rigorous requirements for build integrity, source integrity, and provenance. SLSA provides a maturity model for supply chain security.",insight:"SLSA is an emerging standard that the CSSLP exam may reference. The key concept is provenance — knowing where software came from, how it was built, and by whom. Higher SLSA levels provide stronger guarantees about the integrity of the software supply chain."},
+          ]},
+        ]
+      },
+    ],
+    traps:["SBOM enables rapid impact assessment — it is not optional under emerging regulations","SCA must be continuous in CI/CD — periodic scans miss new CVEs between scans","Licence compliance is a legal risk, not just a security risk — check before adoption","Vendor breach notification timelines must be specific in contracts — 'prompt' is not adequate","Dependency confusion exploits package manager precedence — configure private scope correctly","Reproducible builds detect post-build tampering — not all supply chain attacks occur at build time"],
+    connects:["Inventory components","Assess vendors","Secure the build","Sign artefacts","Monitor dependencies","Respond to supply chain incidents"]
+  },
+];
+
+const FAQS = [
+  {
+    q:"What are the 8 CSSLP domains?",
+    a:"The 8 CSSLP domains are: Secure Software Concepts (10%), Secure Software Requirements (14%), Secure Software Architecture and Design (14%), Secure Software Implementation (14%), Secure Software Testing (14%), Secure Software Lifecycle Management (11%), Secure Software Deployment, Operations and Maintenance (12%), and Secure Software Supply Chain (11%). The four highest-weighted domains — Requirements, Architecture, Implementation, and Testing — each carry 14% of the exam and represent the core of the secure development lifecycle.",
+    note:"This tool covers all 8 domains in full — use the domain tabs above to explore each one."
+  },
+  {
+    q:"How hard is the CSSLP exam?",
+    a:"The CSSLP is a challenging certification aimed at experienced software developers and architects with security responsibilities. It uses computer adaptive testing and tests both conceptual understanding and practical application of secure development practices across the entire software lifecycle. Candidates without development experience find it significantly harder — the exam expects you to think like a developer who has internalised security, not a security professional who has read about development.",
+    note:"The Exam Traps section in each domain highlights the most common ways candidates answer incorrectly."
+  },
+  {
+    q:"CSSLP vs CISSP — which should I get?",
+    a:"The CSSLP is the right certification if you work in software development, software architecture, or application security. It tests deep knowledge of the secure software development lifecycle — from requirements through deployment and supply chain. The CISSP covers a much broader security management scope including physical security, network security, cryptography, and risk management at the CISO level. Many practitioners in application security roles hold both — CISSP for breadth, CSSLP for depth in software security. If your role is primarily development-focused, CSSLP is the more directly relevant credential.",
+    note:"If you are studying for both, the CISSP Mind Map and CCSP Mind Map are also available free at Actions On Cyber."
+  },
+  {
+    q:"How long does it take to study for CSSLP?",
+    a:"Most candidates study for 3 to 5 months. Experienced software developers who already practise secure development may need less time — the CSSLP validates and structures knowledge many practitioners already have. The most common gaps are in the governance and lifecycle management domains, which experienced developers sometimes underestimate because they are less technically focused. Every domain contributes to the exam — do not neglect the lifecycle, supply chain, and deployment domains in favour of the implementation domain.",
+    note:"The exam weighting is shown on each domain header in this tool — 14% domains deserve proportionally more study time."
+  },
+  {
+    q:"What are the CSSLP requirements?",
+    a:"The CSSLP requires a minimum of four years of cumulative paid work experience in one or more of the eight CSSLP domains. At least one year must be in software development or a related field. Candidates who do not yet meet the experience requirement can sit the exam and become Associates of ISC2, earning the full credential once the experience requirement is satisfied. An accredited degree in computer science or a related field can substitute for one year of experience.",
+    note:"ISC2 publishes the full experience requirements at isc2.org — verify current requirements directly with ISC2."
+  },
+  {
+    q:"Is the CSSLP worth it?",
+    a:"The CSSLP is valuable for software developers moving into security roles, application security engineers, and security architects. It demonstrates a structured understanding of secure development practices that goes beyond the OWASP Top 10. In organisations that take software security seriously — financial services, healthcare, government, and enterprise SaaS — CSSLP holders are sought after. The salary premium for CSSLP holders is consistently reported as significant. For career-focused application security professionals, it is one of the most directly relevant credentials available.",
+    note:"This free resource is one of the few comprehensive CSSLP study tools available — designed to support your preparation without the cost of expensive study materials."
+  },
+  {
+    q:"How do you pass the CSSLP exam?",
+    a:"The key mental shift for the CSSLP is thinking as a security-aware developer and architect — not as a security auditor testing someone else's code. The exam rewards answers that integrate security throughout the development lifecycle, apply security controls at the most effective point in the process, and balance security with development velocity. The most common mistake is approaching it as a management certification like the CISSP — the CSSLP expects practical knowledge of how to build secure software, not just governance principles. Study all 8 domains, understand the secure SDLC end to end, and practise applying concepts to development scenarios.",
+    note:"Every concept in this tool includes an Exam Insight — specifically written to explain how the concept is tested, not just what it means."
+  },
+  {
+    q:"What is CSSLP?",
+    a:"CSSLP stands for Certified Secure Software Lifecycle Professional. It is an advanced certification from ISC2 that validates expertise in integrating security practices throughout the entire software development lifecycle — from requirements and design through implementation, testing, deployment, and supply chain management. Unlike certifications that test security knowledge in the abstract, the CSSLP tests whether you can apply secure development practices as a practitioner — writing secure requirements, conducting threat modelling, implementing secure code, running security tests, and managing the supply chain. It is the gold standard credential for application security and secure development professionals.",
+    note:"Use the domain tabs above to explore all 8 CSSLP domains in depth — each with plain-English explanations and exam insights."
+  },
+  {
+    q:"What is CSSLP certification?",
+    a:"The CSSLP certification is an ISC2 credential covering 8 domains of the secure software development lifecycle: Secure Software Concepts (10%), Secure Software Requirements (14%), Secure Software Architecture and Design (14%), Secure Software Implementation (14%), Secure Software Testing (14%), Secure Software Lifecycle Management (11%), Secure Software Deployment, Operations and Maintenance (12%), and Secure Software Supply Chain (11%). Candidates require four years of relevant work experience — at least one year in software development — and must pass a computer adaptive exam. Those who pass without the required experience become Associates of ISC2 until the experience requirement is met.",
+    note:"This free tool covers all 8 CSSLP domains in full — the same depth as expensive study materials, at no cost."
+  }
+];
+
+let currentDomain = 1;
+let showFaq = false;
+let activeChip = null;
+
+function init(){
+  renderNav();
+  renderMain();
+}
+
+function renderNav(){
+  const nav = document.getElementById('domainNav');
+  nav.innerHTML = DOMAINS.map(d => {
+    const active = !showFaq && d.id===currentDomain;
+    return `
+    <div class="dnav-item ${active?'active':''}"
+         onclick="selectDomain(${d.id})"
+         style="${active?'background:'+d.color+';border-bottom-color:'+d.color:'border-bottom-color:'+d.color+'40'}">
+      <span class="dnav-num">Domain ${d.id}</span>
+      <span class="dnav-name">${d.short}</span>
+    </div>
+  `}).join('');
+}
+
+function selectDomain(id){
+  currentDomain = id;
+  showFaq = false;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.remove('active');
+  renderNav();
+  renderMain();
+}
+
+function toggleFaq(){
+  showFaq = !showFaq;
+  activeChip = null;
+  document.getElementById('faqBtn').classList.toggle('active', showFaq);
+  renderNav();
+  renderMain();
+}
+
+function renderMain(){
+  const mc = document.getElementById('mainContent');
+  if(showFaq){
+    mc.innerHTML = renderFaqView();
+    return;
+  }
+  const d = DOMAINS.find(x=>x.id===currentDomain);
+  mc.innerHTML = renderDomainView(d);
+}
+
+function renderDomainView(d){
+  const fiveCluster = d.clusters.length === 5;
+  return `
+    <div class="domain-hdr">
+      <div class="domain-hdr-left">
+        <div class="domain-num">Domain ${d.id} of 8</div>
+        <div class="domain-name">${d.name}</div>
+        <div class="domain-hook">${d.hook}</div>
+      </div>
+      <div class="domain-pct-block">
+        <div class="domain-pct" style="color:${d.color}">${d.pct}</div>
+        <div class="domain-pct-label">exam weight</div>
+        <div class="domain-pct-q" style="color:${d.color}">${d.qs} questions</div>
+      </div>
+    </div>
+    <div class="clusters-grid ${fiveCluster?'five':''}">
+      ${d.clusters.map(cl => `
+        <div class="cluster">
+          <div class="cluster-hdr" style="background:${cl.color}">${cl.label}</div>
+          <div class="cluster-body">
+            ${cl.groups.map(g => `
+              <div class="sg">
+                <div class="sg-label">${g.label}</div>
+                <div class="vchips">
+                  ${g.chips.map(c => `
+                    <div class="vchip ${activeChip && activeChip.name===c.name?'active':''}"
+                         onclick="selectChip(${d.id},'${c.name.replace(/'/g,"\\'").replace(/"/g,'&quot;')}','${cl.label.replace(/'/g,"\\'").replace(/"/g,'&quot;')}','${g.label.replace(/'/g,"\\'").replace(/"/g,'&quot;')}')">
+                      ${c.name}
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    ${activeChip ? renderDrawer(d) : ''}
+    <div class="traps-section">
+      <div class="traps-label"><span class="traps-dot"></span>Exam traps — what retakers get wrong</div>
+      <div class="traps-chips">
+        ${d.traps.map(t=>`<span class="trap-chip">${t}</span>`).join('')}
+      </div>
+    </div>
+    <div class="connects-section">
+      <div class="connects-label">How it all connects</div>
+      <div class="connects-flow">
+        ${d.connects.map((c,i)=>`
+          <span class="flow-chip">${c}</span>
+          ${i<d.connects.length-1?'<span class="flow-arr">→</span>':''}
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderDrawer(d){
+  const chip = activeChip;
+  const allChips = d.clusters.flatMap(cl=>cl.groups.flatMap(g=>g.chips));
+  const chipData = allChips.find(c=>c.name===chip.name);
+  if(!chipData) return '';
+  return `
+    <div class="explanation-drawer open">
+      <div class="ed-inner">
+        <button class="ed-close" onclick="closeDrawer()">✕ close</button>
+        <div class="ed-breadcrumb">${chip.cluster} · ${chip.group}</div>
+        <div class="ed-title">${chipData.name}</div>
+        <div class="ed-text">${chipData.explain}</div>
+        <div class="ed-insight">
+          <div class="ed-insight-label">Exam insight</div>
+          <div class="ed-insight-text">${chipData.insight}</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function selectChip(domainId, chipName, clusterLabel, groupLabel){
+  const decodedName = chipName.replace(/&quot;/g,'"');
+  const decodedCluster = clusterLabel.replace(/&quot;/g,'"');
+  const decodedGroup = groupLabel.replace(/&quot;/g,'"');
+  if(activeChip && activeChip.name===decodedName){
+    activeChip = null;
+  } else {
+    activeChip = {name:decodedName, cluster:decodedCluster, group:decodedGroup};
+  }
+  renderMain();
+  if(activeChip){
+    setTimeout(()=>{
+      const drawer = document.querySelector('.explanation-drawer');
+      if(drawer) drawer.scrollIntoView({behavior:'smooth',block:'nearest'});
+    },50);
+  }
+}
+
+function closeDrawer(){
+  activeChip = null;
+  renderMain();
+}
+
+function renderFaqView(){
+  return `
+    <div class="faq-view active">
+      <p class="faq-intro">Common questions about the CSSLP exam — answered practically, not generically. These answers target the search terms CSSLP candidates are actually using.</p>
+      ${FAQS.map((f,i)=>`
+        <div class="faq-item">
+          <div class="faq-q" id="fq${i}" onclick="toggleFaqItem(${i})">
+            ${f.q}
+            <span class="faq-chevron">▾</span>
+          </div>
+          <div class="faq-a" id="fa${i}">
+            ${f.a}
+            <div class="faq-seo-note">${f.note}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function toggleFaqItem(i){
+  const q = document.getElementById('fq'+i);
+  const a = document.getElementById('fa'+i);
+  q.classList.toggle('open');
+  a.classList.toggle('open');
+}
+
+init();
+</script>
+</body>
+</html>
