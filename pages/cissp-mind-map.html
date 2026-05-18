@@ -112,18 +112,69 @@
 <section class="section section-alt">
   <div class="container">
     <iframe
-      src="/cissp-mind-map.html"
+      id="cisspMindMapFrame"
+      src="/pages/cissp-mind-map-tool.html"
       width="100%"
-      height="1100"
+      height="780"
       frameborder="0"
-      scrolling="yes"
+      scrolling="no"
       title="CISSP Mind Map — All 8 Domains Interactive Study Tool"
       loading="lazy"
       class="cissp-iframe"
-      style="border:1px solid #e4e2da;border-radius:8px;display:block;max-width:980px;margin:0 auto;">
+      style="border:1px solid #e4e2da;border-radius:8px;display:block;max-width:980px;margin:0 auto;background:#fff;">
     </iframe>
+
+    <p class="small" style="text-align:center;margin-top:1rem;">
+      If the mind map does not load, open the
+      <a href="/pages/cissp-mind-map-tool.html">CISSP interactive mind map</a>
+      directly.
+    </p>
   </div>
 </section>
+
+<script>
+  function resizeCisspMindMapFrame() {
+    const iframe = document.getElementById("cisspMindMapFrame");
+    if (!iframe) return;
+
+    try {
+      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+      const height = Math.max(
+        iframeDocument.body.scrollHeight,
+        iframeDocument.documentElement.scrollHeight
+      );
+
+      iframe.style.height = Math.max(height + 16, 720) + "px";
+    } catch (error) {
+      iframe.style.height = "780px";
+    }
+  }
+
+  window.addEventListener("load", resizeCisspMindMapFrame);
+  window.addEventListener("resize", resizeCisspMindMapFrame);
+
+  const cisspFrame = document.getElementById("cisspMindMapFrame");
+
+  if (cisspFrame) {
+    cisspFrame.addEventListener("load", function () {
+      resizeCisspMindMapFrame();
+
+      try {
+        const iframeDocument = cisspFrame.contentDocument || cisspFrame.contentWindow.document;
+
+        iframeDocument.addEventListener("click", function () {
+          setTimeout(resizeCisspMindMapFrame, 120);
+        });
+
+        iframeDocument.addEventListener("keyup", function () {
+          setTimeout(resizeCisspMindMapFrame, 120);
+        });
+      } catch (error) {
+        // Keep fallback height if iframe access is unavailable.
+      }
+    });
+  }
+</script>
 
 <!-- FAQ -->
 <section class="section">
