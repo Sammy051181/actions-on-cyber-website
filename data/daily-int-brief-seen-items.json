@@ -524,9 +524,75 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-17T16:45:33.127486+01:00",
       "brief_slug": "2026-05-17-1645-today-s-sme-cyber-look-out-microsoft-365-device-code-phishing-account-takeover-i"
+    },
+    "0e138c761eb645b6": {
+      "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "0296f90943c06404": {
+      "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "6296797b8f857874": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "70e54c0073fa729f": {
+      "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "79b6f0e77988a6a0": {
+      "url": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "7645ab8ebf923e8e": {
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "source": "Krebs on Security",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "09f3cbbe2b2ae13d": {
+      "url": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-19T18:31:20.749205+01:00",
+      "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-",
+      "headline": "Today’s SMB cyber lookout: MFA-bypass phishing (Microsoft 365) and software supply‑chain traps",
+      "risk_level": "High",
+      "todays_lookout": "Phishing that bypasses MFA + compromised developer tooling and cloud/CI secrets",
+      "published_at": "2026-05-19T18:31:20.749205+01:00",
+      "published_label": "Tuesday 19 May 2026, 18:31 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+        "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+        "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+        "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+        "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+        "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+        "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/"
+      ]
+    },
     {
       "slug": "2026-05-17-1645-today-s-sme-cyber-look-out-microsoft-365-device-code-phishing-account-takeover-i",
       "headline": "Today’s SME cyber look‑out: Microsoft 365 device‑code phishing (account takeover) + “in the wild” NGINX exploitation risk",

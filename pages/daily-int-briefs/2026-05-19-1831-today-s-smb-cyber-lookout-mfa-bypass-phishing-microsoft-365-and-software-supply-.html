@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: MFA-bypass phishing (Microsoft 365) and software supply‑chain traps | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: MFA-bypass phishing (Microsoft 365) and software supply‑chain traps</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 19 May 2026, 18:31 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Phishing that bypasses MFA + compromised developer tooling and cloud/CI secrets
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Keep an eye out for two themes that can hit smaller organisations quickly:</p>
+<ul>
+  <li><strong>Phishing that “passes” MFA</strong> by tricking users into approving sign-ins or app access (including prompts to use <em>device login</em> flows and OAuth consent screens).</li>
+  <li><strong>Supplier/developer supply‑chain risk</strong>: compromised GitHub Actions, malicious npm packages, and a tampered VS Code extension aimed at stealing credentials/tokens used in CI/CD and cloud services.</li>
+  <li><strong>Breach ripple effects</strong>: a large retailer (7‑Eleven) has confirmed a breach claimed by an extortion group, which often leads to copycat phishing and supplier impersonation attempts.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>“We have MFA” isn’t the end of the story</strong>. If a user is tricked into approving access, attackers may get mail access, set up forwarding rules, or register their own access without needing the password again.</li>
+  <li><strong>Outsourced IT and SaaS dependencies</strong> mean one stolen admin token, API key, or mailbox session can cascade into payroll fraud, invoice diversion, data theft, and ransomware preparation.</li>
+  <li><strong>If you use an agency/MSP or have in‑house developers</strong>, a compromised build step (e.g., GitHub Actions or npm) can leak secrets that unlock cloud accounts, backups, or production systems.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Users report unexpected messages asking them to “verify”, “secure your account”, or “complete sign-in” using a short code/device login flow.</li>
+  <li>Unexpected prompts to approve access for an app you don’t recognise (OAuth consent) or unusual MFA prompts when not signing in.</li>
+  <li>Mailbox oddities: new forwarding rules, unexpected “sent” items, or complaints that staff emails look unusual.</li>
+  <li>Developer/IT signs: sudden CI/CD failures, workflow changes no one owns, secrets/tokens rotated unexpectedly, or unusual outbound connections during builds.</li>
+  <li>Increased “supplier breach” emails/texts referencing known brands (e.g., large retailers) to push staff into clicking links or resetting passwords.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>MFA-bypass phishing</strong>: attackers nudge staff to complete a legitimate-looking sign-in step and approve access, then use that session/token to access Microsoft 365 data.</li>
+  <li><strong>Business email compromise (BEC)</strong>: once inside a mailbox, attackers may watch invoice conversations, change bank details, or request urgent payments.</li>
+  <li><strong>Supply-chain credential theft</strong>: compromised GitHub Actions, poisoned npm packages, or a tampered VS Code extension can harvest API keys, cloud credentials, SSH keys, and tokens—then attackers use those to move into your cloud, backups, or customer data stores.</li>
+  <li><strong>Follow-on extortion</strong>: stolen data and admin access can be used to pressure payment, even without traditional ransomware encryption.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff in 3 sentences</strong>: “Don’t approve unexpected sign-in/app permission prompts. Don’t follow ‘device login’ instructions from emails/texts. Report anything that asks for urgent account verification.”</li>
+  <li><strong>Check Microsoft 365 basics</strong>: confirm MFA prompts and app-consent requests are monitored; review recent suspicious sign-ins and any new mailbox forwarding rules (especially for finance users).</li>
+  <li><strong>Protect payments</strong>: remind finance that bank detail changes must be verified via a known phone number (not the one in the email).</li>
+  <li><strong>If you build software or use an agency/MSP</strong>: ask for confirmation they are reviewing GitHub Actions usage, npm dependency hygiene, and developer workstation/extension controls after recent supply-chain compromises.</li>
+  <li><strong>Token hygiene</strong>: rotate high-value credentials (finance mailboxes, shared admin accounts, CI/CD secrets) if you see any suspicious prompts or unexplained workflow changes.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are you monitoring for <strong>OAuth consent grants</strong> and unusual sign-ins in Microsoft 365, and do we get alerted for suspicious approvals?</li>
+  <li>Do we have controls to <strong>block or limit mailbox auto-forwarding</strong> and detect new forwarding rules for finance and senior staff?</li>
+  <li>If we use GitHub/CI/CD: are workflows pinned and reviewed, and do you have a process to respond to <strong>compromised GitHub Actions tags</strong>?</li>
+  <li>How are developer/admin <strong>secrets stored and rotated</strong> (tokens, API keys), and do you scan for leaked credentials in code repos?</li>
+  <li>Do you have a standard playbook for suspected <strong>business email compromise</strong> (freeze payments, check rules, revoke sessions, reset credentials, preserve evidence)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch item is the main story today. The bigger takeaway is to reduce reliance on “patching fixes it” by tightening identity controls (app consent and sign-in monitoring) and reviewing software supply-chain exposure (CI/CD workflows, dependencies, and developer tooling).</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “If you get an unexpected Microsoft sign-in/app permission prompt or a message telling you to enter a code at a Microsoft login page, stop and report it—do not approve it.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Business Email Compromise (BEC) &amp; invoice fraud prevention quick checks</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html" rel="noopener noreferrer">The New Phishing Click: How OAuth Consent Bypasses MFA</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html" rel="noopener noreferrer">Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/" rel="noopener noreferrer">New Shai-Hulud malware wave compromises 600 npm packages</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/" rel="noopener noreferrer">Leaked Shai-Hulud malware fuels new npm infostealer campaign</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html" rel="noopener noreferrer">Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" rel="noopener noreferrer">CISA Admin Leaked AWS GovCloud Keys on Github</a> <span class="muted">(Krebs on Security)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/" rel="noopener noreferrer">7-Eleven confirms data breach claimed by the ShinyHunters gang</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
