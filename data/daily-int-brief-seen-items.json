@@ -573,9 +573,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-19T18:31:20.749205+01:00",
       "brief_slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-"
+    },
+    "7a3ef8c14d5f3158": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "a123ac6ede81b41d": {
+      "url": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "2b1be78b41c23e24": {
+      "url": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "1d6d4753038eb57e": {
+      "url": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "52abfdbd0922c46f": {
+      "url": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "3f9d892ce16e3947": {
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
+      "title": "Drupal critical update to fix bug with high exploitation risk",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-20T19:02:43.383905+01:00",
+      "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365/Azure account abuse and supply-chain ripple risks",
+      "risk_level": "High",
+      "todays_lookout": "Cloud identity abuse and supplier/supply-chain knock-on scams",
+      "published_at": "2026-05-20T19:02:43.383905+01:00",
+      "published_label": "Wednesday 20 May 2026, 19:02 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+        "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+        "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+        "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+        "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/"
+      ]
+    },
     {
       "slug": "2026-05-19-1831-today-s-smb-cyber-lookout-mfa-bypass-phishing-microsoft-365-and-software-supply-",
       "headline": "Today’s SMB cyber lookout: MFA-bypass phishing (Microsoft 365) and software supply‑chain traps",

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Microsoft 365/Azure account abuse and supply-chain ripple risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Microsoft 365/Azure account abuse and supply-chain ripple risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 20 May 2026, 19:02 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud identity abuse and supplier/supply-chain knock-on scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is <strong>trust being abused</strong>: attackers using legitimate Microsoft 365/Azure features to steal data, and criminals attempting to make malware look trustworthy by getting it “signed”. At the same time, supplier and developer-tool incidents remind us that breaches can ripple into customers via tokens, extensions, and third-party components.</p>
+<ul>
+  <li><strong>Microsoft 365/Azure data-theft attempts</strong> that leverage legitimate apps and admin features (including password reset/self-service flows).</li>
+  <li><strong>“Signed” malware and ransomware delivery</strong>: Microsoft says it disrupted a service that abused its signing platform to help criminals make malware appear legitimate.</li>
+  <li><strong>Supplier/dev-tool knock-on risk</strong>: GitHub reports thousands of repos breached via a malicious VS Code extension; Grafana attributes its breach to a missed token rotation after a supply-chain incident.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on Microsoft 365, cloud admin tools, and third-party SaaS. If attackers can gain access using normal-looking sign-ins, “approved” apps, or trusted-looking signed files, it can bypass the usual gut-checks staff and even IT teams rely on. Separately, supplier incidents can drive follow-on scams (fake support calls, “we need you to re-auth” emails) and can also expose credentials/tokens that grant access to business data.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>password reset</strong> or account recovery notifications, especially for admin or finance users.</li>
+  <li>New or unusual <strong>consent prompts</strong> for Microsoft 365 apps (e.g. an app requesting broad access to mail/files).</li>
+  <li>Unfamiliar <strong>sign-in locations</strong>, impossible travel alerts, or sign-ins at odd hours.</li>
+  <li>Staff receiving “Microsoft/IT support” messages urging urgent action to “restore access”, “re-verify”, or “approve a login”.</li>
+  <li>Reports of new developer tools/extensions installed without a clear business need (especially on machines that can access code, scripts, or production admin consoles).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Account takeover and data theft</strong> by abusing legitimate Microsoft 365/Azure applications and administrative features, making activity blend in with normal operations.</li>
+  <li><strong>Social engineering follow-ups</strong> after widely reported cloud/supplier news: attackers impersonate vendors to trick staff into sharing MFA codes, approving prompts, or granting app access.</li>
+  <li><strong>False sense of safety</strong> from “signed” files: criminals try to make malware appear trustworthy to users and some security controls.</li>
+  <li><strong>Supply-chain entry points</strong> via tokens, extensions, or third-party scripts/components that can be abused to reach internal systems or data.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (5 minutes)</strong>: no one should approve unexpected MFA prompts, password resets, or app consent requests. Route to IT via a known contact method.</li>
+  <li><strong>Check Microsoft 365 for risky changes</strong>: newly consented apps, new admin accounts, and unusual sign-ins (prioritise admins and finance).</li>
+  <li><strong>Reduce extension and tooling risk</strong>: ensure only approved browser/VS Code extensions are allowed on work devices used for admin, finance, or production access.</li>
+  <li><strong>Token/secret hygiene</strong>: confirm any shared admin accounts and automation tokens are tracked, rotated, and least-privilege.</li>
+  <li><strong>Prepare for supplier-themed scams</strong>: remind reception/helpdesk/finance how to verify vendor contacts and requests.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>How are we monitoring for <strong>unusual Microsoft 365/Azure sign-ins</strong> and <strong>new app consents</strong> (especially high-privilege permissions)?</li>
+  <li>Do we have <strong>MFA-resistant controls</strong> for admin accounts (and are we blocking repeated push prompts or risky sign-in patterns)?</li>
+  <li>What’s our policy for <strong>developer tools and extensions</strong> (VS Code, browser add-ons) on work devices—can we restrict to an allow-list?</li>
+  <li>How do we manage and rotate <strong>automation tokens/secrets</strong> and ensure old tokens are invalidated after incidents or supplier alerts?</li>
+  <li>If a supplier breach affects us, what is our <strong>playbook</strong> (who is notified, what gets reset, what logs are checked)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your website or intranet runs on Drupal, pay attention to today’s announced core security release and plan a prompt, controlled update window. The key SME focus is business disruption: rapid public attention around major platforms can increase opportunistic scanning and break-in attempts shortly after releases.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “Do not approve unexpected Microsoft login/MFA or app permission prompts—report them to IT immediately,” and ask IT to review newly consented Microsoft 365 apps for admin and finance users.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Microsoft 365 account takeover: quick checks for owners and office managers”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/" rel="noopener noreferrer">Microsoft Self-Service Password Reset abused in Azure data theft attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/" rel="noopener noreferrer">Cybercrime service disrupted for abusing Microsoft platform to sign malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html" rel="noopener noreferrer">Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/" rel="noopener noreferrer">GitHub confirms breach of 3,800 repos via malicious VSCode extension</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/" rel="noopener noreferrer">Grafana breach caused by missed token rotation after TanStack attack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/" rel="noopener noreferrer">Drupal critical update to fix bug with high exploitation risk</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
