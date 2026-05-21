@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: VPN access (SonicWall) and stolen logins feeding ransomware | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: VPN access (SonicWall) and stolen logins feeding ransomware</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 21 May 2026, 18:20 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access takeover and follow-on ransomware disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Remote access/VPN compromise leading to ransomware.</strong> Reporting highlights attackers targeting SonicWall Gen6 SSL-VPNs, using brute-forced credentials and an MFA bypass scenario where patching was incomplete, then deploying tools commonly associated with ransomware intrusions.</p>
+<p><strong>2) Stolen account credentials being reused.</strong> A law-enforcement case underscores how infostealer activity can result in large volumes of stolen accounts that later get reused for email, SaaS and remote access logins.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>VPN and remote access are “front doors”.</strong> If your VPN is compromised, attackers can often reach file servers, finance systems, shared drives and backups.</li>
+  <li><strong>Ransomware is usually a chain of small failures.</strong> Password reuse, weak monitoring, and gaps in MFA/patching can combine into a major outage.</li>
+  <li><strong>Infostealer fallout hits SMEs hard.</strong> Even if the original malware infection was on a single laptop, the stolen browser passwords and session tokens can enable later account takeover.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected VPN login prompts, lockouts, or repeated MFA requests reported by staff.</li>
+  <li>VPN logins at unusual times, from unusual locations, or for dormant/leaver accounts.</li>
+  <li>Sudden creation of new admin users, new remote access accounts, or changes to security settings.</li>
+  <li>Unexplained endpoint security alerts, new “remote support” tools appearing, or disabled security controls.</li>
+  <li>Users reporting their email or Microsoft 365/Google account “signed out everywhere” or password reset messages they didn’t initiate.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Password guessing / credential stuffing</strong> against VPN accounts, especially where passwords are reused.</li>
+  <li><strong>MFA bypass opportunities</strong> where devices are not fully patched or where MFA is misapplied (e.g., not enforced for all users, service accounts, or certain login paths).</li>
+  <li><strong>Use of stolen credentials from infostealers</strong> to log into email/SaaS, then pivot into finance workflows (invoice fraud) or into IT admin panels (for wider disruption).</li>
+  <li><strong>Ransomware playbook</strong>: gain access → expand permissions → disable/evade security → exfiltrate data → encrypt systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm who owns VPN security checks today</strong> (internal IT or MSP) and ensure there is active monitoring for repeated failed logins and unusual geo/time access.</li>
+  <li><strong>Review VPN accounts</strong>: remove leavers, disable unused accounts, and ensure admin access is tightly limited.</li>
+  <li><strong>Reset passwords where risk is suspected</strong> (especially any accounts reused across services). Prioritise VPN, email and admin accounts.</li>
+  <li><strong>Harden MFA usage</strong>: ensure MFA is enforced for all VPN users and administrators, with clear exception handling and documentation.</li>
+  <li><strong>Rehearse your “ransomware first hour” steps</strong>: who to call, how to isolate devices, and how to keep trading (phones, email, payments).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we using SonicWall SSL-VPN (Gen6), and if so <strong>have we verified patching is complete</strong> and consistent across the estate?</li>
+  <li>Do we have <strong>alerting for brute-force attempts</strong> and automatic blocking/lockout tuned to avoid easy abuse?</li>
+  <li>Is <strong>MFA enforced for every VPN user</strong> (including admins) and are there any exceptions or alternate login paths?</li>
+  <li>What logs are retained for VPN access, and for how long? Who reviews them and how quickly?</li>
+  <li>If a VPN account is suspected compromised, what is the exact containment runbook (disable account, isolate device, revoke sessions, check for persistence)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you rely on SonicWall SSL-VPN, today’s reporting is a reminder to verify that security updates are not just “applied” but <strong>complete and consistent</strong> across devices and configurations; partial or delayed rollouts can leave gaps attackers can exploit.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for a written confirmation of VPN MFA enforcement and a check of the last 7 days of VPN login attempts for brute-force patterns and unusual access.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Ransomware readiness checklist (first hour actions + backup and access controls)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/" rel="noopener noreferrer">Hackers bypass SonicWall VPN MFA due to incomplete patching</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/" rel="noopener noreferrer">Ukraine identifies infostealer operator tied to 28,000 stolen accounts</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

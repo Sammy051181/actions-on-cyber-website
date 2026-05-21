@@ -615,9 +615,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-20T19:02:43.383905+01:00",
       "brief_slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-"
+    },
+    "d0304851c0fa2e4c": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+      "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-21T18:20:54.651462+01:00",
+      "brief_slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar"
+    },
+    "d55b7ff19466d6e0": {
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-21T18:20:54.651462+01:00",
+      "brief_slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar",
+      "headline": "Today’s SMB cyber brief: VPN access (SonicWall) and stolen logins feeding ransomware",
+      "risk_level": "High",
+      "todays_lookout": "Remote access takeover and follow-on ransomware disruption",
+      "published_at": "2026-05-21T18:20:54.651462+01:00",
+      "published_label": "Thursday 21 May 2026, 18:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+        "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/"
+      ]
+    },
     {
       "slug": "2026-05-20-1902-smb-cyber-intelligence-brief-microsoft-365-azure-account-abuse-and-supply-chain-",
       "headline": "SMB Cyber Intelligence Brief: Microsoft 365/Azure account abuse and supply-chain ripple risks",
