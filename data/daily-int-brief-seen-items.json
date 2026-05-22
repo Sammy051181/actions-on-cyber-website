@@ -629,9 +629,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-21T18:20:54.651462+01:00",
       "brief_slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar"
+    },
+    "164e10eb420140f1": {
+      "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+      "title": "Former US execs plead guilty to aiding tech support scammers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-22T17:11:50.170799+01:00",
+      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
+    },
+    "d3307a1a85256870": {
+      "url": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
+      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-22T17:11:50.170799+01:00",
+      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
+    },
+    "344faee60a6d59cd": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
+      "title": "Chinese hackers target telcos with new Linux, Windows malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-22T17:11:50.170799+01:00",
+      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
+    },
+    "d5b77950a9cdc89d": {
+      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "title": "When Identity is the Attack Path",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-22T17:11:50.170799+01:00",
+      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
+    },
+    "b91bc3df1bf2192a": {
+      "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
+      "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-22T17:11:50.170799+01:00",
+      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t",
+      "headline": "Today’s SMB cyber brief: tech support scams, identity-led break-ins, and security tool risk",
+      "risk_level": "High",
+      "todays_lookout": "Tech support scam calls + identity/account takeover paths + endpoint security supplier risk",
+      "published_at": "2026-05-22T17:11:50.170799+01:00",
+      "published_label": "Friday 22 May 2026, 17:11 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+        "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
+        "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
+        "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+        "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar",
       "headline": "Today’s SMB cyber brief: VPN access (SonicWall) and stolen logins feeding ransomware",
