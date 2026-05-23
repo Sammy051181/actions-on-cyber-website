@@ -699,9 +699,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-05-22T22:00:58.541118+01:00",
       "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
+    },
+    "ba1db87086c60df5": {
+      "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-23T12:41:48.000438+01:00",
+      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
+    },
+    "bb5e870eb4ecc50d": {
+      "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-23T12:41:48.000438+01:00",
+      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
+    },
+    "4ce8ff58dc508aa5": {
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
+      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-23T12:41:48.000438+01:00",
+      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat",
+      "headline": "SMB Cyber Intelligence Brief — Supply‑chain tampering and active website exploitation risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and developer supply‑chain risk (packages, GitHub, website platforms)",
+      "published_at": "2026-05-23T12:41:48.000438+01:00",
+      "published_label": "Saturday 23 May 2026, 12:41 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+        "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and",
       "headline": "Today’s SMB cyber lookout: leaked cloud credentials, ‘trusted platform’ phishing, and supplier disruption noise",
