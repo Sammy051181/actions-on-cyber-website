@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: software supply-chain risk via third‑party packages | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: software supply-chain risk via third‑party packages</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 23 May 2026, 21:10 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS risk – compromised open‑source packages and build pipeline exposure
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Heightened risk of <strong>malicious or tampered open-source packages</strong> entering websites, apps, integrations and internal tools via normal developer workflows (Composer/Packagist and JavaScript tooling). If you rely on a web agency, outsourced developers, or an MSP that builds/maintains software for you, this is relevant even if you don’t “write code” in-house.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li>SMEs often depend on <strong>third-party websites, plugins, and integrations</strong> that are updated frequently.</li>
+  <li>A single compromised dependency can lead to <strong>website compromise, data theft, credential capture, or server infection</strong>, which then creates downtime and incident cost.</li>
+  <li>Even charities and schools can be affected if their suppliers pull in compromised packages during routine maintenance.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected website or application behaviour shortly after an update or “minor maintenance”.</li>
+  <li>New or unfamiliar background processes on Linux servers, or unexplained spikes in CPU/network usage.</li>
+  <li>Build/deployment pipelines behaving oddly (new steps, unusual downloads during builds, or new outbound connections).</li>
+  <li>Suppliers reporting they need to “urgently roll back” a release without a clear explanation.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li>Compromise or publish malicious packages that get <strong>pulled into builds automatically</strong> by developers, agencies, or CI/CD systems.</li>
+  <li>Hide malicious changes in less-scrutinised places so the dependency appears normal at first glance.</li>
+  <li>Abuse the trust chain: once inside a build, malware can end up on <strong>production servers</strong> or inside deployed web apps.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Ask your website/app supplier</strong> (or internal dev lead) if they use Packagist/Composer and JavaScript build tooling, and what checks they have for dependency tampering.</li>
+  <li><strong>Pause “non-essential” releases</strong> if you can’t validate dependencies today, especially for public-facing web apps.</li>
+  <li>Ensure you have a <strong>known-good rollback</strong> (backups + deployment artefacts) for your website and key services.</li>
+  <li>If you outsource development: request written confirmation that any impacted dependencies have been checked and that builds are not pulling unexpected binaries or downloads.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an inventory of our <strong>critical applications</strong> and who maintains them (internal vs agency vs MSP)?</li>
+  <li>What controls do we use to prevent compromised dependencies entering production (e.g. approvals, locking/allowlisting, scanning, or controlled registries)?</li>
+  <li>Can we quickly identify <strong>what changed</strong> in the last release (dependencies, build steps, deployment artefacts)?</li>
+  <li>If we suspect a supply-chain issue, what is our <strong>containment plan</strong> (freeze deployments, rotate secrets, rebuild from clean sources, monitor servers)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>One positive change: npm has introduced stronger publishing and install controls that require a human maintainer to pass a two-factor authentication challenge to approve releases (staged publishing). If you develop software or maintain web applications, it’s worth checking whether your teams and suppliers are adopting these safer publishing/approval workflows.</p>
+
+        <h2>One action today</h2>
+        <p>Contact whoever maintains your website/app today and ask them to confirm they have checked for compromised third-party dependencies in recent builds (especially Packagist/Composer and JavaScript tooling) and that they can roll back quickly if needed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier Security Checklist (questions to ask your MSP/web agency about updates, access, and incident response)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html" rel="noopener noreferrer">Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html" rel="noopener noreferrer">npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
