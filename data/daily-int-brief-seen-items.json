@@ -783,9 +783,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-23T21:10:58.435256+01:00",
       "brief_slug": "2026-05-23-2110-today-s-smb-cyber-lookout-software-supply-chain-risk-via-third-party-packages"
+    },
+    "5b14eff211fa37d8": {
+      "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-24T12:52:01.992373+01:00",
+      "brief_slug": "2026-05-24-1252-supply-chain-alert-laravel-package-hijack-could-lead-to-credential-theft"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-24-1252-supply-chain-alert-laravel-package-hijack-could-lead-to-credential-theft",
+      "headline": "Supply chain alert: Laravel package hijack could lead to credential theft",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS risk and developer dependency compromise",
+      "published_at": "2026-05-24T12:52:01.992373+01:00",
+      "published_label": "Sunday 24 May 2026, 12:52 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
+      ]
+    },
     {
       "slug": "2026-05-23-2110-today-s-smb-cyber-lookout-software-supply-chain-risk-via-third-party-packages",
       "headline": "Today’s SMB cyber lookout: software supply-chain risk via third‑party packages",
