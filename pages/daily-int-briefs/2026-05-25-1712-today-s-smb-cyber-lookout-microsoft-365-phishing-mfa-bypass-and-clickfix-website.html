@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 phishing (MFA bypass) and “ClickFix” website traps | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 phishing (MFA bypass) and “ClickFix” website traps</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 25 May 2026, 17:12 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover phishing and website-injected “ClickFix” scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two themes to brief staff and check controls against today:</p>
+<ul>
+  <li><strong>Microsoft 365 account takeover phishing</strong> being sold as a service (PhaaS) — including techniques designed to <strong>bypass MFA</strong> by tricking users during sign-in flows.</li>
+  <li><strong>“ClickFix” style attacks</strong> where compromised websites inject prompts that try to convince users to “fix” something by following steps that lead to malware or credential theft.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Email compromise leads to invoice fraud.</strong> If attackers get into a mailbox, they can watch for invoices, change bank details, and reply in-thread convincingly.</li>
+  <li><strong>Microsoft 365 is a single point of failure.</strong> A stolen M365 session can expose email, OneDrive/SharePoint documents, Teams chats, and customer data.</li>
+  <li><strong>“ClickFix” targets non-technical staff.</strong> It relies on social engineering rather than hacking skills, so it can spread quickly through normal browsing.</li>
+  <li><strong>Supply-chain ripple effects.</strong> Even if your organisation isn’t targeted directly, a compromised supplier website or a commonly used website platform can become the delivery mechanism.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected sign-in prompts that mention <strong>“device code”, “pairing”, “approve sign-in”,</strong> or instructions to enter a code on a Microsoft page when you weren’t trying to sign in.</li>
+  <li>MFA prompts that arrive <strong>out of the blue</strong>, or staff reporting “I had to do something different to log in today”.</li>
+  <li>Browser pop-ups or website banners claiming: <strong>“Security check failed”, “Update required”, “Verification needed”, “Click to fix”</strong> — especially if they instruct copying/pasting, running steps, or downloading something.</li>
+  <li>New email rules, auto-forwarding, or “deleted items” activity a user can’t explain.</li>
+  <li>Customers/suppliers receiving strange emails from your staff that they weren’t expecting.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Phishing-as-a-service (PhaaS)</strong> lowers the barrier: attackers can rapidly launch realistic M365 login pages and workflows at scale.</li>
+  <li>Some M365 phishing services abuse authentication flows to <strong>capture session tokens</strong> so attackers can access accounts even where MFA is enabled.</li>
+  <li>Compromised websites can inject scripts that push users into <strong>“ClickFix”</strong> actions — making the victim do the risky part themselves.</li>
+  <li>Once inside email, criminals often aim for <strong>payment diversion</strong> (changing bank details) and <strong>data theft</strong> (contracts, payroll, customer lists).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff message</strong>: “If a login asks for a device code/pairing you didn’t start, or a website asks you to ‘ClickFix’ something, stop and report it.”</li>
+  <li><strong>Check for mailbox tampering</strong> on key accounts (finance, directors, shared inboxes): forwarding rules, inbox rules, new delegates, and suspicious sign-in patterns.</li>
+  <li><strong>Tighten payment process</strong>: mandate call-back verification (using known numbers) for any change of bank details or urgent payment request — even if the email thread looks genuine.</li>
+  <li><strong>Make reporting easy</strong>: ensure staff know exactly how to report suspicious emails/pop-ups (shared mailbox, IT ticket, or the “Report phishing” button).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>conditional access</strong> and sign-in risk alerts enabled for Microsoft 365, and who monitors them?</li>
+  <li>Can we <strong>block or reduce risky sign-in methods</strong> and enforce stronger MFA where possible for finance/admin accounts?</li>
+  <li>Do we alert on <strong>new mailbox forwarding rules</strong>, new inbox rules, and suspicious OAuth/app consent activity?</li>
+  <li>If a user reports a “ClickFix” pop-up, what is the <strong>immediate triage playbook</strong> (isolate device, check browser extensions, credential reset, token revocation, log review)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation (or your web agency) uses <strong>Ghost CMS</strong>, there are reports of a live campaign exploiting a SQL injection flaw (CVE-2026-26980) to compromise sites and push “ClickFix” lures. This is mainly a risk for businesses running their own websites: ask whoever manages your site to confirm whether Ghost is used anywhere, and whether mitigations/updates have been applied.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal warning today: “Never enter device/pairing codes you didn’t request, and never follow ‘ClickFix’ instructions from a website pop-up—report it to IT immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Invoice fraud &amp; bank detail change verification (call-back process)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/" rel="noopener noreferrer">FBI warns of Kali365 phishing service targeting Microsoft 365 accounts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/" rel="noopener noreferrer">Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html" rel="noopener noreferrer">Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/" rel="noopener noreferrer">2 PhaaS 2 Furious: The Evolution of Chinese-language Phishing Services</a> <span class="muted">(Google Threat Intelligence)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
