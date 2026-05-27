@@ -874,9 +874,75 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-26T19:07:56.270537+01:00",
       "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
+    },
+    "6c3dd8f254d63f80": {
+      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "d4c1566adb33ca10": {
+      "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "7f2826815512ed17": {
+      "url": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+      "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "f07ffdd26ec3ee0f": {
+      "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+      "title": "Charter confirms data breach after ShinyHunters extortion threat",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "636e8aef2171b22a": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
+      "title": "FBI warns of in-person data theft attacks from extortion gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "b0357bab491ea2f2": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
+      "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "715bedbcfc42f741": {
+      "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-27T19:09:22.109578+01:00",
+      "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he",
+      "headline": "SMB Cyber Intelligence Brief: supply-chain traps, banking trojans, and AI-driven “helpful” malware links",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and social-engineering scams (developer supply chain, AI chatbot links, banking malware)",
+      "published_at": "2026-05-27T19:09:22.109578+01:00",
+      "published_label": "Wednesday 27 May 2026, 19:09 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+        "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+        "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+        "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+        "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
+        "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html"
+      ]
+    },
     {
       "slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i",
       "headline": "Today’s SME cyber brief: breach-driven impersonation scams and smarter phishing (including MFA push fatigue)",
