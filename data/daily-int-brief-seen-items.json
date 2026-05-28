@@ -923,9 +923,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-27T19:09:22.109578+01:00",
       "brief_slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he"
+    },
+    "997cfae6b12c8f86": {
+      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-28T19:23:46.729226+01:00",
+      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
+    },
+    "426eaedecdda85e1": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-28T19:23:46.729226+01:00",
+      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
+    },
+    "9de9573a785a13d4": {
+      "url": "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
+      "title": "GPU mining malware spreads via SEO poisoning, AI chatbots",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-28T19:23:46.729226+01:00",
+      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
+    },
+    "ae9776a147523f9c": {
+      "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
+      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-28T19:23:46.729226+01:00",
+      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches",
+      "headline": "Today’s SMB cyber lookout: endpoint management compromise + poisoned “help” searches",
+      "risk_level": "High",
+      "todays_lookout": "Supplier / endpoint management compromise scams and credential theft; poisoned searches leading to malware",
+      "published_at": "2026-05-28T19:23:46.729226+01:00",
+      "published_label": "Thursday 28 May 2026, 19:23 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+        "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
+        "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"
+      ]
+    },
     {
       "slug": "2026-05-27-1909-smb-cyber-intelligence-brief-supply-chain-traps-banking-trojans-and-ai-driven-he",
       "headline": "SMB Cyber Intelligence Brief: supply-chain traps, banking trojans, and AI-driven “helpful” malware links",
