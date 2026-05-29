@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: supply-chain tampering, malicious developer packages, and more convincing phishing | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: supply-chain tampering, malicious developer packages, and more convincing phishing</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 29 May 2026, 19:18 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply chain &amp; phishing-driven account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply chain tampering</strong> via developer tooling (code editor extensions, CI/CD workflows, repositories) being abused to gain access and steal code or secrets.</li>
+  <li><strong>Malicious developer packages</strong> (e.g., NuGet / npm) that masquerade as legitimate SDKs but attempt to steal credentials and certificates.</li>
+  <li><strong>More convincing phishing and social engineering</strong> (including AI-written lures) used to trick staff into signing in, installing “updates”, or approving access.</li>
+  <li><strong>Android phishing/malware kits</strong> that generate tailored lures and can lead to business email compromise, payment fraud, or MFA fatigue/approval scams.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Even if your business isn’t the direct target, attackers often get in through <strong>trusted services and tools</strong>: your IT supplier, your developers’ build pipelines, browser sessions, or staff mobile phones. A single compromised extension/package or stolen cloud credential can quickly turn into account takeovers, invoice fraud, or operational disruption.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Developers or IT report a “helpful” new VS Code/IDE extension appearing, or being requested for installation, outside normal process.</li>
+  <li>Builds or deployments suddenly change behaviour, run extra steps, or request new secrets/tokens “to fix CI”.</li>
+  <li>Unexpected prompts to re-authenticate to GitHub/Microsoft 365/Google/CRM, especially after clicking a link from email/chat.</li>
+  <li>New npm/NuGet dependencies added without a clear business reason, or sudden version bumps that don’t match planned work.</li>
+  <li>Staff report odd SMS/WhatsApp messages about deliveries, security alerts, “account lockouts”, or “urgent updates”, especially on Android.</li>
+  <li>Unusual MFA push notifications or approval requests that staff didn’t initiate.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Poisoned extensions/packages</strong> can quietly exfiltrate credentials, certificates, API keys, and cloud tokens.</li>
+  <li><strong>Compromised developer machines</strong> can lead to stolen repository access, then lateral movement into cloud and customer environments.</li>
+  <li><strong>AI-generated lures</strong> can increase the success rate of “sign in to view document/meeting” and fake support messages.</li>
+  <li><strong>Session theft</strong> (stealing browser login sessions) can bypass passwords and sometimes reduce the value of MFA if the session is already authenticated.</li>
+  <li><strong>Android phishing/malware</strong> can capture logins/OTP codes or install remote-access tooling, enabling account takeover and payment diversion.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff</strong> (especially finance/admin) to treat “re-auth”, “account locked”, “urgent update”, and “payment change” messages as suspicious—verify using known phone numbers, not email replies.</li>
+  <li><strong>Lock down browser and SaaS sessions</strong>: ensure MFA is on for email, accounting, payroll, CRM, and cloud admin accounts; reduce the number of admins; review sign-in alerts.</li>
+  <li><strong>For any in-house dev or web agency work</strong>: review how extensions and dependencies are approved; check recent dependency additions/updates and who made them.</li>
+  <li><strong>Check secrets hygiene</strong>: confirm no credentials/certificates are stored in code repos or build logs; rotate any exposed tokens quickly.</li>
+  <li><strong>Mobile controls</strong>: ensure Android devices used for work have screen locks, OS updates, and (where possible) managed app installation; discourage installing apps from links in messages.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a <strong>process to approve and monitor</strong> developer IDE extensions and third-party dependencies (npm/NuGet)?</li>
+  <li>What monitoring is in place for <strong>unusual sign-ins</strong> (impossible travel, new devices) to Microsoft 365/Google/admin portals?</li>
+  <li>If a build pipeline or repo token is stolen, what is our <strong>rapid containment plan</strong> (token rotation, access review, incident comms)?</li>
+  <li>Are admin accounts protected with <strong>phishing-resistant MFA</strong> where available, and are we limiting standing admin access?</li>
+  <li>How do we control and audit <strong>remote access tools</strong> and “tunnels” used for support/development?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Browser session protection is improving: Chrome is rolling out added safeguards designed to make stolen session cookies less useful for account takeover. This doesn’t replace MFA or good sign-in monitoring, but it’s a helpful reduction in risk—confirm your organisation is staying current on browser updates and using managed settings where possible.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal note today: “Do not install new browser/IDE extensions or approve unexpected MFA prompts; report immediately and verify sign-in/payment requests via a known phone number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Phishing &amp; invoice fraud quick-check (staff verification checklist)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories" rel="noopener noreferrer">Supply Chain Compromises Impact Nx Console and GitHub Repositories</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html" rel="noopener noreferrer">Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/" rel="noopener noreferrer">Google Chrome adds session cookie theft protection for all users</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/" rel="noopener noreferrer">BTMOB Android malware service generates custom phishing payloads</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html" rel="noopener noreferrer">New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html" rel="noopener noreferrer">Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

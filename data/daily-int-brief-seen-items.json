@@ -951,9 +951,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-28T19:23:46.729226+01:00",
       "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
+    },
+    "48d82e220e383c3d": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "be2d29571050e51a": {
+      "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "10361ec8c6f62db8": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+      "title": "Google Chrome adds session cookie theft protection for all users",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "8a0c6590e7d267fe": {
+      "url": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+      "title": "BTMOB Android malware service generates custom phishing payloads",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "101108663e25444d": {
+      "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "ca4163d35829076b": {
+      "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-29T19:18:37.373913+01:00",
+      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an",
+      "headline": "Today’s SMB cyber lookout: supply-chain tampering, malicious developer packages, and more convincing phishing",
+      "risk_level": "High",
+      "todays_lookout": "Software supply chain & phishing-driven account takeover",
+      "published_at": "2026-05-29T19:18:37.373913+01:00",
+      "published_label": "Friday 29 May 2026, 19:18 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+        "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+        "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+        "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+        "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+        "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
+      ]
+    },
     {
       "slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches",
       "headline": "Today’s SMB cyber lookout: endpoint management compromise + poisoned “help” searches",
