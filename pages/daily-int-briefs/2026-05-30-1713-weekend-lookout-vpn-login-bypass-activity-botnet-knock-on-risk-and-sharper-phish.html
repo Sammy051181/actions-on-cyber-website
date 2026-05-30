@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Weekend lookout: VPN login bypass activity, botnet knock-on risk, and sharper phishing lures | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Weekend lookout: VPN login bypass activity, botnet knock-on risk, and sharper phishing lures</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 30 May 2026, 17:13 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access (VPN) compromise and business disruption, plus phishing using AI-written lures
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes to brief your team and IT support on today:</p>
+<ul>
+  <li><strong>Remote access/VPN risk:</strong> active exploitation reported for a Palo Alto Networks PAN-OS / GlobalProtect authentication bypass (also impacts Prisma Access).</li>
+  <li><strong>Business disruption risk:</strong> botnet and DDoS capability remains widespread (even with recent law enforcement disruption activity), and DDoS-for-hire services are increasingly “productised”.</li>
+  <li><strong>Sharper phishing:</strong> threat actors are using AI tools to generate more convincing lures and follow-on activity after compromise.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>For many SMEs, the VPN is the front door to email, files, finance systems, and remote support. If attackers bypass authentication, they may gain the same access as a member of staff—often without triggering obvious alarms—leading to ransomware, data theft, invoice fraud, or prolonged downtime. Separately, DDoS attacks are now easy to buy and can take down websites, booking systems, or customer portals. AI-written phishing increases the chance that a busy colleague clicks “just this once”.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unusual VPN connection alerts, logins at odd hours, or logins from unfamiliar locations.</li>
+  <li>Unexpected MFA prompts or staff reporting “I didn’t try to sign in, but got a code request”.</li>
+  <li>New admin accounts, new remote access settings, or changes to identity/VPN configuration that no one can explain.</li>
+  <li>Website or hosted service becomes intermittently unavailable (especially in bursts), or your provider mentions traffic spikes.</li>
+  <li>Emails that read “too polished” or unusually context-aware (invoice chasing, HR documents, shared links), especially if they create urgency.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>VPN bypass → internal access:</strong> attackers may connect to your network without valid credentials, then move on to email, file shares, or backups.</li>
+  <li><strong>Credential theft → cloud access:</strong> once inside, attackers often hunt for stored passwords or cloud tokens to reach Microsoft 365/Google Workspace and finance systems.</li>
+  <li><strong>Phishing + AI:</strong> AI can help criminals quickly tailor messages to your industry (schools, charities, professional services) and mimic tone/format of common business emails.</li>
+  <li><strong>DDoS distraction:</strong> some groups use disruption to distract IT teams while attempting fraud or intrusion elsewhere.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm who owns VPN monitoring this weekend:</strong> make sure someone will see and act on alerts (internal or your MSP).</li>
+  <li><strong>Review remote access logs:</strong> ask for a quick check for unusual VPN activity over the last 7 days (new locations, repeated attempts, strange times).</li>
+  <li><strong>Re-brief staff on payment safety:</strong> treat any “urgent invoice”, “bank details update”, or “new payment link” email as suspicious—verify using a known phone number.</li>
+  <li><strong>Check your DDoS/disruption plan:</strong> know who to call at your ISP/hosting provider and what your “status update to customers” looks like.</li>
+  <li><strong>Backups sanity check:</strong> confirm you have recent backups and that restore access is protected (separate admin accounts/MFA where possible).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run Palo Alto PAN-OS / GlobalProtect or Prisma Access anywhere (including at a supplier/hosted edge)? If yes, what is our exposure and mitigation status?</li>
+  <li>Are VPN and identity logs being monitored in near-real-time, and what alerts are enabled for unusual sign-ins?</li>
+  <li>Do we enforce MFA for all remote access, and can we restrict VPN access by geography or trusted devices?</li>
+  <li>What is our DDoS protection stance (ISP/hosting/CDN), and who is the escalation contact out of hours?</li>
+  <li>If the VPN were compromised, what is our fastest containment step (disable remote access, rotate credentials, isolate segments)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has added a Palo Alto Networks PAN-OS authentication bypass (CVE-2026-0257) to its Known Exploited Vulnerabilities list and reporting indicates active exploitation. This is worth prioritising because it affects remote access (a common entry point) and can lead directly to broader business compromise. Use your IT provider to confirm whether you are affected and what immediate mitigations are in place.</p>
+
+        <h2>One action today</h2>
+        <p>Get your IT provider (or internal IT) to confirm today whether you use Palo Alto PAN-OS/GlobalProtect or Prisma Access and to review the last 7 days of VPN sign-in logs for anomalies.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Invoice and bank detail change verification (call-back process) + MFA for remote access”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html" rel="noopener noreferrer">PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/" rel="noopener noreferrer">Dutch govt disrupts malware botnet with 17 million infected devices</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/" rel="noopener noreferrer">From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/" rel="noopener noreferrer">GreyVibe hackers use ChatGPT, Gemini to power cyberattacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html" rel="noopener noreferrer">Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

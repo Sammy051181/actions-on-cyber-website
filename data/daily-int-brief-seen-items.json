@@ -1021,9 +1021,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-30T12:57:29.895535+01:00",
       "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
+    },
+    "84667f8f5b261a1d": {
+      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
+    },
+    "933e2719244b7cc3": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
+    },
+    "48d92eba4242fcfe": {
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
+      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
+    },
+    "bc023aef830c3e75": {
+      "url": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
+    },
+    "c40f0d28bfe51d09": {
+      "url": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
+    },
+    "e11c268779d002e0": {
+      "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-30T17:13:59.580687+01:00",
+      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish",
+      "headline": "Weekend lookout: VPN login bypass activity, botnet knock-on risk, and sharper phishing lures",
+      "risk_level": "High",
+      "todays_lookout": "Remote access (VPN) compromise and business disruption, plus phishing using AI-written lures",
+      "published_at": "2026-05-30T17:13:59.580687+01:00",
+      "published_label": "Saturday 30 May 2026, 17:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+        "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
+        "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+        "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
+      ]
+    },
     {
       "slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-",
       "headline": "Today’s SMB cyber lookout: fake World Cup sites, “ChatGPT outage” malware lures, and breach-aftershocks",
