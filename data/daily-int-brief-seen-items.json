@@ -993,9 +993,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-29T19:18:37.373913+01:00",
       "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
+    },
+    "57b82c9c2b7433a9": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T12:57:29.895535+01:00",
+      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
+    },
+    "117a388418538953": {
+      "url": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+      "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T12:57:29.895535+01:00",
+      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
+    },
+    "4f031431c5fbe95e": {
+      "url": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+      "title": "Charter Communications data breach affects 4.9 million accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-30T12:57:29.895535+01:00",
+      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
+    },
+    "20ea1f70b7865e02": {
+      "url": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+      "source": "The Hacker News",
+      "seen_at": "2026-05-30T12:57:29.895535+01:00",
+      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-",
+      "headline": "Today’s SMB cyber lookout: fake World Cup sites, “ChatGPT outage” malware lures, and breach-aftershocks",
+      "risk_level": "Moderate",
+      "todays_lookout": "Scam and phishing themes riding trusted brands (FIFA/ChatGPT) plus breach ripple effects",
+      "published_at": "2026-05-30T12:57:29.895535+01:00",
+      "published_label": "Saturday 30 May 2026, 12:57 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+        "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+        "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
+      ]
+    },
     {
       "slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an",
       "headline": "Today’s SMB cyber lookout: supply-chain tampering, malicious developer packages, and more convincing phishing",
