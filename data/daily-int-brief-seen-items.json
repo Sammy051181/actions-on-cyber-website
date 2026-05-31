@@ -1077,9 +1077,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-05-30T21:16:37.736622+01:00",
       "brief_slug": "2026-05-30-2116-weekend-lookout-vpn-login-bypass-being-exploited-staff-built-vibe-coded-apps-goi"
+    },
+    "efe3d3ab728d6227": {
+      "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-31T17:41:11.229259+01:00",
+      "brief_slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes"
+    },
+    "3c8d026b6307fc00": {
+      "url": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
+      "title": "California AG sues 23andMe over 2023 breach exposing health data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-31T17:41:11.229259+01:00",
+      "brief_slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes"
+    },
+    "e9a38cc4920196ee": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-05-31T17:41:11.229259+01:00",
+      "brief_slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes",
+      "headline": "Sunday cyber lookout: WordPress plugin attacks and breach‑driven phishing themes",
+      "risk_level": "High",
+      "todays_lookout": "Website takeover risk (WordPress plugin) + breach‑driven impersonation/phishing",
+      "published_at": "2026-05-31T17:41:11.229259+01:00",
+      "published_label": "Sunday 31 May 2026, 17:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+        "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
+        "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/"
+      ]
+    },
     {
       "slug": "2026-05-30-2116-weekend-lookout-vpn-login-bypass-being-exploited-staff-built-vibe-coded-apps-goi",
       "headline": "Weekend lookout: VPN login bypass being exploited + staff-built “vibe-coded” apps going live",
