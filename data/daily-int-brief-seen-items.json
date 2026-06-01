@@ -1098,9 +1098,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-05-31T17:41:11.229259+01:00",
       "brief_slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes"
+    },
+    "f492e0e3a50ab8d0": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "aa110da6c3a891cf": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+      "title": "Microsoft investigates Office Apps, Teams file access issues",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "90b6e1240f3f7e13": {
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "title": "WordPress malware campaign hides payloads in Steam profiles",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "b796c71b86c4a5dd": {
+      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "b77077332d59fc28": {
+      "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "444c55f3b2a74069": {
+      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "208e0aa73c1a9146": {
+      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
+    },
+    "9c10c0424399dec4": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
+      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-01T22:09:06.883865+01:00",
+      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp",
+      "headline": "SMB Cyber Brief: Microsoft 365 disruption risk, WordPress compromise wave, and supply‑chain malware targeting developers",
+      "risk_level": "High",
+      "todays_lookout": "Cloud disruption + website compromise + supplier/software supply-chain risk",
+      "published_at": "2026-06-01T22:09:06.883865+01:00",
+      "published_label": "Monday 01 June 2026, 22:09 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+        "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+        "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+        "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+        "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+        "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+        "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-05-31-1741-sunday-cyber-lookout-wordpress-plugin-attacks-and-breach-driven-phishing-themes",
       "headline": "Sunday cyber lookout: WordPress plugin attacks and breach‑driven phishing themes",
