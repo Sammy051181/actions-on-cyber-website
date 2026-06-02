@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — Email disruption, fake ‘update’ lures, and supplier-account risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — Email disruption, fake ‘update’ lures, and supplier-account risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 02 June 2026, 20:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud email disruption + phishing and fake update scams (plus supplier identity risk)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Exchange Online mail delays/failures:</strong> some organisations may see delayed or failed email delivery (sending/receiving), which can disrupt invoicing, approvals and customer comms.</li>
+  <li><strong>Fake “update” and “click to fix” prompts on websites:</strong> large-scale campaigns are using compromised sites to push convincing on-screen instructions designed to trick users into installing malware.</li>
+  <li><strong>Password-manager follow-on risk:</strong> Dashlane reported a brute-force attack where encrypted vaults for fewer than 20 personal-plan users were downloaded. Expect opportunistic phishing pretending to be “Dashlane security alerts”.</li>
+  <li><strong>Supplier/developer supply-chain noise:</strong> Red Hat’s npm namespace was compromised, aimed at stealing developer credentials. This is most relevant if you build software or use third parties who do.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on cloud email, browser-based work and a small number of key accounts (Microsoft 365, password managers, accounting, payroll). When email is unreliable, attackers often exploit the confusion with “urgent invoice” and “reconfirm your login” scams. Meanwhile, fake-update pop-ups can turn a normal web browse into a malware incident that disrupts the whole business.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report “email is broken”, missing messages, or unusual delays — especially around invoices, purchase orders or payroll changes.</li>
+  <li>Websites showing sudden prompts like “your browser is outdated”, “security verification required”, or “click to fix” messages that don’t look like your normal update process.</li>
+  <li>Unexpected “Dashlane account locked / 2FA failed / vault downloaded” emails, especially with links to log in.</li>
+  <li>Multiple failed sign-in notifications or MFA prompts that users didn’t initiate (any service, not just Dashlane).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Business email disruption scams:</strong> during genuine service issues, criminals send convincing messages via alternative channels (SMS/WhatsApp/personal email) claiming new bank details or “payment workaround”.</li>
+  <li><strong>Malware via fake updates:</strong> compromised sites can show realistic “update/install” instructions to persuade users to run something they shouldn’t.</li>
+  <li><strong>Account takeover attempts:</strong> incidents involving password managers can trigger copycat phishing that tries to harvest your master password or MFA codes.</li>
+  <li><strong>Developer credential theft:</strong> if a supplier’s developer accounts are compromised, attackers may pivot into customer environments or software build pipelines.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff:</strong> no one should install browser “updates” from a pop-up on a random website. Updates should only be done via approved methods (managed updates/official app stores/IT-approved process).</li>
+  <li><strong>Strengthen payment-change controls:</strong> if email is delayed/unreliable, require bank detail changes and urgent payment requests to be verified with a known phone number (not one in the email).</li>
+  <li><strong>Protect your key accounts:</strong> ensure MFA is enabled for Microsoft 365 and your password manager; review sign-in alerts and remove any unfamiliar devices/sessions.</li>
+  <li><strong>Prepare for Exchange disruption:</strong> agree a simple internal workaround (e.g., calls/Teams for approvals) and avoid ad-hoc use of personal email for business data.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you confirm whether our tenant is impacted by the Exchange Online mail-flow issue and what monitoring/alerts we have for it?</li>
+  <li>Do we have controls to block common “fake update” execution patterns (web filtering, application allow-listing, endpoint protection policies)?</li>
+  <li>How quickly can you isolate a device if a user clicks a fake update and malware is suspected?</li>
+  <li>Do we have conditional access / sign-in risk rules for Microsoft 365 (impossible travel, unusual locations, repeated failures)?</li>
+  <li>If we use a password manager, do we regularly review account security events and enforce MFA for all users?</li>
+  <li>If we build software: do we have visibility of third-party dependencies and controls to detect suspicious package changes in build pipelines?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged active exploitation of an Oracle WebLogic Server issue (CVE-2024-21182). Many SMEs won’t run WebLogic directly, but it’s worth asking your IT provider (and any hosted app suppliers) to confirm whether any business-critical systems depend on WebLogic and that they have an active patch/mitigation plan.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Do not install ‘updates’ from website pop-ups; report them to IT immediately,” and remind everyone that bank detail changes must be verified by phone using an existing contact number.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Payment change &amp; invoice fraud call-back process (printable approval steps)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/" rel="noopener noreferrer">Microsoft Exchange Online outage causes email delays, failures</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/" rel="noopener noreferrer">Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html" rel="noopener noreferrer">Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/" rel="noopener noreferrer">Red Hat npm packages compromised to steal developer credentials</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/" rel="noopener noreferrer">CISA flags two-year-old Oracle flaw as actively exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
