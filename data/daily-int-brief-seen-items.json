@@ -1196,9 +1196,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-02T20:58:04.558720+01:00",
       "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
+    },
+    "2a70d167966f02fd": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "title": "Google adds Android protection against AI deepfake scam calls",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "ad76fbced260f20e": {
+      "url": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+      "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "c0522f9850e60319": {
+      "url": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "title": "Acer working to patch max severity zero-days in Wave 7 routers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "ac0da12d64202413": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+      "title": "CISA warns of active attacks exploiting Android, Linux bugs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "7c659cc239466d04": {
+      "url": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
+      "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "c56ad07096ed656d": {
+      "url": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+      "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-03T21:12:15.339391+01:00",
+      "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a",
+      "headline": "Today’s SMB cyber lookout: AI voice scam calls, ransomware automation, and router/Android risks",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation scams and business disruption via phones, endpoints and edge devices",
+      "published_at": "2026-06-03T21:12:15.339391+01:00",
+      "published_label": "Wednesday 03 June 2026, 21:12 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+        "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+        "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+        "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
+        "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html"
+      ]
+    },
     {
       "slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc",
       "headline": "SMB Cyber Intelligence Brief — Email disruption, fake ‘update’ lures, and supplier-account risks",
