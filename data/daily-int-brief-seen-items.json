@@ -1238,9 +1238,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-03T21:12:15.339391+01:00",
       "brief_slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a"
+    },
+    "44cd69478863d96d": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+      "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "027dcfe9b3c5aee8": {
+      "url": "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies",
+      "title": "Software supply chain attacks: check your dependencies",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "4ddc5379f6309160": {
+      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "3496fcdc798841ae": {
+      "url": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+      "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "c7426199cb050c74": {
+      "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+      "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "4691fe24c5f73a3b": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+      "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-04T18:49:46.630930+01:00",
+      "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t",
+      "headline": "Today’s SME cyber lookout: poisoned software updates, fake download sites and UK-targeted phishing",
+      "risk_level": "High",
+      "todays_lookout": "Software supply-chain & fake download scams (developer tools, plugins, GitHub/CI) plus targeted phishing",
+      "published_at": "2026-06-04T18:49:46.630930+01:00",
+      "published_label": "Thursday 04 June 2026, 18:49 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+        "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies",
+        "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+        "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+        "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+        "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/"
+      ]
+    },
     {
       "slug": "2026-06-03-2112-today-s-smb-cyber-lookout-ai-voice-scam-calls-ransomware-automation-and-router-a",
       "headline": "Today’s SMB cyber lookout: AI voice scam calls, ransomware automation, and router/Android risks",

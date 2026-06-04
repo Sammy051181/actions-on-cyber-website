@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: poisoned software updates, fake download sites and UK-targeted phishing | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: poisoned software updates, fake download sites and UK-targeted phishing</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 04 June 2026, 18:49 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply-chain &amp; fake download scams (developer tools, plugins, GitHub/CI) plus targeted phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes to brief your team on today:</strong></p>
+<ul>
+  <li><strong>Compromised open-source packages</strong> (including a reported npm supply-chain incident affecting multiple packages with infostealer malware).</li>
+  <li><strong>Fake websites impersonating popular tools</strong> that show up high in Google results and deliver malware when downloaded.</li>
+  <li><strong>Targeted phishing campaigns expanding into the UK and Europe</strong>, designed to drop remote access malware and steal credentials.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>You don’t need to be a “tech company” to be affected.</strong> Many SMEs rely on web agencies, SaaS integrations, plugins, and outsourced IT who use open-source components and automation tools.</li>
+  <li><strong>One compromised dependency can lead to:</strong> stolen passwords (including email and accounting logins), session hijacking, fraudulent invoices, and wider supplier/customer notification work.</li>
+  <li><strong>Fake download sites target everyday work.</strong> Marketing, finance, operations and IT staff often search for “free tools”, converters, remote support tools, or utilities under time pressure.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report downloading a tool from “a site that looked right” found via Google, rather than the vendor’s known domain/app store.</li>
+  <li>Unexpected prompts to “disable antivirus”, “allow browser notifications”, or run a downloaded installer to “complete setup”.</li>
+  <li>New admin accounts, new MFA devices, or unusual sign-ins in Microsoft 365/Google Workspace audit logs.</li>
+  <li>Developers/IT mention “quickly adding a package” or updating build/CI automation without normal review.</li>
+  <li>Inbound emails that push urgent document review, shipping issues, HMRC/payroll queries, or “shared files”, especially if they lead to a login page.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain route:</strong> attackers plant malware into open-source packages or abuse automation (e.g. CI/GitHub Actions). When dependencies are installed or workflows run, credentials/tokens can be stolen or malicious changes introduced downstream.</li>
+  <li><strong>SEO / fake tool portals:</strong> fake “project download” pages funnel staff to malware through convincing pages that mimic legitimate tools.</li>
+  <li><strong>Targeted phishing:</strong> attackers adapt lures to local regions (including the UK) to get a foothold, then move to email, cloud storage and finance workflows to intercept payments.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff:</strong> only download software from your organisation’s approved sources (company portal, Microsoft Store/Apple App Store, or known vendor links). If in doubt, stop and ask.</li>
+  <li><strong>Put a quick control on downloads:</strong> require admin approval for new software installs (even for “small utilities”).</li>
+  <li><strong>For any web/dev supplier or internal dev work:</strong> ask for confirmation they have reviewed dependencies and are monitoring for compromised packages and workflow risks.</li>
+  <li><strong>Review cloud sign-in alerts:</strong> check for unusual logins, impossible travel, and new OAuth/app consents in Microsoft 365/Google Workspace.</li>
+  <li><strong>Prepare for invoice/payment fraud:</strong> remind finance teams that “bank details change” requests must be verified via a known phone number, not email.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a policy that prevents/controls ad-hoc software installs and downloads from unverified sites?</li>
+  <li>How are we monitoring Microsoft 365/Google for suspicious sign-ins and new app/OAuth consents?</li>
+  <li>For any development work (internal or outsourced): how do you vet and monitor open-source dependencies (including npm) and build automation workflows?</li>
+  <li>Do we have an agreed process to rapidly disable accounts, revoke sessions/tokens, and reset passwords if an infostealer is suspected?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s main risk is not “a patch list” but <strong>trust in tools and suppliers</strong>. If you operate specialist industrial/monitoring systems, check with your supplier whether any recent advisories affect your environment and ensure internet exposure is tightly controlled.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day message to staff: “Only download software from approved sources; if Google gives you a download site, stop and ask IT,” and require admin approval for any new installs.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Phishing &amp; payment change verification (invoice fraud) – 60-second controls for SMEs”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/" rel="noopener noreferrer">New IronWorm malware hits 36 packages in npm supply-chain attack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies" rel="noopener noreferrer">Software supply chain attacks: check your dependencies</a> <span class="muted">(NCSC All Updates)</span></li><li><a href="https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html" rel="noopener noreferrer">Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html" rel="noopener noreferrer">Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html" rel="noopener noreferrer">China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/" rel="noopener noreferrer">Chinese hackers use new Atlas RAT malware in European cyberattacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
