@@ -1280,9 +1280,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-04T18:49:46.630930+01:00",
       "brief_slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t"
+    },
+    "aa977c30763e1760": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/",
+      "title": "Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
+    },
+    "e5aa321628393ce0": {
+      "url": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
+    },
+    "b5b8223e790378d9": {
+      "url": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
+    },
+    "026e1c19759df5d1": {
+      "url": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "title": "Hola Browser for Windows compromised to deliver cryptominer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
+    },
+    "ae18d2949faada03": {
+      "url": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+      "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
+    },
+    "f0f98fb2bada392d": {
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+      "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-05T17:39:05.872785+01:00",
+      "brief_slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-05-1739-today-s-smb-cyber-lookout-vishing-it-support-calls-payment-skimming-and-cloud-em",
+      "headline": "Today’s SMB cyber lookout: vishing “IT support” calls, payment skimming, and cloud email relays",
+      "risk_level": "High",
+      "todays_lookout": "Social engineering for remote access + payment/checkout skimming + cloud/email abuse",
+      "published_at": "2026-06-05T17:39:05.872785+01:00",
+      "published_label": "Friday 05 June 2026, 17:39 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/",
+        "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+        "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+        "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+        "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+        "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
+      ]
+    },
     {
       "slug": "2026-06-04-1849-today-s-sme-cyber-lookout-poisoned-software-updates-fake-download-sites-and-uk-t",
       "headline": "Today’s SME cyber lookout: poisoned software updates, fake download sites and UK-targeted phishing",
