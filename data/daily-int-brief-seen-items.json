@@ -1371,9 +1371,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-06T13:01:48.584613+01:00",
       "brief_slug": "2026-06-06-1301-weekend-smb-cyber-brief-supply-chain-poisonings-and-fake-login-pop-ups-on-truste"
+    },
+    "165df32aed42e5eb": {
+      "url": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+      "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-06T17:19:04.137901+01:00",
+      "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
+    },
+    "e79d318521ddedf0": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-06T17:19:04.137901+01:00",
+      "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
+    },
+    "ed06b2949afbfd7f": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+      "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-06T17:19:04.137901+01:00",
+      "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
+    },
+    "64f06b0440077bf4": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-06T17:19:04.137901+01:00",
+      "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
+    },
+    "34cc4bb82be1f8bf": {
+      "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-06T17:19:04.137901+01:00",
+      "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi",
+      "headline": "SMB Cyber Brief (Sat 06 Jun): Browser-based phishing, WordPress takeovers, and exploited network tools",
+      "risk_level": "High",
+      "todays_lookout": "Browser-layer credential theft + website takeover risk",
+      "published_at": "2026-06-06T17:19:04.137901+01:00",
+      "published_label": "Saturday 06 June 2026, 17:19 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+        "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+        "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+      ]
+    },
     {
       "slug": "2026-06-06-1301-weekend-smb-cyber-brief-supply-chain-poisonings-and-fake-login-pop-ups-on-truste",
       "headline": "Weekend SMB Cyber Brief: supply-chain poisonings and ‘fake login’ pop-ups on trusted sites",
