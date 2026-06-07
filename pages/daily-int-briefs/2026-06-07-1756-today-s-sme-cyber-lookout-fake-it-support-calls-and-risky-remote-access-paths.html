@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: fake “IT support” calls and risky remote access paths | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: fake “IT support” calls and risky remote access paths</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 07 June 2026, 17:56 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Social engineering posing as IT support; remote access/device exposure
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be on guard for phone calls or messages claiming to be “IT support” (or your outsourced IT provider) asking staff to install tools, approve sign-ins, reset passwords, or share files urgently. A ransomware/extortion group is reported to be using fake IT support calls to gain access and steal data quickly, particularly targeting law firms and professional services.</p>
+<p>Separately, keep an eye on any unusual internet traffic coming from routers or edge devices. A botnet variant is reported targeting certain router firmware, which can lead to devices being used for malicious activity and business disruption.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Professional services are rich in sensitive data</strong> (client documents, contracts, ID, payment details) and are attractive for extortion.</li>
+  <li><strong>Social engineering bypasses “good tech”</strong>: attackers target people and processes, not just systems.</li>
+  <li><strong>Edge devices are a single point of failure</strong>: if a router is compromised, it can enable further access or cause outages that stop day-to-day work.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unsolicited calls claiming to be IT, your telecoms provider, Microsoft, or a “security team”.</li>
+  <li>Pressure tactics: “within the next 10 minutes”, “we detected a breach”, “your account will be disabled”.</li>
+  <li>Requests to install remote access tools, run “support” apps, or approve MFA prompts you didn’t initiate.</li>
+  <li>Requests for client lists, case files, payroll/HR files, or “a quick export” for troubleshooting.</li>
+  <li>Unexpected router/internet instability, new admin logins, unexplained configuration changes, or spikes in outbound traffic.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Impersonation of IT support</strong> to convince staff to grant access (remote control, credentials, MFA approval) and move quickly to data theft.</li>
+  <li><strong>Abuse of always-on devices</strong> (like routers) to establish a foothold, disrupt operations, or use your connection for unwanted traffic.</li>
+  <li><strong>Targeting “file transfer” and remote access services</strong> that are exposed to the internet to crash services or create incidents that distract teams.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Set a simple rule for staff:</strong> never act on inbound “IT support” requests. Hang up and call back using a known number from your internal list.</li>
+  <li><strong>Make MFA push fatigue harder:</strong> tell staff to report unexpected prompts immediately and never approve them “to stop them”.</li>
+  <li><strong>Check who can remote in:</strong> review remote access tools in use and remove anything not approved.</li>
+  <li><strong>Quick router/edge check:</strong> confirm admin access is limited, passwords are unique, and logging/alerts are enabled where possible.</li>
+  <li><strong>Prepare for extortion:</strong> confirm you can locate and restore critical data, and that backups are not accessible with everyday user accounts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a documented <strong>call-back and verification process</strong> for any support request?</li>
+  <li>Which <strong>remote access tools</strong> are approved, and can you provide a list of what’s currently installed?</li>
+  <li>Are our <strong>routers/firewalls</strong> centrally monitored for unusual outbound traffic and admin logins?</li>
+  <li>What’s our <strong>rapid containment plan</strong> if a user grants access during a fake support call (disable accounts, revoke sessions, isolate device)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run SolarWinds Serv-U (a managed file transfer/file server product), note that a denial-of-service issue is reported as actively exploited. It’s worth checking whether you have it in your environment (including at a supplier/MSP) and ensuring maintenance and monitoring are in place to reduce disruption risk.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 3-line staff note today: “We will never ask you (inbound call/email) to install support software or approve an MFA prompt. If someone claims to be IT, hang up and call the usual helpdesk number. Report any unexpected MFA prompts immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Staff anti-phishing &amp; social engineering call-back checklist (helpdesk impersonation / fake IT support)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/" rel="noopener noreferrer">Silent Ransom Group targets law firms with fake IT support calls</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/" rel="noopener noreferrer">C0XMO botnet spreads via DD-WRT router flaw, kills rival malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html" rel="noopener noreferrer">CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

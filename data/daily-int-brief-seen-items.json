@@ -1406,9 +1406,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-06T17:19:04.137901+01:00",
       "brief_slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi"
+    },
+    "26ae46ece10d319f": {
+      "url": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+      "title": "Silent Ransom Group targets law firms with fake IT support calls",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-07T17:56:43.435503+01:00",
+      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
+    },
+    "af428b1714adc784": {
+      "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-07T17:56:43.435503+01:00",
+      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
+    },
+    "b1de2842ac2680d3": {
+      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-07T17:56:43.435503+01:00",
+      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths",
+      "headline": "Today’s SME cyber lookout: fake “IT support” calls and risky remote access paths",
+      "risk_level": "High",
+      "todays_lookout": "Social engineering posing as IT support; remote access/device exposure",
+      "published_at": "2026-06-07T17:56:43.435503+01:00",
+      "published_label": "Sunday 07 June 2026, 17:56 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+        "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+        "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html"
+      ]
+    },
     {
       "slug": "2026-06-06-1719-smb-cyber-brief-sat-06-jun-browser-based-phishing-wordpress-takeovers-and-exploi",
       "headline": "SMB Cyber Brief (Sat 06 Jun): Browser-based phishing, WordPress takeovers, and exploited network tools",
