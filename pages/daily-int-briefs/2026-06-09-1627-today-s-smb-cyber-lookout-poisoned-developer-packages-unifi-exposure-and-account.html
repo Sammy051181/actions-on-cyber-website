@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: poisoned developer packages, UniFi exposure, and account takeover scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: poisoned developer packages, UniFi exposure, and account takeover scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 09 June 2026, 16:27 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier / software supply-chain risk and account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain poisoning (PyPI)</strong>: malicious Python packages were published/compromised to steal credentials and developer secrets.</li>
+  <li><strong>UniFi / network management exposure</strong>: reports highlight a serious UniFi OS issue (already fixed) that could allow unauthorised access if systems weren’t updated.</li>
+  <li><strong>Account takeover via “support” and password resets</strong>: a recent incident shows attackers can abuse support flows and reset processes to hijack accounts at scale.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Even if you’re not a “tech company”, SMEs depend on:</p>
+<ul>
+  <li><strong>Suppliers and SaaS</strong> (marketing, bookkeeping, comms, e-commerce) that can be accessed via stolen credentials.</li>
+  <li><strong>Wi‑Fi and network devices</strong> (often UniFi in small offices) that, if exposed, can become a route into email, file shares, or payment processes.</li>
+  <li><strong>Outsourced IT and developers</strong> who may use open-source packages and extensions; a single poisoned dependency can leak secrets and create knock-on risk for customer data and cloud access.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>password reset</strong> emails, new device/login alerts, or MFA prompts you didn’t trigger.</li>
+  <li><strong>Social media/admin accounts</strong> suddenly inaccessible, or posts/ads you didn’t create.</li>
+  <li>Developers reporting unusual prompts during installs, strange build behaviour, new “helper” files, or secrets/tokens being rotated unexpectedly.</li>
+  <li>Unrecognised admin accounts, new VPN/users, or configuration changes on network management portals.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Poisoned packages</strong> can aim to steal cloud tokens, API keys, passwords, and session cookies—then reuse them to access email, file storage, CI/CD, accounting or CRM.</li>
+  <li><strong>Edge/network device compromise</strong> can provide a foothold to intercept traffic, pivot to internal systems, or harvest credentials.</li>
+  <li><strong>Support-reset abuse</strong> can be paired with convincing emails/calls (“we’re fixing your account”) to trick staff into approving prompts or sharing codes.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Reinforce the rule:</strong> nobody shares verification codes or approves MFA prompts they didn’t initiate.</li>
+  <li><strong>Check key accounts:</strong> review admin users and recovery settings for email, Microsoft 365/Google, finance apps, payroll, and social media.</li>
+  <li><strong>If you have developers/IT:</strong> pause “blind” dependency updates; use approved sources, review recent dependency/extension changes, and rotate exposed secrets if anything looks off.</li>
+  <li><strong>Network hygiene:</strong> confirm remote management is locked down (no unnecessary internet exposure) and admin accounts use MFA where supported.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we use <strong>UniFi OS</strong> anywhere, and can you confirm it’s updated and not exposed to the internet unnecessarily?</li>
+  <li>What’s our process for <strong>detecting unusual logins</strong> (impossible travel, new device, repeated MFA prompts) across Microsoft 365/Google and key SaaS?</li>
+  <li>Do we have an <strong>asset list</strong> of network appliances and who administers them (named accounts, not shared logins)?</li>
+  <li>For any in-house dev work or web agencies: how do we <strong>control dependencies</strong> (approved libraries, review, and secret scanning) to reduce supply-chain risk?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>One of today’s items highlights a serious UniFi OS issue described as already fixed; if you run UniFi, ask your IT support to confirm updates are applied promptly and that management interfaces aren’t publicly reachable.</p>
+
+        <h2>One action today</h2>
+        <p>Today, review admin access and recovery settings for your email, finance/payroll and social accounts, and remove any unknown admins or recovery methods.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Account takeover prevention (MFA, recovery settings, admin reviews)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html" rel="noopener noreferrer">Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/" rel="noopener noreferrer">New Shai-Hulud attack trojanizes 19 science-focused PyPI packages</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/" rel="noopener noreferrer">Critical UniFi OS bug lets hackers gain root without authentication</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/" rel="noopener noreferrer">Over 20,000 Instagram accounts stolen in Meta AI support hack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html" rel="noopener noreferrer">VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1497,9 +1497,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-09T11:42:25.534505+01:00",
       "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "b90e0707d3925ddc": {
+      "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-09T16:27:00.588997+01:00",
+      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
+    },
+    "9d935cbcf45cdf9d": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T16:27:00.588997+01:00",
+      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
+    },
+    "47d18278ce1ce2a8": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T16:27:00.588997+01:00",
+      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
+    },
+    "fd41ccb51473db1f": {
+      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T16:27:00.588997+01:00",
+      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
+    },
+    "d601d8dcb7ed1594": {
+      "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-09T16:27:00.588997+01:00",
+      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account",
+      "headline": "Today’s SMB cyber lookout: poisoned developer packages, UniFi exposure, and account takeover scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier / software supply-chain risk and account takeover",
+      "published_at": "2026-06-09T16:27:00.588997+01:00",
+      "published_label": "Tuesday 09 June 2026, 16:27 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+        "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+        "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+        "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+        "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html"
+      ]
+    },
     {
       "slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an",
       "headline": "SMB Cyber Daily Brief (Tue 09 Jun): VPN ransomware entry, WhatsApp spear-phishing, and Chrome exploit activity",
