@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: “trusted” GitHub code changes and AI-powered phishing volume | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: “trusted” GitHub code changes and AI-powered phishing volume</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 09 June 2026, 19:20 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier ecosystem risk (GitHub/Microsoft repos) + phishing that looks more convincing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Supplier ecosystem incident:</strong> Microsoft had multiple GitHub repositories disabled (and some later restored) after a security incident where projects were compromised to inject password-stealing malware into code. This can cause disruption (broken CI/CD) and increases the chance of unsafe dependencies or copied snippets entering business systems.</p>
+<p><strong>2) Phishing volume and quality jump:</strong> Reporting continues to highlight how AI is making phishing faster to produce and harder to spot, increasing the volume of realistic-looking messages that can slip past busy teams.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Ripple effects:</strong> Even if you’re not a Microsoft customer, you may rely on open-source projects, sample code, GitHub Actions, or templates that reference Microsoft repos.</li>
+  <li><strong>Operational disruption:</strong> If your developer/website supplier or MSP pulls code automatically, a repo being taken offline can break builds and deployments at short notice.</li>
+  <li><strong>Increased scam opportunity:</strong> Attackers commonly piggyback on big news with emails like “security update required” or “reconnect your GitHub/Microsoft account”, aiming to steal credentials.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected build/deployment failures mentioning missing/removed GitHub repositories or unavailable dependencies.</li>
+  <li>New or changed third-party packages, actions, or “helper scripts” appearing in projects without a clear business reason.</li>
+  <li>Emails/DMs claiming to be from GitHub/Microsoft asking you to <strong>re-authenticate</strong>, <strong>reset tokens</strong>, or <strong>approve a new app</strong> urgently.</li>
+  <li>Staff receiving unusually well-written, role-specific emails (finance, HR, IT) that still try to push a link or attachment quickly.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain infection:</strong> Compromise a trusted repo (or something that looks like it), then wait for automated pulls into real environments.</li>
+  <li><strong>Impersonation scams:</strong> Use the news to send believable “incident response” messages that capture GitHub/Microsoft credentials or session tokens.</li>
+  <li><strong>Credential theft follow-on:</strong> Stolen passwords can be used to access email, file storage, payroll, customer data, and payment workflows.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff what’s happening:</strong> A short internal note: “Expect fake GitHub/Microsoft security emails. Don’t log in via email links.”</li>
+  <li><strong>Check your dependencies and automation:</strong> If you (or your supplier) use GitHub Actions, templates, or auto-updating dependencies, confirm you have a review/approval step for changes that affect production.</li>
+  <li><strong>Lock down access:</strong> Ensure MFA is enabled for GitHub and Microsoft accounts used for work, and review who has admin rights and long-lived tokens.</li>
+  <li><strong>Prepare for disruption:</strong> If your website/app deploys from GitHub, confirm you can pause deployments safely and roll back if something looks off.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an inventory of where we pull code/templates/actions from (GitHub repos, packages, third-party scripts)?</li>
+  <li>Do we require approvals for dependency/action changes before they can reach production?</li>
+  <li>How do we detect suspicious changes in build pipelines (unexpected new steps, new external downloads, new secrets usage)?</li>
+  <li>Are MFA and least-privilege enforced for GitHub/Microsoft admin accounts and service accounts?</li>
+  <li>If a key repo or dependency is suddenly removed/disabled, what’s our continuity plan for deployments?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation runs operational technology or building/energy management equipment (e.g., inverters, industrial gateways or managed switches), note that new ICS advisories were published today. These are unlikely to affect most office-only SMEs, but schools, facilities, manufacturers and charities with estates should ask their supplier/maintainer to confirm whether any Schneider Electric or Siemens KACO devices are in use and whether mitigations/updates are planned.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff alert: ‘Ignore GitHub/Microsoft “security incident” login/reset emails—only sign in via bookmarks, and report anything asking you to approve a new app or re-authenticate.’</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Phishing &amp; fake supplier email’ checklist (staff reporting steps + safe verification script).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/" rel="noopener noreferrer">GitHub disables Microsoft repos pushing password-stealing malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html" rel="noopener noreferrer">Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html" rel="noopener noreferrer">AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02" rel="noopener noreferrer">Siemens KACO Blueplanet Inverters</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03" rel="noopener noreferrer">Schneider Electric EcoStruxure Panel Server</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01" rel="noopener noreferrer">Schneider Electric Modicon Network Managed Switches</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

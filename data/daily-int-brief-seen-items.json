@@ -1532,9 +1532,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-09T16:27:00.588997+01:00",
       "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
+    },
+    "a41367cd04e8f003": {
+      "url": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "146cba0f97d31d94": {
+      "url": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
+      "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "4b6c8ea3c5caecf6": {
+      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "8bac2b090361a425": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
+      "title": "Siemens KACO Blueplanet Inverters",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "6cf4c852993ebb62": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
+      "title": "Schneider Electric EcoStruxure Panel Server",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "a4eb115e85978037": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
+      "title": "Schneider Electric Modicon Network Managed Switches",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-09T19:20:58.375748+01:00",
+      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo",
+      "headline": "Today’s SMB cyber lookout: “trusted” GitHub code changes and AI-powered phishing volume",
+      "risk_level": "High",
+      "todays_lookout": "Supplier ecosystem risk (GitHub/Microsoft repos) + phishing that looks more convincing",
+      "published_at": "2026-06-09T19:20:58.375748+01:00",
+      "published_label": "Tuesday 09 June 2026, 19:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+        "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
+        "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01"
+      ]
+    },
     {
       "slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account",
       "headline": "Today’s SMB cyber lookout: poisoned developer packages, UniFi exposure, and account takeover scams",
