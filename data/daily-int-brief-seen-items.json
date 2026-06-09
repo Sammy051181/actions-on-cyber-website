@@ -1455,9 +1455,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-08T19:09:57.119663+01:00",
       "brief_slug": "2026-06-08-1909-smb-cyber-intelligence-brief-vpn-attack-activity-vishing-extortion-and-supplier-"
+    },
+    "c29032fa40d7c7e5": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "f91b36cf0666eb34": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "e9c61941ceb914d6": {
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "71b6339f08378eba": {
+      "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "3c083cd9902b36a6": {
+      "url": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
+    },
+    "a60a47af132baa36": {
+      "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-09T11:42:25.534505+01:00",
+      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an",
+      "headline": "SMB Cyber Daily Brief (Tue 09 Jun): VPN ransomware entry, WhatsApp spear-phishing, and Chrome exploit activity",
+      "risk_level": "High",
+      "todays_lookout": "Remote access compromise + high-quality phishing (WhatsApp/email) leading to ransomware and account takeover",
+      "published_at": "2026-06-09T11:42:25.534505+01:00",
+      "published_label": "Tuesday 09 June 2026, 11:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+        "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+        "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+        "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+        "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+        "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
+      ]
+    },
     {
       "slug": "2026-06-08-1909-smb-cyber-intelligence-brief-vpn-attack-activity-vishing-extortion-and-supplier-",
       "headline": "SMB Cyber Intelligence Brief — VPN attack activity, vishing extortion, and supplier breach ripple effects",
