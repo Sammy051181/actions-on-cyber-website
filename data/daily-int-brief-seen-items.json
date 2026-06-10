@@ -1574,9 +1574,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-06-09T19:20:58.375748+01:00",
       "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
+    },
+    "8b24a39f4967bdbb": {
+      "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+      "title": "ServiceNow discloses security incident exposing customer data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T12:03:48.084378+01:00",
+      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
+    },
+    "ea6cfaf1ee3aa04f": {
+      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "source": "Krebs on Security",
+      "seen_at": "2026-06-10T12:03:48.084378+01:00",
+      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
+    },
+    "2ed1517514068ee9": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T12:03:48.084378+01:00",
+      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s",
+      "headline": "ServiceNow customer data exposure: expect targeted phishing and supplier‑themed scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and targeted phishing off the back of a SaaS data exposure",
+      "published_at": "2026-06-10T12:03:48.084378+01:00",
+      "published_label": "Wednesday 10 June 2026, 12:03 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+        "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
+      ]
+    },
     {
       "slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo",
       "headline": "Today’s SMB cyber lookout: “trusted” GitHub code changes and AI-powered phishing volume",
