@@ -1616,9 +1616,75 @@
       "source": "Krebs on Security",
       "seen_at": "2026-06-10T17:08:23.549844+01:00",
       "brief_slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s"
+    },
+    "490aa96a54bc431f": {
+      "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "328985d6bcace907": {
+      "url": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "944a2c7b61d4b594": {
+      "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "1bd063fb2c47430e": {
+      "url": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "2c4b2bac225f53e4": {
+      "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "78c0dc3e15352e5a": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "92218887bf7ba5fe": {
+      "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-10T19:42:44.634726+01:00",
+      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and",
+      "headline": "Today’s SMB cyber lookout: HR/payroll data theft pressure, router/IoT scanning, and ‘AI email assistant’ phishing risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS data theft & extortion pressure plus SOHO/IoT exposure scanning",
+      "published_at": "2026-06-10T19:42:44.634726+01:00",
+      "published_label": "Wednesday 10 June 2026, 19:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+        "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+        "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+        "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+        "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+        "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+        "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
+      ]
+    },
     {
       "slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s",
       "headline": "Today’s SMB cyber lookout: Exchange/OWA exploitation risk + identity-verification scams",
