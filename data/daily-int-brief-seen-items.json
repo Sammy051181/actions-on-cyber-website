@@ -1665,9 +1665,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-10T19:42:44.634726+01:00",
       "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
+    },
+    "96b266d32acddaf3": {
+      "url": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "title": "Nottingham University data breach affects over 450,000 students",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "9aa619b6792b6eed": {
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "a89bc9c1fa92195d": {
+      "url": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "ed47244a1a0ecb46": {
+      "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "0a8e38f5f8960fb3": {
+      "url": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "f3b95abed492118d": {
+      "url": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
+      "title": "The ‘Miasma’ worm source code briefly leaked on GitHub",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T12:47:53.677161+01:00",
+      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np",
+      "headline": "SMB Cyber Intelligence Brief — UK breach ripple effects, active exploitation, and npm supply‑chain changes",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & platform risk plus breach‑related phishing",
+      "published_at": "2026-06-11T12:47:53.677161+01:00",
+      "published_label": "Thursday 11 June 2026, 12:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+        "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+        "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+        "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+        "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/"
+      ]
+    },
     {
       "slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and",
       "headline": "Today’s SMB cyber lookout: HR/payroll data theft pressure, router/IoT scanning, and ‘AI email assistant’ phishing risk",
