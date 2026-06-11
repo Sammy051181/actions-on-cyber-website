@@ -1707,9 +1707,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-11T12:47:53.677161+01:00",
       "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
+    },
+    "39a13aae9e28aa12": {
+      "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-11T17:20:42.934835+01:00",
+      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
+    },
+    "f6e3c1d8a56c0698": {
+      "url": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+      "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T17:20:42.934835+01:00",
+      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
+    },
+    "0793213cc0353bf2": {
+      "url": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+      "title": "Coupang hit with record $409 million data breach fine in Korea",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-11T17:20:42.934835+01:00",
+      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
+    },
+    "a22c3f1dabbfdb92": {
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Action Patch + 28 New Stories",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-11T17:20:42.934835+01:00",
+      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out",
+      "headline": "SMB Cyber Intelligence Brief: Supplier platform incident risk + ransomware cash-out disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS incident scams and follow-on phishing (ServiceNow-themed)",
+      "published_at": "2026-06-11T17:20:42.934835+01:00",
+      "published_label": "Thursday 11 June 2026, 17:20 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+        "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+        "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+        "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html"
+      ]
+    },
     {
       "slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np",
       "headline": "SMB Cyber Intelligence Brief — UK breach ripple effects, active exploitation, and npm supply‑chain changes",
