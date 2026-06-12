@@ -1777,9 +1777,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-12T12:09:31.329237+01:00",
       "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "e700f630cfa191fa": {
+      "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+      "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T16:38:36.632732+01:00",
+      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
+    },
+    "66fffad54cb9c79e": {
+      "url": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T16:38:36.632732+01:00",
+      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
+    },
+    "0826b044b06cf7c9": {
+      "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-12T16:38:36.632732+01:00",
+      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
+    },
+    "1017c919b048f36a": {
+      "url": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+      "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T16:38:36.632732+01:00",
+      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
+    },
+    "1118387053113644": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T16:38:36.632732+01:00",
+      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod",
+      "headline": "Breach-driven phishing, supply-chain warning signs, and AI tool risks to watch today",
+      "risk_level": "Moderate",
+      "todays_lookout": "Breach follow‑on scams and supplier/supply‑chain risk (plus AI agent data leakage traps)",
+      "published_at": "2026-06-12T16:38:36.632732+01:00",
+      "published_label": "Friday 12 June 2026, 16:38 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+        "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+        "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+        "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/"
+      ]
+    },
     {
       "slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d",
       "headline": "Today’s SMB Cyber Brief: extortion via business apps, plus phishing-as-a-service disruption",
