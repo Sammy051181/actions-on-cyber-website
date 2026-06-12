@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Briefing (Fri 12 June 2026): Software supply-chain risk (Arch Linux AUR) + actively exploited PeopleSoft issue | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Briefing (Fri 12 June 2026): Software supply-chain risk (Arch Linux AUR) + actively exploited PeopleSoft issue</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 12 June 2026, 19:19 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply-chain compromise and credential theft (developer/IT tooling) + HR/payroll platform risk via PeopleSoft
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain compromise (Linux tooling):</strong> reports that <strong>400+ Arch User Repository (AUR) packages</strong> were compromised to push a <strong>rootkit and infostealer</strong> designed to steal credentials and access tokens.</li>
+  <li><strong>HR/payroll/ERP platform risk (PeopleSoft):</strong> CISA has added an <strong>Oracle PeopleSoft Enterprise PeopleTools</strong> issue to its catalogue of <strong>known exploited vulnerabilities</strong>, indicating active exploitation is happening in the wild.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Credentials are the prize:</strong> infostealers typically target saved passwords, browser sessions and access tokens that can let attackers into email, cloud apps, code repos, finance platforms and admin portals.</li>
+  <li><strong>Supply chain hits SMEs indirectly:</strong> even if you don’t run Arch Linux, an <strong>outsourced IT provider</strong>, web agency, developer, or contractor might use it – and stolen credentials can be used to access your systems.</li>
+  <li><strong>PeopleSoft is often a dependency:</strong> you may use PeopleSoft directly, or it may sit behind an <strong>outsourced payroll/HR/ERP service</strong> – meaning disruption, account compromise or data access could become your problem quickly.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts for logins or MFA re-approval in email/cloud apps, especially from IT/dev/admin accounts.</li>
+  <li>New device logins, unusual locations, or impossible travel alerts in Microsoft 365/Google/other SaaS.</li>
+  <li>New API keys/tokens created, OAuth app consent granted unexpectedly, or unfamiliar integrations appearing in SaaS admin consoles.</li>
+  <li>IT provider reports of a developer workstation rebuild, “we found an infostealer”, or sudden credential resets across multiple services.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Trojaned packages</strong> on a workstation/server can install an infostealer to harvest browser sessions, SSH keys, passwords and cloud tokens.</li>
+  <li>Stolen credentials/tokens are then used for <strong>account takeover</strong> (email, file storage, password managers, finance tools), leading to invoice fraud, data theft, or ransomware deployment.</li>
+  <li>Where organisations rely on <strong>PeopleSoft/PeopleTools</strong>, attackers may attempt to exploit exposed or poorly protected instances to gain unauthorised access and pivot further.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Ask internally and with suppliers:</strong> do any staff, contractors or your IT provider use <strong>Arch Linux + AUR</strong> on machines that can access your systems?</li>
+  <li><strong>Prioritise credential hygiene:</strong> for admins/finance/IT, enforce MFA, rotate passwords where reuse is suspected, and revoke active sessions/tokens where your SaaS supports it.</li>
+  <li><strong>Review privileged access:</strong> check who has admin roles in Microsoft 365/Google/finance platforms; remove stale accounts and apply least privilege.</li>
+  <li><strong>Heighten monitoring for 48–72 hours:</strong> focus on new inbox rules/forwarding, new OAuth consents, and new admin accounts.</li>
+  <li><strong>If you use PeopleSoft (directly or via a provider):</strong> confirm your PeopleSoft environment is inventoried, monitored, and that your supplier has acted on the actively exploited issue.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do any managed endpoints (or contractor endpoints) use <strong>Arch Linux and AUR</strong>, and if so what controls are in place to prevent/spot malicious packages?</li>
+  <li>Do you have detection in place for <strong>infostealer behaviour</strong> and for unusual browser-token/session activity on endpoints?</li>
+  <li>Can you show us a quick check of <strong>recent suspicious sign-ins</strong> and <strong>new OAuth app consents</strong> for our Microsoft 365/Google tenancy?</li>
+  <li>Do we (or any of our key suppliers) run <strong>Oracle PeopleSoft/PeopleTools</strong>, and what is the status of remediation/mitigations given CISA says it is actively exploited?</li>
+  <li>What is our “blast radius” if a developer/admin laptop is compromised – are admin actions separated, and are privileged accounts protected?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged an <strong>actively exploited</strong> Oracle PeopleSoft Enterprise PeopleTools vulnerability (CVE-2026-35273). If you use PeopleSoft (or a supplier uses it for your HR/payroll/ERP), treat this as urgent: confirm ownership, exposure, monitoring, and rapid remediation with your IT team/provider.</p>
+
+        <h2>One action today</h2>
+        <p>Check your admin and finance accounts for unusual sign-ins and revoke/rotate credentials and active sessions where anything looks suspicious (especially for any users with elevated access).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber checklist “Rapid response: suspected account compromise (email/M365/Google)”.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/" rel="noopener noreferrer">Over 400 Arch Linux packages compromised to push rootkit, infostealer</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Alerts)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
