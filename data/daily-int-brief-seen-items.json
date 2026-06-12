@@ -1735,9 +1735,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-11T17:20:42.934835+01:00",
       "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
+    },
+    "2ba6a2a91f633141": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
+      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "04ac9e56c9c3fa07": {
+      "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "c97d2a885188adbd": {
+      "url": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "0cc97dc7a24c2daf": {
+      "url": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+      "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "b4e53837497396af": {
+      "url": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+      "title": "Maine breach portal abused to publish fake data breach disclosures",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
+    },
+    "97865ac01ae6aa13": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-12T12:09:31.329237+01:00",
+      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d",
+      "headline": "Today’s SMB Cyber Brief: extortion via business apps, plus phishing-as-a-service disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS compromise and extortion, plus follow‑on phishing and fake breach claims",
+      "published_at": "2026-06-12T12:09:31.329237+01:00",
+      "published_label": "Friday 12 June 2026, 12:09 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
+        "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+        "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+        "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+        "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+        "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out",
       "headline": "SMB Cyber Intelligence Brief: Supplier platform incident risk + ransomware cash-out disruption",
