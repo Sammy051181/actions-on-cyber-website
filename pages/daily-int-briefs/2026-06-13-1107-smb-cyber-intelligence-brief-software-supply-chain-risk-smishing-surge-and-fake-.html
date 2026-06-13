@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: software supply‑chain risk, smishing surge, and fake breach notices | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: software supply‑chain risk, smishing surge, and fake breach notices</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 13 June 2026, 11:07 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; software supply‑chain compromise + smishing/phishing themes
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain compromise:</strong> attackers hijacked a large number of community-maintained Linux packages (Arch Linux AUR) by altering build scripts to install credential-stealing malware when built.</li>
+  <li><strong>Smishing (phishing by text message):</strong> reports of organised smishing operations using AI tooling to help generate and run convincing phishing campaigns at scale.</li>
+  <li><strong>“Breach news” may be weaponised:</strong> a US state temporarily took its breach notification portal offline after fake breach disclosures appeared—expect scammers to reference “public breach reports” to create urgency.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on outsourced IT, web developers, and third-party software. Supply-chain issues can hit you indirectly (e.g. your website provider, MSP, or a contractor’s laptop) and lead to account takeover, invoice fraud, or wider malware spread. At the same time, smishing remains a high-conversion route into Microsoft 365, banking, payroll, and other business systems.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>password reset</strong> or <strong>MFA prompts</strong> for Microsoft 365/Google/work accounts.</li>
+  <li>Staff receiving <strong>delivery fee</strong>, <strong>tax refund</strong>, <strong>missed parcel</strong>, or <strong>“account locked”</strong> text messages that push them to click a link.</li>
+  <li>New or unusual <strong>admin accounts</strong>, <strong>email forwarding rules</strong>, or <strong>changes to supplier bank details</strong>.</li>
+  <li>Developers/IT noticing unusual package behaviour during installs/builds, or tools suddenly requesting broader permissions than expected.</li>
+  <li>Messages claiming “you’ve been listed in a breach portal / public notice” and urging immediate payment or urgent verification.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain route:</strong> compromise developer or IT endpoints via tampered packages, then steal credentials/tokens (e.g. email, cloud admin, source code, remote access tools), enabling follow-on compromise of client environments.</li>
+  <li><strong>Smishing route:</strong> send high-volume, realistic texts (potentially AI-generated) leading to fake login pages to capture passwords and MFA codes, or to persuade staff to approve a sign-in.</li>
+  <li><strong>Social proof route:</strong> reference “public breach disclosures” (even if fake) to pressure finance or HR into acting quickly—often as a pretext for payment diversion or credential capture.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (10 minutes):</strong> remind everyone that texts about deliveries, banking, payroll, or “account security” should be treated as suspicious—use known bookmarks/apps rather than tapping links.</li>
+  <li><strong>Tighten payment-change controls:</strong> re-validate any supplier bank detail change using an out-of-band method (call a known number from your records, not the email/text).</li>
+  <li><strong>Check admin hygiene:</strong> review Microsoft 365/Google admin accounts, MFA status, and any new forwarding/inbox rules.</li>
+  <li><strong>Contractor/MSP check-in:</strong> if you use Linux-based build systems or developers, ask what they’re doing to reduce risk from third-party/community packages and how they monitor for credential theft.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>conditional access / sign-in risk alerts</strong> enabled for our email accounts, and who responds to them out of hours?</li>
+  <li>How do we detect and respond to <strong>email rule changes</strong> (auto-forwarding, hidden inbox rules) and <strong>new admin creation</strong>?</li>
+  <li>For developers/website suppliers: what controls are in place for <strong>software supply-chain risk</strong> (approved sources, review of third-party packages, secrets management, monitoring for token/credential theft)?</li>
+  <li>If a staff member clicks a smishing link, what is our <strong>first-hour playbook</strong> (password reset, session revoke, MFA review, bank notification, device checks)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation runs an old or lightly maintained website/forum, note that phpBB has fixed a long-standing authentication bypass issue. For SMEs, the practical takeaway is to identify any customer-facing forums or legacy web apps you still host (including on cheap shared hosting) and make sure someone is responsible for updates, admin account review, and backups.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “Do not click links in text messages—use bookmarks/apps instead; and all supplier bank-detail changes must be verified by calling a known number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Invoice fraud &amp; supplier payment change verification checklist</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html" rel="noopener noreferrer">Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html" rel="noopener noreferrer">Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/" rel="noopener noreferrer">Maine disables data breach notification portal after fake disclosures</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/" rel="noopener noreferrer">phpBB forum fixes auth bypass bug lurking for a decade</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
