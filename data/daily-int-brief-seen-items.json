@@ -1924,9 +1924,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-14T11:31:57.915728+01:00",
       "brief_slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks"
+    },
+    "9ee1b9425bfb90ab": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-14T18:47:07.149830+01:00",
+      "brief_slug": "2026-06-14-1847-ai-powered-phishing-as-a-service-disrupted-expect-copycat-login-and-payment-phis"
+    },
+    "d8843f92a0d739b7": {
+      "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-14T18:47:07.149830+01:00",
+      "brief_slug": "2026-06-14-1847-ai-powered-phishing-as-a-service-disrupted-expect-copycat-login-and-payment-phis"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-14-1847-ai-powered-phishing-as-a-service-disrupted-expect-copycat-login-and-payment-phis",
+      "headline": "AI-powered phishing-as-a-service disrupted — expect copycat login and payment phishing",
+      "risk_level": "High",
+      "todays_lookout": "Phishing themes (logins and card payments) and knock-on risk for security tooling",
+      "published_at": "2026-06-14T18:47:07.149830+01:00",
+      "published_label": "Sunday 14 June 2026, 18:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+        "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
+      ]
+    },
     {
       "slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks",
       "headline": "Today’s SMB cyber lookout: ex‑employee access & insider sabotage risks",
