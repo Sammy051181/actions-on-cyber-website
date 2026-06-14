@@ -1917,9 +1917,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-13T15:25:01.698885+01:00",
       "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
+    },
+    "80cdc99fe3cd1db0": {
+      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+      "title": "Ex-school district employee jailed for hacks on former employer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-14T11:31:57.915728+01:00",
+      "brief_slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks",
+      "headline": "Today’s SMB cyber lookout: ex‑employee access & insider sabotage risks",
+      "risk_level": "Moderate",
+      "todays_lookout": "Insider risk and ex‑employee access clean-up",
+      "published_at": "2026-06-14T11:31:57.915728+01:00",
+      "published_label": "Sunday 14 June 2026, 11:31 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/"
+      ]
+    },
     {
       "slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach",
       "headline": "Saturday brief: AI supplier access disruption, identity-stack targeting, and breach-driven phishing",
