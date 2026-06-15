@@ -1938,9 +1938,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-14T18:47:07.149830+01:00",
       "brief_slug": "2026-06-14-1847-ai-powered-phishing-as-a-service-disrupted-expect-copycat-login-and-payment-phis"
+    },
+    "27013c69869a86f8": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+      "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-15T14:26:57.495589+01:00",
+      "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
+    },
+    "21fc3d7b1163299e": {
+      "url": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+      "title": "Infinite Campus data breach affects 137,000 school staff accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-15T14:26:57.495589+01:00",
+      "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
+    },
+    "593b4ce709c24a2f": {
+      "url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-15T14:26:57.495589+01:00",
+      "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
+    },
+    "df7edbb447af4df0": {
+      "url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-15T14:26:57.495589+01:00",
+      "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
+    },
+    "1eee075318539b05": {
+      "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+      "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-15T14:26:57.495589+01:00",
+      "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin",
+      "headline": "Today’s SME cyber lookout: cloud account data theft links, website plugin tampering, and risky browser add-ons",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS data theft and ‘click-a-link’ account compromise, plus website and browser add-on supply-chain risk",
+      "published_at": "2026-06-15T14:26:57.495589+01:00",
+      "published_label": "Monday 15 June 2026, 14:26 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+        "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+        "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+        "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+        "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html"
+      ]
+    },
     {
       "slug": "2026-06-14-1847-ai-powered-phishing-as-a-service-disrupted-expect-copycat-login-and-payment-phis",
       "headline": "AI-powered phishing-as-a-service disrupted — expect copycat login and payment phishing",
