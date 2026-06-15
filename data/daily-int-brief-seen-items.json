@@ -1973,9 +1973,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-15T14:26:57.495589+01:00",
       "brief_slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin"
+    },
+    "c87e9ab186a4fe66": {
+      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-15T20:55:45.839188+01:00",
+      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
+    },
+    "e1ab599cbd463057": {
+      "url": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+      "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-15T20:55:45.839188+01:00",
+      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
+    },
+    "a4b5c0c199963027": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
+      "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-15T20:55:45.839188+01:00",
+      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 Copilot link risk, WordPress plugin supply-chain compromise, and courier-based crypto scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS risk and convincing “trusted link” phishing",
+      "published_at": "2026-06-15T20:55:45.839188+01:00",
+      "published_label": "Monday 15 June 2026, 20:55 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+        "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/"
+      ]
+    },
     {
       "slug": "2026-06-15-1426-today-s-sme-cyber-lookout-cloud-account-data-theft-links-website-plugin-tamperin",
       "headline": "Today’s SME cyber lookout: cloud account data theft links, website plugin tampering, and risky browser add-ons",
