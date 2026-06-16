@@ -2029,9 +2029,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-16T13:22:33.750388+01:00",
       "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
+    },
+    "1e3eb30b35ffc026": {
+      "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-16T20:50:40.345430+01:00",
+      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
+    },
+    "f9af2533fdd68015": {
+      "url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-16T20:50:40.345430+01:00",
+      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
+    },
+    "d2526765604205aa": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-16T20:50:40.345430+01:00",
+      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
+    },
+    "a3798f6d4c51700e": {
+      "url": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-16T20:50:40.345430+01:00",
+      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting",
+      "headline": "SMB Cyber Intelligence Brief — Fake updates, mobile banking trojans, and web hosting risk",
+      "risk_level": "High",
+      "todays_lookout": "Fake update lures and supplier-hosted website compromise",
+      "published_at": "2026-06-16T20:50:40.345430+01:00",
+      "published_label": "Tuesday 16 June 2026, 20:50 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+        "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+        "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/"
+      ]
+    },
     {
       "slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy",
       "headline": "SMB Cyber Intelligence Brief: Microsoft account/Teams-themed threats and stealthy cloud email rule abuse",
