@@ -1994,9 +1994,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-15T20:55:45.839188+01:00",
       "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
+    },
+    "954607137e04da1b": {
+      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-16T13:22:33.750388+01:00",
+      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
+    },
+    "b52d1f7b185037b1": {
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-16T13:22:33.750388+01:00",
+      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
+    },
+    "72391304030e2531": {
+      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-16T13:22:33.750388+01:00",
+      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
+    },
+    "431c581708beb39d": {
+      "url": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+      "title": "Council of Europe investigates ShinyHunters data breach claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-16T13:22:33.750388+01:00",
+      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
+    },
+    "972bfd5a8ea18b57": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
+      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-16T13:22:33.750388+01:00",
+      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft account/Teams-themed threats and stealthy cloud email rule abuse",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365/Teams impersonation and cloud email rule abuse (plus security appliance exploitation)",
+      "published_at": "2026-06-16T13:22:33.750388+01:00",
+      "published_label": "Tuesday 16 June 2026, 13:22 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+        "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+        "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+        "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+        "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 Copilot link risk, WordPress plugin supply-chain compromise, and courier-based crypto scams",
