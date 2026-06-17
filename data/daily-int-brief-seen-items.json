@@ -2092,9 +2092,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-17T12:57:54.793184+01:00",
       "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
+    },
+    "46079806e3c81668": {
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T17:03:32.786638+01:00",
+      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
+    },
+    "468752dd089ebef1": {
+      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "title": "Why Account Takeovers Are Rising and How to Stop Them",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T17:03:32.786638+01:00",
+      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
+    },
+    "cb8465fdf63cc548": {
+      "url": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
+      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T17:03:32.786638+01:00",
+      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ",
+      "headline": "Fortinet VPN credential leak: assume attackers will test logins and target finance teams",
+      "risk_level": "High",
+      "todays_lookout": "Stolen VPN credentials and follow-on account takeover / ransomware attempts",
+      "published_at": "2026-06-17T17:03:32.786638+01:00",
+      "published_label": "Wednesday 17 June 2026, 17:03 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+        "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+        "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/"
+      ]
+    },
     {
       "slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat",
       "headline": "SMB Cyber Intelligence Brief — Breach impersonation scams, website plugin exploitation, and software supply-chain risks",
