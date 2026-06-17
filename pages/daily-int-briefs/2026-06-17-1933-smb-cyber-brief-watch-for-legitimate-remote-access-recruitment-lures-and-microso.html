@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: watch for “legitimate” remote access, recruitment lures, and Microsoft disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: watch for “legitimate” remote access, recruitment lures, and Microsoft disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 17 June 2026, 19:33 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Persistence via legitimate remote tools + phishing themes + Microsoft ecosystem disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three practical watch-outs for SMEs today:</p>
+<ul>
+  <li><strong>“Legitimate” remote access showing up unexpectedly</strong> (e.g., Tailscale and OpenSSH) being used to keep access after an attacker loses their usual control channel.</li>
+  <li><strong>Recruitment / developer tooling scams</strong> where emails and messages push “code review”, “interview task”, or “developer tools” downloads as the route to infection.</li>
+  <li><strong>Microsoft-related disruption risk</strong>: reports of Office apps failing to launch via third-party applications after June updates, plus Microsoft working on a fix for a Defender zero-day—both can create operational noise (and, in some cases, gaps in protection/visibility if not handled carefully).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Persistence is the real problem:</strong> even if a criminal’s infrastructure gets taken down, they may keep access by switching to widely used tools that look “normal” in IT environments.</li>
+  <li><strong>Smaller teams are easier to pressure:</strong> recruitment and “quick code review” lures target busy staff and contractors, not just developers.</li>
+  <li><strong>Disruption has a cost:</strong> if Office won’t open from your line-of-business apps, teams may start emailing documents around, disabling protections, or using unmanaged workarounds.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>New remote access software appearing without a logged change request (e.g., Tailscale installed, new SSH service enabled, unexpected new “remote management” entries).</li>
+  <li>Unfamiliar devices joining remote access networks or new admin accounts created “to help support”.</li>
+  <li>Emails/messages about <strong>job applications, interview tasks, code review requests, Git/CI tooling</strong>, or “please run this to reproduce the issue”.</li>
+  <li>Sudden Office launch failures after updates, prompting staff to seek unofficial fixes or to disable security controls.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Blend in:</strong> attackers use trusted remote-access tools so activity looks like standard IT support rather than malware.</li>
+  <li><strong>Credential theft then persistence:</strong> once they capture email/banking credentials, they add a backdoor route (remote access) to return later—even if the original attack infrastructure disappears.</li>
+  <li><strong>Social engineering via “professional” pretexts:</strong> recruitment and code-review themes are used to get a file opened, a link clicked, or a tool installed.</li>
+  <li><strong>Abuse disruption:</strong> when Office or security tooling behaves oddly, attackers benefit if organisations rush into unsafe workarounds.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Do a quick remote-access audit:</strong> list approved remote tools (e.g., VPN, remote support) and flag anything else for investigation.</li>
+  <li><strong>Set a simple rule for staff:</strong> recruitment/interview tasks, “code review” requests, and unexpected tooling installs must be verified out-of-band (phone call to a known number, or through your normal supplier portal).</li>
+  <li><strong>Protect business email:</strong> make sure MFA is on for Microsoft 365/Google and finance mailboxes; ensure finance approval steps can’t be bypassed via email alone.</li>
+  <li><strong>For Office issues:</strong> tell staff not to download random “fixers” or disable protections; route issues via IT/helpdesk so changes are tracked.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which remote-access tools are <strong>explicitly approved</strong> for our business, and how do you alert us if new ones appear (e.g., Tailscale/SSH/other remote agents)?</li>
+  <li>Do we have alerts for <strong>new persistent access</strong> (new services, new admin accounts, new remote management software) on endpoints?</li>
+  <li>How are we handling the current <strong>Microsoft Office launch issue</strong>—and what user workarounds are we blocking (or discouraging)?</li>
+  <li>If Defender has a known issue/patch pending, what <strong>temporary compensating controls</strong> are in place (monitoring, additional email/web filtering, stricter admin controls)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft is investigating Office app launch problems after June updates and is also working on a fix for a reported Defender zero-day. Treat this as a change-control and monitoring moment: keep updates managed centrally, record any workaround, and confirm your security monitoring is still functioning as expected.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal note today: “Do not install remote access tools or open ‘recruitment/code review’ files/links unless IT has verified—report anything unusual immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Business Email Compromise (BEC) &amp; Payment Change Verification checklist”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html" rel="noopener noreferrer">Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html" rel="noopener noreferrer">North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/" rel="noopener noreferrer">Microsoft confirms Office apps launch issues after June updates</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/" rel="noopener noreferrer">Microsoft working on Defender patch for RoguePlanet zero-day</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

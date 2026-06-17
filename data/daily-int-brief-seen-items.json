@@ -2113,9 +2113,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-17T17:03:32.786638+01:00",
       "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
+    },
+    "538b5a7de057dcb5": {
+      "url": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-17T19:33:33.071380+01:00",
+      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
+    },
+    "b278cce1cb7979d2": {
+      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-17T19:33:33.071380+01:00",
+      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
+    },
+    "9239b85dd3385a36": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
+      "title": "Microsoft confirms Office apps launch issues after June updates",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T19:33:33.071380+01:00",
+      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
+    },
+    "32507156c27982b1": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
+      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T19:33:33.071380+01:00",
+      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso",
+      "headline": "SMB Cyber Brief: watch for “legitimate” remote access, recruitment lures, and Microsoft disruption",
+      "risk_level": "High",
+      "todays_lookout": "Persistence via legitimate remote tools + phishing themes + Microsoft ecosystem disruption",
+      "published_at": "2026-06-17T19:33:33.071380+01:00",
+      "published_label": "Wednesday 17 June 2026, 19:33 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+        "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/"
+      ]
+    },
     {
       "slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ",
       "headline": "Fortinet VPN credential leak: assume attackers will test logins and target finance teams",
