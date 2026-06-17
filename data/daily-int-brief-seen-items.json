@@ -2057,9 +2057,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-16T20:50:40.345430+01:00",
       "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
+    },
+    "84f2a605f62c84e3": {
+      "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T12:57:54.793184+01:00",
+      "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
+    },
+    "3ad8c13d516839b4": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T12:57:54.793184+01:00",
+      "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
+    },
+    "1d5a81ae1b09677e": {
+      "url": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-17T12:57:54.793184+01:00",
+      "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
+    },
+    "44495b28d6b9e603": {
+      "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-17T12:57:54.793184+01:00",
+      "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
+    },
+    "0561978f0a365c7c": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-17T12:57:54.793184+01:00",
+      "brief_slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-17-1257-smb-cyber-intelligence-brief-breach-impersonation-scams-website-plugin-exploitat",
+      "headline": "SMB Cyber Intelligence Brief — Breach impersonation scams, website plugin exploitation, and software supply-chain risks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/brand impersonation scams + website compromise and software supply-chain risk",
+      "published_at": "2026-06-17T12:57:54.793184+01:00",
+      "published_label": "Wednesday 17 June 2026, 12:57 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+        "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+        "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+        "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/"
+      ]
+    },
     {
       "slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting",
       "headline": "SMB Cyber Intelligence Brief — Fake updates, mobile banking trojans, and web hosting risk",
