@@ -2204,9 +2204,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-18T16:53:11.831275+01:00",
       "brief_slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-"
+    },
+    "cd54cf376caee087": {
+      "url": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+      "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "b2572f1d510247ef": {
+      "url": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "d25d1443c68d7070": {
+      "url": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "1be103c23415a5b9": {
+      "url": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "3e64415bb95b1df3": {
+      "url": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "f3c7668f5bd68863": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
+      "title": "AVer PTC cameras",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-18T19:36:22.204359+01:00",
+      "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an",
+      "headline": "Today’s SME cyber lookout: Teams‑style “normal traffic” abuse, USB malware spread, and supplier data ripple effects",
+      "risk_level": "High",
+      "todays_lookout": "Business tool abuse + removable media malware + supplier data exposure scams",
+      "published_at": "2026-06-18T19:36:22.204359+01:00",
+      "published_label": "Thursday 18 June 2026, 19:36 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+        "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+        "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+        "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01"
+      ]
+    },
     {
       "slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-",
       "headline": "SMB Cyber Intelligence Brief — Fortinet gateway targeting, WordPress plugin supply-chain risk, and Salesforce/OAuth data theft",
