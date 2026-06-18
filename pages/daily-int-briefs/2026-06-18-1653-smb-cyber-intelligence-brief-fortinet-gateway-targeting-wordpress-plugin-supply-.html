@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — Fortinet gateway targeting, WordPress plugin supply-chain risk, and Salesforce/OAuth data theft | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — Fortinet gateway targeting, WordPress plugin supply-chain risk, and Salesforce/OAuth data theft</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 18 June 2026, 16:53 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS compromise and remote access gateway targeting
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes SMEs should treat as live risks today:</strong></p>
+<ul>
+  <li><strong>Remote access gateways under pressure:</strong> UK NCSC has issued advice after <strong>global targeting of Fortinet firewalls and VPN gateways</strong>. If you use Fortinet for remote access or site-to-site VPN, assume criminals are actively hunting for easy entry points.</li>
+  <li><strong>Website supply-chain compromise:</strong> A vendor’s <strong>official update system</strong> for multiple ShapedPlugin WordPress plugins was reportedly compromised, pushing infected releases to paying customers. If your website relies on WordPress plugins, this is a “trust the update” problem.</li>
+  <li><strong>SaaS login tokens abused to steal data:</strong> A reported <strong>OAuth breach at Klue</strong> is linked to “Icarus” activity where criminals steal <strong>Salesforce CRM data</strong> and attempt extortion. This is a reminder that third-party app connections to core systems can become a backdoor.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Single points of failure:</strong> One compromised firewall/VPN can expose email, file shares, remote desktop and cloud admin accounts.</li>
+  <li><strong>Websites are business-critical:</strong> A poisoned plugin update can lead to site defacement, SEO spam, customer redirection, data theft, or reputational damage.</li>
+  <li><strong>CRMs contain your crown jewels:</strong> Salesforce often holds customer lists, deal pipelines, contracts and notes—exactly what extortion groups want.</li>
+  <li><strong>Dependency risk:</strong> These incidents don’t require your staff to “click a bad link” to hurt you; they can arrive via suppliers, tools, or trusted integrations.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Fortinet / remote access:</strong> unexpected VPN logins, new user accounts, configuration changes you didn’t request, unusual admin logins outside normal hours, staff reporting they can’t connect or MFA prompts behaving oddly.</li>
+  <li><strong>WordPress:</strong> sudden redirects, new admin users, plugins you don’t recognise, unexplained changes to site files/themes, traffic spikes, customers reporting odd pop-ups, checkout pages behaving differently.</li>
+  <li><strong>Salesforce / OAuth:</strong> new “Connected App” approvals you don’t recognise, users seeing repeated consent prompts, access from unusual locations, bulk exports, unusual API activity, unexpected password/MFA reset emails.</li>
+  <li><strong>Scam follow-on:</strong> emails/calls claiming to be your “IT support”, “hosting company”, “Fortinet partner”, “WordPress vendor” or “Salesforce security team” urging urgent action, payment, or remote access.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Gateway entry → ransomware:</strong> criminals commonly use exposed or poorly managed remote access devices as an initial foothold, then move across the network for data theft and disruption.</li>
+  <li><strong>Trusted updates:</strong> a compromised plugin update channel can install unwanted code on websites without anyone downloading something “dodgy”.</li>
+  <li><strong>OAuth token abuse:</strong> attackers may not need a password if they can obtain/abuse OAuth access granted to a third-party app—allowing silent access to CRM data and exports.</li>
+  <li><strong>Extortion pressure:</strong> stolen CRM or customer data may be used to pressure payment, including threats to contact customers or publish data.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you use Fortinet:</strong> if yes, ask your IT provider to confirm what actions they’ve taken in response to the NCSC advice and what monitoring is in place for admin/VPN activity.</li>
+  <li><strong>Check your WordPress plugin inventory:</strong> identify whether any ShapedPlugin plugins are installed (including on older/forgotten sites). If you outsource web support, ask for written confirmation and what was checked.</li>
+  <li><strong>Review SaaS integrations:</strong> in Salesforce (and other key SaaS platforms), review connected apps/integrations and remove anything not clearly required. Tighten who is allowed to approve new app connections.</li>
+  <li><strong>Brief staff (10 minutes):</strong> warn about “urgent security” calls/emails pretending to be firewall/hosting/CRM support and pushing remote access or payment.</li>
+  <li><strong>Backups and recovery:</strong> make sure you can restore website content and critical data quickly (including Microsoft 365 and SaaS data) and that restores have been tested.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any <strong>Fortinet firewalls/VPN gateways</strong>? Which sites, and who administers them?</li>
+  <li>What logs are you reviewing for <strong>VPN/admin access</strong>, and how quickly would you spot suspicious access?</li>
+  <li>Do we have an <strong>asset list</strong> of all websites and WordPress plugins we run (including microsites and old campaigns)?</li>
+  <li>How do we handle <strong>plugin updates</strong> safely (e.g., staging/testing, integrity checks, monitoring for unexpected changes)?</li>
+  <li>For Salesforce and other SaaS, who can approve <strong>OAuth/Connected Apps</strong>, and how often are integrations reviewed?</li>
+  <li>If an extortion email claims they have our CRM data, what is our <strong>first-hour plan</strong> (evidence capture, access revocation, customer comms, legal/insurance)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>The UK NCSC alert on Fortinet gateway targeting is a strong prompt to ensure your remote access devices are being actively managed (including timely vendor updates and secure configuration). Treat any internet-facing firewall/VPN as a priority business risk, not a “set and forget” device.</p>
+
+        <h2>One action today</h2>
+        <p>Today, confirm with your IT/web provider whether you use Fortinet gateways or ShapedPlugin WordPress plugins, and request a same-day check of VPN/admin logs plus a review of WordPress plugins and Salesforce connected apps for anything unexpected.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Third-party access &amp; SaaS integrations review (OAuth/Connected Apps) + website plugin inventory”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways" rel="noopener noreferrer">Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</a> <span class="muted">(NCSC All Updates)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/" rel="noopener noreferrer">ShapedPlugin update flow hacked to infect WordPress sites</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/" rel="noopener noreferrer">Klue OAuth breach linked to &#x27;Icarus&#x27; Salesforce data theft attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html" rel="noopener noreferrer">INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

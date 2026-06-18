@@ -2176,9 +2176,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-18T12:17:29.855846+01:00",
       "brief_slug": "2026-06-18-1217-today-s-sme-cyber-look-out-trusted-downloads-windows-scan-blind-spots-and-safer-"
+    },
+    "5f26de0c58e56eae": {
+      "url": "https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways",
+      "title": "Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-06-18T16:53:11.831275+01:00",
+      "brief_slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-"
+    },
+    "40d149b7b6c668e6": {
+      "url": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-18T16:53:11.831275+01:00",
+      "brief_slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-"
+    },
+    "4e6c61d3a63ec215": {
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-18T16:53:11.831275+01:00",
+      "brief_slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-"
+    },
+    "913690af751cbf41": {
+      "url": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-18T16:53:11.831275+01:00",
+      "brief_slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-18-1653-smb-cyber-intelligence-brief-fortinet-gateway-targeting-wordpress-plugin-supply-",
+      "headline": "SMB Cyber Intelligence Brief — Fortinet gateway targeting, WordPress plugin supply-chain risk, and Salesforce/OAuth data theft",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS compromise and remote access gateway targeting",
+      "published_at": "2026-06-18T16:53:11.831275+01:00",
+      "published_label": "Thursday 18 June 2026, 16:53 UK time",
+      "source_urls": [
+        "https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways",
+        "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+        "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+        "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html"
+      ]
+    },
     {
       "slug": "2026-06-18-1217-today-s-sme-cyber-look-out-trusted-downloads-windows-scan-blind-spots-and-safer-",
       "headline": "Today’s SME cyber look-out: “trusted” downloads, Windows scan blind spots, and safer AI-assisted coding",
