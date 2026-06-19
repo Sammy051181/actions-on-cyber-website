@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: Salesforce app integration disabled, MFA-bypass phishing, and ransomware defence evasion | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: Salesforce app integration disabled, MFA-bypass phishing, and ransomware defence evasion</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 19 June 2026, 16:42 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS integration risk + MFA-bypass phishing leading to account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Salesforce supplier/integration incident:</strong> Salesforce has disabled the Klue “Battlecards” app integration after OAuth token abuse linked to a security incident. If you use Salesforce and connected apps, expect disruption and potential follow-on scams.</li>
+  <li><strong>Phishing that bypasses MFA (Device Code phishing):</strong> attacks that don’t need your password can still get into Microsoft/Google-style cloud accounts if staff approve the wrong sign-in flow.</li>
+  <li><strong>Ransomware groups improving defence evasion:</strong> reports highlight ransomware operators using tools intended to disable endpoint security controls (EDR), increasing the chance a single foothold becomes a full business outage.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs are heavily dependent on SaaS (CRM, finance, email) and app integrations. When a supplier disables an integration, it creates both <strong>operational disruption</strong> and a window for criminals to run <strong>convincing “supplier support” scams</strong>. Separately, MFA-bypass phishing and ransomware defence evasion raise the likelihood that one successful click or approval turns into mailbox takeover, invoice fraud, data exposure, or downtime.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected alerts that an app has been disconnected from Salesforce, or users can’t access “battlecards”/related features they normally use.</li>
+  <li>Emails/DMs/calls claiming to be from “Salesforce”, “Klue”, or your IT provider asking you to <strong>reconnect an app</strong>, “re-authorise access”, or approve a sign-in urgently.</li>
+  <li>MFA prompts or sign-in approval requests that staff were not expecting (especially “enter this code on another device” / “approve sign-in”).</li>
+  <li>Sudden changes to mail rules, forwarding, new OAuth app consents, or users reporting “my inbox looks different”.</li>
+  <li>Endpoint security suddenly disabled, devices rebooting unexpectedly, or multiple PCs showing the same new “security update/tool” at once.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>OAuth/app-consent abuse:</strong> criminals try to trick a user/admin into granting a malicious app access to email/CRM data, bypassing passwords and sometimes bypassing normal MFA expectations.</li>
+  <li><strong>Supplier-incident impersonation:</strong> criminals time phishing to coincide with real disruption (“integration disabled”) to pressure staff into clicking fake reconnect links or sharing credentials.</li>
+  <li><strong>Account takeover → payment fraud:</strong> once inside a mailbox/CRM, attackers watch invoices and attempt bank detail swaps or intercept customer/supplier comms.</li>
+  <li><strong>Ransomware with defence disruption:</strong> attackers prioritise weakening endpoint security to make encryption/data theft more likely to succeed and harder to recover from.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (2 minutes):</strong> “If you get asked to reconnect Salesforce apps or approve a sign-in you didn’t start, stop and report it.”</li>
+  <li><strong>Check your Salesforce connected apps:</strong> confirm which integrations are approved, who approved them, and whether anything changed this week.</li>
+  <li><strong>Lock down app consent:</strong> ensure only admins can approve new OAuth apps (or require admin approval), especially for CRM and email integrations.</li>
+  <li><strong>Review key inboxes:</strong> finance@, accounts@, info@ for forwarding rules, unusual delegates, or suspicious “app access” warnings.</li>
+  <li><strong>Validate payment changes out-of-band:</strong> if any supplier/customer bank detail changes arrive, confirm using a known phone number (not the one in the email).</li>
+  <li><strong>Backups readiness check:</strong> confirm you can restore a file set and that backups are not dependent on a single admin account.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a policy that <strong>restricts or requires approval</strong> for new OAuth/app consents (Microsoft 365/Google Workspace/Salesforce connected apps)?</li>
+  <li>Can you provide a <strong>weekly report</strong> of newly authorised apps/integrations and any changes to mail forwarding rules?</li>
+  <li>What monitoring is in place for <strong>Device Code phishing</strong> / unusual sign-in approvals and suspicious token activity?</li>
+  <li>If endpoint protection is tampered with, what’s our <strong>alerting and response</strong> path (who gets called, what is isolated first, what gets preserved)?</li>
+  <li>For ransomware resilience, when did we last <strong>test a restore</strong> for a typical shared drive and a key SaaS dataset?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch push from today’s items for typical SMEs. The practical focus is on <strong>identity and integrations</strong>: reduce who can approve app access, review connected apps, and tighten sign-in approval behaviour.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Do not approve unexpected sign-in prompts or ‘reconnect Salesforce app’ requests—report them to IT/management immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber checklist — “Payment change &amp; invoice fraud verification (call-back process)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/salesforce-disables-klue-app.html" rel="noopener noreferrer">Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/" rel="noopener noreferrer">Webinar: How attackers bypass MFA and how defenders can respond</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/" rel="noopener noreferrer">Gentlemen ransomware uses multiple EDR killers to disable defenses</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

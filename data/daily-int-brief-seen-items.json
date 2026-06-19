@@ -2267,9 +2267,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-19T12:41:33.828162+01:00",
       "brief_slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed"
+    },
+    "4587624b7b3fc6ad": {
+      "url": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
+      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-19T16:42:20.182722+01:00",
+      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
+    },
+    "fa35e69eb20d667f": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T16:42:20.182722+01:00",
+      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
+    },
+    "42866a1008b82dcf": {
+      "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T16:42:20.182722+01:00",
+      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-",
+      "headline": "Today’s SMB Cyber Brief: Salesforce app integration disabled, MFA-bypass phishing, and ransomware defence evasion",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS integration risk + MFA-bypass phishing leading to account takeover",
+      "published_at": "2026-06-19T16:42:20.182722+01:00",
+      "published_label": "Friday 19 June 2026, 16:42 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
+        "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+        "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/"
+      ]
+    },
     {
       "slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed",
       "headline": "Fortinet firewall/VPN credential leak: check remote access and reset where needed",
