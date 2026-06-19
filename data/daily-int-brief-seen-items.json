@@ -2288,9 +2288,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-19T16:42:20.182722+01:00",
       "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
+    },
+    "4bb1ee2d2a3d23f6": {
+      "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T19:06:36.484317+01:00",
+      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
+    },
+    "16da9826d5713755": {
+      "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
+      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-19T19:06:36.484317+01:00",
+      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
+    },
+    "661c1bc506c9199b": {
+      "url": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T19:06:36.484317+01:00",
+      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
+    },
+    "97a7893a2bc04e8a": {
+      "url": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-19T19:06:36.484317+01:00",
+      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today",
+      "headline": "Supplier breach scam risk + internet‑facing firewall activity to check today",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, firewall exposure, and website/checkout third‑party risk",
+      "published_at": "2026-06-19T19:06:36.484317+01:00",
+      "published_label": "Friday 19 June 2026, 19:06 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+        "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
+        "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+        "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html"
+      ]
+    },
     {
       "slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-",
       "headline": "Today’s SMB Cyber Brief: Salesforce app integration disabled, MFA-bypass phishing, and ransomware defence evasion",
