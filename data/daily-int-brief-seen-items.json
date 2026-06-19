@@ -2246,9 +2246,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-06-18T19:36:22.204359+01:00",
       "brief_slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an"
+    },
+    "1dc696798859e4b8": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T12:41:33.828162+01:00",
+      "brief_slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed"
+    },
+    "ca68a80872145f7d": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
+      "title": "CISA Urges Hardening Fortinet Devices After Reports of Credential Exposure",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-19T12:41:33.828162+01:00",
+      "brief_slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed"
+    },
+    "3c789153a5a5585b": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-19T12:41:33.828162+01:00",
+      "brief_slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-19-1241-fortinet-firewall-vpn-credential-leak-check-remote-access-and-reset-where-needed",
+      "headline": "Fortinet firewall/VPN credential leak: check remote access and reset where needed",
+      "risk_level": "High",
+      "todays_lookout": "Remote access compromise risk (firewall/VPN credential leak)",
+      "published_at": "2026-06-19T12:41:33.828162+01:00",
+      "published_label": "Friday 19 June 2026, 12:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+        "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
+        "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/"
+      ]
+    },
     {
       "slug": "2026-06-18-1936-today-s-sme-cyber-lookout-teams-style-normal-traffic-abuse-usb-malware-spread-an",
       "headline": "Today’s SME cyber lookout: Teams‑style “normal traffic” abuse, USB malware spread, and supplier data ripple effects",
