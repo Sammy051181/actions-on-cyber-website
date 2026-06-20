@@ -2316,9 +2316,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-19T19:06:36.484317+01:00",
       "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
+    },
+    "935783570e0ed9a3": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T11:13:29.370954+01:00",
+      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
+    },
+    "47fe62a9b363942f": {
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T11:13:29.370954+01:00",
+      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
+    },
+    "7c642ede84fd1bc8": {
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T11:13:29.370954+01:00",
+      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo",
+      "headline": "SMB Cyber Brief: WordPress email plugin exploitation + SaaS OAuth token theft fallout",
+      "risk_level": "High",
+      "todays_lookout": "Website plugin credential leaks and supplier OAuth token compromise (knock-on account takeover scams)",
+      "published_at": "2026-06-20T11:13:29.370954+01:00",
+      "published_label": "Saturday 20 June 2026, 11:13 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+        "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+        "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/"
+      ]
+    },
     {
       "slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today",
       "headline": "Supplier breach scam risk + internet‑facing firewall activity to check today",
