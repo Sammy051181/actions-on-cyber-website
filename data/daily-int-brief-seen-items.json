@@ -2337,9 +2337,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-20T11:13:29.370954+01:00",
       "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
+    },
+    "2e719dabd7c34129": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "b837220888d79db5": {
+      "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "7997b5e0e198901b": {
+      "url": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "267e4db129f61c9f": {
+      "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "d79c0ae88029c37e": {
+      "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "2f58bbb6cb85307e": {
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T15:29:16.557397+01:00",
+      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r",
+      "headline": "SMB Cyber Intelligence Brief — Supply-chain malware (npm), ransomware hardening, and risky AI/agent access",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS risk + phishing themes + ransomware disruption",
+      "published_at": "2026-06-20T15:29:16.557397+01:00",
+      "published_label": "Saturday 20 June 2026, 15:29 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+        "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+        "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+        "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+        "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html"
+      ]
+    },
     {
       "slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo",
       "headline": "SMB Cyber Brief: WordPress email plugin exploitation + SaaS OAuth token theft fallout",
