@@ -2379,9 +2379,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-20T15:29:16.557397+01:00",
       "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
+    },
+    "e357e12ae59693ce": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T18:47:27.328545+01:00",
+      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
+    },
+    "f0f8a55eafe852f5": {
+      "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
+      "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-20T18:47:27.328545+01:00",
+      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
+    },
+    "fe04fca16db4646f": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
+      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-20T18:47:27.328545+01:00",
+      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c",
+      "headline": "SMB Cyber Intelligence Brief: ransomware targeting “recent files” + risky WordPress clean-up fallout",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware disruption and ‘compromised website’ infection chain (especially via WordPress)",
+      "published_at": "2026-06-20T18:47:27.328545+01:00",
+      "published_label": "Saturday 20 June 2026, 18:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+        "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/"
+      ]
+    },
     {
       "slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r",
       "headline": "SMB Cyber Intelligence Brief — Supply-chain malware (npm), ransomware hardening, and risky AI/agent access",
