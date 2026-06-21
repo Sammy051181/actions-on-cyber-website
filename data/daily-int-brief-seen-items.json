@@ -2400,9 +2400,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-20T18:47:27.328545+01:00",
       "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
+    },
+    "5e1e15ce38568c24": {
+      "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-21T15:32:14.825823+01:00",
+      "brief_slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes",
+      "headline": "D-Link router infections used as criminal proxies: quick checks for SMEs",
+      "risk_level": "High",
+      "todays_lookout": "Compromised routers and “proxy” abuse leading to account takeovers and fraud",
+      "published_at": "2026-06-21T15:32:14.825823+01:00",
+      "published_label": "Sunday 21 June 2026, 15:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
+      ]
+    },
     {
       "slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c",
       "headline": "SMB Cyber Intelligence Brief: ransomware targeting “recent files” + risky WordPress clean-up fallout",

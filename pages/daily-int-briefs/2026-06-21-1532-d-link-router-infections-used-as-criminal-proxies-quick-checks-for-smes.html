@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>D-Link router infections used as criminal proxies: quick checks for SMEs | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>D-Link router infections used as criminal proxies: quick checks for SMEs</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 21 June 2026, 15:32 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Compromised routers and “proxy” abuse leading to account takeovers and fraud
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Reports say a botnet (“AryStinger”) has compromised thousands of older D-Link routers and is using them as proxies for criminal traffic. If your office or remote sites still use an ageing router, it could be at higher risk of being hijacked and used in the background.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Business disruption:</strong> an infected router can cause slow, unstable internet, VPN issues, and intermittent access to cloud apps.</li>
+  <li><strong>Security blind spots:</strong> criminals can route traffic through hijacked routers, making suspicious activity look like it’s coming from “normal” UK business connections.</li>
+  <li><strong>Knock-on risk:</strong> if your IP address is used for malicious activity, you can see account lockouts, extra verification challenges, or blocks from SaaS providers.</li>
+  <li><strong>Remote working risk:</strong> home-office routers used by staff can be a weak link into business systems (especially where VPN or remote access is used).</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Internet connection suddenly slower or unstable without an ISP fault reported.</li>
+  <li>Staff report frequent re-logins, MFA prompts, or “unusual activity” flags on business accounts.</li>
+  <li>New/unknown devices showing in your router admin page, or router settings changed (DNS, admin account, remote management enabled).</li>
+  <li>Unexpected outbound traffic alerts from your firewall/IT provider, or your ISP contacts you about suspicious traffic.</li>
+  <li>Services you use (email, accounting, cloud storage) start rate-limiting or blocking logins from your office IP address.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li>Using hijacked routers as <strong>stepping stones</strong> (proxies) to hide the real source of phishing, credential stuffing, and other attacks.</li>
+  <li>Targeting organisations that still rely on <strong>default passwords, old routers, or exposed remote administration</strong>.</li>
+  <li>Using compromised routers to support <strong>fraud attempts</strong> (e.g., logins to business email or finance systems that appear to come from a “legitimate” business IP address).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Identify what router you’re using</strong> at each site (office, warehouse, shop, and any remote locations). Note the model and approx. age.</li>
+  <li><strong>Change router admin passwords</strong> (unique, strong) and confirm <strong>remote administration is disabled</strong> unless your IT provider explicitly requires it and has locked it down.</li>
+  <li><strong>Check DNS settings</strong> in the router admin page; if they are unfamiliar, treat as a red flag and escalate to your IT support.</li>
+  <li><strong>Ask for a quick review of outbound traffic</strong> (do you have unusual spikes, especially to unfamiliar destinations?).</li>
+  <li>If the router is <strong>old/out of support</strong>, plan a replacement with business-grade kit (and keep a record of who manages it: ISP, MSP, or in-house).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which routers are in use across our sites, and which are <strong>end-of-life</strong> or no longer receiving updates?</li>
+  <li>Do we have <strong>remote management</strong> enabled on any router? If yes, how is it restricted (IP allowlist, MFA, VPN-only access)?</li>
+  <li>How do you detect if our connection is being used as a <strong>proxy for malicious traffic</strong> (alerts, thresholds, ISP liaison)?</li>
+  <li>If our public IP gets blocked or reputation-damaged, what’s the <strong>recovery plan</strong> (ISP ticketing, IP change, evidence for SaaS providers)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This story is mainly about <strong>older routers</strong>. If your router is no longer supported, updates may not be available and <strong>replacement</strong> is often the safest route. If it is supported, ensure the router firmware is managed and updated as part of your normal IT maintenance.</p>
+
+        <h2>One action today</h2>
+        <p>Make a quick list of every router used by your business (including remote sites) and confirm none are end-of-life or using default/unknown admin credentials.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Small Business Router &amp; Wi‑Fi Safety Checklist” (inventory, admin access, remote management, DNS checks, and replacement triggers).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/" rel="noopener noreferrer">AryStinger botnet infected thousands of D-Link routers worldwide</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
