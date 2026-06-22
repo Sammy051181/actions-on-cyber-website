@@ -2428,9 +2428,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-22T14:05:38.156286+01:00",
       "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
+    },
+    "2ce34d4bc99a9a63": {
+      "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-22T20:47:09.224560+01:00",
+      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
+    },
+    "dd93fd5ed35398c8": {
+      "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-22T20:47:09.224560+01:00",
+      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
+    },
+    "e2d4ec625286b9c3": {
+      "url": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-22T20:47:09.224560+01:00",
+      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
+    },
+    "9eeb02abbd1f4f43": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-22T20:47:09.224560+01:00",
+      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo",
+      "headline": "Today’s SMB cyber lookout: WordPress plugin supply-chain risk and malware via Google Ads",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS update trust + search-ad malware leading to credential theft",
+      "published_at": "2026-06-22T20:47:09.224560+01:00",
+      "published_label": "Monday 22 June 2026, 20:47 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+        "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+        "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
+      ]
+    },
     {
       "slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro",
       "headline": "Today’s SMB cyber lookout: phishing + AI scams, and “hidden” attacks routed via compromised routers",
