@@ -2407,9 +2407,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-21T15:32:14.825823+01:00",
       "brief_slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes"
+    },
+    "459509626a675612": {
+      "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-22T14:05:38.156286+01:00",
+      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
+    },
+    "f1470df83f4c69e9": {
+      "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-22T14:05:38.156286+01:00",
+      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
+    },
+    "c0efebc39890620c": {
+      "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-22T14:05:38.156286+01:00",
+      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro",
+      "headline": "Today’s SMB cyber lookout: phishing + AI scams, and “hidden” attacks routed via compromised routers",
+      "risk_level": "Moderate",
+      "todays_lookout": "Phishing and AI-enabled scams, plus attacks masked through compromised routers/proxy networks",
+      "published_at": "2026-06-22T14:05:38.156286+01:00",
+      "published_label": "Monday 22 June 2026, 14:05 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+        "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+        "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html"
+      ]
+    },
     {
       "slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes",
       "headline": "D-Link router infections used as criminal proxies: quick checks for SMEs",
