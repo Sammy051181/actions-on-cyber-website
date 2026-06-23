@@ -2491,9 +2491,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-23T11:43:37.926216+01:00",
       "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
+    },
+    "a242733f44a9d6d5": {
+      "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "title": "LastPass confirms data breach in Klue supply chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-23T16:24:26.245373+01:00",
+      "brief_slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-"
+    },
+    "1a2d68f57b3b7df9": {
+      "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-23T16:24:26.245373+01:00",
+      "brief_slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-",
+      "headline": "SMB Cyber Intelligence Brief: LastPass confirms breach tied to Klue supply-chain attack",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and credential risk (password manager/SaaS)",
+      "published_at": "2026-06-23T16:24:26.245373+01:00",
+      "published_label": "Tuesday 23 June 2026, 16:24 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/"
+      ]
+    },
     {
       "slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-",
       "headline": "Today’s SMB cyber lookout: WhatsApp “business document” messages leading to remote access",
