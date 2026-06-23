@@ -2505,9 +2505,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-23T16:24:26.245373+01:00",
       "brief_slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-"
+    },
+    "962d41e3a2c99a01": {
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "aa92e065151cc426": {
+      "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+      "title": "Scattered Spider members plead guilty to hacking Transport for London",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "6dc2501726f3c67e": {
+      "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "a790ae300b6d7f8b": {
+      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "4cbd0c91c7ab4c5f": {
+      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "b661ce503643f811": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
+      "title": "Siemens SINEC INS",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
+    },
+    "6994d602d214f24c": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
+      "title": "Siemens SIPROTEC 5 Using DIGSI5 Protocol",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-23T19:14:34.720983+01:00",
+      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-",
+      "headline": "SMB Cyber Brief (Tue 23 Jun 2026): Social engineering gangs + “AI agent/skill” add‑ons = higher supplier & account takeover risk",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier impersonation & account takeover, plus risky AI/automation add‑ons and developer supply chain controls",
+      "published_at": "2026-06-23T19:14:34.720983+01:00",
+      "published_label": "Tuesday 23 June 2026, 19:14 UK time",
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+        "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+        "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+        "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+        "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02"
+      ]
+    },
     {
       "slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-",
       "headline": "SMB Cyber Intelligence Brief: LastPass confirms breach tied to Klue supply-chain attack",

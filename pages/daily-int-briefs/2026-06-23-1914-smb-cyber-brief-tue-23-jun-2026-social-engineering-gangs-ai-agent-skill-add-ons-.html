@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief (Tue 23 Jun 2026): Social engineering gangs + “AI agent/skill” add‑ons = higher supplier &amp; account takeover risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief (Tue 23 Jun 2026): Social engineering gangs + “AI agent/skill” add‑ons = higher supplier &amp; account takeover risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Tuesday 23 June 2026, 19:14 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier impersonation &amp; account takeover, plus risky AI/automation add‑ons and developer supply chain controls
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two themes to brief your team on today:</strong></p>
+<ul>
+  <li><strong>Social engineering and account takeover tactics</strong> used by groups like Scattered Spider (the same style of attacks often targets finance teams, helpdesks and outsourced IT).</li>
+  <li><strong>Third-party add-ons and “AI agent/skill” marketplaces</strong> that can quietly collect data or gain access even when they appear to pass security checks.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li>SMEs are often easier to trick than to hack: a convincing call to the helpdesk, a fake supplier email, or a rushed “urgent” request can lead to email takeover or fraudulent payments.</li>
+  <li>AI assistants/agents and marketplace “skills” are increasingly being adopted by teams without formal security review, creating a new supplier/data-sharing route.</li>
+  <li>If you rely on an outsourced IT provider or MSP, you need clarity on how they verify identity for password/MFA resets and how they approve new integrations.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Helpdesk/IT requests that try to bypass normal steps:</strong> “I’ve got a new phone”, “I’m locked out”, “can you reset MFA urgently”.</li>
+  <li><strong>Supplier/bank detail ‘changes’</strong> arriving right before payroll, month-end, or an invoice due date.</li>
+  <li><strong>New AI tools or add-ons</strong> being connected to Microsoft 365/Google Workspace/CRM with broad permissions “to work properly”.</li>
+  <li><strong>Unexpected prompts</strong> asking staff to approve sign-ins, OAuth consent screens, or “authorise this app”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Impersonation + pressure:</strong> attackers pose as staff, suppliers, or even your IT provider to trigger password resets, MFA changes, mailbox access, or invoice redirection.</li>
+  <li><strong>Quiet data capture via add-ons:</strong> a seemingly harmless AI “skill” can request access and collect basic identifiers (like email addresses) at scale; a more malicious one could seek broader access if users approve it.</li>
+  <li><strong>Developer supply-chain angle (for firms that build/host code):</strong> attackers try to get code or workflow changes merged via pull requests, then abuse automation to access secrets or systems. GitHub is tightening defaults/behaviour in this area, but SMEs still need to review how their workflows are configured.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Run a 10-minute “verify before you act” reminder</strong> to finance and admin staff: bank detail changes and urgent payment requests must be confirmed using a known phone number (not one in the email).</li>
+  <li><strong>Lock down who can add integrations</strong> to your email/CRM/helpdesk/automation tools; remove unused apps and review any newly approved apps.</li>
+  <li><strong>Re-check your helpdesk identity process</strong> (internal or outsourced): require a call-back to a known number and a second factor for any MFA reset/device change.</li>
+  <li><strong>If you use AI assistants/agents:</strong> make a simple rule—no new “skills/plugins/connectors” without owner approval and a quick permission review.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>What is your <strong>step-by-step identity verification</strong> process for password resets and MFA/device changes (especially for directors and finance)?</li>
+  <li>Do we have <strong>conditional access / sign-in rules</strong> to reduce account takeover risk (e.g., blocking risky locations, requiring MFA consistently)?</li>
+  <li>How do you <strong>monitor and alert</strong> on suspicious mailbox rules, forwarding, and new app consents in Microsoft 365/Google?</li>
+  <li>Do we have a <strong>register of approved SaaS integrations</strong> (including AI tools), and can you provide a monthly list of newly added apps/permissions?</li>
+  <li>If we use GitHub: have you checked our workflows for risky automation triggers and confirmed we’re using the safer, up-to-date approach for code checkout?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Industrial/operational technology users should note Siemens ICS advisories released today. If you run Siemens SINEC INS or SIPROTEC 5 in facilities, manufacturing, or building/energy environments, confirm with your maintainer/IT provider that you’re on supported versions and have vendor-recommended mitigations in place.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day message to finance/admin and your IT helpdesk: “No bank detail changes or MFA resets without call-back to a known number and a second verification step.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier payment change &amp; invoice fraud verification (call-back + two-person approval)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/" rel="noopener noreferrer">Scattered Spider Hackers Plead Guilty on Day 1 of Trial</a> <span class="muted">(Krebs on Security)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/" rel="noopener noreferrer">Scattered Spider members plead guilty to hacking Transport for London</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html" rel="noopener noreferrer">Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html" rel="noopener noreferrer">GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html" rel="noopener noreferrer">Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04" rel="noopener noreferrer">Siemens SINEC INS</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02" rel="noopener noreferrer">Siemens SIPROTEC 5 Using DIGSI5 Protocol</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
