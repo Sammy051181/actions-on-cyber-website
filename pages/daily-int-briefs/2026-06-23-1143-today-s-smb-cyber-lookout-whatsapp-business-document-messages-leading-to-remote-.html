@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: WhatsApp “business document” messages leading to remote access | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: WhatsApp “business document” messages leading to remote access</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 23 June 2026, 11:43 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Messaging-app phishing leading to remote access and account compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Watch for WhatsApp messages (especially via WhatsApp Desktop/Web) that pretend to share business documents (invoices, purchase orders, shipping notes, scanned PDFs) but actually try to get staff to open a script file. Reports indicate this can lead to remote access on the PC, including the installation of legitimate remote monitoring/management (RMM) tooling that attackers then abuse.</p>
+<p>Separately, there is reporting on credential theft from compromised FortiGate firewalls, which can lead to remote access into business networks if a supplier or your own perimeter device is affected.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>WhatsApp is a business channel</strong> for many SMEs (customers, suppliers, trades, schools, charities). It’s easy for a convincing “document” message to reach finance/admin staff.</li>
+  <li><strong>Remote access is the fast path to disruption</strong>: once attackers get a foothold they may steal data, tamper with payments, or use the access for ransomware later.</li>
+  <li><strong>Abused “legit” tools reduce suspicion</strong>: if attackers install real RMM software, it may look like normal IT activity unless you’re checking.</li>
+  <li><strong>Network edge compromise has ripple effects</strong>: if firewall credentials are stolen, attackers may access email, file shares, and cloud services through trusted connections.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>WhatsApp message urging urgency: “please review today”, “overdue”, “final notice”, “payment confirmation”, “delivery issue”.</li>
+  <li>Unexpected attachments or links, especially if the “document” is not a normal PDF/Office file.</li>
+  <li>Prompts to open a file that looks like a script (e.g., odd file extensions) or anything that triggers security warnings.</li>
+  <li>New remote-control prompts, new “support” pop-ups, or the mouse moving on its own.</li>
+  <li>New admin tools appearing on a PC, or a device suddenly showing up in your IT/RMM portal that no one can explain.</li>
+  <li>Unusual VPN/firewall logins or logins from new locations (if you or your IT provider monitor these).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Document pretext</strong>: attackers pose as a supplier/customer and send a “business doc” via WhatsApp.</li>
+  <li><strong>Execution for access</strong>: opening the file can give the attacker remote access, sometimes by installing legitimate RMM software to blend in.</li>
+  <li><strong>Credential theft and lateral movement</strong>: once on a PC, attackers may grab saved passwords, hijack email, and target finance processes (invoice fraud) or deploy ransomware later.</li>
+  <li><strong>Perimeter credential theft</strong>: stolen firewall credentials can be used to access internal systems and cloud apps via trusted routes.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note</strong>: “No one should open unexpected ‘document’ files sent via WhatsApp. If it’s real, ask for it via email from a known address or via your approved portal.”</li>
+  <li><strong>Block and report</strong>: if a suspicious WhatsApp message arrives, don’t forward it internally; take a screenshot, report to IT, and block the sender.</li>
+  <li><strong>Check remote access tooling</strong>: confirm only approved remote support tools are installed and in use on company devices.</li>
+  <li><strong>Review admin access</strong>: ensure MFA is enabled on email, Microsoft 365/Google, accounting, payroll, and any remote access services.</li>
+  <li><strong>Quick finance control</strong>: remind staff that bank detail changes must be verified out-of-band (call a known number, not the one in the message).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do you have alerts for <strong>new/unauthorised RMM tools</strong> being installed on endpoints?</li>
+  <li>Can you confirm which <strong>remote support tools are approved</strong> for our business and how we spot anything else?</li>
+  <li>Are we monitoring for <strong>unusual logins</strong> (new country/device) to email and VPN/firewall accounts?</li>
+  <li>Do we have a documented process for <strong>rapid device isolation</strong> if someone clicks a malicious attachment?</li>
+  <li>If we use Fortinet/FortiGate (or a managed firewall), have you validated that our admin access and credentials are protected and being monitored?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There is reporting of a long-standing issue in the Squid web proxy that could expose cleartext HTTP requests to other proxy users in some setups. This is mainly relevant if you run Squid internally (including via a supplier). Ask your IT provider whether you use Squid anywhere and, if so, what mitigations/updates have been applied.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff reminder: don’t open any unexpected “invoice/PO/document” files sent via WhatsApp; verify the request using a known contact method and report the message to IT.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Stop phishing turning into account takeover (staff quick checks + reporting process)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/" rel="noopener noreferrer">WhatsApp phishing attack uses fake business docs to hack PCs</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html" rel="noopener noreferrer">WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/" rel="noopener noreferrer">FortiBleed campaign used custom FortiGate sniffer to steal credentials</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html" rel="noopener noreferrer">29-Year-Old Squid Proxy Bug &#x27;Squidbleed&#x27; Can Leak Cleartext HTTP Requests</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html" rel="noopener noreferrer">Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

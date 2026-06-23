@@ -2456,9 +2456,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-22T20:47:09.224560+01:00",
       "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
+    },
+    "e7f16325e079b53e": {
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-23T11:43:37.926216+01:00",
+      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
+    },
+    "16f440b520f8d2fb": {
+      "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T11:43:37.926216+01:00",
+      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
+    },
+    "3e2c39543fbaa3da": {
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-23T11:43:37.926216+01:00",
+      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
+    },
+    "41444a2175f8fe01": {
+      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T11:43:37.926216+01:00",
+      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
+    },
+    "91ac02c25b00723c": {
+      "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-23T11:43:37.926216+01:00",
+      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-",
+      "headline": "Today’s SMB cyber lookout: WhatsApp “business document” messages leading to remote access",
+      "risk_level": "High",
+      "todays_lookout": "Messaging-app phishing leading to remote access and account compromise",
+      "published_at": "2026-06-23T11:43:37.926216+01:00",
+      "published_label": "Tuesday 23 June 2026, 11:43 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+        "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+        "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+        "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+        "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
+      ]
+    },
     {
       "slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo",
       "headline": "Today’s SMB cyber lookout: WordPress plugin supply-chain risk and malware via Google Ads",
