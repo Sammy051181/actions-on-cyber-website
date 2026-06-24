@@ -2589,9 +2589,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-24T11:28:15.703978+01:00",
       "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
+    },
+    "26e1bf492eb5fee3": {
+      "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-24T16:07:17.384780+01:00",
+      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
+    },
+    "4e3e0174b1c9e07f": {
+      "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-24T16:07:17.384780+01:00",
+      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
+    },
+    "428591f352e62bf4": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-24T16:07:17.384780+01:00",
+      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
+    },
+    "5140e8a2af536ac9": {
+      "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-24T16:07:17.384780+01:00",
+      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de",
+      "headline": "Today’s SMB cyber lookout: service-desk scams, ransomware footholds and network device risk",
+      "risk_level": "High",
+      "todays_lookout": "Service-desk social engineering and ransomware access attempts (plus internet-facing network device exposure)",
+      "published_at": "2026-06-24T16:07:17.384780+01:00",
+      "published_label": "Wednesday 24 June 2026, 16:07 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+        "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/"
+      ]
+    },
     {
       "slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-",
       "headline": "SMB Cyber Intelligence Brief — phishing breaches, macOS infostealers, and perimeter credential harvesting",
