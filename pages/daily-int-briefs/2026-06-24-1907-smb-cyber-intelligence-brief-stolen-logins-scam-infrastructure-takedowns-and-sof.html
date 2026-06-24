@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Stolen logins, scam infrastructure takedowns, and software supply-chain risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Stolen logins, scam infrastructure takedowns, and software supply-chain risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 24 June 2026, 19:07 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential-theft ripple effects + supplier/supply-chain compromise leading to account takeover and payment fraud
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Stolen password fallout:</strong> Law enforcement disrupted malware infrastructure and recovered a very large cache of stolen credentials. Expect increased <strong>account takeover</strong> attempts (email, Microsoft 365/Google, payroll, bookkeeping, CRM) using previously-stolen logins.</li>
+  <li><strong>Payment and invoicing scams:</strong> Credential theft commonly fuels <strong>Business Email Compromise (BEC)</strong> and fake bank-detail changes.</li>
+  <li><strong>Supplier and software supply-chain risk:</strong> Researchers flagged a CI/CD workflow weakness pattern that can allow attackers to hijack development workflows and compromise code in repositories—this can ripple into <strong>third-party software and updates</strong> you rely on.</li>
+  <li><strong>Scam operations and money movement:</strong> US authorities seized a cloud account allegedly tied to scam money laundering—this is a reminder that scam ecosystems are well-resourced and cross-border, and will keep targeting victims via email, SMS and social channels.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs are attractive targets because a single compromised mailbox or admin account can quickly lead to: diverted payments, payroll fraud, fraudulent supplier onboarding, theft of customer data, and ransomware. You may not be directly targeted by “big” actors, but you can be hit by <strong>automated login attempts</strong> using stolen credentials, or by scams that leverage compromised supplier accounts.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>MFA prompts</strong> or “approve sign-in” notifications.</li>
+  <li>Multiple failed login alerts from unfamiliar locations, or “impossible travel” sign-ins.</li>
+  <li>New inbox rules/forwarding set up (e.g., copies of invoices sent externally).</li>
+  <li>Supplier emails that suddenly change tone, add urgency, or request <strong>bank detail</strong> changes.</li>
+  <li>New “app consent” / third-party app access granted in Microsoft 365/Google without a clear business reason.</li>
+  <li>Invoices re-sent with slightly changed bank details, or requests to “pay this time to a different account”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Credential stuffing:</strong> Attackers try stolen username/password pairs across Microsoft 365, Google Workspace, payroll and finance platforms.</li>
+  <li><strong>Mailbox takeover → BEC:</strong> Once in, they watch email threads and insert themselves into real conversations to redirect payments.</li>
+  <li><strong>Supply-chain compromise:</strong> If a vendor’s repository/workflows are hijacked, attackers may slip malicious changes into software, updates or deployment pipelines—creating downstream risk for customers.</li>
+  <li><strong>Scam “cash-out” routes:</strong> Mature scam groups use cloud infrastructure and laundering networks to move stolen funds quickly, reducing the time you have to recover money.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Finance check:</strong> Re-brief staff: bank-detail changes must be verified via a known phone number (not the one in the email). Add a two-person approval for new payees and changes.</li>
+  <li><strong>Email account controls:</strong> Ensure MFA is on for all users, and use phishing-resistant MFA where possible for admins.</li>
+  <li><strong>Quick mailbox hygiene:</strong> Review forwarding rules, suspicious inbox rules, delegated access and newly-added OAuth/app integrations.</li>
+  <li><strong>Password reuse audit:</strong> If staff reuse passwords between work and personal sites, assume higher risk. Encourage a password manager and unique passwords for key accounts.</li>
+  <li><strong>Supplier comms:</strong> Remind key suppliers (bookkeeping/payroll/IT/logistics) you will verify payment changes out-of-band—set expectations now.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you show us a report of <strong>risky sign-ins</strong>, legacy authentication blocks, and MFA coverage for all users and admins?</li>
+  <li>Do we have alerts for <strong>new mailbox forwarding rules</strong>, unusual inbox rules, and new OAuth/app consents?</li>
+  <li>What’s our process for responding to a suspected mailbox takeover (containment, password reset, token revocation, rule cleanup, customer/supplier comms)?</li>
+  <li>Which key vendors/software tools we rely on have strong <strong>software supply-chain controls</strong> (code signing, protected branches, CI/CD hardening), and how do we monitor vendor security advisories?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Threat intelligence reporting highlighted real-world exploitation of a Cisco SD-WAN Manager zero-day earlier this year. If you (or your IT provider) run SD-WAN/edge networking platforms, confirm who owns patching and monitoring for those systems—these devices can be business-critical and a high-impact foothold when compromised.</p>
+
+        <h2>One action today</h2>
+        <p>Run a same-day check for suspicious email forwarding/inbox rules and new third-party app access in your email platform, and remove anything not explicitly approved.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Stop invoice &amp; bank-detail change fraud (BEC)”: call-back verification, approval steps, and mailbox takeover quick response.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html" rel="noopener noreferrer">Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html" rel="noopener noreferrer">DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html" rel="noopener noreferrer">Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/" rel="noopener noreferrer">Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager</a> <span class="muted">(Google Threat Intelligence)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

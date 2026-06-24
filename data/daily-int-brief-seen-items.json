@@ -2617,9 +2617,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-24T16:07:17.384780+01:00",
       "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
+    },
+    "472190b28d242f85": {
+      "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-24T19:07:09.809011+01:00",
+      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
+    },
+    "9ec0296dcc1757d0": {
+      "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-24T19:07:09.809011+01:00",
+      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
+    },
+    "2b83558ed41317df": {
+      "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-24T19:07:09.809011+01:00",
+      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
+    },
+    "d2fd2edad7ca639d": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-06-24T19:07:09.809011+01:00",
+      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof",
+      "headline": "SMB Cyber Intelligence Brief: Stolen logins, scam infrastructure takedowns, and software supply-chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Credential-theft ripple effects + supplier/supply-chain compromise leading to account takeover and payment fraud",
+      "published_at": "2026-06-24T19:07:09.809011+01:00",
+      "published_label": "Wednesday 24 June 2026, 19:07 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+        "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+        "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/"
+      ]
+    },
     {
       "slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de",
       "headline": "Today’s SMB cyber lookout: service-desk scams, ransomware footholds and network device risk",
