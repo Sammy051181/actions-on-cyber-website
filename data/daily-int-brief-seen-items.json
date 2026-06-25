@@ -2694,9 +2694,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-25T16:12:01.192971+01:00",
       "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
+    },
+    "c96f9691fd679ba9": {
+      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-25T19:24:59.394037+01:00",
+      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
+    },
+    "9666d4678f35da2b": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T19:24:59.394037+01:00",
+      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
+    },
+    "6a948f35af384c88": {
+      "url": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T19:24:59.394037+01:00",
+      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
+    },
+    "8b7bff9926fd1783": {
+      "url": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
+      "title": "The Four Elevations of Effective Fraud Prevention",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T19:24:59.394037+01:00",
+      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud",
+      "headline": "Today’s SMB cyber lookout: macOS info‑stealers and account‑takeover fraud",
+      "risk_level": "Moderate",
+      "todays_lookout": "Mac malware + account takeover and fraud prevention hygiene",
+      "published_at": "2026-06-25T19:24:59.394037+01:00",
+      "published_label": "Thursday 25 June 2026, 19:24 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+        "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+        "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+        "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/"
+      ]
+    },
     {
       "slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons",
       "headline": "Today’s SMB cyber lookout: better phishing (login theft) and risky browser add‑ons",
