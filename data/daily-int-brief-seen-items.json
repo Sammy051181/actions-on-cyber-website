@@ -2645,9 +2645,51 @@
       "source": "Google Threat Intelligence",
       "seen_at": "2026-06-24T19:07:09.809011+01:00",
       "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
+    },
+    "9fda4c921855366e": {
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T11:20:59.003883+01:00",
+      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
+    },
+    "666b25b32ef0939b": {
+      "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-25T11:20:59.003883+01:00",
+      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
+    },
+    "b2d031cc00c908b1": {
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-25T11:20:59.003883+01:00",
+      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
+    },
+    "b4039c7adbb32e2b": {
+      "url": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
+      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T11:20:59.003883+01:00",
+      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk",
+      "headline": "Browser add-ons and “fix-it” lures: practical checks to reduce ransomware risk",
+      "risk_level": "High",
+      "todays_lookout": "Malicious browser extensions, “click-to-fix” style lures, and network edge device compromise",
+      "published_at": "2026-06-25T11:20:59.003883+01:00",
+      "published_label": "Thursday 25 June 2026, 11:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+        "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/"
+      ]
+    },
     {
       "slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof",
       "headline": "SMB Cyber Intelligence Brief: Stolen logins, scam infrastructure takedowns, and software supply-chain risk",
