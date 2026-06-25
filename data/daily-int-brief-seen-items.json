@@ -2673,9 +2673,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-25T11:20:59.003883+01:00",
       "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
+    },
+    "25958024b280757e": {
+      "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
+      "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T16:12:01.192971+01:00",
+      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
+    },
+    "7670c7a3042714c8": {
+      "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-25T16:12:01.192971+01:00",
+      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
+    },
+    "e2767d5bece11992": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
+      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-25T16:12:01.192971+01:00",
+      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons",
+      "headline": "Today’s SMB cyber lookout: better phishing (login theft) and risky browser add‑ons",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover & phishing (browser-in-the-middle) plus browser extension risk",
+      "published_at": "2026-06-25T16:12:01.192971+01:00",
+      "published_label": "Thursday 25 June 2026, 16:12 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
+        "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+        "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/"
+      ]
+    },
     {
       "slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk",
       "headline": "Browser add-ons and “fix-it” lures: practical checks to reduce ransomware risk",
