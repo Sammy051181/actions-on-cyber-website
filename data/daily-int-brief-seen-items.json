@@ -2722,9 +2722,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-25T19:24:59.394037+01:00",
       "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
+    },
+    "8607abaa7554c7e7": {
+      "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-26T11:28:41.242140+01:00",
+      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
+    },
+    "f183838f79464db0": {
+      "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-26T11:28:41.242140+01:00",
+      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
+    },
+    "84c87a4a4c75cb35": {
+      "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-26T11:28:41.242140+01:00",
+      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s",
+      "headline": "Today’s SMB cyber lookout: callback phishing via order tracking + ZIP ‘photo’ lures + SIM-swap account takeovers",
+      "risk_level": "High",
+      "todays_lookout": "Phishing and account takeover via trusted apps and phone-based social engineering",
+      "published_at": "2026-06-26T11:28:41.242140+01:00",
+      "published_label": "Friday 26 June 2026, 11:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+        "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+        "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
+      ]
+    },
     {
       "slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud",
       "headline": "Today’s SMB cyber lookout: macOS info‑stealers and account‑takeover fraud",
