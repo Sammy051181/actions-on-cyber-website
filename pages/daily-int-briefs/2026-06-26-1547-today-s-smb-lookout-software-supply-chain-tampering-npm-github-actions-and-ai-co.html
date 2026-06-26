@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB lookout: software supply-chain tampering (npm/GitHub Actions) and AI coding assistant workspace risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB lookout: software supply-chain tampering (npm/GitHub Actions) and AI coding assistant workspace risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 26 June 2026, 15:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier / SaaS and software supply-chain risk (developer tools, GitHub Actions, npm, AI coding assistants)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two themes that matter to many smaller organisations (including those using outsourced developers):</p>
+<ul>
+  <li><strong>Software supply-chain tampering:</strong> reports of malware activity tied to <strong>malicious npm packages</strong> and <strong>abuse of GitHub Actions workflows</strong> in a supply-chain attack.</li>
+  <li><strong>AI coding assistant/workspace trust risk:</strong> a recently patched issue in <strong>Amazon Q Developer</strong> where a <strong>malicious code repository</strong> could lead to unintended command execution and <strong>cloud credential theft</strong> if a developer trusted/opened the workspace.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>You don’t need a big in-house engineering team to be affected. If you use a web agency, an app developer, an MSP building automations, or anyone who deploys code to your cloud/accounting/booking systems, a compromised dependency or build pipeline can:</p>
+<ul>
+  <li>Introduce backdoors into your website/app, leading to data loss or fraud.</li>
+  <li>Expose <strong>cloud credentials</strong> that can be used to access email, files, customer data, or infrastructure.</li>
+  <li>Cause <strong>business disruption</strong> when services must be taken offline to investigate and rebuild.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected new “maintenance” releases or dependency updates pushed with urgency and little explanation.</li>
+  <li>Build/deployment jobs (e.g., CI) suddenly running at unusual times or from unfamiliar accounts.</li>
+  <li>New GitHub Actions/workflow changes that nobody can clearly justify.</li>
+  <li>Unexpected prompts asking developers to <strong>“trust”</strong> a workspace/repository, or to enable extra integrations/tools.</li>
+  <li>Unexplained new cloud access keys created, new users added, or permissions broadened.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Malicious dependencies:</strong> attackers publish or update packages that look legitimate, hoping they are pulled into builds and deployed into production.</li>
+  <li><strong>CI/CD abuse:</strong> if workflows (like GitHub Actions) are modified or abused, attackers can run unwanted steps during build/deploy and access secrets.</li>
+  <li><strong>Repository “trust” traps:</strong> a developer opens a booby-trapped repo and approves prompts, allowing tooling to perform actions that can expose credentials or run unintended operations.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell developers/outsourced partners:</strong> do not “trust” unfamiliar repos/workspaces by default; treat unexpected trust prompts as a security event.</li>
+  <li><strong>Inventory who can deploy:</strong> confirm which people/suppliers can deploy code to your website/apps and who can access your cloud/admin consoles.</li>
+  <li><strong>Check secrets hygiene:</strong> ensure build/deploy secrets are stored in approved secret stores and are not shared via chat/email.</li>
+  <li><strong>Turn on alerting:</strong> enable alerts for new cloud keys, new admin users, and permission changes.</li>
+  <li><strong>Ask for evidence:</strong> if a supplier says “we updated dependencies”, ask what changed and how they verified it was safe.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or any supplier) use <strong>npm</strong> and <strong>GitHub Actions</strong> in systems connected to our business? If yes, what monitoring is in place for workflow changes and secret access?</li>
+  <li>How do you approve and pin software dependencies, and how quickly can you roll back if a dependency is found to be malicious?</li>
+  <li>Which accounts can access our <strong>cloud credentials</strong>, and are those credentials rotated and protected with MFA?</li>
+  <li>If developers use <strong>AI coding assistants</strong> (e.g., Amazon Q Developer), what is the policy on opening/trusting external repositories and handling tool integrations?</li>
+  <li>What’s the incident plan if a build pipeline is suspected to be compromised (containment, secret rotation, rebuild from clean sources)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Amazon has already patched the reported Amazon Q Developer issue (CVE-2026-12957). If your developers (or outsourced devs) use Amazon Q Developer, confirm they’ve updated and review any guidance around trusting workspaces/repositories and Model Context Protocol (MCP) tool configurations.</p>
+
+        <h2>One action today</h2>
+        <p>Message your developer/IT supplier today: require approval before trusting/opening any unfamiliar repo/workspace, and confirm alerts are enabled for new cloud keys/admin users and GitHub Actions workflow changes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber “Supplier &amp; MSP Security Questions” checklist (include CI/CD, secrets handling, and incident response for build pipeline compromise).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html" rel="noopener noreferrer">Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html" rel="noopener noreferrer">Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
