@@ -2771,9 +2771,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-26T19:03:28.249562+01:00",
       "brief_slug": "2026-06-26-1903-today-s-smb-cyber-lookout-messaging-app-phishing-and-fake-openai-organisation-in"
+    },
+    "890dfe9b44f3062f": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "title": "FBI: Russian hackers now target Signal backup recovery keys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-27T10:34:59.796271+01:00",
+      "brief_slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today"
+    },
+    "b65ad5370391f6ef": {
+      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-27T10:34:59.796271+01:00",
+      "brief_slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today"
+    },
+    "e646fd2eaf72a8f1": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-27T10:34:59.796271+01:00",
+      "brief_slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today",
+      "headline": "Phishing targeting Signal backup recovery keys: quick checks for SMEs today",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover scams targeting secure messaging (Signal) backups",
+      "published_at": "2026-06-27T10:34:59.796271+01:00",
+      "published_label": "Saturday 27 June 2026, 10:34 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+        "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-06-26-1903-today-s-smb-cyber-lookout-messaging-app-phishing-and-fake-openai-organisation-in",
       "headline": "Today’s SMB cyber lookout: messaging-app phishing and fake OpenAI organisation invites",
