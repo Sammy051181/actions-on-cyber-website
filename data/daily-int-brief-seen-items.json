@@ -2792,9 +2792,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-27T10:34:59.796271+01:00",
       "brief_slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today"
+    },
+    "b2c74908a5fe6c65": {
+      "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "title": "Polymarket customers lose $3 million in supply-chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-27T15:05:49.580533+01:00",
+      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
+    },
+    "6c3a9a3ac3345df7": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-27T15:05:49.580533+01:00",
+      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
+    },
+    "106115782ae58fb8": {
+      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-27T15:05:49.580533+01:00",
+      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin",
+      "headline": "Today’s SMB cyber lookout: supplier web script attacks + Windows 10 support planning",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier / third‑party web compromise and knock‑on scams",
+      "published_at": "2026-06-27T15:05:49.580533+01:00",
+      "published_label": "Saturday 27 June 2026, 15:05 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+        "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html"
+      ]
+    },
     {
       "slug": "2026-06-27-1034-phishing-targeting-signal-backup-recovery-keys-quick-checks-for-smes-today",
       "headline": "Phishing targeting Signal backup recovery keys: quick checks for SMEs today",
