@@ -2813,9 +2813,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-27T15:05:49.580533+01:00",
       "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
+    },
+    "de56754b14d8a74b": {
+      "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "title": "Clean GitHub repo tricks AI coding agents into running malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-27T18:22:18.861804+01:00",
+      "brief_slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi",
+      "headline": "Today’s SMB cyber lookout: “clean” GitHub projects that trigger malware via AI coding agents",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier / open‑source repo risk and AI-assisted development setups",
+      "published_at": "2026-06-27T18:22:18.861804+01:00",
+      "published_label": "Saturday 27 June 2026, 18:22 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
+      ]
+    },
     {
       "slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin",
       "headline": "Today’s SMB cyber lookout: supplier web script attacks + Windows 10 support planning",
