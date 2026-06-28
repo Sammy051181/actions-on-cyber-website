@@ -2827,9 +2827,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-28T11:08:46.377057+01:00",
       "brief_slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today"
+    },
+    "5a776720550c539d": {
+      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-28T15:14:53.729572+01:00",
+      "brief_slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls"
+    },
+    "3fad703538ade23a": {
+      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-28T15:14:53.729572+01:00",
+      "brief_slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls",
+      "headline": "Today’s SME cyber lookout: targeted ‘quiet’ intrusions and AI tool access controls",
+      "risk_level": "Moderate",
+      "todays_lookout": "Targeted phishing leading to remote-access backdoors; plus governance around new AI tools and data sharing",
+      "published_at": "2026-06-28T15:14:53.729572+01:00",
+      "published_label": "Sunday 28 June 2026, 15:14 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+        "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
+      ]
+    },
     {
       "slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today",
       "headline": "Fake “support” texts stealing messaging logins: what to warn staff about today",
