@@ -2841,9 +2841,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-28T15:14:53.729572+01:00",
       "brief_slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls"
+    },
+    "cec26a23b69ea29a": {
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-28T18:35:03.094859+01:00",
+      "brief_slug": "2026-06-28-1835-supplier-breach-watch-isp-email-logins-exposed-expect-phishing-and-account-takeo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-28-1835-supplier-breach-watch-isp-email-logins-exposed-expect-phishing-and-account-takeo",
+      "headline": "Supplier breach watch: ISP email logins exposed – expect phishing and account takeover attempts",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and email account takeover",
+      "published_at": "2026-06-28T18:35:03.094859+01:00",
+      "published_label": "Sunday 28 June 2026, 18:35 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
+      ]
+    },
     {
       "slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls",
       "headline": "Today’s SME cyber lookout: targeted ‘quiet’ intrusions and AI tool access controls",
