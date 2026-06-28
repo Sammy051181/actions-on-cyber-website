@@ -2820,9 +2820,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-27T18:22:18.861804+01:00",
       "brief_slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi"
+    },
+    "e86a6f4ab0d92bbe": {
+      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-28T11:08:46.377057+01:00",
+      "brief_slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today",
+      "headline": "Fake “support” texts stealing messaging logins: what to warn staff about today",
+      "risk_level": "High",
+      "todays_lookout": "Impersonated support messages and MFA-code harvesting targeting messaging accounts",
+      "published_at": "2026-06-28T11:08:46.377057+01:00",
+      "published_label": "Sunday 28 June 2026, 11:08 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
+      ]
+    },
     {
       "slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi",
       "headline": "Today’s SMB cyber lookout: “clean” GitHub projects that trigger malware via AI coding agents",
