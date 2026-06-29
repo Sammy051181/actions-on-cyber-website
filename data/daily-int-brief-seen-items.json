@@ -2848,9 +2848,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-28T18:35:03.094859+01:00",
       "brief_slug": "2026-06-28-1835-supplier-breach-watch-isp-email-logins-exposed-expect-phishing-and-account-takeo"
+    },
+    "6718181e9de8dfc9": {
+      "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-29T13:07:59.377723+01:00",
+      "brief_slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch"
+    },
+    "7cabef5472985b2c": {
+      "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-29T13:07:59.377723+01:00",
+      "brief_slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch"
+    },
+    "f4a911d05ca8c2ae": {
+      "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-29T13:07:59.377723+01:00",
+      "brief_slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch",
+      "headline": "SMB Cyber Intelligence Brief: Malicious browser extensions and software supply‑chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft via browser add-ons + supplier/software supply-chain compromise",
+      "published_at": "2026-06-29T13:07:59.377723+01:00",
+      "published_label": "Monday 29 June 2026, 13:07 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+        "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
+      ]
+    },
     {
       "slug": "2026-06-28-1835-supplier-breach-watch-isp-email-logins-exposed-expect-phishing-and-account-takeo",
       "headline": "Supplier breach watch: ISP email logins exposed – expect phishing and account takeover attempts",

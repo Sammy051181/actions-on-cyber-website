@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Malicious browser extensions and software supply‑chain risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Malicious browser extensions and software supply‑chain risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 29 June 2026, 13:07 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft via browser add-ons + supplier/software supply-chain compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Malicious Microsoft Edge extensions</strong> removed from the Edge Add-ons store. These add-ons were designed to look normal, then activate days after install to steal credentials and run ad fraud.</p>
+<p><strong>2) Software supply-chain risk</strong> from hijacked developer packages (npm and Go). These were reported as being used to deploy an information stealer across Windows, macOS and Linux, potentially impacting businesses via internal apps, scripts, or outsourced development.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Browsers are where work happens</strong>: email, Microsoft 365/Google Workspace, accounting, CRM and payroll. If a browser session or password is stolen, attackers can move quickly into business systems.</li>
+  <li><strong>Extensions often bypass normal controls</strong>: staff can install add-ons without realising they are granting high levels of access (reading webpages, injecting content, capturing form data).</li>
+  <li><strong>Supplier ripple effects</strong>: even if you don’t write software, your IT provider, web agency or an internal “power user” may rely on open-source packages and tools that can be tampered with.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report a new browser toolbar/extension they don’t remember installing, or “helpful” add-ons for coupons, PDF/AI tools, video downloaders, or productivity boosters.</li>
+  <li>Unexpected sign-in prompts, repeated MFA requests, or password reset emails for Microsoft 365/Google/Banking that nobody requested.</li>
+  <li>New or unusual logins to email/SaaS from unfamiliar locations or devices (often spotted in Microsoft/Google security alerts).</li>
+  <li>Developer/supplier mentions an “urgent dependency update” or unexplained build issues in websites/apps (a potential early indicator of package compromise concerns).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Extension-led credential theft</strong>: a malicious extension can capture passwords, session tokens, or alter what users see in the browser (e.g., changing payment details on invoices shown in a portal).</li>
+  <li><strong>Ad fraud and persistence</strong>: even if the goal starts as ad fraud, attackers often re-use the same access to attempt account takeover.</li>
+  <li><strong>Supply-chain compromise</strong>: tampered packages can quietly add data-stealing behaviour into internal tools, websites, or scripts used by staff or managed service providers.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Audit browser extensions</strong> on company devices (starting with finance and anyone with admin access). Remove anything not needed for the role.</li>
+  <li><strong>Lock down extension installs</strong> where possible: use an allow-list approach for approved extensions on managed devices.</li>
+  <li><strong>Reinforce MFA hygiene</strong>: tell staff to report unexpected MFA prompts immediately (don’t approve “to make it stop”).</li>
+  <li><strong>Check your key SaaS alerts</strong> (Microsoft 365/Google, accounting, payroll): review recent sign-ins and add/confirm alerting for suspicious logins.</li>
+  <li><strong>Supplier check-in</strong>: if you rely on a developer, MSP or web agency, ask what they are doing to reduce risk from compromised open-source packages.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can we <strong>see an inventory of installed browser extensions</strong> across managed endpoints, and can you enforce an approved list?</li>
+  <li>Do you have policies to <strong>block or restrict Edge/Chrome extension installs</strong> for non-admin users?</li>
+  <li>What monitoring do we have for <strong>impossible travel / unusual sign-ins</strong> to Microsoft 365/Google and other critical SaaS?</li>
+  <li>For any software work you do for us: what controls are in place for <strong>dependency/package risk</strong> (e.g., review/approval of new packages, reproducible builds, and rapid response if a package is later found malicious)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>A critical issue with <strong>libssh2 (CVE-2026-55200)</strong> has public proof-of-concept code reported. This is a <em>client-side</em> SSH library issue (i.e., software connecting to an SSH server). Ask your IT provider or software suppliers whether any tools, appliances, or applications you use embed libssh2 and what their plan/timeline is for updates or mitigations.</p>
+
+        <h2>One action today</h2>
+        <p>Run a 15-minute audit today: list and remove any unapproved browser extensions on finance/admin machines, then message staff to report unexpected MFA prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Phishing &amp; Suspicious Sign-in Response” mini-checklist (what to do in the first 30 minutes).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html" rel="noopener noreferrer">Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html" rel="noopener noreferrer">Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/06/public-poc-released-for-critical.html" rel="noopener noreferrer">Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
