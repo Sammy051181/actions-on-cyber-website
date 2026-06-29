@@ -2876,9 +2876,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-29T17:10:58.034068+01:00",
       "brief_slug": "2026-06-29-1710-cyber-story-smes-should-watch-today"
+    },
+    "52781c932d2c42d8": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "8ca2d56d86cf5ad2": {
+      "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "4516104fbc956f07": {
+      "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "d624e54e462efb13": {
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+      "title": "WhatsApp rolls out usernames to help users hide their phone number",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "6e3b2d10bc0fe15f": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "ad4d93174220db78": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-29T19:22:51.074896+01:00",
+      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s",
+      "headline": "SMB Cyber Brief (Mon 29 Jun 2026): Remote support tool exploitation + mass phishing/scam sites",
+      "risk_level": "High",
+      "todays_lookout": "MSP / remote support compromise risk and high-volume phishing & scam infrastructure",
+      "published_at": "2026-06-29T19:22:51.074896+01:00",
+      "published_label": "Monday 29 June 2026, 19:22 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+        "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+        "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+        "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+        "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+        "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-06-29-1710-cyber-story-smes-should-watch-today",
       "headline": "Cyber story SMEs should watch today",
