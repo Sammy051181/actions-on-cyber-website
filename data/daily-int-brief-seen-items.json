@@ -2869,9 +2869,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-29T13:07:59.377723+01:00",
       "brief_slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch"
+    },
+    "4913d1691ebd55e4": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+      "title": "Webinar: Why business email compromise attacks keep succeeding",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-29T17:10:58.034068+01:00",
+      "brief_slug": "2026-06-29-1710-cyber-story-smes-should-watch-today"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-29-1710-cyber-story-smes-should-watch-today",
+      "headline": "Cyber story SMEs should watch today",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier, scam or disruption risk",
+      "published_at": "2026-06-29T17:10:58.034068+01:00",
+      "published_label": "Monday 29 June 2026, 17:10 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/"
+      ]
+    },
     {
       "slug": "2026-06-29-1307-smb-cyber-intelligence-brief-malicious-browser-extensions-and-software-supply-ch",
       "headline": "SMB Cyber Intelligence Brief: Malicious browser extensions and software supply‑chain risk",
