@@ -2974,9 +2974,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-30T15:43:08.194111+01:00",
       "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
+    },
+    "707d892f3c08c0ac": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "3df655a064153222": {
+      "url": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "811da861f9ba2609": {
+      "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+      "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "5b93a99b987c1db2": {
+      "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "9eaf1ecb10810547": {
+      "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "cf4749442d70c5d6": {
+      "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "7428e34147d42560": {
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
+      "title": "OFFIS DCMTK Toolkit",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-06-30T19:14:03.827312+01:00",
+      "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou",
+      "headline": "Today’s SMB cyber lookout: fake AI/browser extensions, event-themed scams, and cloud service abuse",
+      "risk_level": "Moderate",
+      "todays_lookout": "Malicious browser extensions and AI app/data-leak risks (plus event-themed fraud)",
+      "published_at": "2026-06-30T19:14:03.827312+01:00",
+      "published_label": "Tuesday 30 June 2026, 19:14 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+        "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+        "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+        "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+        "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+        "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+        "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01"
+      ]
+    },
     {
       "slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk",
       "headline": "Today’s SMB cyber lookout: payment diversion scams + remote support tool risk",
