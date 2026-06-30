@@ -2946,9 +2946,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-06-30T11:36:30.457653+01:00",
       "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
+    },
+    "464d8865c926603d": {
+      "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T15:43:08.194111+01:00",
+      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
+    },
+    "5a046af8570e15b8": {
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T15:43:08.194111+01:00",
+      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
+    },
+    "441553fad7f4db8c": {
+      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T15:43:08.194111+01:00",
+      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
+    },
+    "3f4d0953dbbfeb11": {
+      "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T15:43:08.194111+01:00",
+      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk",
+      "headline": "Today’s SMB cyber lookout: payment diversion scams + remote support tool risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/IT support compromise and payment-change scams (BEC), plus breach-impersonation follow-ons",
+      "published_at": "2026-06-30T15:43:08.194111+01:00",
+      "published_label": "Tuesday 30 June 2026, 15:43 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+        "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+        "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+        "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/"
+      ]
+    },
     {
       "slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr",
       "headline": "Today’s SME cyber look-out: ransomware-linked Windows exploitation, Oracle HR/payroll breach fallout, and AI tool credential leaks",
