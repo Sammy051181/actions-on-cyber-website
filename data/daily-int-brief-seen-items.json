@@ -2918,9 +2918,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-06-29T19:22:51.074896+01:00",
       "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
+    },
+    "2f24b5758f06196a": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T11:36:30.457653+01:00",
+      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
+    },
+    "bf572d2b4c624a79": {
+      "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T11:36:30.457653+01:00",
+      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
+    },
+    "f1a33bf948ee20fe": {
+      "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-06-30T11:36:30.457653+01:00",
+      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
+    },
+    "5b8258d84489f945": {
+      "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-06-30T11:36:30.457653+01:00",
+      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr",
+      "headline": "Today’s SME cyber look-out: ransomware-linked Windows exploitation, Oracle HR/payroll breach fallout, and AI tool credential leaks",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware entry points + supplier/HR system breach ripple effects + credential theft",
+      "published_at": "2026-06-30T11:36:30.457653+01:00",
+      "published_label": "Tuesday 30 June 2026, 11:36 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+        "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+        "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+        "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
+      ]
+    },
     {
       "slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s",
       "headline": "SMB Cyber Brief (Mon 29 Jun 2026): Remote support tool exploitation + mass phishing/scam sites",
