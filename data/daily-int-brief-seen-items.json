@@ -3044,9 +3044,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-01T11:48:49.306036+01:00",
       "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
+    },
+    "0e8ed2cb93d34c90": {
+      "url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+      "title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
+      "source": "Cisco Talos",
+      "seen_at": "2026-07-01T16:12:24.361253+01:00",
+      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
+    },
+    "1dd7fefe18ac74e8": {
+      "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-01T16:12:24.361253+01:00",
+      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
+    },
+    "bb8831b92008a9a6": {
+      "url": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-01T16:12:24.361253+01:00",
+      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover",
+      "headline": "Daily SMB Cyber Intelligence Brief — Microsoft 365 token-phishing & account takeover risks",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 account takeover and payment diversion scams",
+      "published_at": "2026-07-01T16:12:24.361253+01:00",
+      "published_label": "Wednesday 01 July 2026, 16:12 UK time",
+      "source_urls": [
+        "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+        "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+        "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/"
+      ]
+    },
     {
       "slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric",
       "headline": "SMB Cyber Intelligence Brief: Microsoft 365 account attacks and new phishing tricks to brief staff on today",
