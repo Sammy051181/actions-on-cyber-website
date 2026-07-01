@@ -3065,9 +3065,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-01T16:12:24.361253+01:00",
       "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
+    },
+    "d03514b22c1620a5": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
+      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-01T19:15:58.318449+01:00",
+      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
+    },
+    "7ca52314a96c2217": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+      "title": "Webinar: Why traditional email security is no longer enough",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-01T19:15:58.318449+01:00",
+      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
+    },
+    "ccbf8697f6b66d7b": {
+      "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-01T19:15:58.318449+01:00",
+      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 login spraying surge + phishing/BEC themes",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover attempts (Microsoft 365) and phishing-led fraud",
+      "published_at": "2026-07-01T19:15:58.318449+01:00",
+      "published_label": "Wednesday 01 July 2026, 19:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
+        "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+        "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html"
+      ]
+    },
     {
       "slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover",
       "headline": "Daily SMB Cyber Intelligence Brief — Microsoft 365 token-phishing & account takeover risks",
