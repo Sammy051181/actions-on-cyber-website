@@ -3023,9 +3023,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-06-30T19:14:03.827312+01:00",
       "brief_slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou"
+    },
+    "374f9ab4167b64b5": {
+      "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-01T11:48:49.306036+01:00",
+      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
+    },
+    "96018ae748e76824": {
+      "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+      "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-01T11:48:49.306036+01:00",
+      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
+    },
+    "7479cc50fb44aa11": {
+      "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-01T11:48:49.306036+01:00",
+      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 account attacks and new phishing tricks to brief staff on today",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover attempts (Microsoft 365/Azure) + evolving phishing lures (device-code, AI “phantom” domains, ClickFix)",
+      "published_at": "2026-07-01T11:48:49.306036+01:00",
+      "published_label": "Wednesday 01 July 2026, 11:48 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+        "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+        "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html"
+      ]
+    },
     {
       "slug": "2026-06-30-1914-today-s-smb-cyber-lookout-fake-ai-browser-extensions-event-themed-scams-and-clou",
       "headline": "Today’s SMB cyber lookout: fake AI/browser extensions, event-themed scams, and cloud service abuse",
