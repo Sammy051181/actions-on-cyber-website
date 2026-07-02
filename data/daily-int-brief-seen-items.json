@@ -3114,9 +3114,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-02T11:15:03.233218+01:00",
       "brief_slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-"
+    },
+    "0f7346a547b2f210": {
+      "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T15:28:17.233598+01:00",
+      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
+    },
+    "32dfa5c2b194ee76": {
+      "url": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+      "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T15:28:17.233598+01:00",
+      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
+    },
+    "d29945b4554a1417": {
+      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T15:28:17.233598+01:00",
+      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
+    },
+    "d30f5fa7c10d0d7d": {
+      "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T15:28:17.233598+01:00",
+      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-",
+      "headline": "SMB Cyber Daily: Microsoft 365 “consent” hijacks & ClickFix tricks — tighten login and staff checks",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover scams (Microsoft 365/Gmail) and ClickFix social engineering",
+      "published_at": "2026-07-02T15:28:17.233598+01:00",
+      "published_label": "Thursday 02 July 2026, 15:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+        "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+        "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+        "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+      ]
+    },
     {
       "slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-",
       "headline": "SMB Cyber Brief (Thu 02 July 2026): Ransomware groups using stolen Fortinet logins + fake software download sites spreading remote access malware",

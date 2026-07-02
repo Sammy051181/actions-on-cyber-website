@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Daily: Microsoft 365 “consent” hijacks &amp; ClickFix tricks — tighten login and staff checks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Daily: Microsoft 365 “consent” hijacks &amp; ClickFix tricks — tighten login and staff checks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 02 July 2026, 15:28 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover scams (Microsoft 365/Gmail) and ClickFix social engineering
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s standout risk for SMEs is <strong>rapid cloud account takeover</strong> via convincing browser prompts and “approve access” (OAuth) consent screens — particularly targeting <strong>Microsoft 365</strong> users, with similar tactics also being seen against <strong>Gmail/Google</strong> environments. In parallel, <strong>ClickFix</strong>-style scams continue: staff are tricked into copying/pasting or clicking through steps that “fix” a login or document issue but actually hand control to an attacker.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Email takeover is business takeover</strong>: attackers can read invoices, change bank details in threads, create mailbox rules, and target your customers and suppliers.</li>
+  <li><strong>MFA isn’t a silver bullet</strong> if staff are tricked into approving access or handing over session tokens.</li>
+  <li><strong>Cloud-to-ransomware is a common path</strong>: once an attacker has email and credentials, they can reset passwords elsewhere, access files, and move into finance and admin systems.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Users report being asked to <strong>“Approve access”</strong>, <strong>“Grant permissions”</strong>, or <strong>“Consent to an app”</strong> unexpectedly when opening an email or document link.</li>
+  <li>Repeated prompts to <strong>re-authenticate</strong> to Microsoft 365, Teams, OneDrive or SharePoint that don’t look quite right.</li>
+  <li>Emails sent from staff accounts that feel “slightly off” (new tone, urgency, unusual attachments, or unusual payment requests).</li>
+  <li>New or unfamiliar <strong>inbox rules</strong>, <strong>forwarding</strong> settings, or “deleted items” activity.</li>
+  <li>Staff being told to <strong>copy/paste</strong> steps into the browser/terminal as a “quick fix”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>OAuth/consent theft</strong>: trick a user into granting a malicious app access, allowing access without repeatedly asking for the password.</li>
+  <li><strong>Token/session hijack</strong>: steal sign-in tokens so the attacker can act as the user even if MFA exists.</li>
+  <li><strong>ClickFix social engineering</strong>: prompt a user to run “fix” steps that actually give the attacker control or plant malware.</li>
+  <li><strong>Follow-on fraud</strong>: use compromised mailboxes to change supplier bank details, divert invoices, or request gift cards/urgent payments.</li>
+  <li><strong>Ransomware staging</strong>: use cloud access and stolen credentials to expand access to file stores or admin tools, increasing disruption risk.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Message staff today</strong>: “Do not approve unexpected sign-in/consent prompts. If in doubt, stop and report.”</li>
+  <li><strong>Review who can approve app access</strong> in Microsoft 365 (reduce or restrict user consent where possible) and remove unfamiliar app consents.</li>
+  <li><strong>Check mailbox forwarding and inbox rules</strong> for key roles (finance, payroll, senior leadership, shared mailboxes).</li>
+  <li><strong>Confirm your out-of-band payment process</strong>: any bank detail change must be verified using a known phone number, not email.</li>
+  <li><strong>Reinforce reporting</strong>: make it easy for staff to report suspicious prompts and emails quickly.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you <strong>restrict user OAuth/app consent</strong> in Microsoft 365 and implement an approval workflow?</li>
+  <li>Do we have monitoring/alerts for <strong>new OAuth grants</strong>, <strong>impossible travel</strong>, suspicious sign-ins, and <strong>new mailbox forwarding rules</strong>?</li>
+  <li>Are <strong>break-glass admin accounts</strong> protected and monitored, and do we enforce phishing-resistant MFA where practical?</li>
+  <li>What is our <strong>rapid response</strong> process if a user approves a malicious consent prompt (token revocation, password reset, mailbox rule cleanup, customer/supplier comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch item is the key issue today. This is primarily a <strong>social engineering and cloud configuration</strong> risk: focus on tightening Microsoft 365 consent controls, monitoring sign-ins, and reinforcing staff behaviour around unexpected prompts.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short all-staff note: “If you see an unexpected Microsoft 365 ‘Approve access/Consent’ prompt or a ‘copy/paste to fix’ instruction, stop immediately and report it—do not approve or paste anything.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber CTA: Microsoft 365 account takeover quick-check (mailbox rules, forwarding, app consents, sign-in review)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/" rel="noopener noreferrer">ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/" rel="noopener noreferrer">Opera rolls out Paste Protect feature to fight ClickFix attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html" rel="noopener noreferrer">ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html" rel="noopener noreferrer">AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
