@@ -3142,9 +3142,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-02T15:28:17.233598+01:00",
       "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
+    },
+    "d49592020fe7e110": {
+      "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T19:02:00.017115+01:00",
+      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
+    },
+    "bde0640ad7125b4c": {
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "title": "Alleged Scattered Spider hacker extradited to the United States",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T19:02:00.017115+01:00",
+      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
+    },
+    "51ea3a6f2d65f84a": {
+      "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T19:02:00.017115+01:00",
+      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
+    },
+    "1815aa1fb72dbe54": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T19:02:00.017115+01:00",
+      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
+    },
+    "a0ec5ca0dc3dddac": {
+      "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T19:02:00.017115+01:00",
+      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams",
+      "headline": "Today’s SMB Cyber Brief: helpdesk impersonation risk + breach follow‑on scams",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/breach impersonation and helpdesk social engineering (account takeover and payment fraud)",
+      "published_at": "2026-07-02T19:02:00.017115+01:00",
+      "published_label": "Thursday 02 July 2026, 19:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+        "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+        "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+        "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+        "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
+      ]
+    },
     {
       "slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-",
       "headline": "SMB Cyber Daily: Microsoft 365 “consent” hijacks & ClickFix tricks — tighten login and staff checks",
