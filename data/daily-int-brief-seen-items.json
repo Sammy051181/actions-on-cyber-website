@@ -3086,9 +3086,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-01T19:15:58.318449+01:00",
       "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
+    },
+    "26684e42397d6e65": {
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-02T11:15:03.233218+01:00",
+      "brief_slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-"
+    },
+    "5609962955aa5c95": {
+      "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T11:15:03.233218+01:00",
+      "brief_slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-"
+    },
+    "c7215ce22f907240": {
+      "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T11:15:03.233218+01:00",
+      "brief_slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-"
+    },
+    "d8111281240765d8": {
+      "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-02T11:15:03.233218+01:00",
+      "brief_slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-02-1115-smb-cyber-brief-thu-02-july-2026-ransomware-groups-using-stolen-fortinet-logins-",
+      "headline": "SMB Cyber Brief (Thu 02 July 2026): Ransomware groups using stolen Fortinet logins + fake software download sites spreading remote access malware",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft feeding ransomware + poisoned download sites and “trusted platform” lures",
+      "published_at": "2026-07-02T11:15:03.233218+01:00",
+      "published_label": "Thursday 02 July 2026, 11:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+        "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+        "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html"
+      ]
+    },
     {
       "slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the",
       "headline": "SMB Cyber Intelligence Brief: Microsoft 365 login spraying surge + phishing/BEC themes",

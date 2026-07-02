@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief (Thu 02 July 2026): Ransomware groups using stolen Fortinet logins + fake software download sites spreading remote access malware | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief (Thu 02 July 2026): Ransomware groups using stolen Fortinet logins + fake software download sites spreading remote access malware</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 02 July 2026, 11:15 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft feeding ransomware + poisoned download sites and “trusted platform” lures
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes SMEs should treat as “today risks”:</p>
+<ul>
+  <li><strong>Stolen Fortinet (FortiGate) credentials being used to fuel ransomware intrusions</strong> (reporting links the “FortiBleed” credential theft to ransomware groups).</li>
+  <li><strong>SEO-poisoned / spoofed software download sites</strong> that look legitimate in search results and deliver malware installers, including remote-access tools used for follow-on fraud and ransomware.</li>
+  <li><strong>Social-engineering chains using trusted platforms</strong> (e.g., Blogger pages) to host or redirect victims to credential-stealing malware.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>These attacks don’t rely on “high profile” targeting. They scale well and hit organisations that:</p>
+<ul>
+  <li>Use perimeter devices (like firewalls/VPNs) managed by an MSP or a small internal IT team.</li>
+  <li>Regularly download utilities (screen recording, device tools, drivers) from the web to “get a job done”.</li>
+  <li>Depend on browser-based logins for email, accounting, payroll, CRM and remote access—making credential theft especially damaging.</li>
+</ul>
+<p>If an attacker gets a valid VPN/firewall login or installs a remote-access trojan, the next step is often <strong>ransomware, invoice fraud, payroll diversion, or data theft</strong>.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected login prompts</strong> or repeated MFA pushes (“Approve sign-in?”) when no-one is trying to log in.</li>
+  <li><strong>New admin users</strong> or configuration changes on firewall/VPN/remote access tooling that your team didn’t request.</li>
+  <li>Staff report <strong>downloading software from “a site that was top of Google”</strong> rather than the vendor’s known download page.</li>
+  <li><strong>Security tools flagging ScreenConnect/remote tool activity</strong> that wasn’t installed by your IT provider.</li>
+  <li>Browsers showing <strong>odd redirects</strong> to blog-style pages or “instructions” pages before a download starts.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Credential replay:</strong> using already-stolen firewall/VPN credentials to get an initial foothold, then moving quickly to disruption and extortion.</li>
+  <li><strong>Search-result traps:</strong> registering lookalike domains and pushing them up search rankings so staff download trojanised installers.</li>
+  <li><strong>Trust hijacking:</strong> hosting lures on well-known platforms (e.g., Blogger) to reduce suspicion and bypass basic link filtering.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff:</strong> “Don’t download ‘free tools’ from search results. Use our approved sources or ask IT.”</li>
+  <li><strong>Check remote access hygiene:</strong> confirm who is allowed to install remote support tools (including ScreenConnect) and alert on new installs.</li>
+  <li><strong>Review firewall/VPN access:</strong> remove unused accounts, enforce MFA where possible, and ensure admin access is tightly limited.</li>
+  <li><strong>Be ready for containment:</strong> make sure you know how to quickly disable VPN access and rotate credentials if suspicious activity appears.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Have you checked whether <strong>our Fortinet/FortiGate credentials</strong> could have been exposed in the wider credential-theft activity, and what’s our plan if they were?</li>
+  <li>Do we have <strong>alerting for unusual VPN/firewall logins</strong> (new countries, impossible travel, out-of-hours) and repeated MFA prompts?</li>
+  <li>Can you confirm <strong>which remote support tools are authorised</strong> in our environment and how we detect unauthorised installs?</li>
+  <li>Do we block or warn on <strong>newly registered/lookalike domains</strong> and common malware download patterns?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s reporting is more about <strong>stolen credentials and fake downloads</strong> than a single new software flaw. Treat this as a reminder to keep edge devices (firewalls/VPNs) on supported versions and ensure your MSP has a routine for urgent vendor advisories—because credential theft and rapid follow-on intrusions often go hand-in-hand.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: only install software from approved/vendor sources (not search ads/results) and report any unexpected MFA prompts or new remote-support pop-ups immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Stop invoice fraud &amp; account takeover” (staff warning signs + MFA push fatigue + urgent reporting steps)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/" rel="noopener noreferrer">FortiBleed credential-theft campaign linked to Lynx ransomware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html" rel="noopener noreferrer">FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html" rel="noopener noreferrer">SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html" rel="noopener noreferrer">VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
