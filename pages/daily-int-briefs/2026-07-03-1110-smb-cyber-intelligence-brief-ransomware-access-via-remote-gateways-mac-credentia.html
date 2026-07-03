@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Ransomware access via remote gateways, Mac credential-stealer lures, and “proxy network” knock-on scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Ransomware access via remote gateways, Mac credential-stealer lures, and “proxy network” knock-on scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 03 July 2026, 11:10 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Ransomware initial access + credential theft + follow-on phishing using big news events
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes to watch:</strong></p>
+<ul>
+  <li><strong>Ransomware groups chasing easy “front door” access</strong> via remote access gateways and stolen credentials (including Citrix environments) and then using legitimate admin tools to spread internally.</li>
+  <li><strong>Mac users being lured into installing fake “trusted” utilities</strong> (e.g., a lookalike of the legitimate Maccy clipboard manager) to steal login passwords and other data.</li>
+  <li><strong>Follow-on phishing using headline events</strong> (e.g., “proxy/botnet disruption”, “law enforcement seizure”, “security cleanup required”) to trick staff into installing “updates” or handing over credentials.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Remote access is business-critical</strong> for many SMEs (remote working, suppliers, outsourced IT). If attackers get in through a gateway or reused password, they can quickly disrupt operations with ransomware.</li>
+  <li><strong>Macs are not “immune”</strong>: credential theft on a single senior person’s Mac (finance/ops/owner) can lead to email takeover, invoice fraud and wider compromise.</li>
+  <li><strong>These incidents create noise</strong>: when major takedowns hit the news, criminals often piggyback with convincing “IT/security” emails and calls.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>password reset</strong> prompts or MFA push notifications users didn’t initiate.</li>
+  <li>Staff reporting <strong>“security update” pop-ups</strong> or being directed to install a new browser extension/app “for compliance”.</li>
+  <li><strong>New remote admin tools</strong> appearing, or IT stating “we’ve deployed a new RMM agent” without a prior change request.</li>
+  <li>Mac users seeing apps asking for <strong>passwords/permissions</strong> that don’t match the task (e.g., clipboard tool asking for login password).</li>
+  <li>Sudden <strong>access issues</strong> to remote portals/VPN/Citrix, followed by emails claiming to “fix” it via a link.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Initial access</strong>: exploit weaknesses in internet-facing remote access components (including widely discussed Citrix issues) or log in using stolen credentials.</li>
+  <li><strong>Blend in</strong>: use legitimate remote management/monitoring tooling and hands-on-keyboard activity to look like normal admin work.</li>
+  <li><strong>Credential harvesting on Macs</strong>: distribute a fake-but-plausible app posing as a known utility to capture Mac login passwords and other sensitive data.</li>
+  <li><strong>Social engineering</strong>: leverage big headlines (proxy/botnet disruption and “cleanup” narratives) to make urgent, believable phishing messages.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note</strong>: “No security team/IT will ask you to install a ‘fix’ from an email link. Report it.”</li>
+  <li><strong>Re-check admin access</strong>: confirm who has access to remote gateways/admin portals; remove dormant accounts and supplier accounts not needed.</li>
+  <li><strong>Lock down password resets</strong>: ensure MFA is enabled for email, remote access, and admin tools; investigate repeated MFA prompts immediately.</li>
+  <li><strong>Mac hygiene</strong>: remind Mac users to install software only from approved sources; treat unexpected password prompts as suspicious.</li>
+  <li><strong>Backups reality check</strong>: verify you can restore a key file share or SaaS dataset quickly (a test restore beats a policy document).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>any internet-facing remote access gateways</strong> (Citrix or similar)? Who monitors them and how quickly are urgent fixes applied?</li>
+  <li>Can you show a <strong>list of remote admin/RMM tools</strong> currently deployed in our environment and confirm they are all approved?</li>
+  <li>What’s our <strong>process for investigating suspicious logins</strong> (impossible travel, repeated MFA prompts, admin logins at odd hours)?</li>
+  <li>Do we have <strong>separate admin accounts</strong> (no day-to-day email browsing) and are they protected with MFA?</li>
+  <li>How would you <strong>contain ransomware fast</strong> (isolation steps, account lockouts, disabling remote access) and who do we call out of hours?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Ransomware reporting this week includes attackers targeting widely discussed Citrix weaknesses (including “Citrix Bleed 2”, CVE-2025-5777) as a route to initial access. If you (or a supplier) run Citrix, treat this as a priority risk-management question today: confirm ownership, monitoring, and that updates/mitigations are applied promptly—especially on anything exposed to the internet.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff alert: do not install “security fixes” or “required updates” from email links (especially anything referencing proxy/botnet takedowns); report to IT and verify via a known contact route.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber CTA: “Invoice &amp; payment change scam checklist (with verification script)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html" rel="noopener noreferrer">Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html" rel="noopener noreferrer">PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/" rel="noopener noreferrer">Google’s Continued Disruption of Malicious Residential Proxy Networks</a> <span class="muted">(Google Threat Intelligence)</span></li><li><a href="https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html" rel="noopener noreferrer">Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/" rel="noopener noreferrer">FBI Seizes NetNut Proxy Platform, Popa Botnet</a> <span class="muted">(Krebs on Security)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

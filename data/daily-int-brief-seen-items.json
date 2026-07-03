@@ -3177,9 +3177,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-02T19:02:00.017115+01:00",
       "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
+    },
+    "05b1c5e4b319e6f6": {
+      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-03T11:10:56.186459+01:00",
+      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
+    },
+    "ce435047f21b8926": {
+      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-03T11:10:56.186459+01:00",
+      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
+    },
+    "f8ed994c30d5ec24": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
+      "title": "Google’s Continued Disruption of Malicious Residential Proxy Networks",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-07-03T11:10:56.186459+01:00",
+      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
+    },
+    "0e68a14cfc35d069": {
+      "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-03T11:10:56.186459+01:00",
+      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
+    },
+    "417bdaa0c3e139ab": {
+      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "source": "Krebs on Security",
+      "seen_at": "2026-07-03T11:10:56.186459+01:00",
+      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia",
+      "headline": "SMB Cyber Intelligence Brief: Ransomware access via remote gateways, Mac credential-stealer lures, and “proxy network” knock-on scams",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware initial access + credential theft + follow-on phishing using big news events",
+      "published_at": "2026-07-03T11:10:56.186459+01:00",
+      "published_label": "Friday 03 July 2026, 11:10 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+        "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
+        "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+        "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
+      ]
+    },
     {
       "slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams",
       "headline": "Today’s SMB Cyber Brief: helpdesk impersonation risk + breach follow‑on scams",
