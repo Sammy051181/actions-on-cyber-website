@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look-out: poisoned developer packages and risky IoT hubs | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look-out: poisoned developer packages and risky IoT hubs</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Friday 03 July 2026, 18:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply-chain risk (malicious packages) + insecure IoT device management
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two themes to keep on your radar:</strong></p>
+<ul>
+  <li><strong>Malicious developer packages (npm)</strong> disguised as legitimate “polyfill” tooling, designed to steal developer secrets and enable remote access.</li>
+  <li><strong>Insecure IoT hub management</strong> where attackers could potentially access and control devices managed by a hub (relevant if you have connected/“smart” devices on your business network).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supplier and contractor exposure:</strong> even if you don’t write software in-house, your web agency/MSP/app developer might. A compromised build or leaked credentials can become <em>your</em> breach.</li>
+  <li><strong>Passwords and keys are high-value:</strong> developer credentials, API keys and cloud tokens can give criminals a quiet way into email, cloud storage, accounting integrations, websites and customer databases.</li>
+  <li><strong>IoT is often unmanaged:</strong> “smart” hubs and devices can be forgotten on networks, giving attackers a foothold for disruption, surveillance or lateral movement.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Developers/IT reporting odd new dependencies, unexpected package names, or builds failing then “mysteriously” working after someone installs a different package.</li>
+  <li>Unusual login alerts for developer services (code repos, CI/CD, cloud consoles), or API key usage spikes.</li>
+  <li>New outbound network traffic from build machines, servers, or “admin” laptops that doesn’t fit normal patterns.</li>
+  <li>Unexpected behaviour from smart/connected devices (changing settings, going offline, reappearing, or being controllable when they shouldn’t be).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Typosquatting/lookalike packages:</strong> criminals publish packages that look like popular tools, hoping developers install them quickly under time pressure.</li>
+  <li><strong>Secret theft:</strong> once installed, malicious code may try to access environment variables, config files, tokens, and credentials used to deploy websites and apps.</li>
+  <li><strong>Remote access:</strong> stolen credentials can be used to access your systems without noisy malware on user PCs.</li>
+  <li><strong>IoT hub takeover:</strong> weak or exposed access paths to a hub can allow outsiders to control connected devices (and potentially use the hub as a stepping stone on the network).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff what to report:</strong> any unexpected MFA prompts, new “authorised app” prompts, or unusual login alerts—especially for cloud/admin/dev accounts.</li>
+  <li><strong>Check who has developer-level access:</strong> confirm which suppliers/contractors have access to your website, cloud, or integrations, and whether it’s still needed.</li>
+  <li><strong>Lock down secrets:</strong> ensure API keys/tokens are stored in an approved password manager/secret store, not in shared docs or emailed around.</li>
+  <li><strong>Inventory IoT:</strong> list any hubs/connected devices on-site (meeting room panels, smart displays, building controls, specialist hubs). If you can’t identify them, ask your IT provider to help discover them.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or our suppliers) use npm/CI pipelines, and what controls are in place to prevent installing lookalike or untrusted packages?</li>
+  <li>How are API keys, deploy keys and admin credentials stored, rotated and monitored for misuse?</li>
+  <li>Do we have alerts for unusual logins to code repos, hosting, and cloud admin portals?</li>
+  <li>What IoT devices/hubs are on our network today, who owns them, and are they isolated from core business systems?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA published an advisory on the Gardyn IoT Hub indicating issues that could allow unauthenticated access and control of managed devices (including use of hard-coded credentials). If your organisation uses this product (or you have similar hubs), treat it as a prompt to confirm device ownership, network segregation, and whether the vendor’s recommended updates/mitigations have been applied.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for a list of all internet-facing admin portals and developer accounts (hosting, cloud, website, CI/CD) and confirm MFA is enforced and login alerts are enabled for each.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier &amp; MSP access review (who has access, what they can reach, and how it’s monitored)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html" rel="noopener noreferrer">North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03" rel="noopener noreferrer">Gardyn IoT Hub</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

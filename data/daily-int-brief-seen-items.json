@@ -3226,9 +3226,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-03T15:31:47.679258+01:00",
       "brief_slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst"
+    },
+    "af919c1063f3ac9e": {
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-03T18:47:08.038708+01:00",
+      "brief_slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs"
+    },
+    "ee117d7e3f5957bf": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+      "title": "Gardyn IoT Hub",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-03T18:47:08.038708+01:00",
+      "brief_slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs",
+      "headline": "Today’s SME cyber look-out: poisoned developer packages and risky IoT hubs",
+      "risk_level": "Moderate",
+      "todays_lookout": "Software supply-chain risk (malicious packages) + insecure IoT device management",
+      "published_at": "2026-07-03T18:47:08.038708+01:00",
+      "published_label": "Friday 03 July 2026, 18:47 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03"
+      ]
+    },
     {
       "slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst",
       "headline": "SMB Cyber Intelligence Brief: Microsoft 365 phishing kits and business phone system risk",
