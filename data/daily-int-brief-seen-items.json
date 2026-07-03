@@ -3212,9 +3212,35 @@
       "source": "Krebs on Security",
       "seen_at": "2026-07-03T11:10:56.186459+01:00",
       "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
+    },
+    "4eceb1003b08db8e": {
+      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-03T15:31:47.679258+01:00",
+      "brief_slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst"
+    },
+    "d5a8ae57bbf0e6dc": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-03T15:31:47.679258+01:00",
+      "brief_slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 phishing kits and business phone system risk",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 account-takeover phishing and comms/telephony service disruption risk",
+      "published_at": "2026-07-03T15:31:47.679258+01:00",
+      "published_label": "Friday 03 July 2026, 15:31 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+        "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/"
+      ]
+    },
     {
       "slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia",
       "headline": "SMB Cyber Intelligence Brief: Ransomware access via remote gateways, Mac credential-stealer lures, and “proxy network” knock-on scams",
