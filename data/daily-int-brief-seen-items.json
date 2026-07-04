@@ -3261,9 +3261,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-04T10:30:44.195612+01:00",
       "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
+    },
+    "05aacbc9930d8717": {
+      "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+      "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-04T14:56:53.912953+01:00",
+      "brief_slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte"
+    },
+    "6e9f5188f8e28888": {
+      "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+      "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-04T14:56:53.912953+01:00",
+      "brief_slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte"
+    },
+    "d46c218220428012": {
+      "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-04T14:56:53.912953+01:00",
+      "brief_slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte",
+      "headline": "SMB Cyber Intelligence Brief (Sat 04 Jul 2026): data-theft extortion, malicious extensions, and hidden risk in embedded devices",
+      "risk_level": "Moderate",
+      "todays_lookout": "Extortion without ransomware + software supply-chain traps (packages/extensions) + embedded/IoT exposure",
+      "published_at": "2026-07-04T14:56:53.912953+01:00",
+      "published_label": "Saturday 04 July 2026, 14:56 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+        "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+        "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+      ]
+    },
     {
       "slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill",
       "headline": "Today’s SMB Cyber Intelligence Brief: phishing-led malware and proxy-device spillover risk",
