@@ -3240,9 +3240,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-03T18:47:08.038708+01:00",
       "brief_slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs"
+    },
+    "46e49c37279274c9": {
+      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-04T10:30:44.195612+01:00",
+      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
+    },
+    "f5ed4be194cc224f": {
+      "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-04T10:30:44.195612+01:00",
+      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
+    },
+    "2cc6f7ea50239231": {
+      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-04T10:30:44.195612+01:00",
+      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill",
+      "headline": "Today’s SMB Cyber Intelligence Brief: phishing-led malware and proxy-device spillover risk",
+      "risk_level": "High",
+      "todays_lookout": "Phishing-to-ransomware chains and compromised device proxy networks",
+      "published_at": "2026-07-04T10:30:44.195612+01:00",
+      "published_label": "Saturday 04 July 2026, 10:30 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+        "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+        "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+      ]
+    },
     {
       "slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs",
       "headline": "Today’s SME cyber look-out: poisoned developer packages and risky IoT hubs",
