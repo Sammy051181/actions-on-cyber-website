@@ -3282,9 +3282,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-04T14:56:53.912953+01:00",
       "brief_slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte"
+    },
+    "8fa0fcbc82e1ebb2": {
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+      "title": "JadePuffer ransomware used AI agent to automate entire attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-04T18:18:38.256945+01:00",
+      "brief_slug": "2026-07-04-1818-today-s-smb-cyber-lookout-faster-ransomware-and-more-convincing-phishing-as-atta"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-04-1818-today-s-smb-cyber-lookout-faster-ransomware-and-more-convincing-phishing-as-atta",
+      "headline": "Today’s SMB cyber lookout: faster ransomware and more convincing phishing as attackers automate with AI",
+      "risk_level": "Moderate",
+      "todays_lookout": "Ransomware and business disruption (automation/AI-assisted attacks)",
+      "published_at": "2026-07-04T18:18:38.256945+01:00",
+      "published_label": "Saturday 04 July 2026, 18:18 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+      ]
+    },
     {
       "slug": "2026-07-04-1456-smb-cyber-intelligence-brief-sat-04-jul-2026-data-theft-extortion-malicious-exte",
       "headline": "SMB Cyber Intelligence Brief (Sat 04 Jul 2026): data-theft extortion, malicious extensions, and hidden risk in embedded devices",
