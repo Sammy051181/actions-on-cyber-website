@@ -3289,9 +3289,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-04T18:18:38.256945+01:00",
       "brief_slug": "2026-07-04-1818-today-s-smb-cyber-lookout-faster-ransomware-and-more-convincing-phishing-as-atta"
+    },
+    "72b8c901a04ed3e2": {
+      "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-05T10:46:30.948334+01:00",
+      "brief_slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit"
+    },
+    "8f8ffebc335e9338": {
+      "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-05T10:46:30.948334+01:00",
+      "brief_slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit",
+      "headline": "Stealer malware and phone compromise: refresh today’s phishing and mobile security look-out",
+      "risk_level": "Moderate",
+      "todays_lookout": "Credential-stealing malware and mobile device compromise",
+      "published_at": "2026-07-05T10:46:30.948334+01:00",
+      "published_label": "Sunday 05 July 2026, 10:46 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+        "https://thehackernews.com/2026/07/european-parliament-member.html"
+      ]
+    },
     {
       "slug": "2026-07-04-1818-today-s-smb-cyber-lookout-faster-ransomware-and-more-convincing-phishing-as-atta",
       "headline": "Today’s SMB cyber lookout: faster ransomware and more convincing phishing as attackers automate with AI",
