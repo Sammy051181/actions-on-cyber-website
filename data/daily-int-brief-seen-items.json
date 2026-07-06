@@ -3303,9 +3303,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-05T10:46:30.948334+01:00",
       "brief_slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit"
+    },
+    "b27915122c11cffa": {
+      "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T12:43:44.890667+01:00",
+      "brief_slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o"
+    },
+    "a03b650e4a238826": {
+      "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
+      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T12:43:44.890667+01:00",
+      "brief_slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o",
+      "headline": "Today’s SME cyber lookout: cross‑platform remote access malware and browser add‑on data theft",
+      "risk_level": "Moderate",
+      "todays_lookout": "Remote access malware + browser extension / mod abuse",
+      "published_at": "2026-07-06T12:43:44.890667+01:00",
+      "published_label": "Monday 06 July 2026, 12:43 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+        "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
+      ]
+    },
     {
       "slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit",
       "headline": "Stealer malware and phone compromise: refresh today’s phishing and mobile security look-out",
