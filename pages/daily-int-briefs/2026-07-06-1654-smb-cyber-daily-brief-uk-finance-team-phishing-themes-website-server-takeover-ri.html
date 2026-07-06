@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Daily Brief (UK): finance-team phishing themes + website/server takeover risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Daily Brief (UK): finance-team phishing themes + website/server takeover risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 06 July 2026, 16:54 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Finance-team spear‑phishing and exploited business web platforms
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) “Tax/authority” emails targeting finance teams.</strong> A campaign is using convincing emails that impersonate a tax authority and pushes a fake “utility”/software download to install a remote access trojan (RAT). While the example reported targets India, the <em>theme</em> is common and travels well: finance teams, accountants and payroll are routinely targeted with urgent “filing”, “refund”, “penalty” and “verification” lures.</p>
+<p><strong>2) Business website/server compromise risk.</strong> A maximum-severity Adobe ColdFusion flaw is reported as being actively exploited. If you (or a supplier) run ColdFusion for internal apps, customer portals or old web systems, this is the type of issue that can quickly become a foothold for data theft and ransomware.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Finance access is high value:</strong> one successful click can lead to mailbox access, invoice fraud, payroll diversion, or wider network access.</li>
+  <li><strong>Old web apps are often “quiet critical”:</strong> ColdFusion often sits behind legacy line-of-business systems. If it’s compromised, attackers may get databases, customer data, or an easy path to encrypting servers.</li>
+  <li><strong>Supplier ripple effects:</strong> even if you don’t use ColdFusion, your web agency, hosting provider, or SaaS vendor might—leading to outage, data exposure, or knock-on phishing using stolen contact lists.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails to finance/payroll that demand urgency: “final notice”, “penalty”, “account will be suspended”, “refund held”, “KYC required”.</li>
+  <li>Requests to <strong>download and run</strong> a “tax tool”, “installer”, “validation utility”, or “secure viewer” from an email link.</li>
+  <li>Unexpected “secure portal” links that ask for Microsoft 365/Google sign-in when you weren’t expecting it.</li>
+  <li>Website/admin portal behaving oddly: sudden slowness, unexplained logins, new admin accounts, or changes you didn’t author.</li>
+  <li>Unplanned server restarts, scheduled tasks you don’t recognise, or security tools being disabled (often spotted by your IT provider/MSP first).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Spear-phishing into a remote access trojan (RAT):</strong> once installed, attackers can steal saved passwords, read emails, and move laterally to accounting systems and shared drives.</li>
+  <li><strong>Account takeover:</strong> compromised finance mailboxes are used to change supplier bank details or insert themselves into live invoice threads.</li>
+  <li><strong>Server/app compromise leading to disruption:</strong> exploited internet-facing systems are a common first step to data theft and ransomware.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief finance/payroll in 5 minutes:</strong> no one should install software from an email to “complete a filing” or “validate” anything. If in doubt, forward to IT and verify via a known good phone number.</li>
+  <li><strong>Harden payment-change processes:</strong> require call-back verification (using a number from your supplier master data, not the email) for any bank detail changes.</li>
+  <li><strong>Check your exposure:</strong> ask IT/your web agency whether you run ColdFusion anywhere (including old internal apps and hosted systems) and whether it’s internet-facing.</li>
+  <li><strong>Make sure logging/alerting is on:</strong> confirm you have alerts for suspicious mailbox rules/forwarding and admin account creation.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>Adobe ColdFusion</strong> on any servers (on-prem or hosted)? If yes, is it internet-facing and who owns patching responsibility?</li>
+  <li>Are we monitoring for <strong>new mailbox forwarding rules</strong>, suspicious inbox rules, and unusual sign-ins for finance users?</li>
+  <li>What is our current ability to <strong>contain a compromised user</strong> quickly (disable account, revoke sessions, isolate device) within 30 minutes?</li>
+  <li>Do we have an agreed process for <strong>urgent verification</strong> of supplier payment change requests and payroll updates?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Adobe ColdFusion is reported as being actively exploited (CVE-2026-48282). This is worth prioritising if you run ColdFusion directly or via a third-party web/app supplier—ask for confirmation of patch status and whether additional monitoring has been applied to ColdFusion servers.</p>
+
+<table>
+  <tr><th>Today’s focus</th><th>Who should care most</th><th>Impact if hit</th></tr>
+  <tr><td>Tax/authority-themed finance phishing</td><td>Finance, payroll, ops, anyone approving payments</td><td>Invoice fraud, payroll diversion, account takeover</td></tr>
+  <tr><td>ColdFusion exploitation (supplier/legacy app risk)</td><td>IT/MSP, web agencies, orgs with older internal apps</td><td>Data theft, outage, ransomware entry point</td></tr>
+</table>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to finance/payroll: do not install any “tax/verification utility” from email links, and verify any payment or bank-detail change by calling a known good number.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change &amp; invoice fraud call-back controls (finance process quick-check)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html" rel="noopener noreferrer">Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/" rel="noopener noreferrer">Max severity Adobe ColdFusion flaw now exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

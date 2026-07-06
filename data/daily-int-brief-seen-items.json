@@ -3317,9 +3317,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-06T12:43:44.890667+01:00",
       "brief_slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o"
+    },
+    "8189a92ce7bdf5d2": {
+      "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T16:54:24.774575+01:00",
+      "brief_slug": "2026-07-06-1654-smb-cyber-daily-brief-uk-finance-team-phishing-themes-website-server-takeover-ri"
+    },
+    "190da742e8622b86": {
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-06T16:54:24.774575+01:00",
+      "brief_slug": "2026-07-06-1654-smb-cyber-daily-brief-uk-finance-team-phishing-themes-website-server-takeover-ri"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-06-1654-smb-cyber-daily-brief-uk-finance-team-phishing-themes-website-server-takeover-ri",
+      "headline": "SMB Cyber Daily Brief (UK): finance-team phishing themes + website/server takeover risk",
+      "risk_level": "High",
+      "todays_lookout": "Finance-team spear‑phishing and exploited business web platforms",
+      "published_at": "2026-07-06T16:54:24.774575+01:00",
+      "published_label": "Monday 06 July 2026, 16:54 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+        "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o",
       "headline": "Today’s SME cyber lookout: cross‑platform remote access malware and browser add‑on data theft",
