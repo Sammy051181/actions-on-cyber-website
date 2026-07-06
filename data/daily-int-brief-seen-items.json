@@ -3331,9 +3331,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-06T16:54:24.774575+01:00",
       "brief_slug": "2026-07-06-1654-smb-cyber-daily-brief-uk-finance-team-phishing-themes-website-server-takeover-ri"
+    },
+    "4488624860bdc457": {
+      "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T19:23:31.260091+01:00",
+      "brief_slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on"
+    },
+    "5ab4c1aa49300eca": {
+      "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T19:23:31.260091+01:00",
+      "brief_slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on"
+    },
+    "cd04d93b37a55539": {
+      "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
+      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-06T19:23:31.260091+01:00",
+      "brief_slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on",
+      "headline": "Today’s SMB Cyber Brief: Self‑hosted dev tools under probe + risky AI coding add‑ons",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/DevOps account takeover and risky AI tooling in the build pipeline",
+      "published_at": "2026-07-06T19:23:31.260091+01:00",
+      "published_label": "Monday 06 July 2026, 19:23 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+        "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+        "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html"
+      ]
+    },
     {
       "slug": "2026-07-06-1654-smb-cyber-daily-brief-uk-finance-team-phishing-themes-website-server-takeover-ri",
       "headline": "SMB Cyber Daily Brief (UK): finance-team phishing themes + website/server takeover risk",

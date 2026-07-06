@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: Self‑hosted dev tools under probe + risky AI coding add‑ons | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: Self‑hosted dev tools under probe + risky AI coding add‑ons</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Monday 06 July 2026, 19:23 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/DevOps account takeover and risky AI tooling in the build pipeline
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Self-hosted developer tools being actively probed.</strong> Reporting indicates threat actors are attempting to exploit a recently disclosed issue affecting some <strong>Gitea Docker image deployments</strong>. If your business (or your web/IT supplier) hosts code repositories internally, treat this as a “check now” item.</p>
+<p><strong>2) Malicious add-ons (“skills”) for AI coding agents.</strong> Research suggests attackers can disguise malicious agent skills so they evade static scanning. If staff are using AI coding assistants or agent platforms, this becomes a <strong>software supply chain</strong> and <strong>data leakage</strong> concern.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Dev tools are business-critical.</strong> If a code repository, CI/CD, or DevOps system is compromised, attackers may steal code, tamper with releases, or create backdoor access—leading to downtime and reputational harm.</li>
+  <li><strong>SMEs often rely on MSPs and small dev suppliers.</strong> If your supplier hosts or manages these tools, your risk depends on their configuration and monitoring.</li>
+  <li><strong>AI coding tools blur boundaries.</strong> “Helpful” add-ons can become a route to pull secrets (API keys, credentials) or to introduce unwanted changes into code.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected new admin users</strong> or permission changes in code repositories/dev platforms.</li>
+  <li><strong>Unusual login patterns</strong> (new locations, odd hours, repeated failures) for DevOps tools.</li>
+  <li><strong>Build or deployment changes you can’t explain</strong> (new pipelines, altered scripts, new webhooks/integrations).</li>
+  <li><strong>AI assistant/agent requests that feel “off”</strong>: asking for secrets, asking to “paste config”, requesting broad access, or pushing to install add-ons from unofficial sources.</li>
+  <li><strong>New outbound connections</strong> from dev servers to unfamiliar destinations (often first spotted by an MSP).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Repo/DevOps takeover → lateral movement.</strong> If attackers gain access to a repository or its admin functions, they may steal code, harvest stored secrets, or pivot into cloud accounts and internal systems.</li>
+  <li><strong>CI/CD tampering.</strong> Attackers can alter build steps so malware is inserted into software, installers, or updates.</li>
+  <li><strong>AI agent add-ons as a stealthy entry point.</strong> A malicious “skill” may run actions that exfiltrate code or credentials, or quietly modify generated code/configuration.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you (or your supplier) run Gitea in Docker</strong> and who is responsible for monitoring and urgent fixes.</li>
+  <li><strong>Review admin accounts and access logs</strong> for your code repo/DevOps tools for the last 14–30 days.</li>
+  <li><strong>Lock down integrations:</strong> remove unused webhooks, tokens and third-party integrations; rotate any long-lived tokens if you suspect unusual activity.</li>
+  <li><strong>Set rules for AI coding tools:</strong> only approved tools and add-ons; no pasting secrets into prompts; keep sensitive repos off-limits unless explicitly approved.</li>
+  <li><strong>Backups and recovery:</strong> confirm you can restore repos and CI/CD configs quickly (and that backups are not writable from the same admin accounts).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>Gitea (especially via Docker images)</strong> anywhere? If yes, what’s our exposure and what monitoring is in place?</li>
+  <li>What logs do we have for our repo/DevOps platform, and how quickly would we detect <strong>new admin creation</strong> or <strong>permission changes</strong>?</li>
+  <li>Which systems store <strong>build secrets</strong> (API keys, signing keys), and how are they protected and rotated?</li>
+  <li>Do we allow AI coding assistants/agents? If yes, what is our <strong>approved list</strong>, and how do we vet add-ons/“skills” before use?</li>
+  <li>If a repo/dev tool is compromised, what’s our <strong>containment plan</strong> (token rotation, integration shutdown, rebuild of CI runners)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use self-hosted DevOps platforms (including Gitea in Docker), treat this week as a prompt to ensure urgent fixes are applied promptly and that insecure “trust” assumptions in front-end headers/proxies are reviewed. This is less about one patch and more about confirming your provider has a repeatable process for rapid remediation and verification.</p>
+
+        <h2>One action today</h2>
+        <p>Message your IT provider today to confirm whether you (or any supplier) run Gitea in Docker and to provide a written check of admin accounts, recent access logs, and remediation status.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; MSP security questions checklist (quick due diligence for hosted tools and managed services)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html" rel="noopener noreferrer">Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html" rel="noopener noreferrer">SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html" rel="noopener noreferrer">⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
