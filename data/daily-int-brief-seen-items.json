@@ -3352,9 +3352,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-06T19:23:31.260091+01:00",
       "brief_slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on"
+    },
+    "1bc1a16ef57f8909": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
+      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-07T11:31:57.508950+01:00",
+      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
+    },
+    "6f6081fec769fe0e": {
+      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+      "title": "Phishing poses as big-brand job interview to steal Google accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-07T11:31:57.508950+01:00",
+      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
+    },
+    "3ed82d96ed483327": {
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-07T11:31:57.508950+01:00",
+      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and",
+      "headline": "Today’s SME cyber lookout: fake Teams ‘IT support’ calls, job-interview phishing, and remote-access tool risk",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation-led access theft (Teams + Google) and remote-access supplier risk",
+      "published_at": "2026-07-07T11:31:57.508950+01:00",
+      "published_label": "Tuesday 07 July 2026, 11:31 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
+        "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+        "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/"
+      ]
+    },
     {
       "slug": "2026-07-06-1923-today-s-smb-cyber-brief-self-hosted-dev-tools-under-probe-risky-ai-coding-add-on",
       "headline": "Today’s SMB Cyber Brief: Self‑hosted dev tools under probe + risky AI coding add‑ons",
