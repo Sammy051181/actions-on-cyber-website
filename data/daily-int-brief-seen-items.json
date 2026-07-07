@@ -3373,9 +3373,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-07T11:31:57.508950+01:00",
       "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
+    },
+    "3d9df116e5edd7c5": {
+      "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-07T16:13:53.894335+01:00",
+      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
+    },
+    "e40de8d8661eaea5": {
+      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-07T16:13:53.894335+01:00",
+      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
+    },
+    "ebefcaa1ea7797b7": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-07T16:13:53.894335+01:00",
+      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-",
+      "headline": "Today’s SME cyber look-out: AI coding tools & GitHub workflows data leak risk, plus router backdoor warnings",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS AI workflow data leakage + small office router exposure",
+      "published_at": "2026-07-07T16:13:53.894335+01:00",
+      "published_label": "Tuesday 07 July 2026, 16:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+        "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/"
+      ]
+    },
     {
       "slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and",
       "headline": "Today’s SME cyber lookout: fake Teams ‘IT support’ calls, job-interview phishing, and remote-access tool risk",

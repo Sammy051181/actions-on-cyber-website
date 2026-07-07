@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look-out: AI coding tools &amp; GitHub workflows data leak risk, plus router backdoor warnings | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look-out: AI coding tools &amp; GitHub workflows data leak risk, plus router backdoor warnings</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Tuesday 07 July 2026, 16:13 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS AI workflow data leakage + small office router exposure
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>GitHub “agentic”/AI-driven workflows may leak private code or secrets</strong> if they’re allowed to read across repositories and can be influenced by public issues.</li>
+  <li><strong>Small office / home office router risk</strong>: a CERT/CC warning describes an undocumented admin backdoor in some Tenda router firmware.</li>
+  <li><strong>Microsoft Windows backup behaviour change</strong>: Windows settings backup/restore is expected to be enabled by default on some organisation-managed Windows 11 devices after upgrade, which may affect what gets stored in the cloud and how machines are restored.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs increasingly rely on SaaS and “helpful” automation (AI assistants, build pipelines, scripted workflows) because they reduce admin time. The downside is that a single misconfigured permission can expose a lot of information quickly (source code, internal docs, configuration, tokens, customer data).</p>
+<p>Separately, many small organisations still use consumer-grade routers in offices, pop-up locations and staff homes. If a router model has a hidden admin access method, it becomes an easy path to intercept traffic, change DNS, or gain a foothold for further fraud.</p>
+<p>Finally, default backup/restore changes in Microsoft-managed devices are usually positive for resilience, but they can create governance questions (what settings are backed up, where, who can restore, and what happens during offboarding).</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected access patterns in GitHub</strong>: sudden spikes in workflow runs, unusual read activity across multiple repos, or “helpful” bots posting verbose summaries that include internal file contents.</li>
+  <li><strong>Secrets showing up where they shouldn’t</strong>: API keys, tokens, connection strings, or customer identifiers appearing in build logs, issue comments, or automated “analysis” outputs.</li>
+  <li><strong>Router/redirection symptoms</strong>: staff reporting “certificate warnings”, being redirected to odd login pages, or multiple users suddenly failing to reach known services (banking, M365, payroll) unless on mobile data.</li>
+  <li><strong>Windows device surprises after upgrade</strong>: users seeing new backup prompts, restored settings they didn’t expect, or confusion about whether settings follow them to new machines.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Workflow prompt/issue manipulation</strong>: an attacker opens a normal-looking public GitHub issue designed to influence an AI-enabled workflow/agent into fetching or revealing private repo content (or summarising sensitive files).</li>
+  <li><strong>Permission overreach</strong>: if the workflow/agent has broad read access, the attacker doesn’t need to compromise an employee account to cause damage—misconfiguration does the heavy lifting.</li>
+  <li><strong>Router foothold for fraud</strong>: a compromised router can be used to reroute traffic, capture credentials, or facilitate Business Email Compromise-style payment diversion by spying on comms and logins.</li>
+  <li><strong>Backup/restore misuse</strong>: if identity controls and offboarding are weak, backup/restore features can unintentionally preserve settings and access paths longer than intended.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>If you use GitHub automation/AI agents:</strong> confirm what repositories they can read, what they can post back publicly, and whether public issues can trigger actions that access private data.</li>
+  <li><strong>Scan for exposed secrets:</strong> check recent workflow logs and automated comments for accidental inclusion of tokens, passwords, connection strings, or customer data. Rotate anything suspicious.</li>
+  <li><strong>Router hygiene:</strong> identify your office routers (make/model/firmware) and confirm who is responsible for updates, admin access and configuration backups—especially for satellite offices and home workers.</li>
+  <li><strong>Microsoft backup governance:</strong> ask your IT support what Windows settings will be backed up by default on Entra-joined devices, where it’s stored, and how restores are controlled.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do any of our GitHub repos use agentic/AI workflows? If yes, <strong>which identities</strong> do they run as and <strong>what repo scope</strong> do they have?</li>
+  <li>Can a <strong>public GitHub issue</strong> trigger automation that reads private repos or posts outputs publicly (issues, PR comments, logs)? What guardrails are in place?</li>
+  <li>Do we have an inventory of <strong>office and remote-worker routers</strong>, and a process for urgent vendor advisories (including consumer devices)?</li>
+  <li>After Windows 11 upgrades, will <strong>settings backup</strong> turn on by default for us? What’s the policy for backup/restore, leavers, and shared machines?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CERT/CC has warned about an undocumented admin access backdoor affecting certain Tenda router firmware, and researchers have described a GitHub workflow data-leak scenario tied to agentic workflows. For SMEs, the priority is not “chasing CVEs” but confirming (1) whether you use affected router models and (2) whether your GitHub automation/AI agents have overly broad permissions or can be influenced by public inputs.</p>
+
+        <h2>One action today</h2>
+        <p>Audit any GitHub agentic/AI workflows today: ensure they cannot be triggered by public issues to access private repos, and reduce their repo permissions to the minimum needed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Phishing &amp; payment change protection (BEC) – staff warnings and verification steps”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html" rel="noopener noreferrer">Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html" rel="noopener noreferrer">CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/" rel="noopener noreferrer">Microsoft to enable Windows settings backup by default for orgs</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
