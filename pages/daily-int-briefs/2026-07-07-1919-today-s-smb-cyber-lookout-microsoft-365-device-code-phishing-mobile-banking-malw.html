@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 device‑code phishing, mobile banking malware, and router backdoor risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 device‑code phishing, mobile banking malware, and router backdoor risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 07 July 2026, 19:19 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover scams (M365 device-code), banking fraud on mobiles, and small-office router compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes that are practical for SMEs to watch for today:</p>
+<ul>
+<li><strong>Microsoft 365 “device code” phishing</strong> using collaboration-style lures that push staff into a <em>real</em> Microsoft sign-in flow (no fake password page).</li>
+<li><strong>Android banking fraud being “rented” via Telegram</strong>, making it easier for criminals to run convincing mobile-led payment and account takeover scams.</li>
+<li><strong>Small office / home router risk</strong>: reports of a hidden backdoor in some Tenda router firmware that could grant admin access.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>M365 compromise can become an “everything compromise”</strong>: email, Teams, OneDrive/SharePoint access, password resets, invoice fraud, and supplier impersonation.</li>
+<li><strong>Mobile is now a direct path to money</strong>: if a staff member uses a personal or work Android phone for banking, payments approvals, or authentication codes, malware can intercept logins and one-time codes.</li>
+<li><strong>Routers are a single point of failure</strong>: a compromised router can enable eavesdropping, redirection, or access to internal systems—especially where remote access, CCTV, or card terminals share the network.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Emails/Teams messages saying <strong>“You’ve been invited to collaborate”</strong> or <strong>“urgent document access”</strong> followed by instructions to enter a code on a Microsoft sign-in page.</li>
+<li>A colleague says they <strong>“didn’t enter a password, only a code”</strong>—and assumes it must be safe because it looked like Microsoft.</li>
+<li>Unexpected MFA prompts, new device sign-ins, or inbox rules being created (e.g., auto-forwarding finance emails).</li>
+<li>On Android: sudden accessibility permissions, “battery optimisation” prompts for unknown apps, overlays appearing over banking apps, or the phone becoming unusually slow/hot.</li>
+<li>Router/admin panel behaving oddly: unknown admin accounts, settings changes, DNS changes, or remote management enabled without approval.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Device-code phishing</strong>: attacker persuades a user to enter a device code, granting the attacker an authenticated session to the user’s M365 account without stealing a password in the traditional way.</li>
+<li><strong>Mobile banking malware</strong>: criminals aim to steal bank credentials and capture one-time codes, enabling unauthorised payments and account takeover.</li>
+<li><strong>Router backdoor risk</strong>: if the router can be accessed with hidden/weak authentication, an attacker may gain admin control and tamper with network traffic or access exposed services.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Brief staff (5 minutes)</strong>: Microsoft sign-in screens can still be part of a scam. Don’t enter “device codes” unless <em>they</em> initiated the login on a trusted device and understand why.</li>
+<li><strong>Finance controls</strong>: require a second channel verification for new payee details and “urgent” payment requests—even if they come from a real colleague’s mailbox.</li>
+<li><strong>Check M365 basics</strong>: review recent sign-ins for finance and senior accounts; look for new inbox rules/forwarding; confirm MFA is enforced for all users.</li>
+<li><strong>Mobile hygiene</strong>: remind staff not to install unknown APKs or “support” apps from messages; review high-risk app permissions (Accessibility, Device Admin) on any phone used for work approvals.</li>
+<li><strong>Router sanity check</strong>: confirm what router model/firmware you use (especially if Tenda); ensure admin password is unique; disable remote admin unless explicitly needed; confirm DNS settings are expected.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Can you <strong>block/limit device-code sign-ins</strong> where appropriate, and alert on unusual device-code authentication attempts?</li>
+<li>Do we have <strong>conditional access</strong> or equivalent controls to reduce logins from unfamiliar locations/devices for finance/admin users?</li>
+<li>What is our <strong>rapid response</strong> if an M365 account is suspected compromised (session revocation, password reset, MFA reset, mailbox rule cleanup, audit)?</li>
+<li>Do we have an <strong>approved router list</strong> and a process to track firmware, admin access, and remote management settings for branch/home offices?</li>
+<li>What’s our position on <strong>BYOD mobiles</strong> used for approvals/banking—do we need minimum security settings or MDM for those roles?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business uses a Tenda router, treat today’s report as a prompt to identify the exact model/firmware in use and discuss mitigation with your IT support (including firmware updates or replacement). For most SMEs, the priority is confirming the device in use, locking down admin access, and disabling remote management unless essential.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Never enter Microsoft ‘device codes’ from messages—only sign in when you initiated it; report any unexpected MFA prompts immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – Invoice &amp; payment change scam checklist (call-back verification process)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html" rel="noopener noreferrer">DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html" rel="noopener noreferrer">RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/" rel="noopener noreferrer">Hidden backdoor in Tenda router firmware grants admin access</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

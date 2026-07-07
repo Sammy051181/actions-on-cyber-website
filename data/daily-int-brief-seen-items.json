@@ -3394,9 +3394,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-07T16:13:53.894335+01:00",
       "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
+    },
+    "30cd1218f1ee03df": {
+      "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-07T19:19:20.436208+01:00",
+      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
+    },
+    "31981167c8139385": {
+      "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-07T19:19:20.436208+01:00",
+      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
+    },
+    "cede3de819da9d2a": {
+      "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+      "title": "Hidden backdoor in Tenda router firmware grants admin access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-07T19:19:20.436208+01:00",
+      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 device‑code phishing, mobile banking malware, and router backdoor risk",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover scams (M365 device-code), banking fraud on mobiles, and small-office router compromise",
+      "published_at": "2026-07-07T19:19:20.436208+01:00",
+      "published_label": "Tuesday 07 July 2026, 19:19 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+        "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+        "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/"
+      ]
+    },
     {
       "slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-",
       "headline": "Today’s SME cyber look-out: AI coding tools & GitHub workflows data leak risk, plus router backdoor warnings",
