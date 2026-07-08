@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 “passkey enrolment” vishing + urgent web app exposure checks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 “passkey enrolment” vishing + urgent web app exposure checks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 08 July 2026, 18:51 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Voice phishing (vishing) to hijack Microsoft 365 logins, plus web app compromise leading to ransomware/disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Microsoft 365 voice scams (“vishing”) prompting passkey enrolment.</strong> Reports describe attackers calling staff and posing as IT/security, asking them to enrol a new Microsoft Entra passkey for “security reasons”. The goal is typically account takeover.</p>
+<p><strong>2) Web app exposure risk from an actively exploited ColdFusion issue.</strong> Even if you don’t think you run ColdFusion, it can exist in older internal apps, supplier-hosted portals, or forgotten servers.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>One compromised Microsoft 365 account</strong> can lead to invoice fraud, payroll diversion, mailbox rule tampering, and customer data exposure.</li>
+  <li><strong>Vishing works on busy teams</strong>: finance, reception, HR and new starters are often targeted because they’re helpful and process-driven.</li>
+  <li><strong>Web app compromise is a common ransomware entry point</strong>, especially where legacy apps sit outside modern monitoring.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A call claiming to be “Microsoft”, your “IT support”, or an “MFA team” asking you to <strong>set up a passkey</strong>, approve a sign-in, or read out a code.</li>
+  <li>Pressure tactics: “You’ll be locked out in 10 minutes” or “We’re seeing suspicious activity right now.”</li>
+  <li>Unexpected Microsoft 365 prompts or new authentication set-up screens that <strong>you didn’t initiate</strong>.</li>
+  <li>Reports from staff that they were asked to install a remote support tool or visit a link during a call.</li>
+  <li>Unexplained website/app instability, spikes in server load, or sudden security alerts related to public-facing web apps.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Social engineering + identity changes:</strong> The attacker persuades a user to enrol a new sign-in method, or to approve an action that hands over access.</li>
+  <li><strong>Mailbox takeover:</strong> Once in, criminals search for invoices, change bank details in ongoing email threads, or set hidden forwarding/inbox rules.</li>
+  <li><strong>Follow-on compromise:</strong> A single account can be used to phish customers/suppliers from a trusted address, or to access connected SaaS tools.</li>
+  <li><strong>Public-facing app entry:</strong> If a web app platform is actively exploited in the wild, attackers may scan for exposed instances, gain a foothold, then pivot to file servers and backups.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (2 minutes):</strong> “We will never call you to set up a passkey or ask for codes. If you get such a call, hang up and report it.”</li>
+  <li><strong>Set a simple rule:</strong> Any request to change login methods, bank details, supplier payment details, or payroll details must be verified via a known-good number (not the one provided on the call/email).</li>
+  <li><strong>Check Microsoft 365 basics:</strong> confirm MFA is enabled for all users, review any recent changes to authentication methods, and look for unusual sign-ins.</li>
+  <li><strong>Reduce blast radius:</strong> ensure shared mailboxes and finance mailboxes have the strongest protection and least privilege necessary.</li>
+  <li><strong>Inventory internet-facing apps:</strong> confirm what is exposed publicly (including any legacy app servers) and who owns patching/monitoring.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we seeing any signs of <strong>vishing-driven account takeover</strong> attempts (unusual sign-ins, impossible travel, repeated MFA prompts)?</li>
+  <li>Can you confirm <strong>who can enrol new authentication methods</strong> and how we detect/alert on suspicious enrolments?</li>
+  <li>Do we have alerts for <strong>mailbox forwarding rules</strong>, newly created inbox rules, and changes to payment-related mailboxes?</li>
+  <li>Do we run (or inherit via a supplier) any <strong>ColdFusion-based</strong> applications, portals, or legacy servers? Who is responsible for patching and how quickly?</li>
+  <li>If a web app is compromised, what’s our <strong>containment plan</strong> (isolation, credential resets, restore process) and how fast can we execute it?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has highlighted an <strong>actively exploited</strong> Adobe ColdFusion issue and set a rapid remediation deadline for US federal agencies. For SMEs, the key action is to confirm whether any ColdFusion servers exist in your environment (including older apps) and ensure your IT provider has a process to rapidly address actively exploited internet-facing software—especially anything hosting customer or staff-facing portals.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff message: “If anyone calls asking you to enrol a new Microsoft 365/Entra passkey or share codes, hang up and report it—IT will never ask.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – Phishing &amp; vishing call-handling checklist (script + reporting steps)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/" rel="noopener noreferrer">Entra passkey enrollment vishing targets Microsoft 365 users</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/" rel="noopener noreferrer">CISA orders feds to patch max severity ColdFusion flaw by Friday</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -3478,9 +3478,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-08T15:40:22.618212+01:00",
       "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
+    },
+    "26b7475c5d0d96b6": {
+      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-08T18:51:38.537092+01:00",
+      "brief_slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app"
+    },
+    "0e40a06dbfa836ba": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-08T18:51:38.537092+01:00",
+      "brief_slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 “passkey enrolment” vishing + urgent web app exposure checks",
+      "risk_level": "High",
+      "todays_lookout": "Voice phishing (vishing) to hijack Microsoft 365 logins, plus web app compromise leading to ransomware/disruption",
+      "published_at": "2026-07-08T18:51:38.537092+01:00",
+      "published_label": "Wednesday 08 July 2026, 18:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"
+      ]
+    },
     {
       "slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven",
       "headline": "Today’s SME cyber look-out: stealth phishing, “verification” scams, and breach-driven password resets",
