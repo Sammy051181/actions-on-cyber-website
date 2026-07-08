@@ -3415,9 +3415,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-07T19:19:20.436208+01:00",
       "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
+    },
+    "b00083c733dc2411": {
+      "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-08T10:35:52.281481+01:00",
+      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
+    },
+    "d209aa72b2ff6de8": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-08T10:35:52.281481+01:00",
+      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
+    },
+    "a6db55d019e89e30": {
+      "url": "https://blog.talosintelligence.com/uat-7810/",
+      "title": "UAT-7810 continues building ORB networks using new malware",
+      "source": "Cisco Talos",
+      "seen_at": "2026-07-08T10:35:52.281481+01:00",
+      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
+    },
+    "4a3aefd50bae8a4a": {
+      "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-08T10:35:52.281481+01:00",
+      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig",
+      "headline": "SMB Cyber Intelligence Brief: Watch for router compromise used as “relay boxes” + tighten SaaS admin controls",
+      "risk_level": "Moderate",
+      "todays_lookout": "Compromised routers used as attacker relay infrastructure, and SaaS/chatbot admin-change risk",
+      "published_at": "2026-07-08T10:35:52.281481+01:00",
+      "published_label": "Wednesday 08 July 2026, 10:35 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+        "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+        "https://blog.talosintelligence.com/uat-7810/",
+        "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
+      ]
+    },
     {
       "slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 device‑code phishing, mobile banking malware, and router backdoor risk",

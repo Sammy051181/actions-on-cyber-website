@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Watch for router compromise used as “relay boxes” + tighten SaaS admin controls | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Watch for router compromise used as “relay boxes” + tighten SaaS admin controls</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Wednesday 08 July 2026, 10:35 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Compromised routers used as attacker relay infrastructure, and SaaS/chatbot admin-change risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two themes to brief staff and your IT support on today:</strong></p>
+<ul>
+  <li><strong>Internet-facing routers and network devices being compromised</strong> and used as “Operational Relay Boxes” (ORBs) to hide attacker activity and support wider intrusions.</li>
+  <li><strong>Cloud/SaaS configuration and admin-rights risk</strong> (including customer-facing chatbots): if someone with edit access can change behaviour, they may be able to access conversations or trick users into sharing credentials.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Your router is a dependency</strong>: if it’s taken over, attackers can route traffic through you, target you, or create hard-to-trace follow-on access into email, cloud apps, and remote access tools.</li>
+  <li><strong>SMEs often inherit risk from MSPs and “set-and-forget” network kit</strong> (old routers, multiple sites, home-working links, temporary firewall rules).</li>
+  <li><strong>Chatbots and automated customer comms are trust channels</strong>. If compromised or misconfigured, they can be used for social engineering (“please re-enter your password”), data leakage, and reputational damage.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexplained internet slowdowns, odd spikes in outbound traffic, or complaints about connectivity that come and go.</li>
+  <li>Router/firewall admin logins you don’t recognise, configuration changes that weren’t requested, or new admin users.</li>
+  <li>New or unexpected port forwards, VPN users, DNS settings, or remote management being enabled.</li>
+  <li>For chatbots/SaaS: unexpected content changes, new “code blocks”/advanced features enabled, or bot responses asking for passwords/one-time codes.</li>
+  <li>Customer reports that your chatbot/site is asking for sensitive details it shouldn’t.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromise an exposed network device</strong> (often due to missing updates or risky internet exposure) and use it as a relay point to mask attacks on other targets—or as a stepping stone into your environment.</li>
+  <li><strong>Blend in with normal traffic</strong>: relay infrastructure can make investigations harder and slow down detection.</li>
+  <li><strong>Abuse legitimate edit rights in cloud tools</strong> to change behaviour, access data, or prompt users to share credentials—especially where “advanced” features are enabled.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Inventory your internet-facing devices</strong>: routers, firewalls, VPN concentrators, Wi‑Fi controllers, and anything with remote admin.</li>
+  <li><strong>Confirm remote management is locked down</strong> (off if not needed; if needed, restrict by IP/VPN and enforce MFA where supported).</li>
+  <li><strong>Review device and cloud admin accounts</strong>: remove stale users, enforce strong authentication, and ensure admin access is least-privilege.</li>
+  <li><strong>For chatbots/customer comms</strong>: agree a policy that your bot/support will never ask for passwords or one-time codes; add monitoring/approval for bot content changes.</li>
+  <li><strong>Ensure logs are being collected</strong> (router/firewall logs and cloud audit logs) and that someone looks at alerts, not just stores them.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our network devices are internet-facing, and who is responsible for monitoring and patching them?</li>
+  <li>Do we have any remote admin enabled on routers/firewalls? If yes, what controls (MFA, IP allow-lists, VPN-only) are in place?</li>
+  <li>How would we detect if our router/firewall was being used as a relay (traffic baselines, anomaly alerts, known-bad destination monitoring)?</li>
+  <li>For any chatbots or customer messaging platforms: who has edit rights, are changes logged, and do we have an approval process for high-risk changes?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This is a good day to prioritise updates for internet-facing networking equipment and any cloud tools where “advanced” agent/code features are enabled. If you outsource IT, ask for confirmation (in writing) of what was checked and what was updated or risk-accepted.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT support today for a list of all internet-facing routers/firewalls/VPN devices and confirmation that remote management is restricted (or disabled) and admin accounts have been reviewed this month.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber “Third-party &amp; MSP security questions” checklist (use it to confirm who patches and monitors your internet-facing kit and SaaS admin changes).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html" rel="noopener noreferrer">China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/" rel="noopener noreferrer">Chinese hackers develop LONGLEASH malware to expand ORB network</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://blog.talosintelligence.com/uat-7810/" rel="noopener noreferrer">UAT-7810 continues building ORB networks using new malware</a> <span class="muted">(Cisco Talos)</span></li><li><a href="https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html" rel="noopener noreferrer">Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
