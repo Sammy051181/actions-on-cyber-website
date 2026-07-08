@@ -3443,9 +3443,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-08T10:35:52.281481+01:00",
       "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
+    },
+    "a4bf32ad6055a423": {
+      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-08T15:40:22.618212+01:00",
+      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
+    },
+    "09713cdc0f08337b": {
+      "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-08T15:40:22.618212+01:00",
+      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
+    },
+    "a8c2ea06620a7e08": {
+      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-08T15:40:22.618212+01:00",
+      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
+    },
+    "655b09b40550bf3d": {
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-08T15:40:22.618212+01:00",
+      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
+    },
+    "15ffdd0151ee1741": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-08T15:40:22.618212+01:00",
+      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven",
+      "headline": "Today’s SME cyber look-out: stealth phishing, “verification” scams, and breach-driven password resets",
+      "risk_level": "High",
+      "todays_lookout": "Phishing and account takeover: “verification steps”, hidden phishing pages, and breach follow-on scams",
+      "published_at": "2026-07-08T15:40:22.618212+01:00",
+      "published_label": "Wednesday 08 July 2026, 15:40 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+        "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+        "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+        "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
+      ]
+    },
     {
       "slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig",
       "headline": "SMB Cyber Intelligence Brief: Watch for router compromise used as “relay boxes” + tighten SaaS admin controls",
