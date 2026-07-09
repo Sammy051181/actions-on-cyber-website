@@ -3492,9 +3492,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-08T18:51:38.537092+01:00",
       "brief_slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app"
+    },
+    "11bd55b6e6a6a556": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-09T11:31:36.844622+01:00",
+      "brief_slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b"
+    },
+    "4e6a511c59f1852d": {
+      "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T11:31:36.844622+01:00",
+      "brief_slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b"
+    },
+    "e5c47ef352f28d1b": {
+      "url": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-09T11:31:36.844622+01:00",
+      "brief_slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b"
+    },
+    "d24c0cd60c39d202": {
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T11:31:36.844622+01:00",
+      "brief_slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b",
+      "headline": "Today’s SME cyber lookout: fake payment SDKs, AI coding assistant repo traps, and breach-driven scams",
+      "risk_level": "High",
+      "todays_lookout": "Software supply-chain and payment-themed credential theft, plus breach-driven scam messages",
+      "published_at": "2026-07-09T11:31:36.844622+01:00",
+      "published_label": "Thursday 09 July 2026, 11:31 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+        "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+        "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+        "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+      ]
+    },
     {
       "slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 “passkey enrolment” vishing + urgent web app exposure checks",

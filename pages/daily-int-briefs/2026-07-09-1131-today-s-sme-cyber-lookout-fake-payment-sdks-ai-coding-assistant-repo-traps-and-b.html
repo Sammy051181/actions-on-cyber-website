@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: fake payment SDKs, AI coding assistant repo traps, and breach-driven scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: fake payment SDKs, AI coding assistant repo traps, and breach-driven scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 09 July 2026, 11:31 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply-chain and payment-themed credential theft, plus breach-driven scam messages
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Fake payment “SDK” packages</strong> on developer package sites (npm and PyPI) pretending to be linked to Paysafe/Skrill/Neteller, designed to steal credentials.</li>
+  <li><strong>AI coding assistant risk:</strong> a malicious code repository/project can trick some popular AI coding tools into writing to sensitive files after the user approves a harmless-looking change.</li>
+  <li><strong>Breach-driven scams:</strong> a large insurance data breach (AssuranceAmerica) may lead to follow-on phishing, identity checks, and “we need to update your details” messages targeting drivers and customers.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on third parties and tooling to move quickly: payment providers, outsourced developers, open-source packages, and AI assistants. That’s exactly where attackers are focusing—stealing credentials (to payment systems, email, or developer accounts) and then using them for fraud, invoice redirection, or wider compromise.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Developers or IT reporting they “just added a quick SDK/library” for payments from npm/PyPI or a new GitHub repo without a formal review.</li>
+  <li>Unexpected prompts in an AI coding tool asking to edit a file that doesn’t match the task (or repeated requests for broad file access).</li>
+  <li>Sudden login alerts, MFA prompts, password reset emails, or new API keys/tokens created for payment or developer accounts.</li>
+  <li>Customers/staff receiving emails/SMS about “insurance claim issues”, “driver record verification”, or “update your payment details” with urgency.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain credential theft:</strong> Malicious packages masquerade as legitimate payment SDKs to capture credentials or plant stealer malware, which can lead to account takeover.</li>
+  <li><strong>Developer workstation takeover path:</strong> A booby-trapped project can abuse weaknesses in AI coding assistants so an approved change lands somewhere sensitive, potentially enabling code execution or secret theft.</li>
+  <li><strong>Social engineering after a breach:</strong> Attackers use breach publicity to make scam messages feel believable, aiming to harvest personal and payment info or to take over accounts.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell devs/IT:</strong> do not install “payment SDKs” from package registries unless they are verified via the vendor’s official documentation and internal approval.</li>
+  <li><strong>Lock down secrets:</strong> rotate any high-value tokens if there’s any suspicion a developer machine or build system has installed untrusted packages; review who can create API keys for payment tooling.</li>
+  <li><strong>AI tool hygiene:</strong> treat code projects from unknown sources as untrusted; require review before running tooling that can modify files automatically.</li>
+  <li><strong>Comms to staff/front office:</strong> warn that breach-related messages may be used to pressure people into sharing details; route queries to a known contact method, not the message.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a policy for approving new open-source dependencies (npm/PyPI) and checking package provenance before use?</li>
+  <li>How do we detect credential theft from developer endpoints (EDR/AV alerts, unusual browser credential access, token creation events)?</li>
+  <li>Which AI coding assistants are in use, and are there guardrails (least-privilege access, project sandboxing, logging, code review) to prevent unsafe file writes?</li>
+  <li>Do we monitor for unusual logins/changes in our payment platforms and developer services (e.g., new API keys, new admin users)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has released fixes for a Windows Defender/Malware Protection Engine privilege escalation issue. For most SMEs, the key question is whether your endpoints are receiving Defender platform updates promptly (especially if devices are remote or managed by an MSP). Confirm your update reporting is working and that out-of-date endpoints are chased.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to IT/developers: pause any new npm/PyPI dependency adds (especially payment-related “SDKs”) until provenance is verified against the vendor’s official documentation and approved internally.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Third-party &amp; SaaS access review (MFA, admin accounts, API keys, and login alerting)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/" rel="noopener noreferrer">Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html" rel="noopener noreferrer">GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/" rel="noopener noreferrer">AssuranceAmerica data breach exposes records of 6.9 million drivers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html" rel="noopener noreferrer">Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
