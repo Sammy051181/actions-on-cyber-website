@@ -3520,9 +3520,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-09T11:31:36.844622+01:00",
       "brief_slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b"
+    },
+    "e2986714170efa3c": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-09T16:32:43.547872+01:00",
+      "brief_slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-"
+    },
+    "1c061cbc0f4453a3": {
+      "url": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T16:32:43.547872+01:00",
+      "brief_slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-"
+    },
+    "d49881cebcbe44a1": {
+      "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+      "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T16:32:43.547872+01:00",
+      "brief_slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-"
+    },
+    "6ebd28e1db31fee1": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-09T16:32:43.547872+01:00",
+      "brief_slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-",
+      "headline": "Today’s SME cyber lookout: Microsoft 365 phishing, fake installers, and ransomware disruption risk",
+      "risk_level": "High",
+      "todays_lookout": "Credential phishing + fake software downloads leading to account takeover and business disruption",
+      "published_at": "2026-07-09T16:32:43.547872+01:00",
+      "published_label": "Thursday 09 July 2026, 16:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+        "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+        "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/"
+      ]
+    },
     {
       "slug": "2026-07-09-1131-today-s-sme-cyber-lookout-fake-payment-sdks-ai-coding-assistant-repo-traps-and-b",
       "headline": "Today’s SME cyber lookout: fake payment SDKs, AI coding assistant repo traps, and breach-driven scams",
