@@ -3548,9 +3548,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-09T16:32:43.547872+01:00",
       "brief_slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-"
+    },
+    "d7c8b88ca3e8f6cd": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "470b8adce73308c0": {
+      "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "7bc0e8327020ee0f": {
+      "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "84ad29f7ff7b2c12": {
+      "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "3796c9bde53d8b21": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+      "title": "Schneider Electric PowerChute Serial Shutdown",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "4d87a877be5683d2": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
+      "title": "Schneider Electric Easergy MiCOM Px40 Series",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-09T19:07:49.955116+01:00",
+      "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain",
+      "headline": "Today’s SMB cyber lookout: SharePoint vishing + MFA abuse, and software supply‑chain traps",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365/SharePoint account takeover via vishing and MFA tricks; supply‑chain and developer tool risk",
+      "published_at": "2026-07-09T19:07:49.955116+01:00",
+      "published_label": "Thursday 09 July 2026, 19:07 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+        "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+        "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+        "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03"
+      ]
+    },
     {
       "slug": "2026-07-09-1632-today-s-sme-cyber-lookout-microsoft-365-phishing-fake-installers-and-ransomware-",
       "headline": "Today’s SME cyber lookout: Microsoft 365 phishing, fake installers, and ransomware disruption risk",
