@@ -3590,9 +3590,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-09T19:07:49.955116+01:00",
       "brief_slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain"
+    },
+    "b775c45641d3bef0": {
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-10T11:29:40.974798+01:00",
+      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
+    },
+    "eb95a634a0340b77": {
+      "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T11:29:40.974798+01:00",
+      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
+    },
+    "8ff145c88e58f3bb": {
+      "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-10T11:29:40.974798+01:00",
+      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
+    },
+    "107733d883d24ed3": {
+      "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T11:29:40.974798+01:00",
+      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r",
+      "headline": "SMB Cyber Intelligence Brief — Fraud lures, destructive malware, and supplier-code risk",
+      "risk_level": "High",
+      "todays_lookout": "Fraud and impersonation lures + destructive malware + supplier/SaaS code supply-chain risk",
+      "published_at": "2026-07-10T11:29:40.974798+01:00",
+      "published_label": "Friday 10 July 2026, 11:29 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+        "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+        "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+        "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html"
+      ]
+    },
     {
       "slug": "2026-07-09-1907-today-s-smb-cyber-lookout-sharepoint-vishing-mfa-abuse-and-software-supply-chain",
       "headline": "Today’s SMB cyber lookout: SharePoint vishing + MFA abuse, and software supply‑chain traps",
