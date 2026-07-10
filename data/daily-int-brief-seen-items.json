@@ -3625,9 +3625,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-10T15:50:46.499129+01:00",
       "brief_slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls"
+    },
+    "eec67c8de33d1e31": {
+      "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T19:00:56.009056+01:00",
+      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
+    },
+    "3d14a355740b65bb": {
+      "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T19:00:56.009056+01:00",
+      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
+    },
+    "2c2f445afa8d5ffb": {
+      "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T19:00:56.009056+01:00",
+      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre",
+      "headline": "Today’s SME cyber lookout: fake installers, WordPress site backdoors, and risky free VPN apps",
+      "risk_level": "High",
+      "todays_lookout": "Malware via counterfeit downloads + website compromise + unsafe consumer VPN apps",
+      "published_at": "2026-07-10T19:00:56.009056+01:00",
+      "published_label": "Friday 10 July 2026, 19:00 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+        "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+        "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html"
+      ]
+    },
     {
       "slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls",
       "headline": "Today’s SMB cyber lookout: fake Microsoft 365 “passkey enrolment” calls",
