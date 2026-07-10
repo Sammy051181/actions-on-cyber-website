@@ -3618,9 +3618,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-10T11:29:40.974798+01:00",
       "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
+    },
+    "44e86bfce82aee3f": {
+      "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-10T15:50:46.499129+01:00",
+      "brief_slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls",
+      "headline": "Today’s SMB cyber lookout: fake Microsoft 365 “passkey enrolment” calls",
+      "risk_level": "High",
+      "todays_lookout": "Identity phishing via fake security calls and passkey enrolment",
+      "published_at": "2026-07-10T15:50:46.499129+01:00",
+      "published_label": "Friday 10 July 2026, 15:50 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
+      ]
+    },
     {
       "slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r",
       "headline": "SMB Cyber Intelligence Brief — Fraud lures, destructive malware, and supplier-code risk",
