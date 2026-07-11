@@ -3667,9 +3667,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-11T09:58:57.719826+01:00",
       "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
+    },
+    "903b418d1fc24610": {
+      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-11T14:53:03.893747+01:00",
+      "brief_slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai"
+    },
+    "6a1f2bb00b6f21a5": {
+      "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-11T14:53:03.893747+01:00",
+      "brief_slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai",
+      "headline": "SMB Cyber Intelligence Brief: urgent supplier risk (ShareFile) + software supply-chain tampering",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and SaaS/service disruption, plus poisoned software updates/packages",
+      "published_at": "2026-07-11T14:53:03.893747+01:00",
+      "published_label": "Saturday 11 July 2026, 14:53 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+        "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
+      ]
+    },
     {
       "slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted",
       "headline": "Weekend lookout: urgent action for ShareFile on‑prem connectors and risky crafted emails targeting webmail",
