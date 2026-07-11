@@ -3646,9 +3646,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-10T19:00:56.009056+01:00",
       "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
+    },
+    "3365af60dbb394cc": {
+      "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+      "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-11T09:58:57.719826+01:00",
+      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
+    },
+    "2764346b77ff5d26": {
+      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-11T09:58:57.719826+01:00",
+      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
+    },
+    "0ade65d4f76df878": {
+      "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-11T09:58:57.719826+01:00",
+      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted",
+      "headline": "Weekend lookout: urgent action for ShareFile on‑prem connectors and risky crafted emails targeting webmail",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS dependency risk and email-led compromise",
+      "published_at": "2026-07-11T09:58:57.719826+01:00",
+      "published_label": "Saturday 11 July 2026, 09:58 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+        "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+        "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
+      ]
+    },
     {
       "slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre",
       "headline": "Today’s SME cyber lookout: fake installers, WordPress site backdoors, and risky free VPN apps",
