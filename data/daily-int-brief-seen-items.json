@@ -3681,9 +3681,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-11T14:53:03.893747+01:00",
       "brief_slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai"
+    },
+    "23c14337daef23d0": {
+      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-11T18:15:05.929858+01:00",
+      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
+    },
+    "d5e2d6179868c4da": {
+      "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+      "title": "Police suspects Dutch hackers were involved in Odido breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-11T18:15:05.929858+01:00",
+      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
+    },
+    "3876d90cd5c8f02c": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "title": "New U-Boot flaws could enable stealthy firmware attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-11T18:15:05.929858+01:00",
+      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
+    },
+    "fd4596900851b0c2": {
+      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-11T18:15:05.929858+01:00",
+      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets",
+      "headline": "Weekend lookout: telecom-breach scams and AI code tools leaking secrets",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams + AI tooling secrets exposure",
+      "published_at": "2026-07-11T18:15:05.929858+01:00",
+      "published_label": "Saturday 11 July 2026, 18:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+        "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+        "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+        "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html"
+      ]
+    },
     {
       "slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai",
       "headline": "SMB Cyber Intelligence Brief: urgent supplier risk (ShareFile) + software supply-chain tampering",
