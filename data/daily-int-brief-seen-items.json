@@ -3709,9 +3709,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-11T18:15:05.929858+01:00",
       "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
+    },
+    "440f70b0e78588e2": {
+      "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-12T10:15:19.286326+01:00",
+      "brief_slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti"
+    },
+    "1c37f0a5062bb5c5": {
+      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-12T10:15:19.286326+01:00",
+      "brief_slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti",
+      "headline": "SMB Cyber Brief (Sun 12 Jul 2026): Supply-chain malware via npm + renewed CMS targeting",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/supply-chain risk and website (CMS) compromise leading to credential theft and disruption",
+      "published_at": "2026-07-12T10:15:19.286326+01:00",
+      "published_label": "Sunday 12 July 2026, 10:15 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+        "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/"
+      ]
+    },
     {
       "slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets",
       "headline": "Weekend lookout: telecom-breach scams and AI code tools leaking secrets",
