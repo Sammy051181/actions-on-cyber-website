@@ -3744,9 +3744,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-12T14:55:13.440888+01:00",
       "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
+    },
+    "7c20169ea7d15f0e": {
+      "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+      "title": "RedHook Android malware now uses Wireless ADB for shell access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-12T18:16:21.522716+01:00",
+      "brief_slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb",
+      "headline": "Today’s SMB cyber look-out: Android malware using Wireless Debugging (Wireless ADB)",
+      "risk_level": "Moderate",
+      "todays_lookout": "Mobile device compromise and account takeover risk",
+      "published_at": "2026-07-12T18:16:21.522716+01:00",
+      "published_label": "Sunday 12 July 2026, 18:16 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/"
+      ]
+    },
     {
       "slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and",
       "headline": "SMB Cyber Brief: Self‑hosted developer tools targeted, plus ransomware lessons and AI identity sprawl",
