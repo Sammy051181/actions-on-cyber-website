@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: Self‑hosted developer tools targeted, plus ransomware lessons and AI identity sprawl | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: Self‑hosted developer tools targeted, plus ransomware lessons and AI identity sprawl</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 12 July 2026, 14:55 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS-style risk in self-hosted tools + ransomware disruption readiness
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Active attacks on self-hosted Git platforms</strong> – reports of hackers exploiting an authentication bypass affecting the official Docker image for Gitea (a self-hosted Git service), potentially letting an attacker impersonate any user including admins.</li>
+  <li><strong>Ransomware remains a real business disruptor</strong> – a Ryuk ransomware member has pleaded guilty, a reminder that “old” ransomware playbooks still work on organisations that are under-prepared.</li>
+  <li><strong>AI tools creating extra logins and service accounts</strong> – growing use of AI agents can quietly multiply “non-human” identities and access, expanding what an attacker can abuse if they get in.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs and charities increasingly run key services via a mix of cloud and self-hosted tools (often managed by an MSP). If a developer/admin platform like a Git service is compromised, attackers can tamper with code, steal secrets, create new accounts, or pivot into other systems. Separately, ransomware operators still focus on business interruption and fast monetisation—often starting with stolen credentials and weak identity controls.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected new admin users, API tokens, SSH keys, or access keys created in your dev/admin tooling.</li>
+  <li>Unfamiliar logins (odd times, unusual locations) to systems that host code, scripts, automation, or configuration.</li>
+  <li>Build/deployment changes you can’t explain (pipelines running when nobody triggered them, or releases outside your usual window).</li>
+  <li>Sudden permission changes for service accounts, “bot” users, or automation identities.</li>
+  <li>Ransomware early indicators: unusual file renaming/encryption errors, disabled security tools, or lots of failed logins followed by a successful one.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Impersonate an admin</strong> in a self-hosted Git service to access private repositories and settings.</li>
+  <li><strong>Steal secrets</strong> stored in code repos (API keys, passwords in configuration files, deployment tokens) and reuse them to access cloud services, backups, or finance-related systems.</li>
+  <li><strong>Modify code or scripts</strong> to insert hidden backdoors, change payment details in templates, or weaken security checks.</li>
+  <li><strong>Pivot to ransomware</strong> by using harvested credentials and privileged access from developer/admin environments.</li>
+  <li><strong>Abuse non-human identities</strong> (service accounts/AI agents) because they’re often poorly inventoried, over-permissioned, and rarely monitored.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Find out if you run Gitea (especially via Docker)</strong>—many SMEs won’t realise it’s part of their supplier/MSP toolchain. If you do run it, treat it as internet-facing, high-risk infrastructure.</li>
+  <li><strong>Review who has admin access</strong> to code repositories, CI/CD, and automation tools; remove unused accounts and require MFA where possible.</li>
+  <li><strong>Rotate high-impact secrets</strong> (deployment tokens, API keys) if you suspect exposure, and store secrets in a proper vault rather than in repositories.</li>
+  <li><strong>Check logging and alerts</strong> for new users/tokens, permission changes, and unusual sign-ins—ensure someone is actually looking at alerts.</li>
+  <li><strong>Ransomware readiness check</strong>: confirm you have at least one offline/immutable backup and that you can restore key systems (don’t assume).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we host or use <strong>Gitea</strong> anywhere (including for internal development, documentation, or MSP tooling)? If yes, is it exposed to the internet?</li>
+  <li>What monitoring do we have for <strong>new admin creation</strong>, <strong>token generation</strong>, and <strong>permission changes</strong> in developer/admin platforms?</li>
+  <li>Where are our <strong>service accounts / automation identities / AI agents</strong> listed, who owns them, and how often are their permissions reviewed?</li>
+  <li>When did we last <strong>test restores</strong> for the systems that matter (files, email/M365/Google, line-of-business apps)? What were the results?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use Gitea via the official Docker image, treat this as urgent operational hygiene: confirm whether you’re affected and ensure your provider is tracking the vendor’s fix path and deploying updates promptly. Focus on exposure (internet-facing), admin audit, and token/secret review—not just “apply updates and hope”.</p>
+
+        <h2>One action today</h2>
+        <p>Today, ask your IT/MSP to confirm whether you run Gitea (especially via Docker) and to immediately review for unexpected admin accounts/tokens and rotate any exposed secrets.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber ‘Ransomware readiness mini-checklist (backups, MFA, restore test)’</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/" rel="noopener noreferrer">Hackers exploit critical auth bypass in Gitea Docker image</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/" rel="noopener noreferrer">Ryuk ransomware member pleads guilty in the US, faces 15 years in prison</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/" rel="noopener noreferrer">The Replicant in Your Directory: AI Agents and the Identity Security Gap</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

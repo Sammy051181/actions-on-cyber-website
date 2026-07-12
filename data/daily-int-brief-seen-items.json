@@ -3723,9 +3723,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-12T10:15:19.286326+01:00",
       "brief_slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti"
+    },
+    "36fa517ccdb8cb92": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-12T14:55:13.440888+01:00",
+      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
+    },
+    "c1cde371766464bd": {
+      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-12T14:55:13.440888+01:00",
+      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
+    },
+    "f0d2bd0b4396707d": {
+      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-12T14:55:13.440888+01:00",
+      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and",
+      "headline": "SMB Cyber Brief: Self‑hosted developer tools targeted, plus ransomware lessons and AI identity sprawl",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS-style risk in self-hosted tools + ransomware disruption readiness",
+      "published_at": "2026-07-12T14:55:13.440888+01:00",
+      "published_label": "Sunday 12 July 2026, 14:55 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+        "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+        "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/"
+      ]
+    },
     {
       "slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti",
       "headline": "SMB Cyber Brief (Sun 12 Jul 2026): Supply-chain malware via npm + renewed CMS targeting",
