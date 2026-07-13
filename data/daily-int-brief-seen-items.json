@@ -3751,9 +3751,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-12T18:16:21.522716+01:00",
       "brief_slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb"
+    },
+    "b23bf6e48280a3fd": {
+      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-13T11:35:05.638516+01:00",
+      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
+    },
+    "75714a411122eeeb": {
+      "url": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
+      "title": "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-07-13T11:35:05.638516+01:00",
+      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
+    },
+    "8689ebe44392673e": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+      "title": "US and allies warn of Russian critical infrastructure attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-13T11:35:05.638516+01:00",
+      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
+    },
+    "c1d2b64b551f5c7e": {
+      "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+      "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-13T11:35:05.638516+01:00",
+      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 phishing + poorly configured routers",
+      "risk_level": "High",
+      "todays_lookout": "Email account takeover and network entry via weak router configuration",
+      "published_at": "2026-07-13T11:35:05.638516+01:00",
+      "published_label": "Monday 13 July 2026, 11:35 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+        "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
+        "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+        "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
+      ]
+    },
     {
       "slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb",
       "headline": "Today’s SMB cyber look-out: Android malware using Wireless Debugging (Wireless ADB)",
