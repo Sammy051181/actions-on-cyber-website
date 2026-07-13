@@ -3779,9 +3779,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-13T11:35:05.638516+01:00",
       "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
+    },
+    "cc098c939906a0d2": {
+      "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-13T16:10:22.200025+01:00",
+      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
+    },
+    "c0a988e61f326c5d": {
+      "url": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-13T16:10:22.200025+01:00",
+      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
+    },
+    "9d70fa79923da413": {
+      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "title": "Lidl discloses online shop breach after service provider hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-13T16:10:22.200025+01:00",
+      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 “device code” phishing, spoofed calls, and supplier-breach fallout",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover via Microsoft 365 phishing + phone-led impersonation scams + supplier breach follow-on emails",
+      "published_at": "2026-07-13T16:10:22.200025+01:00",
+      "published_label": "Monday 13 July 2026, 16:10 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+        "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+        "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/"
+      ]
+    },
     {
       "slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 phishing + poorly configured routers",
