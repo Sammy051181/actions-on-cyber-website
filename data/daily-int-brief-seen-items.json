@@ -3821,9 +3821,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-13T19:05:49.874951+01:00",
       "brief_slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac"
+    },
+    "cfe644fb99fa7be6": {
+      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-14T10:16:53.390984+01:00",
+      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
+    },
+    "54014ce85fb246d4": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-14T10:16:53.390984+01:00",
+      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
+    },
+    "a133d597433224c7": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-14T10:16:53.390984+01:00",
+      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
+    },
+    "aea6069174fd1a4c": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
+      "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-14T10:16:53.390984+01:00",
+      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and",
+      "headline": "Today’s SME cyber look‑out: SaaS account takeovers, poisoned software packages, and “Apple tool” stealers",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS trust abuse (OAuth/app connections), plus infostealers and router hygiene",
+      "published_at": "2026-07-14T10:16:53.390984+01:00",
+      "published_label": "Tuesday 14 July 2026, 10:16 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+        "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a"
+      ]
+    },
     {
       "slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac",
       "headline": "SMB Cyber Intelligence Brief: leaked credentials, risky browser extensions, and macOS stealing malware",

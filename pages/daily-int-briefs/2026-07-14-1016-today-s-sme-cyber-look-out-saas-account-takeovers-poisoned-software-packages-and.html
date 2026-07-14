@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look‑out: SaaS account takeovers, poisoned software packages, and “Apple tool” stealers | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look‑out: SaaS account takeovers, poisoned software packages, and “Apple tool” stealers</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 14 July 2026, 10:16 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS trust abuse (OAuth/app connections), plus infostealers and router hygiene
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s key theme is <strong>attackers getting in via trust you’ve already set up</strong> — especially SaaS integrations (OAuth app connections), “helpful” software packages, and believable malware disguises.</p>
+<ul>
+  <li><strong>Salesforce access via connected apps/OAuth:</strong> attackers can walk into environments by abusing existing app connections and third-party vendor trust (not by “hacking Salesforce” itself).</li>
+  <li><strong>Software supply chain risk (npm):</strong> a legitimate vendor reported its npm package was published in a malicious version and downloaded by users.</li>
+  <li><strong>Mac infostealer disguised as an Apple crash reporting tool:</strong> credential and keychain theft risk for Mac-using teams (common in charities, schools, creative and professional services).</li>
+  <li><strong>Router hygiene warning:</strong> poorly configured/vulnerable network devices continue to be targeted opportunistically at scale.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on <strong>cloud services, MSPs, and “just make it work” integrations</strong> between tools (CRM, marketing, support desk, finance, e-sign, data backup). That convenience can become the attack path. If an attacker steals a cloud token, compromises a connected app, or lifts credentials from a workstation, they may access customer data, trigger payment diversion, or set up data extortion with minimal noise.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected changes to connected apps</strong> in Salesforce (new integrations, new OAuth authorisations, or unusual “connected app” consent prompts).</li>
+  <li><strong>Unusual login prompts</strong> for cloud tools (repeat MFA prompts, “verify your account” loops, or sign-ins from new locations/devices).</li>
+  <li><strong>Staff reporting odd Mac pop-ups</strong> that look like Apple system tools (e.g., “crash reporting” style prompts) asking for access, credentials, or permissions.</li>
+  <li><strong>New/unfamiliar dependencies appearing in web projects</strong> or build pipelines, especially if rushed in to “fix” something quickly.</li>
+  <li><strong>Network instability or router/admin portal exposure</strong> (remote management enabled, unknown admin accounts, unexpected DNS settings).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>OAuth trust abuse:</strong> they trick a user/admin into approving a connected app, or they leverage an already-approved integration to access data and move laterally between tools.</li>
+  <li><strong>Infostealer-driven takeover:</strong> malware on a Mac/PC steals saved passwords, browser sessions, and tokens, then logs into email/CRM/finance systems without needing to brute force.</li>
+  <li><strong>Supply chain insertion:</strong> developers (internal or outsourced) unknowingly install a poisoned package; credentials and environment secrets can be exposed.</li>
+  <li><strong>Edge device compromise:</strong> poorly secured routers can be hijacked to observe traffic, redirect users, or provide a foothold into internal systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Review your Salesforce “Connected Apps” / integrations list</strong> and remove anything not recognised or no longer needed. Confirm who approved each integration and when.</li>
+  <li><strong>Turn on strong sign-in controls</strong> for key SaaS tools (MFA enforced, admin MFA, conditional access where available) and reduce the number of admins.</li>
+  <li><strong>Send a quick staff note</strong>: do not approve unexpected app access prompts; report repeated MFA prompts; don’t enter passwords into pop-ups claiming to be system tools.</li>
+  <li><strong>For web/dev work (including outsourced):</strong> ask maintainers to verify recent dependency updates and ensure package sources are reviewed before installation.</li>
+  <li><strong>Check router basics</strong>: remote admin off unless required, unique admin password, firmware kept current, and confirm DNS settings are expected.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you <strong>produce a list of our Salesforce integrations/connected apps</strong>, who authorised them, and when they were last used?</li>
+  <li>Do we have <strong>alerting for suspicious SaaS sign-ins</strong> (impossible travel, new device, mass downloads, repeated MFA prompts)? Who monitors it and how quickly?</li>
+  <li>What’s our <strong>process for approving new SaaS integrations</strong> (risk review, least privilege scopes, expiry, ownership, offboarding)?</li>
+  <li>Do our endpoints (including Macs) have <strong>anti-malware/EDR coverage</strong> and do we block common credential-stealing behaviours?</li>
+  <li>When was the last time you <strong>reviewed our router/firewall configuration</strong> (remote management, admin accounts, DNS, logging)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patches are the main story today. The practical takeaway is to keep <strong>routers and edge devices</strong> on supported firmware and avoid “set-and-forget” configurations, because opportunistic targeting of poorly configured devices continues.</p>
+
+        <h2>One action today</h2>
+        <p>Review and prune your Salesforce connected apps/OAuth integrations today, and confirm every remaining integration has an owner and least-privilege access.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “SaaS Integrations &amp; OAuth Access Review” checklist (owner, purpose, scopes, last used, offboarding).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html" rel="noopener noreferrer">Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/" rel="noopener noreferrer">Hackers backdoor Jscrambler npm package with infostealer malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/" rel="noopener noreferrer">New CrashStealer malware poses as Apple crash reporting tool</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a" rel="noopener noreferrer">Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
