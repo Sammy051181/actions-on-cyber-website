@@ -3849,9 +3849,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-14T10:16:53.390984+01:00",
       "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
+    },
+    "4a1fc432d4cdfa8e": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-14T15:12:22.608288+01:00",
+      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
+    },
+    "5019a8434d0696a5": {
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-14T15:12:22.608288+01:00",
+      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
+    },
+    "f80d3c7e9d5aff7f": {
+      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-14T15:12:22.608288+01:00",
+      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt",
+      "headline": "Today’s SMB lookout: Microsoft 365 login phishing that can bypass MFA (plus stealthy Entra credential checks)",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 / Entra ID account takeover via phishing and stealthy credential validation",
+      "published_at": "2026-07-14T15:12:22.608288+01:00",
+      "published_label": "Tuesday 14 July 2026, 15:12 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+        "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+        "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/"
+      ]
+    },
     {
       "slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and",
       "headline": "Today’s SME cyber look‑out: SaaS account takeovers, poisoned software packages, and “Apple tool” stealers",

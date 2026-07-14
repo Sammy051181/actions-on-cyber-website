@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB lookout: Microsoft 365 login phishing that can bypass MFA (plus stealthy Entra credential checks) | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB lookout: Microsoft 365 login phishing that can bypass MFA (plus stealthy Entra credential checks)</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 14 July 2026, 15:12 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Microsoft 365 / Entra ID account takeover via phishing and stealthy credential validation
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be on heightened alert for phishing aimed at <strong>Microsoft 365</strong> users (Outlook/Teams/SharePoint/OneDrive logins) that can <strong>defeat multi-factor authentication (MFA)</strong>, plus newer cloud techniques that can <strong>quietly validate stolen credentials</strong> in <strong>Microsoft Entra ID</strong> without obvious “successful sign-in” signals.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Microsoft 365 is the front door</strong> for many SMEs. If one mailbox or Teams account is taken over, attackers often use it to phish your customers and suppliers from a trusted address.</li>
+  <li><strong>Finance and payroll fraud risk</strong> increases quickly once an attacker can read emails, monitor invoices, or set up forwarding rules.</li>
+  <li><strong>MFA is not a silver bullet</strong> if staff can be tricked into approving prompts or handing over session access via realistic login pages.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report being asked to <strong>re-authenticate</strong> to view a file, voicemail, Teams message, or “secure document”, especially if the link goes to an unexpected domain.</li>
+  <li><strong>MFA prompts the user didn’t initiate</strong> (or repeated prompts), followed by account lockouts.</li>
+  <li>Unusual email behaviour: <strong>new inbox rules</strong>, auto-forwarding, “deleted items” filling up, or sent messages the user didn’t send.</li>
+  <li>Supplier/customer reports of <strong>odd replies</strong> from your staff asking to “confirm payment details” or “re-send an invoice”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Convincing Microsoft 365 phishing pages</strong> designed to capture credentials and bypass MFA protections.</li>
+  <li><strong>Account reconnaissance and credential checking</strong> in Entra ID environments in ways that may not look like a normal login success, making it easier to test stolen username/password pairs without triggering the usual alarms.</li>
+  <li>Once inside: set <strong>mailbox forwarding</strong>, create <strong>inbox rules</strong> to hide replies, then attempt <strong>invoice redirection</strong> or payroll diversion.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff warning</strong>: don’t log in via links in emails/texts; go via bookmarks or the official Microsoft portal/app.</li>
+  <li>Ask your admin/IT to <strong>check for risky mailbox rules and auto-forwarding</strong> across M365, prioritising finance, senior leadership, and shared mailboxes.</li>
+  <li>Make sure staff know what to do if they get unexpected MFA prompts: <strong>deny</strong>, then <strong>report immediately</strong>.</li>
+  <li>For payment changes: enforce a <strong>call-back verification</strong> (using a known number, not one in the email) before changing bank details.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>How are we <strong>detecting and alerting</strong> on suspicious Entra/M365 activity beyond “successful sign-ins” (e.g., unusual patterns, risky users, suspicious app activity)?</li>
+  <li>Do we have a standard process to <strong>audit and remove malicious inbox rules/forwarding</strong> quickly after a suspected compromise?</li>
+  <li>Which users are protected with <strong>stronger phishing-resistant sign-in</strong> options (and is there a plan to expand that coverage)?</li>
+  <li>If a mailbox is compromised, what’s our <strong>first-hour playbook</strong> (reset, revoke sessions, rule cleanup, customer/supplier comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Separate to the phishing risk, SAP has issued security updates across multiple products this month. If you run SAP in-house or via a partner, confirm who is responsible for maintenance and how quickly critical vendor updates are assessed and applied.</p>
+
+        <h2>One action today</h2>
+        <p>Email staff today: “Don’t sign in to Microsoft 365 from email links—use your bookmark/app; deny unexpected MFA prompts and report them immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber CTA: “Invoice &amp; bank detail change verification checklist (call-back process)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/" rel="noopener noreferrer">New phishing kits target Microsoft 365 accounts, evade MFA</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html" rel="noopener noreferrer">OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/" rel="noopener noreferrer">SAP warns of critical flaws in NetWeaver and Commerce Cloud</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
