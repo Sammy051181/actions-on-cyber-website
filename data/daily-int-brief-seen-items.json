@@ -3954,9 +3954,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-15T15:08:27.196928+01:00",
       "brief_slug": "2026-07-15-1508-smb-cyber-intelligence-brief-sharepoint-attacks-software-supply-chain-malware-an"
+    },
+    "2765d5a278792502": {
+      "url": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+      "title": "​ ​AsyncAPI npm packages infected with credential-stealing malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-15T18:38:03.849994+01:00",
+      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
+    },
+    "bb49257ac2827077": {
+      "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-15T18:38:03.849994+01:00",
+      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
+    },
+    "e9ca52746d186dd5": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/",
+      "title": "The Risk of Exposed Cloud Functions and How to Harden",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-07-15T18:38:03.849994+01:00",
+      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
+    },
+    "2ec1086be1ac1ce1": {
+      "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-15T18:38:03.849994+01:00",
+      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo",
+      "headline": "Today’s SMB cyber lookout: software supply-chain risks, fake “trusted” apps, and exposed cloud functions",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and software supply-chain risk (npm), plus malware masquerading as trusted apps and risky cloud misconfigurations",
+      "published_at": "2026-07-15T18:38:03.849994+01:00",
+      "published_label": "Wednesday 15 July 2026, 18:38 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+        "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/",
+        "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
+      ]
+    },
     {
       "slug": "2026-07-15-1508-smb-cyber-intelligence-brief-sharepoint-attacks-software-supply-chain-malware-an",
       "headline": "SMB Cyber Intelligence Brief — SharePoint attacks, software supply‑chain malware, and Windows/Dell disruption watch",

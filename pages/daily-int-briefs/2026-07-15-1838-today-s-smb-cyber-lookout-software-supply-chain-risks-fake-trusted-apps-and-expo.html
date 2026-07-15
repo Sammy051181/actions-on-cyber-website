@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: software supply-chain risks, fake “trusted” apps, and exposed cloud functions | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: software supply-chain risks, fake “trusted” apps, and exposed cloud functions</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 15 July 2026, 18:38 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier and software supply-chain risk (npm), plus malware masquerading as trusted apps and risky cloud misconfigurations
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain alert:</strong> malicious versions of popular <strong>AsyncAPI npm packages</strong> were published and reported to include credential-stealing and remote access capabilities.</li>
+  <li><strong>Windows malware posing as trusted software:</strong> a remote access trojan reported to <strong>masquerade as NVIDIA software</strong> to blend in on Windows hosts.</li>
+  <li><strong>Cloud/serverless exposure risk:</strong> public cloud functions (serverless apps) are still being found <strong>exposed without authentication</strong>, creating an easy foothold into wider cloud environments.</li>
+  <li><strong>Crypto/treasury teams:</strong> Windows malware modules can <strong>inject seed-phrase phishing</strong> inside legitimate wallet desktop apps (Ledger/Trezor) on infected PCs.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on third parties, SaaS, and off-the-shelf components (including developer packages) to move quickly. That speed can become a weakness when a trusted dependency, desktop tool, or cloud function is tampered with or misconfigured. The impact is usually practical: <strong>account takeover</strong>, <strong>email and payroll fraud</strong>, <strong>data theft</strong>, and <strong>service disruption</strong>—often before anyone realises a “trusted” tool was the entry point.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>New or unexpected <strong>MFA prompts</strong>, password reset emails, or sign-in alerts for Microsoft 365/Google/QuickBooks/Xero/CRM.</li>
+  <li>Developers reporting odd behaviour after routine updates (build pipelines failing, unexpected outbound connections, new environment variables requested).</li>
+  <li>Security tools or EDR flagging “new” software that looks like a known brand (e.g., graphics/driver utilities) but was not deployed via your normal process.</li>
+  <li>Cloud logs showing unexpected invocation spikes, unknown caller IPs, or functions being triggered without a known user journey.</li>
+  <li>For anyone handling crypto assets: any in-app prompt asking for a <strong>recovery/seed phrase</strong> (treat as suspicious even if it appears inside the wallet app).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain route:</strong> attackers seed malicious updates into a dependency (e.g., npm). If your devs or suppliers pull it in, it can steal credentials or open remote access—then attackers pivot into email, cloud, and finance systems.</li>
+  <li><strong>Masquerading route:</strong> malware looks like a legitimate utility to reduce suspicion, establishing a foothold for hands-on intrusion and data theft.</li>
+  <li><strong>Cloud misconfiguration route:</strong> exposed cloud functions without strong auth become a simple entry point. Once inside, attackers may access data stores, secrets, and other cloud resources.</li>
+  <li><strong>Credential capture:</strong> once passwords/tokens are stolen, attackers attempt <strong>invoice redirection</strong>, payroll changes, supplier bank detail swaps, and mailbox rule abuse.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff one clear rule:</strong> do not enter passwords, MFA codes, or recovery phrases into prompts that appear unexpectedly—report to IT immediately.</li>
+  <li><strong>Developer/IT quick check:</strong> review recent dependency changes and build pipeline updates; be cautious with “quick” package upgrades until verified.</li>
+  <li><strong>Cloud hygiene check:</strong> confirm internet-exposed cloud functions are intentional and require authentication; remove public access where it’s not strictly needed.</li>
+  <li><strong>Identity protection:</strong> ensure MFA is enforced for email and finance apps, and confirm alerting is enabled for new device sign-ins and mailbox rule changes.</li>
+  <li><strong>Finance control:</strong> re-brief invoice/payment change procedures (call-back using known numbers, not email replies).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a process to <strong>detect and respond</strong> if a supplier or dependency (e.g., npm package) is compromised?</li>
+  <li>Can you confirm we have <strong>EDR/endpoint monitoring</strong> on Windows PCs and alerts for suspicious “trusted brand” installers?</li>
+  <li>Which of our cloud functions/serverless apps are <strong>publicly accessible</strong>, and what authentication is enforced?</li>
+  <li>What alerts do we have for <strong>account takeover</strong> (impossible travel, new devices, mass mailbox rule creation, suspicious OAuth/app consents)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s main takeaway is not a specific patch, but <strong>dependency and configuration control</strong>: tighten how software dependencies are approved/updated, and verify cloud functions are not left publicly exposed without authentication.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “Never type passwords/MFA codes or wallet recovery phrases into unexpected prompts—even inside an app—report it to IT,” and remind finance teams to verify any payment detail change by call-back.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; software supply-chain risk mini-checklist (what to ask your IT provider and what controls to expect)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/" rel="noopener noreferrer">​ ​AsyncAPI npm packages infected with credential-stealing malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html" rel="noopener noreferrer">LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/" rel="noopener noreferrer">The Risk of Exposed Cloud Functions and How to Harden</a> <span class="muted">(Google Threat Intelligence)</span></li><li><a href="https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html" rel="noopener noreferrer">OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
