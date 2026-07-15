@@ -3898,9 +3898,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-14T18:33:59.460967+01:00",
       "brief_slug": "2026-07-14-1833-smb-cyber-brief-tue-14-july-2026-password-manager-security-alert-phish-entra-id-"
+    },
+    "14ed99351aac898c": {
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-15T10:20:58.784144+01:00",
+      "brief_slug": "2026-07-15-1020-today-s-smb-cyber-lookout-bec-payment-scams-fake-github-tools-and-sharepoint-exp"
+    },
+    "697085a54575f512": {
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+      "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-15T10:20:58.784144+01:00",
+      "brief_slug": "2026-07-15-1020-today-s-smb-cyber-lookout-bec-payment-scams-fake-github-tools-and-sharepoint-exp"
+    },
+    "3839c413a3a5cc33": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "title": "CISA Urges SharePoint Hardening After New Exploitations",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-15T10:20:58.784144+01:00",
+      "brief_slug": "2026-07-15-1020-today-s-smb-cyber-lookout-bec-payment-scams-fake-github-tools-and-sharepoint-exp"
+    },
+    "ffe69ccc58ad3a91": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+      "title": "US charges alleged operators of Russian bulletproof hosting service",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-15T10:20:58.784144+01:00",
+      "brief_slug": "2026-07-15-1020-today-s-smb-cyber-lookout-bec-payment-scams-fake-github-tools-and-sharepoint-exp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-15-1020-today-s-smb-cyber-lookout-bec-payment-scams-fake-github-tools-and-sharepoint-exp",
+      "headline": "Today’s SMB cyber lookout: BEC payment scams, fake GitHub “tools”, and SharePoint exploitation warnings",
+      "risk_level": "High",
+      "todays_lookout": "Payment redirection (BEC) scams + poisoned software downloads + on‑prem server exploitation risk",
+      "published_at": "2026-07-15T10:20:58.784144+01:00",
+      "published_label": "Wednesday 15 July 2026, 10:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+        "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+        "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+        "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/"
+      ]
+    },
     {
       "slug": "2026-07-14-1833-smb-cyber-brief-tue-14-july-2026-password-manager-security-alert-phish-entra-id-",
       "headline": "SMB Cyber Brief (Tue 14 July 2026): Password manager ‘security alert’ phish + Entra ID passkeys change to prep for",

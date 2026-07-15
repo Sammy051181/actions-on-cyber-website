@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: BEC payment scams, fake GitHub “tools”, and SharePoint exploitation warnings | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: BEC payment scams, fake GitHub “tools”, and SharePoint exploitation warnings</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 15 July 2026, 10:20 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Payment redirection (BEC) scams + poisoned software downloads + on‑prem server exploitation risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Payment diversion and invoice fraud (BEC)</strong> continuing at scale (often via email account compromise and convincing supplier impersonation).</li>
+  <li><strong>Fake GitHub repositories</strong> pretending to be legitimate software/security projects, used to trick people into downloading malware.</li>
+  <li><strong>Active exploitation warnings for on‑prem SharePoint</strong> (relevant if you host SharePoint Server yourself or via a hosted IT provider).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>These themes hit SMEs because they target normal business processes: paying invoices, downloading “helpful” tools/scripts, and relying on key platforms (Microsoft collaboration servers, IT suppliers and MSPs). Even a single compromised mailbox or one “quick download” can lead to fraudulent payments, stolen credentials, or business disruption.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Supplier bank details “changed”</strong> (especially urgent, confidential, or just before a payment run).</li>
+  <li><strong>Emails that move the conversation off-thread</strong> or ask to “reply to a different address”.</li>
+  <li><strong>Unusual requests from directors/partners</strong> for same-day payments, gift cards, or “quiet” settlement of an invoice.</li>
+  <li><strong>Staff downloading utilities from GitHub</strong> that have few genuine followers, recent/odd commit history, or look like clones of popular projects.</li>
+  <li><strong>Unexpected sign-in prompts/MFA fatigue</strong>, new inbox rules, or colleagues reporting “I didn’t send that”.</li>
+  <li><strong>For organisations running on‑prem SharePoint:</strong> unexplained admin activity, new files, abnormal server behaviour, or alerts from your monitoring/EDR around the SharePoint/IIS server.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>BEC and investment fraud:</strong> criminals impersonate suppliers or executives, steer payments to mule accounts, and use money-laundering networks to cash out.</li>
+  <li><strong>Poisoned “software” on GitHub:</strong> attackers publish lookalike repos to trick users into running malware that steals passwords/session tokens, then pivots into email, finance and cloud systems.</li>
+  <li><strong>On‑prem server exploitation:</strong> attackers look for internet-facing business systems and, if they gain a foothold, aim for persistence and follow-on malware deployment (often a precursor to wider compromise or ransomware).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Re-brief finance and admin teams:</strong> any bank detail change must be verified by calling a known number (from your own records, not the email), and ideally require a second approver.</li>
+  <li><strong>Clamp down on “download and run” behaviour:</strong> staff should only use approved tools and approved sources. If a developer/IT admin needs something from GitHub, require a quick peer check before use.</li>
+  <li><strong>Confirm your SharePoint position:</strong> establish whether you have on‑prem SharePoint Server (some organisations assume “it’s Microsoft 365” when it’s not). If it’s on‑prem, ask your provider what extra monitoring and hardening is in place right now.</li>
+  <li><strong>Make sure mailbox protections are working:</strong> MFA enabled, suspicious inbox rules monitored, and high-risk sign-ins reviewed (particularly for finance users).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>on‑prem SharePoint Server</strong> anywhere (including at a hosting provider), and is it internet-facing?</li>
+  <li>What <strong>extra monitoring</strong> is in place this week for SharePoint/IIS and for suspicious admin activity?</li>
+  <li>Do you have controls to <strong>reduce malware from “tool downloads”</strong> (application allow-listing, endpoint protection policy, blocking risky script execution where appropriate)?</li>
+  <li>How do you detect <strong>BEC indicators</strong> (new inbox rules, suspicious forwarding, impossible travel, anomalous OAuth/app consent), especially for finance mailboxes?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has warned about active exploitation affecting on‑prem SharePoint Server. This isn’t a call for everyone to patch today; it’s a prompt to confirm whether you (or your IT provider) run SharePoint on-prem and, if so, ensure heightened monitoring, hardening and rapid remediation are in progress.</p>
+
+        <h2>One action today</h2>
+        <p>Before close of business, have finance confirm (in writing) the “call-back to a known number” process for any supplier bank-detail change and test it with one supplier record.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Invoice and bank-details change verification (anti-BEC) mini-process</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/" rel="noopener noreferrer">Spanish Police take down €140 million cyber fraud ring, arrest four</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/" rel="noopener noreferrer">Nearly 300 GitHub repos pose as legit software to push malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations" rel="noopener noreferrer">CISA Urges SharePoint Hardening After New Exploitations</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/" rel="noopener noreferrer">US charges alleged operators of Russian bulletproof hosting service</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
