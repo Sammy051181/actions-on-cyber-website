@@ -3982,9 +3982,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-15T18:38:03.849994+01:00",
       "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
+    },
+    "1fd0f569c2cb2eab": {
+      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-16T10:26:55.049558+01:00",
+      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
+    },
+    "b748ab90fbca9729": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T10:26:55.049558+01:00",
+      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
+    },
+    "1b354c85bb87723a": {
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+      "title": "Dutch police bust investment fraud ring stealing over €100 million",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T10:26:55.049558+01:00",
+      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
+    },
+    "bcc256bd902ff112": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
+      "title": "ABB Ability Edgenius",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-16T10:26:55.049558+01:00",
+      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud",
+      "headline": "Today’s SMB cyber lookout: AI tool misuse, data leakage, and investment fraud",
+      "risk_level": "Moderate",
+      "todays_lookout": "AI-assisted scams and unapproved AI tools creating data leakage and account risk",
+      "published_at": "2026-07-16T10:26:55.049558+01:00",
+      "published_label": "Thursday 16 July 2026, 10:26 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+        "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+        "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02"
+      ]
+    },
     {
       "slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo",
       "headline": "Today’s SMB cyber lookout: software supply-chain risks, fake “trusted” apps, and exposed cloud functions",
