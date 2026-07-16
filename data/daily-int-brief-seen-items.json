@@ -4010,9 +4010,59 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-16T10:26:55.049558+01:00",
       "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
+    },
+    "0bb78fbc64d1f923": {
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+      "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T15:21:14.773447+01:00",
+      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
+    },
+    "235a6e0478c3e237": {
+      "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-16T15:21:14.773447+01:00",
+      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
+    },
+    "cd161f1ce3949274": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T15:21:14.773447+01:00",
+      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
+    },
+    "9a667808f9a4bf6d": {
+      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-16T15:21:14.773447+01:00",
+      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
+    },
+    "752fbd7ede907e97": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T15:21:14.773447+01:00",
+      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r",
+      "headline": "Today’s SME cyber lookout: fake Zoom/Webex installers, “ClickFix” lures, and faster ransomware",
+      "risk_level": "High",
+      "todays_lookout": "Malware via fake software installs and ‘copy/paste this fix’ scams; rapid ransomware disruption",
+      "published_at": "2026-07-16T15:21:14.773447+01:00",
+      "published_label": "Thursday 16 July 2026, 15:21 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+        "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+        "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+        "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+        "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/"
+      ]
+    },
     {
       "slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud",
       "headline": "Today’s SMB cyber lookout: AI tool misuse, data leakage, and investment fraud",
