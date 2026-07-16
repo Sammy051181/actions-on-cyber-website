@@ -4045,9 +4045,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-16T15:21:14.773447+01:00",
       "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
+    },
+    "513abd6b75600e3a": {
+      "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+      "title": "20+ Hijacked Government Websites Became an Attack Channel",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-16T18:39:39.054985+01:00",
+      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
+    },
+    "d4b510a9d80f07f0": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-16T18:39:39.054985+01:00",
+      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
+    },
+    "ae03488274cf3725": {
+      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-16T18:39:39.054985+01:00",
+      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo",
+      "headline": "Today’s SME cyber lookout: trusted sites used to spread malware, finance-app exploitation, and SaaS login/token risks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS compromise and “trusted site” malware delivery",
+      "published_at": "2026-07-16T18:39:39.054985+01:00",
+      "published_label": "Thursday 16 July 2026, 18:39 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+        "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
+      ]
+    },
     {
       "slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r",
       "headline": "Today’s SME cyber lookout: fake Zoom/Webex installers, “ClickFix” lures, and faster ransomware",
