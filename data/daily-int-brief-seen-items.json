@@ -4066,9 +4066,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-16T18:39:39.054985+01:00",
       "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
+    },
+    "932d8c7a52c25bfd": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+      "title": "US charges two over laundering $43 million from investment fraud",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T10:21:00.388362+01:00",
+      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
+    },
+    "bdabfb821dffe1bc": {
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T10:21:00.388362+01:00",
+      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
+    },
+    "0a06e6307f91bede": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "title": "New ClickLock macOS malware traps users into revealing login password",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T10:21:00.388362+01:00",
+      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
+    },
+    "d70c88aad58913a7": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T10:21:00.388362+01:00",
+      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr",
+      "headline": "Today’s SMB cyber brief: investment fraud, ransomware disruption, macOS password traps, and Fortinet urgency",
+      "risk_level": "High",
+      "todays_lookout": "Fraud and ransomware disruption, plus urgent supplier/edge-device exposure",
+      "published_at": "2026-07-17T10:21:00.388362+01:00",
+      "published_label": "Friday 17 July 2026, 10:21 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+        "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+        "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
+      ]
+    },
     {
       "slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo",
       "headline": "Today’s SME cyber lookout: trusted sites used to spread malware, finance-app exploitation, and SaaS login/token risks",
