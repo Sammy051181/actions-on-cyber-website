@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look-out: “ClickFix” scams that steal Microsoft 365 and browser sessions | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look-out: “ClickFix” scams that steal Microsoft 365 and browser sessions</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 17 July 2026, 15:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Phishing/social-engineering lures that convince staff to paste a command, leading to account takeover and cloud data theft
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be on alert for messages or webpages that claim a “quick fix” is needed and instruct staff to <strong>copy/paste a command</strong> into Windows Run, Command Prompt, PowerShell or Terminal to “verify”, “unlock” or “repair” something. This tactic is being used to install <strong>infostealer malware</strong> that can take saved passwords, <strong>live browser session tokens</strong>, and data from <strong>Microsoft 365</strong> (including synced OneDrive and SharePoint files).</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>Account takeover without a password reset:</strong> stolen session tokens can let criminals access email and cloud services even if the password is later changed.</li>
+<li><strong>Business disruption and fraud risk:</strong> once inside Microsoft 365, attackers can read invoices, change payment details in email threads, and target finance teams and customers.</li>
+<li><strong>Fast data loss:</strong> synced folders (OneDrive/SharePoint) can be quietly copied out, creating a breach with legal, reputational and client impacts.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Any “helpful” instruction that says: <strong>Press Win+R</strong>, paste this, and hit Enter.</li>
+<li>Pop-ups or emails claiming your device is “blocked”, “infected”, “out of date”, or that you must “re-authenticate” urgently.</li>
+<li>Unexpected MFA prompts, sign-in alerts, or mailbox rules you didn’t create (e.g. auto-forwarding, auto-deleting).</li>
+<li>Staff reporting they were told to run a command to “fix” Microsoft 365, Teams, OneDrive sync, or a browser issue.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Social engineering:</strong> attackers pose as IT support, a software vendor, or a ‘verification’ page.</li>
+<li><strong>Copy/paste execution:</strong> the victim runs what looks like a harmless step, but it installs an infostealer.</li>
+<li><strong>Token and credential theft:</strong> the malware takes browser-stored passwords and active sessions.</li>
+<li><strong>Cloud data grab:</strong> attackers pull Microsoft 365 files (including documents in OneDrive/SharePoint) and use email access to expand fraud.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Tell staff a simple rule:</strong> “We never ask you to paste commands from emails or websites to ‘fix’ something.”</li>
+<li><strong>Harden Microsoft 365 quickly:</strong> review sign-in alerts, check for suspicious mailbox rules/forwarding, and confirm MFA is enforced for all users.</li>
+<li><strong>Reduce token impact:</strong> if you suspect someone ran a command, have IT <strong>force sign-out</strong> and revoke sessions, then reset credentials.</li>
+<li><strong>Check synced folders:</strong> watch for unusual access to SharePoint/OneDrive, bulk downloads, or unfamiliar devices.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do we have monitoring for <strong>mass downloads</strong> or unusual access in Microsoft 365 (SharePoint/OneDrive) and alerts for risky sign-ins?</li>
+<li>Can we quickly <strong>revoke user sessions/tokens</strong> and force re-authentication if an infostealer is suspected?</li>
+<li>Are we blocking or warning on common “run this command” behaviours (e.g. suspicious script execution) on endpoints?</li>
+<li>Do we routinely check for <strong>mailbox auto-forwarding rules</strong> and other persistence tricks?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No major SME-wide patch emergency is highlighted in today’s items. Focus today on <strong>staff awareness and identity/session protection</strong>, as this threat relies more on social engineering than a traditional software flaw.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “Do not paste commands from emails/websites into Run/Terminal. If prompted, stop and call IT.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Phishing &amp; business email compromise (BEC) quick-check checklist for staff and finance teams</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html" rel="noopener noreferrer">ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
