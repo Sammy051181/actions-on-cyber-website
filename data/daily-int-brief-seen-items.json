@@ -4101,9 +4101,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-17T15:01:43.762927+01:00",
       "brief_slug": "2026-07-17-1501-today-s-sme-cyber-look-out-clickfix-scams-that-steal-microsoft-365-and-browser-s"
+    },
+    "ac32bb8bdab52dda": {
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+      "title": "Ernst & Young discloses data breach after support system hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T18:30:33.558954+01:00",
+      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
+    },
+    "7dc9878f07222a0c": {
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-17T18:30:33.558954+01:00",
+      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
+    },
+    "88543f91771f26b0": {
+      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-17T18:30:33.558954+01:00",
+      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
+    },
+    "3600e526f20fffe1": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-17T18:30:33.558954+01:00",
+      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
+    },
+    "aa5c26bab24641a7": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
+      "title": "Rockwell Automation FactoryTalk DataMosaix",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-17T18:30:33.558954+01:00",
+      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a",
+      "headline": "Today’s SMB Cyber Brief: supplier support-system breach scams, fake coding tests, and exposed AI tools hunting cloud keys",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + credential theft via “tests/tools” and exposed services",
+      "published_at": "2026-07-17T18:30:33.558954+01:00",
+      "published_label": "Friday 17 July 2026, 18:30 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+        "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09"
+      ]
+    },
     {
       "slug": "2026-07-17-1501-today-s-sme-cyber-look-out-clickfix-scams-that-steal-microsoft-365-and-browser-s",
       "headline": "Today’s SME cyber look-out: “ClickFix” scams that steal Microsoft 365 and browser sessions",
