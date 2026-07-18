@@ -4185,9 +4185,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-18T14:47:09.829429+01:00",
       "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
+    },
+    "3198a5fdb24da4f9": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-18T18:13:24.348630+01:00",
+      "brief_slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio"
+    },
+    "05042d22e617047f": {
+      "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-18T18:13:24.348630+01:00",
+      "brief_slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio",
+      "headline": "Today’s SMB Cyber Brief: Credential‑stealing malware surge + SharePoint exploitation watch-outs",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover risk (passwords/tokens) and Microsoft server exploitation leading to disruption",
+      "published_at": "2026-07-18T18:13:24.348630+01:00",
+      "published_label": "Saturday 18 July 2026, 18:13 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+        "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+      ]
+    },
     {
       "slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl",
       "headline": "SMB Cyber Intelligence Brief: WordPress sites and browser extensions in the spotlight",
