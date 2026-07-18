@@ -4136,9 +4136,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-17T18:30:33.558954+01:00",
       "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
+    },
+    "0c63b34da7a49315": {
+      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-18T09:58:14.632997+01:00",
+      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
+    },
+    "96d9ebe2a900947d": {
+      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-18T09:58:14.632997+01:00",
+      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
+    },
+    "84a8a0cf069b7d7c": {
+      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+      "title": "Abbott probes two cyber incidents amid extortion claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-18T09:58:14.632997+01:00",
+      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
+    },
+    "eb18b5e1d713b33c": {
+      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-18T09:58:14.632997+01:00",
+      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks",
+      "headline": "SMB Cyber Intelligence Brief: supply‑chain tampering and “trusted software” risks",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier & software supply-chain risk (tampered packages and trusted-signing abuse) + breach/extortion ripple effects",
+      "published_at": "2026-07-18T09:58:14.632997+01:00",
+      "published_label": "Saturday 18 July 2026, 09:58 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+        "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+        "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
+      ]
+    },
     {
       "slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a",
       "headline": "Today’s SMB Cyber Brief: supplier support-system breach scams, fake coding tests, and exposed AI tools hunting cloud keys",

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: supply‑chain tampering and “trusted software” risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: supply‑chain tampering and “trusted software” risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Saturday 18 July 2026, 09:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; software supply-chain risk (tampered packages and trusted-signing abuse) + breach/extortion ripple effects
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is <strong>software and supplier trust</strong>: malicious code can arrive through third-party packages used by developers (software supply-chain attacks) and criminals may try to abuse the idea of “trusted” or “signed” software. Separately, large organisations are continuing to report breaches with extortion claims, which often triggers follow-on scams.</p>
+<ul>
+  <li><strong>Malicious open-source packages</strong> targeting popular developer tooling (npm/Vite) that can deliver remote-access malware.</li>
+  <li><strong>Trust-chain risk</strong> following reporting on a certificate ecosystem incident (code-signing certificate theft claims linked to a prior DigiCert incident).</li>
+  <li><strong>Breach/extortion activity</strong> at a major healthcare/life sciences firm, which can lead to impersonation, fake invoices, and “breach notification” phishing sent to customers and suppliers.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li>If you use a web agency, in-house developer, or SaaS integrator, a <strong>single compromised dependency</strong> can introduce malware into laptops, build servers, websites, or customer portals.</li>
+  <li>SMEs often rely on “it’s signed so it’s safe” assumptions. Attackers want to <strong>borrow trust</strong> (via stolen certificates or convincing installers) to bypass suspicion.</li>
+  <li>When a big firm is in the news for an incident, SMEs often see <strong>imposter emails</strong> pretending to be support, legal, finance, or “security verification”.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Developers or IT providers report sudden build errors, unexpected new dependencies, or unusual post-install scripts during installs/updates.</li>
+  <li>Staff receive emails claiming: “We were breached”, “reset your password”, “download this secure document”, or “confirm bank details”, especially referencing a well-known brand.</li>
+  <li>Requests to bypass normal procurement (e.g., “install this hotfix now”, “disable security to complete setup”).</li>
+  <li>New or unusual outbound connections from developer machines or build servers, or antivirus alerts immediately after installing/updating packages.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Trojan packages</strong>: attackers publish lookalike or malicious packages into common development ecosystems so they’re pulled into projects by mistake.</li>
+  <li><strong>Abusing “trusted” software expectations</strong>: attackers try to make malware look legitimate (including by using stolen or misused signing material) so users click through prompts.</li>
+  <li><strong>Incident-themed phishing</strong>: criminals reference a real breach/extortion story to add credibility, then push links, attachments, or payment changes.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a short staff note</strong>: don’t trust breach-themed emails; verify via known contact details; report anything asking for logins, downloads, or bank changes.</li>
+  <li>If you have developers (internal or outsourced): <strong>freeze “surprise” dependency adds</strong> and require peer review for any new packages or major version bumps.</li>
+  <li><strong>Check your software acquisition process</strong>: installers and updates should come from known vendor channels and be deployed via your IT provider / device management where possible.</li>
+  <li><strong>Backups and restore</strong>: confirm you can restore key systems and shared drives (ransomware and extortion campaigns frequently follow initial compromise via malware).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>application allow-listing / controlled installation</strong> on staff devices to reduce “random installer” risk?</li>
+  <li>For any dev/build work: do we use <strong>dependency pinning/lockfiles</strong>, scanning of open-source dependencies, and a review process for new packages?</li>
+  <li>How quickly would we know if a developer machine or build server starts making <strong>unusual outbound connections</strong>?</li>
+  <li>What is our process if a key supplier announces a breach—who verifies comms, and how do we <strong>validate payment change requests</strong>?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There is reporting of an OpenSSL denial-of-service issue (“HollowByte”). For most SMEs, the practical step is to ask your IT provider to confirm whether any internet-facing services you run depend on OpenSSL and whether protective updates and monitoring are in place—without rushing ad-hoc changes on a weekend.</p>
+
+        <h2>One action today</h2>
+        <p>Email staff today: “Treat breach-themed emails and any request to install software or change bank details as suspicious—verify using a known phone number and report to IT/management before acting.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change verification (anti-invoice fraud call-back process)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html" rel="noopener noreferrer">Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html" rel="noopener noreferrer">GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/" rel="noopener noreferrer">Abbott probes two cyber incidents amid extortion claims</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/" rel="noopener noreferrer">HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
