@@ -4164,9 +4164,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-18T09:58:14.632997+01:00",
       "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
+    },
+    "1f8fa8831f47fff5": {
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-18T14:47:09.829429+01:00",
+      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
+    },
+    "f6538113513daf94": {
+      "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-18T14:47:09.829429+01:00",
+      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
+    },
+    "3c8f9fdd2670e9fa": {
+      "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-18T14:47:09.829429+01:00",
+      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl",
+      "headline": "SMB Cyber Intelligence Brief: WordPress sites and browser extensions in the spotlight",
+      "risk_level": "High",
+      "todays_lookout": "Website compromise attempts and browser-extension abuse (including AI assistant extensions)",
+      "published_at": "2026-07-18T14:47:09.829429+01:00",
+      "published_label": "Saturday 18 July 2026, 14:47 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+        "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html"
+      ]
+    },
     {
       "slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks",
       "headline": "SMB Cyber Intelligence Brief: supply‑chain tampering and “trusted software” risks",
