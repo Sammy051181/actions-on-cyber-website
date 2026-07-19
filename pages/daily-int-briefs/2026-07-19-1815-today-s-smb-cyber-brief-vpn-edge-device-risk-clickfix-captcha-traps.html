@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: VPN edge-device risk + “ClickFix CAPTCHA” traps | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: VPN edge-device risk + “ClickFix CAPTCHA” traps</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 19 July 2026, 18:15 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access/VPN compromise and staff tricked into running “verification” steps
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) VPN / remote access gateways under pressure:</strong> Reports of SonicWall SMA appliances being exploited as zero-days before public disclosure highlights ongoing risk to internet-facing remote access devices.</p>
+<p><strong>2) “ClickFix” / fake CAPTCHA verification:</strong> A campaign used CAPTCHA-style prompts to trick people into infecting their own machines with malware. The technique is simple and can be repurposed beyond the original targets.</p>
+<p><strong>3) Supplier/update-channel abuse:</strong> A separate report describes attackers abusing a product update mechanism to reach victims. This is a reminder to treat software updates and management tools as high-trust pathways.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>Business disruption:</strong> If a VPN/remote access box is compromised, attackers may gain a foothold that leads to account takeover, data access, ransomware, or prolonged IT downtime.</li>
+<li><strong>SMEs are exposed by default:</strong> Many smaller organisations rely on a single edge device (VPN) and outsourced IT. If that device is reachable from the internet, it’s a high-value target.</li>
+<li><strong>Staff are the delivery route:</strong> Fake “verification” or CAPTCHA steps can bypass technical controls by persuading users to do the risky action themselves.</li>
+<li><strong>Supply chain risk is real:</strong> If an update channel or management tool is abused, even well-run organisations can be impacted quickly.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Staff report being asked to complete a “CAPTCHA” that involves extra steps beyond ticking a box (e.g., instructions to copy/paste something, run a command, install a plugin, or “verify you’re human” by enabling settings).</li>
+<li>Unexpected remote access behaviour: new VPN user accounts, logins at odd hours, or login attempts from unusual locations.</li>
+<li>Unplanned VPN outages, slowdowns, or repeated reboots of remote access devices.</li>
+<li>Unexpected prompts to approve sign-ins, MFA fatigue requests, or “security verification” emails/messages related to remote access.</li>
+<li>Unusual update prompts for networking/security tools or requests to “manually apply” an update from an emailed link.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Edge-device compromise:</strong> Attackers target internet-facing VPN/remote access appliances to gain deep access without needing a phish first.</li>
+<li><strong>Social engineering with “ClickFix”:</strong> Victims are tricked into running steps that install malware, often framed as fixing an error or completing verification.</li>
+<li><strong>Abusing trusted tooling:</strong> Where update mechanisms or management pathways are misused, attackers can distribute malicious changes while appearing legitimate.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Send a 2-minute staff note:</strong> “CAPTCHAs never require you to run commands, install software, or paste text. If a verification prompt asks for anything beyond a checkbox/image selection, stop and report it.”</li>
+<li><strong>Confirm remote access ownership:</strong> Identify who manages your VPN/remote access device(s) and ensure you can reach them quickly (including out-of-hours contact if you rely on remote work).</li>
+<li><strong>Review access basics:</strong> Ensure MFA is enforced for remote access and admin portals, and remove old accounts that no longer need VPN access.</li>
+<li><strong>Log and alert:</strong> Make sure VPN login events are being monitored (even if it’s just daily review) and that you’ll know quickly if configuration changes occur.</li>
+<li><strong>Prepare for disruption:</strong> Check you have an offline way to reach staff/customers if email or VPN is down (phone list, alternate comms channel).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do we have any SonicWall SMA devices (or other internet-facing VPN gateways)? Who is responsible for monitoring and emergency response?</li>
+<li>How quickly do you assess and act on reports of in-the-wild exploitation against remote access appliances?</li>
+<li>What logs do we retain for VPN access and admin changes, and for how long?</li>
+<li>Do we have a tested plan to revoke VPN sessions, rotate credentials, and confirm no persistence if we suspect compromise?</li>
+<li>How do you validate software/firmware updates for networking and security tools (and prevent “manual update from an email link” scenarios)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use SonicWall SMA or similar remote access appliances, treat vendor security updates and provider guidance as time-sensitive. The key SME action is not researching technical details, but confirming ownership, monitoring, and a rapid “is this exposed and are we protected?” check with your IT provider.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short staff alert: CAPTCHAs/“verification” pages should never ask you to run commands, paste text, or install anything—stop and report immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Suspicious email &amp; fake verification (CAPTCHA/2FA) triage checklist” for staff and front-desk teams.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html" rel="noopener noreferrer">SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html" rel="noopener noreferrer">UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/" rel="noopener noreferrer">Hackers abuse ViPNet software to target Russian govt agencies</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

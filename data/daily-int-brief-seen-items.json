@@ -4220,9 +4220,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-19T10:17:09.935481+01:00",
       "brief_slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e"
+    },
+    "ef3919eea15f184f": {
+      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-19T18:15:03.355586+01:00",
+      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
+    },
+    "3eace55fa61213fc": {
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-19T18:15:03.355586+01:00",
+      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
+    },
+    "32a7886bc9a4dbc5": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-19T18:15:03.355586+01:00",
+      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps",
+      "headline": "Today’s SMB cyber brief: VPN edge-device risk + “ClickFix CAPTCHA” traps",
+      "risk_level": "High",
+      "todays_lookout": "Remote access/VPN compromise and staff tricked into running “verification” steps",
+      "published_at": "2026-07-19T18:15:03.355586+01:00",
+      "published_label": "Sunday 19 July 2026, 18:15 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+      ]
+    },
     {
       "slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e",
       "headline": "SMB Cyber Intelligence Brief: Fraud bypass tactics and opportunistic attacks on everyday business tools",
