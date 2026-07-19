@@ -4199,9 +4199,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-18T18:13:24.348630+01:00",
       "brief_slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio"
+    },
+    "ac64978554ad5b7e": {
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-19T10:17:09.935481+01:00",
+      "brief_slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e"
+    },
+    "b5637df4b14a86fe": {
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-19T10:17:09.935481+01:00",
+      "brief_slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e"
+    },
+    "6c26a6a845d6468a": {
+      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-19T10:17:09.935481+01:00",
+      "brief_slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-19-1017-smb-cyber-intelligence-brief-fraud-bypass-tactics-and-opportunistic-attacks-on-e",
+      "headline": "SMB Cyber Intelligence Brief: Fraud bypass tactics and opportunistic attacks on everyday business tools",
+      "risk_level": "High",
+      "todays_lookout": "Payment fraud bypass and ‘security update’ lure phishing",
+      "published_at": "2026-07-19T10:17:09.935481+01:00",
+      "published_label": "Sunday 19 July 2026, 10:17 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+        "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+        "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
+      ]
+    },
     {
       "slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio",
       "headline": "Today’s SMB Cyber Brief: Credential‑stealing malware surge + SharePoint exploitation watch-outs",
