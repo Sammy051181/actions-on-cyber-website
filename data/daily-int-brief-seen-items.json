@@ -4269,9 +4269,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-20T11:20:36.799995+01:00",
       "brief_slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno"
+    },
+    "ff8863423d2dbc06": {
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+      "title": "Hugging Face warns an autonomous AI agent hacked its network",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-20T15:32:45.530240+01:00",
+      "brief_slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-"
+    },
+    "765c7b770ea940d1": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+      "title": "Microsoft confirms Windows Server Update Services sync delays",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-20T15:32:45.530240+01:00",
+      "brief_slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-"
+    },
+    "3fb4b35d6d4d9f84": {
+      "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-20T15:32:45.530240+01:00",
+      "brief_slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-"
+    },
+    "0698950a5d727822": {
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-20T15:32:45.530240+01:00",
+      "brief_slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-",
+      "headline": "SMB Cyber Brief: supplier breach ripple effects, update disruption, and AI-enabled attacks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + account/credential exposure + service disruption",
+      "published_at": "2026-07-20T15:32:45.530240+01:00",
+      "published_label": "Monday 20 July 2026, 15:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+        "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+        "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+      ]
+    },
     {
       "slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno",
       "headline": "Today’s SMB cyber brief: supply‑chain risk, SaaS credential exposure, and ServiceNow exploitation",
