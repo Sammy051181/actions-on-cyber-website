@@ -4297,9 +4297,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-20T15:32:45.530240+01:00",
       "brief_slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-"
+    },
+    "c7c7b6f182da2408": {
+      "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-20T19:18:39.131367+01:00",
+      "brief_slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse"
+    },
+    "d7859924946fd9b5": {
+      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-20T19:18:39.131367+01:00",
+      "brief_slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse"
+    },
+    "18666f6c53abb085": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-20T19:18:39.131367+01:00",
+      "brief_slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse"
+    },
+    "b8d5896fa88c764b": {
+      "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-20T19:18:39.131367+01:00",
+      "brief_slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse",
+      "headline": "Today’s SMB cyber lookout: smarter phishing and stealthy Microsoft 365 misuse",
+      "risk_level": "High",
+      "todays_lookout": "Phishing themes and Microsoft 365 account takeover with ‘normal-looking’ cloud activity",
+      "published_at": "2026-07-20T19:18:39.131367+01:00",
+      "published_label": "Monday 20 July 2026, 19:18 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+        "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+        "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+        "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+      ]
+    },
     {
       "slug": "2026-07-20-1532-smb-cyber-brief-supplier-breach-ripple-effects-update-disruption-and-ai-enabled-",
       "headline": "SMB Cyber Brief: supplier breach ripple effects, update disruption, and AI-enabled attacks",
