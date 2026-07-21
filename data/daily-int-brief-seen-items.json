@@ -4360,9 +4360,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-21T10:38:44.103050+01:00",
       "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
+    },
+    "02a53136b1170d50": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-21T15:20:12.380911+01:00",
+      "brief_slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-"
+    },
+    "c18df8f6951c9d56": {
+      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-21T15:20:12.380911+01:00",
+      "brief_slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-",
+      "headline": "Ransomware crews exploiting Palo Alto GlobalProtect VPN login bypass: check your remote access today",
+      "risk_level": "High",
+      "todays_lookout": "Remote access / VPN compromise leading to ransomware and business disruption",
+      "published_at": "2026-07-21T15:20:12.380911+01:00",
+      "published_label": "Tuesday 21 July 2026, 15:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+        "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
+      ]
+    },
     {
       "slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw",
       "headline": "Today’s SMB Cyber Brief: remote access and SaaS supplier risk, plus “fake code” malware traps",
