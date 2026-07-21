@@ -4374,9 +4374,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-21T15:20:12.380911+01:00",
       "brief_slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-"
+    },
+    "8371d69d75b50cfb": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-21T18:44:18.584098+01:00",
+      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
+    },
+    "af160bcfd41ad561": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-21T18:44:18.584098+01:00",
+      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
+    },
+    "0edace9f3bea69f2": {
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-21T18:44:18.584098+01:00",
+      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for",
+      "headline": "SMB Cyber Intelligence Brief: WordPress sites under active attack + KEV warning for Langflow",
+      "risk_level": "High",
+      "todays_lookout": "Website compromise and ransomware follow-on from internet-facing tools (WordPress / Langflow)",
+      "published_at": "2026-07-21T18:44:18.584098+01:00",
+      "published_label": "Tuesday 21 July 2026, 18:44 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+        "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+      ]
+    },
     {
       "slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-",
       "headline": "Ransomware crews exploiting Palo Alto GlobalProtect VPN login bypass: check your remote access today",

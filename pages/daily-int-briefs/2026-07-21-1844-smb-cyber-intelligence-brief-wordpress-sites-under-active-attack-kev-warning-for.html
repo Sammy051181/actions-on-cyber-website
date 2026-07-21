@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: WordPress sites under active attack + KEV warning for Langflow | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: WordPress sites under active attack + KEV warning for Langflow</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 21 July 2026, 18:44 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Website compromise and ransomware follow-on from internet-facing tools (WordPress / Langflow)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two widely-used internet-facing technologies are in the spotlight today:</p>
+<ul>
+  <li><strong>WordPress sites:</strong> reports of active exploitation of critical WordPress Core issues being used to install webshells and malicious plugins.</li>
+  <li><strong>Langflow servers:</strong> being used as an entry point in attacks linked to ransomware activity targeting AI/model-related files.</li>
+</ul>
+<p>CISA has also added the WordPress and Langflow issues to its <strong>Known Exploited Vulnerabilities</strong> catalogue, which is a strong signal that real-world attacks are happening.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Your website is a business system:</strong> a compromised WordPress site can be used to steal customer enquiries, redirect payments, inject fake ‘support’ messages, or damage reputation.</li>
+  <li><strong>Managed hosting/MSP dependency:</strong> many SMEs assume their supplier is handling updates and monitoring—today is a good day to confirm.</li>
+  <li><strong>Ransomware isn’t just “big company” risk:</strong> attackers often start with an exposed server and then look for credentials, backups, and shared storage.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>WordPress admin users you don’t recognise, or admin accounts created overnight.</li>
+  <li>New or changed plugins/themes you didn’t approve, or plugins asking for unusual permissions.</li>
+  <li>Website starts redirecting visitors, showing unexpected pop-ups, or your homepage/content changes without explanation.</li>
+  <li>Sudden spikes in server CPU usage, outbound traffic, or lots of failed logins in hosting logs.</li>
+  <li>For teams using Langflow/AI tooling: unusual encryption activity, missing model files/datasets, or unexpected processes consuming disk/CPU.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Website takeover:</strong> attackers exploit weaknesses to place a persistent webshell or install a malicious plugin, then keep access even after superficial clean-up.</li>
+  <li><strong>Credential capture:</strong> compromise is used to steal WordPress/admin/FTP credentials, then reused to access hosting panels, email, or other services.</li>
+  <li><strong>Follow-on disruption:</strong> once inside a server, attackers may pivot to shared storage and backups, setting up ransomware or data theft.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership:</strong> identify who is responsible for WordPress Core updates (internal, web agency, host, MSP) and get confirmation they’ve checked today.</li>
+  <li><strong>Review admin access:</strong> remove unknown WordPress admins, enforce strong passwords, and enable MFA where available.</li>
+  <li><strong>Check for persistence:</strong> ask for a quick review for unexpected plugins, new admin accounts, and suspicious files/changes.</li>
+  <li><strong>Backups reality-check:</strong> confirm you have recent, restorable backups (and that they’re not only stored on the same server).</li>
+  <li><strong>Staff awareness (light touch):</strong> remind staff to report any ‘website is down / re-enter password / payment page changed’ messages immediately.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run WordPress anywhere (including microsites/landing pages) and who patches Core?</li>
+  <li>Have you checked our WordPress sites for unknown admin users, new plugins, or webshell indicators today?</li>
+  <li>Do we host or expose Langflow (or similar AI workflow tools) to the internet? If yes, what monitoring and access controls are in place?</li>
+  <li>If our website is compromised, what’s the agreed containment plan (take offline, restore, credential resets, customer comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged the WordPress Core and Langflow issues as known to be exploited in the wild. For SMEs, the key is less about reading technical advisories and more about ensuring your <strong>web/Microsoft/hosting supplier has a fast, routine update process</strong> plus post-update checks (admin accounts, plugins, unusual file changes) for internet-facing systems.</p>
+
+        <h2>One action today</h2>
+        <p>Get same-day written confirmation from whoever manages your website/hosting that your WordPress Core is up to date and they have checked for unknown admin accounts and unexpected plugins/files.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber “Website &amp; WordPress safety checklist” (maintenance, access control, backup and recovery quick checks)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/" rel="noopener noreferrer">Critical wp2shell WordPress flaws exploited to install webshells</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog" rel="noopener noreferrer">CISA Adds Four Known Exploited Vulnerabilities to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html" rel="noopener noreferrer">New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
