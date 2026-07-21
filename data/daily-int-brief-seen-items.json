@@ -4325,9 +4325,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-20T19:18:39.131367+01:00",
       "brief_slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse"
+    },
+    "1aa7731f271da367": {
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-21T10:38:44.103050+01:00",
+      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
+    },
+    "c8dac0ed07a67a1c": {
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-21T10:38:44.103050+01:00",
+      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
+    },
+    "9be792a0f71e6f67": {
+      "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+      "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-21T10:38:44.103050+01:00",
+      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
+    },
+    "0823fe2e9d325782": {
+      "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+      "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-21T10:38:44.103050+01:00",
+      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
+    },
+    "f57be79927466e20": {
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-21T10:38:44.103050+01:00",
+      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw",
+      "headline": "Today’s SMB Cyber Brief: remote access and SaaS supplier risk, plus “fake code” malware traps",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & remote-access compromise leading to business disruption and follow-on scams",
+      "published_at": "2026-07-21T10:38:44.103050+01:00",
+      "published_label": "Tuesday 21 July 2026, 10:38 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+        "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+        "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+        "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+        "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
+      ]
+    },
     {
       "slug": "2026-07-20-1918-today-s-smb-cyber-lookout-smarter-phishing-and-stealthy-microsoft-365-misuse",
       "headline": "Today’s SMB cyber lookout: smarter phishing and stealthy Microsoft 365 misuse",

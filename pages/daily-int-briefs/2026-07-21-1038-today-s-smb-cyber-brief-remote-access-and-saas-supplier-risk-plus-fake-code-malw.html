@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: remote access and SaaS supplier risk, plus “fake code” malware traps | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: remote access and SaaS supplier risk, plus “fake code” malware traps</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 21 July 2026, 10:38 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; remote-access compromise leading to business disruption and follow-on scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Remote access/VPN appliances being targeted</strong> (SonicWall SMA1000) with zero-day exploitation reported.</li>
+  <li><strong>Business SaaS/platform risk</strong>: reported in-the-wild exploitation affecting ServiceNow’s AI Platform.</li>
+  <li><strong>HR/ERP breach ripple effects</strong>: a major firm disclosed a breach tied to an Oracle E‑Business Suite HR use case—expect “HR/payroll” themed scams that borrow credibility from big-name incidents.</li>
+  <li><strong>“Fake code” and developer-tool malware</strong>: thousands of malicious GitHub repositories posing as legitimate projects (including AI/MCP-related repos) to deliver malware.</li>
+  <li><strong>Ransomware themes expanding</strong>: ransomware activity reported targeting AI-related data stores (relevant if you run AI tooling or store model/data assets internally).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on a small number of critical systems: remote access for staff/IT support, a handful of SaaS platforms (IT tickets, HR, finance), and external code/tools used by developers or IT. When attackers compromise any of these, the impact can be immediate: account takeovers, unauthorised access, ransomware disruption, and convincing follow-on phishing aimed at finance and HR teams.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected MFA prompts</strong> or users reporting “approval requests” they didn’t initiate (especially for admin/IT accounts).</li>
+  <li><strong>New or unusual logins</strong> to SaaS admin portals (odd times, unfamiliar locations, new devices).</li>
+  <li><strong>Remote access behaving oddly</strong>: unexplained VPN drops, new admin users, config changes, or support accounts you don’t recognise.</li>
+  <li><strong>HR/payroll themed emails</strong> referencing a “supplier breach”, “employee data verification”, “updated payroll details”, or “urgent compliance checks”.</li>
+  <li><strong>Developer/IT staff</strong> downloading “helpful tools” or “AI/MCP servers” from new GitHub repos, especially if delivered as ZIPs or forks with very new/low-activity profiles.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Edge device compromise</strong>: targeting remote access appliances to gain a foothold, then moving into email and file systems for data theft or ransomware.</li>
+  <li><strong>SaaS platform exploitation</strong>: using a supplier/platform weakness to run code or access data, then abusing trusted integrations, API tokens, or automated workflows.</li>
+  <li><strong>“Credibility piggybacking” scams</strong>: using news of a big-brand breach to pressure your team into clicking links, sharing employee data, or changing payroll/bank details.</li>
+  <li><strong>Code supply-chain traps</strong>: pushing malware via convincing open-source repos and lookalike developer profiles, targeting IT/admin machines where credentials and access are richest.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm your remote access inventory</strong>: list who has VPN/admin access, which appliance/model you use, and who supports it (internal vs MSP).</li>
+  <li><strong>Review admin access to key SaaS</strong> (ITSM, HR, finance): remove old accounts, enforce MFA, and reduce the number of admins.</li>
+  <li><strong>Set a “payment/payroll change” control</strong>: no bank detail changes via email alone; require a call-back to a known number (from your records, not the email).</li>
+  <li><strong>Send a 2-minute staff note</strong> to finance/HR/office staff: “expect breach-themed emails; don’t click; verify via known channels.”</li>
+  <li><strong>For dev/IT teams</strong>: only use approved repositories/tools; be cautious with new repos, ZIP downloads, and “AI tooling” projects with thin history.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we use <strong>SonicWall SMA1000</strong> anywhere (including for legacy/backup remote access)? If yes, what’s our current exposure and mitigation plan?</li>
+  <li>Are we a <strong>ServiceNow</strong> customer, and do we use any AI Platform features? What monitoring is in place for unusual admin activity?</li>
+  <li>What <strong>alerting</strong> do we have for: new admin users, new OAuth/app integrations, mailbox forwarding rules, and suspicious sign-ins?</li>
+  <li>What is our <strong>rapid isolation plan</strong> if a remote access device or SaaS admin account is suspected compromised (who does what in the first hour)?</li>
+  <li>Do we have an <strong>approved software/repo policy</strong> for IT and developers (and a way to block or review unapproved downloads)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you (or your MSP) manage edge devices and core business platforms, today is a good day to confirm you have an <strong>urgent patch-and-mitigation process</strong> for internet-facing systems (notably remote access appliances and major SaaS platforms) when in-the-wild exploitation is reported. Ask for confirmation of actions taken and any compensating controls if patching isn’t immediate.</p>
+
+        <h2>One action today</h2>
+        <p>Message finance and HR staff today: “No payroll or supplier bank detail changes via email—always verify using a call-back to a known number from our records.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change &amp; invoice fraud call-back procedure (finance/ops quick controls)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/" rel="noopener noreferrer">SonicWall SMA1000 flaws exploited as zero-days to push custom malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html" rel="noopener noreferrer">Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/" rel="noopener noreferrer">Estée Lauder discloses data breach via Oracle E-Business flaw</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html" rel="noopener noreferrer">FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/" rel="noopener noreferrer">JadePuffer agentic attacks now target AI model data with ransomware</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
