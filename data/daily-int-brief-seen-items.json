@@ -4458,9 +4458,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-22T15:20:57.211068+01:00",
       "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
+    },
+    "8b2bec85deeb80d7": {
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T18:41:19.161226+01:00",
+      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
+    },
+    "6f74290201d6dbea": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T18:41:19.161226+01:00",
+      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
+    },
+    "8fc73f794dd5983c": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-22T18:41:19.161226+01:00",
+      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
+    },
+    "7bd20d10f61c67cd": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "title": "Tycon Systems TPDIN-Monitor-WEB2",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-22T18:41:19.161226+01:00",
+      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions",
+      "headline": "Today’s SME cyber look-out: supplier platform breach scams + AI tool permissions",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams, shared-platform data exposure, and over-permissioned AI tools",
+      "published_at": "2026-07-22T18:41:19.161226+01:00",
+      "published_label": "Wednesday 22 July 2026, 18:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01"
+      ]
+    },
     {
       "slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and",
       "headline": "Today’s SMB cyber brief: Exchange end-date planning, WhatsApp Web privacy risk, and AI code-review manipulation",
