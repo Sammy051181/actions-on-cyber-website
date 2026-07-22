@@ -4395,9 +4395,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-21T18:44:18.584098+01:00",
       "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
+    },
+    "070d62f630231312": {
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "3cfa79932498cdfe": {
+      "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
+      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "5dffe4f1452b924f": {
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+      "title": "Police dismantle Kratos phishing platform, arrest developer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "f19e3d55d9f11a51": {
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "7dbe7337f451898e": {
+      "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+      "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "6485f682b06f4400": {
+      "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+      "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-22T10:38:09.968558+01:00",
+      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred",
+      "headline": "Today’s SMB Cyber Brief: ransomware copycat scams, Microsoft 365 phishing, and credential-stuffing fallout",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation scams + account takeover (Microsoft 365 phishing and reused passwords)",
+      "published_at": "2026-07-22T10:38:09.968558+01:00",
+      "published_label": "Wednesday 22 July 2026, 10:38 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+        "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
+        "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+        "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+        "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+        "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html"
+      ]
+    },
     {
       "slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for",
       "headline": "SMB Cyber Intelligence Brief: WordPress sites under active attack + KEV warning for Langflow",
