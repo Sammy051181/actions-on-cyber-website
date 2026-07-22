@@ -4437,9 +4437,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-22T10:38:09.968558+01:00",
       "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
+    },
+    "e11b40a8f481da75": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
+      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T15:20:57.211068+01:00",
+      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
+    },
+    "ed069ea2809f3e41": {
+      "url": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-22T15:20:57.211068+01:00",
+      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
+    },
+    "8c8679da622e5e3c": {
+      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-22T15:20:57.211068+01:00",
+      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and",
+      "headline": "Today’s SMB cyber brief: Exchange end-date planning, WhatsApp Web privacy risk, and AI code-review manipulation",
+      "risk_level": "Moderate",
+      "todays_lookout": "SaaS/supplier risk and staff-targeted phishing using ‘IT security updates’ as bait",
+      "published_at": "2026-07-22T15:20:57.211068+01:00",
+      "published_label": "Wednesday 22 July 2026, 15:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
+        "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+        "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
+      ]
+    },
     {
       "slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred",
       "headline": "Today’s SMB Cyber Brief: ransomware copycat scams, Microsoft 365 phishing, and credential-stuffing fallout",
