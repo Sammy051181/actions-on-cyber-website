@@ -4500,9 +4500,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-23T10:35:36.861390+01:00",
       "brief_slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri"
+    },
+    "64a0279d0351d769": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T15:29:48.557381+01:00",
+      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
+    },
+    "678e715aba628c27": {
+      "url": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+      "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+      "source": "Cisco Talos",
+      "seen_at": "2026-07-23T15:29:48.557381+01:00",
+      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
+    },
+    "2997be36835bb253": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T15:29:48.557381+01:00",
+      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
+    },
+    "20c1dee2f48f812e": {
+      "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
+      "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T15:29:48.557381+01:00",
+      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant",
+      "headline": "Browser-hiding malware linked to ransomware, plus Exchange Online mailbox quarantine disruption",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware pre-cursor malware + Microsoft 365 email disruption scams",
+      "published_at": "2026-07-23T15:29:48.557381+01:00",
+      "published_label": "Thursday 23 July 2026, 15:29 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+        "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+        "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/"
+      ]
+    },
     {
       "slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri",
       "headline": "SMB Cyber Intelligence Brief — Fraud after data theft + Check Point admin-console risk",
