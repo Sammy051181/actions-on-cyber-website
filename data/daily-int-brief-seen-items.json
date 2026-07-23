@@ -4528,9 +4528,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-23T15:29:48.557381+01:00",
       "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
+    },
+    "98f3a356bca73b1b": {
+      "url": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
+      "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-07-23T18:44:52.083193+01:00",
+      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
+    },
+    "eadd4f6a45de4528": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+      "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-23T18:44:52.083193+01:00",
+      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
+    },
+    "0aef94277d8b740f": {
+      "url": "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported",
+      "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity",
+      "source": "CISA News",
+      "seen_at": "2026-07-23T18:44:52.083193+01:00",
+      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
+    },
+    "3735cdeb2403e76a": {
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T18:44:52.083193+01:00",
+      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
+    },
+    "48a6e328f49bedee": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T18:44:52.083193+01:00",
+      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag",
+      "headline": "Today’s SME cyber lookout: Zimbra ‘zero-click’ phishing warning + Microsoft 365 outage disruption scams",
+      "risk_level": "High",
+      "todays_lookout": "Email compromise risk and cloud disruption scams",
+      "published_at": "2026-07-23T18:44:52.083193+01:00",
+      "published_label": "Thursday 23 July 2026, 18:44 UK time",
+      "source_urls": [
+        "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+        "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported",
+        "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/"
+      ]
+    },
     {
       "slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant",
       "headline": "Browser-hiding malware linked to ransomware, plus Exchange Online mailbox quarantine disruption",
