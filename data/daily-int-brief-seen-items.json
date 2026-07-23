@@ -4486,9 +4486,35 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-22T18:41:19.161226+01:00",
       "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
+    },
+    "4d491fd7a7f8e25d": {
+      "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T10:35:36.861390+01:00",
+      "brief_slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri"
+    },
+    "f359f550fade57a7": {
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-23T10:35:36.861390+01:00",
+      "brief_slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri",
+      "headline": "SMB Cyber Intelligence Brief — Fraud after data theft + Check Point admin-console risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and account-fraud attempts, plus security tooling admin access risk",
+      "published_at": "2026-07-23T10:35:36.861390+01:00",
+      "published_label": "Thursday 23 July 2026, 10:35 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+        "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
+      ]
+    },
     {
       "slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions",
       "headline": "Today’s SME cyber look-out: supplier platform breach scams + AI tool permissions",
