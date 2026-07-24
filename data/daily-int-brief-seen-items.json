@@ -4640,9 +4640,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-24T15:11:03.490061+01:00",
       "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
+    },
+    "bc12474a9a3abb0e": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T18:50:52.807902+01:00",
+      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
+    },
+    "33203de2679af613": {
+      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T18:50:52.807902+01:00",
+      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
+    },
+    "5e70f980b85c0314": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+      "title": "New Dolphin X malware uses AI to rank high-value targets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T18:50:52.807902+01:00",
+      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
+    },
+    "283f9b048caadb87": {
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T18:50:52.807902+01:00",
+      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio",
+      "headline": "Today’s SME cyber brief: Microsoft 365 disruption fallout + Teams/Zoom impersonation phishing",
+      "risk_level": "High",
+      "todays_lookout": "Cloud disruption and supplier-impersonation scams (Microsoft 365/Azure) plus Teams/Zoom phishing lures",
+      "published_at": "2026-07-24T18:50:52.807902+01:00",
+      "published_label": "Friday 24 July 2026, 18:50 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+        "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+        "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+        "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
+      ]
+    },
     {
       "slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis",
       "headline": "SMB Cyber Intelligence Brief: Account takeovers, fake AI app ads, and AI agent phishing risk",
