@@ -4563,9 +4563,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-23T18:44:52.083193+01:00",
       "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
+    },
+    "afe4a14794443d12": {
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "fafb9124e07e3f12": {
+      "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+      "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "5518fb6b7eb971cc": {
+      "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "915e709a7e69a73a": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "852d7225f48a5e8d": {
+      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "1652d0ba9cb424a6": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
+      "title": "Weintek cMT3092X",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "46ea8807abed9423": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+      "title": "Panduit IntraVUE",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-24T10:33:15.398557+01:00",
+      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin",
+      "headline": "Today’s SMB Cyber Brief: ransomware data-theft hunts, mailbox risk, and fake ‘plugin’ installs",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware data-theft targeting exposed business apps + credential and mailbox theft + trojanised plugins",
+      "published_at": "2026-07-24T10:33:15.398557+01:00",
+      "published_label": "Friday 24 July 2026, 10:33 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+        "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+        "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+        "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04"
+      ]
+    },
     {
       "slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag",
       "headline": "Today’s SME cyber lookout: Zimbra ‘zero-click’ phishing warning + Microsoft 365 outage disruption scams",
