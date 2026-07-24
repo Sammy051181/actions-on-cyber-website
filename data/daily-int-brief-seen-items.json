@@ -4612,9 +4612,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-24T10:33:15.398557+01:00",
       "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
+    },
+    "8bba9e0e00948187": {
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+      "title": "Chick-fil-A data breach affects more than 13,000 customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T15:11:03.490061+01:00",
+      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
+    },
+    "2cb10c32bd7a4272": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+      "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-24T15:11:03.490061+01:00",
+      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
+    },
+    "d43d2a88720f40da": {
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T15:11:03.490061+01:00",
+      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
+    },
+    "e159988bd46b5a0a": {
+      "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-24T15:11:03.490061+01:00",
+      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis",
+      "headline": "SMB Cyber Intelligence Brief: Account takeovers, fake AI app ads, and AI agent phishing risk",
+      "risk_level": "High",
+      "todays_lookout": "Credential stuffing + malvertising (fake AI apps) + AI/SaaS agent phishing",
+      "published_at": "2026-07-24T15:11:03.490061+01:00",
+      "published_label": "Friday 24 July 2026, 15:11 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+        "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+        "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+        "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+      ]
+    },
     {
       "slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin",
       "headline": "Today’s SMB Cyber Brief: ransomware data-theft hunts, mailbox risk, and fake ‘plugin’ installs",
