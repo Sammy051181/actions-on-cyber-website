@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: hotel Wi‑Fi Microsoft 365 login traps, real‑time phishing, and SaaS disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: hotel Wi‑Fi Microsoft 365 login traps, real‑time phishing, and SaaS disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 25 July 2026, 15:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft and account takeover (especially Microsoft 365), plus SaaS dependency disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Microsoft 365 login traps on hotel/conference Wi‑Fi:</strong> reports of attackers changing Wi‑Fi/DNS settings to redirect users to fake Microsoft 365 sign-in pages.</li>
+  <li><strong>Real-time “interactive” phishing:</strong> phishing that doesn’t just steal passwords for later, but hijacks accounts immediately while the victim is signing in (notably seen in insurance-themed lures, but the technique generalises).</li>
+  <li><strong>Ransomware/extortion groups going after exposed business platforms:</strong> activity linked to Cl0p affiliates targeting internet-exposed enterprise systems to steal data and extort.</li>
+  <li><strong>SaaS dependency disruption:</strong> a reported global ChatGPT outage is a reminder to plan for third-party service downtime.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>If an attacker captures a Microsoft 365 login, they can rapidly access email, SharePoint/OneDrive files, Teams chats, and then send convincing invoices or payment-change requests from a real account. Travelling staff and anyone working from public Wi‑Fi are at higher risk. Separately, extortion gangs often target “whoever is exposed”, including smaller firms running specialist platforms via an MSP or hosting provider.</p>
+<p>Service outages (even from reputable providers) can also disrupt customer service, admin workflows, and marketing if your team relies on a single tool without a fallback.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report being asked to <strong>sign into Microsoft 365 again</strong> right after joining hotel/conference Wi‑Fi.</li>
+  <li>Browser shows a sign-in page that looks right, but users notice <strong>odd URL/domain</strong> or repeated prompts.</li>
+  <li>Unexpected <strong>MFA prompts</strong> (“Approve sign-in?”) when the user isn’t logging in.</li>
+  <li>Sudden email rules created, new forwarding set up, or messages disappearing from inboxes.</li>
+  <li>Partners/customers receive unusual “please pay this new bank account” messages from your genuine email address.</li>
+  <li>Operational reliance issues: teams unable to work because a single SaaS tool is unavailable.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Public Wi‑Fi redirection:</strong> manipulate DNS/Wi‑Fi equipment so “login.microsoftonline.com” lookalikes or fake sign-in pages harvest credentials.</li>
+  <li><strong>Real-time session hijacking:</strong> the attacker uses the captured sign-in details immediately to get into the account while the victim is still active, aiming to bypass or fatigue MFA.</li>
+  <li><strong>Inbox takeover for fraud:</strong> once inside Microsoft 365, attackers monitor invoices, then send payment diversion or urgent wire/transfer requests.</li>
+  <li><strong>Data theft and extortion:</strong> targeting internet-exposed business systems to steal data and pressure organisations to pay.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a travel/public Wi‑Fi reminder:</strong> advise staff to avoid signing into Microsoft 365 on public Wi‑Fi unless they use your company VPN (or their phone hotspot) and to report any repeated login prompts.</li>
+  <li><strong>Check Microsoft 365 sign-in activity:</strong> review recent sign-ins for impossible travel, unfamiliar locations, or suspicious user agents; investigate any spikes.</li>
+  <li><strong>Lock down email forwarding:</strong> ensure outbound auto-forwarding is restricted and alerting is enabled for new inbox rules/forwarders.</li>
+  <li><strong>Rehearse “payment change” controls:</strong> confirm your team always verifies bank detail changes out-of-band (phone call to a known number, not the email thread).</li>
+  <li><strong>Plan for SaaS downtime:</strong> note which workflows depend on ChatGPT (or any single tool) and define a manual fallback for today.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>Conditional Access</strong> or equivalent controls to reduce risky sign-ins (e.g., require MFA, block legacy auth, flag risky locations)?</li>
+  <li>What alerts do we receive for <strong>new inbox forwarding rules</strong>, suspicious OAuth app grants, or abnormal sign-in patterns?</li>
+  <li>Can we enforce <strong>phishing-resistant MFA</strong> (e.g., passkeys/security keys) for finance/admin accounts?</li>
+  <li>Which of our systems are <strong>internet-exposed</strong> via hosting/MSP arrangements, and how are they monitored for compromise and unusual data access?</li>
+  <li>What is our <strong>SaaS resilience plan</strong> (backup access, offline copies of critical docs, alternative tools) for outages?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run specialist enterprise platforms or file/PLM systems via an MSP or hosting provider, ask whether any internet-facing deployments have been reviewed for exposure and hardened, as extortion groups are actively hunting for externally accessible systems to break into.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: “Don’t sign into Microsoft 365 over hotel/conference Wi‑Fi unless you’re on the company VPN or your phone hotspot; report unexpected sign-in/MFA prompts immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber checklist — “Invoice and bank detail change verification (anti-payment diversion) + Microsoft 365 account takeover quick response.”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/" rel="noopener noreferrer">Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html" rel="noopener noreferrer">CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html" rel="noopener noreferrer">Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/" rel="noopener noreferrer">OpenAI confirms ChatGPT is down worldwide</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

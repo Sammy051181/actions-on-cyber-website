@@ -4675,9 +4675,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-25T10:11:55.614820+01:00",
       "brief_slug": "2026-07-25-1011-cyber-story-smes-should-watch-today"
+    },
+    "bc184f0aa3d15eec": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T15:01:05.127678+01:00",
+      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
+    },
+    "bb8d98fdc318d866": {
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-25T15:01:05.127678+01:00",
+      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
+    },
+    "2771e2dd44890caa": {
+      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-25T15:01:05.127678+01:00",
+      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
+    },
+    "25ca120783f73471": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+      "title": "OpenAI confirms ChatGPT is down worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T15:01:05.127678+01:00",
+      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing",
+      "headline": "Today’s SMB cyber brief: hotel Wi‑Fi Microsoft 365 login traps, real‑time phishing, and SaaS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and account takeover (especially Microsoft 365), plus SaaS dependency disruption",
+      "published_at": "2026-07-25T15:01:05.127678+01:00",
+      "published_label": "Saturday 25 July 2026, 15:01 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+        "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+        "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"
+      ]
+    },
     {
       "slug": "2026-07-25-1011-cyber-story-smes-should-watch-today",
       "headline": "Cyber story SMEs should watch today",
