@@ -4668,9 +4668,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-24T18:50:52.807902+01:00",
       "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
+    },
+    "0fad97e2f1c1223d": {
+      "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-25T10:11:55.614820+01:00",
+      "brief_slug": "2026-07-25-1011-cyber-story-smes-should-watch-today"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-25-1011-cyber-story-smes-should-watch-today",
+      "headline": "Cyber story SMEs should watch today",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier, scam or disruption risk",
+      "published_at": "2026-07-25T10:11:55.614820+01:00",
+      "published_label": "Saturday 25 July 2026, 10:11 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html"
+      ]
+    },
     {
       "slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio",
       "headline": "Today’s SME cyber brief: Microsoft 365 disruption fallout + Teams/Zoom impersonation phishing",
