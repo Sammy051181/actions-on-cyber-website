@@ -4703,9 +4703,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-25T15:01:05.127678+01:00",
       "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
+    },
+    "761b2a971cb2b357": {
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T18:14:13.498961+01:00",
+      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
+    },
+    "207ba2c04dca1160": {
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "title": "Malicious sites use JavaScript to build malware in browser memory",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T18:14:13.498961+01:00",
+      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
+    },
+    "ce229faccda08040": {
+      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+      "title": "OnTrac notifies customers of data breach after network hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T18:14:13.498961+01:00",
+      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
+    },
+    "b80be0dc24d5a6b9": {
+      "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+      "title": "Australian energy provider Origin says data breach exposes client data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-25T18:14:13.498961+01:00",
+      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-",
+      "headline": "Saturday brief: Sextortion emails, malicious “trading/crypto” ads, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Breach-driven scams and malvertising leading to credential theft and malware",
+      "published_at": "2026-07-25T18:14:13.498961+01:00",
+      "published_label": "Saturday 25 July 2026, 18:14 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+        "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+        "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+        "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
+      ]
+    },
     {
       "slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing",
       "headline": "Today’s SMB cyber brief: hotel Wi‑Fi Microsoft 365 login traps, real‑time phishing, and SaaS disruption",
