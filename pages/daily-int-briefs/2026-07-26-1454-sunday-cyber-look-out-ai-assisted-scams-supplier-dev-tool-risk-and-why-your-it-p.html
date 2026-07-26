@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Sunday cyber look-out: AI-assisted scams, supplier/dev tool risk, and why your IT partner should be watching | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Sunday cyber look-out: AI-assisted scams, supplier/dev tool risk, and why your IT partner should be watching</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Sunday 26 July 2026, 14:54 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> AI-assisted phishing &amp; developer supply-chain traps; self-managed platform exposure
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes worth flagging for SMEs today:</p>
+<ul>
+  <li><strong>AI-assisted attacks becoming more automated</strong> (faster reconnaissance, follow-up actions after an initial compromise).</li>
+  <li><strong>“Hallu-squatting” / phantom dependency traps</strong> where AI coding tools suggest non-existent packages, repos or domains that criminals can register later to slip malware into builds.</li>
+  <li><strong>Self-managed business platforms can become urgent quickly</strong> when working exploit code is published for an already-fixed issue (especially developer tools exposed to the internet).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Speed and scale</strong>: if attackers can automate steps after getting in (even with basic access), they can move faster than a small team can respond.</li>
+  <li><strong>Ripple effects</strong>: developer/supplier tooling issues can affect websites, customer portals, integrations, and the ability to deploy fixes—causing downtime and missed revenue.</li>
+  <li><strong>Outsourced IT dependency</strong>: many SMEs rely on MSPs/IT partners to monitor exposure and keep internet-facing tools secure; you need confidence they’re doing it.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected password reset or MFA prompts, or staff reporting repeated sign-in notifications.</li>
+  <li>New user accounts, new API keys, or unusual admin activity in business systems.</li>
+  <li>Unplanned changes to code repositories, build scripts, or new “helpful” dependencies added quickly with minimal review.</li>
+  <li>Sudden outbound email spikes, new mail-forwarding rules, or invoices/quotes being resent with “updated banking details”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Automated post-compromise actions</strong>: once an account is breached (via phishing, reused passwords, or weak access controls), attackers can automate data discovery, account takeover steps, and persistence.</li>
+  <li><strong>Supply-chain via AI suggestions</strong>: developers using AI assistants may be nudged to install or reference a package/repo/domain that does not exist yet—criminals can create it later and wait for it to be pulled into a build.</li>
+  <li><strong>“Already fixed” doesn’t mean “not exploitable”</strong>: when working exploit code becomes public, unmaintained or overlooked self-hosted services become easier targets, particularly if exposed to the internet.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Reinforce payment-change controls</strong>: any request to change bank details must be verified using a known phone number (not one in the email).</li>
+  <li><strong>AI-use guardrails for staff and suppliers</strong>: if you use AI for coding or automation, require human review and verification of any new dependencies, domains, packages, or repos before they’re used.</li>
+  <li><strong>Check your exposure</strong>: confirm which systems are internet-facing (especially developer tools, remote admin portals, and file transfer services) and who is responsible for monitoring and updates.</li>
+  <li><strong>Logging basics</strong>: ensure your key platforms (email, cloud admin, endpoint security) are logging sign-ins and admin actions, and someone is reviewing alerts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our systems are <strong>internet-facing</strong> (including developer tools), and how do you continuously monitor that list?</li>
+  <li>How quickly do you act when <strong>working exploit code</strong> is published for an already-patched issue in common business platforms?</li>
+  <li>Do we have <strong>alerting</strong> for suspicious sign-ins, new admin accounts, new mailbox forwarding rules, and unusual data downloads?</li>
+  <li>What controls do you recommend to reduce <strong>AI-assisted supply-chain risk</strong> (dependency approval, allow-lists, build pipeline checks)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you (or your supplier) run <strong>self-managed GitLab</strong>, treat it as a priority to confirm it’s up to date and not exposed unnecessarily—public reporting indicates working exploit code was released for a previously patched issue, which can increase opportunistic scanning and compromise attempts against lagging installations.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to staff and any developers: verify payment-change requests out-of-band and do not add AI-suggested packages/domains/dependencies without checking they are real, approved, and reviewed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change verification (anti-invoice fraud) and supplier onboarding security questions</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/" rel="noopener noreferrer">Hermes AI agent used to automate attack on Thai Finance Ministry</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/" rel="noopener noreferrer">Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html" rel="noopener noreferrer">Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/" rel="noopener noreferrer">Updated Cyber Threat Actor Naming System</a> <span class="muted">(Google Threat Intelligence)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -4759,9 +4759,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-26T10:23:23.055336+01:00",
       "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
+    },
+    "d3aafaf0b39734ab": {
+      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-26T14:54:45.976928+01:00",
+      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
+    },
+    "29cf8850175497ec": {
+      "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-26T14:54:45.976928+01:00",
+      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
+    },
+    "272cc44a5c21921f": {
+      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-26T14:54:45.976928+01:00",
+      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
+    },
+    "7846896441102bae": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+      "title": "Updated Cyber Threat Actor Naming System",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-07-26T14:54:45.976928+01:00",
+      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p",
+      "headline": "Sunday cyber look-out: AI-assisted scams, supplier/dev tool risk, and why your IT partner should be watching",
+      "risk_level": "Moderate",
+      "todays_lookout": "AI-assisted phishing & developer supply-chain traps; self-managed platform exposure",
+      "published_at": "2026-07-26T14:54:45.976928+01:00",
+      "published_label": "Sunday 26 July 2026, 14:54 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+        "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+        "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/"
+      ]
+    },
     {
       "slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an",
       "headline": "Sunday brief: Malvertising ‘builds’ malware in your browser, ClickFix forum scams, and ransomware ops scaling up",
