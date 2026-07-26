@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s lookout: software supply-chain risk via GitHub/PyPI dependencies | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s lookout: software supply-chain risk via GitHub/PyPI dependencies</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Sunday 26 July 2026, 18:14 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS risk – dependency supply-chain attacks (open-source packages)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Many smaller organisations rely on software built using third-party “packages” (open-source components) pulled from places like GitHub and PyPI (Python Package Index). GitHub and PyPI have announced new time-based protections within Dependabot designed to reduce the impact of supply-chain attacks. Use this as a prompt to check whether your business (or your suppliers) are set up to spot risky dependency changes early.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>You may not write software</strong>, but your website, client portal, plugins, integrations, analytics, booking systems or internal tools often depend on third-party packages.</li>
+  <li><strong>SMEs are downstream</strong>: if a supplier, web agency, MSP, or SaaS vendor ships an update containing a compromised dependency, you can be affected without doing anything “wrong”.</li>
+  <li><strong>Impact is practical</strong>: credential theft, data access, website compromise, invoicing fraud setup, or service disruption can follow from a tainted update.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to update plugins, website components, or line-of-business apps “urgently”.</li>
+  <li>New or unusual outbound connections from servers (e.g. website hosting, integration servers) flagged by your IT provider.</li>
+  <li>Changes to integrations or automations you didn’t request (CRM/email/finance connections).</li>
+  <li>Sudden account lockouts, password reset spikes, or suspicious sign-ins after a routine update.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Malicious package updates</strong>: attackers try to get unsafe components pulled into real software during normal updates.</li>
+  <li><strong>Typos and lookalikes</strong>: packages with similar names can trick developers or automated processes.</li>
+  <li><strong>Rushing the update cycle</strong>: creating pressure to deploy quickly, before proper checks, so the bad component lands in production.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Ask who “owns” dependency risk</strong> for your website/apps: internal team, MSP, web agency, or SaaS vendor.</li>
+  <li><strong>Confirm monitoring is actually turned on</strong>: if you use GitHub, ask whether Dependabot alerts are enabled and reviewed, and what the response time is.</li>
+  <li><strong>Require change control for updates</strong>: even for “minor” updates—what was updated, why, and how it was verified.</li>
+  <li><strong>Make sure backups and rollback exist</strong> for any business-critical system so a bad update can be reversed quickly.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or our developers/suppliers) use GitHub and/or Dependabot? If yes, who reviews alerts and how often?</li>
+  <li>For our website and key apps, can you provide a simple list of what’s hosted where, and who can deploy updates?</li>
+  <li>What is our process to test and roll back updates if something looks wrong?</li>
+  <li>How do you monitor for unusual behaviour after updates (logins, network activity, new admin accounts)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This isn’t about a specific urgent patch today. It’s a reminder that routine updates can introduce risk if supply-chain controls are weak. Focus on governance: monitoring, approval, testing and rollback for updates—especially on externally facing systems like websites and portals.</p>
+
+        <h2>One action today</h2>
+        <p>Contact your MSP/web agency today and confirm who reviews dependency/security alerts for your website and business apps, and how fast they act on them.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Supplier &amp; MSP Security Questions – quick due-diligence list for updates, monitoring and rollback”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/" rel="noopener noreferrer">GitHub, PyPI add time-absed defenses against supply chain attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
