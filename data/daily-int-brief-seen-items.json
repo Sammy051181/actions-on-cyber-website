@@ -4731,9 +4731,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-25T18:14:13.498961+01:00",
       "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
+    },
+    "17ff6787fa795c5a": {
+      "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-26T10:23:23.055336+01:00",
+      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
+    },
+    "a7df7ffa5e05842f": {
+      "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-26T10:23:23.055336+01:00",
+      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
+    },
+    "6fdd8513ac9daf93": {
+      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-26T10:23:23.055336+01:00",
+      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
+    },
+    "8083b86f8749ba30": {
+      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-26T10:23:23.055336+01:00",
+      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an",
+      "headline": "Sunday brief: Malvertising ‘builds’ malware in your browser, ClickFix forum scams, and ransomware ops scaling up",
+      "risk_level": "High",
+      "todays_lookout": "Malvertising & “ClickFix” social engineering leading to malware/ransomware",
+      "published_at": "2026-07-26T10:23:23.055336+01:00",
+      "published_label": "Sunday 26 July 2026, 10:23 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+        "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+        "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+        "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+      ]
+    },
     {
       "slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-",
       "headline": "Saturday brief: Sextortion emails, malicious “trading/crypto” ads, and breach-driven phishing",
