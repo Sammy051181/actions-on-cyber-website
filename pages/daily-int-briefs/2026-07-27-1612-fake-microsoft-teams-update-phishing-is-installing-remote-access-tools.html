@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Fake Microsoft Teams update phishing is installing remote access tools | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Fake Microsoft Teams update phishing is installing remote access tools</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 27 July 2026, 16:12 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Phishing lures installing remote access / RMM tools via fake Teams updates
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>A Microsoft Teams-themed phishing campaign is using “secure document” lures to push people onto a counterfeit download page that claims Teams must be updated before the shared file can be opened. The aim is to get the user to install legitimate remote monitoring/remote access tools (e.g. RMM tools and ScreenConnect) that can then be abused for unauthorised access.</p>
+<p>Separately, keep an eye on “shadow AI agents” (AI tools/agents created by staff without IT visibility) which can quietly gain access to mailboxes, files and workflows.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>It looks normal:</strong> Teams file-sharing and “update required” messages fit everyday work patterns.</li>
+  <li><strong>Legitimate tools can be misused:</strong> Remote access software isn’t malware on its own, but in the wrong hands it can enable account takeover, data theft and ransomware.</li>
+  <li><strong>High impact, low effort:</strong> One user install can give an attacker a foothold that bypasses many traditional detections.</li>
+  <li><strong>Hidden access paths:</strong> Unmanaged AI agents can introduce new permissions and automations that security and IT teams aren’t monitoring.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>An email or Teams message saying a document is “secure” and requires a <strong>Teams update</strong> before it can be viewed.</li>
+  <li>Being redirected to a <strong>lookalike store/download page</strong> rather than your normal Microsoft update path.</li>
+  <li>Unexpected prompts to download/install software when trying to open a file shared by an external party.</li>
+  <li>New or unknown remote access tools appearing on devices (or new “support” icons/services running).</li>
+  <li>Users reporting “IT support” pop-ups or someone asking them to approve access/installation urgently.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Initial access:</strong> Phish staff with a realistic “shared document” message.</li>
+  <li><strong>Tool-based control:</strong> Get the victim to install a legitimate RMM/remote access tool, giving persistent interactive access.</li>
+  <li><strong>Follow-on actions:</strong> Explore file shares and cloud drives, create new accounts, change inbox rules, and move towards payment fraud or ransomware disruption.</li>
+  <li><strong>Abuse of trust:</strong> Once inside, attackers may message colleagues from a compromised account with the same “document” lure.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Warn staff (5-minute message):</strong> “No document should require you to install or update Teams to open it. If prompted, stop and report it.”</li>
+  <li><strong>Control remote access tools:</strong> Ensure only approved remote support/RMM tools are allowed; block or alert on unapproved ones.</li>
+  <li><strong>Harden installation rights:</strong> Limit who can install software on company devices and review any recent installs of remote access tools.</li>
+  <li><strong>Check for persistence:</strong> Look for newly installed remote support apps and new device management agents on endpoints.</li>
+  <li><strong>Review AI tool usage:</strong> Ask teams what AI agents/connectors they have enabled (email, Drive/SharePoint, CRM, finance tools) and whether they’re approved.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an <strong>allow-list</strong> for remote support/RMM tools, and alerts when new remote access software appears?</li>
+  <li>Can you quickly report on <strong>newly installed applications</strong> across company devices in the last 7–14 days?</li>
+  <li>Are we monitoring for <strong>unusual outbound connections</strong> and remote-control activity that indicates hands-on-keyboard access?</li>
+  <li>What’s our process for staff to <strong>report suspicious “update required” prompts</strong>, and how quickly do we triage them?</li>
+  <li>Do we have visibility of <strong>third-party app/AI agent authorisations</strong> in Microsoft 365/Google Workspace, and a way to review/remove risky ones?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business uses workflow automation platforms (e.g. n8n) or relies on an outsourced provider that does, confirm they apply vendor security updates promptly and restrict who has “editor” access to automation workflows. Even when an issue is “authenticated-only”, SMEs often have too many admin/editor accounts and weak separation between dev and production.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff alert: “If a shared document asks you to ‘update Teams’ or install anything to view it, stop and report it — do not install remote support tools.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – ‘Phishing triage checklist for office teams (what to forward to IT, what to screenshot, what to report immediately)’</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html" rel="noopener noreferrer">Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/" rel="noopener noreferrer">Shadow AI agents are multiplying. Here&#x27;s how to find and secure them.</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html" rel="noopener noreferrer">n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -4801,9 +4801,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-27T11:50:38.595889+01:00",
       "brief_slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates"
+    },
+    "3e98a5e938668834": {
+      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-27T16:12:26.447677+01:00",
+      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
+    },
+    "8cf0bb9ecf31a414": {
+      "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-27T16:12:26.447677+01:00",
+      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
+    },
+    "a95dd26365a570d9": {
+      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-27T16:12:26.447677+01:00",
+      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools",
+      "headline": "Fake Microsoft Teams update phishing is installing remote access tools",
+      "risk_level": "High",
+      "todays_lookout": "Phishing lures installing remote access / RMM tools via fake Teams updates",
+      "published_at": "2026-07-27T16:12:26.447677+01:00",
+      "published_label": "Monday 27 July 2026, 16:12 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+        "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+        "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+      ]
+    },
     {
       "slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates",
       "headline": "Today’s SMB lookout: reduce risk from “rushed” open‑source updates",
