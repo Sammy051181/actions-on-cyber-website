@@ -4822,9 +4822,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-27T16:12:26.447677+01:00",
       "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
+    },
+    "c9d9f99a67fd8241": {
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-27T18:55:07.691738+01:00",
+      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
+    },
+    "0dbbf636baae4cec": {
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-27T18:55:07.691738+01:00",
+      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
+    },
+    "7c7cdda876d9d947": {
+      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-27T18:55:07.691738+01:00",
+      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
+    },
+    "8c3cf13619552cfd": {
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
+      "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-27T18:55:07.691738+01:00",
+      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
+    },
+    "5937bd850a8b331f": {
+      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-27T18:55:07.691738+01:00",
+      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi",
+      "headline": "SMB Cyber Intelligence Brief: Supplier breach ripple-effects and finance-team phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, credential theft and ransomware ripple effects",
+      "published_at": "2026-07-27T18:55:07.691738+01:00",
+      "published_label": "Monday 27 July 2026, 18:55 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+        "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+        "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+        "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
+        "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
+      ]
+    },
     {
       "slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools",
       "headline": "Fake Microsoft Teams update phishing is installing remote access tools",
