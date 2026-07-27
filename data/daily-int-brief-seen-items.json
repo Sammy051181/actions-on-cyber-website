@@ -4794,9 +4794,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-26T18:14:37.786540+01:00",
       "brief_slug": "2026-07-26-1814-today-s-lookout-software-supply-chain-risk-via-github-pypi-dependencies"
+    },
+    "c2fbf638a7b054d5": {
+      "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-27T11:50:38.595889+01:00",
+      "brief_slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates",
+      "headline": "Today’s SMB lookout: reduce risk from “rushed” open‑source updates",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS risk from automated dependency updates",
+      "published_at": "2026-07-27T11:50:38.595889+01:00",
+      "published_label": "Monday 27 July 2026, 11:50 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
+      ]
+    },
     {
       "slug": "2026-07-26-1814-today-s-lookout-software-supply-chain-risk-via-github-pypi-dependencies",
       "headline": "Today’s lookout: software supply-chain risk via GitHub/PyPI dependencies",

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB lookout: reduce risk from “rushed” open‑source updates | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB lookout: reduce risk from “rushed” open‑source updates</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Monday 27 July 2026, 11:50 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS risk from automated dependency updates
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>If your business builds software (or has a website/app maintained by a third party), check how you handle automated dependency updates from GitHub Dependabot. GitHub has introduced a new option to wait at least three days after a package release before Dependabot opens an update pull request, intended to reduce adoption of potentially poisoned releases.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Small teams often rely on automation to keep code up to date. That saves time, but it can also mean you pull in a brand-new library release before the wider community has spotted issues. If a harmful release gets adopted, it can create knock-on problems like data exposure, service disruption, or emergency rebuilds—especially if your site/app is business-critical.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A sudden spike in dependency update pull requests, especially for less well-known packages.</li>
+  <li>Updates that arrive immediately after a new version is published ("same day" updates).</li>
+  <li>Updates that change a dependency in a way that seems unrelated to what you use it for (odd rename/replacement patterns).</li>
+  <li>Pressure to merge “green tick” updates quickly without review because they look routine.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li>Publish a malicious (or compromised) open-source package release and rely on automated tools to spread it quickly via “routine” update PRs.</li>
+  <li>Target smaller teams and outsourced web/app maintainers who may have lighter review processes and merge updates faster.</li>
+  <li>Exploit trust in automation (e.g., “Dependabot suggested it, so it must be safe”).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you use Dependabot</strong> (directly or via your web/app supplier).</li>
+  <li><strong>Set/confirm a cooldown policy</strong> for dependency updates so you’re not adopting brand-new releases immediately, unless there’s a clear business reason.</li>
+  <li><strong>Require human review</strong> for dependency updates before merging (even if tests pass).</li>
+  <li><strong>Prioritise critical systems</strong>: treat your customer-facing website/app, payment flows and integrations as higher risk—slower, more careful updates.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do you use GitHub Dependabot (or similar) on our repositories, website, or apps?</li>
+  <li>What cooldown or “minimum age” do you apply before taking dependency updates?</li>
+  <li>What’s your review process for automated update PRs (who approves, what checks are done)?</li>
+  <li>If a dependency release later turns out to be unsafe, how quickly can you roll back and verify we weren’t impacted?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This isn’t a traditional “patch now” item. It’s about avoiding rushed adoption of newly released third-party code through automation. Treat dependency updates as a supplier-risk decision: update promptly when needed, but with sensible delay and review.</p>
+
+        <h2>One action today</h2>
+        <p>Check (or ask your supplier) whether Dependabot is enabled and set a policy to delay routine dependency update PRs so they aren’t merged immediately after a new release.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Supplier &amp; SaaS security questions (for web/app and IT providers)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html" rel="noopener noreferrer">GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
