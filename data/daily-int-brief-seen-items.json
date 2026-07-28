@@ -4920,9 +4920,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-28T15:35:40.197738+01:00",
       "brief_slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad"
+    },
+    "1aabbd54b06eda1f": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+      "title": "MikroTik RouterOS and Cloud Hosted Router",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-28T18:44:47.860667+01:00",
+      "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
+    },
+    "81917f51ec1dcd5c": {
+      "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-28T18:44:47.860667+01:00",
+      "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
+    },
+    "25a6aa3b9fadee7c": {
+      "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-28T18:44:47.860667+01:00",
+      "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
+    },
+    "307824cb79d68303": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-28T18:44:47.860667+01:00",
+      "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
+    },
+    "a531957225398740": {
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-28T18:44:47.860667+01:00",
+      "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i",
+      "headline": "Today’s SME cyber lookout: exposed routers & device management ports, plus growing IoT/Linux botnets",
+      "risk_level": "High",
+      "todays_lookout": "Internet-exposed network gear and remote management interfaces",
+      "published_at": "2026-07-28T18:44:47.860667+01:00",
+      "published_label": "Tuesday 28 July 2026, 18:44 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+        "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+        "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+        "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+        "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
+      ]
+    },
     {
       "slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad",
       "headline": "Today’s SMB cyber lookout: phishing-led logins, remote tools misuse, and exposed admin interfaces",

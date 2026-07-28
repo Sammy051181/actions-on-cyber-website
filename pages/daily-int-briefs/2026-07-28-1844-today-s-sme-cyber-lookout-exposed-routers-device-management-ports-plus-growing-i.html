@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: exposed routers &amp; device management ports, plus growing IoT/Linux botnets | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: exposed routers &amp; device management ports, plus growing IoT/Linux botnets</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 28 July 2026, 18:44 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Internet-exposed network gear and remote management interfaces
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Internet-facing routers and remote admin services</strong> (especially MikroTik) being targeted for unauthorised access.</li>
+  <li><strong>Server “out-of-band” management ports</strong> (IPMI/BMC) exposed to the internet and leaking credential material before login.</li>
+  <li><strong>IoT/Linux device botnets</strong> (Mirai-style) using password guessing and persistence to keep control of compromised devices, then using them for DDoS and traffic relaying.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a small number of “always-on” devices (routers, firewalls, CCTV/NVRs, smart signage, door access, NAS boxes, server management tools). If these are reachable from the internet or protected by weak/default credentials, attackers can:</p>
+<ul>
+  <li>gain a foothold into the business network;</li>
+  <li>disrupt connectivity (including phone/VoIP and cloud access);</li>
+  <li>use your equipment as part of a botnet, creating reputational and service problems;</li>
+  <li>use stolen access paths to attempt wider compromise of email, finance systems, or remote access tools.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected router reboots, configuration changes, or new admin users.</li>
+  <li>Unusual outbound traffic volumes, especially from devices that normally do very little (CCTV, printers, signage, small Linux boxes).</li>
+  <li>Internet connection slowing dramatically without an obvious business cause.</li>
+  <li>Security alerts about repeated login attempts against router/admin portals.</li>
+  <li>Discovery that a remote management interface (e.g. IPMI/BMC) is publicly reachable.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Password guessing against network gear</strong>: today’s advisory highlights risk where attackers can rapidly guess credentials and gain unauthorised access.</li>
+  <li><strong>Abusing exposed management interfaces</strong>: researchers report many internet-exposed BMC/IPMI interfaces disclosing password-derived hashes before login, which increases the likelihood of account compromise if those interfaces are reachable.</li>
+  <li><strong>Botnet compromise of Linux/IoT devices</strong>: Mirai-derived botnets commonly spread via credential brute force (e.g. Telnet) and can be built to persist and recover even after defenders try to stop them.</li>
+  <li><strong>DDoS and relay use</strong>: compromised devices may be used to launch DDoS attacks or relay traffic, which can cause service disruption or lead to your IP ranges being blocked.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm what is exposed to the internet</strong>: router admin panels, remote management ports (IPMI/BMC), CCTV/NVR interfaces, NAS admin consoles, and any Telnet/SSH/RDP endpoints.</li>
+  <li><strong>Turn off remote administration</strong> unless it is genuinely needed. If needed, restrict by VPN and trusted IPs only.</li>
+  <li><strong>Enforce strong, unique admin credentials</strong> on routers, switches, Wi‑Fi controllers, NAS, CCTV/NVRs, and any management portals. Remove default accounts where possible.</li>
+  <li><strong>Check logs for brute-force patterns</strong> (repeated authentication failures) and set alerts for sudden spikes.</li>
+  <li><strong>Inventory “small Linux/IoT” assets</strong> (including those in comms cupboards) and identify who owns/supports each device.</li>
+  <li><strong>Prepare for disruption</strong>: document how to regain control of your router/firewall (admin access, backups, ISP escalation path) if it is locked or tampered with.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you provide a list of <strong>all internet-exposed services</strong> for our business (including any vendor support access paths)?</li>
+  <li>Do we have any <strong>MikroTik</strong> devices, and if so, how are they managed and monitored for login attempts and config changes?</li>
+  <li>Do we operate any <strong>IPMI/BMC</strong> interfaces, and are they <strong>blocked from the public internet</strong>?</li>
+  <li>What monitoring do we have for <strong>unusual outbound traffic</strong> that could indicate a botnet or relay activity?</li>
+  <li>Do we have <strong>known-good configuration backups</strong> for our router/firewall, and a tested restore process?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has issued an advisory on <strong>MikroTik RouterOS / Cloud Hosted Router</strong> relating to excessive authentication attempts (CVE-2026-16347). For SMEs, the practical takeaway is to prioritise: limiting/turning off public admin access, enforcing strong unique admin credentials, and ensuring your IT provider applies vendor updates promptly where you use MikroTik.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for a simple list of everything in your business that is reachable from the public internet (routers, admin portals, IPMI/BMC, CCTV/NVR, NAS) and have them disable or lock down anything that doesn’t need to be public.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Internet exposure &amp; remote access quick audit (routers, firewalls, VPN, admin portals)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05" rel="noopener noreferrer">MikroTik RouterOS and Cloud Hosted Router</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html" rel="noopener noreferrer">24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html" rel="noopener noreferrer">Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/" rel="noopener noreferrer">New Dysphoria DDoS botnet spreads to 200k devices worldwide</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html" rel="noopener noreferrer">Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
