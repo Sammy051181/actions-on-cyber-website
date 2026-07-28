@@ -4892,9 +4892,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-28T10:47:49.153255+01:00",
       "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
+    },
+    "f51be5d7337c1e9e": {
+      "url": "https://blog.talosintelligence.com/ir-trends-q2-2026/",
+      "title": "IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains",
+      "source": "Cisco Talos",
+      "seen_at": "2026-07-28T15:35:40.197738+01:00",
+      "brief_slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad"
+    },
+    "45a9706f39c1a83c": {
+      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-28T15:35:40.197738+01:00",
+      "brief_slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad"
+    },
+    "ddb0db774a554b6d": {
+      "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-28T15:35:40.197738+01:00",
+      "brief_slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad"
+    },
+    "2669504f3fb39551": {
+      "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-28T15:35:40.197738+01:00",
+      "brief_slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-28-1535-today-s-smb-cyber-lookout-phishing-led-logins-remote-tools-misuse-and-exposed-ad",
+      "headline": "Today’s SMB cyber lookout: phishing-led logins, remote tools misuse, and exposed admin interfaces",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and remote access abuse (SSO/MFA, remote management tools, exposed admin interfaces)",
+      "published_at": "2026-07-28T15:35:40.197738+01:00",
+      "published_label": "Tuesday 28 July 2026, 15:35 UK time",
+      "source_urls": [
+        "https://blog.talosintelligence.com/ir-trends-q2-2026/",
+        "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+        "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+        "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
+      ]
+    },
     {
       "slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n",
       "headline": "Today’s SMB cyber brief: third‑party breach lures and active attacks on on‑prem network/admin tools",

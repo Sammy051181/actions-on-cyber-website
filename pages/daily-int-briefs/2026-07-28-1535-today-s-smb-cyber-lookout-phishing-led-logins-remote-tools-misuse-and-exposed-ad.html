@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: phishing-led logins, remote tools misuse, and exposed admin interfaces | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: phishing-led logins, remote tools misuse, and exposed admin interfaces</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 28 July 2026, 15:35 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft and remote access abuse (SSO/MFA, remote management tools, exposed admin interfaces)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Keep a close eye on <strong>phishing-led account takeovers</strong> (especially where staff use Single Sign-On) and <strong>unexpected use of remote management tools</strong> on laptops and servers. Also review any <strong>internet-exposed management interfaces</strong> (server/hosting admin panels and similar) which can leak credentials or become a quick route into your systems.</p>
+<ul>
+  <li><strong>Phishing is still the front door</strong>: incident responders are seeing more attacks starting with convincing emails and messages that capture passwords or MFA codes.</li>
+  <li><strong>Legitimate remote tools are being weaponised</strong>: attackers often prefer “normal” admin software because it blends in and can evade basic alerting.</li>
+  <li><strong>SSO blast radius</strong>: one compromised SSO account can unlock multiple business apps (email, files, HR, finance, CRM).</li>
+  <li><strong>Internet-exposed device management</strong>: some server management controllers have been found leaking password hashes when exposed online.</li>
+  <li><strong>Some on-prem IT tooling may be at elevated risk</strong>: if you run JetBrains TeamCity on-prem, treat it as high priority to review with your provider.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs and charities often rely on a small number of admin accounts, a handful of key cloud services, and an MSP/IT provider. That means:</p>
+<ul>
+  <li><strong>One login can equal full business access</strong> (email + files + finance workflows).</li>
+  <li><strong>Remote access misuse</strong> can lead to rapid ransomware or payroll/payment fraud.</li>
+  <li><strong>Disruption risk</strong>: if build/IT automation tools are compromised (e.g., CI/CD systems), it can cascade into outages, delayed projects, and supplier impacts.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>MFA prompts staff didn’t initiate (“Approve sign-in?” fatigue prompts).</li>
+  <li>New email inbox rules, forwarding set up, or “sent items” that staff don’t recognise.</li>
+  <li>Fresh remote access software appearing on endpoints (or remote tools running at odd hours).</li>
+  <li>Admin logins from unusual locations/devices, or multiple failed logins followed by a success.</li>
+  <li>Unexpected changes to payment details, supplier bank changes, or urgent invoice chasing tied to email threads.</li>
+  <li>Servers/devices that should never be reachable from the internet appearing in external scans or alerts.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Phishing for credentials</strong>, then using SSO to pivot into multiple SaaS platforms.</li>
+  <li><strong>MFA bypass by social engineering</strong> (tricking users into approving prompts) or capturing one-time codes.</li>
+  <li><strong>Abusing legitimate remote management tools</strong> to move around the network quietly, deploy scripts, or exfiltrate data.</li>
+  <li><strong>Targeting exposed management interfaces</strong> to obtain credential material and attempt password cracking or reuse elsewhere.</li>
+  <li><strong>Compromising on-prem automation/admin platforms</strong> to run unauthorised actions and spread further.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a short staff reminder</strong>: don’t approve unexpected sign-in prompts; report them immediately.</li>
+  <li><strong>Prioritise identity hardening</strong>: ensure phishing-resistant MFA is enabled where available for admin accounts and finance/payroll users.</li>
+  <li><strong>Audit remote access tools</strong>: confirm which tools are approved, who can use them, and ensure logging is enabled and reviewed.</li>
+  <li><strong>Check for exposed management interfaces</strong>: ask IT to confirm no server/device management consoles are reachable from the internet unless explicitly required and tightly restricted.</li>
+  <li><strong>Review high-value SaaS accounts</strong>: finance, payroll, M365/Google, file storage, CRM—confirm recovery emails, MFA methods, and admin roles are correct.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which accounts are protected with <strong>phishing-resistant MFA</strong> (not just SMS/OTP) and what’s the rollout plan?</li>
+  <li>Do we have a <strong>list of approved remote management tools</strong>, and alerts for new/unknown ones appearing?</li>
+  <li>Can you show us <strong>sign-in anomaly reporting</strong> for our email/SSO (impossible travel, unfamiliar devices, repeated MFA prompts)?</li>
+  <li>Are any of our servers/devices exposing <strong>management interfaces</strong> to the internet? If yes, what is the business justification and how is access restricted?</li>
+  <li>Do we run <strong>JetBrains TeamCity on-prem</strong> anywhere (including at a supplier/MSP)? If yes, what’s the risk assessment and mitigation plan?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you (or a supplier) run <strong>JetBrains TeamCity on-prem</strong>, treat today as a prompt to confirm it’s being actively managed and updated. Even if you don’t use it directly, it can sit inside agencies, software suppliers, or IT providers—so it’s worth asking the question as part of supplier assurance.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: “If you get an unexpected sign-in/MFA prompt, do not approve it—report it to IT immediately,” and ensure finance/payroll/admin accounts are prioritised for phishing-resistant MFA.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Email &amp; SSO takeover response (first 30 minutes)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://blog.talosintelligence.com/ir-trends-q2-2026/" rel="noopener noreferrer">IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</a> <span class="muted">(Cisco Talos)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/" rel="noopener noreferrer">Is Your SSO Protected Against Modern Credential Attacks?</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/" rel="noopener noreferrer">Over 24,000 exposed server BMCs leak password hash via decades-old flaw</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html" rel="noopener noreferrer">Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
