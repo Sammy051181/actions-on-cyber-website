@@ -4857,9 +4857,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-27T18:55:07.691738+01:00",
       "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
+    },
+    "641ea5c9eac6a71f": {
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-28T10:47:49.153255+01:00",
+      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
+    },
+    "635ff0da3d382dd7": {
+      "url": "https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover",
+      "title": "When cyber attacks happen: helping organisations recover",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-07-28T10:47:49.153255+01:00",
+      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
+    },
+    "b0231053be0f6e75": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-28T10:47:49.153255+01:00",
+      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
+    },
+    "8cd2b59ae471c314": {
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-28T10:47:49.153255+01:00",
+      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
+    },
+    "953c9254dfa40fb0": {
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-28T10:47:49.153255+01:00",
+      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n",
+      "headline": "Today’s SMB cyber brief: third‑party breach lures and active attacks on on‑prem network/admin tools",
+      "risk_level": "High",
+      "todays_lookout": "Supplier breach follow‑on scams + attacks targeting on‑prem management platforms",
+      "published_at": "2026-07-28T10:47:49.153255+01:00",
+      "published_label": "Tuesday 28 July 2026, 10:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+        "https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover",
+        "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+        "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
+      ]
+    },
     {
       "slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi",
       "headline": "SMB Cyber Intelligence Brief: Supplier breach ripple-effects and finance-team phishing",
