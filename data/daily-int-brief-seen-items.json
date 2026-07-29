@@ -4955,9 +4955,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-28T18:44:47.860667+01:00",
       "brief_slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i"
+    },
+    "42d1eedeb284c954": {
+      "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "01627ef4584aebe7": {
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "03429ea5c1ea7e0e": {
+      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "cca80125d09ead74": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+      "title": "CISA shares advice on isolating vital systems during cyberattacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "af3adc38efd3a79a": {
+      "url": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+      "title": "CI Fortify – Advice for isolating vital systems",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "a479ff887ff6960e": {
+      "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T10:48:47.327973+01:00",
+      "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-",
+      "headline": "SMB Cyber Brief: supply‑chain malware in npm packages, plus repository & credential spillover risks",
+      "risk_level": "High",
+      "todays_lookout": "Software supply-chain risk (npm/repositories) and knock-on credential exposure",
+      "published_at": "2026-07-29T10:48:47.327973+01:00",
+      "published_label": "Wednesday 29 July 2026, 10:48 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+        "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+        "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+        "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+        "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
+      ]
+    },
     {
       "slug": "2026-07-28-1844-today-s-sme-cyber-lookout-exposed-routers-device-management-ports-plus-growing-i",
       "headline": "Today’s SME cyber lookout: exposed routers & device management ports, plus growing IoT/Linux botnets",
