@@ -5018,9 +5018,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-29T15:30:40.565447+01:00",
       "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
+    },
+    "a6b054a21115de21": {
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-29T18:37:46.916005+01:00",
+      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
+    },
+    "5fe225fb7aff5599": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T18:37:46.916005+01:00",
+      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
+    },
+    "8f44a724389475a9": {
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T18:37:46.916005+01:00",
+      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
+    },
+    "afe089cbd0d84735": {
+      "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-29T18:37:46.916005+01:00",
+      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
+    },
+    "ee677153c8bcc350": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+      "title": "ABB KNX Update Tool",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-29T18:37:46.916005+01:00",
+      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup",
+      "headline": "Today’s SMB cyber brief: coordinated disruption, credential reuse after AI/Dev supplier incident, and payment-diversion fraud",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/credential fallout and payment diversion scams amid disruption-focused attacks",
+      "published_at": "2026-07-29T18:37:46.916005+01:00",
+      "published_label": "Wednesday 29 July 2026, 18:37 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+        "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+        "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07"
+      ]
+    },
     {
       "slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris",
       "headline": "SMB Cyber Intelligence Brief: Supplier DNS hijack fallout & AI agent permission risk",
