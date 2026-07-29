@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Supplier DNS hijack fallout &amp; AI agent permission risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Supplier DNS hijack fallout &amp; AI agent permission risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Wednesday 29 July 2026, 15:30 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams and misdirected logins; AI agent over-permission risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Supplier disruption and impersonation risk after a DNS hijack</strong>: A drone software developer (CubePilot) reported a DNS hijacking incident causing operational disruption and the potential interception of traffic. Events like this often trigger knock-on risks such as fake “support” emails, password-reset prompts, and redirected logins.</p>
+<p><strong>2) AI agents with broad permissions</strong>: Security commentary is warning that “agentic” AI tools can improvise as they complete tasks. If they are given wide access (mailboxes, files, finance systems, admin consoles), mistakes or abuse can scale quickly.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>Supplier-style incidents are prime phishing fuel</strong>: Attackers often exploit public disruption to send believable emails like “service restored—log in here” or “urgent security update”.</li>
+<li><strong>DNS problems can look like ‘normal IT issues’</strong>: Staff may just see login pages behaving oddly, certificate warnings, or “can’t reach site” errors and try workarounds that increase risk.</li>
+<li><strong>AI tools are being connected to business systems</strong>: SMEs adopting AI for inbox triage, document handling, and finance admin may accidentally grant more access than needed.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Unexpected certificate/security warnings when visiting a supplier portal or SaaS login page.</li>
+<li>Supplier links suddenly redirecting to unfamiliar domains, new “verification” pages, or asking to re-enter credentials unexpectedly.</li>
+<li>Emails/SMS messages referencing a supplier outage and urging urgent actions (password reset, new bookmark, new payment details, “reconnect your account”).</li>
+<li>AI agent/activity anomalies: unusual file sharing, large volumes of emails sent, unexpected document downloads/uploads, or new integrations being authorised.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Impersonation after supplier disruption</strong>: Criminals may copy the supplier’s branding and send “incident update” messages to steal credentials or MFA codes.</li>
+<li><strong>Traffic interception and credential capture</strong>: If users are redirected or tricked into a lookalike login, passwords (and sometimes session tokens) can be captured.</li>
+<li><strong>Over-permissioned AI agents</strong>: If an AI agent can access mail, files, or finance apps, an attacker (or a flawed workflow) could trigger data leakage, unauthorised sharing, or risky changes at speed.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Staff message (5 minutes)</strong>: “If you get an email about a supplier outage or security update, don’t click. Go via your saved bookmark or type the known address, and report anything odd.”</li>
+<li><strong>Enforce ‘no login via email links’ for critical systems</strong> (email, payroll, banking, accounting, CRM).</li>
+<li><strong>Check your key suppliers list</strong>: note which portals are business-critical (payments, payroll, IT support, logistics). Make sure the official login route is documented internally.</li>
+<li><strong>Review AI agents/integrations</strong>: list any AI tools connected to email, SharePoint/Google Drive, accounting, ticketing, or customer systems; remove unused connectors and reduce permissions to least-privilege.</li>
+<li><strong>Finance-specific control</strong>: ensure any payment detail change is verified out-of-band (call-back to a known number, not the one in the email).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do we have a process to validate whether a supplier domain/login is genuine (e.g., DNS and certificate checks) when staff report “the website looks different”?</li>
+<li>What protections are in place to reduce damage from stolen credentials (MFA coverage, conditional access, impossible travel alerts)?</li>
+<li>Can you produce a list of our AI/automation integrations and the permissions they currently hold across email, files, and finance systems?</li>
+<li>Do we monitor for suspicious OAuth/app authorisations and unusual bulk activity (mass email sending, mass file sharing/downloads)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has released a Windows 11 preview cumulative update with multiple fixes. For most SMEs, treat this as a reminder to keep devices on a managed update cadence and avoid long delays—especially for laptops used for finance/admin work. If you use an outsourced IT provider, confirm when preview updates are tested and when production rollout happens.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short staff note today: “Don’t log into supplier or SaaS portals from email links—use bookmarks/typed addresses and report any certificate warnings or ‘new login’ pages immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; invoice fraud verification checklist (call-back process and ‘no payment change by email’ control)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/" rel="noopener noreferrer">CubePilot drone software dev hit by DNS hijacking to intercept traffic</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/" rel="noopener noreferrer">Your AI Agents Are Guessing at Scale: Permissions Decide the Damage</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/" rel="noopener noreferrer">Windows 11 KB5101684 update released with 42 changes and fixes</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

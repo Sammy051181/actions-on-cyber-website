@@ -4997,9 +4997,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-29T10:48:47.327973+01:00",
       "brief_slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-"
+    },
+    "c12616944c9c5a37": {
+      "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T15:30:40.565447+01:00",
+      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
+    },
+    "10d1989fdc09df6b": {
+      "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T15:30:40.565447+01:00",
+      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
+    },
+    "d10f408793887a18": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-29T15:30:40.565447+01:00",
+      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris",
+      "headline": "SMB Cyber Intelligence Brief: Supplier DNS hijack fallout & AI agent permission risk",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams and misdirected logins; AI agent over-permission risk",
+      "published_at": "2026-07-29T15:30:40.565447+01:00",
+      "published_label": "Wednesday 29 July 2026, 15:30 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+        "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+        "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/"
+      ]
+    },
     {
       "slug": "2026-07-29-1048-smb-cyber-brief-supply-chain-malware-in-npm-packages-plus-repository-credential-",
       "headline": "SMB Cyber Brief: supply‑chain malware in npm packages, plus repository & credential spillover risks",
