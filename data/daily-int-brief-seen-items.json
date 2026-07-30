@@ -5109,9 +5109,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-30T15:30:40.727271+01:00",
       "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
+    },
+    "459f40727e656d26": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
+      "title": "Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-07-30T18:47:56.147188+01:00",
+      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
+    },
+    "034520a44f9946fb": {
+      "url": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+      "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-30T18:47:56.147188+01:00",
+      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
+    },
+    "f62495d075184976": {
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "source": "Krebs on Security",
+      "seen_at": "2026-07-30T18:47:56.147188+01:00",
+      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
+    },
+    "c286bac49280d314": {
+      "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T18:47:56.147188+01:00",
+      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network",
+      "headline": "Today’s SMB Cyber Brief: supply‑chain tampering, risky “streaming sticks” on networks, and cloud trust anxiety",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier & SaaS trust scams, plus risky unmanaged devices on the network",
+      "published_at": "2026-07-30T18:47:56.147188+01:00",
+      "published_label": "Thursday 30 July 2026, 18:47 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
+        "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+        "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+        "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
+      ]
+    },
     {
       "slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a",
       "headline": "SMB Cyber Intelligence Brief: Rails app risk, Copilot document prompt carry-over, and software supply-chain lessons",
