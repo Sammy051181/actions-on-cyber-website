@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Rails app risk, Copilot document prompt carry-over, and software supply-chain lessons | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Rails app risk, Copilot document prompt carry-over, and software supply-chain lessons</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 30 July 2026, 15:30 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud/SaaS and supplier risk (web apps, Microsoft 365 Copilot content integrity, software supply chain)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>If you run (or buy) a website built on Ruby on Rails:</strong> there is a newly fixed, critical issue involving image uploads that could expose server files and secrets.</li>
+  <li><strong>If you use Microsoft 365 Copilot for Word:</strong> be aware that hidden instructions in a document can influence Copilot’s output and those instructions may get copied into newly generated documents.</li>
+  <li><strong>Software supply chain reality check:</strong> a high-profile npm package hijack has now been attributed to a nation-state actor, underlining how a single compromised supplier account can affect huge numbers of organisations downstream.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on third parties (web agencies, SaaS tools, IT providers, and off-the-shelf apps). When issues like these appear, the impact is frequently indirect: stolen credentials, leaked secrets, tampered reports, and knock-on disruption. Smaller teams also have less time to validate AI-generated documents or interrogate what’s happening inside a hosted web app.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Web/app warning signs:</strong> unusual activity around file uploads, unexpected errors after uploads, sudden configuration changes, or alerts about unusual access to application secrets/credentials.</li>
+  <li><strong>Microsoft 365 / document warning signs:</strong> Copilot outputs that change figures, reframe recommendations, add odd policy statements, or repeatedly reintroduce the same strange wording across documents.</li>
+  <li><strong>Supply chain warning signs:</strong> sudden “urgent” requests to approve new app integrations, new OAuth/SSO consent prompts, or unexpected dependency / plugin updates pushed by a supplier without notice.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Rails/image upload issue:</strong> attackers may try to retrieve sensitive files or environment secrets from an exposed web application, then use those secrets to access databases, cloud storage, or third-party services.</li>
+  <li><strong>Copilot-in-Word prompt carry-over:</strong> attackers (or disgruntled insiders) could embed hidden instructions in a document that persuades staff to produce a misleading report, then have those instructions persist into future drafts.</li>
+  <li><strong>Supply-chain compromise pattern:</strong> phishing a maintainer/admin account or abusing trusted update channels can insert unwanted code or behaviour into widely used tools, which then spreads through routine updates.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Identify ownership:</strong> confirm who is responsible for your public-facing website/app (internal team, agency, MSP) and how quickly they can apply framework-level security fixes.</li>
+  <li><strong>Lock down “secrets”:</strong> ensure app secrets and cloud credentials are stored and rotated appropriately (and not left long-lived). If you suspect exposure, rotate credentials promptly.</li>
+  <li><strong>Copilot guardrails:</strong> treat Copilot outputs as drafts. Add a simple check step for financial, HR, legal, and customer-facing documents: verify key numbers, decisions, and claims against source data before sending.</li>
+  <li><strong>Document hygiene:</strong> where possible, use trusted templates; be cautious with externally supplied Word documents used as inputs to Copilot; consider isolating and reviewing content before reuse.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run any Ruby on Rails applications (including via suppliers/web agencies)? Who patches them, and what is our timeframe to apply critical framework fixes?</li>
+  <li>Do we have monitoring that would detect unusual access to application secrets, storage buckets, or databases following a web app compromise?</li>
+  <li>For Microsoft 365 Copilot: what guidance do we give staff on using external documents as prompts/inputs, and do we have an approval step for sensitive outputs?</li>
+  <li>How do we manage software supply-chain risk (dependency governance, code signing, admin account protections, and response steps if a supplier is compromised)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you (or your web supplier) run Ruby on Rails with Active Storage and accept image uploads, confirm the latest security fixes have been applied promptly. This is especially important for internet-facing apps, because secrets exposed from a web server can lead to broader account and data compromise.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day message to your web agency/MSP asking them to confirm whether any of your sites/apps use Ruby on Rails with image uploads and, if yes, that the relevant security fix has been applied and app secrets reviewed/rotated where needed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; MSP Security Questions (quick checklist for owners and office managers)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html" rel="noopener noreferrer">Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html" rel="noopener noreferrer">Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html" rel="noopener noreferrer">Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

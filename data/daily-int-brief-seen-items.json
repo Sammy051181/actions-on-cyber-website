@@ -5088,9 +5088,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-30T10:40:45.503201+01:00",
       "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
+    },
+    "5226afe42a903f3d": {
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T15:30:40.727271+01:00",
+      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
+    },
+    "691699a9f32a9b7a": {
+      "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T15:30:40.727271+01:00",
+      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
+    },
+    "c446184a12ad0dbf": {
+      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T15:30:40.727271+01:00",
+      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a",
+      "headline": "SMB Cyber Intelligence Brief: Rails app risk, Copilot document prompt carry-over, and software supply-chain lessons",
+      "risk_level": "High",
+      "todays_lookout": "Cloud/SaaS and supplier risk (web apps, Microsoft 365 Copilot content integrity, software supply chain)",
+      "published_at": "2026-07-30T15:30:40.727271+01:00",
+      "published_label": "Thursday 30 July 2026, 15:30 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+        "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+        "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
+      ]
+    },
     {
       "slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers",
       "headline": "Today’s SMB cyber look-out: firewall management systems under attack, webmail persistence, and SaaS disruption",
