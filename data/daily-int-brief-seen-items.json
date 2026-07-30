@@ -5053,9 +5053,59 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-07-29T18:37:46.916005+01:00",
       "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
+    },
+    "8f821d2f9cd7a216": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-30T10:40:45.503201+01:00",
+      "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
+    },
+    "4d108233674824f4": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-07-30T10:40:45.503201+01:00",
+      "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
+    },
+    "5b323651846af4f4": {
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T10:40:45.503201+01:00",
+      "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
+    },
+    "08772ea58b8c9e26": {
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-30T10:40:45.503201+01:00",
+      "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
+    },
+    "75f8049e8ef75bda": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-30T10:40:45.503201+01:00",
+      "brief_slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-30-1040-today-s-smb-cyber-look-out-firewall-management-systems-under-attack-webmail-pers",
+      "headline": "Today’s SMB cyber look-out: firewall management systems under attack, webmail persistence, and SaaS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Perimeter & SaaS dependency risk (firewall management access + webmail persistence + AI service outage)",
+      "published_at": "2026-07-30T10:40:45.503201+01:00",
+      "published_label": "Thursday 30 July 2026, 10:40 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+        "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+        "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/"
+      ]
+    },
     {
       "slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup",
       "headline": "Today’s SMB cyber brief: coordinated disruption, credential reuse after AI/Dev supplier incident, and payment-diversion fraud",

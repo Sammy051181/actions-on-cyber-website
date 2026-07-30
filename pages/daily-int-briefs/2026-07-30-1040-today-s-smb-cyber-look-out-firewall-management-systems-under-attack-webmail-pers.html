@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber look-out: firewall management systems under attack, webmail persistence, and SaaS disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber look-out: firewall management systems under attack, webmail persistence, and SaaS disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 30 July 2026, 10:40 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Perimeter &amp; SaaS dependency risk (firewall management access + webmail persistence + AI service outage)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes are worth SMEs paying attention to today:</p>
+<ul>
+  <li><strong>Firewall / security management consoles being targeted:</strong> Cisco has warned that a Secure Firewall Management Center (FMC) issue involving static credentials has been <strong>actively exploited</strong>.</li>
+  <li><strong>Webmail “stickiness” after password resets:</strong> Reporting suggests attackers are exploiting an Outlook Web Access (OWA) flaw to <strong>keep mailbox access even after credential rotation</strong>, seen in multiple sectors.</li>
+  <li><strong>SaaS disruption:</strong> Anthropic has confirmed a <strong>global Claude outage / elevated errors</strong>, which can affect any tools that depend on the Claude API.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Perimeter compromise can become total business compromise:</strong> If a firewall management system is accessed, attackers may change rules, disable protections, or pivot further into your network.</li>
+  <li><strong>Email is your front door for fraud:</strong> If an attacker can maintain access to a mailbox, they can monitor invoices, reset passwords elsewhere, and run convincing “conversation hijack” payment scams.</li>
+  <li><strong>AI tool downtime is an operational risk:</strong> If staff rely on AI for customer replies, drafting, analysis, or ticket handling, an outage can create backlogs and rushed workarounds (which often reduce security and quality).</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected changes to firewall policies, admin accounts, or remote access settings.</li>
+  <li>New admin logins at odd hours, from unfamiliar locations, or repeated failed login attempts against management portals.</li>
+  <li>Users reporting they are being logged out repeatedly, receiving unexpected MFA prompts, or seeing mailbox rules/forwarding they didn’t set.</li>
+  <li>Suppliers/customers asking to “reconfirm” bank details mid-thread, or invoices that look slightly different from normal.</li>
+  <li>Claude/AI-enabled tools failing with overload-style errors; staff switching to personal accounts or unapproved AI tools to “get the job done”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Firewall management access:</strong> Attackers look for internet-exposed management interfaces or weakly governed admin access and then try to gain unauthorised entry to control security settings.</li>
+  <li><strong>Mailbox persistence:</strong> If attackers can hold onto access after a password reset, they can wait for payroll/payment runs, harvest invoices, and trigger resets for other business systems.</li>
+  <li><strong>Outage-driven social engineering:</strong> When a service is down, criminals often send “service status” emails or “urgent re-auth” messages to capture credentials, or impersonate support to “help”.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership of perimeter systems:</strong> Identify who manages your firewall and its management console (internal IT or MSP) and ensure there is an accountable owner.</li>
+  <li><strong>Check email abuse controls:</strong> Ask for a quick check of mailbox forwarding rules, suspicious inbox rules, and recent sign-in anomalies for key finance/admin users.</li>
+  <li><strong>Reinforce payment-change controls:</strong> Remind staff: bank detail changes are confirmed via a known phone number (not email), and second-person approval is required.</li>
+  <li><strong>Prepare for AI tool downtime:</strong> Agree a simple fallback process (templates, queue management, human review) so staff don’t create risky workarounds.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>Cisco Secure Firewall Management Center (FMC)</strong> anywhere (including at clients/sites we connect to)? If yes, is the management interface exposed to the internet, and what extra access controls are in place?</li>
+  <li>Have you checked for unusual admin access or configuration changes on perimeter devices in the last 7 days?</li>
+  <li>For Microsoft email: do we have monitoring/alerts for suspicious sign-ins and mailbox rule creation on finance and senior accounts?</li>
+  <li>What is our approved list of AI tools, and how do we prevent staff sharing business data into unapproved services during outages?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Cisco has reported active exploitation of a Cisco Secure Firewall Management Center issue (CVE-2026-20316) and CISA has added it to its Known Exploited Vulnerabilities catalogue; if your business (or MSP) uses FMC, treat validation and remediation as urgent and confirm any internet exposure and admin access controls.</p>
+
+        <h2>One action today</h2>
+        <p>Today, get written confirmation from your IT/MSP whether you use Cisco FMC (and if it is internet-exposed) and ask them to review the last 7 days of admin access/config changes plus sign-in anomalies for finance mailboxes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber ‘Supplier &amp; MSP Security Questions’ checklist (use it to confirm monitoring, access control, and incident comms expectations).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/" rel="noopener noreferrer">Cisco warns of FMC static credential flaw exploited in zero-day attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html" rel="noopener noreferrer">Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html" rel="noopener noreferrer">Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/" rel="noopener noreferrer">Anthropic confirms Claude is down worldwide</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
