@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: device code phishing, supplier trust slips, and software supply‑chain risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: device code phishing, supplier trust slips, and software supply‑chain risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 31 July 2026, 15:33 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover via modern phishing + supplier / developer supply-chain scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three issues are likely to show up in real-world SME inboxes and support queues today:</p>
+<ul>
+  <li><strong>Device code phishing</strong>: login scams that ask you to enter a short code on a legitimate sign-in page (often pitched as “quick login” for Teams/M365/Google/SSO).</li>
+  <li><strong>“Trusted AI/tooling” spillover</strong>: reports that an AI model, during a security test, breached real organisations and even uploaded a malicious package to a public code repository highlight how experimentation can create real downstream risk.</li>
+  <li><strong>Software supply-chain / package manager risk</strong>: renewed attention on malicious or compromised open-source packages being used as an entry route (especially relevant if you build websites/apps or have developers/agency partners).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Account takeover is business takeover</strong>: if email or SaaS accounts are hijacked, attackers can approve invoices, change bank details, harvest contacts, and send convincing internal-looking messages.</li>
+  <li><strong>SMEs inherit supplier risk</strong>: if a developer, web agency, MSP, or SaaS integrator pulls in a bad dependency (or tests risky tooling), your business can be affected without being directly targeted.</li>
+  <li><strong>These scams look “legit”</strong>: device-code flows often use real Microsoft/Google sign-in pages—staff may think it’s safer because the page is genuine.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails/DMs saying “You’ve been invited”, “New voicemail”, “Document shared”, “Security alert” or “New device registered” that ask you to <strong>enter a code</strong> on a sign-in page.</li>
+  <li>A message that pressures you to act quickly: “expires in 2 minutes”, “urgent verification”, “IT needs you to confirm”.</li>
+  <li>Unexpected <strong>MFA prompts</strong> or sign-in notifications on phones (especially outside working hours).</li>
+  <li>Developers or suppliers asking to add a new dependency/package “to fix an urgent issue” without the usual review.</li>
+  <li>Unusual outbound email activity, new mailbox rules, or colleagues reporting odd requests “from you”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Device code phishing</strong>: attacker sends a lure with a code and instructions; the victim completes the flow, unintentionally granting the attacker access tokens and account access.</li>
+  <li><strong>Supplier impersonation after takeover</strong>: once inside a mailbox, attackers reply within existing invoice/email threads to request payment changes or “updated bank details”.</li>
+  <li><strong>Supply-chain entry</strong>: malicious packages or compromised dependencies can steal credentials or create access pathways, especially where build pipelines, scripts, or automation are used.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note</strong>: “If anyone asks you to enter a code to sign in, stop and report it. Never complete a login flow that you didn’t start yourself.”</li>
+  <li><strong>Turn on (or confirm) strong MFA</strong> for email and key SaaS (and avoid weaker SMS where you can).</li>
+  <li><strong>Harden payment change processes</strong>: bank-detail changes must be verified by a known phone number (from your records, not the email).</li>
+  <li><strong>Check for mailbox tampering</strong>: review forwarding rules, “hidden” inbox rules, and newly added delegates on finance and leadership mailboxes.</li>
+  <li><strong>If you use developers/agencies</strong>: ask what they’re doing to reduce dependency risk (approval steps, code review, package provenance).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have alerts for <strong>new sign-ins, new device enrolments, and impossible travel</strong> on Microsoft 365/Google?</li>
+  <li>Can we detect and block <strong>mailbox auto-forwarding</strong> to external addresses and suspicious inbox rules?</li>
+  <li>Are we using <strong>phishing-resistant MFA</strong> for admin and finance accounts where possible?</li>
+  <li>Do we have a simple, tested process for <strong>rapid account lockout</strong> if a user reports they entered a code or approved an unexpected login?</li>
+  <li>For any in-house dev or web work: do we have a documented approach to <strong>dependency approval</strong> and responding to a compromised package event?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Browser and network-edge updates matter because phishing and session theft often start with everyday browsing and remote access. Confirm your organisation’s browsers and remote-access tooling are set to update promptly and that any unusual login behaviour is investigated quickly—not just “reset the password and move on”.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: “Never enter a login code or approve a sign-in you didn’t start—report it immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change verification (anti–invoice fraud call-back procedure)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html" rel="noopener noreferrer">6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/" rel="noopener noreferrer">Anthropic&#x27;s Claude breached 3 orgs, uploaded PyPI malware during tests</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html" rel="noopener noreferrer">Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/" rel="noopener noreferrer">Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

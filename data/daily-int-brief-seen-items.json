@@ -5158,9 +5158,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-31T10:51:54.156936+01:00",
       "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
+    },
+    "5538f32502a05e67": {
+      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-31T15:33:24.338655+01:00",
+      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
+    },
+    "65dc8ba86df182d9": {
+      "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T15:33:24.338655+01:00",
+      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
+    },
+    "82d450915eb17be1": {
+      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-31T15:33:24.338655+01:00",
+      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
+    },
+    "0134de5ca7fd6fb4": {
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T15:33:24.338655+01:00",
+      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software",
+      "headline": "Today’s SMB cyber lookout: device code phishing, supplier trust slips, and software supply‑chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover via modern phishing + supplier / developer supply-chain scams",
+      "published_at": "2026-07-31T15:33:24.338655+01:00",
+      "published_label": "Friday 31 July 2026, 15:33 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+        "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+        "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
+      ]
+    },
     {
       "slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams",
       "headline": "Teams ‘IT support’ vishing driving ransomware + fake macOS update scams",
