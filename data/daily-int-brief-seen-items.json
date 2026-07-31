@@ -5186,9 +5186,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-07-31T15:33:24.338655+01:00",
       "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
+    },
+    "7b0535bbb7f51436": {
+      "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T18:51:28.545507+01:00",
+      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
+    },
+    "b06dad6c3071ec1f": {
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
+      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T18:51:28.545507+01:00",
+      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
+    },
+    "2d601d2e82293a63": {
+      "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T18:51:28.545507+01:00",
+      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
+    },
+    "0426967600dbf1dd": {
+      "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+      "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T18:51:28.545507+01:00",
+      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
+    },
+    "f5592a08f538ab49": {
+      "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-31T18:51:28.545507+01:00",
+      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on",
+      "headline": "Today’s SMB cyber lookout: QR-code scams, “ClickFix” tricks, and AI-scaled attacks on exposed systems",
+      "risk_level": "High",
+      "todays_lookout": "Quishing and social-engineering leading to account takeover and malware, amplified by AI-assisted attacker tooling",
+      "published_at": "2026-07-31T18:51:28.545507+01:00",
+      "published_label": "Friday 31 July 2026, 18:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+        "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
+        "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+        "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+        "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html"
+      ]
+    },
     {
       "slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software",
       "headline": "Today’s SMB cyber lookout: device code phishing, supplier trust slips, and software supply‑chain risk",
