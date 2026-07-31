@@ -5137,9 +5137,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-30T18:47:56.147188+01:00",
       "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
+    },
+    "364711796e4c94f4": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T10:51:54.156936+01:00",
+      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
+    },
+    "e63683e834969b44": {
+      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-07-31T10:51:54.156936+01:00",
+      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
+    },
+    "6d59866226821ffe": {
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+      "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-07-31T10:51:54.156936+01:00",
+      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams",
+      "headline": "Teams ‘IT support’ vishing driving ransomware + fake macOS update scams",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation scams via Teams/remote support leading to ransomware",
+      "published_at": "2026-07-31T10:51:54.156936+01:00",
+      "published_label": "Friday 31 July 2026, 10:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+        "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+        "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
+      ]
+    },
     {
       "slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network",
       "headline": "Today’s SMB Cyber Brief: supply‑chain tampering, risky “streaming sticks” on networks, and cloud trust anxiety",
