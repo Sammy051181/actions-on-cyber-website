@@ -5256,9 +5256,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-01T10:20:19.841466+01:00",
       "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
+    },
+    "93672d4a35e04c86": {
+      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T14:53:19.454607+01:00",
+      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
+    },
+    "0fa86a6b2f57fc9d": {
+      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-01T14:53:19.454607+01:00",
+      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
+    },
+    "67fd5bee3590021f": {
+      "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+      "title": "Arch Linux disables AUR package adoption to stop malware flood",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T14:53:19.454607+01:00",
+      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey",
+      "headline": "Supplier script compromise: check third‑party web tags and payment/crypto journeys",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS script tampering and supply-chain knock-on risk",
+      "published_at": "2026-08-01T14:53:19.454607+01:00",
+      "published_label": "Saturday 01 August 2026, 14:53 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+        "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+        "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/"
+      ]
+    },
     {
       "slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd",
       "headline": "Today’s SMB cyber lookout: cloud supplier breaches, targeted phishing, and “fake update” traps on public Wi‑Fi",
