@@ -5221,9 +5221,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-07-31T18:51:28.545507+01:00",
       "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
+    },
+    "e0cbfbb17f2a64cb": {
+      "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T10:20:19.841466+01:00",
+      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
+    },
+    "b854b6f9db795aeb": {
+      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-01T10:20:19.841466+01:00",
+      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
+    },
+    "ef832fb7175ff4cb": {
+      "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-01T10:20:19.841466+01:00",
+      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
+    },
+    "2f554f1c5995f48e": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
+      "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-01T10:20:19.841466+01:00",
+      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
+    },
+    "0bef394e8ba869a8": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
+      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T10:20:19.841466+01:00",
+      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd",
+      "headline": "Today’s SMB cyber lookout: cloud supplier breaches, targeted phishing, and “fake update” traps on public Wi‑Fi",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & cloud data exposure + phishing and fake update malware",
+      "published_at": "2026-08-01T10:20:19.841466+01:00",
+      "published_label": "Saturday 01 August 2026, 10:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+        "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+        "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+        "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
+      ]
+    },
     {
       "slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on",
       "headline": "Today’s SMB cyber lookout: QR-code scams, “ClickFix” tricks, and AI-scaled attacks on exposed systems",
