@@ -5277,9 +5277,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-01T14:53:19.454607+01:00",
       "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
+    },
+    "8a2c99fa930a0297": {
+      "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-01T18:13:18.730102+01:00",
+      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
+    },
+    "d7e6c8399f800753": {
+      "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+      "title": "JetBrains warns of critical TeamCity remote code execution flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T18:13:18.730102+01:00",
+      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
+    },
+    "097fcbe5b08ca7e5": {
+      "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-01T18:13:18.730102+01:00",
+      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
+    },
+    "e64f30381c40bc65": {
+      "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-01T18:13:18.730102+01:00",
+      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli",
+      "headline": "Today’s SME cyber look-out: risky “cheap smart” devices on your network, plus supplier patch urgency",
+      "risk_level": "High",
+      "todays_lookout": "Rogue devices and supplier/platform compromise risk",
+      "published_at": "2026-08-01T18:13:18.730102+01:00",
+      "published_label": "Saturday 01 August 2026, 18:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+        "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+        "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+        "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
+      ]
+    },
     {
       "slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey",
       "headline": "Supplier script compromise: check third‑party web tags and payment/crypto journeys",
