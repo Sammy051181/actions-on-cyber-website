@@ -5326,9 +5326,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-02T14:52:50.256766+01:00",
       "brief_slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing"
+    },
+    "2273073f02d3d368": {
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-02T18:14:10.804770+01:00",
+      "brief_slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for",
+      "headline": "Chrome moves to curb “New Tab” hijacker extensions — what SMEs should watch for",
+      "risk_level": "Moderate",
+      "todays_lookout": "Browser extension hijacks and managed device policy risk",
+      "published_at": "2026-08-02T18:14:10.804770+01:00",
+      "published_label": "Sunday 02 August 2026, 18:14 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"
+      ]
+    },
     {
       "slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing",
       "headline": "Crypto wallet theft story likely to drive ‘urgent update’ and seed‑phrase phishing scams",
