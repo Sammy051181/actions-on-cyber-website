@@ -5305,9 +5305,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-01T18:13:18.730102+01:00",
       "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
+    },
+    "e6ea006c3681d918": {
+      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-02T10:20:00.942806+01:00",
+      "brief_slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk"
+    },
+    "8be23122adabfc50": {
+      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-02T10:20:00.942806+01:00",
+      "brief_slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk",
+      "headline": "Today’s SME cyber look-out: AI-assisted attacks and telecom dependency risk",
+      "risk_level": "Moderate",
+      "todays_lookout": "AI-assisted attack automation + telecom/MFA dependency disruption",
+      "published_at": "2026-08-02T10:20:00.942806+01:00",
+      "published_label": "Sunday 02 August 2026, 10:20 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+        "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
+      ]
+    },
     {
       "slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli",
       "headline": "Today’s SME cyber look-out: risky “cheap smart” devices on your network, plus supplier patch urgency",
