@@ -5319,9 +5319,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-02T10:20:00.942806+01:00",
       "brief_slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk"
+    },
+    "33d64b684b386f21": {
+      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-02T14:52:50.256766+01:00",
+      "brief_slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing",
+      "headline": "Crypto wallet theft story likely to drive ‘urgent update’ and seed‑phrase phishing scams",
+      "risk_level": "Moderate",
+      "todays_lookout": "Impersonation scams off the back of a high-profile crypto theft (fake wallet updates, seed phrase theft)",
+      "published_at": "2026-08-02T14:52:50.256766+01:00",
+      "published_label": "Sunday 02 August 2026, 14:52 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+      ]
+    },
     {
       "slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk",
       "headline": "Today’s SME cyber look-out: AI-assisted attacks and telecom dependency risk",
