@@ -5333,9 +5333,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-02T18:14:10.804770+01:00",
       "brief_slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for"
+    },
+    "44aca34a590464ae": {
+      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T11:51:27.098082+01:00",
+      "brief_slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti"
+    },
+    "0a3d3912cd46c461": {
+      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T11:51:27.098082+01:00",
+      "brief_slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti",
+      "headline": "MSP tool risk: N-able N-central server takeovers (plus AI model supply-chain caution)",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/MSP platform compromise and downstream business disruption",
+      "published_at": "2026-08-03T11:51:27.098082+01:00",
+      "published_label": "Monday 03 August 2026, 11:51 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+        "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
+      ]
+    },
     {
       "slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for",
       "headline": "Chrome moves to curb “New Tab” hijacker extensions — what SMEs should watch for",

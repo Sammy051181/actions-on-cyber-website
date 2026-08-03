@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>MSP tool risk: N-able N-central server takeovers (plus AI model supply-chain caution) | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>MSP tool risk: N-able N-central server takeovers (plus AI model supply-chain caution)</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 03 August 2026, 11:51 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/MSP platform compromise and downstream business disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Watch for signs your IT provider (or internal IT team) is being impacted by issues affecting <strong>N-able N-central</strong>, a popular remote monitoring and management (RMM) platform used by many MSPs. Reports indicate attackers gained remote administrative access to N-central servers via an authentication bypass, and that an earlier fix was incomplete.</p>
+<p>Separately, if your business uses AI tooling, take extra care when downloading or running third-party model repositories. Reports highlight risks where crafted AI model repositories may execute code when loaded.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>MSP dependency risk:</strong> If your MSP uses N-central and their server is compromised, attackers may be able to reach customer environments managed through it.</li>
+<li><strong>Business disruption risk:</strong> RMM compromise is a known pathway to rapid, broad changes across many PCs/servers (e.g., mass software deployment, remote commands, credential access), which can lead to outage and ransomware-style disruption.</li>
+<li><strong>Supplier impersonation scams:</strong> When major IT suppliers are in the news, criminals often use it as a pretext for phishing (“urgent security update”, “reconnect remote access”, “new MFA setup”).</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Unexpected IT alerts about “agent reinstallation”, “remote access changes”, or “emergency updates” that don’t match your normal support process.</li>
+<li>Unplanned reboots, sudden software installs, new remote tools appearing, or security tools being disabled.</li>
+<li>New admin accounts, MFA resets, or password reset emails you didn’t request.</li>
+<li>Invoice/payment-change emails claiming to be from your MSP or IT supplier (especially if they reference N-able/N-central).</li>
+<li>Your MSP becomes unusually hard to reach, or asks for unusual access (e.g., “send us your admin password”, “temporarily disable security”).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Direct compromise of a management server:</strong> Attackers gaining administrative access to an RMM platform can pivot into managed customer systems.</li>
+<li><strong>Abuse of trusted tooling:</strong> Attackers may use legitimate remote management features to deploy changes quickly, blending in with normal IT activity.</li>
+<li><strong>Social engineering:</strong> They may email or call posing as your MSP or vendor support, pushing “urgent fixes”, credential capture, or payment diversion.</li>
+<li><strong>AI supply-chain angle (where relevant):</strong> If staff download AI models or code from public repositories, a malicious repository could run unwanted code when someone loads it in a work environment.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Contact your MSP/IT support:</strong> Ask if they use N-able N-central, whether they were affected, and what validation they’ve done since the updated fix was released.</li>
+<li><strong>Reinforce change control:</strong> Require a second-person check for any remote tool rollout, security policy change, or new admin creation today.</li>
+<li><strong>Brief staff (10 minutes):</strong> Remind everyone to treat “urgent IT update” emails/calls as suspicious and to verify via known contact details.</li>
+<li><strong>Protect payments:</strong> Reconfirm your payment-change verification step (call-back on a known number, not email replies).</li>
+<li><strong>Backups check:</strong> Make sure you can restore at least one critical system/file set (spot-check a restore, don’t just rely on “backup succeeded”).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do you use N-able N-central? If yes, which servers were in scope and what did you do after the vendor said the first fix was incomplete?</li>
+<li>How have you verified there was <strong>no unauthorised administrative access</strong> to the N-central server (and when was that last checked)?</li>
+<li>What additional monitoring is in place this week for unusual remote actions, new admin accounts, and mass deployments?</li>
+<li>If your RMM was compromised, what is your customer notification and containment process (timeframes, steps, who contacts us)?</li>
+<li>What are our agreed “break-glass” procedures if we need to suspend remote management access quickly?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your MSP (or in-house IT) runs N-able N-central, they should confirm they have applied the vendor’s updated build described as the first unaffected version and that they have performed post-update checks for compromise. This isn’t just a routine update: the key SME question is whether any management server was accessed before the complete fix was in place.</p>
+
+        <h2>One action today</h2>
+        <p>Phone your IT provider/MSP today and get written confirmation whether they use N-able N-central and what checks they’ve completed to ensure their management server (and your environment) wasn’t accessed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – “Supplier &amp; MSP Security Questions (RMM and remote access)” checklist</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html" rel="noopener noreferrer">N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html" rel="noopener noreferrer">Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
