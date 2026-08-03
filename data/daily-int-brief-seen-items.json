@@ -5347,9 +5347,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-03T11:51:27.098082+01:00",
       "brief_slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti"
+    },
+    "a15b4f3614497933": {
+      "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-03T16:14:25.459533+01:00",
+      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
+    },
+    "a71a79482b5b0878": {
+      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T16:14:25.459533+01:00",
+      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
+    },
+    "8f03bf579ace704a": {
+      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T16:14:25.459533+01:00",
+      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
+    },
+    "484b7de72129a32f": {
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+      "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-03T16:14:25.459533+01:00",
+      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
+    },
+    "000b4c51e3b2ed33": {
+      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T16:14:25.459533+01:00",
+      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing",
+      "headline": "UK police contact-data leak: expect convincing impersonation and phishing",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation scams and credential phishing using breached UK contact details",
+      "published_at": "2026-08-03T16:14:25.459533+01:00",
+      "published_label": "Monday 03 August 2026, 16:14 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+        "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+        "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+        "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
+      ]
+    },
     {
       "slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti",
       "headline": "MSP tool risk: N-able N-central server takeovers (plus AI model supply-chain caution)",
