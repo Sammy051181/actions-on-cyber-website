@@ -5382,9 +5382,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-03T16:14:25.459533+01:00",
       "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
+    },
+    "5c95936bd1598870": {
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T19:03:57.683270+01:00",
+      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
+    },
+    "1ebcd51a8367b8d0": {
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-03T19:03:57.683270+01:00",
+      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
+    },
+    "5264422e426d2ea1": {
+      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-03T19:03:57.683270+01:00",
+      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co",
+      "headline": "Today’s SME cyber lookout: VPN & MSP tool attacks, plus malware bypassing “passkey” comfort",
+      "risk_level": "High",
+      "todays_lookout": "Remote access and IT supplier tool compromise leading to ransomware and account takeover",
+      "published_at": "2026-08-03T19:03:57.683270+01:00",
+      "published_label": "Monday 03 August 2026, 19:03 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+        "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+        "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html"
+      ]
+    },
     {
       "slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing",
       "headline": "UK police contact-data leak: expect convincing impersonation and phishing",
