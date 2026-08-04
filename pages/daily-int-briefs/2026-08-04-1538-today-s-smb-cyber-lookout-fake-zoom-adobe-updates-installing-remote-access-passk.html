@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: fake Zoom/Adobe updates installing remote access + passkey and software supply-chain risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: fake Zoom/Adobe updates installing remote access + passkey and software supply-chain risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 04 August 2026, 15:38 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Fake software update scams and remote access tool abuse (plus passkey &amp; supplier/dev supply-chain risk)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be on alert for emails, chats, pop-ups and calls pushing <strong>urgent “Adobe” or “Zoom” updates</strong>, “document review” requests, or “system maintenance” fixes. Current campaigns are using these lures to install legitimate-looking <strong>remote access/remote management tools</strong> (notably ScreenConnect) to gain persistent control of business devices.</p>
+<p>Also watch for increased noise around <strong>passkeys</strong> and <strong>software supply-chain</strong> issues: researchers describe ways that malware on an already-infected Windows PC could abuse <strong>Google-synced passkeys</strong>, and there are reports of <strong>malicious/poisoned npm packages</strong> spreading across many package names.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>“Real software” can be used for bad outcomes:</strong> remote support tools are common in SMEs, so an attacker installing one can blend in and bypass simple security checks.</li>
+  <li><strong>Fast path to fraud and ransomware:</strong> persistent remote access often leads to mailbox access, finance system access, data theft and, in many cases, ransomware disruption.</li>
+  <li><strong>Knock-on supplier risk:</strong> if you use an outsourced IT provider or support desk, staff may assume remote-access prompts are legitimate.</li>
+  <li><strong>Passkeys aren’t magic if the device is already compromised:</strong> if a PC is infected, attackers may be able to piggyback on saved sign-in mechanisms.</li>
+  <li><strong>Developer/website risk:</strong> even small orgs with a web agency or in-house developer could be impacted by poisoned dependencies, potentially affecting websites, portals, or internal tools.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected “update required” prompts for Zoom/Adobe appearing via email links, chat messages, or odd-looking web pages (especially outside normal update processes).</li>
+  <li>Requests to <strong>run a file</strong>, approve “remote support”, or allow a “technician” to connect when you didn’t raise a ticket.</li>
+  <li>New remote access software appearing on a device (or new desktop icons/services) that staff can’t explain.</li>
+  <li>Staff reporting the mouse moving on its own, new browser extensions, or frequent security prompts.</li>
+  <li>Unusual account activity: sign-in alerts, MFA/passkey prompts the user didn’t initiate, new forwarding rules, or new devices associated with accounts.</li>
+  <li>For teams that build software: sudden build failures, unexpected dependency changes, or new packages/versions appearing in lockfiles without clear reason.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Social engineering:</strong> convincing “update” or “maintenance” messages trick a user into installing remote access tooling that gives attackers persistent entry.</li>
+  <li><strong>Living-off-the-land with admin tools:</strong> attackers prefer tools that look legitimate to reduce suspicion and make investigation harder.</li>
+  <li><strong>Account takeover amplification:</strong> once on a machine, attackers may try to access email, cloud apps, and saved credentials; researchers also report methods that could abuse synced passkeys on already-compromised Windows devices.</li>
+  <li><strong>Supply-chain poisoning:</strong> malicious packages (including npm ecosystem issues reported today) can introduce credential theft or remote control into developer workflows, then spread further.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Staff message (10 minutes):</strong> “Don’t install Zoom/Adobe updates from links/messages. Updates only via approved method (Company Portal/IT tool/vendor app store). Report any ‘remote support’ prompt you didn’t request.”</li>
+  <li><strong>Confirm your remote-support policy:</strong> who is allowed to remote in, what tool names are approved, and how staff verify a support request is real.</li>
+  <li><strong>Review remote access inventory:</strong> ensure only approved remote tools are installed and monitored. Investigate any new or unexpected remote tool installs.</li>
+  <li><strong>Harden sign-ins where you can:</strong> check for suspicious mailbox rules/forwarding, and review recent sign-ins for key accounts (finance, admin, payroll).</li>
+  <li><strong>Developer/supplier check-in:</strong> if you (or your web agency) use npm, ask what monitoring is in place for dependency integrity and whether any emergency review is underway following today’s reports of poisoned packages.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>What <strong>remote access tools</strong> are approved in our environment, and how do you <strong>alert</strong> on new remote tool installs (e.g., ScreenConnect or similar)?</li>
+  <li>Do you have a process to <strong>verify support interactions</strong> (ticket-first, call-back number, shared phrases) so staff can spot fake “IT maintenance” requests?</li>
+  <li>What is your <strong>containment playbook</strong> if a device is suspected of having unauthorised remote access installed (isolation, credential reset, sign-in review)?</li>
+  <li>How do you monitor for <strong>mailbox rule abuse</strong> and suspicious sign-ins for Microsoft 365/Google Workspace?</li>
+  <li>If we rely on developers or an agency: what checks are in place for <strong>dependency/supply-chain</strong> issues (package vetting, lockfile review, anomaly detection) and what changed today in response to the reported npm poisoning?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s key issue is not a single patch but <strong>how updates are delivered</strong>: remind staff that software updates must only be installed via your approved update route (managed update tool, official app update mechanism, or IT-led process), not from links in emails, chats, or random pop-ups.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “No Zoom/Adobe updates from links or pop-ups; only via our approved update method—report any unexpected remote-support prompt immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Spot and report phishing &amp; fake IT support (remote access) requests</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html" rel="noopener noreferrer">Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/" rel="noopener noreferrer">New Pass-ta-key attacks let malware hijack Google-synced passkeys</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html" rel="noopener noreferrer">Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html" rel="noopener noreferrer">DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

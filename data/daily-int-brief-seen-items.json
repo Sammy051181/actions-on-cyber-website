@@ -5438,9 +5438,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-04T10:50:14.944853+01:00",
       "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
+    },
+    "db6c2ae7b2b21caa": {
+      "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-04T15:38:23.597202+01:00",
+      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
+    },
+    "3356ba58fa21399b": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-04T15:38:23.597202+01:00",
+      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
+    },
+    "4b6302d9f5c48ebc": {
+      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-04T15:38:23.597202+01:00",
+      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
+    },
+    "79321c6c50ff9d2e": {
+      "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-04T15:38:23.597202+01:00",
+      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk",
+      "headline": "Today’s SMB cyber lookout: fake Zoom/Adobe updates installing remote access + passkey and software supply-chain risks",
+      "risk_level": "High",
+      "todays_lookout": "Fake software update scams and remote access tool abuse (plus passkey & supplier/dev supply-chain risk)",
+      "published_at": "2026-08-04T15:38:23.597202+01:00",
+      "published_label": "Tuesday 04 August 2026, 15:38 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+        "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+        "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+        "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html"
+      ]
+    },
     {
       "slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures",
       "headline": "SMB Cyber Brief (Tue 04 Aug 2026): hotel Wi‑Fi account theft, ClickFix malware lures, and MSP tool risk",
