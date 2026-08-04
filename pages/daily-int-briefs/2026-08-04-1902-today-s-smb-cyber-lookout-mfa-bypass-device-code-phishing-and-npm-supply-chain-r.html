@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: MFA-bypass “device code” phishing and npm supply‑chain risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: MFA-bypass “device code” phishing and npm supply‑chain risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 04 August 2026, 19:02 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover scams and software supply‑chain compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two practical risks stand out today for UK SMEs:</strong></p>
+<ul>
+  <li><strong>MFA-bypass phishing using “device code” sign-in flows</strong> (staff are tricked into approving a sign-in that hands attackers a valid session/token).</li>
+  <li><strong>Software supply-chain issues in the npm ecosystem</strong> (malicious or compromised packages spreading widely, potentially impacting web apps, internal tools, and vendors who build or run software for you).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>MFA doesn’t always save you</strong> if staff are persuaded to complete a legitimate-looking sign-in approval flow. That can lead to email takeover, invoice fraud, data theft, and downstream attacks on customers/suppliers.</li>
+  <li><strong>Supply-chain attacks can hit you indirectly</strong>: your website agency, outsourced devs, MSP, or a SaaS provider may depend on npm packages. A compromised dependency can cause data exposure, service disruption, or backdoor access.</li>
+  <li><strong>Business impact is often operational</strong>: mailbox lockouts, password resets, payroll/payment delays, reputational harm, and time lost to incident response.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails/DMs telling staff to <strong>“sign in using a code on another device”</strong>, “pair your account”, or “verify your login” with a short code.</li>
+  <li>Staff receive <strong>unexpected sign-in prompts</strong> or messages implying “someone is trying to access your account”.</li>
+  <li>Sudden <strong>new inbox rules</strong>, forwarding addresses, or “sent items” the user didn’t send (common after account takeover).</li>
+  <li>IT/dev teams notice <strong>unexpected dependency changes</strong>, new npm packages appearing, or unusual build behaviour in CI/CD.</li>
+  <li>Vendors reporting “a dependency issue” or asking you to <strong>disable security controls</strong> to “get things working”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Device-code phishing:</strong> attackers persuade a user to complete a legitimate OAuth device authorisation flow, letting the attacker gain access without stealing the password in the traditional way.</li>
+  <li><strong>Phishing-as-a-service tooling:</strong> packaged kits lower the barrier, increasing the volume of convincing, fast-moving campaigns.</li>
+  <li><strong>npm supply-chain compromise:</strong> malicious packages (or mass-compromised packages) can be pulled into applications during development/build, potentially enabling data theft or remote control depending on what the package does and where it runs.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Warn staff (today)</strong>: never follow sign-in instructions from unsolicited emails/texts. If prompted to enter/approve a device code, stop and verify with IT via a known channel.</li>
+  <li><strong>Check email account protections</strong>: ensure admin accounts use strong MFA, and review conditional access / sign-in policies where available.</li>
+  <li><strong>Hunt for takeover indicators</strong>: review mailbox forwarding rules and suspicious inbox rules for finance and senior staff.</li>
+  <li><strong>If you build software or use an agency</strong>: ask how they are responding to the npm supply-chain news (dependency pinning, vetted registries, monitoring for unexpected dependency changes).</li>
+  <li><strong>Prepare for invoice fraud</strong>: remind finance teams to verify bank detail changes using a call-back to a known number, not email replies.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you <strong>detect and block</strong> device-code / token-based sign-in abuse (alerting on unusual device authorisations, impossible travel, risky sign-ins)?</li>
+  <li>Do we have a <strong>standard playbook</strong> for suspected mailbox takeover (disable sessions, reset passwords, remove rules, check forwarding, notify contacts)?</li>
+  <li>Which of our suppliers (website/app developers, MSP tooling, internal apps) <strong>depend on npm</strong>, and what controls do they use to prevent compromised dependencies reaching production?</li>
+  <li>How quickly would you spot and respond to <strong>new email forwarding rules</strong> on finance mailboxes?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has added newly exploited issues to its catalogue, including an item affecting <strong>N-able N-central</strong> (used by some managed IT providers). If you use an MSP, ask them to confirm whether their remote monitoring/management stack is affected and what mitigations they’ve applied.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “If you’re asked to enter or approve a sign-in ‘device code’ (or get unexpected MFA prompts), stop and report it—do not proceed.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Invoice fraud &amp; bank detail change verification (call-back process)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html" rel="noopener noreferrer">Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/" rel="noopener noreferrer">Massive ChainDrop npm supply-chain attack infects hundreds of packages</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html" rel="noopener noreferrer">18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog" rel="noopener noreferrer">CISA Adds Three Known Exploited Vulnerabilities to Catalog</a> <span class="muted">(CISA Alerts)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

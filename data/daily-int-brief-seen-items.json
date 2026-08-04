@@ -5466,9 +5466,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-04T15:38:23.597202+01:00",
       "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
+    },
+    "bc208a99b0f1cf42": {
+      "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-04T19:02:58.816162+01:00",
+      "brief_slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r"
+    },
+    "dabae787120b338e": {
+      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-04T19:02:58.816162+01:00",
+      "brief_slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r"
+    },
+    "5e41b682e284fc8e": {
+      "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-04T19:02:58.816162+01:00",
+      "brief_slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r"
+    },
+    "8bc48189119045da": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Alerts",
+      "seen_at": "2026-08-04T19:02:58.816162+01:00",
+      "brief_slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r",
+      "headline": "Today’s SMB cyber lookout: MFA-bypass “device code” phishing and npm supply‑chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover scams and software supply‑chain compromise",
+      "published_at": "2026-08-04T19:02:58.816162+01:00",
+      "published_label": "Tuesday 04 August 2026, 19:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+        "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+        "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+      ]
+    },
     {
       "slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk",
       "headline": "Today’s SMB cyber lookout: fake Zoom/Adobe updates installing remote access + passkey and software supply-chain risks",
