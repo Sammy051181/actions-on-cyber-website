@@ -5494,9 +5494,83 @@
       "source": "CISA Alerts",
       "seen_at": "2026-08-04T19:02:58.816162+01:00",
       "brief_slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r"
+    },
+    "27d1686feff412b6": {
+      "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "81a8a88680d37b17": {
+      "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "836ef3adc75c0596": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+      "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "6c3ceb315bbd9f5d": {
+      "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+      "title": "77 Open VSX extensions found harvesting developer info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "ab3159d443b1d305": {
+      "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "06b31a39b35c050a": {
+      "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "3d1d6ecffa743c40": {
+      "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+      "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "df47d13d8d896952": {
+      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T10:47:59.918420+01:00",
+      "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw",
+      "headline": "Today’s SMB Cyber Brief: Microsoft 365 phishing via “RingCentral” lures + risky software supply chain",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and trusted-supplier impersonation (voice/UC + Microsoft 365), plus trojanised downloads and developer add-ons",
+      "published_at": "2026-08-05T10:47:59.918420+01:00",
+      "published_label": "Wednesday 05 August 2026, 10:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+        "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+        "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+        "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+        "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+        "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+      ]
+    },
     {
       "slug": "2026-08-04-1902-today-s-smb-cyber-lookout-mfa-bypass-device-code-phishing-and-npm-supply-chain-r",
       "headline": "Today’s SMB cyber lookout: MFA-bypass “device code” phishing and npm supply‑chain risk",

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: Microsoft 365 phishing via “RingCentral” lures + risky software supply chain | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: Microsoft 365 phishing via “RingCentral” lures + risky software supply chain</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 05 August 2026, 10:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft and trusted-supplier impersonation (voice/UC + Microsoft 365), plus trojanised downloads and developer add-ons
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Microsoft 365 login theft using “RingCentral” lookalike pages.</strong> A phishing-as-a-service operation is spoofing RingCentral branding to capture Microsoft 365 accounts, using more advanced techniques than basic fake login pages.</p>
+<p><strong>2) “Trusted download” and developer-tool supply chain risk.</strong> Reports highlight trojanised Windows installers (VPN/acceleration tooling), compromised Xcode projects/GitHub repos targeting macOS developers, and extensions impersonating legitimate developer tools while harvesting environment data.</p>
+<p><strong>3) AI-agent security incidents (testing boundary issues).</strong> Several stories this week show how automation/agents can be prompted or mis-scoped to take unintended actions in real systems—relevant if you use AI agents/bots with access to tickets, code, admin tools, or comms.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>Microsoft 365 accounts are a common “master key”.</strong> If attackers get one mailbox, they often pivot to invoice fraud, payroll changes, supplier payment diversion, and data theft.</li>
+<li><strong>RingCentral/UC brands are familiar in offices.</strong> Familiar branding reduces suspicion, especially for remote/hybrid staff.</li>
+<li><strong>Supply-chain compromise bypasses “be careful what you click”.</strong> If staff or your IT supplier installs a trojanised tool/extension, it can look legitimate while enabling persistence or data access.</li>
+<li><strong>Outsourced IT and developers are high-leverage targets.</strong> One compromised admin/developer device can impact many systems and clients.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Emails or messages claiming you must <strong>re-authenticate</strong> or <strong>reconnect</strong> RingCentral/voice services to Microsoft 365.</li>
+<li>Unexpected Microsoft sign-in prompts, especially requests to approve a sign-in when you weren’t logging in.</li>
+<li>Staff reporting they were asked to log in after clicking a “voicemail”, “missed call”, “fax”, or “account warning” style message.</li>
+<li>New software/extensions appearing on PCs/Macs without a clear business request, especially “productivity”, “VPN”, “network acceleration”, or “developer helper” tools.</li>
+<li>Developers noticing unusual changes in shared code projects, new dependencies, or strange pull requests/issues that try to get automation to run.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Session/credential theft to access Microsoft 365</strong> (mailbox, OneDrive/SharePoint, Teams) and then send convincing internal phishing from a real account.</li>
+<li><strong>Invoice and payment diversion</strong> by monitoring email threads and inserting “updated bank details” at the perfect moment.</li>
+<li><strong>Abuse of trusted platforms</strong> (GitHub repos, extension marketplaces, installers) so the victim “installs the malware themselves” thinking it’s legitimate.</li>
+<li><strong>Agent/bot misdirection</strong> where automated helpers (triage bots, code assistants, ticketing automations) are manipulated into taking privileged actions or spreading unsafe changes.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Remind staff:</strong> treat “RingCentral/Microsoft 365 re-login” messages as suspicious; use bookmarks for logins; never approve unexpected sign-in prompts.</li>
+<li><strong>Harden Microsoft 365 access:</strong> ensure MFA is enabled everywhere and review conditional access and sign-in alerts (at least for admin and finance accounts).</li>
+<li><strong>Finance control check:</strong> require a call-back (using a known number, not the email signature) for any bank detail changes or urgent payment requests.</li>
+<li><strong>Software hygiene:</strong> restrict who can install new software/extensions; review recently installed browser/editor extensions and remove anything unapproved.</li>
+<li><strong>If you use AI agents/bots:</strong> confirm what data/actions they can access; disable auto-actions that can change code/config without human approval.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Are we seeing <strong>new Microsoft 365 sign-in risks</strong> (impossible travel, unfamiliar device logins, repeated MFA prompts) in the last 7 days?</li>
+<li>Do we have <strong>phishing-resistant controls</strong> for key users (admins, finance, payroll), and are mailbox forwarding rules monitored?</li>
+<li>What’s our policy for <strong>software and extension installation</strong> (Windows, macOS, browsers, VS Code / forks), and can you provide an “approved list”?</li>
+<li>If we use automation/agents (helpdesk, code, security tools), what guardrails prevent them from taking privileged actions based on untrusted inputs?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>US authorities have flagged active exploitation of issues in commonly used server/admin software (including Tomcat and an RMM tool used by IT providers). For SMEs, the key takeaway is to ask your IT/support partner to confirm their internet-facing systems and remote management tooling are being actively monitored and updated, because compromises there can affect many customers quickly.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 2-minute internal alert: “Do not re-login to Microsoft 365 from RingCentral/voicemail links; use bookmarks; report any unexpected MFA prompts immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Invoice &amp; bank detail change controls (anti-payment diversion)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/" rel="noopener noreferrer">Phishing service spoofs RingCentral to steal Microsoft 365 accounts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html" rel="noopener noreferrer">QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/" rel="noopener noreferrer">New XCSSET variant targets macOS devs via compromised Xcode projects</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/" rel="noopener noreferrer">77 Open VSX extensions found harvesting developer info</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/" rel="noopener noreferrer">OpenAI, Anthropic AI agents targeted real people and systems in cyber tests</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html" rel="noopener noreferrer">Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations" rel="noopener noreferrer">NCSC statement in response to recent incidents resulting from frontier AI evaluations</a> <span class="muted">(NCSC All Updates)</span></li><li><a href="https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html" rel="noopener noreferrer">CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
