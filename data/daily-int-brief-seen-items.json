@@ -5578,9 +5578,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-05T15:31:15.458471+01:00",
       "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
+    },
+    "b8de3a001b73a65e": {
+      "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+      "title": "COLDCARD security audit phishing attack installs remote access tool",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T18:53:14.959423+01:00",
+      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
+    },
+    "75eec0e8b4a4109f": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+      "title": "How AI-powered phishing killed blocklists for good",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T18:53:14.959423+01:00",
+      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
+    },
+    "4dcce587c04dd0d3": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-05T18:53:14.959423+01:00",
+      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati",
+      "headline": "Today’s SMB cyber brief: phishing using “support” tools, and MSP/platform exploitation risk",
+      "risk_level": "High",
+      "todays_lookout": "Phishing leading to remote access + supplier/MSP tooling disruption risk",
+      "published_at": "2026-08-05T18:53:14.959423+01:00",
+      "published_label": "Wednesday 05 August 2026, 18:53 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+        "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
+      ]
+    },
     {
       "slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 login approvals, leaked automation tokens, and fake extensions",
