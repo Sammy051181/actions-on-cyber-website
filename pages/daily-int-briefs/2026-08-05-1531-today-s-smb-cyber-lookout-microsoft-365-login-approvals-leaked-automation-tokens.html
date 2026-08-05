@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 login approvals, leaked automation tokens, and fake extensions | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 login approvals, leaked automation tokens, and fake extensions</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 05 August 2026, 15:31 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover and SaaS token leakage (Microsoft 365, automation tools, extensions)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes to put on your radar today:</p>
+<ul>
+  <li><strong>Microsoft 365 “login approval” phishing</strong> where staff are taken to a real Microsoft sign-in page and asked to approve a code/device login they didn’t start.</li>
+  <li><strong>Leaked automation tool tokens</strong> (n8n) that can grant access to workflows, data and downstream credentials if they’ve been accidentally committed to public code repositories.</li>
+  <li><strong>“Evil twin” developer extensions</strong> (lookalike add-ons) that pretend to be legitimate tools and quietly send system/developer environment data out.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs increasingly rely on Microsoft 365, shared inboxes, cloud documents and automated workflows. If an attacker gains a valid cloud session/token, they may not need to “hack” your systems in a noisy way. The impact is still very real: invoice fraud, mailbox rule tampering, payroll/HR data exposure, and access to client files.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report being asked to <strong>enter or approve a code</strong>, or “confirm a device sign-in”, especially after an email/SMS claiming an urgent security issue.</li>
+  <li><strong>Unexpected MFA prompts</strong> or approval requests when the user is not logging in.</li>
+  <li>New <strong>mailbox rules</strong> or forwarding set up without a clear business reason (e.g., finance@ forwarding externally).</li>
+  <li>Automations/integrations behaving oddly: workflows firing at unusual times, new connections appearing, or missing data.</li>
+  <li>Developers/IT notice newly installed extensions that are “close but not quite” the expected name/publisher.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Microsoft device-code style phishing:</strong> attackers trick a user into approving a sign-in on Microsoft’s real pages, which can result in access tokens that allow entry to email, documents and other cloud resources.</li>
+  <li><strong>Token exposure (n8n):</strong> if an API token is leaked publicly (e.g., pasted into code or documentation and pushed to GitHub), attackers can use it to access the automation platform and potentially reach connected systems.</li>
+  <li><strong>Malicious/impersonating extensions:</strong> staff install a lookalike add-on that collects environment data and can open the door to further compromise.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (2 minutes):</strong> “If you didn’t start the login, don’t approve anything.” Tell them to report unexpected sign-in prompts immediately.</li>
+  <li><strong>Review Microsoft 365 sign-in alerts</strong> for unusual logins and investigate any user reporting unexpected approval requests.</li>
+  <li><strong>Check mail forwarding and mailbox rules</strong> for finance, payroll and shared inboxes.</li>
+  <li><strong>If you use n8n (or similar automation):</strong> confirm where tokens are stored, rotate any that might have been shared in code/notes, and ensure access is limited to what’s needed.</li>
+  <li><strong>Lock down extensions:</strong> ensure only approved extensions are allowed on work browsers/dev machines (especially for anyone handling client data or code).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>alerting for suspicious Microsoft 365 sign-ins</strong> and repeated approval prompts?</li>
+  <li>Can you quickly produce a report of <strong>external mail forwarding</strong> and <strong>new inbox rules</strong> created in the last 7–14 days?</li>
+  <li>Do we control which <strong>browser/dev extensions</strong> can be installed on company devices?</li>
+  <li>If we use automation tools (like n8n), what’s our process for <strong>token management</strong> (storage, rotation, offboarding) and how do we prevent secrets being committed to public repos?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you self-host developer platforms, be aware there is reporting of a serious Gitea issue that could allow file access without logging in on certain versions. This is mainly relevant if you run your own Gitea server internally or expose it to the internet—ask your IT provider to confirm whether you use Gitea and whether it’s been addressed.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal message: “Do not approve any Microsoft sign-in/code request you didn’t start—report it immediately,” and have IT review sign-in logs plus external forwarding/inbox rules for finance and shared mailboxes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Business Email Compromise (BEC) &amp; invoice fraud – prevention and rapid response</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html" rel="noopener noreferrer">Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html" rel="noopener noreferrer">Leaked n8n API Tokens Exposed Live Instances to Credential Theft</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html" rel="noopener noreferrer">Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html" rel="noopener noreferrer">Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

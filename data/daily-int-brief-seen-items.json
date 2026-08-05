@@ -5550,9 +5550,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-05T10:47:59.918420+01:00",
       "brief_slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw"
+    },
+    "716e0f587a9c7e8e": {
+      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T15:31:15.458471+01:00",
+      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
+    },
+    "b4f3d444777d8f3b": {
+      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T15:31:15.458471+01:00",
+      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
+    },
+    "e7d8afd8e4921efb": {
+      "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T15:31:15.458471+01:00",
+      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
+    },
+    "53e4a2d136429937": {
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-05T15:31:15.458471+01:00",
+      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 login approvals, leaked automation tokens, and fake extensions",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover and SaaS token leakage (Microsoft 365, automation tools, extensions)",
+      "published_at": "2026-08-05T15:31:15.458471+01:00",
+      "published_label": "Wednesday 05 August 2026, 15:31 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+        "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+        "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+        "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
+      ]
+    },
     {
       "slug": "2026-08-05-1047-today-s-smb-cyber-brief-microsoft-365-phishing-via-ringcentral-lures-risky-softw",
       "headline": "Today’s SMB Cyber Brief: Microsoft 365 phishing via “RingCentral” lures + risky software supply chain",
