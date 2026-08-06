@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — AI “Ask” links, grey-market AI tools, and web-app-to-database takeovers | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — AI “Ask” links, grey-market AI tools, and web-app-to-database takeovers</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 06 August 2026, 15:33 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> AI tool misuse &amp; web app compromise leading to business data exposure and disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>“Ask AI” buttons / AI share links that carry hidden instructions</strong> (prompt injection) that can influence what an assistant outputs or what it “remembers” from your session.</li>
+  <li><strong>Staff using “cheap/discount” AI access via unofficial services</strong> where the operator can see everything users type (prompts, files, customer details, credentials pasted in).</li>
+  <li><strong>Web application weaknesses leading to database compromise</strong>, then being used as a launch point for deeper access inside the business environment.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs increasingly rely on AI tools, SaaS, and web apps for marketing, customer support, finance and operations. That creates two common risks: (1) sensitive information being pasted into tools that are not approved or not private, and (2) a single weakness in a public-facing site (or a supplier’s site) being used to reach internal systems. The end result for smaller organisations is usually <strong>data exposure, payment fraud, or ransomware downtime</strong>.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report an AI assistant giving <strong>oddly confident but incorrect</strong> recommendations about suppliers, payment steps, or “new procedures”.</li>
+  <li>Someone shares an AI link saying “click this to ask the assistant” and it includes a lot of pre-filled text, instructions, or unusual formatting.</li>
+  <li>Users sign up to <strong>non-standard AI portals</strong> (especially “discount access” claims) and start uploading customer spreadsheets, invoices, contracts, or HR files.</li>
+  <li>Unexpected database/admin alerts, abnormal outbound connections, or a sudden spike in failed logins after a website change.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Prompt injection via embedded AI links/buttons:</strong> a user clicks “Ask AI”, and hidden instructions steer the assistant’s response (e.g., to recommend a scam supplier, to downplay warnings, or to request extra sensitive info).</li>
+  <li><strong>Grey-market AI access:</strong> staff think they are using a normal AI service, but the operator can view prompts and attachments—turning everyday use into a quiet data breach.</li>
+  <li><strong>Web app to database to wider network:</strong> attackers exploit a weakness in a public web app, pivot into the database layer, and then use that foothold to escalate access and move further into the environment.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Set (or restate) an “AI safe use” rule:</strong> no customer personal data, payroll info, bank details, passwords, MFA codes, or contract packs pasted into any AI tool unless it’s explicitly approved for that purpose.</li>
+  <li><strong>Block/flag unofficial AI tools:</strong> add a simple policy: staff may only use named, approved AI services; anything marketed as “discount access” is prohibited.</li>
+  <li><strong>Harden your public web apps operationally:</strong> ensure there is monitoring/alerting for unusual web traffic and database behaviour, and that logs are retained and reviewed (or reviewed by your IT provider/MSP).</li>
+  <li><strong>Rehearse payment change controls:</strong> if AI-driven content or messages push “new bank details” or “new process”, treat it as a fraud attempt and use an out-of-band verification call to a known number.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you <strong>restrict access to unapproved AI services</strong> (web filtering, browser controls, DNS filtering) and provide a list of what’s currently being used?</li>
+  <li>Do we have <strong>data loss controls</strong> for browsers and SaaS (at least monitoring for large uploads to unknown services)?</li>
+  <li>What monitoring do we have for <strong>public-facing websites and database activity</strong> (alerts, log retention, incident response steps)?</li>
+  <li>If our website or database is compromised, what is our <strong>containment plan</strong> (isolation, credential resets, backups, and who contacts customers if needed)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s takeaways aren’t mainly about emergency patching; they’re about <strong>reducing exposure from web apps, browsers, and AI tooling</strong>. Still, it’s worth asking your IT provider to confirm that your internet-facing applications and supporting databases are on supported versions and receiving routine security updates, and that changes are tested and logged.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 3-line staff reminder today: only use approved AI tools, never paste/upload sensitive business or customer data into AI, and treat any “payment change” guidance coming from AI/chat links as untrusted until verified by phone.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “AI Safe Use for Staff” mini-checklist (what can/can’t be shared, approved tools list, and payment-change verification script).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html" rel="noopener noreferrer">AI Recommendation Poisoning: How &quot;Ask AI&quot; Buttons Silently Alter LLM Memory</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html" rel="noopener noreferrer">Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html" rel="noopener noreferrer">Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/" rel="noopener noreferrer">Hackers run khunt post-exploitation toolkit from Oracle database</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

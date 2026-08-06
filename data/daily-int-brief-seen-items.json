@@ -5648,9 +5648,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-06T10:50:32.196781+01:00",
       "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "376accbc001ddf74": {
+      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T15:33:43.238268+01:00",
+      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
+    },
+    "45c69e058649c376": {
+      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T15:33:43.238268+01:00",
+      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
+    },
+    "4c338a28ee4465db": {
+      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T15:33:43.238268+01:00",
+      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
+    },
+    "167589835478151c": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-06T15:33:43.238268+01:00",
+      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da",
+      "headline": "SMB Cyber Intelligence Brief — AI “Ask” links, grey-market AI tools, and web-app-to-database takeovers",
+      "risk_level": "High",
+      "todays_lookout": "AI tool misuse & web app compromise leading to business data exposure and disruption",
+      "published_at": "2026-08-06T15:33:43.238268+01:00",
+      "published_label": "Thursday 06 August 2026, 15:33 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+        "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+        "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/"
+      ]
+    },
     {
       "slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r",
       "headline": "Today’s SME cyber look-out: cloud account extortion, AI-assisted scams, and risky routers",
