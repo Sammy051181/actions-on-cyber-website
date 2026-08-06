@@ -5599,9 +5599,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-05T18:53:14.959423+01:00",
       "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
+    },
+    "b41d695ada7747c6": {
+      "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "1d247e0f8135d3d3": {
+      "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "55ca866b1715118a": {
+      "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "f35a2396c40124f8": {
+      "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "869ad889d89225fb": {
+      "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "e88bd75e7d825148": {
+      "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+      "title": "Google Blogger locks hundreds of blogs in malware false positive",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
+    },
+    "bf12718855e8aa2a": {
+      "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-06T10:50:32.196781+01:00",
+      "brief_slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-06-1050-today-s-sme-cyber-look-out-cloud-account-extortion-ai-assisted-scams-and-risky-r",
+      "headline": "Today’s SME cyber look-out: cloud account extortion, AI-assisted scams, and risky routers",
+      "risk_level": "High",
+      "todays_lookout": "Cloud/SaaS account compromise + scams/phishing themes + supplier/platform disruption",
+      "published_at": "2026-08-06T10:50:32.196781+01:00",
+      "published_label": "Thursday 06 August 2026, 10:50 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+        "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+        "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+        "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+        "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+        "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+        "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html"
+      ]
+    },
     {
       "slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati",
       "headline": "Today’s SMB cyber brief: phishing using “support” tools, and MSP/platform exploitation risk",
