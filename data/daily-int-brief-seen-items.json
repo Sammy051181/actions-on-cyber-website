@@ -5662,9 +5662,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-07T14:37:45.325300+01:00",
       "brief_slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f"
+    },
+    "005c5ebee9c69e34": {
+      "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+      "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-07T18:06:32.225857+01:00",
+      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
+    },
+    "e3210aa833510865": {
+      "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-07T18:06:32.225857+01:00",
+      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
+    },
+    "2749aa1817e21038": {
+      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-07T18:06:32.225857+01:00",
+      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o",
+      "headline": "Inbox-led payment fraud and Microsoft 365 account persistence: today’s SME look-out",
+      "risk_level": "High",
+      "todays_lookout": "Invoice/payment diversion using real email threads, plus longer-term cloud access after a single infected device",
+      "published_at": "2026-08-07T18:06:32.225857+01:00",
+      "published_label": "Friday 07 August 2026, 18:06 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+        "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+        "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
+      ]
+    },
     {
       "slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f",
       "headline": "Today’s SMB cyber brief: Microsoft 365 finance/payroll phishing + disruption risk from port cyberattack",

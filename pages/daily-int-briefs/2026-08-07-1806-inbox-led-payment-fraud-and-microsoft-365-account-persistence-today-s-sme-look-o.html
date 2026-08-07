@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Inbox-led payment fraud and Microsoft 365 account persistence: today’s SME look-out | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Inbox-led payment fraud and Microsoft 365 account persistence: today’s SME look-out</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 07 August 2026, 18:06 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Invoice/payment diversion using real email threads, plus longer-term cloud access after a single infected device
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is <strong>“real-looking” business email being used to hijack payments</strong>, alongside a reminder that if malware runs on a signed-in Windows PC it may be able to <strong>turn that foothold into longer-term Microsoft 365 (Entra ID) access</strong>.</p>
+<ul>
+  <li><strong>Payment diversion from genuine email chains</strong> (compromised inboxes / browser manipulation) rather than obvious spoof emails.</li>
+  <li><strong>Social engineering of staff</strong> leading to direct access to corporate data on their machines.</li>
+  <li><strong>Cloud account persistence risk</strong> if a device is already infected while a user is logged in.</li>
+  <li><strong>Crypto payment redirection</strong> via clipboard hijacking (where relevant).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a small number of people to approve invoices, manage supplier changes, and administer Microsoft 365. Attackers take advantage of that reality: a single compromised mailbox or infected laptop can be enough to (1) redirect a payment, (2) quietly collect sensitive files, and (3) create longer-term access to your cloud tenant that survives password changes.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Supplier/customer emails that look normal but <strong>introduce urgency</strong> ("payment needed today", "banking details updated", "new beneficiary").</li>
+  <li>A request to <strong>change bank details</strong> arriving mid-thread in an existing conversation.</li>
+  <li>Emails that push you to <strong>open the bank in a browser</strong> or follow a different process “just this once”.</li>
+  <li>Unexpected MFA prompts, sign-in alerts, or users reporting they were <strong>logged out of Microsoft 365</strong> or asked to re-authenticate repeatedly.</li>
+  <li>Staff reporting unusual copy/paste behaviour (mainly relevant if you make <strong>cryptocurrency</strong> transfers): pasted wallet addresses change or don’t match what was copied.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromised business inboxes</strong> are used to monitor real invoices and then insert believable “bank detail change” instructions at the perfect time.</li>
+  <li><strong>Social engineering</strong> targets specific employees to gain access to data stored on their machines.</li>
+  <li>If <strong>malware is already running in a signed-in Windows session</strong>, it may be able to use existing authentication keys to access Microsoft Entra ID and establish longer-term cloud access (e.g. registering a device or adding additional sign-in methods), depending on your tenant policies.</li>
+  <li><strong>Clipboard hijacking</strong> can silently swap payment details during a transaction workflow (most commonly discussed for crypto transfers, but the lesson is to verify critical payment details out-of-band).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Reconfirm your payment change process</strong>: no bank detail changes by email alone. Require a call-back to a known number (from your records, not the email) and a second-person approval.</li>
+  <li><strong>Brief finance/admin staff</strong>: “If it’s urgent, that’s the point.” Encourage pause-and-verify on any change request.</li>
+  <li><strong>Check Microsoft 365 sign-in alerts</strong> (especially for finance, directors, and admins) and ensure you know who receives and reviews those alerts.</li>
+  <li><strong>Review device hygiene</strong>: ensure endpoint protection is running and that users aren’t routinely working as local admins.</li>
+  <li>If you handle crypto payments: <strong>independently verify the destination address</strong> (e.g. compare multiple times, use known-good address books, and confirm via a second channel).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>conditional access</strong> or equivalent controls to reduce the impact of a stolen/abused session (especially for Microsoft 365 admins and finance users)?</li>
+  <li>How quickly would you detect and respond to a <strong>compromised mailbox</strong> (rules created, forwarding set up, unusual sign-ins)? What’s the containment playbook?</li>
+  <li>Are <strong>new device registrations</strong> and <strong>additional authentication method changes</strong> monitored and alerted on for our tenant?</li>
+  <li>What is our <strong>business process control</strong> for payment changes (two-person approval, call-back, verification logs) and can you help us test it?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch rush from today’s items for most SMEs. The practical priority is <strong>reducing the impact of “already-on-the-PC” malware</strong> by keeping managed devices updated, ensuring endpoint protection is active, and using strong Microsoft 365 tenant policies and monitoring for suspicious sign-in and registration activity.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 5-minute note to finance/admin staff today: “No bank detail changes by email alone—call back using a trusted number and get a second approval before any payment details update.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Payment change / invoice fraud call-back checklist’ (add it to your finance runbook and rehearse it with your bookkeeper).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/" rel="noopener noreferrer">Real emails, hijacked payments: Two H1 2026 attack chains</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/" rel="noopener noreferrer">Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html" rel="noopener noreferrer">Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
