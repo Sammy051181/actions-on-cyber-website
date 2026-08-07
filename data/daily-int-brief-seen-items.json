@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "71d567a7a33d95af": {
-      "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "source": "Krebs on Security",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "a56f93fb36203cb7": {
-      "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "21b7b82c9dc8dafd": {
-      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-      "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "69dabe680ebbd93e": {
-      "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "492baf58663679be": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "71e1d379c1909338": {
-      "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "6dd85779642de87c": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
-      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
-    "23ac7ef55360983f": {
-      "url": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-09T13:27:43.824531+01:00",
-      "brief_slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th"
-    },
     "08421650b8c15ac1": {
       "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
       "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
@@ -5704,9 +5648,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-07T09:21:11.433168+01:00",
       "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
+    },
+    "e7fa1f5e0b0290eb": {
+      "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-07T14:37:45.325300+01:00",
+      "brief_slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f"
+    },
+    "278baa51bdae89fa": {
+      "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+      "title": "North Carolina Ports confirms cyberattack disrupting operations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-07T14:37:45.325300+01:00",
+      "brief_slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f",
+      "headline": "Today’s SMB cyber brief: Microsoft 365 finance/payroll phishing + disruption risk from port cyberattack",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 account takeover aimed at payroll/finance, plus supplier/logistics disruption scams",
+      "published_at": "2026-08-07T14:37:45.325300+01:00",
+      "published_label": "Friday 07 August 2026, 14:37 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+        "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
+      ]
+    },
     {
       "slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-",
       "headline": "Today’s SMB Cyber Brief: Helpdesk vishing + “ClickFix” lures + cloud account extortion lessons",
@@ -8622,24 +8592,6 @@
         "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
         "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/"
-      ]
-    },
-    {
-      "slug": "2026-05-09-1327-today-s-smb-cyber-lookout-saas-disruption-scams-clickfix-lures-and-credential-th",
-      "headline": "Today’s SMB cyber lookout: SaaS disruption scams, “ClickFix” lures, and credential theft aimed at cloud & finance",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS disruption + credential-stealing malware and social-engineering lures",
-      "published_at": "2026-05-09T13:27:43.824531+01:00",
-      "published_label": "Saturday 09 May 2026, 13:27 UK time",
-      "source_urls": [
-        "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-        "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-        "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-        "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-        "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-        "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-        "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
-        "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html"
       ]
     }
   ]
