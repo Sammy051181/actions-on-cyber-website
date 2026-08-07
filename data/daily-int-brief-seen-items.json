@@ -5676,9 +5676,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-06T15:33:43.238268+01:00",
       "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
+    },
+    "7b5a120ec5550640": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
+      "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-08-07T09:21:11.433168+01:00",
+      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
+    },
+    "cc3545b0d1d0cecc": {
+      "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-07T09:21:11.433168+01:00",
+      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
+    },
+    "58eb3ce5569a189e": {
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "source": "Krebs on Security",
+      "seen_at": "2026-08-07T09:21:11.433168+01:00",
+      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
+    },
+    "67ef6de8627292be": {
+      "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-07T09:21:11.433168+01:00",
+      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-",
+      "headline": "Today’s SMB Cyber Brief: Helpdesk vishing + “ClickFix” lures + cloud account extortion lessons",
+      "risk_level": "High",
+      "todays_lookout": "Helpdesk vishing and fake security migrations targeting cloud logins (plus macOS “ClickFix” lures)",
+      "published_at": "2026-08-07T09:21:11.433168+01:00",
+      "published_label": "Friday 07 August 2026, 09:21 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
+        "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+        "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
+      ]
+    },
     {
       "slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da",
       "headline": "SMB Cyber Intelligence Brief — AI “Ask” links, grey-market AI tools, and web-app-to-database takeovers",
