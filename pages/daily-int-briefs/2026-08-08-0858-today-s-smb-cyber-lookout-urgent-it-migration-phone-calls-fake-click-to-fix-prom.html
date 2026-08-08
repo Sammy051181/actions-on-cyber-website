@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: urgent ‘IT migration’ phone calls, fake ‘Click to fix’ prompts, and risky software dependencies | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: urgent ‘IT migration’ phone calls, fake ‘Click to fix’ prompts, and risky software dependencies</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 08 August 2026, 08:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover scams via phone + fake-fix prompts + supplier/dependency risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes that are likely to hit smaller organisations (and their staff personally) even if you’re not a “big target”:</p>
+<ul>
+  <li><strong>Vishing (voice phishing) aimed at stealing SaaS data</strong>: attackers posing as an IT help desk and pushing an “urgent security migration”, often contacting staff via <strong>personal phones</strong>.</li>
+  <li><strong>“ClickFix” style fake-fix messages on Macs</strong>: prompts that try to trick users into running “fixes” that actually steal passwords and other stored credentials.</li>
+  <li><strong>Supplier/dependency risk from malicious npm packages</strong>: a large cluster of malicious packages has been found, increasing the chance of a developer or IT supplier accidentally pulling in a harmful dependency.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on SaaS (Microsoft 365/Google Workspace, accounting, CRM, payroll, e-signature). If an attacker convinces one staff member to approve access, reset MFA, or run a “fix”, they can quickly:</p>
+<ul>
+  <li>Take over email and use it to request payment changes or intercept invoices.</li>
+  <li>Access shared files, client data, and mailboxes for extortion.</li>
+  <li>Move laterally into other systems using saved passwords, browser sessions, or SSO.</li>
+  <li>Create real operational disruption (locked-out accounts, halted billing, missed payroll deadlines).</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A call or voicemail claiming to be “IT support” insisting on a <strong>mandatory, urgent migration</strong> or “security upgrade”.</li>
+  <li>Pressure tactics: “You’ll lose access in 30 minutes”, “Your account is compromised”, “We need to do this now”.</li>
+  <li>Requests to <strong>read out MFA codes</strong>, approve a sign-in prompt, or install a “support tool”.</li>
+  <li>On macOS: a web page or pop-up that looks like guidance and asks you to run a “fix” to proceed.</li>
+  <li>Unusual developer activity: new/unknown packages appearing in builds, or sudden dependency changes from a supplier.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Phone-first attacks</strong>: using personal numbers to bypass corporate controls, then guiding the user to approve access, reset MFA, or hand over details that enable SaaS takeover.</li>
+  <li><strong>Fake ‘fix’ instructions</strong>: convincing a Mac user to run steps that lead to credential theft (saved browser passwords, keychain-related data, cached credentials).</li>
+  <li><strong>Supply chain/dependency insertion</strong>: malicious npm packages can land in internal tools, websites, or automation scripts via typosquatting/random package names, then steal credentials or provide remote access.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff: no IT team will ever ask for MFA codes</strong> or demand immediate action over the phone. Hang up and call back using a known internal number.</li>
+  <li>Enable/confirm <strong>phishing-resistant MFA</strong> where possible (or at least enforce MFA and reduce “push approval” risk with number matching/approval safeguards where supported).</li>
+  <li>Review who can <strong>reset MFA, add new authentication methods, create inbox rules, or add OAuth/app access</strong> in your SaaS.</li>
+  <li>For Macs: remind staff <strong>not to run copy/paste “fix” steps</strong> from a web page or pop-up. If something looks broken, report it to IT.</li>
+  <li>If you use developers or a web agency: ask how they <strong>screen dependencies</strong> and control package additions (especially npm).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>What controls do we have to <strong>reduce MFA bypass</strong> and “push fatigue” approvals in our main SaaS?</li>
+  <li>Can we alert on and review: <strong>new MFA method added</strong>, <strong>new device enrolled</strong>, <strong>mass mailbox forwarding rules</strong>, and <strong>new OAuth/app consent</strong>?</li>
+  <li>Do we have a <strong>call-back verification process</strong> for any account or security change requests?</li>
+  <li>For any software/dev work: what is our process to detect and block <strong>malicious or unexpected npm dependencies</strong> before deployment?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No general “patch now” item from today’s stories is aimed at typical office patching. The practical focus is <strong>identity and access controls</strong> (MFA, sign-in alerts, limiting who can reset authentication) and <strong>safe user behaviour</strong> against phone-led scams and fake-fix prompts.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “We will never ask for MFA codes or urgent ‘security migrations’ over the phone—hang up, report it, and only call IT back via the known number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Stop phone-led account takeover (vishing) checklist’ for reception/finance and anyone with admin access to SaaS.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html" rel="noopener noreferrer">UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html" rel="noopener noreferrer">ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html" rel="noopener noreferrer">Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "08421650b8c15ac1": {
-      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T20:46:46.343642+01:00",
-      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
-    },
-    "b81fa31519f7da4e": {
-      "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-      "title": "JDownloader site hacked to replace installers with Python RAT malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T20:46:46.343642+01:00",
-      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
-    },
-    "06209b4eb0d9b402": {
-      "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-09T20:46:46.343642+01:00",
-      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
-    },
-    "602ea85607361819": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-09T20:46:46.343642+01:00",
-      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
-    },
-    "c3640fa51273e089": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-      "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-09T20:46:46.343642+01:00",
-      "brief_slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m"
-    },
     "bd0fed1e91099da8": {
       "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
       "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
@@ -5683,9 +5648,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-07T18:06:32.225857+01:00",
       "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
+    },
+    "37859bd4cd5d193a": {
+      "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T08:58:37.560407+01:00",
+      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
+    },
+    "e7092c00880a133b": {
+      "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T08:58:37.560407+01:00",
+      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
+    },
+    "7f2f0040ed3dddf4": {
+      "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T08:58:37.560407+01:00",
+      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom",
+      "headline": "Today’s SMB cyber lookout: urgent ‘IT migration’ phone calls, fake ‘Click to fix’ prompts, and risky software dependencies",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover scams via phone + fake-fix prompts + supplier/dependency risk",
+      "published_at": "2026-08-08T08:58:37.560407+01:00",
+      "published_label": "Saturday 08 August 2026, 08:58 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
+      ]
+    },
     {
       "slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o",
       "headline": "Inbox-led payment fraud and Microsoft 365 account persistence: today’s SME look-out",
@@ -8611,21 +8610,6 @@
         "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
         "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
         "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html"
-      ]
-    },
-    {
-      "slug": "2026-05-09-2046-smb-cyber-intelligence-brief-trusted-downloads-and-ai-dev-repos-used-to-spread-m",
-      "headline": "SMB Cyber Intelligence Brief: Trusted downloads and AI/dev repos used to spread malware",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & download-chain malware (fake repos, compromised installer sites) targeting staff and developers",
-      "published_at": "2026-05-09T20:46:46.343642+01:00",
-      "published_label": "Saturday 09 May 2026, 20:46 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-        "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-        "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-        "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/"
       ]
     }
   ]
