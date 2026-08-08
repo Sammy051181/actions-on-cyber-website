@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Trojanised video meeting installers, and AI tools leaking business data | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Trojanised video meeting installers, and AI tools leaking business data</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 08 August 2026, 17:51 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS risk and “trusted app” installer tampering
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Trojanised software installers</strong> being offered as “legit updates” for a video-conferencing product after server compromise.</li>
+  <li><strong>AI assistant / knowledge tools leaking data</strong> from Jira/Confluence if they can be tricked by attacker-controlled instructions embedded in content.</li>
+  <li><strong>Developer/IT automation secrets exposure</strong> where an external person can trigger workflows that reveal CI secrets or run actions (relevant if you use coding agents or public repos).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely on trusted software, SaaS platforms and outsourced IT. When an installer or an “assistant” tool is abused, the attack can bypass normal caution because it looks like business-as-usual (an update, a ticket, a document, a bot). The impact can be account takeover, data leakage (client info, contracts, HR data), and follow-on fraud (invoice diversion) or ransomware.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report being prompted to <strong>reinstall</strong> or <strong>update</strong> meeting software from a link in email/chat, or from an unusual download location.</li>
+  <li>Unexpected <strong>new “AI assistant” behaviour</strong>: summarising content that seems unrelated, requesting broad permissions, or posting/sending information outside your normal tools.</li>
+  <li>Unusual <strong>new integrations</strong> or app authorisations in Atlassian / collaboration tools.</li>
+  <li>Developer/IT teams see unusual CI activity: workflow runs triggered by outsiders, unexpected “issues”/tickets causing automation to run.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Replace trusted installers</strong> so that when staff download “the client”, they install a backdoor instead.</li>
+  <li><strong>Hide instructions in content</strong> (pages, tickets, attachments) so an AI assistant that reads it is manipulated into collecting sensitive Jira/Confluence data and sending it externally.</li>
+  <li><strong>Abuse default CI/CD configurations</strong> so that a low-privilege external action (like opening an issue) can trigger automation and expose secrets.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Set a rule:</strong> software updates only via your managed software centre / IT portal / known vendor app store route — not links in emails or chats.</li>
+  <li><strong>Review who can install software</strong> on company devices, and ensure local admin rights are limited.</li>
+  <li><strong>For Atlassian users:</strong> review AI/assistant features (including Rovo) and confirm what data they can access; restrict access to high-sensitivity spaces/projects where possible.</li>
+  <li><strong>For teams using coding agents/CI:</strong> check default settings for issue-triggered workflows, secrets exposure rules, and whether public contributions can run workflows.</li>
+  <li><strong>Communicate to staff</strong> (one short message) reminding them: “No reinstall/update prompts from messages. Report it.”</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we <strong>control software installation and updates</strong> centrally (and can we block unauthorised installers)?</li>
+  <li>Are our <strong>video-conferencing servers</strong> (if we host any) monitored and kept updated, and can downloads be validated/locked down?</li>
+  <li>For Jira/Confluence: what’s our stance on <strong>AI assistants</strong> (enabled/disabled), and how do we prevent data being sent to third parties?</li>
+  <li>Do we have alerts for <strong>new app authorisations/integrations</strong> in key SaaS platforms?</li>
+  <li>If we run CI/CD or developer automation, have we reviewed <strong>secret handling</strong> and “external trigger” settings?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you host your own video-conferencing servers or use edge/network devices (e.g., SD-WAN/IOS XE) or self-managed SharePoint, make sure your provider can confirm a routine cadence for server and network patching and that internet-facing services are prioritised. The key SME question today is less “which CVE?” and more “are we running any internet-facing services that could be used to tamper with downloads or compromise accounts?”</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Only install or update apps via our approved IT route—never from links in email/chat. If you’re prompted to reinstall meeting software, report it to IT first.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Supplier &amp; SaaS access review (integrations, admin roles, and what your AI tools can read and send)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/" rel="noopener noreferrer">Hackers breach TrueConf to trojanize client installers with backdoors</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html" rel="noopener noreferrer">Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html" rel="noopener noreferrer">Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/" rel="noopener noreferrer">Swiss government SharePoint breach compromised 200 accounts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html" rel="noopener noreferrer">Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

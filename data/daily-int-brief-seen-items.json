@@ -5676,9 +5676,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-08T14:11:36.538140+01:00",
       "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
+    },
+    "efca8e4dba84b569": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-08T17:51:01.325403+01:00",
+      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
+    },
+    "ab2cf02445d4050e": {
+      "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T17:51:01.325403+01:00",
+      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
+    },
+    "8eab464cc4e63c77": {
+      "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T17:51:01.325403+01:00",
+      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
+    },
+    "453404a975a88668": {
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-08T17:51:01.325403+01:00",
+      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
+    },
+    "928199c4605279db": {
+      "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T17:51:01.325403+01:00",
+      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data",
+      "headline": "Trojanised video meeting installers, and AI tools leaking business data",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS risk and “trusted app” installer tampering",
+      "published_at": "2026-08-08T17:51:01.325403+01:00",
+      "published_label": "Saturday 08 August 2026, 17:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+        "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+        "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+        "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+        "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
+      ]
+    },
     {
       "slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre",
       "headline": "Today’s SMB cyber brief: MSP tooling risk, webmail account-takeover tricks, and breach-driven phishing",
