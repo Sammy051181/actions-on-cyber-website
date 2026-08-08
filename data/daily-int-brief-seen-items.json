@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "bd0fed1e91099da8": {
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-10T11:49:07.014906+01:00",
-      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
-    },
-    "88cf530572c3f3c2": {
-      "url": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "title": "Trellix source code breach claimed by RansomHouse hackers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-10T11:49:07.014906+01:00",
-      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
-    },
-    "bbcca5ac07c6c9b6": {
-      "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-10T11:49:07.014906+01:00",
-      "brief_slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese"
-    },
     "b72e557552efd429": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
       "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
@@ -5669,9 +5648,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-08T08:58:37.560407+01:00",
       "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
+    },
+    "62e6df9d879f730c": {
+      "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T14:11:36.538140+01:00",
+      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
+    },
+    "92a77f3ffeabd187": {
+      "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-08T14:11:36.538140+01:00",
+      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
+    },
+    "c5ecbaec5f990434": {
+      "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-08T14:11:36.538140+01:00",
+      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
+    },
+    "ab513bf86405d81c": {
+      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-08T14:11:36.538140+01:00",
+      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre",
+      "headline": "Today’s SMB cyber brief: MSP tooling risk, webmail account-takeover tricks, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS risk + email account takeover + breach-driven scams",
+      "published_at": "2026-08-08T14:11:36.538140+01:00",
+      "published_label": "Saturday 08 August 2026, 14:11 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+        "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+        "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+        "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"
+      ]
+    },
     {
       "slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom",
       "headline": "Today’s SMB cyber lookout: urgent ‘IT migration’ phone calls, fake ‘Click to fix’ prompts, and risky software dependencies",
@@ -8597,19 +8618,6 @@
       "published_label": "Sunday 10 May 2026, 20:48 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/"
-      ]
-    },
-    {
-      "slug": "2026-05-10-1149-supplier-breach-follow-up-scams-watch-for-fake-security-notices-and-account-rese",
-      "headline": "Supplier breach follow‑up scams: watch for fake “security notices” and account resets",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams and security-software trust risk",
-      "published_at": "2026-05-10T11:49:07.014906+01:00",
-      "published_label": "Sunday 10 May 2026, 11:49 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-        "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-        "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html"
       ]
     }
   ]
