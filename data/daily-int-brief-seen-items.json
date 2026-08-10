@@ -5641,9 +5641,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-10T14:42:43.390849+01:00",
       "brief_slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today"
+    },
+    "582c10ab4e3263d7": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+      "title": "#StopRansomware: Gunra Ransomware",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-10T18:07:32.302189+01:00",
+      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
+    },
+    "1b13f7171cfd26a6": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-10T18:07:32.302189+01:00",
+      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
+    },
+    "b02e825d52875460": {
+      "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-10T18:07:32.302189+01:00",
+      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
+    },
+    "e4cbe4f1c2f955e0": {
+      "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-10T18:07:32.302189+01:00",
+      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b",
+      "headline": "Ransomware affiliates target remote access gear; AI-boosted phishing raises the bar",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware entry via remote access appliances + convincing AI-assisted phishing",
+      "published_at": "2026-08-10T18:07:32.302189+01:00",
+      "published_label": "Monday 10 August 2026, 18:07 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+        "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+        "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+        "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html"
+      ]
+    },
     {
       "slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today",
       "headline": "Supplier outages and breach-themed scams: what SMEs should watch today",
