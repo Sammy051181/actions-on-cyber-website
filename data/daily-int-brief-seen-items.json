@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "5845fbb9c4fbfabd": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
-      "title": "GTIG AI Threat Tracker: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "5a38a188af401d84": {
-      "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
-      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "a403f0ef208e13fa": {
-      "url": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
-      "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "2652101b1ca41960": {
-      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
-      "title": "Instructure confirms hackers used Canvas flaw to deface portals",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "fc96930eecae9e78": {
-      "url": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-      "title": "TrickMo Android banker adopts TON blockchain for covert comms",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "7f9a302d05e037ca": {
-      "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-      "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
-    "ecea653f16288137": {
-      "url": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
-      "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-11T18:11:42.893841+01:00",
-      "brief_slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi"
-    },
     "f9795c5690a3aefc": {
       "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
       "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
@@ -5704,9 +5655,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-08T17:51:01.325403+01:00",
       "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
+    },
+    "43410792e1608026": {
+      "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+      "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-10T09:50:32.433619+01:00",
+      "brief_slug": "2026-08-10-0950-malicious-vs-code-extensions-check-what-s-installed-and-lock-down-extension-inst"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-10-0950-malicious-vs-code-extensions-check-what-s-installed-and-lock-down-extension-inst",
+      "headline": "Malicious VS Code extensions: check what’s installed and lock down extension installs",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/app store risk (developer tools) leading to credential theft",
+      "published_at": "2026-08-10T09:50:32.433619+01:00",
+      "published_label": "Monday 10 August 2026, 09:50 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+      ]
+    },
     {
       "slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data",
       "headline": "Trojanised video meeting installers, and AI tools leaking business data",
@@ -8633,23 +8602,6 @@
         "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
         "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
         "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/"
-      ]
-    },
-    {
-      "slug": "2026-05-11-1811-smb-cyber-intelligence-brief-ai-boosted-attacks-saas-portal-tampering-and-androi",
-      "headline": "SMB Cyber Intelligence Brief: AI-boosted attacks, SaaS portal tampering, and Android banking malware",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover and supplier/SaaS impersonation scams (plus mobile banking malware)",
-      "published_at": "2026-05-11T18:11:42.893841+01:00",
-      "published_label": "Monday 11 May 2026, 18:11 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
-        "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
-        "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
-        "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
-        "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-        "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-        "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/"
       ]
     }
   ]
