@@ -5676,9 +5676,59 @@
       "source": "CISA News",
       "seen_at": "2026-08-11T09:14:56.558354+01:00",
       "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
+    },
+    "4bfb2490760d3848": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-11T14:41:38.748319+01:00",
+      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
+    },
+    "8b3f1bd3315e097f": {
+      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+      "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-11T14:41:38.748319+01:00",
+      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
+    },
+    "78717ca6ff867f89": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-11T14:41:38.748319+01:00",
+      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
+    },
+    "729f36dc6beff8cd": {
+      "url": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-11T14:41:38.748319+01:00",
+      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
+    },
+    "5019d0f42a889b71": {
+      "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-11T14:41:38.748319+01:00",
+      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge",
+      "headline": "Today’s SMB cyber look‑out: ransomware exploitation (including SharePoint) and “urgent access” scams",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware disruption risk + urgent IT/access and payment-change social engineering",
+      "published_at": "2026-08-11T14:41:38.748319+01:00",
+      "published_label": "Tuesday 11 August 2026, 14:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+        "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+        "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+        "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+        "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
+      ]
+    },
     {
       "slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity",
       "headline": "SMB Cyber Brief: WordPress supply-chain compromise and fresh ransomware activity",
