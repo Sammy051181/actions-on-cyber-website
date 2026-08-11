@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "899bdc42d149e503": {
-      "url": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-      "title": "Signal adds security warnings for social engineering, phishing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-12T22:08:31.531426+01:00",
-      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
-    },
-    "12dc409c89ec1a63": {
-      "url": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-      "title": "Android 17 to expand banking scam call and privacy protections",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-12T22:08:31.531426+01:00",
-      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
-    },
-    "849dd8fc0bb8c5f8": {
-      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-12T22:08:31.531426+01:00",
-      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
-    },
-    "ed36a2b927798b2d": {
-      "url": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-      "title": "Škoda warns of customer data breach after online shop hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-12T22:08:31.531426+01:00",
-      "brief_slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi"
-    },
     "35bf5b947d3c4b98": {
       "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
       "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
@@ -5669,9 +5641,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-10T18:07:32.302189+01:00",
       "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
+    },
+    "39f20a787adea7b2": {
+      "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-11T09:14:56.558354+01:00",
+      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
+    },
+    "1e9db20c81453290": {
+      "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-11T09:14:56.558354+01:00",
+      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
+    },
+    "d38595acce9573b0": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-11T09:14:56.558354+01:00",
+      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
+    },
+    "4c624f6c9bd5a27e": {
+      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-11T09:14:56.558354+01:00",
+      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
+    },
+    "273a693b084308bc": {
+      "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical",
+      "title": "CISA, FBI and Partners Warn Organizations of Gunra Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+      "source": "CISA News",
+      "seen_at": "2026-08-11T09:14:56.558354+01:00",
+      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity",
+      "headline": "SMB Cyber Brief: WordPress supply-chain compromise and fresh ransomware activity",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS compromise leading to website takeover and follow-on ransomware disruption",
+      "published_at": "2026-08-11T09:14:56.558354+01:00",
+      "published_label": "Tuesday 11 August 2026, 09:14 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+        "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+        "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+        "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical"
+      ]
+    },
     {
       "slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b",
       "headline": "Ransomware affiliates target remote access gear; AI-boosted phishing raises the bar",
@@ -8606,20 +8628,6 @@
         "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
         "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
         "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/"
-      ]
-    },
-    {
-      "slug": "2026-05-12-2208-today-s-smb-cyber-lookout-scam-follow-ups-after-breaches-and-smarter-social-engi",
-      "headline": "Today’s SMB cyber lookout: scam follow‑ups after breaches, and smarter social engineering on messaging & mobiles",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/brand breach follow‑up scams and mobile banking scam calls",
-      "published_at": "2026-05-12T22:08:31.531426+01:00",
-      "published_label": "Tuesday 12 May 2026, 22:08 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-        "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-        "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-        "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/"
       ]
     }
   ]
