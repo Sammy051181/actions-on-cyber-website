@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "1e80b9662a6d9493": {
-      "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
-      "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T14:19:35.683018+01:00",
-      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
-    },
-    "108c944a2ccf1e7a": {
-      "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T14:19:35.683018+01:00",
-      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
-    },
-    "86c1d7895bec52ac": {
-      "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
-      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T14:19:35.683018+01:00",
-      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
-    },
-    "ea1099323cacca3d": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
-      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T14:19:35.683018+01:00",
-      "brief_slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru"
-    },
     "958ff8fa0446dd7d": {
       "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
       "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
@@ -5746,9 +5718,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-12T09:39:07.366833+01:00",
       "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "685f5af5505e3a91": {
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T14:45:06.756272+01:00",
+      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
+    },
+    "76131b3384450071": {
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T14:45:06.756272+01:00",
+      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
+    },
+    "215b91448d4dcac6": {
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "source": "Krebs on Security",
+      "seen_at": "2026-08-12T14:45:06.756272+01:00",
+      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta",
+      "headline": "Today’s SMB cyber lookout: supplier platform exposure (AI logs) + active vCenter attacks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS risk and credential exposure (AI tooling) plus infrastructure compromise (vCenter)",
+      "published_at": "2026-08-12T14:45:06.756272+01:00",
+      "published_label": "Wednesday 12 August 2026, 14:45 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+        "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+        "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/"
+      ]
+    },
     {
       "slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo",
       "headline": "Today’s SMB cyber lookout: VPN disruption, fake “job interview” malware, and a developer supply-chain sting",
@@ -8704,20 +8710,6 @@
         "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
         "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
         "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog"
-      ]
-    },
-    {
-      "slug": "2026-05-14-1419-smb-cyber-intel-brief-microsoft-teams-social-engineering-breaches-supplier-disru",
-      "headline": "SMB Cyber Intel Brief: Microsoft Teams social-engineering breaches + supplier disruption watch",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft Teams impersonation and urgent “IT/security” requests; plus supplier disruption risks (ransomware, endpoint tool crashes)",
-      "published_at": "2026-05-14T14:19:35.683018+01:00",
-      "published_label": "Thursday 14 May 2026, 14:19 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
-        "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-        "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/"
       ]
     }
   ]

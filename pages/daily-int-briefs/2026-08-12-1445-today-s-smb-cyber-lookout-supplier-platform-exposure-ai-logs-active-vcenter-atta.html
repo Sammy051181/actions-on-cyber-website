@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: supplier platform exposure (AI logs) + active vCenter attacks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: supplier platform exposure (AI logs) + active vCenter attacks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 12 August 2026, 14:45 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS risk and credential exposure (AI tooling) plus infrastructure compromise (vCenter)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) AI tools and API session logs exposing secrets:</strong> researchers disclosed a flaw affecting AI “reasoning” workflows across major providers (OpenAI, Anthropic, Google) where session handling could allow recovery of hidden reasoning and potentially sensitive data that ended up in logs (including API keys and passwords).</p>
+<p><strong>2) Active exploitation of VMware vCenter:</strong> attackers are reported to be exploiting a recently patched vCenter issue to gain persistent remote access.</p>
+<p><strong>3) Knock-on risk from major Microsoft update cycle:</strong> a very large batch of fixes can trigger urgent change windows and creates a short-term gap where unpatched systems are a soft target.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>AI adoption is “quietly everywhere”:</strong> even if you don’t build software, staff may use AI tools in browsers, plug-ins, or integrations that handle customer data, drafts, invoices, or credentials.</li>
+  <li><strong>vCenter compromise can be business-ending:</strong> for SMEs hosting key systems on VMware (or using an MSP that does), vCenter access can lead to broad disruption across servers and backups.</li>
+  <li><strong>Patch timing matters:</strong> when big updates drop, attackers often focus on organisations that lag behind—especially those with exposed admin services.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to “reconnect” AI tools, re-authorise integrations, or re-enter API keys/passwords.</li>
+  <li>API keys found in places they shouldn’t be: shared documents, ticket notes, chat transcripts, or exported logs.</li>
+  <li>New admin accounts, unfamiliar logins, or unusual remote access alerts related to virtualisation management.</li>
+  <li>Sudden changes in VM behaviour: unexpected reboots, snapshots, configuration changes, or new network connections.</li>
+  <li>IT team or MSP reporting urgent patching work that requires admin credential resets or emergency maintenance.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Secret harvesting via logs:</strong> if credentials or API keys are ever copied into prompts, tickets, chat, or “reasoning” logs, attackers may try to obtain those logs (or any exported/retained records) and reuse the secrets elsewhere.</li>
+  <li><strong>Privilege leverage:</strong> stolen API keys and passwords can be used to access cloud services, SaaS admin panels, payment workflows, or internal systems.</li>
+  <li><strong>Infrastructure takeover:</strong> active vCenter exploitation can give attackers a foothold with wide control over virtual machines, enabling ransomware deployment and rapid business disruption.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff:</strong> don’t paste passwords, API keys, or customer personal data into AI tools. If something sensitive has been pasted historically, treat it as potentially exposed and rotate it.</li>
+  <li><strong>Inventory AI usage quickly:</strong> list which AI tools are in use (browser-based, plug-ins, CRM/helpdesk add-ons) and who administers them.</li>
+  <li><strong>Rotate and lock down secrets:</strong> prioritise rotating API keys used by integrations and ensure they’re stored in an approved password manager/secure vault, not documents or tickets.</li>
+  <li><strong>Check virtualisation exposure:</strong> confirm whether you (or your MSP) run VMware vCenter and whether it is internet-exposed; if yes, treat this as urgent.</li>
+  <li><strong>Backups sanity check:</strong> ensure backups are recent and that restore access is protected separately from day-to-day admin accounts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we use VMware vCenter anywhere (including at the MSP/host), and has it been patched for the currently exploited issue?</li>
+  <li>Is vCenter (or any remote admin interface) accessible from the internet, and if so why? What additional access controls are in place?</li>
+  <li>Do we collect, export, or retain AI tool logs or transcripts that could contain sensitive data? What is our retention period and who can access them?</li>
+  <li>Have we audited where API keys are stored (tickets, scripts, spreadsheets)? What is the plan to rotate and centralise them?</li>
+  <li>What is our process this week for prioritising Microsoft updates, and how do we confirm successful rollout?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There’s a major Microsoft update cycle reported, plus a recently patched VMware vCenter issue now being actively exploited. If you rely on an MSP, ask for written confirmation of patch status for internet-facing or high-privilege systems first (identity, remote access, virtualisation management), and agree a timeline for the remainder.</p>
+
+        <h2>One action today</h2>
+        <p>Run a 30-minute “secrets check” today: identify any API keys/passwords that may have been pasted into AI tools, tickets, or docs, and rotate the highest-privilege ones immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – “Stop payment diversion &amp; account takeover” mini-checklist (MFA, password manager, and admin access controls)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html" rel="noopener noreferrer">OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models&#x27; Reasoning</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html" rel="noopener noreferrer">Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/" rel="noopener noreferrer">Microsoft Plugs Nearly 400 Security Holes</a> <span class="muted">(Krebs on Security)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
