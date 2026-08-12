@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "bf9d5851a6323b07": {
-      "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-13T22:13:34.269226+01:00",
-      "brief_slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems"
-    },
-    "39e9640cb93a0543": {
-      "url": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
-      "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-13T22:13:34.269226+01:00",
-      "brief_slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems"
-    },
     "1e80b9662a6d9493": {
       "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
       "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
@@ -5704,9 +5690,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-11T18:11:19.042712+01:00",
       "brief_slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio"
+    },
+    "b566b358a523ac5f": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "1fa2facc3f30d0ff": {
+      "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "5e90b81f34e75b09": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "cf109a85f8e0dda5": {
+      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "4cc0270f88d8d7c1": {
+      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "ef7a70b327b6f817": {
+      "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "5eca0a7b43d27d46": {
+      "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
+    },
+    "00914884b0e1da5a": {
+      "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+      "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-12T09:39:07.366833+01:00",
+      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo",
+      "headline": "Today’s SMB cyber lookout: VPN disruption, fake “job interview” malware, and a developer supply-chain sting",
+      "risk_level": "High",
+      "todays_lookout": "Remote access disruption + IT staff social engineering + supplier/dependency credential exposure",
+      "published_at": "2026-08-12T09:39:07.366833+01:00",
+      "published_label": "Wednesday 12 August 2026, 09:39 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+        "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+        "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+        "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+        "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+        "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+        "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/"
+      ]
+    },
     {
       "slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio",
       "headline": "SMB Cyber Intelligence Brief: supplier-incident scams and ‘trusted update’ confusion",
@@ -8658,18 +8718,6 @@
         "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
         "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/"
-      ]
-    },
-    {
-      "slug": "2026-05-13-2213-today-s-smb-cyber-look-out-software-supply-chain-noise-around-rubygems",
-      "headline": "Today’s SMB cyber look-out: software supply-chain noise around RubyGems",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier / software supply-chain risk (malicious packages & developer tooling disruption)",
-      "published_at": "2026-05-13T22:13:34.269226+01:00",
-      "published_label": "Wednesday 13 May 2026, 22:13 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-        "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html"
       ]
     }
   ]
