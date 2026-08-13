@@ -5760,9 +5760,35 @@
       "source": "NCSC All Updates",
       "seen_at": "2026-08-13T14:45:42.045006+01:00",
       "brief_slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag"
+    },
+    "edfb56fa72f5ce91": {
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T18:11:14.691951+01:00",
+      "brief_slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent"
+    },
+    "a4f4d669c4c81cd8": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T18:11:14.691951+01:00",
+      "brief_slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent",
+      "headline": "Today’s SME cyber look-out: supplier-breach phishing and actively exploited vCenter weakness",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + MSP/virtualisation disruption risk",
+      "published_at": "2026-08-13T18:11:14.691951+01:00",
+      "published_label": "Thursday 13 August 2026, 18:11 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+        "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
+      ]
+    },
     {
       "slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag",
       "headline": "Today’s SMB cyber lookout: convincing payment/login phishing, WhatsApp scam messages, and mobile card theft",
