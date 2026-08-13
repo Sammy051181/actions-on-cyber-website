@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: Portal data exposure, fake VPN browser add‑ons, and SharePoint exploitation | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: Portal data exposure, fake VPN browser add‑ons, and SharePoint exploitation</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 13 August 2026, 09:42 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> SaaS/customer portal data exposure + browser extension scams + internet-facing server exploitation
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Customer portal data theft:</strong> A campaign is targeting data exposed to anonymous users via <strong>Salesforce Experience Cloud</strong> and <strong>ServiceNow customer portals</strong>. If your customer portal allows guest/anonymous access, review what’s actually visible.</li>
+  <li><strong>Fake Chrome “VPN” extensions:</strong> Hundreds of Chrome Web Store extensions have impersonated well-known VPN/proxy brands and routed traffic through third-party proxy infrastructure.</li>
+  <li><strong>SharePoint exploitation activity:</strong> Attackers are exploiting a Microsoft SharePoint authentication bypass after public proof-of-concept code was released.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on customer portals and browser-based tools to serve clients and run operations. If a portal exposes data to unauthenticated visitors, it can quickly become a <strong>quiet data breach</strong> (customer records, case/ticket info, documents). Meanwhile, a rogue “VPN” extension can <strong>intercept browsing and business logins</strong>, especially on shared office devices. If you run on-prem or hosted SharePoint, active exploitation can lead to <strong>service disruption, data access, and potentially follow-on ransomware risk</strong>.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unusual portal activity: spikes in anonymous/guest page views, downloads, or searches; unexpected scraping-like patterns; increased failed login attempts alongside heavy guest browsing.</li>
+  <li>Customer reports that information they shouldn’t see is visible in the portal (other customers’ cases, attachments, knowledge base items, invoices, contact details).</li>
+  <li>Staff browsers showing new VPN/proxy extensions installed “overnight”, or staff reporting pop-ups encouraging them to install a VPN to “access a site”.</li>
+  <li>SharePoint: unexpected sign-in prompts, unusual admin changes, new service accounts, unexplained outbound connections, or sudden performance issues.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Portal exposure abuse:</strong> Attackers look for misconfigured portal permissions and enumerate what anonymous/guest users can access, then extract data at scale.</li>
+  <li><strong>Extension-driven interception:</strong> A fake VPN/proxy extension can route traffic via attacker-controlled infrastructure, increasing the chance of credential theft, session hijacking, or data leakage.</li>
+  <li><strong>Server foothold:</strong> If SharePoint is internet-facing and behind on security updates, attackers may use authentication-bypass techniques to gain access and expand within the environment.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Salesforce/ServiceNow portal check:</strong> Review guest/anonymous access settings and verify what pages, objects, attachments, cases/tickets, and knowledge articles are visible without logging in.</li>
+  <li><strong>Audit Chrome extensions:</strong> On business devices, remove unapproved VPN/proxy extensions. Prefer an allow-list approach for extensions where feasible.</li>
+  <li><strong>SharePoint review:</strong> Confirm who owns it, whether it’s internet-facing, and whether monitoring is in place for unusual authentication and admin activity.</li>
+  <li><strong>Staff reminder:</strong> “Do not install browser VPNs/extensions to ‘fix access’ or ‘improve security’ unless IT has approved it.”</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a documented list of <strong>all</strong> customer/community portals (Salesforce/ServiceNow or others) and who reviews their guest access?</li>
+  <li>How do we detect and alert on <strong>bulk data extraction</strong> from portals (guest browsing spikes, abnormal downloads, unusual queries)?</li>
+  <li>Can we enforce an <strong>extension policy</strong> for Chrome/Edge (block unknown VPN/proxy add-ons, allow-list only)?</li>
+  <li>Do we run SharePoint anywhere? If yes, is it <strong>internet-facing</strong>, who patches it, and what’s our plan if indicators of compromise appear?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run Microsoft SharePoint, treat this week as a priority verification window: exploitation is reported after public PoC release, so confirm your SharePoint security updates are applied and that logging/alerting for suspicious authentication and admin actions is working.</p>
+
+        <h2>One action today</h2>
+        <p>Audit and lock down guest/anonymous access on your Salesforce Experience Cloud and/or ServiceNow customer portals today, confirming exactly what an unauthenticated visitor can view or download.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Run the Actions On Cyber “SaaS &amp; supplier access review” checklist (focus on customer portals, guest access, and logging).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/" rel="noopener noreferrer">&quot;City-Forum&quot; data-theft attacks target Salesforce, ServiceNow portals</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/" rel="noopener noreferrer">Hundreds of fake Chrome VPN extensions route traffic through a proxy</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html" rel="noopener noreferrer">Attackers Exploit SharePoint Authentication Bypass After Public PoC Release</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

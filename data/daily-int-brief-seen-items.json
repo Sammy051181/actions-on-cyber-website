@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "958ff8fa0446dd7d": {
-      "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-14T21:59:40.909051+01:00",
-      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
-    },
-    "22f033ba062e3ccc": {
-      "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "title": "OpenAI confirms security breach in TanStack supply chain attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T21:59:40.909051+01:00",
-      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
-    },
-    "8063eaf76e3376a8": {
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
-      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-14T21:59:40.909051+01:00",
-      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
-    },
-    "7a960182ffefc712": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-14T21:59:40.909051+01:00",
-      "brief_slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel"
-    },
     "3e8a4c15a7e65ae9": {
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
       "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
@@ -5767,9 +5739,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-12T18:11:14.160223+01:00",
       "brief_slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb"
+    },
+    "1d2292fea9dd3005": {
+      "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T09:42:21.590714+01:00",
+      "brief_slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp"
+    },
+    "fb395f64dd222047": {
+      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T09:42:21.590714+01:00",
+      "brief_slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp"
+    },
+    "3c5ef5fa5324c56d": {
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-13T09:42:21.590714+01:00",
+      "brief_slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp",
+      "headline": "SMB Cyber Brief: Portal data exposure, fake VPN browser add‑ons, and SharePoint exploitation",
+      "risk_level": "High",
+      "todays_lookout": "SaaS/customer portal data exposure + browser extension scams + internet-facing server exploitation",
+      "published_at": "2026-08-13T09:42:21.590714+01:00",
+      "published_label": "Thursday 13 August 2026, 09:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+        "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+        "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+      ]
+    },
     {
       "slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb",
       "headline": "Today’s SMB Cyber Brief: Fake VPN browser add‑ons, fake remote hires, and risky USB drop attacks",
@@ -8738,20 +8744,6 @@
         "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
         "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/"
-      ]
-    },
-    {
-      "slug": "2026-05-14-2159-smb-cyber-brief-supply-chain-package-tampering-freight-reroute-fraud-and-activel",
-      "headline": "SMB Cyber Brief: supply-chain package tampering, freight reroute fraud, and actively exploited network edge risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & software supply-chain risk + logistics/invoice fraud themes",
-      "published_at": "2026-05-14T21:59:40.909051+01:00",
-      "published_label": "Thursday 14 May 2026, 21:59 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-        "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-        "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
-        "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog"
       ]
     }
   ]
