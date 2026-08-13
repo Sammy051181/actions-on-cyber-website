@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "3e8a4c15a7e65ae9": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-15T14:16:50.010064+01:00",
-      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
-    },
-    "21a9615c326f6ca8": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-15T14:16:50.010064+01:00",
-      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
-    },
-    "5806f447b99d840f": {
-      "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-15T14:16:50.010064+01:00",
-      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
-    },
-    "987fbb6a6a300fa7": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-15T14:16:50.010064+01:00",
-      "brief_slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses"
-    },
     "6257462df1733580": {
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
       "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
@@ -5760,9 +5732,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-13T09:42:21.590714+01:00",
       "brief_slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp"
+    },
+    "bf8ef362fde584a8": {
+      "url": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+      "title": "Dissecting the JWR phishing framework",
+      "source": "Cisco Talos",
+      "seen_at": "2026-08-13T14:45:42.045006+01:00",
+      "brief_slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag"
+    },
+    "cbd65415698669f4": {
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+      "title": "WhatsApp rolls out new feature that flags potential scam messages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T14:45:42.045006+01:00",
+      "brief_slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag"
+    },
+    "f2480e43b37d98c2": {
+      "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+      "title": "Android malware combo takes out loans and relays victims' credit cards",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-13T14:45:42.045006+01:00",
+      "brief_slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag"
+    },
+    "7e155a93bd41d6e2": {
+      "url": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
+      "title": "How BitLocker PINs help protect your data and devices",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-08-13T14:45:42.045006+01:00",
+      "brief_slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-13-1445-today-s-smb-cyber-lookout-convincing-payment-login-phishing-whatsapp-scam-messag",
+      "headline": "Today’s SMB cyber lookout: convincing payment/login phishing, WhatsApp scam messages, and mobile card theft",
+      "risk_level": "Moderate",
+      "todays_lookout": "Payment and login phishing + messaging scams + mobile payment theft",
+      "published_at": "2026-08-13T14:45:42.045006+01:00",
+      "published_label": "Thursday 13 August 2026, 14:45 UK time",
+      "source_urls": [
+        "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+        "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+        "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+        "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices"
+      ]
+    },
     {
       "slug": "2026-08-13-0942-smb-cyber-brief-portal-data-exposure-fake-vpn-browser-add-ons-and-sharepoint-exp",
       "headline": "SMB Cyber Brief: Portal data exposure, fake VPN browser add‑ons, and SharePoint exploitation",
@@ -8730,20 +8744,6 @@
         "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
         "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
         "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog"
-      ]
-    },
-    {
-      "slug": "2026-05-15-1416-today-s-sme-cyber-lookout-exploited-email-website-and-network-edge-weaknesses",
-      "headline": "Today’s SME cyber lookout: exploited email, website and network edge weaknesses",
-      "risk_level": "High",
-      "todays_lookout": "Business email, website takeover, and edge/network device compromise leading to disruption and ransomware risk",
-      "published_at": "2026-05-15T14:16:50.010064+01:00",
-      "published_label": "Friday 15 May 2026, 14:16 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-        "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/"
       ]
     }
   ]
