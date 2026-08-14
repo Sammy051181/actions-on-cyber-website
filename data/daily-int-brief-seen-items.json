@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "6257462df1733580": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-      "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-05-15T21:39:25.796285+01:00",
-      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
-    },
-    "84eb2799ddb4d536": {
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-15T21:39:25.796285+01:00",
-      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
-    },
-    "4a26b33b7d4985a0": {
-      "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "title": "Popular node-ipc npm package compromised to steal credentials",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-15T21:39:25.796285+01:00",
-      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
-    },
-    "8f5dc67818fcdfd7": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-15T21:39:25.796285+01:00",
-      "brief_slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl"
-    },
     "bf21843079485575": {
       "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -5774,9 +5746,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-13T18:11:14.691951+01:00",
       "brief_slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent"
+    },
+    "2ef1deb56f009fc1": {
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
+      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-14T09:36:58.117833+01:00",
+      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
+    },
+    "dace2be75c679582": {
+      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-14T09:36:58.117833+01:00",
+      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
+    },
+    "df1d901c6dd98219": {
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-14T09:36:58.117833+01:00",
+      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
+    },
+    "3fd53cb513b85787": {
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-14T09:36:58.117833+01:00",
+      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri",
+      "headline": "Today’s SMB cyber brief: phone-led investment scams, ransomware defence bypass tricks, and iPhone threat alerts",
+      "risk_level": "High",
+      "todays_lookout": "Social engineering scams + ransomware disruption tactics + targeted mobile account risk",
+      "published_at": "2026-08-14T09:36:58.117833+01:00",
+      "published_label": "Friday 14 August 2026, 09:36 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
+        "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+        "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+        "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
+      ]
+    },
     {
       "slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent",
       "headline": "Today’s SME cyber look-out: supplier-breach phishing and actively exploited vCenter weakness",
@@ -8756,20 +8770,6 @@
         "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/"
-      ]
-    },
-    {
-      "slug": "2026-05-15-2139-today-s-sme-cyber-lookout-vishing-led-cloud-account-takeovers-and-software-suppl",
-      "headline": "Today’s SME cyber lookout: vishing-led cloud account takeovers and software supply-chain risks",
-      "risk_level": "High",
-      "todays_lookout": "Vishing extortion, session-token theft, and supplier/software supply-chain risk",
-      "published_at": "2026-05-15T21:39:25.796285+01:00",
-      "published_label": "Friday 15 May 2026, 21:39 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-        "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-        "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-        "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog"
       ]
     }
   ]
