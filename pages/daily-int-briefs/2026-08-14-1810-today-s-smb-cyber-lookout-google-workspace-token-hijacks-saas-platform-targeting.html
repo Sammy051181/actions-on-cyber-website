@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Google Workspace token hijacks, SaaS platform targeting, and macOS remote access abuse | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Google Workspace token hijacks, SaaS platform targeting, and macOS remote access abuse</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 14 August 2026, 18:10 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover and remote access abuse (with knock-on supplier/SaaS disruption risk)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes SMEs should pay attention to today:</p>
+<ul>
+  <li><strong>Google Workspace compromise that doesn’t start with phishing</strong> – attackers can use <strong>stolen OAuth tokens</strong> to access Gmail, Drive and connected apps.</li>
+  <li><strong>SaaS / platform risk</strong> – a critical issue in <strong>SAP Commerce Cloud</strong> is being <strong>actively targeted</strong>, which may impact organisations that run (or are supplied by) online shops on this platform.</li>
+  <li><strong>macOS remote access misuse</strong> – active exploitation tied to <strong>macOS Screen Sharing</strong> is being used to deploy a <strong>Monero (cryptocurrency) miner</strong>, which can slow devices and disrupt work.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Workspace is your business backbone</strong>: if an attacker gets into email and files, they can impersonate staff, intercept invoices, and access client data.</li>
+  <li><strong>You may be affected via suppliers</strong>: even if you don’t use SAP Commerce Cloud, your <strong>retail, booking, or eCommerce supplier</strong> might—disruption or data exposure can ripple to you and your customers.</li>
+  <li><strong>Mac performance and costs</strong>: crypto-miners can cause <strong>slow laptops</strong>, overheating, battery drain, and increased support time—often noticed first by end users.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Google Workspace</strong>: unexpected consent prompts, new “authorised” apps you don’t recognise, unusual email forwarding/share settings, unexplained file sharing, sign-ins from unusual locations/devices.</li>
+  <li><strong>eCommerce suppliers</strong>: sudden site instability, unusual admin activity, unexpected maintenance windows, or supplier notifications that feel vague but urgent.</li>
+  <li><strong>macOS</strong>: fans running constantly, sudden slowness, high CPU usage, Screen Sharing/remote access enabled when it shouldn’t be, user reports of “my Mac is boiling” or battery draining fast.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Token-based takeovers</strong>: instead of stealing a password, attackers aim for <strong>OAuth tokens</strong> that let them act as the user in Gmail/Drive and connected SaaS tools.</li>
+  <li><strong>Platform targeting</strong>: attackers focus on widely used cloud commerce platforms because one weakness can impact many organisations and their customers.</li>
+  <li><strong>Remote access to deploy miners</strong>: once on a Mac, a miner may be installed to monetise access—often quietly—while the business pays the performance/support cost.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Google Workspace quick check</strong>: review third-party app access/authorised apps and remove anything not required; confirm MFA is enforced for all users (including admins).</li>
+  <li><strong>Supplier/SaaS check</strong>: if you run eCommerce or rely on a web shop provider, ask whether they use <strong>SAP Commerce Cloud</strong> and what monitoring/mitigations they’ve put in place.</li>
+  <li><strong>macOS hygiene</strong>: confirm Screen Sharing/remote management is only enabled where explicitly needed; investigate any reports of sustained slowness or overheating.</li>
+  <li><strong>Staff reminder</strong>: treat unexpected “app access” prompts and urgent admin/security emails as suspicious—report first, don’t click through.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you provide a list of <strong>Google Workspace OAuth / third-party app</strong> access granted in our tenant and flag anything risky or unnecessary?</li>
+  <li>Do we have <strong>alerting</strong> for suspicious Workspace activity (new OAuth grants, unusual sign-ins, mass file sharing, new forwarding rules)?</li>
+  <li>Are any of our business systems (or key suppliers) dependent on <strong>SAP Commerce Cloud</strong>, and what is our contingency plan if a supplier’s storefront is disrupted?</li>
+  <li>On Macs, are <strong>Screen Sharing / remote management</strong> settings centrally controlled, and can you quickly detect abnormal CPU usage consistent with mining?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of a recently patched <strong>SAP Commerce Cloud</strong> issue being actively targeted, and separate reports of active exploitation tied to <strong>macOS Screen Sharing</strong>. For SMEs, the key is confirming your providers (and outsourced IT) are monitoring these items and applying relevant vendor updates quickly—especially for internet-facing commerce systems and managed Macs.</p>
+
+        <h2>One action today</h2>
+        <p>Review and remove unnecessary third‑party/OAuth app access in Google Workspace today, and require staff to report unexpected consent prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Microsoft 365 / Google Workspace security quick check (OAuth app consent, MFA, forwarding rules)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/" rel="noopener noreferrer">The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/" rel="noopener noreferrer">Max severity SAP Commerce Cloud flaw now targeted in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/" rel="noopener noreferrer">Hackers exploit macOS Screen Sharing flaw to deploy Monero miner</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
