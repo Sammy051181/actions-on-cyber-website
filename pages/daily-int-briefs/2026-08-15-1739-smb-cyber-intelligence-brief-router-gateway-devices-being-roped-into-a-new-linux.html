@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Router/gateway devices being roped into a new Linux botnet | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Router/gateway devices being roped into a new Linux botnet</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Saturday 15 August 2026, 17:39 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Router and gateway compromise turning devices into traffic relays
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>A newly reported Linux botnet (Mirai-based and modular) is targeting internet-facing gateway devices (such as routers) and turning them into SOCKS5 traffic relay nodes. In plain terms: attackers take over vulnerable or poorly secured edge devices and use them as “middlemen” to route other people’s malicious traffic.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Business disruption risk:</strong> a compromised router can cause slow or unstable internet, broken VoIP/video calls, and intermittent access to cloud services.</li>
+  <li><strong>Security and reputation risk:</strong> your connection could be used to relay suspicious activity, which can trigger ISP warnings, IP reputation blocks, or downstream service lockouts.</li>
+  <li><strong>Hidden impact:</strong> router compromise often doesn’t look like a “normal virus” on a PC, so it can persist unnoticed.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected internet slowdowns, especially outside office hours.</li>
+  <li>Users reporting random dropouts on Teams/Zoom/VoIP calls.</li>
+  <li>Unexplained spikes in outbound traffic (upload) on your broadband line.</li>
+  <li>Firewall/router admin account changes you can’t explain (new users, changed passwords, altered remote management settings).</li>
+  <li>Customers, suppliers, or SaaS tools flagging your public IP for suspicious activity.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li>Taking over internet-facing gateway devices and converting them into <strong>traffic relays</strong> (SOCKS5), helping criminals hide where their activity comes from.</li>
+  <li>Using router control to <strong>observe or interfere</strong> with business traffic patterns (even if they can’t read encrypted content, they can still disrupt).</li>
+  <li>Leveraging compromised edge devices as a stepping stone to further attempts against PCs, servers, or cloud accounts.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Inventory your edge devices:</strong> list the make/model of your router/firewall, who manages it, and where it’s hosted (office, data centre, ISP-managed).</li>
+  <li><strong>Check exposure:</strong> confirm remote administration is not openly available on the internet unless there is a strong business reason and it’s tightly controlled.</li>
+  <li><strong>Change admin credentials</strong> (especially if they’re shared across sites or have been in place for years) and ensure MFA is enabled where the platform supports it.</li>
+  <li><strong>Review outbound traffic:</strong> ask your ISP/MSP for a quick check of unusual outbound connections or traffic spikes.</li>
+  <li><strong>Have an escalation plan:</strong> if you suspect router compromise, know who can isolate/replace the device quickly to restore service.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our routers/firewalls are <strong>internet-facing</strong> and what remote management paths exist?</li>
+  <li>Do we have <strong>alerting</strong> for unusual outbound traffic or changes to edge device configuration?</li>
+  <li>What is our process and time-to-respond if a router is suspected compromised (isolate, factory reset, reconfigure, replace)?</li>
+  <li>Are our branch/office devices configured to <strong>block unauthorised proxying/relay behaviour</strong> and are logs retained?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This story is a reminder that routers and gateway devices need the same “keep it current” discipline as laptops and servers. If your router/firewall is supplier-managed, confirm the provider is applying firmware updates and reviewing internet-exposed settings; if it’s self-managed, ensure firmware updates are part of your regular maintenance routine.</p>
+
+        <h2>One action today</h2>
+        <p>Confirm today whether any office router/firewall has internet-exposed admin access, and if so, restrict it and rotate the admin password.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber “Router &amp; Firewall Safety Checklist” (edge device exposure, remote admin, credential hygiene, and ISP/MSP escalation plan).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/" rel="noopener noreferrer">New Evooo1Bot Linux botnet turns routers into traffic relay nodes</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

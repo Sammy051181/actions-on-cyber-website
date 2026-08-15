@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "446b2104854530e9": {
-      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-17T16:45:33.127486+01:00",
-      "brief_slug": "2026-05-17-1645-today-s-sme-cyber-look-out-microsoft-365-device-code-phishing-account-takeover-i"
-    },
-    "7b6b6ee37fa4ce90": {
-      "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-17T16:45:33.127486+01:00",
-      "brief_slug": "2026-05-17-1645-today-s-sme-cyber-look-out-microsoft-365-device-code-phishing-account-takeover-i"
-    },
     "0e138c761eb645b6": {
       "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
       "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
@@ -5767,9 +5753,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-15T13:57:58.276265+01:00",
       "brief_slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q"
+    },
+    "2ef1bbe49955c9fa": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-15T17:39:47.104298+01:00",
+      "brief_slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux",
+      "headline": "SMB Cyber Intelligence Brief: Router/gateway devices being roped into a new Linux botnet",
+      "risk_level": "Moderate",
+      "todays_lookout": "Router and gateway compromise turning devices into traffic relays",
+      "published_at": "2026-08-15T17:39:47.104298+01:00",
+      "published_label": "Saturday 15 August 2026, 17:39 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/"
+      ]
+    },
     {
       "slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q",
       "headline": "Today’s SMB cyber look-out: AI-assisted impersonation, ‘watermark’ confusion, and a quick Windows patch check",
@@ -8750,18 +8754,6 @@
         "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
         "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
         "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/"
-      ]
-    },
-    {
-      "slug": "2026-05-17-1645-today-s-sme-cyber-look-out-microsoft-365-device-code-phishing-account-takeover-i",
-      "headline": "Today’s SME cyber look‑out: Microsoft 365 device‑code phishing (account takeover) + “in the wild” NGINX exploitation risk",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover phishing and internet‑facing web service disruption",
-      "published_at": "2026-05-17T16:45:33.127486+01:00",
-      "published_label": "Sunday 17 May 2026, 16:45 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-        "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html"
       ]
     }
   ]
