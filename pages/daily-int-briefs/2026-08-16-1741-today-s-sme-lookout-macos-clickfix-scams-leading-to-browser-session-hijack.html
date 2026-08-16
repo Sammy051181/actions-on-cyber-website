@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME lookout: macOS ‘ClickFix’ scams leading to browser session hijack | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME lookout: macOS ‘ClickFix’ scams leading to browser session hijack</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 16 August 2026, 17:41 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Fake fix prompts (ClickFix) and macOS browser session theft
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be alert for Mac users being tricked by <strong>“ClickFix” style prompts</strong> (fake error or verification messages) that lead to installing or running something to “fix” a problem. Reporting today highlights a new macOS information-stealer (AmnesiaStealer) that can <strong>take over a victim’s browser session</strong> via remote interaction.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Many SMEs rely on browser sessions for everything: Microsoft 365 / Google Workspace, bookkeeping, payroll, CRMs, online banking, card payments dashboards and social media. If an attacker can hijack a live browser session, they may be able to access accounts <strong>even without knowing the password</strong>, and quickly attempt:</p>
+<ul>
+  <li>Payment diversion (changing payee details, adding new beneficiaries, or initiating transfers)</li>
+  <li>Invoice fraud using real email threads from inside your mailbox</li>
+  <li>Taking over SaaS admin consoles to add new users or reset MFA</li>
+  <li>Data theft from shared drives and customer systems</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A pop-up or web page insisting you must “verify”, “fix”, or “update” immediately to continue</li>
+  <li>Instructions telling staff to copy/paste steps, run a command, install a “support tool”, or allow unusual permissions</li>
+  <li>Browser behaviour that feels “possessed”: tabs opening/closing, unexpected clicks, or settings changing</li>
+  <li>Unexpected logins, new devices, or MFA prompts that nobody initiated</li>
+  <li>New payees/beneficiaries added in banking or payment platforms, or rules/forwarders added in email</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<p>Attackers use convincing web prompts and “helpful” instructions to get a Mac user to run something that installs an information-stealer. Once in, the attacker’s goal is to <strong>take over the browser session</strong> to access business accounts and move quickly before anyone notices—often targeting finance, inboxes, and admin portals.</p>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff warning</strong>: “Never follow ‘fix’ prompts from websites. If you’re told to install/run anything to continue, stop and contact IT.”</li>
+  <li><strong>Prioritise finance and admin users on Macs</strong>: remind them to treat unexpected MFA prompts as a red flag and report immediately.</li>
+  <li><strong>Check key accounts for tampering</strong>: email forwarding rules, new inbox rules, new users in admin consoles, and new payees in banking/payment tools.</li>
+  <li><strong>Reinforce payment controls</strong>: call-back verification for any bank detail change or new beneficiary, using a known number (not the email signature).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have Mac endpoint security in place, and are alerts monitored (including for browser credential/session theft behaviours)?</li>
+  <li>Can we enforce least privilege on Macs (staff not running with admin rights day-to-day)?</li>
+  <li>Do we have conditional access / sign-in alerts for our main SaaS (M365/Google, finance, CRM)?</li>
+  <li>What’s our fast response step if someone reports a suspicious “fix prompt” or unexpected MFA (isolation, password resets, session revocation)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific patch issue is the focus here. This is mainly a <strong>social engineering + malware</strong> risk: make sure macOS and browsers are set to update automatically, and prioritise user training and sign-in monitoring.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: “If a website tells you to ‘fix/verify’ by installing or running anything, stop—close the tab and report it to IT.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Payment change verification &amp; invoice fraud callback checklist</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/" rel="noopener noreferrer">New AmnesiaStealer macOS malware hijacks browser sessions via remote control</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

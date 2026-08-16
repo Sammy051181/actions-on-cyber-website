@@ -5760,9 +5760,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-15T17:39:47.104298+01:00",
       "brief_slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux"
+    },
+    "0a6826eb0448c7a0": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-16T17:41:13.630118+01:00",
+      "brief_slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack",
+      "headline": "Today’s SME lookout: macOS ‘ClickFix’ scams leading to browser session hijack",
+      "risk_level": "High",
+      "todays_lookout": "Fake fix prompts (ClickFix) and macOS browser session theft",
+      "published_at": "2026-08-16T17:41:13.630118+01:00",
+      "published_label": "Sunday 16 August 2026, 17:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
+      ]
+    },
     {
       "slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux",
       "headline": "SMB Cyber Intelligence Brief: Router/gateway devices being roped into a new Linux botnet",
