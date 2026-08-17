@@ -5816,9 +5816,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-17T14:04:29.310215+01:00",
       "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
+    },
+    "854ad5325b12e6af": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+      "title": "Microsoft confirms GitHub is down worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T17:44:30.209871+01:00",
+      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
+    },
+    "5ab36643acff495f": {
+      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-17T17:44:30.209871+01:00",
+      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
+    },
+    "9da7db7cc2a65cda": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T17:44:30.209871+01:00",
+      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
+    },
+    "c7510fc0ce5f9849": {
+      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T17:44:30.209871+01:00",
+      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris",
+      "headline": "Today’s SMB Cyber Brief: GitHub outage disruption + AI agent/MCP “secret leakage” risk",
+      "risk_level": "Moderate",
+      "todays_lookout": "Cloud/SaaS disruption scams and secret exposure via AI tooling",
+      "published_at": "2026-08-17T17:44:30.209871+01:00",
+      "published_label": "Monday 17 August 2026, 17:44 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+        "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+        "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+        "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/"
+      ]
+    },
     {
       "slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-",
       "headline": "Ransomware targeting VMware management servers, plus breach-driven impersonation scams to watch",
