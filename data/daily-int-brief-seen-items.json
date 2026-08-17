@@ -5788,9 +5788,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-17T08:59:31.472030+01:00",
       "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
+    },
+    "f632e57bed8cc4fc": {
+      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-17T14:04:29.310215+01:00",
+      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
+    },
+    "1982bb8549d62c4e": {
+      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T14:04:29.310215+01:00",
+      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
+    },
+    "651dff2e0053b34f": {
+      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T14:04:29.310215+01:00",
+      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
+    },
+    "47cc0c0a32769532": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T14:04:29.310215+01:00",
+      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-",
+      "headline": "Ransomware targeting VMware management servers, plus breach-driven impersonation scams to watch",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware & supplier-impersonation scams (IT platform risk + breach ripple effects)",
+      "published_at": "2026-08-17T14:04:29.310215+01:00",
+      "published_label": "Monday 17 August 2026, 14:04 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+        "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+        "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/"
+      ]
+    },
     {
       "slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons",
       "headline": "Supplier disruption + data breach: expect impersonation and downtime knock-ons",
