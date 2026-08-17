@@ -5767,9 +5767,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-16T17:41:13.630118+01:00",
       "brief_slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack"
+    },
+    "847da71208bc87c8": {
+      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T08:59:31.472030+01:00",
+      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
+    },
+    "0748ca510918d820": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T08:59:31.472030+01:00",
+      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
+    },
+    "6565f68216623d65": {
+      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-17T08:59:31.472030+01:00",
+      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons",
+      "headline": "Supplier disruption + data breach: expect impersonation and downtime knock-ons",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier outage scams and data-breach follow-on phishing",
+      "published_at": "2026-08-17T08:59:31.472030+01:00",
+      "published_label": "Monday 17 August 2026, 08:59 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+        "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/"
+      ]
+    },
     {
       "slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack",
       "headline": "Today’s SME lookout: macOS ‘ClickFix’ scams leading to browser session hijack",
