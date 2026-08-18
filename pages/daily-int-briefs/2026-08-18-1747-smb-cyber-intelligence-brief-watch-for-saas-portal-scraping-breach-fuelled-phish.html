@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Watch for SaaS portal scraping, breach‑fuelled phishing, and code supply‑chain traps | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Watch for SaaS portal scraping, breach‑fuelled phishing, and code supply‑chain traps</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Tuesday 18 August 2026, 17:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS data exposure scams and portal scraping
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>SaaS portal data scraping risk:</strong> reports of a long-running campaign pulling records from <strong>Salesforce</strong> and <strong>ServiceNow</strong> customer portals across organisations.</li>
+  <li><strong>Breach ripple-effects:</strong> a disclosed customer data exposure at hardware wallet maker <strong>SafePal</strong> may lead to targeted phishing and “we need you to confirm” messages.</li>
+  <li><strong>Software supply-chain trap:</strong> typosquatted <strong>RubyGems</strong> packages published to steal browser credentials and crypto wallet data—relevant if you have in-house developers or use agencies that build/maintain your systems.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on cloud services (CRM, ticketing, HR, finance and customer support). If attackers can quietly pull data from portals, the impact is often felt as:</p>
+<ul>
+  <li><strong>Account takeover</strong> (email, CRM, support desk) leading to invoice fraud or customer impersonation.</li>
+  <li><strong>Customer and staff phishing</strong> that looks believable because it uses real names, ticket references, delivery addresses or purchase details.</li>
+  <li><strong>Supply-chain exposure</strong> where a developer dependency or plugin brings malware into a build process or admin workstation.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>data export</strong> activity in CRM/helpdesk tools, or users reporting missing/changed records they didn’t touch.</li>
+  <li>Unusual <strong>login prompts</strong>, repeated MFA requests, or sign-ins from unfamiliar locations for Salesforce/ServiceNow accounts.</li>
+  <li>Staff or customers receiving emails/SMS claiming to be from a supplier asking to <strong>“confirm details”</strong>, <strong>reset passwords</strong>, or <strong>re-verify orders</strong> (especially where the message includes accurate personal details).</li>
+  <li>Developer/IT team mentions “quick gem update” or new dependencies that aren’t in normal change control.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Portal scraping → targeted phishing:</strong> attackers harvest names, emails, ticket subjects, and organisational context to craft believable messages (e.g., “ticket update”, “case closed”, “new invoice attached”).</li>
+  <li><strong>Breach data → impersonation:</strong> exposed customer contact/shipping details can be used to convince recipients that an email is genuine and push them to click login links or approve payments.</li>
+  <li><strong>Typosquatting → credential theft:</strong> a small naming mistake in a software package can lead to malware on a developer machine, then onward access to business systems via saved browser sessions and passwords.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Lock down SaaS portals:</strong> review who has access to Salesforce/ServiceNow portals; remove dormant accounts; ensure MFA is enforced for all users (including admins and contractors).</li>
+  <li><strong>Turn up monitoring:</strong> check sign-in logs and alerting for unusual locations, impossible travel, mass record reads/exports, and repeated failed logins.</li>
+  <li><strong>Brief staff (10 minutes):</strong> warn that “support ticket updates”, “order issues”, and “account verification” emails may be more convincing right now; reinforce checking requests via a known channel.</li>
+  <li><strong>If you use developers/agency support:</strong> ask what controls they have to prevent typosquatting/dependency confusion and how they review new packages before use.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>conditional access/MFA</strong> enforced for Salesforce/ServiceNow and admin accounts, including third parties?</li>
+  <li>What alerts do we have for <strong>bulk exports</strong>, unusual API usage, or atypical portal access patterns?</li>
+  <li>Can you confirm our <strong>least-privilege</strong> approach for CRM/helpdesk roles and portal users (including old staff and contractors)?</li>
+  <li>For any software development you manage: how do you <strong>approve dependencies</strong> (e.g., RubyGems) and detect typosquatted packages?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft is continuing to change Windows built-in tooling (including removing WMIC from newer Windows 11 builds). This isn’t an emergency patch item for most SMEs today, but it’s a prompt to ensure your IT provider isn’t relying on legacy tools for support scripts and that endpoint monitoring remains effective as Windows features evolve.</p>
+
+        <h2>One action today</h2>
+        <p>Review Salesforce/ServiceNow access today: remove dormant/third‑party accounts you no longer need and confirm MFA is enforced for every user (especially admins).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: SaaS Security Mini-Checklist (MFA, least privilege, sign-in alerts, third-party access review)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html" rel="noopener noreferrer">One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html" rel="noopener noreferrer">SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html" rel="noopener noreferrer">16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/" rel="noopener noreferrer">Microsoft starts removing WMIC tool used by cybercriminals</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

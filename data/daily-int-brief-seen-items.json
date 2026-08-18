@@ -5851,9 +5851,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-18T14:06:30.026489+01:00",
       "brief_slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today"
+    },
+    "6f9e97f4de864e46": {
+      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-18T17:47:45.733029+01:00",
+      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
+    },
+    "5e10185b7da23e8f": {
+      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-18T17:47:45.733029+01:00",
+      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
+    },
+    "baa27ed0fe16d8c9": {
+      "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-18T17:47:45.733029+01:00",
+      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
+    },
+    "25a892e0e0743a39": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-18T17:47:45.733029+01:00",
+      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish",
+      "headline": "SMB Cyber Intelligence Brief: Watch for SaaS portal scraping, breach‑fuelled phishing, and code supply‑chain traps",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS data exposure scams and portal scraping",
+      "published_at": "2026-08-18T17:47:45.733029+01:00",
+      "published_label": "Tuesday 18 August 2026, 17:47 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+        "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+        "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/"
+      ]
+    },
     {
       "slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today",
       "headline": "Microsoft 365 disruption & cloud-app abuse: what SMEs should watch today",
