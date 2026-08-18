@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Microsoft 365 disruption &amp; cloud-app abuse: what SMEs should watch today | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Microsoft 365 disruption &amp; cloud-app abuse: what SMEs should watch today</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 18 August 2026, 14:06 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud productivity disruption + SharePoint/Teams credential theft + ransomware follow-on risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two separate Microsoft 365 themes are in the news today:</strong> (1) a Microsoft-confirmed outage affecting search across Microsoft 365 apps, and (2) reports of attackers abusing trusted Microsoft services like SharePoint Online and Teams to blend in while stealing credentials and moving through environments. In parallel, CISA has warned a Windows Task Host flaw is now being exploited by ransomware gangs.</p>
+<ul>
+  <li><strong>Microsoft 365 search issues</strong> (Outlook, SharePoint Online, OneDrive): expect users to report they “can’t find emails/files”.</li>
+  <li><strong>SharePoint/Teams used as an attack path</strong>: look out for unusual SharePoint/Teams activity that doesn’t fit normal work patterns.</li>
+  <li><strong>Ransomware gangs exploiting a Windows issue</strong>: treat unusual endpoint behaviour and login anomalies as urgent, especially if your estate is mixed and patching is uneven.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on Microsoft 365 for day-to-day operations. When search breaks, staff often improvise (forwarding documents to personal email, downloading extra copies, using unofficial storage) which can increase data leakage risk. Separately, attackers know that Microsoft 365 traffic is “normal”, so abusing SharePoint/Teams can help them hide in plain sight while they harvest credentials, access files, and potentially set up a ransomware disruption later.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Microsoft 365 disruption signals</strong>: sudden spike in helpdesk tickets about missing emails/files, search returning no results, staff repeatedly re-saving or re-uploading documents.</li>
+  <li><strong>Account and access anomalies</strong>: unexpected MFA prompts, users reporting they were “logged out”, or password resets they didn’t initiate.</li>
+  <li><strong>SharePoint/Teams oddities</strong>: new/unfamiliar SharePoint sites, unusual file uploads/downloads at odd hours, unexpected sharing links, or Teams messages inviting staff to open files “to fix access”.</li>
+  <li><strong>Endpoint red flags</strong>: machines running slowly after login, security tools being disabled, unexpected scheduled tasks, or repeated failed logins (often a precursor to ransomware operations).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>“Fake support” and phishing during an outage</strong>: attackers may send emails/Teams chats claiming to be Microsoft/your IT provider and asking users to “re-authenticate” or “apply a fix”.</li>
+  <li><strong>Abusing trusted Microsoft services</strong>: using SharePoint/Teams activity to look like normal collaboration while they test access, steal credentials, and move between accounts.</li>
+  <li><strong>Ransomware follow-on</strong>: once credentials or admin access is gained, attackers typically target backups, file servers, and cloud storage to maximise business disruption.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note</strong>: “Microsoft 365 search may be unreliable today. Don’t click ‘fix login’ links, don’t approve unexpected MFA prompts, and report any Microsoft/IT ‘re-auth’ requests.”</li>
+  <li><strong>Lock down sharing</strong>: review external sharing settings for SharePoint/OneDrive and check for any sudden changes.</li>
+  <li><strong>Check sign-in risk quickly</strong>: review Microsoft 365 sign-in logs for impossible travel, unfamiliar locations, and repeated failures on key accounts (finance, admins).</li>
+  <li><strong>Prioritise resilience</strong>: confirm you can still access key documents without relying on search (known folder locations, Teams channel files, critical procedures).</li>
+  <li><strong>Be ready for disruption</strong>: ensure you have an offline way to contact staff and your IT provider if Teams/Outlook is degraded.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you confirm whether our tenant shows any unusual SharePoint/Teams activity (new sites, unusual sharing links, large downloads, suspicious logins)?</li>
+  <li>Do we have Conditional Access/MFA protections appropriately enforced for admins and finance users, and are we monitoring MFA fatigue/number-matching bypass attempts?</li>
+  <li>What alerts would we expect to see if a cloud account is being used to access lots of files quickly?</li>
+  <li>If Microsoft 365 is partially down, what’s our agreed business continuity workaround (customer comms, document access, approvals/payments)?</li>
+  <li>Are we protected against ransomware outcomes (tested backups, restore time expectations, and a plan for isolating compromised endpoints)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA reports ransomware gangs are exploiting a Windows Task Host flaw. For SMEs this is a reminder to confirm with your IT provider that Windows updates are being applied promptly across all PCs and servers (including rarely used machines), and that patching exceptions are tracked and time-limited.</p>
+
+        <h2>One action today</h2>
+        <p>Send a brief internal message today warning staff not to click “re-authenticate/fix your Microsoft 365” links or approve unexpected MFA prompts during the Microsoft 365 search disruption.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Microsoft 365 account takeover &amp; MFA prompt-bombing staff checklist (quick message template + what to check in your tenant)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/" rel="noopener noreferrer">Microsoft confirms outage affecting search in Microsoft 365 apps</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html" rel="noopener noreferrer">TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/" rel="noopener noreferrer">CISA: Windows Task Host flaw now exploited by ransomware gangs</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
