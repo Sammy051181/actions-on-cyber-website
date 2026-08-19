@@ -5893,9 +5893,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-19T14:07:37.073458+01:00",
       "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
+    },
+    "3480c475467139bf": {
+      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-19T17:46:06.215472+01:00",
+      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
+    },
+    "b3d652ff51df4921": {
+      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-19T17:46:06.215472+01:00",
+      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
+    },
+    "95cffd3568d060e4": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-19T17:46:06.215472+01:00",
+      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers",
+      "headline": "Today’s SMB cyber lookout: password-spraying surges and CCTV/IoT device takeovers",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover attempts via password-spraying + insecure internet-connected devices",
+      "published_at": "2026-08-19T17:46:06.215472+01:00",
+      "published_label": "Wednesday 19 August 2026, 17:46 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+        "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
+      ]
+    },
     {
       "slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to",
       "headline": "Ransomware pressure, WordPress-as-a-launchpad malware, and Mac credential theft: today’s SME lookout",
