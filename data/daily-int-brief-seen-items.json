@@ -5865,9 +5865,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-19T08:53:53.940624+01:00",
       "brief_slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri"
+    },
+    "5ef6f15942f813cd": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+      "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-19T14:07:37.073458+01:00",
+      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
+    },
+    "d147b16777527f66": {
+      "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-19T14:07:37.073458+01:00",
+      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
+    },
+    "c0cb35055ffec7a2": {
+      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-19T14:07:37.073458+01:00",
+      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
+    },
+    "7519abc26fd1c7cd": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-19T14:07:37.073458+01:00",
+      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to",
+      "headline": "Ransomware pressure, WordPress-as-a-launchpad malware, and Mac credential theft: today’s SME lookout",
+      "risk_level": "High",
+      "todays_lookout": "Malware and ransomware-enabled account theft (WordPress lures, macOS stealers) and knock-on disruption",
+      "published_at": "2026-08-19T14:07:37.073458+01:00",
+      "published_label": "Wednesday 19 August 2026, 14:07 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+        "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+        "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/"
+      ]
+    },
     {
       "slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri",
       "headline": "Today’s SME cyber lookout: ransomware “helpers”, supplier platform data theft, and risky AI-assistant links",
