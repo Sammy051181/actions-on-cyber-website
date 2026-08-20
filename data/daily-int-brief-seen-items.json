@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "d0304851c0fa2e4c": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
-      "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-21T18:20:54.651462+01:00",
-      "brief_slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar"
-    },
-    "d55b7ff19466d6e0": {
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
-      "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-21T18:20:54.651462+01:00",
-      "brief_slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar"
-    },
     "164e10eb420140f1": {
       "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
       "title": "Former US execs plead guilty to aiding tech support scammers",
@@ -5914,9 +5900,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-08-19T17:46:06.215472+01:00",
       "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
+    },
+    "2b2f8778b75699ef": {
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T08:55:56.192284+01:00",
+      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
+    },
+    "eac982b66ebccc44": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T08:55:56.192284+01:00",
+      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
+    },
+    "fd9aa5790c84cee2": {
+      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T08:55:56.192284+01:00",
+      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
+    },
+    "36ba4d341c0804d5": {
+      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T08:55:56.192284+01:00",
+      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti",
+      "headline": "Today’s SMB Cyber Brief: “Ransomware recovery” impersonation scams, AI/SaaS disruption, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and urgent-payment fraud during ransomware and SaaS disruption",
+      "published_at": "2026-08-20T08:55:56.192284+01:00",
+      "published_label": "Thursday 20 August 2026, 08:55 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+        "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+        "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/"
+      ]
+    },
     {
       "slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers",
       "headline": "Today’s SMB cyber lookout: password-spraying surges and CCTV/IoT device takeovers",
@@ -8998,18 +9026,6 @@
         "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
         "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
         "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-05-21-1820-today-s-smb-cyber-brief-vpn-access-sonicwall-and-stolen-logins-feeding-ransomwar",
-      "headline": "Today’s SMB cyber brief: VPN access (SonicWall) and stolen logins feeding ransomware",
-      "risk_level": "High",
-      "todays_lookout": "Remote access takeover and follow-on ransomware disruption",
-      "published_at": "2026-05-21T18:20:54.651462+01:00",
-      "published_label": "Thursday 21 May 2026, 18:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
-        "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/"
       ]
     }
   ]
