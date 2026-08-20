@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "164e10eb420140f1": {
-      "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
-      "title": "Former US execs plead guilty to aiding tech support scammers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-22T17:11:50.170799+01:00",
-      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
-    },
-    "d3307a1a85256870": {
-      "url": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-22T17:11:50.170799+01:00",
-      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
-    },
-    "344faee60a6d59cd": {
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "title": "Chinese hackers target telcos with new Linux, Windows malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-22T17:11:50.170799+01:00",
-      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
-    },
-    "d5b77950a9cdc89d": {
-      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "title": "When Identity is the Attack Path",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-22T17:11:50.170799+01:00",
-      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
-    },
-    "b91bc3df1bf2192a": {
-      "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-22T17:11:50.170799+01:00",
-      "brief_slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t"
-    },
     "bcbce45b9a9590be": {
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
@@ -5956,9 +5921,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-20T14:10:21.097322+01:00",
       "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
+    },
+    "e466cd90008a4db1": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
+      "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "41d45d363a36e857": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "88c8957eed48de4f": {
+      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "541e0309d10b7da7": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "0a363bcfbc5d957d": {
+      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+      "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "b398c07080514782": {
+      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-20T17:49:55.348840+01:00",
+      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri",
+      "headline": "SMB Cyber Intelligence Brief: phishing via real login flows, website compromise risk, and payment/POS fraud themes",
+      "risk_level": "High",
+      "todays_lookout": "Phishing that abuses real sign-in flows + common SaaS/website entry points",
+      "published_at": "2026-08-20T17:49:55.348840+01:00",
+      "published_label": "Thursday 20 August 2026, 17:49 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
+        "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+        "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
+      ]
+    },
     {
       "slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo",
       "headline": "SMB Cyber Intelligence Brief — Android banking malware & urgent remote access platform risk",
@@ -9053,21 +9076,6 @@
         "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
         "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
         "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog"
-      ]
-    },
-    {
-      "slug": "2026-05-22-1711-today-s-smb-cyber-brief-tech-support-scams-identity-led-break-ins-and-security-t",
-      "headline": "Today’s SMB cyber brief: tech support scams, identity-led break-ins, and security tool risk",
-      "risk_level": "High",
-      "todays_lookout": "Tech support scam calls + identity/account takeover paths + endpoint security supplier risk",
-      "published_at": "2026-05-22T17:11:50.170799+01:00",
-      "published_label": "Friday 22 May 2026, 17:11 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
-        "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-        "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-        "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-        "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/"
       ]
     }
   ]
