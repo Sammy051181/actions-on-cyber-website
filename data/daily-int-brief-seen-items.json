@@ -5928,9 +5928,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-20T08:55:56.192284+01:00",
       "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
+    },
+    "237d26e3f1f2ca16": {
+      "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-20T14:10:21.097322+01:00",
+      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
+    },
+    "7aa10154e2ca3cd0": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T14:10:21.097322+01:00",
+      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
+    },
+    "1c6b6eea4c8b2950": {
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T14:10:21.097322+01:00",
+      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
+    },
+    "e9af320d90c544ae": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-20T14:10:21.097322+01:00",
+      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo",
+      "headline": "SMB Cyber Intelligence Brief — Android banking malware & urgent remote access platform risk",
+      "risk_level": "High",
+      "todays_lookout": "Mobile banking fraud + remote access/SaaS compromise risk",
+      "published_at": "2026-08-20T14:10:21.097322+01:00",
+      "published_label": "Thursday 20 August 2026, 14:10 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+        "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+        "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
+      ]
+    },
     {
       "slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti",
       "headline": "Today’s SMB Cyber Brief: “Ransomware recovery” impersonation scams, AI/SaaS disruption, and breach-driven phishing",
