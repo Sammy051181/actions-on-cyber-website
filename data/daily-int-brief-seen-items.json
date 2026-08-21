@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "bcbce45b9a9590be": {
-      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "source": "Krebs on Security",
-      "seen_at": "2026-05-22T22:00:58.541118+01:00",
-      "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
-    },
-    "35ca5d2e47328b39": {
-      "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-22T22:00:58.541118+01:00",
-      "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
-    },
-    "7212daac780cce4c": {
-      "url": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-22T22:00:58.541118+01:00",
-      "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
-    },
-    "c30cb83e705f0ee8": {
-      "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-22T22:00:58.541118+01:00",
-      "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
-    },
-    "10c8a27aee0beba6": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-22T22:00:58.541118+01:00",
-      "brief_slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and"
-    },
     "ba1db87086c60df5": {
       "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
       "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
@@ -5963,9 +5928,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-20T17:49:55.348840+01:00",
       "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
+    },
+    "630ad3fed036364e": {
+      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-21T08:56:14.550600+01:00",
+      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
+    },
+    "000b292e537a8c93": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T08:56:14.550600+01:00",
+      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
+    },
+    "41850b0deaa2721c": {
+      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-21T08:56:14.550600+01:00",
+      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
+    },
+    "42c3afc04079c9f5": {
+      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-21T08:56:14.550600+01:00",
+      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
+    },
+    "70f2277fb6a228ef": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+      "title": "Johnson Controls Simplex Incident Manager",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-21T08:56:14.550600+01:00",
+      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco",
+      "headline": "SMB Cyber Intelligence Brief — Cloud identity, software supply chain, and OAuth account takeovers",
+      "risk_level": "High",
+      "todays_lookout": "Cloud identity and supplier/software supply-chain risk (plus account takeover via legitimate login flows)",
+      "published_at": "2026-08-21T08:56:14.550600+01:00",
+      "published_label": "Friday 21 August 2026, 08:56 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+        "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+        "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01"
+      ]
+    },
     {
       "slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri",
       "headline": "SMB Cyber Intelligence Brief: phishing via real login flows, website compromise risk, and payment/POS fraud themes",
@@ -9061,21 +9076,6 @@
         "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
         "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
         "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-05-22-2200-today-s-smb-cyber-lookout-leaked-cloud-credentials-trusted-platform-phishing-and",
-      "headline": "Today’s SMB cyber lookout: leaked cloud credentials, ‘trusted platform’ phishing, and supplier disruption noise",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier credential leak scams + phishing using trusted services + knock-on disruption from takedowns",
-      "published_at": "2026-05-22T22:00:58.541118+01:00",
-      "published_label": "Friday 22 May 2026, 22:00 UK time",
-      "source_urls": [
-        "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-        "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-        "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-        "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-        "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog"
       ]
     }
   ]

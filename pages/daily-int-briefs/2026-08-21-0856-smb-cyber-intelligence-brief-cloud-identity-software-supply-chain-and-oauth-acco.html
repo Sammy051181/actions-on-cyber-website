@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — Cloud identity, software supply chain, and OAuth account takeovers | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — Cloud identity, software supply chain, and OAuth account takeovers</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 21 August 2026, 08:56 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud identity and supplier/software supply-chain risk (plus account takeover via legitimate login flows)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes to keep on your radar today:</strong></p>
+<ul>
+  <li><strong>Microsoft Entra ID (Azure AD) exploitation reported:</strong> Microsoft has warned of an Entra ID flaw that has been exploited in the wild, while also stating no customer action is required. Even when “no action” is needed, these events often trigger follow-on phishing, fake support calls, and admin-account targeting.</li>
+  <li><strong>Software supply-chain incident in popular Rust crates:</strong> malicious releases were published after a maintainer account compromise, introducing build-time malware behaviour during compilation. This is relevant if you build software (in-house or via a supplier) or run products built with these components.</li>
+  <li><strong>Account takeover using legitimate OAuth and app-linking flows:</strong> attackers have been observed abusing real login/linking processes (e.g., OAuth consent and WhatsApp linking) to hijack accounts. This typically shows up as convincing “approval” prompts rather than obviously malicious links.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Microsoft 365/Entra ID is a dependency:</strong> if identity is disrupted or admin accounts are compromised, it can quickly affect email, Teams, SharePoint/OneDrive, payroll/HR logins, and any SaaS connected to your Microsoft sign-in.</li>
+  <li><strong>Supply-chain risk hits SMEs indirectly:</strong> you may not use Rust directly, but your IT provider, web agency, or a line-of-business vendor might. Build-time compromise can lead to stolen credentials, backdoored apps, or data leakage.</li>
+  <li><strong>Modern takeovers can look “legitimate”:</strong> OAuth consent screens and device/app linking prompts can bypass staff instincts trained on obvious phishing emails.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected sign-in prompts</strong> (especially for admins), repeated MFA push notifications, or staff saying “my phone keeps asking me to approve something”.</li>
+  <li><strong>New OAuth app consents</strong> you don’t recognise, or users reporting they were asked to “grant access” to a third-party app to view a document or voicemail.</li>
+  <li><strong>New inbox rules / forwarding</strong> or unusual mail-deletion behaviour (often indicates mailbox compromise).</li>
+  <li><strong>Supplier messages about urgent rebuilds/hotfixes</strong> or requests to “temporarily disable security” to get builds working.</li>
+  <li><strong>Helpdesk/social engineering attempts</strong> referencing “the Entra/Azure issue” to pressure password resets, MFA changes, or granting access.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Brand-jacking and fake support:</strong> criminals commonly exploit headline news by sending fake Microsoft/security emails or calling reception/finance to “verify your tenant” or “re-secure accounts”.</li>
+  <li><strong>OAuth consent abuse:</strong> a user (or admin) is tricked into approving an app access request that grants mailbox or file access without stealing a password in the traditional way.</li>
+  <li><strong>Targeting developers and build systems:</strong> where businesses (or suppliers) compile software, malicious dependencies can run during builds, leading to stolen credentials/tokens and wider compromise.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (2 minutes):</strong> “Do not approve unexpected sign-in/MFA prompts. Do not grant app permissions unless you requested it. Report immediately.”</li>
+  <li><strong>Protect admin accounts:</strong> confirm MFA is enforced for all admins; ensure break-glass accounts are controlled and monitored; avoid using admin accounts for email/browsing.</li>
+  <li><strong>Review OAuth/app access:</strong> ask IT to review recent enterprise app consents and high-privilege app permissions in your tenant, and remove anything not required.</li>
+  <li><strong>Supplier check-in:</strong> if you have any in-house development or a software supplier/MSP, ask if they were exposed to the malicious Rust crate releases and what they’ve done to validate builds.</li>
+  <li><strong>Logging & alerts:</strong> ensure alerts are set for new OAuth consents, suspicious sign-ins, mailbox forwarding rules, and privileged role changes.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Have you seen any suspicious Entra ID activity in our tenant (admin role changes, risky sign-ins, MFA fatigue, new OAuth consents) in the last 7 days?</li>
+  <li>What controls do we have for <strong>OAuth consent</strong> (e.g., user consent restrictions, admin approval workflow, regular review)?</li>
+  <li>Do we have alerting for <strong>mailbox forwarding rules</strong>, mass downloads from SharePoint/OneDrive, and impossible travel / atypical sign-in locations?</li>
+  <li>Do any of our applications, suppliers, or internal build pipelines use Rust crates (specifically those affected), and how did you verify we’re not pulling malicious releases?</li>
+  <li>If Microsoft says “no customer action required”, what is our internal process to confirm we’re safe (monitoring, tenant hardening, comms to staff)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s main risks are less about you applying a patch immediately and more about <strong>identity monitoring</strong>, <strong>account takeover prevention</strong>, and <strong>supplier assurance</strong>. If you run operational/industrial systems, note there was also an ICS advisory for Johnson Controls Simplex Incident Manager, but treat this as a specialist check with your facilities/IT team rather than a general office IT task.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “Only approve MFA/sign-in prompts you initiated; do not grant app access/permissions unless you raised the request; report unexpected prompts immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Microsoft 365/Entra ID quick hardening + suspicious sign-in and OAuth consent review</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html" rel="noopener noreferrer">Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/" rel="noopener noreferrer">Hackers poison arrayref Rust crate to push infostealer malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html" rel="noopener noreferrer">Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html" rel="noopener noreferrer">Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01" rel="noopener noreferrer">Johnson Controls Simplex Incident Manager</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
