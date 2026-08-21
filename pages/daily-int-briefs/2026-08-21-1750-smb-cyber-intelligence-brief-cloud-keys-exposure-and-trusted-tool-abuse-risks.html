@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — Cloud keys exposure and “trusted tool” abuse risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — Cloud keys exposure and “trusted tool” abuse risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 21 August 2026, 17:50 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover risk (leaked keys) and trusted security tooling being abused
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two themes to keep on your radar today:</strong></p>
+<ul>
+  <li><strong>Cloud account takeover from leaked credentials:</strong> reports highlight thousands of publicly exposed AWS access keys that are still active and usable.</li>
+  <li><strong>“Trusted tool” abuse on Windows:</strong> research shows a way a legitimate Microsoft Defender boot-time driver could be misused to delete or disable security software during boot, potentially making attacks (including ransomware) easier to run and harder to stop.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>AWS key exposure can be business-ending quickly:</strong> attackers with valid keys may access data, create new users, spin up costly resources, or quietly set up persistence—often without triggering obvious “password failed” alerts.</li>
+  <li><strong>Security software removal changes the game:</strong> if an attacker can knock out endpoint protection, incidents can escalate faster (encryption, data theft, fraud), and recovery may take longer.</li>
+  <li><strong>SMEs rely on third parties:</strong> outsourced IT, MSPs, developers, and contractors often handle cloud keys and device management—so the risk can sit outside your direct view.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>AWS / cloud:</strong> unexpected new users/roles, access keys created, policies changed, MFA settings altered, logins from unfamiliar locations, or sudden cost spikes.</li>
+  <li><strong>Windows / endpoints:</strong> security tools suddenly disabled or missing after a reboot, unusual “tamper protection” alerts, endpoints dropping out of management dashboards, or repeated reboot loops around the time an incident starts.</li>
+  <li><strong>People/process:</strong> developers or suppliers asking to “share a key quickly”, credentials found in shared documents, code repos, ticket comments, or chat threads.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Leaked cloud keys:</strong> attackers search public places (e.g., shared code, pasted snippets, misconfigured storage, build logs) for credentials and test whether they still work. If they do, they may move fast to create backup access and hide activity.</li>
+  <li><strong>Disable defences before the main attack:</strong> some attackers prioritise neutralising endpoint protection first, then deploy payloads, steal data, or attempt ransomware. Using legitimate components can make activity harder to spot at a glance.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Audit cloud credentials:</strong> identify who/what still uses long-lived AWS access keys; rotate keys that aren’t essential; disable any keys not used recently; and ensure MFA is enforced where applicable.</li>
+  <li><strong>Hunt for exposed secrets:</strong> ask your technical team/MSP to check whether your organisation’s keys have appeared in public code repos, build logs, or shared “how-to” docs.</li>
+  <li><strong>Put spend and access guardrails in place:</strong> confirm you have cost alerts, logging/monitoring enabled, and notifications for new users/keys and permission changes.</li>
+  <li><strong>Check endpoint tamper controls:</strong> confirm your endpoint security platform is configured to alert on disablement/uninstall events and that those alerts go to more than one mailbox/person.</li>
+  <li><strong>Rehearse your ‘containment’ step:</strong> ensure you can quickly isolate devices and revoke cloud credentials during an incident (and know who can approve that decision).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an up-to-date list of <strong>all</strong> AWS access keys in use (including by suppliers, scripts, and legacy apps), and when they were last used?</li>
+  <li>What monitoring do we have for <strong>new cloud access keys</strong>, new privileged users/roles, and permission changes—and who gets alerted?</li>
+  <li>Have we scanned our code repos and build pipelines for <strong>embedded secrets</strong> (keys/tokens)? How often do we repeat that scan?</li>
+  <li>On Windows endpoints, what controls are in place to detect or prevent <strong>security tool removal/disablement</strong>, especially around reboot/boot-time activity?</li>
+  <li>If we suspected an active attack, what is our fastest path to: revoke cloud credentials, isolate machines, and preserve logs for investigation?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This brief is less about applying a specific patch and more about <strong>credential hygiene and monitoring</strong>. However, it’s still worth confirming your normal Windows update and endpoint-management process is healthy, because attackers often take advantage of organisations that are behind on baseline maintenance and visibility.</p>
+
+        <h2>One action today</h2>
+        <p>Today, inventory and rotate/disable any AWS access keys that are not strictly required (especially unused or unknown keys), and ensure alerts are enabled for new keys and permission changes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Cloud account takeover prevention (MFA, access keys, logging and spend alerts)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/" rel="noopener noreferrer">Hundreds of leaked AWS keys give full control over corporate accounts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html" rel="noopener noreferrer">Microsoft Defender&#x27;s Own Driver Can Be Weaponized to Delete Security Software at Boot</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

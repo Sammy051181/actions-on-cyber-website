@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "806e1e1bc652137a": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "9c50addc3207c9b2": {
-      "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "source": "Krebs on Security",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "7b5ec61d3c68aeca": {
-      "url": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "b59833e927c32d0e": {
-      "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
-      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "dd6625e624cd50cb": {
-      "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "a7ee4e916d26a76f": {
-      "url": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
-    "26bdb3c668b98590": {
-      "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-23T16:50:35.248581+01:00",
-      "brief_slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos"
-    },
     "f8e1e1bf87e4fa01": {
       "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
       "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
@@ -5970,9 +5921,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-21T14:09:44.888252+01:00",
       "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
+    },
+    "5af2f8bcbf22f962": {
+      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T17:50:20.397488+01:00",
+      "brief_slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks"
+    },
+    "befbe5399e8065d8": {
+      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-21T17:50:20.397488+01:00",
+      "brief_slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks",
+      "headline": "SMB Cyber Intelligence Brief — Cloud keys exposure and “trusted tool” abuse risks",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover risk (leaked keys) and trusted security tooling being abused",
+      "published_at": "2026-08-21T17:50:20.397488+01:00",
+      "published_label": "Friday 21 August 2026, 17:50 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+        "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
+      ]
+    },
     {
       "slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight",
       "headline": "SMB Cyber Intelligence Brief — Identity & comms platforms in the spotlight",
@@ -9067,23 +9044,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
         "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html"
-      ]
-    },
-    {
-      "slug": "2026-05-23-1650-smb-cyber-brief-ddos-for-hire-disruption-credential-theft-ripple-effects-and-hos",
-      "headline": "SMB Cyber Brief: DDoS-for-hire disruption, credential-theft ripple effects, and hosting/CMS supplier risk",
-      "risk_level": "High",
-      "todays_lookout": "Business disruption + account takeover risk (DDoS and stolen credentials), plus web supplier exposure",
-      "published_at": "2026-05-23T16:50:35.248581+01:00",
-      "published_label": "Saturday 23 May 2026, 16:50 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-        "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-        "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-        "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
-        "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-        "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-        "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/"
       ]
     }
   ]
