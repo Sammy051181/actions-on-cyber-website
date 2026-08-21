@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "ba1db87086c60df5": {
-      "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T12:41:48.000438+01:00",
-      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
-    },
-    "bb5e870eb4ecc50d": {
-      "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T12:41:48.000438+01:00",
-      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
-    },
-    "4ce8ff58dc508aa5": {
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-23T12:41:48.000438+01:00",
-      "brief_slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat"
-    },
     "806e1e1bc652137a": {
       "url": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
       "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
@@ -5963,9 +5942,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-08-21T08:56:14.550600+01:00",
       "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
+    },
+    "4afb6e3d2eca76f5": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T14:09:44.888252+01:00",
+      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
+    },
+    "7cc11dd0cff08b09": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T14:09:44.888252+01:00",
+      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
+    },
+    "c28837178a4227a5": {
+      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T14:09:44.888252+01:00",
+      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
+    },
+    "24de1cffcbc07dae": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-21T14:09:44.888252+01:00",
+      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight",
+      "headline": "SMB Cyber Intelligence Brief — Identity & comms platforms in the spotlight",
+      "risk_level": "High",
+      "todays_lookout": "Cloud identity takeover and comms-platform targeting (with follow-on phishing)",
+      "published_at": "2026-08-21T14:09:44.888252+01:00",
+      "published_label": "Friday 21 August 2026, 14:09 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+        "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+        "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/"
+      ]
+    },
     {
       "slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco",
       "headline": "SMB Cyber Intelligence Brief — Cloud identity, software supply chain, and OAuth account takeovers",
@@ -9063,19 +9084,6 @@
         "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
         "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
         "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/"
-      ]
-    },
-    {
-      "slug": "2026-05-23-1241-smb-cyber-intelligence-brief-supply-chain-tampering-and-active-website-exploitat",
-      "headline": "SMB Cyber Intelligence Brief — Supply‑chain tampering and active website exploitation risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier and developer supply‑chain risk (packages, GitHub, website platforms)",
-      "published_at": "2026-05-23T12:41:48.000438+01:00",
-      "published_label": "Saturday 23 May 2026, 12:41 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-        "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-        "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/"
       ]
     }
   ]
