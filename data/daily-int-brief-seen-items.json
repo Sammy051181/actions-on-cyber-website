@@ -5942,9 +5942,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-22T13:59:41.463228+01:00",
       "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
+    },
+    "a068075960f8a725": {
+      "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-22T17:39:13.943444+01:00",
+      "brief_slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel"
+    },
+    "6966acdf0cc363e2": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "title": "Hackers infect Android car head units with proxy botnet malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-22T17:39:13.943444+01:00",
+      "brief_slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel",
+      "headline": "SMB Cyber Brief: Malware spread via car head-unit updates (supplier/update-channel risk)",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/update-channel compromise leading to hidden network access (proxy botnet)",
+      "published_at": "2026-08-22T17:39:13.943444+01:00",
+      "published_label": "Saturday 22 August 2026, 17:39 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
+      ]
+    },
     {
       "slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages",
       "headline": "Today’s SME cyber look-out: email server exploitation, malicious software packages, and chatbot data leaks",
