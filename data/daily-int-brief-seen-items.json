@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "f8e1e1bf87e4fa01": {
-      "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T21:10:58.435256+01:00",
-      "brief_slug": "2026-05-23-2110-today-s-smb-cyber-lookout-software-supply-chain-risk-via-third-party-packages"
-    },
-    "02411a6d06c3a375": {
-      "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
-      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-23T21:10:58.435256+01:00",
-      "brief_slug": "2026-05-23-2110-today-s-smb-cyber-lookout-software-supply-chain-risk-via-third-party-packages"
-    },
     "5b14eff211fa37d8": {
       "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
       "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
@@ -5935,9 +5921,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-21T17:50:20.397488+01:00",
       "brief_slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks"
+    },
+    "e9e0eed4def8f092": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-22T08:45:09.196276+01:00",
+      "brief_slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste",
+      "headline": "Today’s SMB cyber lookout: Microsoft Teams phishing delivering new credential-stealing malware",
+      "risk_level": "High",
+      "todays_lookout": "Teams phishing and account takeover leading to malware and business email compromise",
+      "published_at": "2026-08-22T08:45:09.196276+01:00",
+      "published_label": "Saturday 22 August 2026, 08:45 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
+      ]
+    },
     {
       "slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks",
       "headline": "SMB Cyber Intelligence Brief — Cloud keys exposure and “trusted tool” abuse risks",
@@ -9032,18 +9036,6 @@
       "published_label": "Sunday 24 May 2026, 12:52 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
-      ]
-    },
-    {
-      "slug": "2026-05-23-2110-today-s-smb-cyber-lookout-software-supply-chain-risk-via-third-party-packages",
-      "headline": "Today’s SMB cyber lookout: software supply-chain risk via third‑party packages",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS risk – compromised open‑source packages and build pipeline exposure",
-      "published_at": "2026-05-23T21:10:58.435256+01:00",
-      "published_label": "Saturday 23 May 2026, 21:10 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-        "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html"
       ]
     }
   ]
