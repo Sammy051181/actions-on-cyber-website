@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "5b14eff211fa37d8": {
-      "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-24T12:52:01.992373+01:00",
-      "brief_slug": "2026-05-24-1252-supply-chain-alert-laravel-package-hijack-could-lead-to-credential-theft"
-    },
     "0fd6ad01cc0dd65e": {
       "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
       "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
@@ -5928,9 +5921,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-22T08:45:09.196276+01:00",
       "brief_slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste"
+    },
+    "b4bdc1ce93f33bd8": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-22T13:59:41.463228+01:00",
+      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
+    },
+    "4b6135796923fbea": {
+      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-22T13:59:41.463228+01:00",
+      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
+    },
+    "eaaed4290b794f92": {
+      "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-22T13:59:41.463228+01:00",
+      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages",
+      "headline": "Today’s SME cyber look-out: email server exploitation, malicious software packages, and chatbot data leaks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and platform risk: email compromise + software supply chain + AI tool data leakage",
+      "published_at": "2026-08-22T13:59:41.463228+01:00",
+      "published_label": "Saturday 22 August 2026, 13:59 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+        "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html"
+      ]
+    },
     {
       "slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste",
       "headline": "Today’s SMB cyber lookout: Microsoft Teams phishing delivering new credential-stealing malware",
@@ -9025,17 +9052,6 @@
         "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
         "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
         "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/"
-      ]
-    },
-    {
-      "slug": "2026-05-24-1252-supply-chain-alert-laravel-package-hijack-could-lead-to-credential-theft",
-      "headline": "Supply chain alert: Laravel package hijack could lead to credential theft",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS risk and developer dependency compromise",
-      "published_at": "2026-05-24T12:52:01.992373+01:00",
-      "published_label": "Sunday 24 May 2026, 12:52 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
       ]
     }
   ]
