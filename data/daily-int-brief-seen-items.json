@@ -5970,9 +5970,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-23T08:46:35.553590+01:00",
       "brief_slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp"
+    },
+    "6b617776fd344f09": {
+      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-23T14:00:49.906294+01:00",
+      "brief_slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster",
+      "headline": "Today’s SMB cyber lookout: identity reuse makes breaches and scams spread faster",
+      "risk_level": "Moderate",
+      "todays_lookout": "Breach ripple effects and account takeover via reused identifiers",
+      "published_at": "2026-08-23T14:00:49.906294+01:00",
+      "published_label": "Sunday 23 August 2026, 14:00 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/"
+      ]
+    },
     {
       "slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp",
       "headline": "Today’s SMB cyber lookout: social-platform privacy news used for scams + check supplier exposure to high-impact network patches",
