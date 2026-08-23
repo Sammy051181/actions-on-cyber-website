@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "0fd6ad01cc0dd65e": {
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
-      "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-25T17:12:41.235743+01:00",
-      "brief_slug": "2026-05-25-1712-today-s-smb-cyber-lookout-microsoft-365-phishing-mfa-bypass-and-clickfix-website"
-    },
-    "0eb501df97cbed5f": {
-      "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-25T17:12:41.235743+01:00",
-      "brief_slug": "2026-05-25-1712-today-s-smb-cyber-lookout-microsoft-365-phishing-mfa-bypass-and-clickfix-website"
-    },
-    "3742b85f5b6e6da5": {
-      "url": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-      "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-25T17:12:41.235743+01:00",
-      "brief_slug": "2026-05-25-1712-today-s-smb-cyber-lookout-microsoft-365-phishing-mfa-bypass-and-clickfix-website"
-    },
-    "6e472c1146c85dae": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/",
-      "title": "2 PhaaS 2 Furious: The Evolution of Chinese-language Phishing Services",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-05-25T17:12:41.235743+01:00",
-      "brief_slug": "2026-05-25-1712-today-s-smb-cyber-lookout-microsoft-365-phishing-mfa-bypass-and-clickfix-website"
-    },
     "9c0dddc9f2726ce5": {
       "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
       "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
@@ -5977,9 +5949,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-23T14:00:49.906294+01:00",
       "brief_slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster"
+    },
+    "b423251955043778": {
+      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-23T17:42:29.274280+01:00",
+      "brief_slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions",
+      "headline": "Today’s SMB cyber lookout: Android malware abusing VPN permissions",
+      "risk_level": "Moderate",
+      "todays_lookout": "Mobile malware on staff Android devices (VPN permission abuse)",
+      "published_at": "2026-08-23T17:42:29.274280+01:00",
+      "published_label": "Sunday 23 August 2026, 17:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
+      ]
+    },
     {
       "slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster",
       "headline": "Today’s SMB cyber lookout: identity reuse makes breaches and scams spread faster",
@@ -9108,20 +9098,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/"
-      ]
-    },
-    {
-      "slug": "2026-05-25-1712-today-s-smb-cyber-lookout-microsoft-365-phishing-mfa-bypass-and-clickfix-website",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 phishing (MFA bypass) and “ClickFix” website traps",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover phishing and website-injected “ClickFix” scams",
-      "published_at": "2026-05-25T17:12:41.235743+01:00",
-      "published_label": "Monday 25 May 2026, 17:12 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
-        "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-        "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/"
       ]
     }
   ]
