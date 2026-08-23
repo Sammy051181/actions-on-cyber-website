@@ -5956,9 +5956,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-22T17:39:13.943444+01:00",
       "brief_slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel"
+    },
+    "a0e4824b388dcd83": {
+      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-23T08:46:35.553590+01:00",
+      "brief_slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp"
+    },
+    "51c8d451f6eb936f": {
+      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-23T08:46:35.553590+01:00",
+      "brief_slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp",
+      "headline": "Today’s SMB cyber lookout: social-platform privacy news used for scams + check supplier exposure to high-impact network patches",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident & privacy-news scams; managed network platform patch risk",
+      "published_at": "2026-08-23T08:46:35.553590+01:00",
+      "published_label": "Sunday 23 August 2026, 08:46 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+        "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+      ]
+    },
     {
       "slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel",
       "headline": "SMB Cyber Brief: Malware spread via car head-unit updates (supplier/update-channel risk)",
