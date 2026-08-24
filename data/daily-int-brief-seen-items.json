@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "9c0dddc9f2726ce5": {
-      "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
-      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-25T21:50:44.708620+01:00",
-      "brief_slug": "2026-05-25-2150-today-s-smb-cyber-brief-supply-chain-packages-stealing-credentials-web-service-c"
-    },
-    "90d790d6335d7a08": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/",
-      "title": "Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-05-25T21:50:44.708620+01:00",
-      "brief_slug": "2026-05-25-2150-today-s-smb-cyber-brief-supply-chain-packages-stealing-credentials-web-service-c"
-    },
     "cc78dc022a4d994f": {
       "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
       "title": "7-Eleven data breach exposes personal information of 185,000 people",
@@ -9086,18 +9072,6 @@
         "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
         "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
         "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
-      ]
-    },
-    {
-      "slug": "2026-05-25-2150-today-s-smb-cyber-brief-supply-chain-packages-stealing-credentials-web-service-c",
-      "headline": "Today’s SMB cyber brief: supply‑chain packages stealing credentials + web service compromise risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier / software supply-chain credential theft and account takeover",
-      "published_at": "2026-05-25T21:50:44.708620+01:00",
-      "published_label": "Monday 25 May 2026, 21:50 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/"
       ]
     }
   ]
