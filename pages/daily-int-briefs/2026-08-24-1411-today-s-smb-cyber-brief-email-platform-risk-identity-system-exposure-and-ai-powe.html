@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: email platform risk, identity system exposure, and ‘AI power user’ shadow tooling | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: email platform risk, identity system exposure, and ‘AI power user’ shadow tooling</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 24 August 2026, 14:11 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Email and identity provider compromise, plus shadow AI tools creeping into business processes
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Business email platform risk (Zimbra):</strong> widely reported active exploitation means organisations running Zimbra (or hosted by a provider using it) should assume increased scanning and attempted break-ins.</li>
+  <li><strong>Identity and login platform risk (Keycloak):</strong> a reported password-reset weakness could allow account takeover where Keycloak is used for staff/customer logins.</li>
+  <li><strong>“AI power users” creating shadow systems:</strong> a small number of staff can unintentionally introduce major risk by wiring AI tools and add-ons into business workflows without IT review (e.g. automations connected to email, CRM, finance, customer data).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>For SMEs, email and identity systems are often the single point of failure: if attackers get into mailboxes or your login platform, they can reset passwords elsewhere, intercept invoices, harvest customer data, and impersonate staff. Separately, unapproved AI tools can create new data exposure paths (copying sensitive text into third-party services) and new supplier dependencies that no one is monitoring.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexplained password reset emails, MFA prompts, or sudden logouts for multiple users.</li>
+  <li>Mailbox rules you didn’t create (auto-forwarding, auto-deleting, moving sent items).</li>
+  <li>Customers/suppliers receiving strange replies from your team, or “new bank details” messages you didn’t send.</li>
+  <li>New “automation” tools showing up in workflows (CRM/email plugins, AI assistants, browser extensions) that IT didn’t approve.</li>
+  <li>Unusual login locations or access times reported by your email/identity admin consoles.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Email platform compromise:</strong> attackers target internet-facing email systems to gain access, then pivot to invoice fraud, data theft, and internal phishing from a trusted mailbox.</li>
+  <li><strong>Identity provider takeover:</strong> if an attacker can force or abuse password resets, they may seize accounts and then access downstream services connected to that login (apps, portals, VPN, cloud tools).</li>
+  <li><strong>Shadow AI/tooling risk:</strong> “helpful” AI integrations can quietly gain access to mailboxes, documents, or customer records, creating new pathways for data leakage and account compromise if misconfigured or breached.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you use Zimbra or Keycloak</strong> (directly or via an IT provider/hosted service). If you’re not sure, ask today.</li>
+  <li><strong>Hunt for mailbox tampering:</strong> check for unexpected forwarding rules, suspicious delegates, and new inbox rules on finance and senior accounts.</li>
+  <li><strong>Reinforce payment-change controls:</strong> require call-back to a known number for any bank detail change; don’t rely on email threads.</li>
+  <li><strong>Inventory AI tools and automations:</strong> identify who is using AI assistants, plugins, or connectors linked to business systems; remove/disable anything unapproved until reviewed.</li>
+  <li><strong>Make sure MFA is on</strong> for admin accounts and finance mailboxes, and that recovery options (backup email/phone) are accurate and controlled.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run Zimbra anywhere (including for any hosted email customers)? If yes, what’s our current exposure and what monitoring is in place?</li>
+  <li>Do we use Keycloak for any staff/customer logins? If yes, what’s the plan to reduce account-takeover risk from password-reset paths?</li>
+  <li>What alerts are we watching for: mass password resets, suspicious mailbox rules, unusual admin actions, and abnormal sign-in patterns?</li>
+  <li>What is our process for approving AI tools, browser extensions, and SaaS connectors that access email, files, CRM or finance data?</li>
+  <li>If email or identity is compromised, what’s our rapid response: account lock-down, token/session revocation, and customer/supplier comms?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Two items to flag for operational priority rather than “routine patching”: active exploitation is being reported against a Zimbra flaw, and a critical Keycloak password-reset issue has been disclosed. If you (or your provider) run either product, treat this as urgent and confirm remediation and monitoring are in place.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today to confirm whether your organisation (or any hosted service you rely on) uses Zimbra or Keycloak, and if so, what immediate steps they’ve taken to reduce compromise risk and monitor for suspicious account activity.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; SaaS risk quick checklist (questions to ask your IT provider/hosted services)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/" rel="noopener noreferrer">CISA orders urgent patching of actively exploited Zimbra flaw</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html" rel="noopener noreferrer">Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html" rel="noopener noreferrer">The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

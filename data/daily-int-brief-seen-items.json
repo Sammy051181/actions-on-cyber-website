@@ -5942,9 +5942,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-23T17:42:29.274280+01:00",
       "brief_slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions"
+    },
+    "e14279b772b46caa": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-24T14:11:57.433910+01:00",
+      "brief_slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe"
+    },
+    "ecccd44f47e077d3": {
+      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-24T14:11:57.433910+01:00",
+      "brief_slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe"
+    },
+    "88f21efe833b4a1d": {
+      "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-24T14:11:57.433910+01:00",
+      "brief_slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe",
+      "headline": "Today’s SMB cyber brief: email platform risk, identity system exposure, and ‘AI power user’ shadow tooling",
+      "risk_level": "High",
+      "todays_lookout": "Email and identity provider compromise, plus shadow AI tools creeping into business processes",
+      "published_at": "2026-08-24T14:11:57.433910+01:00",
+      "published_label": "Monday 24 August 2026, 14:11 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+        "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html"
+      ]
+    },
     {
       "slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions",
       "headline": "Today’s SMB cyber lookout: Android malware abusing VPN permissions",
