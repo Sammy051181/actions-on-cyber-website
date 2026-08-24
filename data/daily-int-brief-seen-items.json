@@ -5963,9 +5963,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-24T14:11:57.433910+01:00",
       "brief_slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe"
+    },
+    "eef5e5ff1cf8c96d": {
+      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-24T17:54:29.950401+01:00",
+      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
+    },
+    "5157632da92a9e2c": {
+      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-24T17:54:29.950401+01:00",
+      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
+    },
+    "5a4c9da06b51c567": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+      "title": "Microsoft Teams now lets admins block external bots from meetings",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-24T17:54:29.950401+01:00",
+      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
+    },
+    "a0a0d84fcc932409": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-24T17:54:29.950401+01:00",
+      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona",
+      "headline": "Today’s SMB cyber lookout: Fake “verification” pop-ups stealing passwords + impersonation scams",
+      "risk_level": "High",
+      "todays_lookout": "Phishing and fake verification lures leading to password theft, plus impersonation-driven data-theft attempts",
+      "published_at": "2026-08-24T17:54:29.950401+01:00",
+      "published_label": "Monday 24 August 2026, 17:54 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+        "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/"
+      ]
+    },
     {
       "slug": "2026-08-24-1411-today-s-smb-cyber-brief-email-platform-risk-identity-system-exposure-and-ai-powe",
       "headline": "Today’s SMB cyber brief: email platform risk, identity system exposure, and ‘AI power user’ shadow tooling",
