@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "cc78dc022a4d994f": {
-      "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
-      "title": "7-Eleven data breach exposes personal information of 185,000 people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
-    "a21e14a08de10f17": {
-      "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
-    "c93bc112ac49e56f": {
-      "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-      "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
-    "9db9328f0ca4b1b9": {
-      "url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
-    "138181572c8b801a": {
-      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "source": "Krebs on Security",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
-    "acf06438141dbe6f": {
-      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-26T19:07:56.270537+01:00",
-      "brief_slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i"
-    },
     "6c3dd8f254d63f80": {
       "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
       "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
@@ -5991,9 +5949,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-24T17:54:29.950401+01:00",
       "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
+    },
+    "ab19b111baf20bee": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-25T08:57:12.061309+01:00",
+      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
+    },
+    "7cdfd185bcfa807b": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-25T08:57:12.061309+01:00",
+      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
+    },
+    "62298a83d4d48134": {
+      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-25T08:57:12.061309+01:00",
+      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-",
+      "headline": "Today’s SMB cyber lookout: WordPress SSO break-ins and actively exploited Oracle WebLogic risk",
+      "risk_level": "High",
+      "todays_lookout": "Website and server takeover risk via authentication and internet-facing services",
+      "published_at": "2026-08-25T08:57:12.061309+01:00",
+      "published_label": "Tuesday 25 August 2026, 08:57 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+        "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
+      ]
+    },
     {
       "slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona",
       "headline": "Today’s SMB cyber lookout: Fake “verification” pop-ups stealing passwords + impersonation scams",
@@ -9132,22 +9124,6 @@
         "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
         "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
         "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html"
-      ]
-    },
-    {
-      "slug": "2026-05-26-1907-today-s-sme-cyber-brief-breach-driven-impersonation-scams-and-smarter-phishing-i",
-      "headline": "Today’s SME cyber brief: breach-driven impersonation scams and smarter phishing (including MFA push fatigue)",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/brand impersonation scams and phishing that bypasses MFA via prompt bombing",
-      "published_at": "2026-05-26T19:07:56.270537+01:00",
-      "published_label": "Tuesday 26 May 2026, 19:07 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
-        "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-        "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-        "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-        "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-        "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
       ]
     }
   ]
