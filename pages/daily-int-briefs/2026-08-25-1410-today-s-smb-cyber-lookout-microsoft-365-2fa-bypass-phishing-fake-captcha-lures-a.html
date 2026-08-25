@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 ‘2FA-bypass’ phishing, fake CAPTCHA lures, and ongoing Zimbra email server compromises | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 ‘2FA-bypass’ phishing, fake CAPTCHA lures, and ongoing Zimbra email server compromises</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 25 August 2026, 14:10 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover phishing (Microsoft 365) and email system compromise risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes SMEs should actively brief staff on and sanity-check with IT today:</p>
+<ul>
+  <li><strong>Microsoft 365 phishing designed to bypass two-factor authentication (2FA)</strong> by abusing legitimate-looking login flows.</li>
+  <li><strong>Fake “Cloudflare CAPTCHA” / “I’m not a robot” pages</strong> used as a step in phishing (“ClickFix”-style) and hosted via trusted-looking infrastructure.</li>
+  <li><strong>Ongoing attacks compromising Zimbra email servers</strong> (organisations running Zimbra themselves or via a hosting provider may be at heightened risk of mail disruption and mailbox compromise).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>One mailbox or Microsoft 365 account takeover</strong> can lead to invoice fraud, payroll diversion, fake supplier bank changes, or the attacker using your account to target customers.</li>
+  <li><strong>Email is a dependency</strong>: if mailboxes are compromised or disrupted, it can stop approvals, orders, safeguarding comms (schools/charities), and time-critical client work.</li>
+  <li><strong>“Trusted” looking pages increase clicks</strong>: staff may be more likely to comply when they see familiar CAPTCHA branding or a convincing sign-in journey.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to <strong>“complete a CAPTCHA to continue”</strong> before viewing a document, invoice, voicemail, or shared file.</li>
+  <li>Emails pushing urgency: <strong>account locked</strong>, <strong>password expires today</strong>, <strong>new voicemail</strong>, <strong>shared document</strong>, <strong>missed payment</strong>.</li>
+  <li>Staff report <strong>multiple repeated login prompts</strong> or being asked to approve sign-ins they didn’t initiate.</li>
+  <li>New email <strong>auto-forwarding rules</strong>, unusual “sent items”, or replies you didn’t write.</li>
+  <li>For Zimbra users/hosts: sudden mailbox errors, webmail behaving oddly, or unexplained admin changes.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Microsoft 365 credential theft / session capture</strong>: attackers aim to defeat 2FA protections by steering users through legitimate-looking flows, then reusing access to log in as the user.</li>
+  <li><strong>CAPTCHA as a compliance step</strong>: the CAPTCHA page is used to make the victim feel they’re on a reputable site, then guide them into further steps (for example, handing over access or authorising something they shouldn’t).</li>
+  <li><strong>Email server compromise</strong> (e.g. Zimbra): attackers can read emails, intercept invoices, set forwarding, reset other passwords, and impersonate staff—often without immediate ransomware-style “noise”.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff in 5 minutes</strong>: “CAPTCHA prompts in emails are a red flag—stop and report.”</li>
+  <li><strong>Reinforce payment-change controls</strong>: any supplier bank detail change must be verified via a known phone number (not the email thread).</li>
+  <li><strong>Check Microsoft 365 basics</strong>: confirm MFA is enabled for all users, and ensure high-risk sign-in alerts are being monitored.</li>
+  <li><strong>Audit email rules</strong>: spot-check a few mailboxes (especially finance/admin) for unexpected forwarding rules or suspicious inbox rules.</li>
+  <li>If you use Zimbra (directly or via a provider): <strong>ask for a status update today</strong> on whether your service is affected by the ongoing compromise wave and what monitoring is in place.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are you seeing <strong>Mirage2FA-style Microsoft 365 phishing</strong> attempts against our tenant, and what alerts are you watching (sign-in anomalies, impossible travel, suspicious consent, new forwarding rules)?</li>
+  <li>Do we block or warn on <strong>newly registered domains</strong> and suspicious link redirects in email?</li>
+  <li>Can you provide a <strong>quick report of new mailbox forwarding rules</strong> created in the last 7–14 days (especially for finance, payroll, leadership)?</li>
+  <li>If we use Zimbra: who is responsible for the platform (us/host/MSP) and what is the <strong>current security posture and monitoring</strong> for compromise indicators?</li>
+  <li>What is our <strong>incident process</strong> if a mailbox is taken over (password reset, token revocation, rule cleanup, customer notification, finance checks)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation runs <strong>Zimbra</strong> (or you pay a provider that does), treat this as a live risk: attackers are actively compromising servers in ongoing attacks. Even if patching is “someone else’s job”, SMEs should request written confirmation of the provider’s remediation status and monitoring, because email compromise often leads directly to invoice fraud and data exposure.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal alert today: “If an email link shows a CAPTCHA page or repeated Microsoft sign-in prompts, stop, don’t proceed, and forward it to IT/admin for checking.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Invoice fraud &amp; supplier bank-change verification (call-back process) – print and use for finance/admin.”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html" rel="noopener noreferrer">Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html" rel="noopener noreferrer">24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/" rel="noopener noreferrer">Hackers breached over 270 Zimbra servers in ongoing attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

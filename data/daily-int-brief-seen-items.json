@@ -5970,9 +5970,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-25T08:57:12.061309+01:00",
       "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
+    },
+    "99cf59e09495b7a8": {
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-25T14:10:23.361687+01:00",
+      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
+    },
+    "56d9611be3038104": {
+      "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-25T14:10:23.361687+01:00",
+      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
+    },
+    "2f69a5761f47aee3": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-25T14:10:23.361687+01:00",
+      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 ‘2FA-bypass’ phishing, fake CAPTCHA lures, and ongoing Zimbra email server compromises",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover phishing (Microsoft 365) and email system compromise risk",
+      "published_at": "2026-08-25T14:10:23.361687+01:00",
+      "published_label": "Tuesday 25 August 2026, 14:10 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/"
+      ]
+    },
     {
       "slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-",
       "headline": "Today’s SMB cyber lookout: WordPress SSO break-ins and actively exploited Oracle WebLogic risk",
