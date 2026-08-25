@@ -5991,9 +5991,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-25T14:10:23.361687+01:00",
       "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
+    },
+    "6390d9c4dbeda298": {
+      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-25T17:54:32.948540+01:00",
+      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
+    },
+    "887eefd9521c2a87": {
+      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-25T17:54:32.948540+01:00",
+      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
+    },
+    "f728a38d182fe151": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-25T17:54:32.948540+01:00",
+      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
+    },
+    "2e3b78a4e6c20431": {
+      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-25T17:54:32.948540+01:00",
+      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
+    },
+    "96ee145e40ff15e7": {
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-25T17:54:32.948540+01:00",
+      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson",
+      "headline": "Identity verification scams are rising — and breaches can fuel convincing impersonation",
+      "risk_level": "Moderate",
+      "todays_lookout": "Impersonation & account recovery scams (hire-to-pay, supplier and support desk fraud)",
+      "published_at": "2026-08-25T17:54:32.948540+01:00",
+      "published_label": "Tuesday 25 August 2026, 17:54 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+        "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+        "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/"
+      ]
+    },
     {
       "slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 ‘2FA-bypass’ phishing, fake CAPTCHA lures, and ongoing Zimbra email server compromises",
