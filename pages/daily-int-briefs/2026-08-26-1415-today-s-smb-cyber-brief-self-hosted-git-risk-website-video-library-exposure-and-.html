@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: self‑hosted Git risk, website/video library exposure, and fraud crackdowns | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: self‑hosted Git risk, website/video library exposure, and fraud crackdowns</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 26 August 2026, 14:15 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS &amp; self-hosted service compromise leading to account takeover, fraud and business disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes SMEs should pay attention to today:</p>
+<ul>
+  <li><strong>Self-hosted developer tools under attack:</strong> reports say attackers are exploiting a critical flaw in <strong>Gitea</strong> (a self-hosted Git service). If you run Gitea in-house or via a supplier, treat this as urgent.</li>
+  <li><strong>Website/video library risk:</strong> CERT/CC has disclosed <strong>unpatched</strong> issues in <strong>Kaltura’s mwEmbed</strong> HTML5 video player library that could allow remote file access and code execution on a server. This matters if your website (or your web agency/platform) uses it.</li>
+  <li><strong>Fraud and impersonation pressure:</strong> INTERPOL’s Operation Jackal IV highlights the scale of organised cyber-enabled fraud linked to West African crime groups. Crackdowns don’t remove the risk—often they shift tactics toward more impersonation and payment redirection attempts.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Developer tools are a supply-chain gateway:</strong> if attackers get into your code repository or build environment, they can steal secrets (API keys), tamper with code, or move on to cloud services and customer data.</li>
+  <li><strong>Your website is part of your operations:</strong> a compromised site can be used to steal enquiries, redirect payments, distribute malware, or damage trust—especially for charities, schools, and professional services.</li>
+  <li><strong>Breach “ripple effects” drive scams:</strong> when organisations disclose breaches (e.g., LACMA), criminals often reuse the story as cover for phishing (“verify your details”, “update payroll/bank info”, “download documents”). Even if you weren’t involved, your staff can be targeted.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected password resets, new admin users, or unfamiliar login locations on developer/admin systems.</li>
+  <li>Website behaviour changes: new pop-ups, redirects, strange pages, or sudden SEO/Google warnings.</li>
+  <li>Unusual outbound traffic from servers, or alerts about suspicious processes on web hosts.</li>
+  <li>Email/phone requests to change bank details, “reconfirm” invoices, or urgently approve payments—especially with pressure and secrecy.</li>
+  <li>Messages referencing a recent breach headline to make the request sound legitimate.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromise self-hosted services</strong> (like Gitea) to access source code, tokens, deployment keys, and internal documentation—then pivot to cloud services and finance systems.</li>
+  <li><strong>Exploit exposed website components</strong> (such as embedded player libraries) to get a foothold on web servers and then alter content, steal form submissions, or plant further malware.</li>
+  <li><strong>Run impersonation and payment diversion scams</strong> using “supplier change” emails, fake invoice chasers, or CEO/Headteacher-style urgent requests, often timed around busy finance cycles.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you run Gitea</strong> anywhere (in-house, at an MSP, or as part of a dev supplier). If yes, escalate to your IT/provider today.</li>
+  <li><strong>Ask your website provider</strong> whether Kaltura mwEmbed is used on your site(s) or embedded pages, and what mitigations they are applying given the issues are reported as unpatched.</li>
+  <li><strong>Re-brief finance staff</strong> on payment-change controls: never accept bank detail changes by email alone; always call a known number from your records.</li>
+  <li><strong>Check admin access</strong>: review who has admin on code repos, website hosting, DNS, and M365/Google Workspace; remove old accounts and enforce MFA where possible.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we operate <strong>Gitea</strong> anywhere? If yes, are we seeing any signs of exploitation and what extra monitoring is in place this week?</li>
+  <li>Do any of our websites or client portals use <strong>Kaltura mwEmbed</strong> (directly or via a third-party theme/plugin)? If yes, what’s the risk decision and mitigation plan given the disclosure is <em>unpatched</em>?</li>
+  <li>Can you confirm MFA coverage for: website hosting, DNS registrar, cloud admin accounts, and developer/admin tools?</li>
+  <li>What’s our fastest isolation plan if a web server or dev system is suspected compromised (who to call, what gets turned off, how we keep trading)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you (or your supplier) run self-hosted platforms like <strong>Gitea</strong>, treat “actively exploited” reports as a prompt for same-day review and remediation. Separately, the reported <strong>unpatched</strong> Kaltura mwEmbed issues mean you should focus on exposure management (where it’s used, what can be isolated/disabled, and what monitoring is in place) rather than waiting for a routine cycle.</p>
+
+        <h2>One action today</h2>
+        <p>Today, have IT (or your web/MSP supplier) confirm whether you use Gitea or Kaltura mwEmbed anywhere, and if yes, agree a same-day risk response (monitoring, isolation steps, and remediation plan).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Payment change (invoice redirection) verification process for SMEs</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/" rel="noopener noreferrer">Hackers now exploit critical Gitea flaw in code injection attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html" rel="noopener noreferrer">Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html" rel="noopener noreferrer">INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/" rel="noopener noreferrer">LACMA data breach last year exposed social security and medical data</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

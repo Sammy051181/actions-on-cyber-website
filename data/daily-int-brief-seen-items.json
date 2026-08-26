@@ -6005,9 +6005,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-26T08:58:14.016740+01:00",
       "brief_slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams"
+    },
+    "ea2647337858e2f5": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-26T14:15:48.283740+01:00",
+      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
+    },
+    "f601fe4cfa27db52": {
+      "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-26T14:15:48.283740+01:00",
+      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
+    },
+    "635b3ba14547f07b": {
+      "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-26T14:15:48.283740+01:00",
+      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
+    },
+    "2e7f77b49688cca8": {
+      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+      "title": "LACMA data breach last year exposed social security and medical data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-26T14:15:48.283740+01:00",
+      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-",
+      "headline": "Today’s SMB Cyber Brief: self‑hosted Git risk, website/video library exposure, and fraud crackdowns",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS & self-hosted service compromise leading to account takeover, fraud and business disruption",
+      "published_at": "2026-08-26T14:15:48.283740+01:00",
+      "published_label": "Wednesday 26 August 2026, 14:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+        "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+        "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+        "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/"
+      ]
+    },
     {
       "slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams",
       "headline": "Today’s SMB cyber lookout: trusted-link phishing and “Apple Support” voice AI scams",
