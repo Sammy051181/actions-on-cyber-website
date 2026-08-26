@@ -6033,9 +6033,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-26T14:15:48.283740+01:00",
       "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
+    },
+    "26c52789df0be9e6": {
+      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-26T17:58:43.121769+01:00",
+      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
+    },
+    "9da814d3675d77e5": {
+      "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+      "title": "Boston Scientific says cyberattack disrupted operations globally",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-26T17:58:43.121769+01:00",
+      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
+    },
+    "64bb7d2fc9f2e4bf": {
+      "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+      "title": "Snowflake ends service-account passwords. Now comes the hard part",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-26T17:58:43.121769+01:00",
+      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
+    },
+    "8415d773bae65b60": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-26T17:58:43.121769+01:00",
+      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec",
+      "headline": "Today’s SME cyber brief: session-stealing “DocuSign” emails, disruption ripple effects, and service-account changes",
+      "risk_level": "High",
+      "todays_lookout": "Supplier-branded phishing and SaaS dependency disruption",
+      "published_at": "2026-08-26T17:58:43.121769+01:00",
+      "published_label": "Wednesday 26 August 2026, 17:58 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+        "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+        "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+        "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/"
+      ]
+    },
     {
       "slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-",
       "headline": "Today’s SMB Cyber Brief: self‑hosted Git risk, website/video library exposure, and fraud crackdowns",

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber brief: session-stealing “DocuSign” emails, disruption ripple effects, and service-account changes | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber brief: session-stealing “DocuSign” emails, disruption ripple effects, and service-account changes</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 26 August 2026, 17:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier-branded phishing and SaaS dependency disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) “Real-looking DocuSign” emails used to steal Microsoft 365 sessions.</strong> Researchers report campaigns abusing genuine DocuSign notifications to trick people into signing into Microsoft 365 via a proxy page that captures an authenticated session (so criminals can access mail/files even if the password is later changed).</p>
+<p><strong>2) Business disruption ripple effects from large cyber incidents.</strong> Boston Scientific reports a cyberattack disrupting operations globally. Even if you’re not in healthcare, events like this often trigger knock-on issues: delayed deliveries, supplier/customer service disruption, and scam emails pretending to be “the affected company”.</p>
+<p><strong>3) SaaS authentication changes that can break data flows.</strong> Snowflake is ending password authentication for legacy service accounts, pushing passwordless methods. The hard part is identifying what apps/jobs still use those accounts and who owns them.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>Session theft is not “just a bad password”.</strong> If an attacker captures a Microsoft 365 session, they may access email, SharePoint/OneDrive, and internal messages without repeatedly logging in.</li>
+<li><strong>DocuSign and Microsoft 365 are common in SMEs.</strong> High-volume, familiar brands lower suspicion—especially in finance, HR, and admin teams.</li>
+<li><strong>Supplier incidents create opportunity for scams.</strong> Attackers commonly exploit newsworthy disruption to send fake “updated bank details”, “rescheduled delivery”, or “urgent invoice” messages.</li>
+<li><strong>Service accounts are a hidden dependency.</strong> A change in authentication (or a rushed fix) can break reporting, integrations, data pipelines, and customer-facing services.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>DocuSign-style emails that prompt you to <strong>sign in to view a document</strong>, especially if unexpected.</li>
+<li>Any sign-in page that looks “normal” but arrives via an email link and feels slightly unusual (extra step, odd domain, repeated prompts, or unexpected MFA flow).</li>
+<li>Messages referencing a major incident and asking you to <strong>change payment details</strong>, reroute deliveries, or open “urgent” attachments.</li>
+<li>Sudden failures in dashboards, scheduled reports, data exports, or overnight jobs (a clue a <strong>service account/integration</strong> is brittle or mis-owned).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Adversary-in-the-middle phishing:</strong> the victim is relayed to a convincing Microsoft 365 sign-in experience while the attacker captures the session token and reuses it.</li>
+<li><strong>Business email compromise follow-on:</strong> once in M365, attackers may read invoice threads, create forwarding rules, or send “payment change” emails from a real mailbox.</li>
+<li><strong>Incident-themed impersonation:</strong> criminals may pretend to be a disrupted supplier (or their logistics/collections team) to pressure staff into fast decisions.</li>
+<li><strong>Integration outages as cover:</strong> when services are unstable, fraud attempts can look like “normal disruption” and slip past process.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Tell staff (especially finance/admin/HR):</strong> do not sign in to Microsoft 365 from a document email link. Go to Microsoft 365 directly via bookmark/app, then open the document from there if it’s real.</li>
+<li><strong>Reinforce payment-change controls:</strong> any bank detail change must be verified using a known, saved phone number (not the email signature).</li>
+<li><strong>Quick check in Microsoft 365:</strong> review recent sign-ins and watch for unfamiliar locations/devices; ensure MFA is enabled for all users.</li>
+<li><strong>Inventory service accounts:</strong> list what integrations/ETL/reporting jobs exist, who owns them, what data they access, and whether they still need that access.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Can you confirm our <strong>Microsoft 365 sign-in protections</strong> are set up to reduce session-token phishing risk (e.g., strong MFA enforcement and conditional access where available)?</li>
+<li>How quickly can you <strong>detect and respond</strong> to suspicious mailbox behaviour (forwarding rules, unusual OAuth/app consents, mass downloads)?</li>
+<li>Do we have a tested process for <strong>supplier compromise/payment diversion</strong> incidents (who approves, who verifies, how we document the callback)?</li>
+<li>Do we have a <strong>service account register</strong> (owner, purpose, permissions, last used), and a plan for any SaaS authentication changes that could break automations?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Some attackers are reported to be targeting a Microsoft SharePoint remote-code execution chain. If you run <strong>on-prem SharePoint servers</strong> (not just SharePoint Online), treat this as an urgent “are we exposed?” check with your IT provider and ensure internet-facing servers are reviewed and updated promptly.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Don’t sign in to Microsoft 365 from DocuSign/document email links—go to M365 directly; and verify any payment detail change by a known callback number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier payment change (invoice diversion) verification process</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html" rel="noopener noreferrer">NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/" rel="noopener noreferrer">Boston Scientific says cyberattack disrupted operations globally</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/" rel="noopener noreferrer">Snowflake ends service-account passwords. Now comes the hard part</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/" rel="noopener noreferrer">Hackers target Microsoft SharePoint RCE chain with PoC exploit</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
