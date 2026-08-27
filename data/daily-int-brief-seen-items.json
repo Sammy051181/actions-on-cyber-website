@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "997cfae6b12c8f86": {
-      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-28T19:23:46.729226+01:00",
-      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
-    },
-    "426eaedecdda85e1": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
-      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-28T19:23:46.729226+01:00",
-      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
-    },
-    "9de9573a785a13d4": {
-      "url": "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
-      "title": "GPU mining malware spreads via SEO poisoning, AI chatbots",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-28T19:23:46.729226+01:00",
-      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
-    },
-    "ae9776a147523f9c": {
-      "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
-      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-28T19:23:46.729226+01:00",
-      "brief_slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches"
-    },
     "48d82e220e383c3d": {
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
       "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
@@ -6061,9 +6033,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-26T17:58:43.121769+01:00",
       "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
+    },
+    "bc84881d1e28dd31": {
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+      "title": "Carhartt data breach exposes information of 12.9 million accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-27T19:17:23.765973+01:00",
+      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
+    },
+    "4448077476edb29e": {
+      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "source": "Krebs on Security",
+      "seen_at": "2026-08-27T19:17:23.765973+01:00",
+      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
+    },
+    "e686c25ec9525a4e": {
+      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-27T19:17:23.765973+01:00",
+      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
+    },
+    "2d87a31b8a90daad": {
+      "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+      "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-27T19:17:23.765973+01:00",
+      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
+    },
+    "63e61204dff51d14": {
+      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+      "title": "ATF confirms “major incident” after recent Qilin breach claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-27T19:17:23.765973+01:00",
+      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk",
+      "headline": "SMB Cyber Intelligence Brief: breach-driven scams + software supply-chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Breach-driven login attacks and supplier/supply-chain scams",
+      "published_at": "2026-08-27T19:17:23.765973+01:00",
+      "published_label": "Thursday 27 August 2026, 19:17 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+        "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+        "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+        "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
+      ]
+    },
     {
       "slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec",
       "headline": "Today’s SME cyber brief: session-stealing “DocuSign” emails, disruption ripple effects, and service-account changes",
@@ -9254,20 +9276,6 @@
         "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
         "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
         "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
-      ]
-    },
-    {
-      "slug": "2026-05-28-1923-today-s-smb-cyber-lookout-endpoint-management-compromise-poisoned-help-searches",
-      "headline": "Today’s SMB cyber lookout: endpoint management compromise + poisoned “help” searches",
-      "risk_level": "High",
-      "todays_lookout": "Supplier / endpoint management compromise scams and credential theft; poisoned searches leading to malware",
-      "published_at": "2026-05-28T19:23:46.729226+01:00",
-      "published_label": "Thursday 28 May 2026, 19:23 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
-        "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
-        "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"
       ]
     }
   ]
