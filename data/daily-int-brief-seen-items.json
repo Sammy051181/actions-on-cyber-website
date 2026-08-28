@@ -1,117 +1,5 @@
 {
   "seen_urls": {
-    "48d82e220e383c3d": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "be2d29571050e51a": {
-      "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "10361ec8c6f62db8": {
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "8a0c6590e7d267fe": {
-      "url": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-      "title": "BTMOB Android malware service generates custom phishing payloads",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "101108663e25444d": {
-      "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "ca4163d35829076b": {
-      "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-29T19:18:37.373913+01:00",
-      "brief_slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an"
-    },
-    "57b82c9c2b7433a9": {
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T12:57:29.895535+01:00",
-      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
-    },
-    "117a388418538953": {
-      "url": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-      "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T12:57:29.895535+01:00",
-      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
-    },
-    "4f031431c5fbe95e": {
-      "url": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "title": "Charter Communications data breach affects 4.9 million accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T12:57:29.895535+01:00",
-      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
-    },
-    "20ea1f70b7865e02": {
-      "url": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-30T12:57:29.895535+01:00",
-      "brief_slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-"
-    },
-    "84667f8f5b261a1d": {
-      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
-    "933e2719244b7cc3": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
-    "48d92eba4242fcfe": {
-      "url": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
-    "bc023aef830c3e75": {
-      "url": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
-      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
-    "c40f0d28bfe51d09": {
-      "url": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
-    "e11c268779d002e0": {
-      "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-30T17:13:59.580687+01:00",
-      "brief_slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish"
-    },
     "32bc8688ad1e8269": {
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
       "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
@@ -6068,9 +5956,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-27T19:17:23.765973+01:00",
       "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
+    },
+    "6f01060b6e115f8e": {
+      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "ba3feda904b048f6": {
+      "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "6edaa432ae0551ea": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "9ef134c66a556534": {
+      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "d78fd3b9a03a8b41": {
+      "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+      "title": "ServiceNow warns of three max severity security vulnerabilities",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "fbf67621099f4f5d": {
+      "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "1d72b9fabc7d9d40": {
+      "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-28T20:26:19.900498+01:00",
+      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl",
+      "headline": "SMB Cyber Intelligence Brief: donation sites, printing systems and file-sharing platforms in the firing line",
+      "risk_level": "High",
+      "todays_lookout": "Web plugin and business-platform compromise leading to ransomware, data theft and follow-on phishing",
+      "published_at": "2026-08-28T20:26:19.900498+01:00",
+      "published_label": "Friday 28 August 2026, 20:26 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+        "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+        "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+        "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+        "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
+      ]
+    },
     {
       "slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk",
       "headline": "SMB Cyber Intelligence Brief: breach-driven scams + software supply-chain risk",
@@ -9230,52 +9184,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
         "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html"
-      ]
-    },
-    {
-      "slug": "2026-05-30-1713-weekend-lookout-vpn-login-bypass-activity-botnet-knock-on-risk-and-sharper-phish",
-      "headline": "Weekend lookout: VPN login bypass activity, botnet knock-on risk, and sharper phishing lures",
-      "risk_level": "High",
-      "todays_lookout": "Remote access (VPN) compromise and business disruption, plus phishing using AI-written lures",
-      "published_at": "2026-05-30T17:13:59.580687+01:00",
-      "published_label": "Saturday 30 May 2026, 17:13 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-        "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-        "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
-        "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
-      ]
-    },
-    {
-      "slug": "2026-05-30-1257-today-s-smb-cyber-lookout-fake-world-cup-sites-chatgpt-outage-malware-lures-and-",
-      "headline": "Today’s SMB cyber lookout: fake World Cup sites, “ChatGPT outage” malware lures, and breach-aftershocks",
-      "risk_level": "Moderate",
-      "todays_lookout": "Scam and phishing themes riding trusted brands (FIFA/ChatGPT) plus breach ripple effects",
-      "published_at": "2026-05-30T12:57:29.895535+01:00",
-      "published_label": "Saturday 30 May 2026, 12:57 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-        "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-        "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
-      ]
-    },
-    {
-      "slug": "2026-05-29-1918-today-s-smb-cyber-lookout-supply-chain-tampering-malicious-developer-packages-an",
-      "headline": "Today’s SMB cyber lookout: supply-chain tampering, malicious developer packages, and more convincing phishing",
-      "risk_level": "High",
-      "todays_lookout": "Software supply chain & phishing-driven account takeover",
-      "published_at": "2026-05-29T19:18:37.373913+01:00",
-      "published_label": "Friday 29 May 2026, 19:18 UK time",
-      "source_urls": [
-        "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-        "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-        "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-        "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-        "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-        "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
       ]
     }
   ]

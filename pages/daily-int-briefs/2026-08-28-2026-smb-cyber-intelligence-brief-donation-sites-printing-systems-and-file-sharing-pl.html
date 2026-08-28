@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: donation sites, printing systems and file-sharing platforms in the firing line | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: donation sites, printing systems and file-sharing platforms in the firing line</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 28 August 2026, 20:26 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Web plugin and business-platform compromise leading to ransomware, data theft and follow-on phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is <strong>common business tools being used as the entry point</strong>: website plugins (especially donations), file-sharing platforms, and print management systems. There’s also a fresh reminder that <strong>browser extensions</strong> can quietly steal credentials and funds.</p>
+<ul>
+  <li><strong>WordPress donation sites</strong>: a reported maximum-severity flaw in the GiveWP donation plugin could allow attackers to run commands on the hosting server.</li>
+  <li><strong>File-sharing platforms</strong>: an ownCloud issue has been added to CISA’s known-exploited list after being used in a real-world attack.</li>
+  <li><strong>Print management (schools, charities, offices)</strong>: PaperCut NG/MF is being actively targeted, with attackers chaining issues to execute code without authentication.</li>
+  <li><strong>Business platforms</strong>: ServiceNow has warned of three maximum-severity vulnerabilities (relevant if you rely on ServiceNow for IT/workflows).</li>
+  <li><strong>Browser extensions</strong>: multiple Chrome/Edge extensions were found with wallet-stealing / crypto-draining code (also a warning about extensions in general and credential theft).</li>
+  <li><strong>Breach ripple effects</strong>: Hasbro disclosed an employee data breach — expect follow-on phishing using stolen personal/financial data themes.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on a small number of tools to run the business (website, donations, printing, service desk/workflows, shared files). When attackers get in via one of these, it can quickly become:</p>
+<ul>
+  <li><strong>Ransomware/disruption</strong> (systems locked, printing and operations halted).</li>
+  <li><strong>Data theft</strong> (donor details, employee data, customer files, invoices, HR documents).</li>
+  <li><strong>Follow-on scams</strong> (invoice fraud, payroll diversion, “we’ve changed bank details”, fake IT support calls).</li>
+  <li><strong>Supplier/SaaS knock-on impact</strong> if you outsource web hosting, print management, or platform administration.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Website donation pages behaving oddly: unexpected redirects, new admin users, unexplained plugin changes, sudden performance issues.</li>
+  <li>Print system issues: printers spooling jobs incorrectly, PaperCut server errors, new/unknown admin accounts, unusual outbound network traffic.</li>
+  <li>File-sharing anomalies: unexpected password resets, sharing links created without approval, access logs showing unusual locations.</li>
+  <li>ServiceNow (or similar workflow tools): unusual new integrations, changes to permissions/roles, unexpected data exports.</li>
+  <li>Browser symptoms: staff report new toolbars/extensions, persistent pop-ups, browser sessions logging out, unexplained account lockouts.</li>
+  <li>Phishing spikes mentioning HR/benefits, payslips, tax, or urgent employee verification (common after employee-data theft stories).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromise a public-facing plugin</strong> (e.g., donation plugin) and use the web server as a foothold to steal data, place skimmers, or pivot internally.</li>
+  <li><strong>Break into file-sharing</strong> to access sensitive documents, then extort or use information for targeted fraud.</li>
+  <li><strong>Take over print management</strong> to gain a trusted internal position, then deploy tools that lead to wider compromise and potential ransomware.</li>
+  <li><strong>Exploit business platforms</strong> to tamper with workflows, approvals and data access (impacting procurement, IT, HR processes).</li>
+  <li><strong>Use malicious extensions</strong> to steal credentials, session tokens or financial information — then reuse access in email, banking or SaaS services.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership</strong>: identify who is responsible for WordPress (and key plugins), PaperCut, ownCloud/file-sharing, and ServiceNow administration (in-house or supplier).</li>
+  <li><strong>Quick exposure check</strong>: are any of these systems internet-accessible? If yes, treat as urgent to review configuration and logging.</li>
+  <li><strong>Review admin accounts</strong>: look for new/unused admin users in WordPress, PaperCut and file-sharing platforms; remove anything unrecognised.</li>
+  <li><strong>Enable/verify MFA</strong> on admin portals and hosting panels; ensure recovery emails and phone numbers are correct.</li>
+  <li><strong>Browser extension hygiene</strong>: ask staff to remove unused extensions; block unapproved extensions where possible (especially on finance/admin machines).</li>
+  <li><strong>Reinforce phishing controls</strong>: remind staff that donation/IT/HR-related emails can be lures; confirm bank detail changes by phone using a known number.</li>
+  <li><strong>Backups check</strong>: confirm you have recent, restorable backups for website and key servers (and that restore has been tested).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>GiveWP</strong>, <strong>PaperCut NG/MF</strong>, <strong>ownCloud</strong>, or <strong>ServiceNow</strong> anywhere (including for a single department or legacy server)? Who administers them?</li>
+  <li>Which of these are <strong>internet-facing</strong>, and what monitoring/alerting is in place for suspicious logins and privilege changes?</li>
+  <li>Can you show us a <strong>last 7-day admin change log review</strong> (new users, role changes, plugin changes, new integrations)?</li>
+  <li>What’s our <strong>ransomware containment plan</strong> if the website host / print server / file share is compromised (isolation steps, restoration order, communications)?</li>
+  <li>Do we have <strong>browser extension controls</strong> for staff devices, particularly finance and administrators?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Several of today’s items relate to high-severity security issues in commonly used platforms (including GiveWP for WordPress, PaperCut, ownCloud and ServiceNow). Rather than treating this as a generic “patch everything” message, ask your IT support to confirm whether you use these products and, if you do, whether the relevant vendor fixes/hardening guidance have been applied and verified.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT support (or web host) today to confirm whether your organisation uses GiveWP, PaperCut, ownCloud or ServiceNow and to provide written confirmation of the current mitigation/patch status plus evidence of recent admin/log review.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – “Supplier &amp; SaaS Risk Check” (quick questions to ask your IT provider/web host and what evidence to request)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/" rel="noopener noreferrer">GiveWP WordPress donation plugin flaw lets hackers execute server commands</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html" rel="noopener noreferrer">Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog" rel="noopener noreferrer">CISA Adds Three Known Exploited Vulnerabilities to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html" rel="noopener noreferrer">ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/" rel="noopener noreferrer">ServiceNow warns of three max severity security vulnerabilities</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html" rel="noopener noreferrer">19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/" rel="noopener noreferrer">Toy-making giant Hasbro disclose data breach affecting employees</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
