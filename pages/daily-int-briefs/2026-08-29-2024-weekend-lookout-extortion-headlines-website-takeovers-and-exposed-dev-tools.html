@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Weekend lookout: extortion headlines, website takeovers and exposed dev tools | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Weekend lookout: extortion headlines, website takeovers and exposed dev tools</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 29 August 2026, 20:24 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/hosting and website compromise risk (plus extortion-themed scam follow-ons)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three practical risks stand out for SMEs today:</p>
+<ul>
+  <li><strong>Extortion in the headlines</strong> (Berlin state network data theft) which often triggers copycat emails and calls to businesses posing as “investigators”, “IT support”, or “legal” teams.</li>
+  <li><strong>Website compromise risk</strong> via widely used WordPress plugins/themes and hosting platforms.</li>
+  <li><strong>Internet-exposed tools</strong> (like self-hosted code repositories) being targeted when left accessible and unpatched.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Business disruption</strong>: a compromised website can quickly become a customer-facing incident (defacement, malware warnings, checkout problems, lost leads).</li>
+  <li><strong>Ripple effects through suppliers</strong>: if your site is hosted/managed by an agency, MSP, or hosting provider, their platform exposure becomes your risk.</li>
+  <li><strong>Data and trust</strong>: extortion attempts (real or fake) often rely on panic and urgency—finance and admin teams are common targets.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected emails/calls claiming your organisation’s data has been stolen, demanding payment, or offering “help” to stop publication.</li>
+  <li>Any request to <strong>change payment details</strong> or buy vouchers/crypto “to resolve an urgent security matter”.</li>
+  <li>Your website behaving oddly: new admin users, unexplained plugin/theme changes, sudden redirects, SEO spam pages, or Google/browser warnings.</li>
+  <li>Developers reporting strange repo activity, new SSH keys/tokens, or unknown automated actions in your code management tool.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Extortion/social engineering</strong>: using the public Berlin incident as a credibility hook (“we’re contacting all organisations connected to government networks…”).</li>
+  <li><strong>Website takeover</strong>: targeting popular WordPress plugins/themes to gain admin access, change site content, or plant malicious code.</li>
+  <li><strong>Shared hosting impact</strong>: where a weakness in a hosting control panel could allow one compromised account to affect a whole server—raising the stakes if you share infrastructure with other customers.</li>
+  <li><strong>Exposed dev tooling</strong>: scanning for internet-accessible services (e.g., Gitea) and attempting to run code or steal credentials/tokens if they’re not properly secured.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff who handle money or enquiries</strong>: any “breach/extortion” message should be treated like a potential scam unless verified through a known channel.</li>
+  <li><strong>Check who manages your website</strong> (in-house vs supplier). Confirm you can reach the right support contact quickly if something looks wrong.</li>
+  <li><strong>Do a quick website sanity check</strong>: can you log in normally, do you see any new admin accounts, and are key pages (contact/checkout) behaving as expected?</li>
+  <li><strong>If you self-host developer tools</strong>, confirm they are not unnecessarily exposed to the internet and that access is restricted to what your team actually needs.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we use <strong>WordPress</strong> with any of these: WPMU DEV Dashboard, Avada, TranslatePress, Pods, or GiveWP? If yes, what’s the plan and timeline to confirm we’re not exposed?</li>
+  <li>Is our website on <strong>shared hosting with cPanel/WHM</strong>? If so, how do you reduce cross-tenant risk and detect unusual activity?</li>
+  <li>Do we run (or have we ever run) <strong>Gitea</strong> or similar code hosting internally? Is it internet-accessible, and is access logged and monitored?</li>
+  <li>If our site is compromised, what’s the <strong>restore and incident response runbook</strong> (who does what, how quickly, and how do we notify customers if needed)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you rely on a web agency, hosting provider, or MSP, ask them to confirm they are actively managing updates for your WordPress plugins/themes and hosting stack, and that they have checked for signs of compromise—especially where widely used components are being discussed publicly.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 3-line internal note to finance/admin staff: treat any “data stolen/extortion/urgent security payment” message as a scam until verified via a known phone number and your IT provider.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; MSP assurance checklist (who to call, what to log, and what evidence to request during a suspected breach)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html" rel="noopener noreferrer">Berlin Refuses to Pay Hackers Who Stole Data From the City&#x27;s State Network</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/" rel="noopener noreferrer">Over 8,300 Gitea servers vulnerable to code execution attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html" rel="noopener noreferrer">Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html" rel="noopener noreferrer">Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
