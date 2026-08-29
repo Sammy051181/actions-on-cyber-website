@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "32bc8688ad1e8269": {
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-      "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-05-30T21:16:37.736622+01:00",
-      "brief_slug": "2026-05-30-2116-weekend-lookout-vpn-login-bypass-being-exploited-staff-built-vibe-coded-apps-goi"
-    },
-    "1229614d938d1116": {
-      "url": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
-      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-05-30T21:16:37.736622+01:00",
-      "brief_slug": "2026-05-30-2116-weekend-lookout-vpn-login-bypass-being-exploited-staff-built-vibe-coded-apps-goi"
-    },
     "efe3d3ab728d6227": {
       "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
       "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
@@ -6005,9 +5991,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-28T20:26:19.900498+01:00",
       "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
+    },
+    "ad39520079f764e7": {
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-29T14:10:03.342944+01:00",
+      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
+    },
+    "f774114eb52e3b3c": {
+      "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+      "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-29T14:10:03.342944+01:00",
+      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
+    },
+    "890fcf73be2f3ef7": {
+      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-29T14:10:03.342944+01:00",
+      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
+    },
+    "96dd7b00fdd973a3": {
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-29T14:10:03.342944+01:00",
+      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
+    },
+    "e2642e9280511854": {
+      "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-29T14:10:03.342944+01:00",
+      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda",
+      "headline": "PaperCut zero‑day in active use + major breach fallout: what SMEs should watch today",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware and supplier breach scams, plus business disruption via print/identity systems",
+      "published_at": "2026-08-29T14:10:03.342944+01:00",
+      "published_label": "Saturday 29 August 2026, 14:10 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+        "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+        "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html"
+      ]
+    },
     {
       "slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl",
       "headline": "SMB Cyber Intelligence Brief: donation sites, printing systems and file-sharing platforms in the firing line",
@@ -9172,18 +9208,6 @@
         "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
         "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
         "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/"
-      ]
-    },
-    {
-      "slug": "2026-05-30-2116-weekend-lookout-vpn-login-bypass-being-exploited-staff-built-vibe-coded-apps-goi",
-      "headline": "Weekend lookout: VPN login bypass being exploited + staff-built “vibe-coded” apps going live",
-      "risk_level": "High",
-      "todays_lookout": "Remote access (VPN) compromise and unmanaged shadow apps",
-      "published_at": "2026-05-30T21:16:37.736622+01:00",
-      "published_label": "Saturday 30 May 2026, 21:16 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-        "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html"
       ]
     }
   ]
