@@ -6033,9 +6033,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-08-29T20:24:33.596359+01:00",
       "brief_slug": "2026-08-29-2024-weekend-lookout-extortion-headlines-website-takeovers-and-exposed-dev-tools"
+    },
+    "e7fd30e89bca0fc1": {
+      "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-30T13:52:32.207992+01:00",
+      "brief_slug": "2026-08-30-1352-today-s-sme-lookout-fake-cloudflare-captcha-pages-telling-staff-to-run-a-command"
+    },
+    "4543ccb8e5635911": {
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+      "title": "PaperCut releases second emergency patch for exploited flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-30T13:52:32.207992+01:00",
+      "brief_slug": "2026-08-30-1352-today-s-sme-lookout-fake-cloudflare-captcha-pages-telling-staff-to-run-a-command"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-30-1352-today-s-sme-lookout-fake-cloudflare-captcha-pages-telling-staff-to-run-a-command",
+      "headline": "Today’s SME lookout: fake “Cloudflare CAPTCHA” pages telling staff to run a command",
+      "risk_level": "High",
+      "todays_lookout": "Phishing and fake verification prompts leading to device takeover",
+      "published_at": "2026-08-30T13:52:32.207992+01:00",
+      "published_label": "Sunday 30 August 2026, 13:52 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/"
+      ]
+    },
     {
       "slug": "2026-08-29-2024-weekend-lookout-extortion-headlines-website-takeovers-and-exposed-dev-tools",
       "headline": "Weekend lookout: extortion headlines, website takeovers and exposed dev tools",

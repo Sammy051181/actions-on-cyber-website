@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME lookout: fake “Cloudflare CAPTCHA” pages telling staff to run a command | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME lookout: fake “Cloudflare CAPTCHA” pages telling staff to run a command</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 30 August 2026, 13:52 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Phishing and fake verification prompts leading to device takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Watch for fake “Cloudflare CAPTCHA” or “verify you’re human” pages that instruct staff to <strong>copy and paste</strong> something into <strong>Windows Terminal</strong> or <strong>PowerShell</strong>. This is a social engineering trick (a ClickFix-style variant) designed to get a user to run a malicious command themselves.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely on staff getting on with work quickly. A convincing “verification” page can appear during normal browsing, when accessing supplier portals, or after clicking a link in an email/chat. If a staff member runs a command, attackers may gain remote access, leading to stolen passwords, email account takeover, invoice fraud, and potentially ransomware disruption.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A web page (especially branded like Cloudflare) that says you must <strong>open Windows Terminal/PowerShell</strong> to continue.</li>
+  <li>Instructions to <strong>copy/paste</strong> text into a terminal “to verify” or “to fix a security check”.</li>
+  <li>Unexpected prompts appearing after clicking a link from an email, social media, or a chat message.</li>
+  <li>Staff reporting “a security check is blocking me” and asking for urgent help to bypass it.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li>They lure staff to a malicious page (via email, ads, search results, or compromised websites) and get them to run a command that installs or enables remote access.</li>
+  <li>Once on a device, they may move quickly to steal saved browser passwords, access email, or pivot to shared drives and cloud services.</li>
+  <li>They can use that foothold to request payment changes, send internal phishing from a real mailbox, or disrupt operations.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a short staff alert:</strong> “Never paste commands into Terminal/PowerShell because a website tells you to.”</li>
+  <li><strong>Update your helpdesk script:</strong> if someone reports a CAPTCHA telling them to run commands, treat it as a suspected compromise and escalate.</li>
+  <li><strong>Review who has local admin rights</strong> and reduce where possible (these attacks are more damaging with elevated permissions).</li>
+  <li><strong>Make sure MFA is enabled</strong> on email and key SaaS tools to reduce impact if credentials are stolen.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have monitoring that flags unusual PowerShell/Terminal activity on user PCs?</li>
+  <li>Can we block or warn on “paste-and-run” style attacks (web filtering, endpoint controls, application control)?</li>
+  <li>If a user ran a command from a web page, what’s our <strong>first-hour response</strong> (isolation, log review, password resets)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Separately, PaperCut has issued another emergency update after initial fixes were bypassed. If your organisation uses PaperCut for print management (common in schools and offices), confirm with your IT provider that you’re on the latest emergency release and that any internet exposure is reviewed.</p>
+
+        <h2>One action today</h2>
+        <p>Message staff today: “If a website tells you to open Terminal/PowerShell and paste a command to ‘verify’, stop and report it to IT immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Phishing &amp; suspicious link reporting checklist (staff quick guide)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html" rel="noopener noreferrer">TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/" rel="noopener noreferrer">PaperCut releases second emergency patch for exploited flaws</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
