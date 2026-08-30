@@ -6047,9 +6047,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-30T13:52:32.207992+01:00",
       "brief_slug": "2026-08-30-1352-today-s-sme-lookout-fake-cloudflare-captcha-pages-telling-staff-to-run-a-command"
+    },
+    "e972cc9952948fa0": {
+      "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+      "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-30T20:18:55.735776+01:00",
+      "brief_slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp"
+    },
+    "f14f4226fb239421": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+      "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-30T20:18:55.735776+01:00",
+      "brief_slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp"
+    },
+    "16fbb2290a5b360c": {
+      "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-30T20:18:55.735776+01:00",
+      "brief_slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp",
+      "headline": "Today’s SMB cyber lookout: risky browser extensions, hijacked AI sessions, and airport breach follow‑on scams",
+      "risk_level": "High",
+      "todays_lookout": "Infostealers, malicious browser extensions, and breach follow-on phishing",
+      "published_at": "2026-08-30T20:18:55.735776+01:00",
+      "published_label": "Sunday 30 August 2026, 20:18 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
+      ]
+    },
     {
       "slug": "2026-08-30-1352-today-s-sme-lookout-fake-cloudflare-captcha-pages-telling-staff-to-run-a-command",
       "headline": "Today’s SME lookout: fake “Cloudflare CAPTCHA” pages telling staff to run a command",
