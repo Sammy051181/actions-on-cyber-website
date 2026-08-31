@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "00a45dac88875a43": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
-      "title": "Microsoft Exchange Online outage causes email delays, failures",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
-    "4731840140478d87": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
-    "a5436fe65c6d59f5": {
-      "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
-    "8e1b55828cdeb249": {
-      "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
-    "9384b2bfabfd25d1": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
-    "51f18aa5ac2d931a": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-02T20:58:04.558720+01:00",
-      "brief_slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc"
-    },
     "2a70d167966f02fd": {
       "url": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
       "title": "Google adds Android protection against AI deepfake scam calls",
@@ -6054,9 +6012,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-31T16:04:55.320218+01:00",
       "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "569d8f31eca67b33": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+      "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T22:28:30.137097+01:00",
+      "brief_slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca"
+    },
+    "aab94ee8133c548e": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+      "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T22:28:30.137097+01:00",
+      "brief_slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca"
+    },
+    "cbe1eb1a526e86a5": {
+      "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+      "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-31T22:28:30.137097+01:00",
+      "brief_slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca"
+    },
+    "aa5f3d24601269a6": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
+      "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T22:28:30.137097+01:00",
+      "brief_slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca",
+      "headline": "Today’s SMB cyber brief: Microsoft 365 email disruption + fake CAPTCHA ‘ClickFix’ scams",
+      "risk_level": "High",
+      "todays_lookout": "Cloud disruption scams and fake ‘CAPTCHA’ command-run phishing",
+      "published_at": "2026-08-31T22:28:30.137097+01:00",
+      "published_label": "Monday 31 August 2026, 22:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+        "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/"
+      ]
+    },
     {
       "slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable",
       "headline": "SMB Cyber Intelligence Brief: ransomware extortion + router compromise risk + “disable security to fix it” tricks",
@@ -9244,22 +9244,6 @@
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
         "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
         "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html"
-      ]
-    },
-    {
-      "slug": "2026-06-02-2058-smb-cyber-intelligence-brief-email-disruption-fake-update-lures-and-supplier-acc",
-      "headline": "SMB Cyber Intelligence Brief — Email disruption, fake ‘update’ lures, and supplier-account risks",
-      "risk_level": "High",
-      "todays_lookout": "Cloud email disruption + phishing and fake update scams (plus supplier identity risk)",
-      "published_at": "2026-06-02T20:58:04.558720+01:00",
-      "published_label": "Tuesday 02 June 2026, 20:58 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
-        "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-        "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-        "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-        "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/"
       ]
     }
   ]
