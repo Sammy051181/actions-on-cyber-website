@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "f492e0e3a50ab8d0": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "aa110da6c3a891cf": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
-      "title": "Microsoft investigates Office Apps, Teams file access issues",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "90b6e1240f3f7e13": {
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-      "title": "WordPress malware campaign hides payloads in Steam profiles",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "b796c71b86c4a5dd": {
-      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "b77077332d59fc28": {
-      "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "444c55f3b2a74069": {
-      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "208e0aa73c1a9146": {
-      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
-    "9c10c0424399dec4": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
-      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-01T22:09:06.883865+01:00",
-      "brief_slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp"
-    },
     "00a45dac88875a43": {
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
       "title": "Microsoft Exchange Online outage causes email delays, failures",
@@ -6068,9 +6012,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-30T20:18:55.735776+01:00",
       "brief_slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp"
+    },
+    "570cf88d3b0ff13e": {
+      "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
+      "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "a645320d36fc7caf": {
+      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "da65f49ad04e53ba": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+      "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "50276d2dc3e7e3b9": {
+      "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+      "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "45779382730661a1": {
+      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "source": "The Hacker News",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
+    },
+    "c945f5a3b6293c0a": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
+      "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
+      "source": "BleepingComputer",
+      "seen_at": "2026-08-31T16:04:55.320218+01:00",
+      "brief_slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-08-31-1604-smb-cyber-intelligence-brief-ransomware-extortion-router-compromise-risk-disable",
+      "headline": "SMB Cyber Intelligence Brief: ransomware extortion + router compromise risk + “disable security to fix it” tricks",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware disruption and supplier/network edge compromise, plus scams that push staff to bypass security",
+      "published_at": "2026-08-31T16:04:55.320218+01:00",
+      "published_label": "Monday 31 August 2026, 16:04 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
+        "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+        "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+        "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+        "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+        "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/"
+      ]
+    },
     {
       "slug": "2026-08-30-2018-today-s-smb-cyber-lookout-risky-browser-extensions-hijacked-ai-sessions-and-airp",
       "headline": "Today’s SMB cyber lookout: risky browser extensions, hijacked AI sessions, and airport breach follow‑on scams",
@@ -9258,24 +9260,6 @@
         "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
         "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/"
-      ]
-    },
-    {
-      "slug": "2026-06-01-2209-smb-cyber-brief-microsoft-365-disruption-risk-wordpress-compromise-wave-and-supp",
-      "headline": "SMB Cyber Brief: Microsoft 365 disruption risk, WordPress compromise wave, and supply‑chain malware targeting developers",
-      "risk_level": "High",
-      "todays_lookout": "Cloud disruption + website compromise + supplier/software supply-chain risk",
-      "published_at": "2026-06-01T22:09:06.883865+01:00",
-      "published_label": "Monday 01 June 2026, 22:09 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
-        "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-        "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-        "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-        "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-        "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-        "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/"
       ]
     }
   ]
