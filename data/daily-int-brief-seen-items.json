@@ -6075,9 +6075,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-01T13:34:02.788474+01:00",
       "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
+    },
+    "dff23f3c8b114063": {
+      "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+      "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-01T20:23:15.075224+01:00",
+      "brief_slug": "2026-09-01-2023-today-s-smb-cyber-brief-payment-fraud-recruiter-phishing-and-cloud-api-key-theft"
+    },
+    "733c36767b10aa78": {
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+      "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-01T20:23:15.075224+01:00",
+      "brief_slug": "2026-09-01-2023-today-s-smb-cyber-brief-payment-fraud-recruiter-phishing-and-cloud-api-key-theft"
+    },
+    "7de4b68209c1337a": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-01T20:23:15.075224+01:00",
+      "brief_slug": "2026-09-01-2023-today-s-smb-cyber-brief-payment-fraud-recruiter-phishing-and-cloud-api-key-theft"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-01-2023-today-s-smb-cyber-brief-payment-fraud-recruiter-phishing-and-cloud-api-key-theft",
+      "headline": "Today’s SMB Cyber Brief: payment fraud, ‘recruiter’ phishing, and cloud/API key theft",
+      "risk_level": "High",
+      "todays_lookout": "Payment diversion and credential/key theft via social engineering and exploited SaaS/dev tooling",
+      "published_at": "2026-09-01T20:23:15.075224+01:00",
+      "published_label": "Tuesday 01 September 2026, 20:23 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+        "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+        "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/"
+      ]
+    },
     {
       "slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis",
       "headline": "Today’s SMB cyber lookout: “helpful” fix-it pages, payment tampering, and AI/SaaS disruption",
