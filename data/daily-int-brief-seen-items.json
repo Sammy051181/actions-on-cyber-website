@@ -6040,9 +6040,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-08-31T22:28:30.137097+01:00",
       "brief_slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca"
+    },
+    "6a32dcc2b873f122": {
+      "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-01T13:34:02.788474+01:00",
+      "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
+    },
+    "3b9bb67e082f2d3b": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+      "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-09-01T13:34:02.788474+01:00",
+      "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
+    },
+    "07a313d89eaa7840": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
+      "title": "OpenAI confirms ChatGPT outage as users report errors",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-01T13:34:02.788474+01:00",
+      "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
+    },
+    "651b2a34295b4d12": {
+      "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-01T13:34:02.788474+01:00",
+      "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
+    },
+    "9d1d25eb12ecc8ff": {
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-01T13:34:02.788474+01:00",
+      "brief_slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-01-1334-today-s-smb-cyber-lookout-helpful-fix-it-pages-payment-tampering-and-ai-saas-dis",
+      "headline": "Today’s SMB cyber lookout: “helpful” fix-it pages, payment tampering, and AI/SaaS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Repeatable social engineering leading to account takeover and payment fraud, plus SaaS/AI service disruption and API key misuse",
+      "published_at": "2026-09-01T13:34:02.788474+01:00",
+      "published_label": "Tuesday 01 September 2026, 13:34 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
+        "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+        "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+      ]
+    },
     {
       "slug": "2026-08-31-2228-today-s-smb-cyber-brief-microsoft-365-email-disruption-fake-captcha-clickfix-sca",
       "headline": "Today’s SMB cyber brief: Microsoft 365 email disruption + fake CAPTCHA ‘ClickFix’ scams",
