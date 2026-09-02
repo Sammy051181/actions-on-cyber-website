@@ -6082,9 +6082,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-02T13:06:41.364082+01:00",
       "brief_slug": "2026-09-02-1306-smb-cyber-brief-uk-voip-remote-access-attacks-admin-tool-abuse-email-security-fa"
+    },
+    "711c1fe7b578c0ad": {
+      "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-02T17:34:02.685014+01:00",
+      "brief_slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil"
+    },
+    "c7121520f5a9a11f": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "title": "US charges Russian for infecting 80,000 freelancers with malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-02T17:34:02.685014+01:00",
+      "brief_slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil"
+    },
+    "eb3bb052eba218a5": {
+      "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-02T17:34:02.685014+01:00",
+      "brief_slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil"
+    },
+    "43ff6a4cc6fb5f58": {
+      "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-02T17:34:02.685014+01:00",
+      "brief_slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil"
+    },
+    "15866317f6d1df5c": {
+      "url": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+      "title": "Communicating Under Pressure: Best Practices for Service Providers",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-02T17:34:02.685014+01:00",
+      "brief_slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-02-1734-smb-cyber-intelligence-brief-account-takeover-risk-freelancer-phishing-and-mobil",
+      "headline": "SMB Cyber Intelligence Brief — account takeover risk, freelancer phishing, and mobile malware via social ads",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier identity/account takeovers + attachment phishing + mobile malware promoted in ads",
+      "published_at": "2026-09-02T17:34:02.685014+01:00",
+      "published_label": "Wednesday 02 September 2026, 17:34 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+        "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+        "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+        "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+        "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers"
+      ]
+    },
     {
       "slug": "2026-09-02-1306-smb-cyber-brief-uk-voip-remote-access-attacks-admin-tool-abuse-email-security-fa",
       "headline": "SMB Cyber Brief (UK): VoIP/remote-access attacks + admin-tool abuse + email security false positives",
