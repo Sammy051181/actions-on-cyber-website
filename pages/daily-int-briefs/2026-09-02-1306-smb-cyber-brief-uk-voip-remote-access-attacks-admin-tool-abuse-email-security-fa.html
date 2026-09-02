@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief (UK): VoIP/remote-access attacks + admin-tool abuse + email security false positives | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief (UK): VoIP/remote-access attacks + admin-tool abuse + email security false positives</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 02 September 2026, 13:06 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Business telecoms &amp; remote access compromise (plus disruption from security tooling)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Business phone systems (VoIP/PBX) under active attack</strong> – reports of attackers exploiting a severe issue in Sangoma Switchvox to gain access without needing credentials.</li>
+  <li><strong>Remote access gateways being actively exploited</strong> – SonicWall has warned of active attacks against SMA1000 devices.</li>
+  <li><strong>Attackers abusing legitimate IT admin tools</strong> – phishing campaigns are using Faronics Deploy (a real endpoint management tool) to push remote-control software (ScreenConnect).</li>
+  <li><strong>Potential disruption from email security tooling</strong> – Microsoft Defender for Office 365 reportedly flagging legitimate Google Search links as malicious, which can break normal work and trigger “helpdesk” noise.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on <strong>telephony</strong>, <strong>remote access</strong> and <strong>outsourced IT tools</strong>. If an attacker gets into a phone system or remote access appliance, it can quickly lead to:</p>
+<ul>
+  <li><strong>Business disruption</strong> (phones down, staff unable to work remotely).</li>
+  <li><strong>Account takeover</strong> of admin portals and follow-on access to other systems.</li>
+  <li><strong>Fraud risk</strong> (redirected calls, voicemail access, social engineering using trusted numbers, and potential invoice/payment manipulation).</li>
+  <li><strong>Wider compromise</strong> if remote-control tools are installed on endpoints.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Phones/VoIP behaving oddly</strong>: unexpected call forwarding, new extensions, voicemail PIN resets, or unusual outbound calling patterns.</li>
+  <li><strong>Unexpected remote-control prompts</strong> or a new “support” tool appearing (e.g. ScreenConnect) that nobody requested.</li>
+  <li><strong>Admin portal logins</strong> at unusual times, from unusual locations, or new admin accounts being created.</li>
+  <li><strong>Spike in security alerts/tickets</strong> about blocked Google Search links (may be false positives, but treat as disruption and verify).</li>
+  <li><strong>Staff reporting “IT” emails</strong> asking them to click links, run installers, or approve device management changes.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Internet-exposed voice systems or remote access devices</strong>: attackers target them directly to gain an initial foothold.</li>
+  <li><strong>Living-off-the-land with legitimate tools</strong>: rather than using obvious malware, criminals use real admin/deployment software to push remote access, blending into normal IT activity.</li>
+  <li><strong>Phishing to trigger “approved” installs</strong>: a convincing email lures a user into enabling a management agent or accepting an update, after which remote-control software is deployed.</li>
+  <li><strong>Noise as cover</strong>: widespread security false positives can distract IT teams, making it easier for real malicious activity to slip through during the confusion.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership of your business telephony</strong>: who supports it, where it’s hosted, and whether it is exposed to the internet.</li>
+  <li><strong>Review remote access exposure</strong>: identify whether you use SonicWall SMA1000 (or any similar remote access gateway) and who manages it.</li>
+  <li><strong>Hunt for unexpected remote-control installs</strong>: ask IT to quickly check endpoints for newly installed remote support tools that weren’t requested.</li>
+  <li><strong>Set a staff message for today</strong>: “Don’t install ‘support’ software or approve device management changes from email. If in doubt, call our known IT contact number.”</li>
+  <li><strong>Manage Defender disruption safely</strong>: if Google links are being blocked, route staff to use approved bookmarks/known URLs while IT verifies whether alerts are false positives.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we run <strong>Sangoma Switchvox</strong> anywhere (including at a branch/warehouse), and is it <strong>internet-facing</strong>?</li>
+  <li>Do we use <strong>SonicWall SMA1000</strong> (or is it part of our MSP stack)? What extra monitoring is in place for attempted compromise?</li>
+  <li>What controls do we have to prevent <strong>legitimate admin tools</strong> (e.g. deployment platforms) being abused to install remote-control software?</li>
+  <li>Can you provide a <strong>list of approved remote support tools</strong> for our business, and an alerting process for any new/unknown tools appearing?</li>
+  <li>If Defender for Office 365 is blocking legitimate links, what’s our <strong>verified workaround</strong> that doesn’t involve weakening security?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s reporting includes <strong>active exploitation warnings</strong> for business voice and remote access platforms. Even if you don’t manage patches in-house, ensure your provider can confirm whether you’re affected and what immediate mitigations (including exposure reduction and monitoring) are in place while fixes are applied.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Do not install or approve any ‘IT support’ software from email or chat—call our known IT number instead,” and ask IT to check for any new/unauthorised remote-control tools installed in the last 7 days.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Remote access &amp; support tools control (approved tools list + install alerts + staff reporting script)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html" rel="noopener noreferrer">Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/" rel="noopener noreferrer">SonicWall warns of actively exploited SMA1000 zero-day flaws</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/" rel="noopener noreferrer">Hackers abuse Faronics Deploy admin tool to install ScreenConnect</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/" rel="noopener noreferrer">Microsoft Defender flags legitimate Google search links as malicious</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
