@@ -6103,9 +6103,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-03T13:06:01.385190+01:00",
       "brief_slug": "2026-09-03-1306-smb-cyber-daily-brief-credential-theft-fake-installers-and-wordpress-site-takeov"
+    },
+    "e41d05713645fe7a": {
+      "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
+    },
+    "54e49c42f26d7b73": {
+      "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
+    },
+    "e3d8428377294fe7": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+      "title": "Anthropic confirms Claude is down, multiple models affected",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
+    },
+    "f413fd637fae2603": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
+    },
+    "12bd6356b4bcf458": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
+    },
+    "66a18096b023ac34": {
+      "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+      "title": "Plex warns users to patch security vulnerabilities immediately",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-03T17:24:29.129223+01:00",
+      "brief_slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-03-1724-today-s-smb-cyber-lookout-stolen-sessions-rmm-phishing-and-saas-disruption",
+      "headline": "Today’s SMB cyber lookout: stolen sessions, RMM phishing, and SaaS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover from infostealers + RMM phishing + SaaS disruption",
+      "published_at": "2026-09-03T17:24:29.129223+01:00",
+      "published_label": "Thursday 03 September 2026, 17:24 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+        "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/"
+      ]
+    },
     {
       "slug": "2026-09-03-1306-smb-cyber-daily-brief-credential-theft-fake-installers-and-wordpress-site-takeov",
       "headline": "SMB Cyber Daily Brief — credential theft, fake installers, and WordPress site takeover risk",
