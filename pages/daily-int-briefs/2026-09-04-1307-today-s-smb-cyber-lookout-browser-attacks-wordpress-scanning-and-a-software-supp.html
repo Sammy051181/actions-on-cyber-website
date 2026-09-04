@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: browser attacks, WordPress scanning, and a software supply‑chain compromise | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: browser attacks, WordPress scanning, and a software supply‑chain compromise</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 04 September 2026, 13:07 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier compromise + common-business software being actively targeted (browser and WordPress)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Browser-based attacks hitting unpatched devices:</strong> Google has warned of a new Chrome zero-day being exploited in the wild.</li>
+  <li><strong>WordPress sites being hammered:</strong> Reports of large-scale exploit attempts against popular WordPress plugins (including Elementor Pro and Super Forms).</li>
+  <li><strong>Software supply-chain risk:</strong> A registry/infrastructure compromise at Coder reportedly led to malicious Terraform modules designed to steal credentials.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs don’t need to be “special targets” to be affected. These stories are about <strong>high-volume, opportunistic attacks</strong> and <strong>supplier dependency risk</strong>:</p>
+<ul>
+  <li>A single staff laptop with an out-of-date browser can become the entry point for account takeover or further malware.</li>
+  <li>WordPress is common for local businesses, charities and schools. Automated scanning can hit any site on the internet, not just big brands.</li>
+  <li>If your IT provider, web agency, or internal dev team uses infrastructure-as-code tools (e.g., Terraform modules), a compromised upstream source can quietly leak credentials and expose cloud systems.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report Chrome behaving oddly, repeated crashes, or unexpected sign-ins/prompts after browsing.</li>
+  <li>Your website suddenly redirects, shows new admin users, unknown plugins, or unexplained changes to pages/forms.</li>
+  <li>Unusual login activity in cloud/admin consoles (Microsoft 365/Google, AWS/Azure/GCP), especially from new countries or impossible travel.</li>
+  <li>Build/automation jobs start failing, new outbound connections, or alerts about secrets/keys being used unexpectedly.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Chrome exploitation:</strong> attackers use real-world browsing lures (ads, compromised sites, SEO pages) to compromise devices that haven’t updated yet, then pivot to email accounts and files.</li>
+  <li><strong>WordPress plugin scanning:</strong> mass probing for sites running vulnerable plugins, then attempting to gain access or plant backdoors and spam/redirects.</li>
+  <li><strong>Compromised Terraform modules:</strong> malicious code in modules can siphon credentials (e.g., API tokens, cloud keys), enabling follow-on access to cloud resources and business data.</li>
+  <li><strong>Access-broker ecosystem:</strong> sophisticated malware frameworks are being used to turn compromised Windows machines into resale “access”, which can later lead to ransomware or data theft.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Force browser updates:</strong> ensure all staff devices running Chrome are updated today (including shared/front-desk PCs).</li>
+  <li><strong>Quick WordPress check:</strong> confirm who manages your site, which plugins are installed, and whether you have recent backups and admin MFA enabled.</li>
+  <li><strong>Reduce blast radius:</strong> review who has admin access to your website, hosting, domain registrar, and cloud dashboards; remove dormant accounts.</li>
+  <li><strong>Supply-chain hygiene:</strong> if you (or your supplier) use Terraform/modules, ask whether they’ve checked for suspicious registry/module sources and rotated any exposed credentials.</li>
+  <li><strong>Staff reminder:</strong> be cautious of “routine” prompts to sign in, approve access, or install updates from pop-ups—use company-approved update routes.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you confirm all managed endpoints have applied the latest Chrome update, and that reporting shows compliance?</li>
+  <li>Do we have a monitored inventory of our public-facing web assets (WordPress, plugins, admin accounts), and do we get alerts for unauthorised changes?</li>
+  <li>What is our restore plan for the website (backup frequency, retention, and a tested restore time)?</li>
+  <li>If you build/deploy infrastructure for us: how do you validate third-party modules/registries, and how quickly can you rotate credentials if an upstream source is compromised?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s patch watch is focused on <strong>Chrome</strong>: Google has warned of an actively exploited zero-day, so prioritise updating Chrome across all business devices (including any personal/BYOD devices used for work) and confirming the update actually completed.</p>
+
+        <h2>One action today</h2>
+        <p>Get confirmation (from your IT provider or internally) that Chrome has updated successfully on every staff device today, not just “scheduled to update”.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: SME Website &amp; WordPress Security Checklist (owner-friendly quick checks)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/" rel="noopener noreferrer">Google warns of new Chrome zero-day flaw exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html" rel="noopener noreferrer">Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/" rel="noopener noreferrer">Coder&#x27;s registry infrastructure compromised to push malicious modules</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html" rel="noopener noreferrer">BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
