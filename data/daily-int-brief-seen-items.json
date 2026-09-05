@@ -6089,9 +6089,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-04T17:20:23.581282+01:00",
       "brief_slug": "2026-09-04-1720-today-s-sme-cyber-look-out-stealth-phishing-plus-microsoft-365-email-teams-disru"
+    },
+    "c08f05268e88427c": {
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-05T12:15:53.377345+01:00",
+      "brief_slug": "2026-09-05-1215-weekend-smb-cyber-brief-printing-server-attacks-hitting-schools-big-id-verificat"
+    },
+    "5c7b6ad938baf62c": {
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-05T12:15:53.377345+01:00",
+      "brief_slug": "2026-09-05-1215-weekend-smb-cyber-brief-printing-server-attacks-hitting-schools-big-id-verificat"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-05-1215-weekend-smb-cyber-brief-printing-server-attacks-hitting-schools-big-id-verificat",
+      "headline": "Weekend SMB Cyber Brief: printing server attacks hitting schools + big ID verification supplier breach claims",
+      "risk_level": "High",
+      "todays_lookout": "Supplier breach ripple effects + credential theft via printing/IT systems",
+      "published_at": "2026-09-05T12:15:53.377345+01:00",
+      "published_label": "Saturday 05 September 2026, 12:15 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+        "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/"
+      ]
+    },
     {
       "slug": "2026-09-04-1720-today-s-sme-cyber-look-out-stealth-phishing-plus-microsoft-365-email-teams-disru",
       "headline": "Today’s SME cyber look-out: stealth phishing plus Microsoft 365 email/Teams disruption",
