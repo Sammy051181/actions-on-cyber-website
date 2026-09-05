@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "26ae46ece10d319f": {
-      "url": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "title": "Silent Ransom Group targets law firms with fake IT support calls",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-07T17:56:43.435503+01:00",
-      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
-    },
-    "af428b1714adc784": {
-      "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-07T17:56:43.435503+01:00",
-      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
-    },
-    "b1de2842ac2680d3": {
-      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-07T17:56:43.435503+01:00",
-      "brief_slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths"
-    },
     "3470539362b52dae": {
       "url": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
       "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
@@ -6103,9 +6082,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-05T12:15:53.377345+01:00",
       "brief_slug": "2026-09-05-1215-weekend-smb-cyber-brief-printing-server-attacks-hitting-schools-big-id-verificat"
+    },
+    "913cdf66682bb19c": {
+      "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-05T19:17:03.620017+01:00",
+      "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
+    },
+    "1305dd241c305356": {
+      "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-05T19:17:03.620017+01:00",
+      "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
+    },
+    "28549037149e3e81": {
+      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-05T19:17:03.620017+01:00",
+      "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
+    },
+    "49749711ba07df5a": {
+      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-05T19:17:03.620017+01:00",
+      "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
+    },
+    "b10acc2d72c5f7d1": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-05T19:17:03.620017+01:00",
+      "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge",
+      "headline": "Today’s SMB Cyber Brief: supplier credential resets, compromised websites, and urgent browser hygiene",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and web-based social engineering (ClickFix) with credential theft risk",
+      "published_at": "2026-09-05T19:17:03.620017+01:00",
+      "published_label": "Saturday 05 September 2026, 19:17 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+        "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+        "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+      ]
+    },
     {
       "slug": "2026-09-05-1215-weekend-smb-cyber-brief-printing-server-attacks-hitting-schools-big-id-verificat",
       "headline": "Weekend SMB Cyber Brief: printing server attacks hitting schools + big ID verification supplier breach claims",
@@ -9343,19 +9372,6 @@
         "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
         "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
         "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/"
-      ]
-    },
-    {
-      "slug": "2026-06-07-1756-today-s-sme-cyber-lookout-fake-it-support-calls-and-risky-remote-access-paths",
-      "headline": "Today’s SME cyber lookout: fake “IT support” calls and risky remote access paths",
-      "risk_level": "High",
-      "todays_lookout": "Social engineering posing as IT support; remote access/device exposure",
-      "published_at": "2026-06-07T17:56:43.435503+01:00",
-      "published_label": "Sunday 07 June 2026, 17:56 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-        "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-        "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html"
       ]
     }
   ]
