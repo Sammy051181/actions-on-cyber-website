@@ -6145,9 +6145,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-06T12:39:06.185671+01:00",
       "brief_slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-"
+    },
+    "bc441f97e571bc08": {
+      "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-06T16:27:12.797296+01:00",
+      "brief_slug": "2026-09-06-1627-phishing-emails-may-hide-links-and-instructions-using-invisible-characters"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-06-1627-phishing-emails-may-hide-links-and-instructions-using-invisible-characters",
+      "headline": "Phishing emails may hide links and instructions using invisible characters",
+      "risk_level": "Moderate",
+      "todays_lookout": "Phishing evasion tricks (hidden text, disguised links) bypassing email filters",
+      "published_at": "2026-09-06T16:27:12.797296+01:00",
+      "published_label": "Sunday 06 September 2026, 16:27 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/"
+      ]
+    },
     {
       "slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-",
       "headline": "Sunday cyber look-out: internet-exposed remote access, e‑commerce backdooring, and “Defender/Updates disabled” infections",
