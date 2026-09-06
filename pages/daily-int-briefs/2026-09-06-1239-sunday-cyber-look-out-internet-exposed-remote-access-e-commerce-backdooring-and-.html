@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Sunday cyber look-out: internet-exposed remote access, e‑commerce backdooring, and “Defender/Updates disabled” infections | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Sunday cyber look-out: internet-exposed remote access, e‑commerce backdooring, and “Defender/Updates disabled” infections</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 06 September 2026, 12:39 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access and online store compromise leading to business disruption and fraud
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Internet-exposed network kit being hijacked</strong> (MikroTik routers via SSH exposure), which can lead to traffic interception, outage, or a foothold into your business network.</li>
+  <li><strong>Online store backdooring</strong> targeting Magento / Adobe Commerce, which can result in payment skimming, customer data theft, and reputational damage.</li>
+  <li><strong>Remote access gateways under active attack</strong> (Citrix NetScaler auth bypass being leveraged), raising the risk for organisations that rely on it for remote work or app access.</li>
+  <li><strong>Windows infections that switch off security protections</strong> (modules linked to an info-stealer) before running a crypto miner — a sign of deeper compromise, not just “a slow PC”.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on a small number of systems for day-to-day operations: the broadband router/firewall, remote access, and key SaaS or e-commerce platforms. If attackers get into any of these, the impact can be immediate: downtime, diverted payments, stolen credentials, or a hidden compromise that your team only notices when performance drops or customers complain.</p>
+<p>This is also a classic ripple-effect situation: if your IT provider manages your router, Citrix, or your online store, your risk depends on how quickly they spot and contain suspicious access.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Router/network symptoms:</strong> sudden internet instability, unexplained DNS changes, new admin accounts, unexpected port forwards, or remote management/SSH found enabled.</li>
+  <li><strong>Online store symptoms:</strong> unexpected template/theme changes, strange new files, unexplained admin users, unusual redirects, customer reports of odd checkout behaviour, or a spike in card chargebacks.</li>
+  <li><strong>Remote access symptoms (Citrix environments):</strong> logins at unusual hours, new sessions from unfamiliar locations, unusual configuration changes, or sudden lockouts.</li>
+  <li><strong>Endpoint symptoms:</strong> PCs running hot/slow, fans constantly on, security tools disabled, Windows Update failing or turned off, or repeated prompts to re-authenticate to Microsoft 365/Google.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Edge device takeover</strong>: attackers target internet-reachable management services on routers or remote access gateways to gain a foothold, then move to email accounts, file shares and backups.</li>
+  <li><strong>Credential theft and persistence</strong>: info-stealers and follow-on modules can harvest passwords/session tokens, then leave “clean-up” distractions (like crypto miners) while attackers access business systems.</li>
+  <li><strong>E-commerce backdoors</strong>: attackers plant hidden code to manipulate pages or capture data, potentially impacting customers long before the business notices.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm remote management exposure</strong>: check whether router/firewall management (including SSH) is exposed to the internet. If you outsource IT, ask them to confirm in writing what is exposed and why.</li>
+  <li><strong>Prioritise monitoring over assumptions</strong>: review logs/alerts for unusual admin logins on network devices, remote access platforms, and your e-commerce admin console.</li>
+  <li><strong>Reinforce payment safety</strong>: remind staff that any payment detail changes (bank account, payout destinations, supplier invoices) must be verified out-of-band (phone number from your own records, not the email).</li>
+  <li><strong>Endpoint hygiene check</strong>: pick a small sample of business PCs (especially anyone handling finance/admin) and confirm Microsoft Defender (or your AV) and Windows Update are enabled and healthy.</li>
+  <li><strong>E-commerce quick check</strong>: if you run Magento/Adobe Commerce, ask your web agency/host what additional monitoring is in place for file changes, new admin users, and checkout-page integrity.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>any</strong> internet-exposed management services on routers/firewalls (including SSH)? If yes, what restrictions (allow-list, VPN-only, MFA, logging) are enforced?</li>
+  <li>Are we running <strong>Citrix NetScaler</strong> anywhere? If so, have you checked for suspicious access and applied the vendor’s mitigations/updates for the actively exploited auth bypass?</li>
+  <li>For our online store: what’s our <strong>file integrity monitoring</strong> approach, and how quickly would we detect a backdoor or injected checkout code?</li>
+  <li>If a PC has Defender/Updates disabled, what is your <strong>containment process</strong> (isolation, credential reset, log review), and how do you decide whether it’s an isolated infection or wider compromise?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Several of today’s items relate to edge systems and platforms that businesses often don’t patch themselves (routers, Citrix gateways, and e-commerce platforms). Treat this as a “check your exposure and your supplier response time” moment: ensure your IT provider or web platform partner confirms whether you’re affected, what’s been changed, and what monitoring is in place to spot follow-on compromise.</p>
+
+        <h2>One action today</h2>
+        <p>Ask whoever manages your network edge (IT provider/MSP or internal IT) to confirm today whether router/firewall management (including SSH) is exposed to the internet, and if so, to restrict it immediately (VPN/allow-listed access only) and review recent admin access logs.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: “Payment change request anti-fraud checklist (call-back verification)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html" rel="noopener noreferrer">Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html" rel="noopener noreferrer">Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/" rel="noopener noreferrer">Critical Citrix NetScaler auth bypass now leveraged in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html" rel="noopener noreferrer">Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

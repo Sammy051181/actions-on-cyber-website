@@ -6117,9 +6117,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-09-05T19:17:03.620017+01:00",
       "brief_slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge"
+    },
+    "bec3d4c719cb0395": {
+      "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-06T12:39:06.185671+01:00",
+      "brief_slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-"
+    },
+    "9eeec10be375e2ca": {
+      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-06T12:39:06.185671+01:00",
+      "brief_slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-"
+    },
+    "7483ae5401bdf41c": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-06T12:39:06.185671+01:00",
+      "brief_slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-"
+    },
+    "1a8ef3d227d42f33": {
+      "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-06T12:39:06.185671+01:00",
+      "brief_slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-06-1239-sunday-cyber-look-out-internet-exposed-remote-access-e-commerce-backdooring-and-",
+      "headline": "Sunday cyber look-out: internet-exposed remote access, e‑commerce backdooring, and “Defender/Updates disabled” infections",
+      "risk_level": "High",
+      "todays_lookout": "Remote access and online store compromise leading to business disruption and fraud",
+      "published_at": "2026-09-06T12:39:06.185671+01:00",
+      "published_label": "Sunday 06 September 2026, 12:39 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+        "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html"
+      ]
+    },
     {
       "slug": "2026-09-05-1917-today-s-smb-cyber-brief-supplier-credential-resets-compromised-websites-and-urge",
       "headline": "Today’s SMB Cyber Brief: supplier credential resets, compromised websites, and urgent browser hygiene",
