@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: fake IT support calls and Microsoft 365 “MFA bypass” phishing | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: fake IT support calls and Microsoft 365 “MFA bypass” phishing</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 07 September 2026, 20:57 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Microsoft 365 account takeover, data theft and extortion via vishing and AitM phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Be on alert for <strong>fake IT/helpdesk phone calls</strong> and <strong>realistic Microsoft 365 login prompts</strong> designed to capture sign-ins and session tokens (so attackers can get into email and files even when MFA is enabled).</p>
+<ul>
+  <li>Phone-based “IT support” or “Microsoft” calls pressuring staff to approve sign-ins, read out codes, or visit a link.</li>
+  <li>Phishing pages that appear to <strong>“pass” MFA</strong> by intercepting tokens during sign-in (adversary-in-the-middle style attacks).</li>
+  <li>Follow-on behaviour: data theft from Microsoft 365/other SaaS, then <strong>extortion</strong> (threatening to leak data).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Most SMEs depend on Microsoft 365 for email, Teams, SharePoint/OneDrive and invoices/quotes. A single compromised mailbox can lead to:</p>
+<ul>
+  <li><strong>Invoice fraud</strong> (attackers watching email threads and changing bank details).</li>
+  <li><strong>Payroll/HR data exposure</strong> if files are stored in OneDrive/SharePoint.</li>
+  <li><strong>Business disruption</strong> if accounts are locked, rules are changed, or files are exfiltrated.</li>
+  <li><strong>Reputational damage</strong> if client communications are accessed.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected calls claiming to be “IT”, your MSP, or Microsoft urging immediate action.</li>
+  <li>Requests to <strong>approve an MFA prompt</strong> you didn’t initiate (“Just accept it so we can fix your account”).</li>
+  <li>Pressure to <strong>install remote support tools</strong> or to visit a “secure” login page sent by SMS/email.</li>
+  <li>Unusual Microsoft 365 sign-in alerts (new location/device) or repeated MFA prompts.</li>
+  <li>New or changed inbox rules (e.g., auto-forwarding, moving emails to RSS/Archive, marking as read).</li>
+  <li>Colleagues or customers reporting odd emails “from you” requesting payment changes or gift cards.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Vishing (voice phishing)</strong> to build trust and steer users to a login link or to approve MFA.</li>
+  <li><strong>AitM phishing</strong> to capture credentials and session tokens during a legitimate-looking sign-in flow.</li>
+  <li><strong>Residential proxy sign-ins</strong> to make access look more “normal” and bypass simple geo-blocking.</li>
+  <li><strong>Targeting executives/finance</strong> because their mailboxes contain sensitive conversations and payment authority.</li>
+  <li><strong>Data theft + extortion</strong> rather than (or as well as) encrypting systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (especially directors, finance, payroll, and reception)</strong>: IT will never ask you to approve an MFA prompt you didn’t start, or to read out codes.</li>
+  <li><strong>Set a “call-back” rule</strong>: if anyone gets an IT/security call, hang up and call your MSP/IT back using a known number from your internal contact list (not one provided in the call/email).</li>
+  <li><strong>Check Microsoft 365 for auto-forwarding and suspicious inbox rules</strong> on key accounts (finance/shared mailboxes/executives).</li>
+  <li><strong>Review conditional access / sign-in policies</strong> to reduce risky sign-ins (where appropriate for your organisation).</li>
+  <li><strong>Reconfirm payment-change process</strong>: no bank detail changes without an out-of-band verification (known phone number, second approver).</li>
+  <li><strong>Make sure you can rapidly disable a user session</strong> if compromise is suspected (and know who to contact out of hours).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>How quickly can you <strong>detect and respond</strong> to suspicious Microsoft 365 sign-ins and mailbox rule changes?</li>
+  <li>Do we have alerts for <strong>new inbox rules</strong>, <strong>auto-forwarding</strong>, and <strong>impossible travel/unusual sign-ins</strong>?</li>
+  <li>What is our standard playbook to <strong>contain a compromised account</strong> (disable user, revoke sessions/tokens, reset MFA, review mail rules, review OAuth/app consents)?</li>
+  <li>Which accounts are treated as <strong>high risk</strong> (finance, payroll, directors), and what extra protections are in place?</li>
+  <li>Do we have a tested process to handle <strong>data theft + extortion</strong> scenarios (not just ransomware)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business runs an online shop on <strong>Magento / Adobe Commerce</strong>, there is reporting of active exploitation of a newly described issue to deploy a Linux backdoor. This is primarily relevant to organisations that host and manage their own eCommerce stack (or have a developer/agency doing so). If that’s you, escalate to your web supplier today to confirm what monitoring and hardening is in place and whether they’re seeing suspicious activity.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “If ‘IT’ calls you unexpectedly, do not approve MFA or click login links—hang up and call back via our known IT/MSP number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Microsoft 365 account compromise quick-check (inbox rules, forwarding, MFA prompts, payment-change verification)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html" rel="noopener noreferrer">Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/" rel="noopener noreferrer">BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/" rel="noopener noreferrer">Magento StyleSmuggler zero-day exploited to deploy Linux backdoor</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

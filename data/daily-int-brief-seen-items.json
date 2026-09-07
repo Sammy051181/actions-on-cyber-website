@@ -1,82 +1,5 @@
 {
   "seen_urls": {
-    "b90e0707d3925ddc": {
-      "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
-      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-09T16:27:00.588997+01:00",
-      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
-    },
-    "9d935cbcf45cdf9d": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T16:27:00.588997+01:00",
-      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
-    },
-    "47d18278ce1ce2a8": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T16:27:00.588997+01:00",
-      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
-    },
-    "fd41ccb51473db1f": {
-      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
-      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T16:27:00.588997+01:00",
-      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
-    },
-    "d601d8dcb7ed1594": {
-      "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
-      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-09T16:27:00.588997+01:00",
-      "brief_slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account"
-    },
-    "a41367cd04e8f003": {
-      "url": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
-      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
-    "146cba0f97d31d94": {
-      "url": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
-      "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
-    "4b6c8ea3c5caecf6": {
-      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
-    "8bac2b090361a425": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
-      "title": "Siemens KACO Blueplanet Inverters",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
-    "6cf4c852993ebb62": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
-      "title": "Schneider Electric EcoStruxure Panel Server",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
-    "a4eb115e85978037": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
-      "title": "Schneider Electric Modicon Network Managed Switches",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-09T19:20:58.375748+01:00",
-      "brief_slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo"
-    },
     "8b24a39f4967bdbb": {
       "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
       "title": "ServiceNow discloses security incident exposing customer data",
@@ -6138,9 +6061,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-07T14:29:58.421047+01:00",
       "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "9c92a7066f1fef34": {
+      "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-07T20:57:35.379896+01:00",
+      "brief_slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi"
+    },
+    "71696e8a58944db5": {
+      "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T20:57:35.379896+01:00",
+      "brief_slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi"
+    },
+    "9dd82c8cbcbd69ab": {
+      "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T20:57:35.379896+01:00",
+      "brief_slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi",
+      "headline": "Today’s SMB cyber lookout: fake IT support calls and Microsoft 365 “MFA bypass” phishing",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 account takeover, data theft and extortion via vishing and AitM phishing",
+      "published_at": "2026-09-07T20:57:35.379896+01:00",
+      "published_label": "Monday 07 September 2026, 20:57 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+        "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+        "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/"
+      ]
+    },
     {
       "slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a",
       "headline": "Monday brief: Remote access tools abused, MSP/RMM hotfix scramble, router hijacks, and breach-driven scams",
@@ -9375,37 +9332,6 @@
         "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
         "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
-      ]
-    },
-    {
-      "slug": "2026-06-09-1920-today-s-smb-cyber-lookout-trusted-github-code-changes-and-ai-powered-phishing-vo",
-      "headline": "Today’s SMB cyber lookout: “trusted” GitHub code changes and AI-powered phishing volume",
-      "risk_level": "High",
-      "todays_lookout": "Supplier ecosystem risk (GitHub/Microsoft repos) + phishing that looks more convincing",
-      "published_at": "2026-06-09T19:20:58.375748+01:00",
-      "published_label": "Tuesday 09 June 2026, 19:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
-        "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
-        "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01"
-      ]
-    },
-    {
-      "slug": "2026-06-09-1627-today-s-smb-cyber-lookout-poisoned-developer-packages-unifi-exposure-and-account",
-      "headline": "Today’s SMB cyber lookout: poisoned developer packages, UniFi exposure, and account takeover scams",
-      "risk_level": "High",
-      "todays_lookout": "Supplier / software supply-chain risk and account takeover",
-      "published_at": "2026-06-09T16:27:00.588997+01:00",
-      "published_label": "Tuesday 09 June 2026, 16:27 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
-        "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-        "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-        "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
-        "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html"
       ]
     }
   ]
