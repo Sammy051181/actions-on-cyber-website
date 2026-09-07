@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "c29032fa40d7c7e5": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
-    "f91b36cf0666eb34": {
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
-    "e9c61941ceb914d6": {
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
-    "71b6339f08378eba": {
-      "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
-    "3c083cd9902b36a6": {
-      "url": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
-    "a60a47af132baa36": {
-      "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-09T11:42:25.534505+01:00",
-      "brief_slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an"
-    },
     "b90e0707d3925ddc": {
       "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
       "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
@@ -6124,9 +6082,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-06T16:27:12.797296+01:00",
       "brief_slug": "2026-09-06-1627-phishing-emails-may-hide-links-and-instructions-using-invisible-characters"
+    },
+    "3fabea4df5b35117": {
+      "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "7d32c779b299f0de": {
+      "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "4a81effbff6827ff": {
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "d35595c1e92df27a": {
+      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "23a72d6695c4d8d2": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "93b61032b3b3e4e7": {
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+      "title": "Trezor data breach impact now reaches 81,000 customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "c4d7fdfa67542adb": {
+      "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+      "title": "Mathspace discloses data breach affecting over 1 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
+    },
+    "459bb4835d2328d2": {
+      "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-07T14:29:58.421047+01:00",
+      "brief_slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-07-1429-monday-brief-remote-access-tools-abused-msp-rmm-hotfix-scramble-router-hijacks-a",
+      "headline": "Monday brief: Remote access tools abused, MSP/RMM hotfix scramble, router hijacks, and breach-driven scams",
+      "risk_level": "High",
+      "todays_lookout": "Remote access & supplier-platform abuse leading to malware, account takeover and disruption",
+      "published_at": "2026-09-07T14:29:58.421047+01:00",
+      "published_label": "Monday 07 September 2026, 14:29 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+        "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+        "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+        "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+        "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+        "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+        "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html"
+      ]
+    },
     {
       "slug": "2026-09-06-1627-phishing-emails-may-hide-links-and-instructions-using-invisible-characters",
       "headline": "Phishing emails may hide links and instructions using invisible characters",
@@ -9374,22 +9406,6 @@
         "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
         "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
         "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html"
-      ]
-    },
-    {
-      "slug": "2026-06-09-1142-smb-cyber-daily-brief-tue-09-jun-vpn-ransomware-entry-whatsapp-spear-phishing-an",
-      "headline": "SMB Cyber Daily Brief (Tue 09 Jun): VPN ransomware entry, WhatsApp spear-phishing, and Chrome exploit activity",
-      "risk_level": "High",
-      "todays_lookout": "Remote access compromise + high-quality phishing (WhatsApp/email) leading to ransomware and account takeover",
-      "published_at": "2026-06-09T11:42:25.534505+01:00",
-      "published_label": "Tuesday 09 June 2026, 11:42 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-        "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-        "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-        "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-        "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-        "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
       ]
     }
   ]

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Monday brief: Remote access tools abused, MSP/RMM hotfix scramble, router hijacks, and breach-driven scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Monday brief: Remote access tools abused, MSP/RMM hotfix scramble, router hijacks, and breach-driven scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 07 September 2026, 14:29 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access &amp; supplier-platform abuse leading to malware, account takeover and disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Remote support tool abuse:</strong> attackers are abusing remote support journeys and ScreenConnect environments to spread malware to newly connected machines.</li>
+  <li><strong>MSP/RMM dependency risk:</strong> N-able N-central is issuing repeated hotfixes and reports indicate attacks are ongoing/possible. If your IT provider uses it, this is a business continuity and access-risk issue.</li>
+  <li><strong>Router takeovers:</strong> MikroTik routers with internet-exposed management (e.g. SSH) are being hijacked in active exploitation, which can lead to traffic interception, redirection, or follow-on compromise.</li>
+  <li><strong>Data breach ripple effects:</strong> a third-party logistics breach affecting Trezor customers and a large breach at the Mathspace learning platform increase the chances of convincing phishing, fake support calls, and “update your details” scams.</li>
+  <li><strong>Session-cookie/account takeover risk:</strong> malware that steals session cookies can bypass normal sign-in prompts for services like Google accounts, increasing the impact of a single infected device.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on <strong>remote support</strong>, an <strong>outsourced IT provider/MSP</strong>, and a small number of <strong>core internet services</strong> (email, accounting, payroll, file sharing). When attackers abuse remote access tools or compromise network edge devices (routers), the result is often rapid: password resets, email compromise, invoice fraud, and downtime. Separately, large supplier breaches commonly trigger highly targeted phishing against staff and customers.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to install “support”, “remote access”, or “security update” software (especially after a call or pop-up claiming urgent help is needed).</li>
+  <li>New or unfamiliar ScreenConnect/remote support sessions, or devices showing remote control when nobody requested it.</li>
+  <li>Staff reporting browser sessions that “look logged in already” or security alerts about unusual sign-ins/forwarding rules.</li>
+  <li>Internet issues that feel like misrouting: strange certificate warnings, being redirected to odd websites, or multiple users seeing login pages change.</li>
+  <li>Phishing emails referencing real supplier names (shipping/logistics providers, education platforms) asking to “confirm address”, “pay a fee”, or “verify account”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Tech-support scams → remote tool install:</strong> a convincing call or pop-up persuades a user to allow remote access, then the attacker pivots to other machines and accounts.</li>
+  <li><strong>Abuse of remote access platforms:</strong> if ScreenConnect instances or clients are targeted, attackers may spread malware to additional hosts that connect.</li>
+  <li><strong>MSP tool compromise:</strong> if an RMM platform used by an IT provider is exposed/impacted, attackers may gain broad access across many customer networks.</li>
+  <li><strong>Router hijack:</strong> taking control of a router can enable interception, redirection, or setting up onward access to internal systems.</li>
+  <li><strong>Cookie theft:</strong> malware on a PC can steal session cookies, allowing access to cloud services without needing to re-enter passwords or complete MFA in the normal way.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Re-brief staff (2 minutes):</strong> “No unsolicited support calls. No installing remote tools from a link. If in doubt, hang up and call our known IT number.”</li>
+  <li><strong>Check remote access hygiene:</strong> confirm who is allowed to run remote support tools and ensure staff can’t approve remote control without a clear internal request.</li>
+  <li><strong>Ask your IT provider if you’re exposed:</strong> specifically whether ScreenConnect and/or N-able N-central are used anywhere in your environment and what mitigations are in place.</li>
+  <li><strong>Router sanity check:</strong> confirm your router management interfaces are not exposed to the internet and that administration is restricted to known locations/devices.</li>
+  <li><strong>Raise the bar on email fraud:</strong> for any change of bank details or urgent payment request, use call-back to a known number and a second-person approval.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we use <strong>ScreenConnect</strong> anywhere (directly or via a supplier)? If yes, what controls prevent unauthorised sessions and how are suspicious connections detected?</li>
+  <li>Do you use <strong>N-able N-central</strong> to manage our systems? If yes, what is your current hotfix/mitigation status and how are you monitoring for misuse?</li>
+  <li>Are any <strong>router management services</strong> (SSH/web admin) exposed to the internet? If not sure, can you provide evidence (not just “should be fine”)?</li>
+  <li>What alerts do we have for <strong>new email forwarding rules</strong>, unusual login locations, or repeated failed sign-ins?</li>
+  <li>What is our playbook if a remote access tool is abused (immediate isolation steps, password resets, customer comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>ConnectWise has issued temporary mitigations for a new ScreenConnect issue awaiting a patch, and N-able has released additional N-central hotfixes in quick succession; if your IT provider runs these tools, ask them to confirm mitigations/hotfixes are applied and that monitoring is in place for suspicious remote access.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short staff note today: no one should install or approve remote support tools/sessions unless they initiated the request via your known IT contact method.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Payment change &amp; invoice fraud call-back checklist’ (and enforce two-person approval for bank detail changes).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html" rel="noopener noreferrer">Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/" rel="noopener noreferrer">ConnectWise warns of new ScreenConnect flaw without patch</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/" rel="noopener noreferrer">N-able patches max severity N-central flaw amid ongoing attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html" rel="noopener noreferrer">N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/" rel="noopener noreferrer">Hackers exploit new MikroTik RouterOS flaws to hijack routers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/" rel="noopener noreferrer">Trezor data breach impact now reaches 81,000 customers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/" rel="noopener noreferrer">Mathspace discloses data breach affecting over 1 million people</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html" rel="noopener noreferrer">JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
