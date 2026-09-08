@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "8b24a39f4967bdbb": {
-      "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "title": "ServiceNow discloses security incident exposing customer data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T12:03:48.084378+01:00",
-      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
-    },
-    "ea6cfaf1ee3aa04f": {
-      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "source": "Krebs on Security",
-      "seen_at": "2026-06-10T12:03:48.084378+01:00",
-      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
-    },
-    "2ed1517514068ee9": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
-      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T12:03:48.084378+01:00",
-      "brief_slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s"
-    },
     "2b1ea9e057ffd34b": {
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
       "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
@@ -6082,9 +6061,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-07T20:57:35.379896+01:00",
       "brief_slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi"
+    },
+    "0d6572e08bb47211": {
+      "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "640afb9db3b284d4": {
+      "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "320a2c58ac735a7c": {
+      "url": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
+      "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
+      "source": "Cisco Talos",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "50c4b3e56fdbb500": {
+      "url": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
+      "title": "ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2",
+      "source": "Cisco Talos",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "6c7e13172b772333": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+      "title": "Hackers build AI frameworks for widescale credential theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "24d56919cba73a5c": {
+      "url": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "457b9d586cea59c4": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
+      "title": "Microsoft: Windows Server 2025 changes causing app crashes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-08T13:08:18.876312+01:00",
+      "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-",
+      "headline": "SMB Cyber Intelligence Brief: travel-data scam wave risk + poisoned search results and browser-led credential theft",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation scams and credential theft driven by leaked data + poisoned search results",
+      "published_at": "2026-09-08T13:08:18.876312+01:00",
+      "published_label": "Tuesday 08 September 2026, 13:08 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+        "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+        "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
+        "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
+        "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+        "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/"
+      ]
+    },
     {
       "slug": "2026-09-07-2057-today-s-smb-cyber-lookout-fake-it-support-calls-and-microsoft-365-mfa-bypass-phi",
       "headline": "Today’s SMB cyber lookout: fake IT support calls and Microsoft 365 “MFA bypass” phishing",
@@ -9319,19 +9364,6 @@
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
         "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/"
-      ]
-    },
-    {
-      "slug": "2026-06-10-1203-servicenow-customer-data-exposure-expect-targeted-phishing-and-supplier-themed-s",
-      "headline": "ServiceNow customer data exposure: expect targeted phishing and supplier‑themed scams",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and targeted phishing off the back of a SaaS data exposure",
-      "published_at": "2026-06-10T12:03:48.084378+01:00",
-      "published_label": "Wednesday 10 June 2026, 12:03 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-        "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/"
       ]
     }
   ]
