@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "2b1ea9e057ffd34b": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
-      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T17:08:23.549844+01:00",
-      "brief_slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s"
-    },
-    "f95085924cae03aa": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
-      "title": "The 5 Best Practices for Secure Identity Verification",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T17:08:23.549844+01:00",
-      "brief_slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s"
-    },
-    "a02b18501d3cb698": {
-      "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "source": "Krebs on Security",
-      "seen_at": "2026-06-10T17:08:23.549844+01:00",
-      "brief_slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s"
-    },
     "490aa96a54bc431f": {
       "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
       "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
@@ -6110,9 +6089,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-08T13:08:18.876312+01:00",
       "brief_slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-"
+    },
+    "21e856b24560d787": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+      "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "c096727d1faeeea2": {
+      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "4dfc5b9bb611ed46": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+      "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "7233e2d9b1b1aaba": {
+      "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "6f67d45fa1d4ff16": {
+      "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
+      "title": "OpenAI says ChatGPT outage causes image generation errors",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "65b33f6caf3eb2e0": {
+      "url": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
+      "title": "The hidden risks of shadow AI",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "9af5dfe944e1aeb4": {
+      "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-08T17:37:10.964348+01:00",
+      "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con",
+      "headline": "Today’s SMB cyber lookout: faster credential theft (AI‑assisted) + hidden risk in connected apps",
+      "risk_level": "High",
+      "todays_lookout": "Credential harvesting, shadow AI and SaaS/Workspace connected-app risk",
+      "published_at": "2026-09-08T17:37:10.964348+01:00",
+      "published_label": "Tuesday 08 September 2026, 17:37 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+        "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+        "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+        "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+        "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
+        "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
+        "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html"
+      ]
+    },
     {
       "slug": "2026-09-08-1308-smb-cyber-intelligence-brief-travel-data-scam-wave-risk-poisoned-search-results-",
       "headline": "SMB Cyber Intelligence Brief: travel-data scam wave risk + poisoned search results and browser-led credential theft",
@@ -9351,19 +9396,6 @@
         "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
         "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
         "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
-      ]
-    },
-    {
-      "slug": "2026-06-10-1708-today-s-smb-cyber-lookout-exchange-owa-exploitation-risk-identity-verification-s",
-      "headline": "Today’s SMB cyber lookout: Exchange/OWA exploitation risk + identity-verification scams",
-      "risk_level": "High",
-      "todays_lookout": "Email account takeover and helpdesk/MFA fatigue scams, with urgent supplier risk for organisations running on‑prem Exchange/OWA",
-      "published_at": "2026-06-10T17:08:23.549844+01:00",
-      "published_label": "Wednesday 10 June 2026, 17:08 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
-        "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/"
       ]
     }
   ]
