@@ -1,96 +1,5 @@
 {
   "seen_urls": {
-    "490aa96a54bc431f": {
-      "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "328985d6bcace907": {
-      "url": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "944a2c7b61d4b594": {
-      "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "1bd063fb2c47430e": {
-      "url": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "2c4b2bac225f53e4": {
-      "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "78c0dc3e15352e5a": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
-      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "92218887bf7ba5fe": {
-      "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
-      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-10T19:42:44.634726+01:00",
-      "brief_slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and"
-    },
-    "96b266d32acddaf3": {
-      "url": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
-      "title": "Nottingham University data breach affects over 450,000 students",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
-    "9aa619b6792b6eed": {
-      "url": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
-      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
-    "a89bc9c1fa92195d": {
-      "url": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
-    "ed47244a1a0ecb46": {
-      "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
-    "0a8e38f5f8960fb3": {
-      "url": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
-      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
-    "f3b95abed492118d": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
-      "title": "The ‘Miasma’ worm source code briefly leaked on GitHub",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T12:47:53.677161+01:00",
-      "brief_slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np"
-    },
     "39a13aae9e28aa12": {
       "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
       "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
@@ -6138,9 +6047,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-08T17:37:10.964348+01:00",
       "brief_slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con"
+    },
+    "44a5bf98b92e5df5": {
+      "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-09T13:19:53.979534+01:00",
+      "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
+    },
+    "75062f3bb4ffd3e6": {
+      "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-09T13:19:53.979534+01:00",
+      "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
+    },
+    "7c0412571004850e": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-09T13:19:53.979534+01:00",
+      "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
+    },
+    "6e80b0fb56bfd77a": {
+      "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "source": "Krebs on Security",
+      "seen_at": "2026-09-09T13:19:53.979534+01:00",
+      "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
+    },
+    "369f97b0285eecf9": {
+      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-09T13:19:53.979534+01:00",
+      "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam",
+      "headline": "Today’s SMB cyber lookout: fake online shops stealing card details, extortion scams, and browser risk",
+      "risk_level": "High",
+      "todays_lookout": "Payment-card fraud via fake online shops + scam-driven extortion and phishing",
+      "published_at": "2026-09-09T13:19:53.979534+01:00",
+      "published_label": "Wednesday 09 September 2026, 13:19 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+        "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+        "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+        "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+        "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html"
+      ]
+    },
     {
       "slug": "2026-09-08-1737-today-s-smb-cyber-lookout-faster-credential-theft-ai-assisted-hidden-risk-in-con",
       "headline": "Today’s SMB cyber lookout: faster credential theft (AI‑assisted) + hidden risk in connected apps",
@@ -9363,39 +9322,6 @@
         "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
         "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
         "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html"
-      ]
-    },
-    {
-      "slug": "2026-06-11-1247-smb-cyber-intelligence-brief-uk-breach-ripple-effects-active-exploitation-and-np",
-      "headline": "SMB Cyber Intelligence Brief — UK breach ripple effects, active exploitation, and npm supply‑chain changes",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & platform risk plus breach‑related phishing",
-      "published_at": "2026-06-11T12:47:53.677161+01:00",
-      "published_label": "Thursday 11 June 2026, 12:47 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
-        "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-        "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-        "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
-        "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/"
-      ]
-    },
-    {
-      "slug": "2026-06-10-1942-today-s-smb-cyber-lookout-hr-payroll-data-theft-pressure-router-iot-scanning-and",
-      "headline": "Today’s SMB cyber lookout: HR/payroll data theft pressure, router/IoT scanning, and ‘AI email assistant’ phishing risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS data theft & extortion pressure plus SOHO/IoT exposure scanning",
-      "published_at": "2026-06-10T19:42:44.634726+01:00",
-      "published_label": "Wednesday 10 June 2026, 19:42 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-        "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-        "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-        "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-        "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
-        "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
-        "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
       ]
     }
   ]
