@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "39a13aae9e28aa12": {
-      "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-11T17:20:42.934835+01:00",
-      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
-    },
-    "f6e3c1d8a56c0698": {
-      "url": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-      "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T17:20:42.934835+01:00",
-      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
-    },
-    "0793213cc0353bf2": {
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
-      "title": "Coupang hit with record $409 million data breach fine in Korea",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-11T17:20:42.934835+01:00",
-      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
-    },
-    "a22c3f1dabbfdb92": {
-      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
-      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Action Patch + 28 New Stories",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-11T17:20:42.934835+01:00",
-      "brief_slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out"
-    },
     "2ba6a2a91f633141": {
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
       "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
@@ -6082,9 +6054,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-09T13:19:53.979534+01:00",
       "brief_slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam"
+    },
+    "a7397cc291ced5fd": {
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-09T20:16:38.474912+01:00",
+      "brief_slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp"
+    },
+    "7b70efb6ff4b477e": {
+      "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-09T20:16:38.474912+01:00",
+      "brief_slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp"
+    },
+    "1f143425b810d0d3": {
+      "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-09T20:16:38.474912+01:00",
+      "brief_slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp"
+    },
+    "0ef308ce9d4e9c5d": {
+      "url": "https://blog.talosintelligence.com/fmc-ongoing-exploitation/",
+      "title": "Active exploitation of Cisco Secure Firewall Management Center vulnerabilities",
+      "source": "Cisco Talos",
+      "seen_at": "2026-09-09T20:16:38.474912+01:00",
+      "brief_slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp",
+      "headline": "Today’s SMB cyber lookout: infostealers, MFA recovery scams, and vendor breach ripple effects",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover via infostealers and account-recovery social engineering (plus supplier breach ripple effects)",
+      "published_at": "2026-09-09T20:16:38.474912+01:00",
+      "published_label": "Wednesday 09 September 2026, 20:16 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+        "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+        "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+        "https://blog.talosintelligence.com/fmc-ongoing-exploitation/"
+      ]
+    },
     {
       "slug": "2026-09-09-1319-today-s-smb-cyber-lookout-fake-online-shops-stealing-card-details-extortion-scam",
       "headline": "Today’s SMB cyber lookout: fake online shops stealing card details, extortion scams, and browser risk",
@@ -9308,20 +9322,6 @@
         "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
         "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
         "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-06-11-1720-smb-cyber-intelligence-brief-supplier-platform-incident-risk-ransomware-cash-out",
-      "headline": "SMB Cyber Intelligence Brief: Supplier platform incident risk + ransomware cash-out disruption",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS incident scams and follow-on phishing (ServiceNow-themed)",
-      "published_at": "2026-06-11T17:20:42.934835+01:00",
-      "published_label": "Thursday 11 June 2026, 17:20 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-        "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-        "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
-        "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html"
       ]
     }
   ]
