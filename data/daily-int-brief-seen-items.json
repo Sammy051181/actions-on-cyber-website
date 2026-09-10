@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "2ba6a2a91f633141": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
-    "04ac9e56c9c3fa07": {
-      "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
-    "c97d2a885188adbd": {
-      "url": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
-      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
-    "0cc97dc7a24c2daf": {
-      "url": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
-      "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
-    "b4e53837497396af": {
-      "url": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-      "title": "Maine breach portal abused to publish fake data breach disclosures",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
-    "97865ac01ae6aa13": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
-      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T12:09:31.329237+01:00",
-      "brief_slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d"
-    },
     "e700f630cfa191fa": {
       "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
       "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
@@ -6082,9 +6040,51 @@
       "source": "Cisco Talos",
       "seen_at": "2026-09-09T20:16:38.474912+01:00",
       "brief_slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp"
+    },
+    "e8f0461d27489cea": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T13:13:46.949214+01:00",
+      "brief_slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing"
+    },
+    "8e055682245b5bc3": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T13:13:46.949214+01:00",
+      "brief_slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing"
+    },
+    "d90663f60bbdab48": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-10T13:13:46.949214+01:00",
+      "brief_slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing"
+    },
+    "06d5e914515aea02": {
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+      "title": "Trezor warns users of email provider breach, phishing attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T13:13:46.949214+01:00",
+      "brief_slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing",
+      "headline": "Actively exploited firewall/appliance attacks + supplier email breach phishing",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware entry via internet-facing security appliances and supplier-style phishing",
+      "published_at": "2026-09-10T13:13:46.949214+01:00",
+      "published_label": "Thursday 10 September 2026, 13:13 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+        "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
+      ]
+    },
     {
       "slug": "2026-09-09-2016-today-s-smb-cyber-lookout-infostealers-mfa-recovery-scams-and-vendor-breach-ripp",
       "headline": "Today’s SMB cyber lookout: infostealers, MFA recovery scams, and vendor breach ripple effects",
@@ -9306,22 +9306,6 @@
         "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
         "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/"
-      ]
-    },
-    {
-      "slug": "2026-06-12-1209-today-s-smb-cyber-brief-extortion-via-business-apps-plus-phishing-as-a-service-d",
-      "headline": "Today’s SMB Cyber Brief: extortion via business apps, plus phishing-as-a-service disruption",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS compromise and extortion, plus follow‑on phishing and fake breach claims",
-      "published_at": "2026-06-12T12:09:31.329237+01:00",
-      "published_label": "Friday 12 June 2026, 12:09 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-        "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-        "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
-        "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
-        "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-        "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/"
       ]
     }
   ]
