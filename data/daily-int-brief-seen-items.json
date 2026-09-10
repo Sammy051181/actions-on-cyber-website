@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "e700f630cfa191fa": {
-      "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
-      "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T16:38:36.632732+01:00",
-      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
-    },
-    "66fffad54cb9c79e": {
-      "url": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
-      "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T16:38:36.632732+01:00",
-      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
-    },
-    "0826b044b06cf7c9": {
-      "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-12T16:38:36.632732+01:00",
-      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
-    },
-    "1017c919b048f36a": {
-      "url": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
-      "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T16:38:36.632732+01:00",
-      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
-    },
-    "1118387053113644": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
-      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T16:38:36.632732+01:00",
-      "brief_slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod"
-    },
     "a36831d1aab4c213": {
       "url": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
       "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
@@ -6068,9 +6033,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-10T13:13:46.949214+01:00",
       "brief_slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing"
+    },
+    "da907d9c99a0183c": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+      "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "33af29f71c8c9221": {
+      "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+      "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "09079ade99fff94c": {
+      "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "87c0628b9f68a2fd": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "9927501cbbee3b72": {
+      "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "5c2c44a4efeab7a0": {
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+      "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-10T17:26:15.801979+01:00",
+      "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa",
+      "headline": "Today’s SMB cyber lookout: edge devices and print servers under pressure (ransomware risk)",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and edge-security compromise leading to ransomware and account takeover",
+      "published_at": "2026-09-10T17:26:15.801979+01:00",
+      "published_label": "Thursday 10 September 2026, 17:26 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+        "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+        "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+        "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+        "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+        "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/"
+      ]
+    },
     {
       "slug": "2026-09-10-1313-actively-exploited-firewall-appliance-attacks-supplier-email-breach-phishing",
       "headline": "Actively exploited firewall/appliance attacks + supplier email breach phishing",
@@ -9291,21 +9314,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
         "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog"
-      ]
-    },
-    {
-      "slug": "2026-06-12-1638-breach-driven-phishing-supply-chain-warning-signs-and-ai-tool-risks-to-watch-tod",
-      "headline": "Breach-driven phishing, supply-chain warning signs, and AI tool risks to watch today",
-      "risk_level": "Moderate",
-      "todays_lookout": "Breach follow‑on scams and supplier/supply‑chain risk (plus AI agent data leakage traps)",
-      "published_at": "2026-06-12T16:38:36.632732+01:00",
-      "published_label": "Friday 12 June 2026, 16:38 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
-        "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
-        "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-        "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/"
       ]
     }
   ]

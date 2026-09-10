@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: edge devices and print servers under pressure (ransomware risk) | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: edge devices and print servers under pressure (ransomware risk)</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 10 September 2026, 17:26 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier and edge-security compromise leading to ransomware and account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is attackers targeting the “edges” of business networks (firewalls/VPNs) and common admin platforms (print management), plus increased risk from browser/Windows exploit chains. These are the sorts of entry points that can quickly turn into ransomware and full business disruption.</p>
+<ul>
+  <li>Security management and firewall platforms being used as initial access points.</li>
+  <li>VPN certificate handling issues in firewall products (risk of remote takeover under certain conditions).</li>
+  <li>Print management servers being targeted at scale.</li>
+  <li>Windows/Chrome exploit chains used by espionage groups (often shows up as “weird device behaviour” rather than obvious phishing).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on outsourced IT and “always-on” perimeter appliances (firewalls/VPNs) and central services (printing, identity checks, healthcare connectors). If one of these is compromised, attackers can bypass email security and MFA on user accounts and go straight for admin control, leading to:</p>
+<ul>
+  <li><strong>Ransomware downtime</strong> (files, servers, and sometimes backups impacted).</li>
+  <li><strong>Credential theft</strong> and lateral movement into Microsoft 365/Google Workspace and finance systems.</li>
+  <li><strong>Supply-chain ripple effects</strong> where a third-party provider breach fuels targeted scams against your staff and customers.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Firewall/VPN or security management consoles showing <strong>unexpected new admin users</strong>, policy changes, or configuration exports.</li>
+  <li><strong>Unplanned reboots</strong>, sudden high CPU, or “maintenance windows” nobody booked on network/security appliances.</li>
+  <li>Printing disruption: print queues stuck, print server performance issues, or <strong>new/unknown printer deployments</strong>.</li>
+  <li>Endpoint hints: multiple staff reporting <strong>browser crashes</strong>, odd authentication prompts, or security tools being disabled.</li>
+  <li>Increased <strong>“we need to change bank details”</strong> or “new payment instructions” emails after breach news involving identity/verification providers.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Direct internet scanning</strong> for exposed firewall management/VPN/remote access portals, then leveraging weaknesses to gain admin control.</li>
+  <li><strong>Abusing trusted infrastructure</strong> (print servers and management tooling) to move laterally inside the network.</li>
+  <li><strong>Follow-on ransomware</strong> once privileged access is obtained, often after quiet reconnaissance.</li>
+  <li><strong>Social engineering fuel</strong>: major breach reports can be used to make targeted phishing and payment diversion more believable (“we’re re-verifying your identity”, “new compliance checks”, “invoice re-issued”).</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm what you have exposed to the internet</strong>: firewall/VPN portals, firewall management consoles, remote admin interfaces, and print management servers.</li>
+  <li><strong>Request an ‘edge device’ health check</strong> from IT: review admin accounts, recent configuration changes, and logs for unusual access.</li>
+  <li><strong>Reinforce payment-change controls</strong> today: no bank detail changes without a known-good callback to a trusted number.</li>
+  <li><strong>Make sure backups are usable</strong>: verify you can restore at least one key system (file share/accounting) and that backup access is separated from day-to-day admin accounts.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our <strong>firewall/VPN/management</strong> services are internet-exposed, and are they protected with MFA and tight admin access controls?</li>
+  <li>Have you checked for <strong>unexpected configuration changes</strong> or new admin accounts on our perimeter/security appliances in the last 7 days?</li>
+  <li>Do we have <strong>central logging/alerting</strong> for firewall/VPN admin actions, and who reviews the alerts?</li>
+  <li>Are any of our <strong>print management</strong> services exposed or reachable from untrusted networks, and what monitoring do we have?</li>
+  <li>If ransomware hits, what is our <strong>realistic restore time</strong> for key systems (email, files, finance)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Several vendors are reporting critical or actively exploited issues in security/remote access and management tooling (including firewall management and VPN-related components) and print server software. Treat perimeter and admin platforms as priority items for your IT provider to review urgently, because these are common ransomware entry points.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for written confirmation of which firewall/VPN/management portals and print management servers are internet-exposed, and what monitoring plus access controls (MFA, admin restrictions, logging) are in place.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Payment Change (Bank Details) Verification Checklist’ for finance teams and reception/admin staff.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/" rel="noopener noreferrer">Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html" rel="noopener noreferrer">Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/" rel="noopener noreferrer">AI-powered attack exploited PaperCut flaws to hack 395 organizations</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/" rel="noopener noreferrer">New &#x27;BlueMoon&#x27; kit exploited Windows and Chrome zero-day flaws</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html" rel="noopener noreferrer">Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/" rel="noopener noreferrer">IDScan confirms breach tied to 153 million stolen driver’s licenses</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
