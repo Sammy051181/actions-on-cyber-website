@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "a36831d1aab4c213": {
-      "url": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-      "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-12T19:19:46.476780+01:00",
-      "brief_slug": "2026-06-12-1919-smb-cyber-briefing-fri-12-june-2026-software-supply-chain-risk-arch-linux-aur-ac"
-    },
-    "2c71754a0390c79b": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Alerts",
-      "seen_at": "2026-06-12T19:19:46.476780+01:00",
-      "brief_slug": "2026-06-12-1919-smb-cyber-briefing-fri-12-june-2026-software-supply-chain-risk-arch-linux-aur-ac"
-    },
-    "856c09d61358610a": {
-      "url": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T11:07:44.307071+01:00",
-      "brief_slug": "2026-06-13-1107-smb-cyber-intelligence-brief-software-supply-chain-risk-smishing-surge-and-fake-"
-    },
-    "8f8a91d1631a1602": {
-      "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T11:07:44.307071+01:00",
-      "brief_slug": "2026-06-13-1107-smb-cyber-intelligence-brief-software-supply-chain-risk-smishing-surge-and-fake-"
-    },
-    "18edde89fbbb925a": {
-      "url": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-      "title": "Maine disables data breach notification portal after fake disclosures",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T11:07:44.307071+01:00",
-      "brief_slug": "2026-06-13-1107-smb-cyber-intelligence-brief-software-supply-chain-risk-smishing-surge-and-fake-"
-    },
-    "7407a5b5da59913b": {
-      "url": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
-      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T11:07:44.307071+01:00",
-      "brief_slug": "2026-06-13-1107-smb-cyber-intelligence-brief-software-supply-chain-risk-smishing-surge-and-fake-"
-    },
     "4cbfecd7aeebcf0a": {
       "url": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
       "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -6075,9 +6033,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-10T17:26:15.801979+01:00",
       "brief_slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa"
+    },
+    "42df196f2b731e5c": {
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "788925358fae7cd2": {
+      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "af3b87dfbf9c1260": {
+      "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "b8fb164281cc000e": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+      "title": "New Android malware encrypts files, steals data, and harasses victims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "4cb585b593c9dde3": {
+      "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "1b1eebcbc6b8a9f4": {
+      "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-11T13:11:47.150330+01:00",
+      "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew",
+      "headline": "SMB Cyber Brief: supplier-triggered phishing + actively exploited admin tools (firewall/printing)",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and actively exploited business admin platforms",
+      "published_at": "2026-09-11T13:11:47.150330+01:00",
+      "published_label": "Friday 11 September 2026, 13:11 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+        "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+        "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+        "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+        "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+        "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/"
+      ]
+    },
     {
       "slug": "2026-09-10-1726-today-s-smb-cyber-lookout-edge-devices-and-print-servers-under-pressure-ransomwa",
       "headline": "Today’s SMB cyber lookout: edge devices and print servers under pressure (ransomware risk)",
@@ -9288,32 +9304,6 @@
         "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
         "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
         "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html"
-      ]
-    },
-    {
-      "slug": "2026-06-13-1107-smb-cyber-intelligence-brief-software-supply-chain-risk-smishing-surge-and-fake-",
-      "headline": "SMB Cyber Intelligence Brief: software supply‑chain risk, smishing surge, and fake breach notices",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & software supply‑chain compromise + smishing/phishing themes",
-      "published_at": "2026-06-13T11:07:44.307071+01:00",
-      "published_label": "Saturday 13 June 2026, 11:07 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-        "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-        "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-        "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/"
-      ]
-    },
-    {
-      "slug": "2026-06-12-1919-smb-cyber-briefing-fri-12-june-2026-software-supply-chain-risk-arch-linux-aur-ac",
-      "headline": "SMB Cyber Briefing (Fri 12 June 2026): Software supply-chain risk (Arch Linux AUR) + actively exploited PeopleSoft issue",
-      "risk_level": "High",
-      "todays_lookout": "Software supply-chain compromise and credential theft (developer/IT tooling) + HR/payroll platform risk via PeopleSoft",
-      "published_at": "2026-06-12T19:19:46.476780+01:00",
-      "published_label": "Friday 12 June 2026, 19:19 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-        "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog"
       ]
     }
   ]
