@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "4cbfecd7aeebcf0a": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
-      "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "27dc7af05e05b72c": {
-      "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-      "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "6e0d58baa52ce5ae": {
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-      "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "5dff8089bf35a8b2": {
-      "url": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "5613fab1f40094b8": {
-      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-      "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "9e0f80cd4c510169": {
-      "url": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-      "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "5c095d0195a69044": {
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "c6421974debbd5c3": {
-      "url": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "title": "Japanese energy firm loses drive with data of 10.9 million clients",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
-    "c11d806ac43754f7": {
-      "url": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-13T15:25:01.698885+01:00",
-      "brief_slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach"
-    },
     "80cdc99fe3cd1db0": {
       "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
       "title": "Ex-school district employee jailed for hacks on former employer",
@@ -6075,9 +6012,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-11T13:11:47.150330+01:00",
       "brief_slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew"
+    },
+    "4cfe001916713209": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-11T17:28:21.751398+01:00",
+      "brief_slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de"
+    },
+    "0f8accb03f1064f0": {
+      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T17:28:21.751398+01:00",
+      "brief_slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de"
+    },
+    "dae251a2004b33d7": {
+      "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T17:28:21.751398+01:00",
+      "brief_slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de"
+    },
+    "6d77d0f66755e664": {
+      "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-11T17:28:21.751398+01:00",
+      "brief_slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de",
+      "headline": "Today’s SMB lookout: trusted AI tools being used as a new phishing and malware delivery route",
+      "risk_level": "Moderate",
+      "todays_lookout": "AI platform abuse, phishing lures and identity compromise",
+      "published_at": "2026-09-11T17:28:21.751398+01:00",
+      "published_label": "Friday 11 September 2026, 17:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+        "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+        "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+        "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html"
+      ]
+    },
     {
       "slug": "2026-09-11-1311-smb-cyber-brief-supplier-triggered-phishing-actively-exploited-admin-tools-firew",
       "headline": "SMB Cyber Brief: supplier-triggered phishing + actively exploited admin tools (firewall/printing)",
@@ -9285,25 +9264,6 @@
       "published_label": "Sunday 14 June 2026, 11:31 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/"
-      ]
-    },
-    {
-      "slug": "2026-06-13-1525-saturday-brief-ai-supplier-access-disruption-identity-stack-targeting-and-breach",
-      "headline": "Saturday brief: AI supplier access disruption, identity-stack targeting, and breach-driven phishing",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS disruption + identity and access abuse + breach-driven phishing",
-      "published_at": "2026-06-13T15:25:01.698885+01:00",
-      "published_label": "Saturday 13 June 2026, 15:25 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
-        "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-        "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-        "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-        "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-        "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-        "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-        "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-        "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html"
       ]
     }
   ]
