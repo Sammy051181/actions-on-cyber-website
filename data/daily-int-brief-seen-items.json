@@ -6047,9 +6047,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-12T12:36:09.398114+01:00",
       "brief_slug": "2026-09-12-1236-today-s-sme-cyber-look-out-passkey-sso-phishing-targeting-microsoft-365-accounts"
+    },
+    "a16d62911725a1cb": {
+      "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "title": "Florida confirms DMV database breached via stolen police account",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-12T16:30:36.337548+01:00",
+      "brief_slug": "2026-09-12-1630-weekend-smb-cyber-brief-breach-driven-scams-software-supply-chain-risk-and-vpn-e"
+    },
+    "f05890c0a6ffeeaa": {
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-12T16:30:36.337548+01:00",
+      "brief_slug": "2026-09-12-1630-weekend-smb-cyber-brief-breach-driven-scams-software-supply-chain-risk-and-vpn-e"
+    },
+    "59b3d76728f85f89": {
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-12T16:30:36.337548+01:00",
+      "brief_slug": "2026-09-12-1630-weekend-smb-cyber-brief-breach-driven-scams-software-supply-chain-risk-and-vpn-e"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-12-1630-weekend-smb-cyber-brief-breach-driven-scams-software-supply-chain-risk-and-vpn-e",
+      "headline": "Weekend SMB Cyber Brief: breach-driven scams, software supply-chain risk, and VPN exploitation warnings",
+      "risk_level": "High",
+      "todays_lookout": "Breach-driven impersonation scams + supplier/VPN compromise risk",
+      "published_at": "2026-09-12T16:30:36.337548+01:00",
+      "published_label": "Saturday 12 September 2026, 16:30 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+        "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/"
+      ]
+    },
     {
       "slug": "2026-09-12-1236-today-s-sme-cyber-look-out-passkey-sso-phishing-targeting-microsoft-365-accounts",
       "headline": "Today’s SME cyber look‑out: “Passkey/SSO” phishing targeting Microsoft 365 accounts",
