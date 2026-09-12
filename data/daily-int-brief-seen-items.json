@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "80cdc99fe3cd1db0": {
-      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-14T11:31:57.915728+01:00",
-      "brief_slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks"
-    },
     "9ee1b9425bfb90ab": {
       "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
       "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
@@ -6040,9 +6033,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-11T17:28:21.751398+01:00",
       "brief_slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de"
+    },
+    "82dfd2b2ae389af2": {
+      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-12T12:36:09.398114+01:00",
+      "brief_slug": "2026-09-12-1236-today-s-sme-cyber-look-out-passkey-sso-phishing-targeting-microsoft-365-accounts"
+    },
+    "a9e03aba59c7b794": {
+      "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-12T12:36:09.398114+01:00",
+      "brief_slug": "2026-09-12-1236-today-s-sme-cyber-look-out-passkey-sso-phishing-targeting-microsoft-365-accounts"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-12-1236-today-s-sme-cyber-look-out-passkey-sso-phishing-targeting-microsoft-365-accounts",
+      "headline": "Today’s SME cyber look‑out: “Passkey/SSO” phishing targeting Microsoft 365 accounts",
+      "risk_level": "High",
+      "todays_lookout": "Microsoft 365 login scams and data theft (passkey/SSO themed)",
+      "published_at": "2026-09-12T12:36:09.398114+01:00",
+      "published_label": "Saturday 12 September 2026, 12:36 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+        "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/"
+      ]
+    },
     {
       "slug": "2026-09-11-1728-today-s-smb-lookout-trusted-ai-tools-being-used-as-a-new-phishing-and-malware-de",
       "headline": "Today’s SMB lookout: trusted AI tools being used as a new phishing and malware delivery route",
@@ -9253,17 +9272,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
         "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
-      ]
-    },
-    {
-      "slug": "2026-06-14-1131-today-s-smb-cyber-lookout-ex-employee-access-insider-sabotage-risks",
-      "headline": "Today’s SMB cyber lookout: ex‑employee access & insider sabotage risks",
-      "risk_level": "Moderate",
-      "todays_lookout": "Insider risk and ex‑employee access clean-up",
-      "published_at": "2026-06-14T11:31:57.915728+01:00",
-      "published_label": "Sunday 14 June 2026, 11:31 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/"
       ]
     }
   ]
