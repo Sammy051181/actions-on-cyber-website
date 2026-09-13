@@ -6089,9 +6089,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-12T19:22:00.508569+01:00",
       "brief_slug": "2026-09-12-1922-today-s-smb-cyber-lookout-actively-exploited-supplier-tools-remote-desktop-disru"
+    },
+    "fa59062d0b2fe8ab": {
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-13T13:43:05.756538+01:00",
+      "brief_slug": "2026-09-13-1343-today-s-smb-cyber-lookout-passkey-themed-phishing-targeting-microsoft-cloud-acco"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-13-1343-today-s-smb-cyber-lookout-passkey-themed-phishing-targeting-microsoft-cloud-acco",
+      "headline": "Today’s SMB cyber lookout: passkey-themed phishing targeting Microsoft cloud accounts",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover + CEO/finance impersonation scams",
+      "published_at": "2026-09-13T13:43:05.756538+01:00",
+      "published_label": "Sunday 13 September 2026, 13:43 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+      ]
+    },
     {
       "slug": "2026-09-12-1922-today-s-smb-cyber-lookout-actively-exploited-supplier-tools-remote-desktop-disru",
       "headline": "Today’s SMB cyber lookout: actively exploited supplier tools + Remote Desktop disruption risk",
