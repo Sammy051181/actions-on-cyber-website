@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "1e3eb30b35ffc026": {
-      "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
-      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-16T20:50:40.345430+01:00",
-      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
-    },
-    "f9af2533fdd68015": {
-      "url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-16T20:50:40.345430+01:00",
-      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
-    },
-    "d2526765604205aa": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-16T20:50:40.345430+01:00",
-      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
-    },
-    "a3798f6d4c51700e": {
-      "url": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-16T20:50:40.345430+01:00",
-      "brief_slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting"
-    },
     "84f2a605f62c84e3": {
       "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
@@ -6040,9 +6012,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-14T15:01:44.097165+01:00",
       "brief_slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a"
+    },
+    "5aa4d6dc4864a889": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
+    },
+    "6aad7771fb494b1d": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
+    },
+    "0c060fb984f7c691": {
+      "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
+    },
+    "69430c4b5fd5fb96": {
+      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
+    },
+    "31d7ea4cc106507d": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
+    },
+    "09d1dd4eafdffbfc": {
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-14T21:18:09.527640+01:00",
+      "brief_slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-14-2118-today-s-smb-cyber-lookout-cloud-secret-theft-hijacked-trusted-accounts-pushing-m",
+      "headline": "Today’s SMB cyber lookout: cloud secret theft, hijacked trusted accounts pushing malware, and risky browser extensions",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft & malware via trusted tools (cloud/dev servers, browser extensions, social ads)",
+      "published_at": "2026-09-14T21:18:09.527640+01:00",
+      "published_label": "Monday 14 September 2026, 21:18 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+        "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+        "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+        "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
+      ]
+    },
     {
       "slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a",
       "headline": "SMB Cyber Intelligence Brief: OAuth consent scams, Revolut breach ripple effects, and Windows Server RDS disruption",
@@ -9260,20 +9290,6 @@
         "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
         "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
         "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/"
-      ]
-    },
-    {
-      "slug": "2026-06-16-2050-smb-cyber-intelligence-brief-fake-updates-mobile-banking-trojans-and-web-hosting",
-      "headline": "SMB Cyber Intelligence Brief — Fake updates, mobile banking trojans, and web hosting risk",
-      "risk_level": "High",
-      "todays_lookout": "Fake update lures and supplier-hosted website compromise",
-      "published_at": "2026-06-16T20:50:40.345430+01:00",
-      "published_label": "Tuesday 16 June 2026, 20:50 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
-        "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-        "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/"
       ]
     }
   ]
