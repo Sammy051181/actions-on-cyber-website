@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "c87e9ab186a4fe66": {
-      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-15T20:55:45.839188+01:00",
-      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
-    },
-    "e1ab599cbd463057": {
-      "url": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-      "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-15T20:55:45.839188+01:00",
-      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
-    },
-    "a4b5c0c199963027": {
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-      "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-15T20:55:45.839188+01:00",
-      "brief_slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl"
-    },
-    "954607137e04da1b": {
-      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-16T13:22:33.750388+01:00",
-      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
-    },
-    "b52d1f7b185037b1": {
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-16T13:22:33.750388+01:00",
-      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
-    },
-    "72391304030e2531": {
-      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-16T13:22:33.750388+01:00",
-      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
-    },
-    "431c581708beb39d": {
-      "url": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-      "title": "Council of Europe investigates ShinyHunters data breach claims",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-16T13:22:33.750388+01:00",
-      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
-    },
-    "972bfd5a8ea18b57": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
-      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-16T13:22:33.750388+01:00",
-      "brief_slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy"
-    },
     "1e3eb30b35ffc026": {
       "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
       "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
@@ -6075,9 +6019,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-13T19:46:45.463766+01:00",
       "brief_slug": "2026-09-13-1946-sunday-brief-watch-for-malware-via-popular-windows-apps-and-ai-driven-secret-the"
+    },
+    "0952b915a227a263": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T15:01:44.097165+01:00",
+      "brief_slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a"
+    },
+    "9c68dabef82ce017": {
+      "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "title": "Revolut discloses data breach exposing financial info, passports",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T15:01:44.097165+01:00",
+      "brief_slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a"
+    },
+    "d736f387a99b1e2c": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+      "title": "Microsoft: September updates cause RDS failures on Windows Server",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-14T15:01:44.097165+01:00",
+      "brief_slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-14-1501-smb-cyber-intelligence-brief-oauth-consent-scams-revolut-breach-ripple-effects-a",
+      "headline": "SMB Cyber Intelligence Brief: OAuth consent scams, Revolut breach ripple effects, and Windows Server RDS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover via OAuth consent + supplier impersonation + remote access disruption",
+      "published_at": "2026-09-14T15:01:44.097165+01:00",
+      "published_label": "Monday 14 September 2026, 15:01 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+        "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/"
+      ]
+    },
     {
       "slug": "2026-09-13-1946-sunday-brief-watch-for-malware-via-popular-windows-apps-and-ai-driven-secret-the",
       "headline": "Sunday brief: watch for malware via popular Windows apps, and AI-driven secret theft",
@@ -9296,34 +9274,6 @@
         "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
         "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/"
-      ]
-    },
-    {
-      "slug": "2026-06-16-1322-smb-cyber-intelligence-brief-microsoft-account-teams-themed-threats-and-stealthy",
-      "headline": "SMB Cyber Intelligence Brief: Microsoft account/Teams-themed threats and stealthy cloud email rule abuse",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft 365/Teams impersonation and cloud email rule abuse (plus security appliance exploitation)",
-      "published_at": "2026-06-16T13:22:33.750388+01:00",
-      "published_label": "Tuesday 16 June 2026, 13:22 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-        "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-        "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-        "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-        "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-06-15-2055-today-s-smb-cyber-lookout-microsoft-365-copilot-link-risk-wordpress-plugin-suppl",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 Copilot link risk, WordPress plugin supply-chain compromise, and courier-based crypto scams",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS risk and convincing “trusted link” phishing",
-      "published_at": "2026-06-15T20:55:45.839188+01:00",
-      "published_label": "Monday 15 June 2026, 20:55 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-        "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-        "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/"
       ]
     }
   ]

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: OAuth consent scams, Revolut breach ripple effects, and Windows Server RDS disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: OAuth consent scams, Revolut breach ripple effects, and Windows Server RDS disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 14 September 2026, 15:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover via OAuth consent + supplier impersonation + remote access disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Google Workspace / Microsoft 365-style ‘app permission’ consents:</strong> staff being pushed to “connect” an app or approve access that quietly grants mailbox/drive access via OAuth.</li>
+  <li><strong>Revolut breach ripple effects:</strong> an increase in convincing calls/emails pretending to be Revolut, “government”, compliance, or fraud teams asking for urgent verification, document re-send, or payment actions.</li>
+  <li><strong>Remote access disruption risk:</strong> Microsoft has confirmed September updates can cause <strong>Remote Desktop Services (RDS) failures on Windows Server</strong>—watch for sudden inability to connect to line-of-business systems or hosted desktops.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs rely heavily on cloud identity and a small number of key suppliers (banks/fintech, payroll, email, and remote access). If an attacker gets a user to approve a malicious app, they can access data and email flows without “breaking” the password in the usual way. Separately, widely reported supplier incidents often trigger follow-on scams that target finance and admin teams. And if RDS fails after updates, it can halt remote working and access to core systems.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected prompts to <strong>“Grant access”</strong>, <strong>“Approve permissions”</strong>, or <strong>“Sign in with Google”</strong> for a new app you don’t recognise.</li>
+  <li>Apps requesting broad access such as: read mail, send mail, manage files, offline access, or access to all users’ data.</li>
+  <li>Emails/calls claiming to be from Revolut (or a regulator/government agency) using urgency: “account will be frozen”, “fraud detected”, “you must verify now”.</li>
+  <li>Requests to re-send passports/ID, share one-time codes, install “support” tools, or approve a new payee/payment.</li>
+  <li>After routine Windows updates: multiple users suddenly can’t RDP in, sessions drop, or the remote desktop environment becomes unavailable.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>OAuth app abuse:</strong> attackers persuade a user to authorise a malicious (or lookalike) app. Once approved, the attacker may gain ongoing access to email/files and use that access to intercept invoices, reset passwords elsewhere, or run internal phishing from a trusted account.</li>
+  <li><strong>Impersonation and “breach follow-up” scams:</strong> criminals piggyback on a real news event (e.g., a fintech breach) to make their story believable, then pressure staff into transferring money, changing bank details, or disclosing identity documents and verification codes.</li>
+  <li><strong>Disruption-as-opportunity:</strong> if remote access is unstable, staff may be more likely to accept “helpdesk” calls, click unsolicited “fix” links, or move work to unapproved channels—creating openings for fraud and data leakage.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note:</strong> “Do not approve new app permissions unless you requested it and IT has confirmed it.” Include screenshots of what “app consent” prompts look like in your environment if you can.</li>
+  <li><strong>Finance control:</strong> re-emphasise call-back verification for any payment change or urgent transfer—use known numbers from your address book, not numbers in an email.</li>
+  <li><strong>Revolut users:</strong> remind staff that genuine providers won’t ask for one-time passcodes, remote access installs, or pressure for immediate action. Route anything suspicious to a single internal mailbox/ticket queue.</li>
+  <li><strong>Prepare for RDS issues:</strong> if you run Windows Server RDS, confirm you have an alternative access method and an internal comms plan if remote logins fail (who to contact, what to do, expected timelines).</li>
+  <li><strong>Review app access quickly:</strong> check recently approved third-party apps and remove anything not required for business.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we <strong>restrict user consent</strong> to third-party OAuth apps (or require admin approval) for our cloud accounts?</li>
+  <li>Do we have <strong>alerting</strong> for new OAuth app grants, risky sign-ins, and unusual mailbox rules/forwarding?</li>
+  <li>What is our process to <strong>remove a malicious app</strong> quickly and invalidate tokens if someone clicks “Allow”?</li>
+  <li>Are we seeing any abnormal login patterns or email forwarding changes in the last 7 days?</li>
+  <li>If we use Windows Server RDS: are we affected by the reported <strong>September update RDS failures</strong>, and what’s our rollback/mitigation plan if remote access breaks?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has confirmed some September 2026 updates can cause <strong>Remote Desktop Services (RDS) failures on Windows Server</strong>. If your business relies on RDS, treat today as a change-management day: verify status with your IT provider, monitor helpdesk tickets closely, and ensure you can keep operations running if remote access becomes unstable.</p>
+
+        <h2>One action today</h2>
+        <p>Message all staff today: “If you see an ‘app wants access to your account’ prompt, do not click Allow—forward it to IT.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist CTA: “Anti-phishing quick drill for finance &amp; admin teams (payment change and supplier verification)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/" rel="noopener noreferrer">Webinar: How malicious OAuth apps can lead to Google Workspace breaches</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/" rel="noopener noreferrer">Revolut discloses data breach exposing financial info, passports</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/" rel="noopener noreferrer">Microsoft: September updates cause RDS failures on Windows Server</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
