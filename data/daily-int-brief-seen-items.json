@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "46079806e3c81668": {
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-17T17:03:32.786638+01:00",
-      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
-    },
-    "468752dd089ebef1": {
-      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-17T17:03:32.786638+01:00",
-      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
-    },
-    "cb8465fdf63cc548": {
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
-      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-17T17:03:32.786638+01:00",
-      "brief_slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ"
-    },
-    "538b5a7de057dcb5": {
-      "url": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-17T19:33:33.071380+01:00",
-      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
-    },
-    "b278cce1cb7979d2": {
-      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-17T19:33:33.071380+01:00",
-      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
-    },
-    "9239b85dd3385a36": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-      "title": "Microsoft confirms Office apps launch issues after June updates",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-17T19:33:33.071380+01:00",
-      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
-    },
-    "32507156c27982b1": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-17T19:33:33.071380+01:00",
-      "brief_slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso"
-    },
     "f8eb1060791f8ee3": {
       "url": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
@@ -6054,9 +6005,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-15T13:40:05.097219+01:00",
       "brief_slug": "2026-09-15-1340-today-s-sme-cyber-lookout-phishing-led-compromise-ransomware-targeting-core-it-p"
+    },
+    "e6910dbe4779350d": {
+      "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
+    },
+    "07143bd4083727d0": {
+      "url": "https://www.cisa.gov/news-events/news/cisa-and-nist-release-guidelines-protect-federal-cloud-identity-systems-token-theft-forgery-and",
+      "title": "CISA and NIST Release Guidelines to Protect Federal Cloud Identity Systems from Token Theft, Forgery, and Misuse",
+      "source": "CISA News",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
+    },
+    "47928560744e1606": {
+      "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+      "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
+    },
+    "2e4ea22accc39550": {
+      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
+    },
+    "41594bea7c5a5865": {
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
+    },
+    "8cca7e0997a098a7": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+      "title": "CareCam CM2507",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-15T20:41:41.534118+01:00",
+      "brief_slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-15-2041-smb-cyber-intelligence-brief-token-theft-banking-malware-and-remote-management-t",
+      "headline": "SMB Cyber Intelligence Brief — Token theft, banking malware and remote management tool misuse",
+      "risk_level": "High",
+      "todays_lookout": "Credential + session token theft (SSO/browser), and abuse of remote management tools",
+      "published_at": "2026-09-15T20:41:41.534118+01:00",
+      "published_label": "Tuesday 15 September 2026, 20:41 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+        "https://www.cisa.gov/news-events/news/cisa-and-nist-release-guidelines-protect-federal-cloud-identity-systems-token-theft-forgery-and",
+        "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+        "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08"
+      ]
+    },
     {
       "slug": "2026-09-15-1340-today-s-sme-cyber-lookout-phishing-led-compromise-ransomware-targeting-core-it-p",
       "headline": "Today’s SME cyber lookout: phishing-led compromise + ransomware targeting core IT platforms",
@@ -9263,33 +9272,6 @@
         "https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development",
         "https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks",
         "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html"
-      ]
-    },
-    {
-      "slug": "2026-06-17-1933-smb-cyber-brief-watch-for-legitimate-remote-access-recruitment-lures-and-microso",
-      "headline": "SMB Cyber Brief: watch for “legitimate” remote access, recruitment lures, and Microsoft disruption",
-      "risk_level": "High",
-      "todays_lookout": "Persistence via legitimate remote tools + phishing themes + Microsoft ecosystem disruption",
-      "published_at": "2026-06-17T19:33:33.071380+01:00",
-      "published_label": "Wednesday 17 June 2026, 19:33 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-        "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/"
-      ]
-    },
-    {
-      "slug": "2026-06-17-1703-fortinet-vpn-credential-leak-assume-attackers-will-test-logins-and-target-financ",
-      "headline": "Fortinet VPN credential leak: assume attackers will test logins and target finance teams",
-      "risk_level": "High",
-      "todays_lookout": "Stolen VPN credentials and follow-on account takeover / ransomware attempts",
-      "published_at": "2026-06-17T17:03:32.786638+01:00",
-      "published_label": "Wednesday 17 June 2026, 17:03 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-        "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-        "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/"
       ]
     }
   ]
