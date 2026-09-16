@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: WordPress plugin supply-chain risk + hosting backup plugin exploitation | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: WordPress plugin supply-chain risk + hosting backup plugin exploitation</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 16 September 2026, 13:36 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Website/plugin supply-chain and hosting control panel compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>WordPress premium plugin risk:</strong> malicious plugin updates and plugin flaws being used to plant backdoors and hidden admin users.</li>
+  <li><strong>Hosting control panel/backup risk:</strong> warnings about exploitation activity involving an Acronis backup plugin used with cPanel/WHM/Plesk.</li>
+  <li><strong>Knock-on risk:</strong> once a website is compromised, attackers often pivot to steal stored credentials, change payment details on invoices, or use the site to send convincing phishing.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Many SMEs rely on WordPress and third-party plugins for sales, enquiries and reputation. A single compromised plugin update or exploited add-on can create hidden admin access, redirect customers, or inject malicious content. If your website is hosted by a third party (or managed by an agency/MSP), you may not see early warning signs unless you ask the right questions.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>New WordPress admin users you don’t recognise, or existing admin accounts having their email address changed.</li>
+  <li>Unexpected plugin updates, licence “re-activation” prompts, or plugin files changing outside normal maintenance windows.</li>
+  <li>Website behaviour changes: new redirects, strange pop-ups, altered contact forms, or emails from your site being flagged as spam.</li>
+  <li>Unexplained spikes in server load, unusual outbound traffic, or your host reporting suspicious activity.</li>
+  <li>Customers reporting they were sent to unusual pages or asked to re-enter card details.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain via plugin updates:</strong> attackers compromise a vendor/maintainer site and push a “legitimate” update that quietly creates access (e.g., hidden user accounts).</li>
+  <li><strong>Exploitation of a plugin flaw:</strong> attackers target exposed sites at scale to upload server-side backdoors, then return later to monetise access.</li>
+  <li><strong>Hosting ecosystem leverage:</strong> if a backup/control-panel plugin is exploited, attackers may gain elevated access on the server and impact multiple sites or services.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm who manages updates:</strong> identify whether your internal team, MSP, web agency, or host controls WordPress/plugin updates and server plugins.</li>
+  <li><strong>Check WordPress admins now:</strong> review the list of administrator accounts, recent user changes, and any newly installed/updated plugins you don’t expect.</li>
+  <li><strong>Verify website integrity:</strong> spot-check key pages (homepage, checkout/lead forms, contact page) for unexpected redirects or content changes.</li>
+  <li><strong>Lock down access:</strong> ensure MFA is enabled for WordPress admin, hosting panels, and the email accounts tied to admin/password resets.</li>
+  <li><strong>Prepare a quick response:</strong> know who to call to take the site offline, restore from backup, and notify customers if needed.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we using any affected WordPress premium plugins, and do we have an inventory of all plugins (including “must-use” or agency-installed ones)?</li>
+  <li>How are plugin updates validated before deployment (especially premium plugins installed outside the WordPress directory)?</li>
+  <li>Do we have monitoring/alerts for new WordPress admin accounts, file changes, and suspicious outbound connections?</li>
+  <li>Are any of our servers using Acronis backup tooling integrated with cPanel/WHM/Plesk, and what mitigations or monitoring are in place?</li>
+  <li>If the site is compromised, what is the agreed restoration process (RTO/RPO), and how do we verify backups are clean?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Website compromises in today’s themes often start with plugin updates or exploited add-ons. Treat WordPress and hosting-panel plugin updates as a business-critical change: apply vendor guidance promptly, but also validate updates (especially premium plugins) and review admin accounts and file changes immediately after maintenance.</p>
+
+        <h2>One action today</h2>
+        <p>Review your WordPress administrator accounts and plugin update history today, and immediately investigate any unexpected admin user or plugin update.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Website compromise quick-response checklist (WordPress/hosted site) – roles, first checks, containment and restore steps</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/" rel="noopener noreferrer">Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html" rel="noopener noreferrer">Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/" rel="noopener noreferrer">Acronis warns of actively exploited flaw in its cPanel backup plugin</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html" rel="noopener noreferrer">WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
