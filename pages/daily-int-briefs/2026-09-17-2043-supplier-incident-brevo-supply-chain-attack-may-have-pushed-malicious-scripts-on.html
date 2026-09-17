@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Supplier incident: Brevo supply-chain attack may have pushed malicious scripts onto customer sites | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Supplier incident: Brevo supply-chain attack may have pushed malicious scripts onto customer sites</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 17 September 2026, 20:43 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams and website script tampering (third‑party JavaScript risk)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>A reported supply-chain incident at Brevo (email/SMS marketing platform) involved attackers stealing a Cloudflare API key and using it to inject malicious “ClickFix” scripts into Brevo websites and JavaScript files that can be embedded on customer sites. If your organisation uses Brevo tags/scripts on your website, treat this as a priority check today.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Your website can become the delivery mechanism</strong>: if a third-party script you embed is altered, visitors (including customers and staff) can be exposed without you changing anything.</li>
+  <li><strong>Brand and trust impact</strong>: customers associate the problem with <em>your</em> site, even if the root cause is a supplier.</li>
+  <li><strong>Follow-on scams</strong>: incidents like this are often used to launch convincing “Brevo security update” emails, fake login pages, or “urgent domain verification” requests to finance/marketing teams.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unusual pop-ups or “verification/fix” prompts appearing on your website (especially after submitting a form or opening a marketing sign-up modal).</li>
+  <li>Customers reporting being redirected, seeing strange instructions, or being asked to run steps to “confirm you’re human”.</li>
+  <li>Marketing staff receiving unexpected Brevo-related emails asking to re-authenticate, reconnect domains, add DNS records, or download “security tools”.</li>
+  <li>Sudden changes in website behaviour or performance shortly after marketing tags load.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Malware distribution via trusted pages</strong>: attackers rely on visitors trusting your legitimate website.</li>
+  <li><strong>Credential harvesting</strong>: spoofed “re-login” flows for Brevo or related accounts (email, DNS, website admin, payment platforms) aimed at taking over marketing and admin access.</li>
+  <li><strong>Secondary compromise</strong>: once an attacker gets access to a marketing platform, they can send convincing phishing from your domain to your contacts.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm whether you use Brevo scripts</strong> on your public website(s) (including landing pages run by agencies, microsites, and donation/event pages).</li>
+  <li><strong>Temporarily remove or disable non-essential third-party tags</strong> (especially marketing/analytics widgets) until your web team confirms they’re clean and necessary.</li>
+  <li><strong>Warn staff</strong> (marketing, comms, reception, IT, finance): be cautious of Brevo-themed emails/DMs asking for logins, DNS changes, “urgent verification”, or downloads.</li>
+  <li><strong>Review account security</strong> for Brevo and your web/DNS/CDN providers: ensure MFA is enabled and remove stale users/access tokens where possible.</li>
+  <li><strong>If you suspect impact</strong>: take a screenshot, note the time/URL, and ask your web support/MSP to investigate quickly before more visitors are exposed.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you confirm whether our sites embed Brevo JavaScript (directly or via Google Tag Manager/another tag manager)?</li>
+  <li>What monitoring do we have for <strong>unexpected third-party script changes</strong> on our website, and can we add it?</li>
+  <li>Do we have a quick process to <strong>disable third-party tags</strong> safely (and roll back) if a supplier is compromised?</li>
+  <li>Can you help us check for <strong>lookalike Brevo phishing</strong> in our mail filtering/quarantine and share guidance with staff?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Nothing specific to patch from today’s main item. The priority is supplier risk management: checking embedded third-party scripts and tightening access controls (MFA, least privilege) for marketing, DNS, and web tooling.</p>
+
+        <h2>One action today</h2>
+        <p>Have your web/MSP team confirm today whether any of your websites embed Brevo scripts (directly or via a tag manager) and temporarily disable non-essential third-party tags until verified safe.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – Third‑party &amp; SaaS Supplier Risk Checklist (website tags, marketing platforms, access tokens, MFA)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/" rel="noopener noreferrer">Brevo supply-chain attack injected ClickFix scripts on customer sites</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

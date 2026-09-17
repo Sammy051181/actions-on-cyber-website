@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "4587624b7b3fc6ad": {
-      "url": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-19T16:42:20.182722+01:00",
-      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
-    },
-    "fa35e69eb20d667f": {
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-19T16:42:20.182722+01:00",
-      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
-    },
-    "42866a1008b82dcf": {
-      "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-19T16:42:20.182722+01:00",
-      "brief_slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-"
-    },
-    "4bb1ee2d2a3d23f6": {
-      "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-19T19:06:36.484317+01:00",
-      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
-    },
-    "16da9826d5713755": {
-      "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-19T19:06:36.484317+01:00",
-      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
-    },
-    "661c1bc506c9199b": {
-      "url": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
-      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-19T19:06:36.484317+01:00",
-      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
-    },
-    "97a7893a2bc04e8a": {
-      "url": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-19T19:06:36.484317+01:00",
-      "brief_slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today"
-    },
     "935783570e0ed9a3": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
       "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
@@ -6005,9 +5956,27 @@
       "source": "Cisco Talos",
       "seen_at": "2026-09-17T13:35:28.979910+01:00",
       "brief_slug": "2026-09-17-1335-today-s-smb-cyber-lookout-risky-browser-extensions-ai-assistants-and-ransomware-"
+    },
+    "ff28c02e7e1b51ea": {
+      "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-17T20:43:42.138988+01:00",
+      "brief_slug": "2026-09-17-2043-supplier-incident-brevo-supply-chain-attack-may-have-pushed-malicious-scripts-on"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-17-2043-supplier-incident-brevo-supply-chain-attack-may-have-pushed-malicious-scripts-on",
+      "headline": "Supplier incident: Brevo supply-chain attack may have pushed malicious scripts onto customer sites",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and website script tampering (third‑party JavaScript risk)",
+      "published_at": "2026-09-17T20:43:42.138988+01:00",
+      "published_label": "Thursday 17 September 2026, 20:43 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/"
+      ]
+    },
     {
       "slug": "2026-09-17-1335-today-s-smb-cyber-lookout-risky-browser-extensions-ai-assistants-and-ransomware-",
       "headline": "Today’s SMB cyber lookout: risky browser extensions, AI assistants, and ransomware readiness",
@@ -9187,33 +9156,6 @@
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
         "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
         "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/"
-      ]
-    },
-    {
-      "slug": "2026-06-19-1906-supplier-breach-scam-risk-internet-facing-firewall-activity-to-check-today",
-      "headline": "Supplier breach scam risk + internet‑facing firewall activity to check today",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams, firewall exposure, and website/checkout third‑party risk",
-      "published_at": "2026-06-19T19:06:36.484317+01:00",
-      "published_label": "Friday 19 June 2026, 19:06 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-        "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-        "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
-        "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html"
-      ]
-    },
-    {
-      "slug": "2026-06-19-1642-today-s-smb-cyber-brief-salesforce-app-integration-disabled-mfa-bypass-phishing-",
-      "headline": "Today’s SMB Cyber Brief: Salesforce app integration disabled, MFA-bypass phishing, and ransomware defence evasion",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS integration risk + MFA-bypass phishing leading to account takeover",
-      "published_at": "2026-06-19T16:42:20.182722+01:00",
-      "published_label": "Friday 19 June 2026, 16:42 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-        "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-        "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/"
       ]
     }
   ]
