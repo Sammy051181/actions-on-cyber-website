@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "2e719dabd7c34129": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
-    "b837220888d79db5": {
-      "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
-    "7997b5e0e198901b": {
-      "url": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
-    "267e4db129f61c9f": {
-      "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
-    "d79c0ae88029c37e": {
-      "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
-    "2f58bbb6cb85307e": {
-      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
-      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T15:29:16.557397+01:00",
-      "brief_slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r"
-    },
     "e357e12ae59693ce": {
       "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
       "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
@@ -5984,9 +5942,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-18T13:13:44.076369+01:00",
       "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "a8f08aec46659afe": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-18T17:25:43.062064+01:00",
+      "brief_slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea"
+    },
+    "2d1da8cc0f6ef27b": {
+      "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-18T17:25:43.062064+01:00",
+      "brief_slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea"
+    },
+    "e202dff503870204": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+      "title": "Microsoft Teams will let admins block custom file extensions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-18T17:25:43.062064+01:00",
+      "brief_slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea"
+    },
+    "68651eea862d1332": {
+      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-18T17:25:43.062064+01:00",
+      "brief_slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea",
+      "headline": "SMB Cyber Daily: fake GitHub “authenticator” downloads, Gyazo breach fallout, and Teams file-type blocking",
+      "risk_level": "High",
+      "todays_lookout": "Malware via trusted-looking developer sites + breach follow‑on phishing",
+      "published_at": "2026-09-18T17:25:43.062064+01:00",
+      "published_label": "Friday 18 September 2026, 17:25 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+        "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+        "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html"
+      ]
+    },
     {
       "slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris",
       "headline": "Today’s SME cyber look-out: smishing-led Android compromise, supplier platform risk, and firewall management exposure",
@@ -9164,22 +9164,6 @@
         "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
         "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/"
-      ]
-    },
-    {
-      "slug": "2026-06-20-1529-smb-cyber-intelligence-brief-supply-chain-malware-npm-ransomware-hardening-and-r",
-      "headline": "SMB Cyber Intelligence Brief — Supply-chain malware (npm), ransomware hardening, and risky AI/agent access",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & SaaS risk + phishing themes + ransomware disruption",
-      "published_at": "2026-06-20T15:29:16.557397+01:00",
-      "published_label": "Saturday 20 June 2026, 15:29 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-        "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-        "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-        "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-        "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-        "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html"
       ]
     }
   ]
