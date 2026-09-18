@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "935783570e0ed9a3": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T11:13:29.370954+01:00",
-      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
-    },
-    "47fe62a9b363942f": {
-      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T11:13:29.370954+01:00",
-      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
-    },
-    "7c642ede84fd1bc8": {
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T11:13:29.370954+01:00",
-      "brief_slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo"
-    },
     "2e719dabd7c34129": {
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
       "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
@@ -5963,9 +5942,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-17T20:43:42.138988+01:00",
       "brief_slug": "2026-09-17-2043-supplier-incident-brevo-supply-chain-attack-may-have-pushed-malicious-scripts-on"
+    },
+    "d520678c4afb9aa5": {
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "a81acfaa2d140742": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+      "title": "New RatHat Android malware uses AI to automate device control",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "1276fb6b0a48564d": {
+      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "1963d1923e71383c": {
+      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "987fdbb14989de68": {
+      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
+    },
+    "254f056eaae3060d": {
+      "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+      "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-18T13:13:44.076369+01:00",
+      "brief_slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-18-1313-today-s-sme-cyber-look-out-smishing-led-android-compromise-supplier-platform-ris",
+      "headline": "Today’s SME cyber look-out: smishing-led Android compromise, supplier platform risk, and firewall management exposure",
+      "risk_level": "High",
+      "todays_lookout": "Smishing and third‑party supplier compromise (mobile + IT/security tooling)",
+      "published_at": "2026-09-18T13:13:44.076369+01:00",
+      "published_label": "Friday 18 September 2026, 13:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+        "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+        "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+        "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+        "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+        "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/"
+      ]
+    },
     {
       "slug": "2026-09-17-2043-supplier-incident-brevo-supply-chain-attack-may-have-pushed-malicious-scripts-on",
       "headline": "Supplier incident: Brevo supply-chain attack may have pushed malicious scripts onto customer sites",
@@ -9143,19 +9180,6 @@
         "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
         "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
         "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html"
-      ]
-    },
-    {
-      "slug": "2026-06-20-1113-smb-cyber-brief-wordpress-email-plugin-exploitation-saas-oauth-token-theft-fallo",
-      "headline": "SMB Cyber Brief: WordPress email plugin exploitation + SaaS OAuth token theft fallout",
-      "risk_level": "High",
-      "todays_lookout": "Website plugin credential leaks and supplier OAuth token compromise (knock-on account takeover scams)",
-      "published_at": "2026-06-20T11:13:29.370954+01:00",
-      "published_label": "Saturday 20 June 2026, 11:13 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-        "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-        "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/"
       ]
     }
   ]
