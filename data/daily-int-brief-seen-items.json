@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "e357e12ae59693ce": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T18:47:27.328545+01:00",
-      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
-    },
-    "f0f8a55eafe852f5": {
-      "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-20T18:47:27.328545+01:00",
-      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
-    },
-    "fe04fca16db4646f": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
-      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-20T18:47:27.328545+01:00",
-      "brief_slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c"
-    },
     "5e1e15ce38568c24": {
       "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
       "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
@@ -5970,9 +5949,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-18T17:25:43.062064+01:00",
       "brief_slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea"
+    },
+    "47bdb82a4099c8a1": {
+      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T12:55:40.975924+01:00",
+      "brief_slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra"
+    },
+    "55eb40df3f2670c8": {
+      "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T12:55:40.975924+01:00",
+      "brief_slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra"
+    },
+    "cd92185ba9f6eeaa": {
+      "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T12:55:40.975924+01:00",
+      "brief_slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra"
+    },
+    "6f8939c423c210c0": {
+      "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T12:55:40.975924+01:00",
+      "brief_slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra",
+      "headline": "Today’s SME cyber lookout: supply‑chain credential theft, WordPress admin link traps, and over-shared cloud files",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS identity compromise (GitHub/npm, WordPress admin sessions, cloud file sharing sprawl)",
+      "published_at": "2026-09-19T12:55:40.975924+01:00",
+      "published_label": "Saturday 19 September 2026, 12:55 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+        "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+        "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/"
+      ]
+    },
     {
       "slug": "2026-09-18-1725-smb-cyber-daily-fake-github-authenticator-downloads-gyazo-breach-fallout-and-tea",
       "headline": "SMB Cyber Daily: fake GitHub “authenticator” downloads, Gyazo breach fallout, and Teams file-type blocking",
@@ -9151,19 +9172,6 @@
       "published_label": "Sunday 21 June 2026, 15:32 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
-      ]
-    },
-    {
-      "slug": "2026-06-20-1847-smb-cyber-intelligence-brief-ransomware-targeting-recent-files-risky-wordpress-c",
-      "headline": "SMB Cyber Intelligence Brief: ransomware targeting “recent files” + risky WordPress clean-up fallout",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware disruption and ‘compromised website’ infection chain (especially via WordPress)",
-      "published_at": "2026-06-20T18:47:27.328545+01:00",
-      "published_label": "Saturday 20 June 2026, 18:47 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-        "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/"
       ]
     }
   ]
