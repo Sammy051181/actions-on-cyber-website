@@ -6012,9 +6012,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-19T16:52:48.464941+01:00",
       "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "8513523c6f095a73": {
+      "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T19:36:22.059942+01:00",
+      "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
+    },
+    "cccf7b5fb8fe09a0": {
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T19:36:22.059942+01:00",
+      "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
+    },
+    "eb5aad65b2515888": {
+      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T19:36:22.059942+01:00",
+      "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
+    },
+    "4bce3b8937f27499": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+      "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T19:36:22.059942+01:00",
+      "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
+    },
+    "531e97a39e7b550a": {
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T19:36:22.059942+01:00",
+      "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and",
+      "headline": "SMB Cyber Intelligence Brief: supply-chain domain risk, SaaS account takeovers, and “normal-looking” GitHub traffic",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS account takeover and supply-chain trust gaps (domains, helpdesks, GitHub)",
+      "published_at": "2026-09-19T19:36:22.059942+01:00",
+      "published_label": "Saturday 19 September 2026, 19:36 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+        "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+        "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+        "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
+      ]
+    },
     {
       "slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-",
       "headline": "Weekend SMB Cyber Brief: credential abuse, risky extensions, and ransomware-themed scams",

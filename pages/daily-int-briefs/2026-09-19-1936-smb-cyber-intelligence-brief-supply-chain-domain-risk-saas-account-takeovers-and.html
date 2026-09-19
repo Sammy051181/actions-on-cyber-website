@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: supply-chain domain risk, SaaS account takeovers, and “normal-looking” GitHub traffic | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: supply-chain domain risk, SaaS account takeovers, and “normal-looking” GitHub traffic</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Saturday 19 September 2026, 19:36 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS account takeover and supply-chain trust gaps (domains, helpdesks, GitHub)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes SMEs should pay attention to:</strong></p>
+<ul>
+  <li><strong>Supply-chain “ghost domain” risk:</strong> a previously abandoned CDN domain was re-registered, while thousands of sites still reference it. This is a real-world reminder that old third-party hostnames can come back under new ownership and be abused.</li>
+  <li><strong>SaaS account takeover chains:</strong> researchers demonstrated a chained attack starting from a public help forum and ending with staff account takeover and access to internal code repositories. The practical lesson for SMEs is about how support platforms and login/SSO settings can be linked together.</li>
+  <li><strong>Malicious activity hiding in developer tooling:</strong> a threat group used private GitHub repositories as part of its command-and-control setup. Even if your business isn’t a government target, the technique is relevant because it can blend into legitimate GitHub usage.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Websites and plugins often have long tails:</strong> old scripts, themes, documentation links, and “temporary” third-party services can persist for years. If a hostname you depend on changes hands, you may unknowingly load content from an untrusted party.</li>
+  <li><strong>Most SMEs rely on a small number of SaaS logins:</strong> email, storage, payroll/HR, finance, CRM and helpdesk. If attackers compromise a support portal account or staff login, they can pivot quickly into invoices, data exports, password resets, and mailbox rules.</li>
+  <li><strong>Developer and IT tools are business-critical:</strong> if your IT provider or internal team uses GitHub (or similar), attackers may try to hide activity inside “normal” developer workflows.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected website behaviour:</strong> new pop-ups, redirects, warnings from browsers, or sudden changes in page performance—especially after “no one changed anything”.</li>
+  <li><strong>Unusual login prompts:</strong> staff being asked to re-authenticate to familiar services (helpdesk, CRM, file storage) more often than normal.</li>
+  <li><strong>Support platform anomalies:</strong> new admin users, new integrations, unfamiliar API tokens, or changes to single sign-on settings.</li>
+  <li><strong>Developer platform surprises:</strong> unexpected repository invitations, new private repos you don’t recognise, or unusual access requests from accounts that look legitimate.</li>
+  <li><strong>Mailbox and finance red flags:</strong> new inbox rules, missing emails, unexpected “payment details changed” messages, or sudden supplier bank detail updates following a support ticket.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Re-registered domains:</strong> if your website (or a vendor’s widget) still loads images/scripts from an old hostname, an attacker controlling that hostname can potentially serve unwanted content, tracking, or malicious prompts that look like part of your site.</li>
+  <li><strong>Help forum → account takeover:</strong> weaknesses in publicly-facing support systems can be used to reach staff sessions or login flows, then pivot to internal systems and repositories.</li>
+  <li><strong>“Looks normal” command-and-control:</strong> using mainstream platforms (like GitHub) can make malicious traffic harder to spot, particularly if your organisation already uses those services.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Do a quick website dependency check:</strong> ask whoever manages your website (agency/MSP/internal) to list third-party hostnames your site pulls content from (scripts, fonts, analytics, widgets) and confirm they are still owned by the expected suppliers.</li>
+  <li><strong>Tighten support and admin access:</strong> ensure your helpdesk/support portal admin accounts have MFA enabled and are limited to named staff (no shared admin logins).</li>
+  <li><strong>Review SSO and login settings:</strong> confirm who can change identity/SSO settings, and make sure changes generate alerts to more than one person.</li>
+  <li><strong>Set expectations with staff:</strong> remind staff that “we need you to re-login” messages can be a trap—when in doubt, go via bookmarks/known URLs rather than links in emails or tickets.</li>
+  <li><strong>Developer platform hygiene (if you use GitHub):</strong> review organisation members, enforce MFA, and confirm repository visibility/settings match policy.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you provide a <strong>list of third-party domains</strong> our website and key web apps load resources from, and confirm which are business-approved?</li>
+  <li>Do we have <strong>alerting for changes</strong> to SSO settings, admin roles, and new integrations across Microsoft 365/Google Workspace and our helpdesk/CRM?</li>
+  <li>Which accounts have <strong>admin rights</strong> in our helpdesk, email, and file storage, and are there any shared accounts we should retire?</li>
+  <li>If we use GitHub (directly or via you), do we have <strong>MFA enforced</strong> and periodic access reviews for organisation members and private repositories?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Separately from the themes above, vendors have issued fixes for issues affecting common business environments (including security tooling alerts and enterprise management products). For SMEs, the key is not the technical detail: confirm your IT provider is applying vendor updates on a defined schedule and that you have monitoring to spot knock-on disruption (for example, confusing security alerts or unexpected service behaviour after updates).</p>
+
+        <h2>One action today</h2>
+        <p>Ask your website/IT provider today for a list of third-party domains your website loads resources from (scripts/fonts/widgets) and confirm each is still owned by the expected supplier and is business-approved.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Verify supplier change requests (bank details, login resets, support tickets) and add a two-person approval step for payment changes.”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html" rel="noopener noreferrer">An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html" rel="noopener noreferrer">Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html" rel="noopener noreferrer">Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/" rel="noopener noreferrer">Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html" rel="noopener noreferrer">SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
