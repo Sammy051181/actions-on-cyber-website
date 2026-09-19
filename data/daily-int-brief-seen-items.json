@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "5e1e15ce38568c24": {
-      "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-21T15:32:14.825823+01:00",
-      "brief_slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes"
-    },
     "459509626a675612": {
       "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
       "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
@@ -5977,9 +5970,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-19T12:55:40.975924+01:00",
       "brief_slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra"
+    },
+    "14e87e3a15b5ebd6": {
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "fb9113f4b47af3f8": {
+      "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "830c117275ef8fb3": {
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "f02d07cbc73e8647": {
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "02770abc3b2be73c": {
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
+    },
+    "7abc6bd4255fe189": {
+      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-19T16:52:48.464941+01:00",
+      "brief_slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-19-1652-weekend-smb-cyber-brief-credential-abuse-risky-extensions-and-ransomware-themed-",
+      "headline": "Weekend SMB Cyber Brief: credential abuse, risky extensions, and ransomware-themed scams",
+      "risk_level": "Moderate",
+      "todays_lookout": "Credential theft and browser/extension risk (with ransomware-themed lures)",
+      "published_at": "2026-09-19T16:52:48.464941+01:00",
+      "published_label": "Saturday 19 September 2026, 16:52 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+        "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+        "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+        "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+        "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+        "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
+      ]
+    },
     {
       "slug": "2026-09-19-1255-today-s-sme-cyber-lookout-supply-chain-credential-theft-wordpress-admin-link-tra",
       "headline": "Today’s SME cyber lookout: supply‑chain credential theft, WordPress admin link traps, and over-shared cloud files",
@@ -9161,17 +9212,6 @@
         "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
         "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
         "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html"
-      ]
-    },
-    {
-      "slug": "2026-06-21-1532-d-link-router-infections-used-as-criminal-proxies-quick-checks-for-smes",
-      "headline": "D-Link router infections used as criminal proxies: quick checks for SMEs",
-      "risk_level": "High",
-      "todays_lookout": "Compromised routers and “proxy” abuse leading to account takeovers and fraud",
-      "published_at": "2026-06-21T15:32:14.825823+01:00",
-      "published_label": "Sunday 21 June 2026, 15:32 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
       ]
     }
   ]
