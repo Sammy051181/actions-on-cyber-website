@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: software supply‑chain risk (malicious npm packages) and safer use of AI coding tools | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: software supply‑chain risk (malicious npm packages) and safer use of AI coding tools</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Sunday 20 September 2026, 19:46 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS supply-chain risk (code dependencies) and developer tool safety
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two practical risks for SMEs today:</strong></p>
+<ul>
+  <li><strong>Malicious code hidden in software dependencies</strong> (npm packages). A current campaign shows attackers can hide harmful behaviour in a library’s normal “runtime” activity, not just in install scripts.</li>
+  <li><strong>Safety boundaries in AI coding tools</strong>. Researchers demonstrated a way to escape a locked-down coding sandbox and run commands on a developer’s machine (now patched), reinforcing the need for careful controls when staff use AI coding assistants.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Many SMEs don’t write lots of software, but they often run websites, plugins, integrations, reporting scripts, automation, or small internal apps built by an in-house developer, an agency, or an outsourced IT partner. If a single dependency in that “chain” is compromised, it can lead to:</p>
+<ul>
+  <li>Website tampering or customer data exposure</li>
+  <li>Compromised cloud credentials or API keys used by apps and integrations</li>
+  <li>Business disruption (systems taken offline while code is audited and rebuilt)</li>
+  <li>Ripple effects to customers if you provide online services</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected updates or new dependencies added to a web app, integration, or build pipeline</li>
+  <li>New outbound network connections from servers or apps that previously didn’t “phone home”</li>
+  <li>Unexplained spikes in CPU usage, background processes, or suspicious scheduled tasks on developer machines or build servers</li>
+  <li>Reports from your developer/agency that “a package was pulled/flagged” and needs urgent replacement</li>
+  <li>Staff using AI coding tools to run or test snippets directly on business machines without review</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Dependency poisoning:</strong> attackers publish or compromise a software package so that malicious behaviour occurs during normal app use (runtime), making it harder for basic checks that only look at install scripts.</li>
+  <li><strong>Credential harvesting:</strong> compromised code may try to access environment variables, API tokens, cloud keys, payment/CRM integration secrets, or browser-stored session data.</li>
+  <li><strong>Developer machine pivoting:</strong> if a coding sandbox or tool is abused, the attacker’s aim is typically to reach the developer’s device, then access source code, tokens, customer data, or deployment systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm who maintains your code dependencies</strong> (internal dev, agency, MSP) and how they monitor for malicious packages or sudden package changes.</li>
+  <li><strong>Reduce secret sprawl:</strong> ensure API keys and tokens are stored in a proper secrets manager (not in code, shared docs, or local .env files copied around).</li>
+  <li><strong>Review admin access:</strong> limit who can deploy changes to websites/apps and who can modify build pipelines.</li>
+  <li><strong>Set a “safe AI use” rule for developers:</strong> no running unreviewed AI-generated scripts on production systems; use a dedicated test environment; avoid pasting sensitive data into tools unless formally approved.</li>
+  <li><strong>Be ready to roll back:</strong> confirm you can revert to a known-good release of any business-critical web app or integration quickly.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an inventory of our business-critical apps/integrations and their key dependencies (including who built and who maintains them)?</li>
+  <li>How do you detect and respond to malicious or typosquatted packages in our software supply chain?</li>
+  <li>Where are our API keys/tokens stored, and can you show evidence they are rotated and access-controlled?</li>
+  <li>What controls are in place for developer laptops (EDR, least privilege, device encryption, rapid offboarding)?</li>
+  <li>Do you have guidance on approved AI coding tools and what data can/can’t be shared with them?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>OpenAI has patched the reported Codex sandbox escape; if your developers use AI coding assistants, ask your provider/team to confirm tools are up to date and that sensitive work is done in segregated development/test environments with strong access controls.</p>
+
+        <h2>One action today</h2>
+        <p>Ask whoever manages your website/apps (internal dev, agency or MSP) to confirm today that they monitor and control dependency changes (npm and similar) and can quickly roll back to a known-good build if a package is flagged.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Supplier &amp; SaaS risk questions (MSP/agency/developer) – access, monitoring, rollback and incident comms”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/" rel="noopener noreferrer">Malicious npm packages evade install-script defenses at runtime</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/" rel="noopener noreferrer">Researchers escape OpenAI Codex sandbox to run commands on host</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

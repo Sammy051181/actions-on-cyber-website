@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "459509626a675612": {
-      "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
-      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-22T14:05:38.156286+01:00",
-      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
-    },
-    "f1470df83f4c69e9": {
-      "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
-      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-22T14:05:38.156286+01:00",
-      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
-    },
-    "c0efebc39890620c": {
-      "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-22T14:05:38.156286+01:00",
-      "brief_slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro"
-    },
     "2ce34d4bc99a9a63": {
       "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
@@ -6047,9 +6026,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-19T19:36:22.059942+01:00",
       "brief_slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and"
+    },
+    "20c9213dc91fb1b1": {
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+      "title": "Malicious npm packages evade install-script defenses at runtime",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-20T19:46:30.068045+01:00",
+      "brief_slug": "2026-09-20-1946-today-s-sme-cyber-lookout-software-supply-chain-risk-malicious-npm-packages-and-"
+    },
+    "8cf078285ecfd72b": {
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-20T19:46:30.068045+01:00",
+      "brief_slug": "2026-09-20-1946-today-s-sme-cyber-lookout-software-supply-chain-risk-malicious-npm-packages-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-20-1946-today-s-sme-cyber-lookout-software-supply-chain-risk-malicious-npm-packages-and-",
+      "headline": "Today’s SME cyber lookout: software supply‑chain risk (malicious npm packages) and safer use of AI coding tools",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier & SaaS supply-chain risk (code dependencies) and developer tool safety",
+      "published_at": "2026-09-20T19:46:30.068045+01:00",
+      "published_label": "Sunday 20 September 2026, 19:46 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+        "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
+      ]
+    },
     {
       "slug": "2026-09-19-1936-smb-cyber-intelligence-brief-supply-chain-domain-risk-saas-account-takeovers-and",
       "headline": "SMB Cyber Intelligence Brief: supply-chain domain risk, SaaS account takeovers, and “normal-looking” GitHub traffic",
@@ -9249,19 +9254,6 @@
         "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
         "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
         "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
-      ]
-    },
-    {
-      "slug": "2026-06-22-1405-today-s-smb-cyber-lookout-phishing-ai-scams-and-hidden-attacks-routed-via-compro",
-      "headline": "Today’s SMB cyber lookout: phishing + AI scams, and “hidden” attacks routed via compromised routers",
-      "risk_level": "Moderate",
-      "todays_lookout": "Phishing and AI-enabled scams, plus attacks masked through compromised routers/proxy networks",
-      "published_at": "2026-06-22T14:05:38.156286+01:00",
-      "published_label": "Monday 22 June 2026, 14:05 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
-        "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
-        "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html"
       ]
     }
   ]
