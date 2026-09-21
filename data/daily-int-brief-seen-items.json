@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "2ce34d4bc99a9a63": {
-      "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-22T20:47:09.224560+01:00",
-      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
-    },
-    "dd93fd5ed35398c8": {
-      "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-22T20:47:09.224560+01:00",
-      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
-    },
-    "e2d4ec625286b9c3": {
-      "url": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-22T20:47:09.224560+01:00",
-      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
-    },
-    "9eeb02abbd1f4f43": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
-      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-22T20:47:09.224560+01:00",
-      "brief_slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo"
-    },
-    "e7f16325e079b53e": {
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-23T11:43:37.926216+01:00",
-      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
-    },
-    "16f440b520f8d2fb": {
-      "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T11:43:37.926216+01:00",
-      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
-    },
-    "3e2c39543fbaa3da": {
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-23T11:43:37.926216+01:00",
-      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
-    },
-    "41444a2175f8fe01": {
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T11:43:37.926216+01:00",
-      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
-    },
-    "91ac02c25b00723c": {
-      "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T11:43:37.926216+01:00",
-      "brief_slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-"
-    },
     "a242733f44a9d6d5": {
       "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
       "title": "LastPass confirms data breach in Klue supply chain attack",
@@ -6040,9 +5977,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-20T19:46:30.068045+01:00",
       "brief_slug": "2026-09-20-1946-today-s-sme-cyber-lookout-software-supply-chain-risk-malicious-npm-packages-and-"
+    },
+    "7de86307010bfa2d": {
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-21T15:06:53.782913+01:00",
+      "brief_slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-"
+    },
+    "5b62ce8df6dfa4f3": {
+      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-21T15:06:53.782913+01:00",
+      "brief_slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-"
+    },
+    "4eca08cb01364452": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-21T15:06:53.782913+01:00",
+      "brief_slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-"
+    },
+    "862b3547ddb5bd08": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "title": "Microsoft: September updates break File History backup feature",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-21T15:06:53.782913+01:00",
+      "brief_slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-",
+      "headline": "SMB Cyber Brief (Mon 21 Sep 2026): Supplier risk, fake app lures, and Microsoft sign-in/backup disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier compromise + fake software update lures + Microsoft identity/backup disruption",
+      "published_at": "2026-09-21T15:06:53.782913+01:00",
+      "published_label": "Monday 21 September 2026, 15:06 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+        "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/"
+      ]
+    },
     {
       "slug": "2026-09-20-1946-today-s-sme-cyber-lookout-software-supply-chain-risk-malicious-npm-packages-and-",
       "headline": "Today’s SME cyber lookout: software supply‑chain risk (malicious npm packages) and safer use of AI coding tools",
@@ -9225,35 +9204,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
         "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/"
-      ]
-    },
-    {
-      "slug": "2026-06-23-1143-today-s-smb-cyber-lookout-whatsapp-business-document-messages-leading-to-remote-",
-      "headline": "Today’s SMB cyber lookout: WhatsApp “business document” messages leading to remote access",
-      "risk_level": "High",
-      "todays_lookout": "Messaging-app phishing leading to remote access and account compromise",
-      "published_at": "2026-06-23T11:43:37.926216+01:00",
-      "published_label": "Tuesday 23 June 2026, 11:43 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-        "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-        "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-        "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-        "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
-      ]
-    },
-    {
-      "slug": "2026-06-22-2047-today-s-smb-cyber-lookout-wordpress-plugin-supply-chain-risk-and-malware-via-goo",
-      "headline": "Today’s SMB cyber lookout: WordPress plugin supply-chain risk and malware via Google Ads",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS update trust + search-ad malware leading to credential theft",
-      "published_at": "2026-06-22T20:47:09.224560+01:00",
-      "published_label": "Monday 22 June 2026, 20:47 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-        "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-        "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-        "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
       ]
     }
   ]

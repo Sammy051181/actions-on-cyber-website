@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief (Mon 21 Sep 2026): Supplier risk, fake app lures, and Microsoft sign-in/backup disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief (Mon 21 Sep 2026): Supplier risk, fake app lures, and Microsoft sign-in/backup disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 21 September 2026, 15:06 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier compromise + fake software update lures + Microsoft identity/backup disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>IT provider / MSP supply-chain risk:</strong> a smaller IT services firm was reportedly compromised and used as a stepping-stone for further access. If you outsource IT, treat unusual admin activity as a potential supplier-origin incident.</li>
+  <li><strong>“Fix it now” / ClickFix-style lures:</strong> campaigns are pushing a remote access trojan by pretending to be installers or updates for familiar workplace tools (e.g., Teams/Zoom/Spotify-branded downloads).</li>
+  <li><strong>Microsoft identity change on the horizon:</strong> Microsoft is reminding admins to move Entra ID users to phishing-resistant sign-in methods ahead of SMS first-factor sign-in retirement (Feb 2027). This is a planning and comms item now, not a last-minute scramble later.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supplier compromise hits SMEs hardest:</strong> if your IT provider is breached, attackers may inherit trusted remote access, admin credentials, or support tooling—often without triggering the same scrutiny as a direct attack.</li>
+  <li><strong>Fake app downloads are “everyday believable”:</strong> staff are used to installing meeting tools and “updates”, so a convincing prompt can lead to hands-on-keyboard compromise quickly.</li>
+  <li><strong>Identity and access disruption is a business risk:</strong> if you rely on Microsoft 365/Entra ID for email and files, unplanned authentication changes can lock users out or increase helpdesk load at the worst time.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails/DMs urging staff to “run this fix”, “verify your device”, or “install the latest Teams/Zoom Workplace update”, especially with odd links or rushed language.</li>
+  <li>Staff report seeing pop-ups or web pages claiming their browser/device is broken and providing steps to “click and paste” or download a tool to fix it.</li>
+  <li>Unexpected MFA prompts, password reset emails, or new device sign-in alerts for Microsoft 365.</li>
+  <li>New or unusual remote support sessions, admin logins, or configuration changes that your team didn’t request (especially outside business hours).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supplier route:</strong> attackers compromise a small IT services provider and reuse its access to reach client environments, blending in as legitimate support activity.</li>
+  <li><strong>RAT delivery via “productivity app” branding:</strong> users are tricked into installing a trojan disguised as common software; once installed, criminals can harvest data, move laterally, and deploy further tooling.</li>
+  <li><strong>Account takeover:</strong> if sign-in methods are weak (or users are trained to accept prompts), attackers may push through access to mailboxes and files, then use that access for invoice fraud or internal phishing.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note:</strong> “No one should install meeting apps/updates from links in emails or chats. Use Company Portal / approved app store / IT-managed install only. Report ‘fix now’ pop-ups.”</li>
+  <li><strong>Lock down installs where you can:</strong> restrict local admin rights; ensure software installs are managed/approved (even if that’s a simple documented process for small teams).</li>
+  <li><strong>Review supplier access:</strong> confirm which third parties have remote access, how it’s authenticated, and whether access is time-bound and logged.</li>
+  <li><strong>Plan Entra ID move away from SMS first-factor:</strong> identify users still relying on SMS first-factor sign-in and set a timeline to move them to phishing-resistant methods (e.g., passkeys) with clear user comms and support.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which remote access tools and admin accounts do you use in our environment, and how do you protect them (MFA, device controls, logging)?</li>
+  <li>Do you have a process to detect and alert us to suspicious activity that could originate from your own tools or accounts?</li>
+  <li>How are end-user installs controlled (local admin rights, application allow/deny rules, approved install sources)?</li>
+  <li>What is our current position on Entra ID sign-in methods—are any users relying on SMS first-factor, and what is the migration plan ahead of Feb 2027?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has warned that Windows File History backups may stop working on some systems after September 2026 security updates. If you rely on File History, ask IT to verify that backups are still running and that restores work; don’t assume “backup is fine” until it’s tested.</p>
+
+        <h2>One action today</h2>
+        <p>Send a company-wide note today: staff must not install “Teams/Zoom/Spotify updates” from email/chat links—only via approved sources—and must report any “fix now” pop-ups or unexpected MFA prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Supplier Access &amp; MSP Security Checklist” (review third-party remote access, MFA, logging, and incident notification expectations).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html" rel="noopener noreferrer">Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html" rel="noopener noreferrer">ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/" rel="noopener noreferrer">Microsoft reminds admins to migrate Entra ID users to passkeys</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/" rel="noopener noreferrer">Microsoft: September updates break File History backup feature</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
