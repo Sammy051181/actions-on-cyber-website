@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "a242733f44a9d6d5": {
-      "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
-      "title": "LastPass confirms data breach in Klue supply chain attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-23T16:24:26.245373+01:00",
-      "brief_slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-"
-    },
-    "1a2d68f57b3b7df9": {
-      "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-23T16:24:26.245373+01:00",
-      "brief_slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-"
-    },
-    "962d41e3a2c99a01": {
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "aa92e065151cc426": {
-      "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "title": "Scattered Spider members plead guilty to hacking Transport for London",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "6dc2501726f3c67e": {
-      "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "a790ae300b6d7f8b": {
-      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "4cbd0c91c7ab4c5f": {
-      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "b661ce503643f811": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
-      "title": "Siemens SINEC INS",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
-    "6994d602d214f24c": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
-      "title": "Siemens SIPROTEC 5 Using DIGSI5 Protocol",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-23T19:14:34.720983+01:00",
-      "brief_slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-"
-    },
     "ff0a8d7817430e8e": {
       "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
       "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
@@ -6005,9 +5942,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-21T15:06:53.782913+01:00",
       "brief_slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-"
+    },
+    "f2aa6f9693d4bf84": {
+      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-21T21:25:25.744711+01:00",
+      "brief_slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu"
+    },
+    "c533abc4730ac955": {
+      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-21T21:25:25.744711+01:00",
+      "brief_slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu"
+    },
+    "142127a107741c12": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-21T21:25:25.744711+01:00",
+      "brief_slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu"
+    },
+    "522af8b6ffea78c3": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-21T21:25:25.744711+01:00",
+      "brief_slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu",
+      "headline": "Today’s SMB cyber lookout: fake authenticator installers, “job interview” malware lures, and Microsoft 365 app retirements",
+      "risk_level": "High",
+      "todays_lookout": "Malware via fake installers and recruitment scams, plus SaaS change confusion",
+      "published_at": "2026-09-21T21:25:25.744711+01:00",
+      "published_label": "Monday 21 September 2026, 21:25 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+        "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+        "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/"
+      ]
+    },
     {
       "slug": "2026-09-21-1506-smb-cyber-brief-mon-21-sep-2026-supplier-risk-fake-app-lures-and-microsoft-sign-",
       "headline": "SMB Cyber Brief (Mon 21 Sep 2026): Supplier risk, fake app lures, and Microsoft sign-in/backup disruption",
@@ -9175,35 +9154,6 @@
         "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
         "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
         "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
-      ]
-    },
-    {
-      "slug": "2026-06-23-1914-smb-cyber-brief-tue-23-jun-2026-social-engineering-gangs-ai-agent-skill-add-ons-",
-      "headline": "SMB Cyber Brief (Tue 23 Jun 2026): Social engineering gangs + “AI agent/skill” add‑ons = higher supplier & account takeover risk",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier impersonation & account takeover, plus risky AI/automation add‑ons and developer supply chain controls",
-      "published_at": "2026-06-23T19:14:34.720983+01:00",
-      "published_label": "Tuesday 23 June 2026, 19:14 UK time",
-      "source_urls": [
-        "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-        "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-        "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-        "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-        "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02"
-      ]
-    },
-    {
-      "slug": "2026-06-23-1624-smb-cyber-intelligence-brief-lastpass-confirms-breach-tied-to-klue-supply-chain-",
-      "headline": "SMB Cyber Intelligence Brief: LastPass confirms breach tied to Klue supply-chain attack",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and credential risk (password manager/SaaS)",
-      "published_at": "2026-06-23T16:24:26.245373+01:00",
-      "published_label": "Tuesday 23 June 2026, 16:24 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
-        "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/"
       ]
     }
   ]
