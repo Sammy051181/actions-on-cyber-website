@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "ff0a8d7817430e8e": {
-      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T11:28:15.703978+01:00",
-      "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
-    },
-    "dca8937e3bccf028": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-      "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T11:28:15.703978+01:00",
-      "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
-    },
-    "fa20beb3904e3db3": {
-      "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-24T11:28:15.703978+01:00",
-      "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
-    },
-    "9b9d3ca3e7bd155f": {
-      "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T11:28:15.703978+01:00",
-      "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
-    },
-    "445f28934d8b411a": {
-      "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-24T11:28:15.703978+01:00",
-      "brief_slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-"
-    },
     "26e1bf492eb5fee3": {
       "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
       "title": "Securing the service desk: Why social engineering attacks keep succeeding",
@@ -5970,9 +5935,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-21T21:25:25.744711+01:00",
       "brief_slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu"
+    },
+    "7a6663942eb5f277": {
+      "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "c8f864c65cb4096e": {
+      "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "f38e756e9338c9fb": {
+      "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "9806c677170e776d": {
+      "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "1f3d832dd5539f77": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "7c13e8164b6aa5d1": {
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-22T13:36:27.923663+01:00",
+      "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp",
+      "headline": "SMB Cyber Brief (UK) — eCommerce script injection risk, phishing-led malware, and supplier/app exposure",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS app compromise leading to website skimming, plus phishing-led malware and disruption",
+      "published_at": "2026-09-22T13:36:27.923663+01:00",
+      "published_label": "Tuesday 22 September 2026, 13:36 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+        "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+        "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+        "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+        "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/"
+      ]
+    },
     {
       "slug": "2026-09-21-2125-today-s-smb-cyber-lookout-fake-authenticator-installers-job-interview-malware-lu",
       "headline": "Today’s SMB cyber lookout: fake authenticator installers, “job interview” malware lures, and Microsoft 365 app retirements",
@@ -9139,21 +9162,6 @@
         "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/"
-      ]
-    },
-    {
-      "slug": "2026-06-24-1128-smb-cyber-intelligence-brief-phishing-breaches-macos-infostealers-and-perimeter-",
-      "headline": "SMB Cyber Intelligence Brief — phishing breaches, macOS infostealers, and perimeter credential harvesting",
-      "risk_level": "High",
-      "todays_lookout": "Phishing-led account compromise and credential theft (including Mac users) plus perimeter device credential harvesting",
-      "published_at": "2026-06-24T11:28:15.703978+01:00",
-      "published_label": "Wednesday 24 June 2026, 11:28 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-        "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-        "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-        "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-        "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
       ]
     }
   ]
