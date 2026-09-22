@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "26e1bf492eb5fee3": {
-      "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T16:07:17.384780+01:00",
-      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
-    },
-    "4e3e0174b1c9e07f": {
-      "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T16:07:17.384780+01:00",
-      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
-    },
-    "428591f352e62bf4": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T16:07:17.384780+01:00",
-      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
-    },
-    "5140e8a2af536ac9": {
-      "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-24T16:07:17.384780+01:00",
-      "brief_slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de"
-    },
-    "472190b28d242f85": {
-      "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-24T19:07:09.809011+01:00",
-      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
-    },
-    "9ec0296dcc1757d0": {
-      "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-24T19:07:09.809011+01:00",
-      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
-    },
-    "2b83558ed41317df": {
-      "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-24T19:07:09.809011+01:00",
-      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
-    },
-    "d2fd2edad7ca639d": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-06-24T19:07:09.809011+01:00",
-      "brief_slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof"
-    },
     "9fda4c921855366e": {
       "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
       "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
@@ -5977,9 +5921,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-22T13:36:27.923663+01:00",
       "brief_slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp"
+    },
+    "ac1280aee3db8b04": {
+      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T20:44:24.723820+01:00",
+      "brief_slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo"
+    },
+    "a94b0a5ed1ae3c20": {
+      "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T20:44:24.723820+01:00",
+      "brief_slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo"
+    },
+    "f619ad1c6009e922": {
+      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T20:44:24.723820+01:00",
+      "brief_slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo"
+    },
+    "5871a8a80040f207": {
+      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-22T20:44:24.723820+01:00",
+      "brief_slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo",
+      "headline": "Today’s SME cyber lookout: device‑code phishing, WordPress risk, and MSP tool exploitation",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover & supplier/MSP tooling risk",
+      "published_at": "2026-09-22T20:44:24.723820+01:00",
+      "published_label": "Tuesday 22 September 2026, 20:44 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+        "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+        "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+        "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html"
+      ]
+    },
     {
       "slug": "2026-09-22-1336-smb-cyber-brief-uk-ecommerce-script-injection-risk-phishing-led-malware-and-supp",
       "headline": "SMB Cyber Brief (UK) — eCommerce script injection risk, phishing-led malware, and supplier/app exposure",
@@ -9134,34 +9120,6 @@
         "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
         "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
         "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/"
-      ]
-    },
-    {
-      "slug": "2026-06-24-1907-smb-cyber-intelligence-brief-stolen-logins-scam-infrastructure-takedowns-and-sof",
-      "headline": "SMB Cyber Intelligence Brief: Stolen logins, scam infrastructure takedowns, and software supply-chain risk",
-      "risk_level": "High",
-      "todays_lookout": "Credential-theft ripple effects + supplier/supply-chain compromise leading to account takeover and payment fraud",
-      "published_at": "2026-06-24T19:07:09.809011+01:00",
-      "published_label": "Wednesday 24 June 2026, 19:07 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-        "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-        "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/"
-      ]
-    },
-    {
-      "slug": "2026-06-24-1607-today-s-smb-cyber-lookout-service-desk-scams-ransomware-footholds-and-network-de",
-      "headline": "Today’s SMB cyber lookout: service-desk scams, ransomware footholds and network device risk",
-      "risk_level": "High",
-      "todays_lookout": "Service-desk social engineering and ransomware access attempts (plus internet-facing network device exposure)",
-      "published_at": "2026-06-24T16:07:17.384780+01:00",
-      "published_label": "Wednesday 24 June 2026, 16:07 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-        "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/"
       ]
     }
   ]

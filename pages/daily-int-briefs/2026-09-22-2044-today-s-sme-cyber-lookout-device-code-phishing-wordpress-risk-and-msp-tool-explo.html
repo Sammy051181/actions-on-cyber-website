@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: device‑code phishing, WordPress risk, and MSP tool exploitation | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: device‑code phishing, WordPress risk, and MSP tool exploitation</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 22 September 2026, 20:44 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover &amp; supplier/MSP tooling risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Microsoft 365 / email account takeover attempts via “device-code” sign-in prompts</strong> (phishing designed to bypass passwords and sometimes even MFA if users approve it).</li>
+  <li><strong>WordPress sites</strong>: a new <strong>core</strong> security fix is out—unpatched sites could be at higher risk of being taken over.</li>
+  <li><strong>Supplier/MSP risk</strong>: reports of <strong>active exploitation</strong> against network and security management platforms (e.g. SD‑WAN orchestrators and firewall/security management servers). If your IT provider runs these, your business could be impacted indirectly.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs are often targeted for quick wins: email compromise that leads to invoice fraud, payroll diversion, or access to cloud files. WordPress remains a common website platform for smaller organisations. And if an attacker gets into a provider’s management tooling, disruption can cascade to many customers at once (policy changes, connectivity issues, or remote access abuse).</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report an unexpected sign-in message prompting them to <strong>enter a code</strong> on a legitimate-looking Microsoft sign-in page, or they receive repeated “sign-in request” notifications.</li>
+  <li>Emails or Teams messages urging “quick verification” or “urgent security check” that results in approving a sign-in.</li>
+  <li>WordPress admin accounts created unexpectedly, plugins/themes changed without approval, or sudden redirects/spam pages appearing on your site.</li>
+  <li>Internet connection instability across sites, sudden firewall rule/policy changes, or your IT provider mentions emergency work on their management platforms.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Device-code phishing</strong>: attackers trick users into completing a real sign-in flow by entering a code and approving access, giving attackers access to mailboxes and files.</li>
+  <li><strong>WordPress compromise</strong>: attackers look for unpatched sites and attempt to gain control, then use them for defacement, malware distribution, spam/SEO abuse, or as a stepping stone to other accounts.</li>
+  <li><strong>Provider tooling exploitation</strong>: attackers target central management servers (SD‑WAN / firewall policy managers) because one breach can affect many downstream customers.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff alert</strong>: “Never enter sign-in codes or approve unexpected login prompts. If you didn’t start it, deny it and report it.”</li>
+  <li><strong>Review Microsoft 365 sign-in activity</strong> for key accounts (finance, shared mailboxes, admins) and confirm MFA is enabled.</li>
+  <li><strong>For WordPress owners</strong>: ask your web partner to confirm the latest WordPress security release has been applied and that you have a clean, recent backup.</li>
+  <li><strong>Agree an incident contact path</strong> with your IT provider for urgent notifications (who calls who, out-of-hours, what “high severity” means).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have controls to reduce <strong>OAuth/app-consent</strong> and suspicious sign-in risk in Microsoft 365 (especially for finance and admin accounts)?</li>
+  <li>How quickly can you detect and respond to <strong>mailbox takeover</strong> and what logs do you review by default?</li>
+  <li>Are any of our sites on <strong>WordPress</strong>, and can you confirm the <strong>core</strong> security update is applied (and backups tested)?</li>
+  <li>Do you operate or manage <strong>VeloCloud Orchestrator</strong> and/or <strong>Check Point Security Management Server</strong> for us or in your environment? If yes, what mitigations/updates were applied and how are customer environments protected from blast-radius risk?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today includes a notable <strong>WordPress core</strong> security release and fixes for security/network management platforms being discussed as exploited in the wild. Even if you don’t run these directly, ask your website provider/MSP to confirm updates are applied and that monitoring is in place for unusual sign-in activity and policy changes.</p>
+
+        <h2>One action today</h2>
+        <p>Message all staff today: if you receive an unexpected Microsoft sign-in code prompt or approval request, do not proceed—deny it and report it to IT immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Invoice &amp; payment change fraud’ checklist (tie it to mailbox takeover and finance controls).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html" rel="noopener noreferrer">Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html" rel="noopener noreferrer">WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html" rel="noopener noreferrer">New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/check-point-warns-of-management-server.html" rel="noopener noreferrer">Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
