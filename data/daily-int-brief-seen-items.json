@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "25958024b280757e": {
-      "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
-      "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T16:12:01.192971+01:00",
-      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
-    },
-    "7670c7a3042714c8": {
-      "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-25T16:12:01.192971+01:00",
-      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
-    },
-    "e2767d5bece11992": {
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T16:12:01.192971+01:00",
-      "brief_slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons"
-    },
-    "c96f9691fd679ba9": {
-      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-25T19:24:59.394037+01:00",
-      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
-    },
-    "9666d4678f35da2b": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T19:24:59.394037+01:00",
-      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
-    },
-    "6a948f35af384c88": {
-      "url": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T19:24:59.394037+01:00",
-      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
-    },
-    "8b7bff9926fd1783": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
-      "title": "The Four Elevations of Effective Fraud Prevention",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T19:24:59.394037+01:00",
-      "brief_slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud"
-    },
     "8607abaa7554c7e7": {
       "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
       "title": "Order-tracking app Shop abused to push callback phishing attacks",
@@ -5956,9 +5907,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-23T13:45:09.178524+01:00",
       "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
+    },
+    "368846adf0a4a338": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T20:40:29.786053+01:00",
+      "brief_slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t"
+    },
+    "8b8a2ad63964807c": {
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T20:40:29.786053+01:00",
+      "brief_slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t"
+    },
+    "344fcd62c82a77ff": {
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-23T20:40:29.786053+01:00",
+      "brief_slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t",
+      "headline": "SMB Cyber Briefing: WordPress exploitation ramps up; eCommerce skimmers at scale; tainted npm/PyPI packages",
+      "risk_level": "High",
+      "todays_lookout": "Website takeover and payment card skimming risk (plus software supply-chain traps)",
+      "published_at": "2026-09-23T20:40:29.786053+01:00",
+      "published_label": "Wednesday 23 September 2026, 20:40 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+        "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+        "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html"
+      ]
+    },
     {
       "slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t",
       "headline": "SMB Cyber Intelligence Brief: Hosting and cloud account takeover risks to watch today",
@@ -9101,33 +9086,6 @@
         "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
         "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
         "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
-      ]
-    },
-    {
-      "slug": "2026-06-25-1924-today-s-smb-cyber-lookout-macos-info-stealers-and-account-takeover-fraud",
-      "headline": "Today’s SMB cyber lookout: macOS info‑stealers and account‑takeover fraud",
-      "risk_level": "Moderate",
-      "todays_lookout": "Mac malware + account takeover and fraud prevention hygiene",
-      "published_at": "2026-06-25T19:24:59.394037+01:00",
-      "published_label": "Thursday 25 June 2026, 19:24 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-        "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-        "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-        "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/"
-      ]
-    },
-    {
-      "slug": "2026-06-25-1612-today-s-smb-cyber-lookout-better-phishing-login-theft-and-risky-browser-add-ons",
-      "headline": "Today’s SMB cyber lookout: better phishing (login theft) and risky browser add‑ons",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover & phishing (browser-in-the-middle) plus browser extension risk",
-      "published_at": "2026-06-25T16:12:01.192971+01:00",
-      "published_label": "Thursday 25 June 2026, 16:12 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
-        "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-        "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/"
       ]
     }
   ]
