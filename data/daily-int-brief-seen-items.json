@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "9fda4c921855366e": {
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T11:20:59.003883+01:00",
-      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
-    },
-    "666b25b32ef0939b": {
-      "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-25T11:20:59.003883+01:00",
-      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
-    },
-    "b2d031cc00c908b1": {
-      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-25T11:20:59.003883+01:00",
-      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
-    },
-    "b4039c7adbb32e2b": {
-      "url": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-25T11:20:59.003883+01:00",
-      "brief_slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk"
-    },
     "25958024b280757e": {
       "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
       "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
@@ -5949,9 +5921,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-22T20:44:24.723820+01:00",
       "brief_slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo"
+    },
+    "879d2dbbe17ddaa7": {
+      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-23T13:45:09.178524+01:00",
+      "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
+    },
+    "178864dedd5d0fdb": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T13:45:09.178524+01:00",
+      "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
+    },
+    "eac3948f2b433c24": {
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T13:45:09.178524+01:00",
+      "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
+    },
+    "907c082edb0842ae": {
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+      "title": "Rogue external MFA providers can steal passwords during logins",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T13:45:09.178524+01:00",
+      "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
+    },
+    "a0cbe8a44ac42e90": {
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-23T13:45:09.178524+01:00",
+      "brief_slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-23-1345-smb-cyber-intelligence-brief-hosting-and-cloud-account-takeover-risks-to-watch-t",
+      "headline": "SMB Cyber Intelligence Brief: Hosting and cloud account takeover risks to watch today",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover via hosting panels, cloud logins and third‑party MFA/OAuth tricks",
+      "published_at": "2026-09-23T13:45:09.178524+01:00",
+      "published_label": "Wednesday 23 September 2026, 13:45 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+        "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+        "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+        "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+        "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/"
+      ]
+    },
     {
       "slug": "2026-09-22-2044-today-s-sme-cyber-lookout-device-code-phishing-wordpress-risk-and-msp-tool-explo",
       "headline": "Today’s SME cyber lookout: device‑code phishing, WordPress risk, and MSP tool exploitation",
@@ -9106,20 +9128,6 @@
         "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
         "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
         "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/"
-      ]
-    },
-    {
-      "slug": "2026-06-25-1120-browser-add-ons-and-fix-it-lures-practical-checks-to-reduce-ransomware-risk",
-      "headline": "Browser add-ons and “fix-it” lures: practical checks to reduce ransomware risk",
-      "risk_level": "High",
-      "todays_lookout": "Malicious browser extensions, “click-to-fix” style lures, and network edge device compromise",
-      "published_at": "2026-06-25T11:20:59.003883+01:00",
-      "published_label": "Thursday 25 June 2026, 11:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-        "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/"
       ]
     }
   ]

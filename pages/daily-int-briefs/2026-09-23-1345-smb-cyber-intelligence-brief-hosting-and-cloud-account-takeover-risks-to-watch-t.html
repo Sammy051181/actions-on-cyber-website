@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Hosting and cloud account takeover risks to watch today | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Hosting and cloud account takeover risks to watch today</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 23 September 2026, 13:45 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover via hosting panels, cloud logins and third‑party MFA/OAuth tricks
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s themes are about <strong>account takeover</strong> and <strong>supplier/managed service risk</strong> across common SME platforms:</p>
+<ul>
+  <li><strong>Web hosting control panels (cPanel)</strong>: issues reported that could allow a hosting account to escalate control on a server or interfere with other sites on shared hosting.</li>
+  <li><strong>WordPress and network devices</strong>: a threat actor has been reported exploiting WordPress and Zyxel switch weaknesses to access data.</li>
+  <li><strong>Cloud identity (Google Workspace)</strong>: real-world breach patterns include social engineering and malicious OAuth apps ("Sign in with Google" style approvals) to gain access without “breaking in”.</li>
+  <li><strong>Login/MFA supply chain abuse</strong>: researchers describe how a rogue external MFA provider, if registered by someone with privileged access, could capture passwords during legitimate logins.</li>
+  <li><strong>Remote/network management platforms</strong>: an actively exploited issue is being patched for Arista VeloCloud Orchestrator (on-prem deployments).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on <strong>outsourced IT</strong>, <strong>shared hosting</strong>, and <strong>cloud logins</strong> for day-to-day operations (email, website, booking systems, payments, and file storage). If a single admin account or supplier platform is compromised, attackers can:</p>
+<ul>
+  <li>take over email and use it to send believable invoice/payment-change fraud,</li>
+  <li>swap website content or add hidden redirect/malware,</li>
+  <li>steal contact lists and sensitive documents,</li>
+  <li>disrupt operations (lockouts, deletions, business email compromise),</li>
+  <li>use your brand/website to scam customers.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Google/Microsoft login prompts that feel “normal” but unusual timing</strong> (e.g., after an email urging you to “re-authenticate” or “approve access”).</li>
+  <li><strong>Unexpected new app connections</strong> to your Google Workspace (new OAuth app approvals), or admin consent prompts you didn’t request.</li>
+  <li><strong>New MFA/SSO settings</strong> or changes to authentication providers that your team didn’t plan.</li>
+  <li><strong>Website changes</strong>: unexplained redirects, new admin users in WordPress, or plugin/theme changes you didn’t authorise.</li>
+  <li><strong>Hosting anomalies</strong>: sudden password resets, unfamiliar control panel logins, or support tickets you didn’t raise.</li>
+  <li><strong>Network management alerts</strong> you can’t explain (especially if you use VeloCloud/SD-WAN tooling via an IT provider).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Social engineering + OAuth</strong>: trick staff into approving a malicious app so the attacker can read mail/files without needing the password again.</li>
+  <li><strong>Admin pathway abuse</strong>: if an attacker gains privileged/admin access (via phishing, password reuse, or supplier compromise), they may change MFA/SSO settings to intercept or retain access.</li>
+  <li><strong>Shared hosting blast radius</strong>: weaknesses in hosting platforms can turn “one compromised account” into broader server control, affecting multiple sites.</li>
+  <li><strong>Known exploited pathways on edge/management systems</strong>: attackers target internet-exposed management consoles because they can lead to wide access quickly.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Review cloud app access</strong>: check your Google Workspace (and other SaaS) for newly authorised third-party apps and remove anything not recognised.</li>
+  <li><strong>Protect admin accounts</strong>: ensure admin logins use strong MFA and are limited to the minimum number of people; avoid using day-to-day accounts as admins.</li>
+  <li><strong>Website/hosting quick audit</strong>: confirm who has cPanel/hosting logins, remove unused accounts, and verify WordPress admin users and plugins are expected.</li>
+  <li><strong>Confirm change control</strong>: require a second person check for changes to MFA/SSO settings, payment details, and DNS/hosting settings.</li>
+  <li><strong>Tell staff what to report</strong>: any unexpected “approve access” prompts, MFA changes, or login alerts should be reported immediately.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do any of our sites or client systems sit on <strong>cPanel</strong> or use <strong>WP Toolkit</strong>, and what’s your process to apply urgent fixes on shared hosting?</li>
+  <li>How do you monitor for and respond to <strong>new OAuth app consents</strong> or suspicious mailbox access in Google Workspace?</li>
+  <li>Who can change our <strong>MFA/SSO configuration</strong>, and what approval/audit trail exists for those changes?</li>
+  <li>Do we use (directly or via you) <strong>VeloCloud Orchestrator (on-prem)</strong> or similar network management tooling, and is it internet-exposed?</li>
+  <li>If our email/admin account is taken over, what is the <strong>first-hour plan</strong> (lockout steps, session revocation, sign-in log review, customer/supplier comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use a hosting provider running <strong>cPanel</strong> (or you self-host), ask for confirmation that fixes for the reported cPanel issues have been applied. Separately, if your IT stack includes <strong>Arista VeloCloud Orchestrator (on-prem)</strong>, treat this as urgent because it has been reported as <strong>actively exploited</strong>—your provider should confirm patching and that management interfaces are not openly exposed.</p>
+
+        <h2>One action today</h2>
+        <p>Review and remove any unfamiliar third‑party app/OAuth access in your Google Workspace (and other key SaaS) today, and confirm only approved admins can grant new app consents.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “SaaS takeover quick check (Google/Microsoft) – admins, MFA, OAuth apps and sign-in alerts”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html" rel="noopener noreferrer">New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/" rel="noopener noreferrer">Chinese hackers exploit WordPress, Zyxel flaws to steal govt data</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/" rel="noopener noreferrer">Webinar tomorrow: Inside real-world Google Workspace breaches</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/" rel="noopener noreferrer">Rogue external MFA providers can steal passwords during logins</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/" rel="noopener noreferrer">Arista patches actively exploited VeloCloud Orchestrator zero-day</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
