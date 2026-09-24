@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "a281862d1650b7fe": {
-      "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
-      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-26T15:47:04.951325+01:00",
-      "brief_slug": "2026-06-26-1547-today-s-smb-lookout-software-supply-chain-tampering-npm-github-actions-and-ai-co"
-    },
-    "1fc5c8704160b449": {
-      "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-26T15:47:04.951325+01:00",
-      "brief_slug": "2026-06-26-1547-today-s-smb-lookout-software-supply-chain-tampering-npm-github-actions-and-ai-co"
-    },
-    "4bce03ad94b4b3ea": {
-      "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
-      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-06-26T19:03:28.249562+01:00",
-      "brief_slug": "2026-06-26-1903-today-s-smb-cyber-lookout-messaging-app-phishing-and-fake-openai-organisation-in"
-    },
-    "db2eef207e4395b9": {
-      "url": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-26T19:03:28.249562+01:00",
-      "brief_slug": "2026-06-26-1903-today-s-smb-cyber-lookout-messaging-app-phishing-and-fake-openai-organisation-in"
-    },
     "890dfe9b44f3062f": {
       "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
       "title": "FBI: Russian hackers now target Signal backup recovery keys",
@@ -5935,9 +5907,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-24T13:43:25.683591+01:00",
       "brief_slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa"
+    },
+    "f6922c0e9c4bde56": {
+      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "3c5d9756b70db29c": {
+      "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "ab9e6d2169bc6936": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "title": "New RemControl Android banking malware targets users in Europe and Canada",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "00d7c4958ac55b4f": {
+      "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "d1ccb5f32ae97e15": {
+      "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "00b0cb7d2267d26c": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+      "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "eeeda4f678fad531": {
+      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
+    },
+    "88652842189aea57": {
+      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T20:59:25.092287+01:00",
+      "brief_slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-24-2059-today-s-smb-cyber-intelligence-brief-fake-cloudflare-verification-clickfix-lures",
+      "headline": "Today’s SMB Cyber Intelligence Brief: Fake “Cloudflare verification” (ClickFix) lures, Android banking/logistics spyware, and supply‑chain credential risks",
+      "risk_level": "High",
+      "todays_lookout": "Fake verification prompts and credential theft (ClickFix, Android malware) plus supplier/dev tool credential leakage",
+      "published_at": "2026-09-24T20:59:25.092287+01:00",
+      "published_label": "Thursday 24 September 2026, 20:59 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+        "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+        "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+        "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+        "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+        "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+        "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
+      ]
+    },
     {
       "slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa",
       "headline": "Today’s SMB cyber lookout: “ClickFix” web lures, Microsoft 365 weak passwords, and fast-moving WordPress attacks",
@@ -9070,30 +9116,6 @@
         "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
         "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
         "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-06-26-1903-today-s-smb-cyber-lookout-messaging-app-phishing-and-fake-openai-organisation-in",
-      "headline": "Today’s SMB cyber lookout: messaging-app phishing and fake OpenAI organisation invites",
-      "risk_level": "High",
-      "todays_lookout": "Account-takeover phishing via messaging apps and AI/SaaS impersonation invites",
-      "published_at": "2026-06-26T19:03:28.249562+01:00",
-      "published_label": "Friday 26 June 2026, 19:03 UK time",
-      "source_urls": [
-        "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
-        "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/"
-      ]
-    },
-    {
-      "slug": "2026-06-26-1547-today-s-smb-lookout-software-supply-chain-tampering-npm-github-actions-and-ai-co",
-      "headline": "Today’s SMB lookout: software supply-chain tampering (npm/GitHub Actions) and AI coding assistant workspace risks",
-      "risk_level": "High",
-      "todays_lookout": "Supplier / SaaS and software supply-chain risk (developer tools, GitHub Actions, npm, AI coding assistants)",
-      "published_at": "2026-06-26T15:47:04.951325+01:00",
-      "published_label": "Friday 26 June 2026, 15:47 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
-        "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html"
       ]
     }
   ]

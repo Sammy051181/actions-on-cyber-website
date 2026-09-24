@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Intelligence Brief: Fake “Cloudflare verification” (ClickFix) lures, Android banking/logistics spyware, and supply‑chain credential risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Intelligence Brief: Fake “Cloudflare verification” (ClickFix) lures, Android banking/logistics spyware, and supply‑chain credential risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 24 September 2026, 20:59 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Fake verification prompts and credential theft (ClickFix, Android malware) plus supplier/dev tool credential leakage
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is <strong>credential theft and ‘trusted path’ abuse</strong>: attackers are increasingly using familiar-looking prompts and legitimate-looking tools to trick staff into handing over access.</p>
+<ul>
+  <li><strong>Fake “Cloudflare verification” pages (ClickFix)</strong> served from compromised or unexpected websites, attempting to trick Windows users into running something locally.</li>
+  <li><strong>Android malware</strong> spread via malvertising and fake app pages, including banking-focused malware and spyware aimed at logistics.</li>
+  <li><strong>Software supply-chain and developer credential exposure</strong>, including secrets leaking faster in AI-assisted coding and malicious components being distributed via trusted developer ecosystems.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Single sign-on and email compromise risk:</strong> if staff credentials or browser sessions are stolen, attackers often pivot into Microsoft 365/Google Workspace, payroll, accounting, CRM and file storage.</li>
+  <li><strong>Payment diversion and invoice fraud:</strong> stolen mail access can lead to “change of bank details” scams and hijacked customer/supplier conversations.</li>
+  <li><strong>Mobile risk is business risk:</strong> Android infections can lead to bank fraud, SMS interception, call redirection and multi-factor authentication (MFA) bypass attempts.</li>
+  <li><strong>Supplier/outsourced IT exposure:</strong> if a contractor, agency, developer, MSP or software supplier leaks keys/tokens or pulls in a malicious dependency, your systems can be affected even if your staff did nothing wrong.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A web page unexpectedly asking you to <strong>“verify you are human”</strong> and then instructing you to <strong>copy/paste or run steps on your PC</strong>.</li>
+  <li>Staff reporting <strong>strange security checks</strong> on business sites they visit (including supplier portals), especially if it appears after clicking an advert.</li>
+  <li>New or unusual <strong>MFA prompts</strong>, password reset emails, or “new device signed in” alerts.</li>
+  <li>Phones with sudden accessibility/service permissions requested, battery drain, or suspicious behaviour after installing an app not from the official store.</li>
+  <li>Unexpected <strong>CI/CD or developer tool activity</strong> (new builds, jobs, commits, or automation running when nobody triggered it).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>ClickFix-style social engineering:</strong> a fake verification page attempts to persuade a user to perform an action on their own machine that leads to credential/session theft.</li>
+  <li><strong>Malvertising to fake apps:</strong> ads impersonate popular apps, pushing malware that targets banking credentials or intercepts communications.</li>
+  <li><strong>Developer ecosystem abuse:</strong> malicious modules/providers or compromised tooling can introduce malware into environments that have high privileges and access to secrets.</li>
+  <li><strong>Secrets sprawl:</strong> exposed API tokens/keys (including from AI-assisted commits) can be used to access cloud services, code repos, or third-party SaaS—often without triggering obvious “password” alerts.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (5 minutes):</strong> “If a website asks you to copy/paste commands, install something, or run a ‘verification’ step on your PC, stop and report it.”</li>
+  <li><strong>Reinforce safe browsing:</strong> be cautious with sponsored search results/ad links for apps and tools; use official app stores and known vendor pages.</li>
+  <li><strong>Protect business mobiles:</strong> ensure business Android devices are managed where possible; review permissions and block unknown app installs.</li>
+  <li><strong>Reduce credential blast radius:</strong> confirm MFA is on for email, accounting, payroll and admin accounts; ensure recovery methods are locked down.</li>
+  <li><strong>Developer/supplier hygiene (if you build software or manage integrations):</strong> confirm secrets are not committed to repos; review how third-party modules/providers are approved and monitored.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>controls to stop users running risky “verification” steps</strong> (e.g., blocking common script execution paths, and strong endpoint protections) and do we alert on it?</li>
+  <li>How quickly would we detect and respond to an <strong>email account takeover</strong> (new inbox rules, suspicious sign-ins, OAuth app consent, unusual forwarding)?</li>
+  <li>What is our policy for <strong>business Android devices</strong> (MDM, app allow-listing, unknown sources blocked, phishing protection)?</li>
+  <li>If we rely on developers/contractors, what do we use for <strong>secrets scanning</strong> and how do we rotate keys quickly if exposed?</li>
+  <li>Do we have a clear process for <strong>supplier risk</strong> where vendors/partners connect to our systems (tokens, API keys, shared accounts)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>No specific urgent patch story is the driver today. The practical focus is <strong>reducing social-engineering success</strong> (fake verification prompts) and <strong>limiting credential/token impact</strong> through MFA, device management, and monitoring for unusual sign-ins and automation activity.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “If any website asks you to copy/paste commands or run a ‘verification’ step on your PC, stop immediately and report it to IT.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Phishing &amp; social engineering reporting checklist (staff quick guide)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html" rel="noopener noreferrer">Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/" rel="noopener noreferrer">Placeholder domain used in dev docs now serves ClickFix attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/" rel="noopener noreferrer">New RemControl Android banking malware targets users in Europe and Canada</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html" rel="noopener noreferrer">Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html" rel="noopener noreferrer">Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/" rel="noopener noreferrer">Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure</a> <span class="muted">(Google Threat Intelligence)</span></li><li><a href="https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html" rel="noopener noreferrer">Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html" rel="noopener noreferrer">A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
