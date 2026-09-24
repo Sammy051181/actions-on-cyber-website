@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "8607abaa7554c7e7": {
-      "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-      "title": "Order-tracking app Shop abused to push callback phishing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-26T11:28:41.242140+01:00",
-      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
-    },
-    "f183838f79464db0": {
-      "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
-      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-26T11:28:41.242140+01:00",
-      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
-    },
-    "84c87a4a4c75cb35": {
-      "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
-      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-26T11:28:41.242140+01:00",
-      "brief_slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s"
-    },
     "a281862d1650b7fe": {
       "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
       "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
@@ -5928,9 +5907,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-23T20:40:29.786053+01:00",
       "brief_slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t"
+    },
+    "5408002adacbee0d": {
+      "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T13:43:25.683591+01:00",
+      "brief_slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa"
+    },
+    "b54ca687b5ebe9a5": {
+      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T13:43:25.683591+01:00",
+      "brief_slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa"
+    },
+    "baff1d5496fd8ebf": {
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-24T13:43:25.683591+01:00",
+      "brief_slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa"
+    },
+    "f5dd20ff54d8912d": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+      "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-24T13:43:25.683591+01:00",
+      "brief_slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-24-1343-today-s-smb-cyber-lookout-clickfix-web-lures-microsoft-365-weak-passwords-and-fa",
+      "headline": "Today’s SMB cyber lookout: “ClickFix” web lures, Microsoft 365 weak passwords, and fast-moving WordPress attacks",
+      "risk_level": "High",
+      "todays_lookout": "Web-based social engineering and SaaS account takeovers leading to ransomware and fraud",
+      "published_at": "2026-09-24T13:43:25.683591+01:00",
+      "published_label": "Thursday 24 September 2026, 13:43 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+        "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+        "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/"
+      ]
+    },
     {
       "slug": "2026-09-23-2040-smb-cyber-briefing-wordpress-exploitation-ramps-up-ecommerce-skimmers-at-scale-t",
       "headline": "SMB Cyber Briefing: WordPress exploitation ramps up; eCommerce skimmers at scale; tainted npm/PyPI packages",
@@ -9073,19 +9094,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
         "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-06-26-1128-today-s-smb-cyber-lookout-callback-phishing-via-order-tracking-zip-photo-lures-s",
-      "headline": "Today’s SMB cyber lookout: callback phishing via order tracking + ZIP ‘photo’ lures + SIM-swap account takeovers",
-      "risk_level": "High",
-      "todays_lookout": "Phishing and account takeover via trusted apps and phone-based social engineering",
-      "published_at": "2026-06-26T11:28:41.242140+01:00",
-      "published_label": "Friday 26 June 2026, 11:28 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-        "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
-        "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
       ]
     }
   ]
