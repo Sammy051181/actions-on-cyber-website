@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "b2c74908a5fe6c65": {
-      "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "title": "Polymarket customers lose $3 million in supply-chain attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-27T15:05:49.580533+01:00",
-      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
-    },
-    "6c3a9a3ac3345df7": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-27T15:05:49.580533+01:00",
-      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
-    },
-    "106115782ae58fb8": {
-      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-27T15:05:49.580533+01:00",
-      "brief_slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin"
-    },
-    "de56754b14d8a74b": {
-      "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "title": "Clean GitHub repo tricks AI coding agents into running malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-27T18:22:18.861804+01:00",
-      "brief_slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi"
-    },
     "e86a6f4ab0d92bbe": {
       "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
       "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
@@ -5977,9 +5949,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-25T13:45:40.150647+01:00",
       "brief_slug": "2026-09-25-1345-smb-cyber-brief-webmail-exploitation-router-docker-takeovers-and-supplier-incide"
+    },
+    "4731c385479bc82a": {
+      "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "7265697f416b0e92": {
+      "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "6c0fd01aad01baff": {
+      "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+      "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "2432248e2b723547": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "a5a9e1cc2eb446d1": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "53c3f861257c2745": {
+      "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+      "title": "Elementor WordPress flaw lets attackers create admin accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-25T21:01:14.230033+01:00",
+      "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi",
+      "headline": "Today’s SME cyber lookout: macOS stealers, GitHub Actions supply-chain risk, and high-noise website attacks",
+      "risk_level": "High",
+      "todays_lookout": "Software supply-chain and endpoint credential-stealing risks (plus noisy website compromise attempts)",
+      "published_at": "2026-09-25T21:01:14.230033+01:00",
+      "published_label": "Friday 25 September 2026, 21:01 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+        "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+        "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+        "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/"
+      ]
+    },
     {
       "slug": "2026-09-25-1345-smb-cyber-brief-webmail-exploitation-router-docker-takeovers-and-supplier-incide",
       "headline": "SMB Cyber Brief: Webmail exploitation, router/Docker takeovers, and supplier-incident scam risk",
@@ -9108,30 +9138,6 @@
       "published_label": "Sunday 28 June 2026, 11:08 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
-      ]
-    },
-    {
-      "slug": "2026-06-27-1822-today-s-smb-cyber-lookout-clean-github-projects-that-trigger-malware-via-ai-codi",
-      "headline": "Today’s SMB cyber lookout: “clean” GitHub projects that trigger malware via AI coding agents",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier / open‑source repo risk and AI-assisted development setups",
-      "published_at": "2026-06-27T18:22:18.861804+01:00",
-      "published_label": "Saturday 27 June 2026, 18:22 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
-      ]
-    },
-    {
-      "slug": "2026-06-27-1505-today-s-smb-cyber-lookout-supplier-web-script-attacks-windows-10-support-plannin",
-      "headline": "Today’s SMB cyber lookout: supplier web script attacks + Windows 10 support planning",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier / third‑party web compromise and knock‑on scams",
-      "published_at": "2026-06-27T15:05:49.580533+01:00",
-      "published_label": "Saturday 27 June 2026, 15:05 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-        "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html"
       ]
     }
   ]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: macOS stealers, GitHub Actions supply-chain risk, and high-noise website attacks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: macOS stealers, GitHub Actions supply-chain risk, and high-noise website attacks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 25 September 2026, 21:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Software supply-chain and endpoint credential-stealing risks (plus noisy website compromise attempts)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>macOS credential/data-stealing malware is evolving</strong> (PamStealer; MacSync). Expect more convincing lures and quieter persistence on Macs, including abuse of trusted Apple services and “phone-home” decryption that makes analysis harder.</li>
+  <li><strong>Software supply-chain risk via GitHub Actions</strong>: previously-compromised “actions-cool” GitHub Actions reportedly reappeared and resumed executing malicious behaviour. This is a reminder that third-party CI/CD components can be a hidden route into builds and deployments.</li>
+  <li><strong>Website/admin takeover attempts remain a common disruption path</strong>: WordPress and popular components are still a frequent target, and CISA also flagged active exploitation for issues including SharePoint and RouterOS. Even if you’re not “federal”, the attacker interest is a useful warning signal.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a mix of Macs, cloud apps, and outsourced web/IT support. Infostealers on a single device can lead to mailbox compromise, invoice fraud, payroll diversion, and customer data exposure. Supply-chain issues (like compromised CI/CD actions) can affect you indirectly if your developer, web agency, MSP, or SaaS vendor uses impacted tooling. Finally, website compromise attempts can quickly become a trading disruption (defacement, SEO spam, redirects, or stolen admin access).</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Mac users reporting unexpected prompts, security pop-ups, or requests to “allow” automation/accessibility permissions they don’t recognise.</li>
+  <li>Unexplained login alerts or new devices/sessions in Microsoft 365/Google/admin portals shortly after a Mac user installs/opens something.</li>
+  <li>Sudden changes in website admin users (new admin accounts), unexpected plugin/theme changes, or content/redirect changes.</li>
+  <li>Build/deploy pipelines behaving oddly: new workflow changes you didn’t author, unusual outbound connections during builds, or deployments happening outside normal release windows.</li>
+  <li>Router/internet issues that coincide with suspicious admin logins or configuration changes (especially if you use MikroTik).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Mac infostealers</strong> aim to capture saved passwords, browser sessions, cookies/tokens, and sometimes crypto-wallet or keychain-related data—then reuse access to email, accounting, and cloud apps to pivot into fraud.</li>
+  <li><strong>Calendar/“trusted service” abuse</strong> can help malware blend in with normal traffic and update itself without obvious downloads.</li>
+  <li><strong>CI/CD supply-chain compromise</strong> can inject unwanted code or leak secrets (API keys, deployment credentials) from build environments—impacting websites and apps you run or host for customers.</li>
+  <li><strong>Website/admin takeover</strong> commonly leads to SEO spam, malicious redirects, or new admin accounts that persist even after a quick clean-up.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Mac check-in:</strong> remind staff not to approve unusual system permission prompts. If a prompt looks odd, they should stop and report it.</li>
+  <li><strong>Token hygiene:</strong> ensure MFA is enabled on email, accounting, and admin portals; review recent sign-in logs for unusual locations/devices.</li>
+  <li><strong>Website basics:</strong> confirm you can identify all current WordPress/admin users; remove unknown accounts; ensure backups are working and restorable.</li>
+  <li><strong>Supplier check:</strong> if you use a web agency/dev partner, ask what they use in their GitHub Actions/CI pipelines and whether they had any exposure to compromised third-party actions.</li>
+  <li><strong>Prepare for invoice fraud:</strong> remind finance teams to verify any bank detail changes via a known-good channel (not email reply).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have visibility of Mac endpoints (managed AV/EDR, device management), and can we quickly isolate a suspected infected Mac?</li>
+  <li>Do we monitor for unusual cloud sign-ins (Microsoft 365/Google), impossible travel, and new OAuth app consents?</li>
+  <li>If we (or our suppliers) use GitHub Actions/CI: do we pin actions to known-good versions, review third-party actions, and rotate secrets when a supply-chain alert occurs?</li>
+  <li>For our website: who has admin access, how is it reviewed, and what’s the recovery plan if an admin account is silently added?</li>
+  <li>For routers/firewalls (especially MikroTik): who manages firmware/config changes and how do we detect suspicious logins/config edits?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA added actively exploited issues to its KEV catalogue today, including items affecting WordPress core, Microsoft SharePoint and MikroTik RouterOS. For SMEs, treat KEV additions as a prompt to confirm your website platform, any on-prem SharePoint, and edge networking kit are under active maintenance by whoever supports you—and that internet-facing services aren’t being left to drift.</p>
+
+        <h2>One action today</h2>
+        <p>Run a 15-minute access check: review (1) Microsoft 365/Google recent sign-ins, (2) WordPress/admin users, and (3) any recent CI/CD workflow changes—escalate anything unfamiliar to your IT support immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Invoice fraud &amp; bank detail change verification (call-back process) + suspicious login triage for Microsoft 365/Google”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html" rel="noopener noreferrer">PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/" rel="noopener noreferrer">MacSync malware uses public iCloud calendars to deliver new payloads</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/compromised-github-actions-came-back.html" rel="noopener noreferrer">Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog" rel="noopener noreferrer">CISA Adds Two Known Exploited Vulnerabilities to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/" rel="noopener noreferrer">Elementor WordPress flaw lets attackers create admin accounts</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
