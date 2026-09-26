@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "e86a6f4ab0d92bbe": {
-      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-28T11:08:46.377057+01:00",
-      "brief_slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today"
-    },
     "5a776720550c539d": {
       "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
@@ -5991,9 +5984,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-25T21:01:14.230033+01:00",
       "brief_slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi"
+    },
+    "3e6437721d938a62": {
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-26T13:13:49.614992+01:00",
+      "brief_slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a"
+    },
+    "16e6f1ff0925d127": {
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-26T13:13:49.614992+01:00",
+      "brief_slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a"
+    },
+    "0d4d5cdcaf338953": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+      "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-09-26T13:13:49.614992+01:00",
+      "brief_slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a"
+    },
+    "087d84aa6c29cc34": {
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-26T13:13:49.614992+01:00",
+      "brief_slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a",
+      "headline": "Weekend watch: Kiteworks emergency shutdown advice, renewed PeopleSoft targeting, and WordPress admin‑link takeover risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and SaaS incident scams + urgent shutdown notices + website admin takeover via crafted links",
+      "published_at": "2026-09-26T13:13:49.614992+01:00",
+      "published_label": "Saturday 26 September 2026, 13:13 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+        "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+        "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
+      ]
+    },
     {
       "slug": "2026-09-25-2101-today-s-sme-cyber-lookout-macos-stealers-github-actions-supply-chain-risk-and-hi",
       "headline": "Today’s SME cyber lookout: macOS stealers, GitHub Actions supply-chain risk, and high-noise website attacks",
@@ -9127,17 +9162,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
         "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
-      ]
-    },
-    {
-      "slug": "2026-06-28-1108-fake-support-texts-stealing-messaging-logins-what-to-warn-staff-about-today",
-      "headline": "Fake “support” texts stealing messaging logins: what to warn staff about today",
-      "risk_level": "High",
-      "todays_lookout": "Impersonated support messages and MFA-code harvesting targeting messaging accounts",
-      "published_at": "2026-06-28T11:08:46.377057+01:00",
-      "published_label": "Sunday 28 June 2026, 11:08 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
       ]
     }
   ]
