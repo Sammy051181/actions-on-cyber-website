@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "5a776720550c539d": {
-      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-28T15:14:53.729572+01:00",
-      "brief_slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls"
-    },
-    "3fad703538ade23a": {
-      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-28T15:14:53.729572+01:00",
-      "brief_slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls"
-    },
     "cec26a23b69ea29a": {
       "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
       "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
@@ -6012,9 +5998,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-26T13:13:49.614992+01:00",
       "brief_slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a"
+    },
+    "b597d5341c3fff2c": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-26T17:25:54.614739+01:00",
+      "brief_slug": "2026-09-26-1725-smb-cyber-intelligence-brief-microsoft-365-update-disruption-github-actions-supp"
+    },
+    "fa5c037c6dc25b42": {
+      "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-26T17:25:54.614739+01:00",
+      "brief_slug": "2026-09-26-1725-smb-cyber-intelligence-brief-microsoft-365-update-disruption-github-actions-supp"
+    },
+    "17579509bdfc5756": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-26T17:25:54.614739+01:00",
+      "brief_slug": "2026-09-26-1725-smb-cyber-intelligence-brief-microsoft-365-update-disruption-github-actions-supp"
+    },
+    "049c4c6d156c4523": {
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-26T17:25:54.614739+01:00",
+      "brief_slug": "2026-09-26-1725-smb-cyber-intelligence-brief-microsoft-365-update-disruption-github-actions-supp"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-26-1725-smb-cyber-intelligence-brief-microsoft-365-update-disruption-github-actions-supp",
+      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 update disruption, GitHub Actions supply-chain risk, and AI agent data leakage",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS disruption and software supply-chain risk (plus AI tool data leakage)",
+      "published_at": "2026-09-26T17:25:54.614739+01:00",
+      "published_label": "Saturday 26 September 2026, 17:25 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+        "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+        "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
+      ]
+    },
     {
       "slug": "2026-09-26-1313-weekend-watch-kiteworks-emergency-shutdown-advice-renewed-peoplesoft-targeting-a",
       "headline": "Weekend watch: Kiteworks emergency shutdown advice, renewed PeopleSoft targeting, and WordPress admin‑link takeover risk",
@@ -9150,18 +9178,6 @@
       "published_label": "Sunday 28 June 2026, 18:35 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
-      ]
-    },
-    {
-      "slug": "2026-06-28-1514-today-s-sme-cyber-lookout-targeted-quiet-intrusions-and-ai-tool-access-controls",
-      "headline": "Today’s SME cyber lookout: targeted ‘quiet’ intrusions and AI tool access controls",
-      "risk_level": "Moderate",
-      "todays_lookout": "Targeted phishing leading to remote-access backdoors; plus governance around new AI tools and data sharing",
-      "published_at": "2026-06-28T15:14:53.729572+01:00",
-      "published_label": "Sunday 28 June 2026, 15:14 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-        "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
       ]
     }
   ]

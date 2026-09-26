@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Microsoft 365 update disruption, GitHub Actions supply-chain risk, and AI agent data leakage | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Microsoft 365 update disruption, GitHub Actions supply-chain risk, and AI agent data leakage</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 26 September 2026, 17:25 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS disruption and software supply-chain risk (plus AI tool data leakage)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Microsoft 365 update disruption:</strong> Microsoft has paused a Microsoft 365 update (KB5002907) after reports it deactivated or removed perpetual Office 2016/2019 installations. Expect possible licensing/app availability issues on affected PCs.</li>
+  <li><strong>Software supply-chain risk (GitHub Actions):</strong> Two third-party GitHub Actions previously compromised were re-enabled while still pointing to malicious code, highlighting ongoing risk from CI/CD dependencies.</li>
+  <li><strong>AI agent data leakage:</strong> OpenAI says its AI agents accidentally uploaded user-provided images to third-party image-hosting services during tasks. Treat AI “agent” features as a data-sharing channel unless proven otherwise.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs depend heavily on a small number of suppliers (Microsoft 365, cloud services, MSPs, and developer tooling). When an update breaks licensing, a third-party component is compromised, or an AI tool shares files externally, the impact is immediate: staff downtime, missed deadlines, invoicing delays, and potential data protection headaches.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Office suddenly deactivated/unlicensed</strong>, prompts to re-activate, or Office apps missing on machines that previously had Office 2016/2019 installed.</li>
+  <li><strong>Unexpected build/deployment behaviour</strong> (new network connections, new packages, altered artefacts) after no intentional change to your code.</li>
+  <li><strong>Developers reporting “pipeline weirdness”</strong>: failed builds, new steps appearing, or secrets/variables behaving oddly.</li>
+  <li><strong>Staff using AI agents for “helpful tasks”</strong> (research, drafting, form filling) and attaching screenshots/images containing customer data, ID documents, invoices, medical/safeguarding info, or internal system screens.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Opportunistic phishing during disruption:</strong> If users see Office licensing problems, attackers may send fake “Microsoft reactivation” emails/messages to steal passwords and MFA codes.</li>
+  <li><strong>Compromised automation components:</strong> Malicious GitHub Actions can be used to access build secrets, publish tampered releases, or move into connected cloud environments.</li>
+  <li><strong>Data exposure via AI workflows:</strong> If AI agents upload files/images to third-party services, sensitive data can leak outside your organisation’s control and retention policies.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Microsoft 365/Office check:</strong> Ask whoever manages IT to confirm whether your estate received the paused update and whether any devices show Office deactivation/removal symptoms. Tell staff to report Office “activation” pop-ups rather than trying random fixes.</li>
+  <li><strong>Phishing heads-up:</strong> Warn staff: do not follow “reactivate Office” links from email/Teams/SMS. Use your normal internal IT route.</li>
+  <li><strong>GitHub Actions hygiene (if you develop or use CI/CD):</strong> Inventory third-party Actions in use and temporarily block/limit unpinned or newly re-enabled dependencies until reviewed. Ensure pipelines use least privilege and that secrets are tightly scoped.</li>
+  <li><strong>AI agent guardrails:</strong> Remind teams: do not upload customer/staff documents or screenshots into AI agent tools unless explicitly approved. Prefer redacted samples. Confirm where files are stored and shared.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Have any of our PCs been impacted by the paused Microsoft 365 update, and what’s the recovery plan if Office was removed/deactivated?</li>
+  <li>Do we have monitoring for sudden spikes in Microsoft sign-in failures or suspicious “licence/activation” themed phishing attempts?</li>
+  <li>If we use GitHub (or any CI/CD), are third-party Actions pinned/approved, and do we have a process to rapidly disable risky pipeline dependencies?</li>
+  <li>Do we have a written policy on AI tools/agents covering what data is allowed, and do we have an approved list of tools for staff?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged active exploitation of flaws affecting Microsoft SharePoint and MikroTik RouterOS. Even if you don’t manage these directly, ask your IT provider/MSP to confirm whether you have any SharePoint servers or MikroTik routers in your environment (including at branch sites) and whether mitigation is in place.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “If Office asks you to re-activate or looks unlicensed, don’t click links or enter passwords—report it to IT immediately,” and have IT confirm whether KB5002907 reached your devices.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Supplier &amp; SaaS Incident Quick Check’ checklist (what to verify, what to tell staff, and what to ask your provider during disruptions).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/" rel="noopener noreferrer">Microsoft pauses KB5002907 update after Office license deactivations</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/" rel="noopener noreferrer">GitHub Actions re-enabled with Mini Shai-Hulud payload still active</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/" rel="noopener noreferrer">OpenAI&#x27;s AI agents accidentally uploaded user-provided images to third-party sites</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html" rel="noopener noreferrer">SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
