@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "4913d1691ebd55e4": {
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-      "title": "Webinar: Why business email compromise attacks keep succeeding",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-29T17:10:58.034068+01:00",
-      "brief_slug": "2026-06-29-1710-cyber-story-smes-should-watch-today"
-    },
-    "52781c932d2c42d8": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
-    "8ca2d56d86cf5ad2": {
-      "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
-    "4516104fbc956f07": {
-      "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
-    "d624e54e462efb13": {
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-      "title": "WhatsApp rolls out usernames to help users hide their phone number",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
-    "6e3b2d10bc0fe15f": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
-    "ad4d93174220db78": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-29T19:22:51.074896+01:00",
-      "brief_slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s"
-    },
     "2f24b5758f06196a": {
       "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
       "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
@@ -6033,9 +5984,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-27T14:01:04.823992+01:00",
       "brief_slug": "2026-09-27-1401-sunday-smb-cyber-brief-fake-verification-pages-stealing-logins-active-attacks-on"
+    },
+    "0954e8dba9d8d673": {
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-27T20:45:54.075555+01:00",
+      "brief_slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex"
+    },
+    "4aac976e74b6f04f": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-27T20:45:54.075555+01:00",
+      "brief_slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex"
+    },
+    "cf659e9658b9aff5": {
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-27T20:45:54.075555+01:00",
+      "brief_slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex"
+    },
+    "5569bca5352ec422": {
+      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "source": "Krebs on Security",
+      "seen_at": "2026-09-27T20:45:54.075555+01:00",
+      "brief_slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex",
+      "headline": "SMB Cyber Intelligence Brief: Supplier access risk (Citrix NetScaler), cloud data exposure, and telecom impersonation scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and remote access perimeter risk (Citrix/hosted services), plus cloud data exposure",
+      "published_at": "2026-09-27T20:45:54.075555+01:00",
+      "published_label": "Sunday 27 September 2026, 20:45 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/"
+      ]
+    },
     {
       "slug": "2026-09-27-1401-sunday-smb-cyber-brief-fake-verification-pages-stealing-logins-active-attacks-on",
       "headline": "Sunday SMB Cyber Brief: fake verification pages stealing logins + active attacks on business systems",
@@ -9149,33 +9142,6 @@
         "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
         "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
         "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
-      ]
-    },
-    {
-      "slug": "2026-06-29-1922-smb-cyber-brief-mon-29-jun-2026-remote-support-tool-exploitation-mass-phishing-s",
-      "headline": "SMB Cyber Brief (Mon 29 Jun 2026): Remote support tool exploitation + mass phishing/scam sites",
-      "risk_level": "High",
-      "todays_lookout": "MSP / remote support compromise risk and high-volume phishing & scam infrastructure",
-      "published_at": "2026-06-29T19:22:51.074896+01:00",
-      "published_label": "Monday 29 June 2026, 19:22 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-        "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-        "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-        "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-        "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-        "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-06-29-1710-cyber-story-smes-should-watch-today",
-      "headline": "Cyber story SMEs should watch today",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier, scam or disruption risk",
-      "published_at": "2026-06-29T17:10:58.034068+01:00",
-      "published_label": "Monday 29 June 2026, 17:10 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/"
       ]
     }
   ]

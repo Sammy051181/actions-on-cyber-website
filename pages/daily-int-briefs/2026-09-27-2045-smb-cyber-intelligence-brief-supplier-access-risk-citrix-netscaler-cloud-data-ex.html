@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: Supplier access risk (Citrix NetScaler), cloud data exposure, and telecom impersonation scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: Supplier access risk (Citrix NetScaler), cloud data exposure, and telecom impersonation scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 27 September 2026, 20:45 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams and remote access perimeter risk (Citrix/hosted services), plus cloud data exposure
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Supplier/MSP disruption risk:</strong> Citrix has confirmed two NetScaler remote-code-execution zero-days are being actively exploited. If your IT provider, hosting partner, or a supplier uses NetScaler, this can become <em>your</em> incident fast (email access, VPN access, internal apps).</li>
+  <li><strong>Cloud multi-tenant data exposure risk:</strong> Cloudflare says it has fixed a cross-tenant issue in Containers/Sandboxes where residual data from other customers’ containers could be recovered in some circumstances. This is mainly relevant if you (or your developer/agency) run workloads on Cloudflare Workers/Containers.</li>
+  <li><strong>Telecom account abuse/impersonation backdrop:</strong> A sentencing case highlights how stolen mobile call/text metadata can be abused for extortion and account takeover. This is a reminder to harden mobile-number-based security and be alert for SIM-swap style fraud.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a small number of external services for remote access, hosting, email and authentication. When perimeter products (like NetScaler) are actively exploited, attackers frequently target the provider first, then reuse access across multiple client organisations. Separately, cloud platform issues and mobile account misuse can lead to data exposure, password resets being intercepted, and payment diversion attempts.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected password reset emails or MFA prompts for email, VPN, or admin accounts.</li>
+  <li>Staff reporting their mobile signal suddenly dropping, or their number “stops working” (possible SIM swap), followed by account reset attempts.</li>
+  <li>Suppliers or IT providers becoming briefly unreachable, or asking to “urgently” change login methods or share new remote access links.</li>
+  <li>Unusual login notifications from cloud/admin portals at odd times, or from unfamiliar locations.</li>
+  <li>Requests to change bank details or payment instructions that reference an “ongoing security incident” as the reason for urgency.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Exploit perimeter systems at a provider:</strong> Use exploited NetScaler access to move into internal systems, harvest credentials, and access customer environments.</li>
+  <li><strong>Follow-on phishing:</strong> Impersonate your IT provider or a well-known supplier after a public security story breaks, asking staff to log in to a fake portal or approve MFA.</li>
+  <li><strong>Account takeover via mobile number:</strong> Use telecom-linked data and social engineering to target password resets, intercept verification codes, or intimidate staff into approving access.</li>
+  <li><strong>Cloud data “spillover” risk:</strong> Where you use managed container services, residual data issues can create compliance and confidentiality concerns—especially for regulated data.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-line staff warning:</strong> “Expect supplier/IT impersonation emails this week. Don’t approve MFA prompts you didn’t start. Payment/bank changes must be verified by a known phone number.”</li>
+  <li><strong>Check your supplier map:</strong> Identify whether your IT provider/hosting partner uses Citrix NetScaler anywhere in your service chain.</li>
+  <li><strong>Harden payment processes:</strong> Reconfirm your call-back verification steps for bank detail changes and urgent invoices (no exceptions).</li>
+  <li><strong>Reduce reliance on SMS where you can:</strong> Prefer app-based authenticator or passkeys for key accounts (email, finance, payroll, cloud admin).</li>
+  <li><strong>If you use Cloudflare Workers/Containers via an agency:</strong> Ask what data is stored in containers, whether secrets are rotated, and what logging exists to detect abnormal access.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do you (or any of our hosting/supplier stack) use <strong>Citrix NetScaler</strong>? If yes, what is your mitigation status and how are you monitoring for suspicious access?</li>
+  <li>What is our fastest containment plan if a supplier remote access platform is compromised (disable VPN, rotate keys, force password resets, lock down admin accounts)?</li>
+  <li>Which of our accounts still rely on <strong>SMS-based MFA</strong> (email, Microsoft 365/Google, finance/payroll, domain registrar)? What’s the plan to reduce that exposure?</li>
+  <li>If we run any workloads on Cloudflare (Workers/Containers), what data is processed there and what’s our assurance/attestation from Cloudflare plus our own monitoring?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Citrix has confirmed two NetScaler vulnerabilities are being actively exploited and CISA has added them to its Known Exploited Vulnerabilities catalogue. If your organisation (or your provider) uses NetScaler, treat this as urgent supplier risk: confirm remediation, compensating controls, and evidence of monitoring—don’t assume it “doesn’t apply” just because you outsource IT.</p>
+
+        <h2>One action today</h2>
+        <p>Email staff today: remind them not to approve unexpected MFA prompts and to verify any bank detail or payment instruction changes using a known phone number (not details in the email).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier compromise &amp; invoice fraud call-back procedure (bank detail change verification)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/" rel="noopener noreferrer">Citrix confirms two NetScaler RCE zero-days exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog" rel="noopener noreferrer">CISA Adds Two Known Exploited Vulnerabilities to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/" rel="noopener noreferrer">Cloudflare fixes Containers cross-tenant flaw exposing customer data</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/" rel="noopener noreferrer">U.S. Soldier Gets 70 Months in Prison for AT&amp;T, Verizon Extortions</a> <span class="muted">(Krebs on Security)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
