@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Sunday SMB Cyber Brief: fake verification pages stealing logins + active attacks on business systems | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Sunday SMB Cyber Brief: fake verification pages stealing logins + active attacks on business systems</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 27 September 2026, 14:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft via fake “verification/CAPTCHA” pages and renewed exploitation of internet-facing business platforms
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Fake “verification”/CAPTCHA pages used to trick staff into running steps that lead to password and browser-session theft.</strong> Reports describe ClickFix-style lures where a site shows a fake Cloudflare-style check and prompts users to complete actions that ultimately install an information-stealing malware focused on browser credentials.</p>
+<p><strong>2) Renewed exploitation against internet-facing business platforms.</strong> Multiple reports flag active attacks against enterprise web systems (including Oracle PeopleSoft) and warnings that some widely used platforms are being exploited in the wild.</p>
+<p><strong>3) Citrix NetScaler remote access: unpatched zero-days reported under active exploitation.</strong> If your organisation (or IT provider) uses NetScaler for VPN/remote access/app delivery, treat this as an urgent exposure-management issue.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Credential theft is a fast path to fraud.</strong> If an attacker steals browser passwords/session cookies, they may access email, Microsoft 365/Google, bookkeeping, payroll, CRMs and banking portals without needing to "hack" anything else.</li>
+  <li><strong>SMEs often inherit risk via suppliers.</strong> Hosted HR/payroll portals, MSP remote tools, web agencies and managed hosting can expose you if they run vulnerable internet-facing systems.</li>
+  <li><strong>Disruption cascades quickly.</strong> Even if you’re not running PeopleSoft/Citrix yourself, your suppliers might—leading to invoice fraud, account takeover, or service outages that hit you.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A website unexpectedly shows a “verify you are human” page that asks you to <strong>copy/paste</strong> something, run unusual steps, or enable extra permissions.</li>
+  <li>Staff report being repeatedly prompted to re-authenticate to email/Teams/SharePoint/Google Workspace, or MFA prompts they did not initiate.</li>
+  <li>New “inbox rules”, strange auto-forwarding, or unexpected OAuth/app consents in Microsoft 365/Google.</li>
+  <li>Unexplained logins from new locations/devices, or multiple failed logins followed by a success.</li>
+  <li>Suppliers warning of “maintenance”, “security incidents”, or asking you to “re-verify” access via a link.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>ClickFix-style social engineering:</strong> attackers compromise websites or place malicious content and then use fake verification/CAPTCHA workflows to get a user to perform steps that lead to malware install and credential theft.</li>
+  <li><strong>Targeting exposed web apps:</strong> attackers scan for internet-facing business systems and use bypass techniques to get around common perimeter filtering, then plant persistence and extract data.</li>
+  <li><strong>Remote access appliance compromise:</strong> if edge devices (like remote access gateways) are compromised, attackers can pivot into internal systems, harvest credentials, and deploy ransomware or conduct data theft.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Staff message (5 minutes):</strong> “Do not follow any website instructions that involve copying/pasting commands, running scripts, or ‘verifying’ via unusual steps. If in doubt, close the tab and report it.”</li>
+  <li><strong>Protect browsers and email accounts:</strong> ensure MFA is enforced on email, finance, payroll and admin accounts; review any newly-approved apps/integrations.</li>
+  <li><strong>Check for account takeover indicators:</strong> review recent sign-in logs for admin and finance users; look for new forwarding rules and unusual OAuth consents.</li>
+  <li><strong>Confirm what’s internet-facing:</strong> ask your IT provider to list any public-facing portals/appliances (remote access, web apps, CMS, customer portals) and confirm monitoring is active.</li>
+  <li><strong>Prepare for supplier ripple effects:</strong> remind finance teams to validate bank detail changes using a known phone number (not one in an email).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or any of our suppliers you manage) use <strong>Citrix NetScaler</strong> for remote access or application delivery? If yes, what immediate risk-reduction steps are in place while fixes are pending?</li>
+  <li>Are any of our systems running <strong>Oracle PeopleSoft</strong>, or are we reliant on a hosted PeopleSoft provider? What monitoring is in place for suspicious web activity and unexpected admin actions?</li>
+  <li>Have you checked our Microsoft 365/Google tenant for <strong>new inbox rules, forwarding, suspicious logins, or risky OAuth app consents</strong> in the last 24–48 hours?</li>
+  <li>What’s our process if a user reports a “verification/CAPTCHA” page asking them to run steps—who do they tell, and what gets checked?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Several reports highlight active exploitation affecting widely deployed platforms and edge devices, including unpatched Citrix NetScaler zero-days and renewed attacks against Oracle PeopleSoft, plus warnings of exploited flaws in products such as SharePoint/WSO2/Adobe Commerce. Rather than focusing on versions, the key SME action is to confirm with your IT provider what public-facing systems you have, what’s monitored, and what emergency mitigations or temporary exposure reductions are in place.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: do not complete any ‘verification/CAPTCHA’ steps that involve copying/pasting or running anything—close the page and report it to IT.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Email account takeover quick checks (forwarding rules, suspicious logins, MFA fatigue and OAuth consents)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html" rel="noopener noreferrer">Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/" rel="noopener noreferrer">ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html" rel="noopener noreferrer">Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/" rel="noopener noreferrer">CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html" rel="noopener noreferrer">Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
