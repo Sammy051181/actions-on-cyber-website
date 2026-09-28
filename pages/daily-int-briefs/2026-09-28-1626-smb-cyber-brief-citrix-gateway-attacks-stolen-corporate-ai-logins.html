@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: Citrix gateway attacks + stolen corporate AI logins | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: Citrix gateway attacks + stolen corporate AI logins</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 28 September 2026, 16:26 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access / supplier gateway risk and AI account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Two practical look-outs for SMEs today:</strong></p>
+<ul>
+  <li><strong>Remote access gateway risk (Citrix NetScaler):</strong> UK and US authorities are warning that some Citrix NetScaler flaws are being <strong>actively exploited</strong>. If your business (or your IT provider) uses NetScaler for VPN/remote access or publishing internal apps, treat this as urgent.</li>
+  <li><strong>Stolen AI logins and sessions:</strong> Reporting suggests <strong>AI account credentials/sessions tied to 80,000+ corporate domains</strong> were exposed via infostealer logs. This increases the chance of AI account takeover, data leakage via chat history, and misuse of connected tools.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>One exposed gateway can become “the front door” for an attacker</strong>—leading to account compromise, ransomware, or business email takeover.</li>
+  <li><strong>AI tools are now inside business workflows</strong> (drafting emails, summarising customer data, generating invoices, querying documents). If an attacker gets into an AI account, they may gain access to sensitive prompts, uploaded files, shared workspaces, or connected systems.</li>
+  <li><strong>Dependency risk:</strong> even if you don’t run Citrix yourself, your <strong>MSP, hosting provider, or larger customer</strong> might—disruption can ripple into your operations.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff can’t access remote apps/VPN, or remote access is suddenly disabled “for emergency maintenance”.</li>
+  <li>Unexpected password reset prompts, MFA fatigue prompts, or sign-in alerts for remote access tools.</li>
+  <li>Unusual admin logins, new user accounts, or changes to identity settings reported by your IT provider.</li>
+  <li>AI tool alerts: new device/session logins, unexpected usage spikes, new connectors/plugins you don’t recognise, or chat history that shows prompts you didn’t create.</li>
+  <li>Any “payment details changed” email that references information that could have been pulled from internal documents or prior conversations.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Gateway compromise &rarr; internal access:</strong> attackers target internet-facing remote access appliances because they can provide a fast path to internal systems and identity stores.</li>
+  <li><strong>AI login reuse:</strong> stolen credentials/sessions from infostealers can be replayed to access AI accounts, especially where MFA is weak or session tokens persist.</li>
+  <li><strong>Data mining and social engineering:</strong> attackers may search AI chats/uploads for customer lists, invoice templates, supplier details, HR topics, and then run targeted phishing or fake payment-change scams.</li>
+  <li><strong>Connector/plugin abuse:</strong> as AI marketplaces and connectors expand, a compromised AI account can be used to reach into email, files, ticketing, CRM, or code repos depending on what’s connected.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm your exposure:</strong> ask your IT provider today whether you (or any supplier running systems for you) use <strong>Citrix NetScaler ADC/Gateway</strong> anywhere in your environment.</li>
+  <li><strong>Raise monitoring:</strong> ensure you are reviewing sign-in alerts for remote access services and key admin accounts.</li>
+  <li><strong>Lock down AI access:</strong>
+    <ul>
+      <li>Turn on MFA where available and review active sessions/devices.</li>
+      <li>Remove unused AI connectors/plugins; keep only what the business needs.</li>
+      <li>Remind staff not to paste credentials, full customer records, or bank details into AI tools.</li>
+    </ul>
+  </li>
+  <li><strong>Re-brief finance and front desk teams:</strong> treat any change-of-bank-details request as suspicious; verify via a known phone number or an established approval process.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or any of our hosted systems) use <strong>Citrix NetScaler ADC/Gateway</strong> for remote access or app publishing?</li>
+  <li>Have you checked for signs of active exploitation against our perimeter services in the last 72 hours?</li>
+  <li>What is our plan if remote access must be taken offline for emergency work (business continuity, alternative access, communications)?</li>
+  <li>Can you provide a list of <strong>AI tools and connectors</strong> in use (approved vs shadow IT), and who has admin access?</li>
+  <li>Do we have sign-in alerting enabled for critical services (Microsoft 365/Google, remote access, finance tools), and who receives the alerts?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Authorities are warning of <strong>active exploitation</strong> affecting Citrix NetScaler ADC/Gateway. If you use these products, treat mitigation as time-critical and coordinate with your IT provider for any required downtime, validation, and post-change monitoring.</p>
+
+        <h2>One action today</h2>
+        <p>Message your IT provider today to confirm whether any of your systems (or hosted services you rely on) use Citrix NetScaler for remote access and what immediate mitigations/monitoring are in place.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Verify payment change requests (anti-invoice fraud call-back process)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway" rel="noopener noreferrer">Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway</a> <span class="muted">(NCSC All Updates)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway" rel="noopener noreferrer">Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/" rel="noopener noreferrer">CISA orders feds to patch exploited Citrix flaws by Wednesday</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/" rel="noopener noreferrer">80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

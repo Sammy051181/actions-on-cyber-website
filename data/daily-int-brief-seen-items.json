@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "2f24b5758f06196a": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-30T11:36:30.457653+01:00",
-      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
-    },
-    "bf572d2b4c624a79": {
-      "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
-      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-30T11:36:30.457653+01:00",
-      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
-    },
-    "f1a33bf948ee20fe": {
-      "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-30T11:36:30.457653+01:00",
-      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
-    },
-    "5b8258d84489f945": {
-      "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-30T11:36:30.457653+01:00",
-      "brief_slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr"
-    },
-    "464d8865c926603d": {
-      "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
-      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-30T15:43:08.194111+01:00",
-      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
-    },
-    "5a046af8570e15b8": {
-      "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
-      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-30T15:43:08.194111+01:00",
-      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
-    },
-    "441553fad7f4db8c": {
-      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
-      "source": "The Hacker News",
-      "seen_at": "2026-06-30T15:43:08.194111+01:00",
-      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
-    },
-    "3f4d0953dbbfeb11": {
-      "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
-      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-06-30T15:43:08.194111+01:00",
-      "brief_slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk"
-    },
     "707d892f3c08c0ac": {
       "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
       "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
@@ -6012,9 +5956,51 @@
       "source": "Krebs on Security",
       "seen_at": "2026-09-27T20:45:54.075555+01:00",
       "brief_slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex"
+    },
+    "7b1e1e501b33f733": {
+      "url": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+      "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-09-28T16:26:03.691403+01:00",
+      "brief_slug": "2026-09-28-1626-smb-cyber-brief-citrix-gateway-attacks-stolen-corporate-ai-logins"
+    },
+    "ef6b1694e1397f08": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-09-28T16:26:03.691403+01:00",
+      "brief_slug": "2026-09-28-1626-smb-cyber-brief-citrix-gateway-attacks-stolen-corporate-ai-logins"
+    },
+    "2e6e934ea7b88452": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-28T16:26:03.691403+01:00",
+      "brief_slug": "2026-09-28-1626-smb-cyber-brief-citrix-gateway-attacks-stolen-corporate-ai-logins"
+    },
+    "cdfc9fd9c0967ef8": {
+      "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-28T16:26:03.691403+01:00",
+      "brief_slug": "2026-09-28-1626-smb-cyber-brief-citrix-gateway-attacks-stolen-corporate-ai-logins"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-28-1626-smb-cyber-brief-citrix-gateway-attacks-stolen-corporate-ai-logins",
+      "headline": "SMB Cyber Brief: Citrix gateway attacks + stolen corporate AI logins",
+      "risk_level": "High",
+      "todays_lookout": "Remote access / supplier gateway risk and AI account takeover",
+      "published_at": "2026-09-28T16:26:03.691403+01:00",
+      "published_label": "Monday 28 September 2026, 16:26 UK time",
+      "source_urls": [
+        "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+        "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/"
+      ]
+    },
     {
       "slug": "2026-09-27-2045-smb-cyber-intelligence-brief-supplier-access-risk-citrix-netscaler-cloud-data-ex",
       "headline": "SMB Cyber Intelligence Brief: Supplier access risk (Citrix NetScaler), cloud data exposure, and telecom impersonation scams",
@@ -9114,34 +9100,6 @@
         "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
         "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
         "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01"
-      ]
-    },
-    {
-      "slug": "2026-06-30-1543-today-s-smb-cyber-lookout-payment-diversion-scams-remote-support-tool-risk",
-      "headline": "Today’s SMB cyber lookout: payment diversion scams + remote support tool risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/IT support compromise and payment-change scams (BEC), plus breach-impersonation follow-ons",
-      "published_at": "2026-06-30T15:43:08.194111+01:00",
-      "published_label": "Tuesday 30 June 2026, 15:43 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
-        "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
-        "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-        "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/"
-      ]
-    },
-    {
-      "slug": "2026-06-30-1136-today-s-sme-cyber-look-out-ransomware-linked-windows-exploitation-oracle-hr-payr",
-      "headline": "Today’s SME cyber look-out: ransomware-linked Windows exploitation, Oracle HR/payroll breach fallout, and AI tool credential leaks",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware entry points + supplier/HR system breach ripple effects + credential theft",
-      "published_at": "2026-06-30T11:36:30.457653+01:00",
-      "published_label": "Tuesday 30 June 2026, 11:36 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-        "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
-        "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-        "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
       ]
     }
   ]
