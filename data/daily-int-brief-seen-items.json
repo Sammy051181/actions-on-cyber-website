@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "374f9ab4167b64b5": {
-      "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-01T11:48:49.306036+01:00",
-      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
-    },
-    "96018ae748e76824": {
-      "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-      "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-01T11:48:49.306036+01:00",
-      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
-    },
-    "7479cc50fb44aa11": {
-      "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-01T11:48:49.306036+01:00",
-      "brief_slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric"
-    },
     "0e8ed2cb93d34c90": {
       "url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
       "title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
@@ -5970,9 +5949,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-28T22:59:27.338902+01:00",
       "brief_slug": "2026-09-28-2259-smb-cyber-intelligence-brief-azure-tenant-attacks-exposed-cloud-databases-and-br"
+    },
+    "8ae589a85d811f9a": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+      "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-09-29T15:04:01.691722+01:00",
+      "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
+    },
+    "c919c2b059f3ef35": {
+      "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "source": "Krebs on Security",
+      "seen_at": "2026-09-29T15:04:01.691722+01:00",
+      "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
+    },
+    "e36cbd6c6f999e6b": {
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+      "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-29T15:04:01.691722+01:00",
+      "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
+    },
+    "b8f9491162447465": {
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-29T15:04:01.691722+01:00",
+      "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
+    },
+    "e28c990b80ea9b19": {
+      "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+      "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-29T15:04:01.691722+01:00",
+      "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio",
+      "headline": "SMB Cyber Brief: Active Citrix NetScaler exploitation + renewed data-theft/extortion risk",
+      "risk_level": "High",
+      "todays_lookout": "Remote access & supplier exposure, plus fraud and extortion follow-ons",
+      "published_at": "2026-09-29T15:04:01.691722+01:00",
+      "published_label": "Tuesday 29 September 2026, 15:04 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+        "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+        "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+        "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+        "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/"
+      ]
+    },
     {
       "slug": "2026-09-28-2259-smb-cyber-intelligence-brief-azure-tenant-attacks-exposed-cloud-databases-and-br",
       "headline": "SMB Cyber Intelligence Brief: Azure tenant attacks, exposed cloud databases, and breach-driven phishing",
@@ -9071,19 +9100,6 @@
         "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
         "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
         "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-07-01-1148-smb-cyber-intelligence-brief-microsoft-365-account-attacks-and-new-phishing-tric",
-      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 account attacks and new phishing tricks to brief staff on today",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover attempts (Microsoft 365/Azure) + evolving phishing lures (device-code, AI “phantom” domains, ClickFix)",
-      "published_at": "2026-07-01T11:48:49.306036+01:00",
-      "published_label": "Wednesday 01 July 2026, 11:48 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-        "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-        "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html"
       ]
     }
   ]
