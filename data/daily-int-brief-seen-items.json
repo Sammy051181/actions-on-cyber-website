@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "0e8ed2cb93d34c90": {
-      "url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
-      "title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
-      "source": "Cisco Talos",
-      "seen_at": "2026-07-01T16:12:24.361253+01:00",
-      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
-    },
-    "1dd7fefe18ac74e8": {
-      "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-01T16:12:24.361253+01:00",
-      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
-    },
-    "bb8831b92008a9a6": {
-      "url": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-01T16:12:24.361253+01:00",
-      "brief_slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover"
-    },
-    "d03514b22c1620a5": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-01T19:15:58.318449+01:00",
-      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
-    },
-    "7ca52314a96c2217": {
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-      "title": "Webinar: Why traditional email security is no longer enough",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-01T19:15:58.318449+01:00",
-      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
-    },
-    "ccbf8697f6b66d7b": {
-      "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-01T19:15:58.318449+01:00",
-      "brief_slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the"
-    },
     "26684e42397d6e65": {
       "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
       "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
@@ -5984,9 +5942,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-29T15:04:01.691722+01:00",
       "brief_slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio"
+    },
+    "c4e96687c6145568": {
+      "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+      "title": "Former US Air Force members sent to prison over BEC attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-29T21:45:58.069958+01:00",
+      "brief_slug": "2026-09-29-2145-today-s-smb-cyber-brief-payment-change-scams-stolen-passwords-and-active-citrix-"
+    },
+    "d45bad10f53fff65": {
+      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-29T21:45:58.069958+01:00",
+      "brief_slug": "2026-09-29-2145-today-s-smb-cyber-brief-payment-change-scams-stolen-passwords-and-active-citrix-"
+    },
+    "3cb734ba29cf05d4": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-29T21:45:58.069958+01:00",
+      "brief_slug": "2026-09-29-2145-today-s-smb-cyber-brief-payment-change-scams-stolen-passwords-and-active-citrix-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-29-2145-today-s-smb-cyber-brief-payment-change-scams-stolen-passwords-and-active-citrix-",
+      "headline": "Today’s SMB Cyber Brief: Payment-change scams, stolen passwords, and active Citrix NetScaler exploitation",
+      "risk_level": "High",
+      "todays_lookout": "Invoice/payment change scams and supplier edge-system compromise",
+      "published_at": "2026-09-29T21:45:58.069958+01:00",
+      "published_label": "Tuesday 29 September 2026, 21:45 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+        "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/"
+      ]
+    },
     {
       "slug": "2026-09-29-1504-smb-cyber-brief-active-citrix-netscaler-exploitation-renewed-data-theft-extortio",
       "headline": "SMB Cyber Brief: Active Citrix NetScaler exploitation + renewed data-theft/extortion risk",
@@ -9074,32 +9066,6 @@
         "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
         "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
         "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html"
-      ]
-    },
-    {
-      "slug": "2026-07-01-1915-smb-cyber-intelligence-brief-microsoft-365-login-spraying-surge-phishing-bec-the",
-      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 login spraying surge + phishing/BEC themes",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover attempts (Microsoft 365) and phishing-led fraud",
-      "published_at": "2026-07-01T19:15:58.318449+01:00",
-      "published_label": "Wednesday 01 July 2026, 19:15 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-        "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-        "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html"
-      ]
-    },
-    {
-      "slug": "2026-07-01-1612-daily-smb-cyber-intelligence-brief-microsoft-365-token-phishing-account-takeover",
-      "headline": "Daily SMB Cyber Intelligence Brief — Microsoft 365 token-phishing & account takeover risks",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft 365 account takeover and payment diversion scams",
-      "published_at": "2026-07-01T16:12:24.361253+01:00",
-      "published_label": "Wednesday 01 July 2026, 16:12 UK time",
-      "source_urls": [
-        "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
-        "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-        "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/"
       ]
     }
   ]
