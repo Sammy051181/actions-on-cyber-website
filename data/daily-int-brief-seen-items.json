@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "0f7346a547b2f210": {
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-02T15:28:17.233598+01:00",
-      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
-    },
-    "32dfa5c2b194ee76": {
-      "url": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-      "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-02T15:28:17.233598+01:00",
-      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
-    },
-    "d29945b4554a1417": {
-      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-02T15:28:17.233598+01:00",
-      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
-    },
-    "d30f5fa7c10d0d7d": {
-      "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-02T15:28:17.233598+01:00",
-      "brief_slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-"
-    },
-    "d49592020fe7e110": {
-      "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-02T19:02:00.017115+01:00",
-      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
-    },
-    "bde0640ad7125b4c": {
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-      "title": "Alleged Scattered Spider hacker extradited to the United States",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-02T19:02:00.017115+01:00",
-      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
-    },
-    "51ea3a6f2d65f84a": {
-      "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-02T19:02:00.017115+01:00",
-      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
-    },
-    "1815aa1fb72dbe54": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-02T19:02:00.017115+01:00",
-      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
-    },
-    "a0ec5ca0dc3dddac": {
-      "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-02T19:02:00.017115+01:00",
-      "brief_slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams"
-    },
     "05b1c5e4b319e6f6": {
       "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
       "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
@@ -5956,9 +5893,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-09-30T14:41:24.747668+01:00",
       "brief_slug": "2026-09-30-1441-today-s-smb-cyber-lookout-microsoft-365-session-theft-phishing-fake-chatgpt-clic"
+    },
+    "cb2af8d2a0d2744b": {
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-30T21:48:29.769454+01:00",
+      "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
+    },
+    "72dbeeb1790cb6f9": {
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-30T21:48:29.769454+01:00",
+      "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
+    },
+    "2ebaae643cd392ce": {
+      "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-30T21:48:29.769454+01:00",
+      "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
+    },
+    "37d3b9649beab632": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "source": "BleepingComputer",
+      "seen_at": "2026-09-30T21:48:29.769454+01:00",
+      "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
+    },
+    "7595f834fb9c59d6": {
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+      "source": "The Hacker News",
+      "seen_at": "2026-09-30T21:48:29.769454+01:00",
+      "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak",
+      "headline": "Today’s SMB Cyber Brief: Phishing using remote‑management tools, AI lures, and leaked logins",
+      "risk_level": "High",
+      "todays_lookout": "Phishing that installs remote-management tools + AI-themed malware lures",
+      "published_at": "2026-09-30T21:48:29.769454+01:00",
+      "published_label": "Wednesday 30 September 2026, 21:48 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+        "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+        "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
+      ]
+    },
     {
       "slug": "2026-09-30-1441-today-s-smb-cyber-lookout-microsoft-365-session-theft-phishing-fake-chatgpt-clic",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 session theft phishing, fake “ChatGPT” ClickFix lures, and remote-access tool risk",
@@ -9029,35 +9016,6 @@
         "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
         "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
         "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-      ]
-    },
-    {
-      "slug": "2026-07-02-1902-today-s-smb-cyber-brief-helpdesk-impersonation-risk-breach-follow-on-scams",
-      "headline": "Today’s SMB Cyber Brief: helpdesk impersonation risk + breach follow‑on scams",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/breach impersonation and helpdesk social engineering (account takeover and payment fraud)",
-      "published_at": "2026-07-02T19:02:00.017115+01:00",
-      "published_label": "Thursday 02 July 2026, 19:02 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-        "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-        "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-        "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-        "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
-      ]
-    },
-    {
-      "slug": "2026-07-02-1528-smb-cyber-daily-microsoft-365-consent-hijacks-clickfix-tricks-tighten-login-and-",
-      "headline": "SMB Cyber Daily: Microsoft 365 “consent” hijacks & ClickFix tricks — tighten login and staff checks",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover scams (Microsoft 365/Gmail) and ClickFix social engineering",
-      "published_at": "2026-07-02T15:28:17.233598+01:00",
-      "published_label": "Thursday 02 July 2026, 15:28 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-        "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-        "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-        "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
       ]
     }
   ]
