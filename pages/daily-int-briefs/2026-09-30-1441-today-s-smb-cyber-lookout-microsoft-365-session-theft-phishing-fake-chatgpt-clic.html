@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: Microsoft 365 session theft phishing, fake “ChatGPT” ClickFix lures, and remote-access tool risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: Microsoft 365 session theft phishing, fake “ChatGPT” ClickFix lures, and remote-access tool risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 30 September 2026, 14:41 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover and remote-access footholds via phishing and ‘AI tool’ lures
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Expect a mix of (1) convincing Microsoft 365 login/phishing lures aimed at senior staff and finance-adjacent roles, and (2) staff being pulled to fake “AI / ChatGPT” sites via sponsored search results that try to trick them into running steps on their computer (“ClickFix”). Once attackers get a foothold, they may deploy remote monitoring/management (RMM) or remote access tooling to keep access and move quickly.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Microsoft 365 session theft</strong> can bypass password changes if attackers capture an active session, leading to mailbox access, invoice fraud, payroll diversion attempts, and data theft.</li>
+  <li><strong>Remote-access tooling</strong> turns “just one click” into persistent access—often long enough to tamper with payments, harvest contacts, and spread phishing internally.</li>
+  <li><strong>Fake AI tools</strong> are a realistic staff risk: people search for productivity tools, click the top sponsored result, and follow instructions without realising they’re enabling malware.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails prompting an urgent Microsoft 365 login, “verify your account”, “view secure document”, or “unusual sign-in” alert—especially addressed to directors/partners/senior managers.</li>
+  <li>Reports from staff that they were asked to copy/paste instructions, “fix” something in their browser, or run steps to access an AI/chat tool (classic ClickFix-style behaviour).</li>
+  <li>Unexpected new device sign-ins, unfamiliar session activity, or new mailbox rules/forwarding behaviour.</li>
+  <li>New remote access/RMM software appearing on endpoints without a logged IT change request.</li>
+  <li>Clients/suppliers receiving strange replies from your mailbox threads (conversation hijacking).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Session theft + mailbox access:</strong> attackers read invoices, change bank details, set up forwarding, and target your suppliers/customers with believable payment-change requests.</li>
+  <li><strong>Remote tooling after a phish:</strong> attackers attempt to establish persistent access, reduce reliance on stolen passwords, and expand to finance endpoints.</li>
+  <li><strong>Sponsored-search “AI” lures:</strong> users land on lookalike sites and are socially engineered into taking actions that result in malware or remote access tools being installed.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a 2-minute staff note</strong>: “Don’t trust sponsored ‘ChatGPT/AI’ ads; only use approved links/bookmarks. If a site asks you to run steps to ‘fix’ access, stop and call IT.”</li>
+  <li><strong>Prioritise Microsoft 365 session protection</strong>: ensure MFA is enforced for all users (especially leadership, finance, and shared mailboxes) and review sign-in alerts.</li>
+  <li><strong>Check for mailbox tampering</strong>: look for new forwarding rules, hidden inbox rules, and unexpected delegated access on key accounts.</li>
+  <li><strong>Harden remote access</strong>: confirm only approved remote tools are installed and monitored; remove/disable anything not explicitly required.</li>
+  <li><strong>Prep finance controls</strong>: remind staff that bank detail changes must be verified out-of-band (known phone number, not email).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you show us <strong>recent sign-in anomalies</strong> for Microsoft 365 (impossible travel, new devices, unusual locations) for directors/finance/shared mailboxes?</li>
+  <li>Do we have monitoring to detect <strong>new mailbox forwarding rules</strong> and suspicious inbox rules?</li>
+  <li>What remote access/RMM tools are <strong>approved</strong> in our environment, and do you alert on <strong>new installations</strong>?</li>
+  <li>Do you block or warn on <strong>malicious/suspicious sponsored domains</strong> via web filtering/DNS protection?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business uses TeamViewer (directly or via an outsourced IT provider), treat today as a prompt to confirm you’re on the latest supported client/host versions and that TeamViewer is only installed where it’s genuinely needed. Remote access products are high-value targets because they can become a direct doorway into your systems.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal warning today: “Avoid sponsored ‘ChatGPT/AI’ ads; only use approved links. If any page asks you to run ‘fix’ steps to sign in or view a file, stop and report it.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Payment Change Verification’ checklist (call-back procedure and two-person approval) to reduce invoice and payroll diversion after email compromise.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html" rel="noopener noreferrer">US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/" rel="noopener noreferrer">Custom ChatGPTs push ClickFix attacks to deploy RAT malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/" rel="noopener noreferrer">TeamViewer urges users to patch severe flaws “as soon as possible”</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
