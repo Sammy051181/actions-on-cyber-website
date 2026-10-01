@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look-out: supplier incident scams + internet-facing gateway risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look-out: supplier incident scams + internet-facing gateway risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 01 October 2026, 15:27 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/infrastructure incident scams and internet-facing remote access gateway compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>“Security incident” impersonation scams</strong> using big-name brands in crypto and payments (e.g., MetaMask / Bitget) as a hook to get staff to click links, approve “urgent” account actions, or change payment details.</li>
+  <li><strong>Remote access / gateway compromise risk</strong> where attackers target internet-facing appliances (Citrix NetScaler) to gain a foothold and steal configuration data.</li>
+  <li><strong>Windows device behaviour change</strong>: Windows 11 organisations may now have <strong>settings backup enabled by default</strong> on Entra-joined devices, which can affect what gets synced and restored when devices are rebuilt.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a small number of key suppliers (IT providers, cloud identity, remote access gateways, finance tools and wallets). When a supplier reports an incident, criminals commonly follow up with <strong>phishing, fake support calls, and “urgent verification” messages</strong>. Separately, if your business (or IT provider) runs an internet-facing gateway for remote access, compromise can quickly lead to <strong>business disruption, credential theft and ransomware</strong>.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Email/Teams/WhatsApp messages claiming to be from a supplier “security team” asking you to <strong>re-login</strong>, <strong>reset</strong>, <strong>verify</strong> or <strong>import a new wallet / recovery phrase</strong>.</li>
+  <li>Requests to <strong>change bank details</strong> or “secure your funds” due to an incident.</li>
+  <li>Unexpected prompts to approve sign-ins or MFA requests you didn’t initiate.</li>
+  <li>Remote access behaving oddly: sudden lockouts, new admin accounts, unexplained config changes, or new/unknown access rules on gateways.</li>
+  <li>After a laptop rebuild, settings or sign-in behaviour looks different than expected (possible impact of newly enabled settings backup/restore).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Brand-jacking:</strong> criminals reference real news about supplier incidents (e.g., MetaMask/Bitget) to make phishing more believable.</li>
+  <li><strong>Fake support escalation:</strong> “We detected suspicious activity—call this number” scams that lead to credential theft or remote access installation.</li>
+  <li><strong>Gateway foothold to internal access:</strong> attackers target exposed remote access infrastructure (e.g., Citrix NetScaler) and then move on to email, file shares and backups.</li>
+  <li><strong>Configuration/data theft:</strong> stolen configuration details can help attackers understand your environment and target accounts and integrations.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff</strong> (especially finance and anyone with admin access): no clicking “incident” links; no payment changes based on email alone; use a known-good contact route.</li>
+  <li><strong>Verify your remote access exposure</strong>: confirm what gateways are internet-facing (yours or your MSP’s) and who is responsible for monitoring and rapid containment.</li>
+  <li><strong>Lock down helpdesk processes</strong>: ensure password resets and MFA changes require strong verification (call-back to a known number, not one supplied in the message).</li>
+  <li><strong>Review Windows settings backup policy</strong> for Entra-joined devices to ensure you’re comfortable with what may be backed up/restored in your environment.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or you, on our behalf) run <strong>Citrix NetScaler</strong> or any similar internet-facing remote access gateway? If yes, what <strong>monitoring and alerting</strong> is in place for suspicious changes and admin activity?</li>
+  <li>What is our <strong>containment plan</strong> if a gateway is suspected compromised (disable external access, rotate credentials/certs, investigate logs, restore from known-good config)?</li>
+  <li>Are we seeing any <strong>phishing themes</strong> related to supplier incidents (crypto wallets/exchanges, “account security updates”, fake support)? Can you share examples we should warn staff about?</li>
+  <li>With Windows 11 26H2 upgrades, is <strong>settings backup</strong> enabled by default for our Entra-joined devices, and do we need policy changes to control it?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation (or MSP) uses Citrix NetScaler/remote access gateways, treat “internet-facing gateway security” as a priority operational item this week: confirm ownership for updates, monitoring and rapid isolation. This is less about a single patch and more about making sure exposed access points are actively managed and logged.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day message to staff: treat any “supplier security incident” email/text as suspicious—do not click links or change payments; verify via a known contact route.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Payment Change Verification &amp; Anti-Impersonation Checklist (for finance teams and office managers)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html" rel="noopener noreferrer">Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html" rel="noopener noreferrer">MetaMask Security Incident Prompts Exit of Affected Ethereum Validators</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/" rel="noopener noreferrer">Metamask discloses security incident affecting its infrastructure</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/" rel="noopener noreferrer">Bitget hacked via zero-day in third-party security products</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html" rel="noopener noreferrer">Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/" rel="noopener noreferrer">Microsoft enables Windows settings backup by default for orgs</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

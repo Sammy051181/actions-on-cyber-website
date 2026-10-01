@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "05b1c5e4b319e6f6": {
-      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-03T11:10:56.186459+01:00",
-      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
-    },
-    "ce435047f21b8926": {
-      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-03T11:10:56.186459+01:00",
-      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
-    },
-    "f8ed994c30d5ec24": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
-      "title": "Google’s Continued Disruption of Malicious Residential Proxy Networks",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-07-03T11:10:56.186459+01:00",
-      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
-    },
-    "0e68a14cfc35d069": {
-      "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-03T11:10:56.186459+01:00",
-      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
-    },
-    "417bdaa0c3e139ab": {
-      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "seen_at": "2026-07-03T11:10:56.186459+01:00",
-      "brief_slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia"
-    },
     "4eceb1003b08db8e": {
       "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
       "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
@@ -5928,9 +5893,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-09-30T21:48:29.769454+01:00",
       "brief_slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak"
+    },
+    "87574535fedc74f2": {
+      "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "65e6681dca63920a": {
+      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "a3f893b99aeb7d30": {
+      "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+      "title": "Metamask discloses security incident affecting its infrastructure",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "52ffe63dd45a7f65": {
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+      "title": "Bitget hacked via zero-day in third-party security products",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "b4409a570832e0f9": {
+      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "52279358df2a64a6": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+      "title": "Microsoft enables Windows settings backup by default for orgs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-01T15:27:15.635235+01:00",
+      "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk",
+      "headline": "Today’s SME cyber look-out: supplier incident scams + internet-facing gateway risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/infrastructure incident scams and internet-facing remote access gateway compromise",
+      "published_at": "2026-10-01T15:27:15.635235+01:00",
+      "published_label": "Thursday 01 October 2026, 15:27 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+        "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+        "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+        "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+        "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/"
+      ]
+    },
     {
       "slug": "2026-09-30-2148-today-s-smb-cyber-brief-phishing-using-remote-management-tools-ai-lures-and-leak",
       "headline": "Today’s SMB Cyber Brief: Phishing using remote‑management tools, AI lures, and leaked logins",
@@ -9001,21 +9024,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
         "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/"
-      ]
-    },
-    {
-      "slug": "2026-07-03-1110-smb-cyber-intelligence-brief-ransomware-access-via-remote-gateways-mac-credentia",
-      "headline": "SMB Cyber Intelligence Brief: Ransomware access via remote gateways, Mac credential-stealer lures, and “proxy network” knock-on scams",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware initial access + credential theft + follow-on phishing using big news events",
-      "published_at": "2026-07-03T11:10:56.186459+01:00",
-      "published_label": "Friday 03 July 2026, 11:10 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-        "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
-        "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-        "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
       ]
     }
   ]
