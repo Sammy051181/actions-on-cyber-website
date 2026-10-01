@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "4eceb1003b08db8e": {
-      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-03T15:31:47.679258+01:00",
-      "brief_slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst"
-    },
-    "d5a8ae57bbf0e6dc": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-03T15:31:47.679258+01:00",
-      "brief_slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst"
-    },
-    "af919c1063f3ac9e": {
-      "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-03T18:47:08.038708+01:00",
-      "brief_slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs"
-    },
-    "ee117d7e3f5957bf": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
-      "title": "Gardyn IoT Hub",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-03T18:47:08.038708+01:00",
-      "brief_slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs"
-    },
     "46e49c37279274c9": {
       "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
       "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
@@ -5935,9 +5907,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-01T15:27:15.635235+01:00",
       "brief_slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk"
+    },
+    "624e1a7a08049095": {
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-01T22:01:17.971672+01:00",
+      "brief_slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa"
+    },
+    "1ba8da53d09e9934": {
+      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-01T22:01:17.971672+01:00",
+      "brief_slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa"
+    },
+    "dcd4b62c704ac0a9": {
+      "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-01T22:01:17.971672+01:00",
+      "brief_slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa",
+      "headline": "Ransomware disruption risk continues, plus “self-healing” WordPress backdoors to watch for",
+      "risk_level": "Moderate",
+      "todays_lookout": "Ransomware disruption + website (WordPress) persistence after ‘cleanup’",
+      "published_at": "2026-10-01T22:01:17.971672+01:00",
+      "published_label": "Thursday 01 October 2026, 22:01 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+        "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+        "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
+      ]
+    },
     {
       "slug": "2026-10-01-1527-today-s-sme-cyber-look-out-supplier-incident-scams-internet-facing-gateway-risk",
       "headline": "Today’s SME cyber look-out: supplier incident scams + internet-facing gateway risk",
@@ -9000,30 +9006,6 @@
         "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
         "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
         "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
-      ]
-    },
-    {
-      "slug": "2026-07-03-1847-today-s-sme-cyber-look-out-poisoned-developer-packages-and-risky-iot-hubs",
-      "headline": "Today’s SME cyber look-out: poisoned developer packages and risky IoT hubs",
-      "risk_level": "Moderate",
-      "todays_lookout": "Software supply-chain risk (malicious packages) + insecure IoT device management",
-      "published_at": "2026-07-03T18:47:08.038708+01:00",
-      "published_label": "Friday 03 July 2026, 18:47 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03"
-      ]
-    },
-    {
-      "slug": "2026-07-03-1531-smb-cyber-intelligence-brief-microsoft-365-phishing-kits-and-business-phone-syst",
-      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 phishing kits and business phone system risk",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft 365 account-takeover phishing and comms/telephony service disruption risk",
-      "published_at": "2026-07-03T15:31:47.679258+01:00",
-      "published_label": "Friday 03 July 2026, 15:31 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-        "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/"
       ]
     }
   ]
