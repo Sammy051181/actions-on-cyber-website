@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "46e49c37279274c9": {
-      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-04T10:30:44.195612+01:00",
-      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
-    },
-    "f5ed4be194cc224f": {
-      "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-04T10:30:44.195612+01:00",
-      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
-    },
-    "2cc6f7ea50239231": {
-      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-04T10:30:44.195612+01:00",
-      "brief_slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill"
-    },
     "05aacbc9930d8717": {
       "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
       "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
@@ -5928,9 +5907,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-01T22:01:17.971672+01:00",
       "brief_slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa"
+    },
+    "8b472bb05c2f3c15": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+      "title": "Microsoft says threat actors are ahead in the early AI race",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-02T14:51:11.576821+01:00",
+      "brief_slug": "2026-10-02-1451-ai-assisted-scams-are-speeding-up-tighten-identity-checks-and-mobile-protections"
+    },
+    "ab41583e705d2644": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+      "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-10-02T14:51:11.576821+01:00",
+      "brief_slug": "2026-10-02-1451-ai-assisted-scams-are-speeding-up-tighten-identity-checks-and-mobile-protections"
+    },
+    "b2099d009ed00ab3": {
+      "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-02T14:51:11.576821+01:00",
+      "brief_slug": "2026-10-02-1451-ai-assisted-scams-are-speeding-up-tighten-identity-checks-and-mobile-protections"
+    },
+    "e9bd716f670acca9": {
+      "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-02T14:51:11.576821+01:00",
+      "brief_slug": "2026-10-02-1451-ai-assisted-scams-are-speeding-up-tighten-identity-checks-and-mobile-protections"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-02-1451-ai-assisted-scams-are-speeding-up-tighten-identity-checks-and-mobile-protections",
+      "headline": "AI-assisted scams are speeding up: tighten identity checks and mobile protections",
+      "risk_level": "Moderate",
+      "todays_lookout": "AI-boosted phishing and faster attacker follow-through (especially around identity and mobile devices)",
+      "published_at": "2026-10-02T14:51:11.576821+01:00",
+      "published_label": "Friday 02 October 2026, 14:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+        "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+        "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+        "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html"
+      ]
+    },
     {
       "slug": "2026-10-01-2201-ransomware-disruption-risk-continues-plus-self-healing-wordpress-backdoors-to-wa",
       "headline": "Ransomware disruption risk continues, plus “self-healing” WordPress backdoors to watch for",
@@ -8993,19 +9014,6 @@
         "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
         "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
         "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
-      ]
-    },
-    {
-      "slug": "2026-07-04-1030-today-s-smb-cyber-intelligence-brief-phishing-led-malware-and-proxy-device-spill",
-      "headline": "Today’s SMB Cyber Intelligence Brief: phishing-led malware and proxy-device spillover risk",
-      "risk_level": "High",
-      "todays_lookout": "Phishing-to-ransomware chains and compromised device proxy networks",
-      "published_at": "2026-07-04T10:30:44.195612+01:00",
-      "published_label": "Saturday 04 July 2026, 10:30 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-        "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-        "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
       ]
     }
   ]
