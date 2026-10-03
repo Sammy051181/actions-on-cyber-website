@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "72b8c901a04ed3e2": {
-      "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-05T10:46:30.948334+01:00",
-      "brief_slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit"
-    },
-    "8f8ffebc335e9338": {
-      "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-05T10:46:30.948334+01:00",
-      "brief_slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit"
-    },
     "b27915122c11cffa": {
       "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
       "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
@@ -5928,9 +5914,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-02T21:43:31.778369+01:00",
       "brief_slug": "2026-10-02-2143-supplier-breach-sharepoint-led-ransomware-what-smes-should-watch-today"
+    },
+    "b8b4a1085f35e638": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+      "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-03T13:32:52.021929+01:00",
+      "brief_slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk"
+    },
+    "5ef20bc514671882": {
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-03T13:32:52.021929+01:00",
+      "brief_slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk"
+    },
+    "9814dffcb60cd9ff": {
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-03T13:32:52.021929+01:00",
+      "brief_slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk"
+    },
+    "f4b6d95f5f5a5e70": {
+      "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-03T13:32:52.021929+01:00",
+      "brief_slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk",
+      "headline": "Weekend watch: social account takeovers + self-hosted AI service risk",
+      "risk_level": "Moderate",
+      "todays_lookout": "Account takeover scams and supplier/self-hosted SaaS dependency risk",
+      "published_at": "2026-10-03T13:32:52.021929+01:00",
+      "published_label": "Saturday 03 October 2026, 13:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+        "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+        "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+        "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/"
+      ]
+    },
     {
       "slug": "2026-10-02-2143-supplier-breach-sharepoint-led-ransomware-what-smes-should-watch-today",
       "headline": "Supplier breach + SharePoint-led ransomware: what SMEs should watch today",
@@ -8984,18 +9012,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
         "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
-      ]
-    },
-    {
-      "slug": "2026-07-05-1046-stealer-malware-and-phone-compromise-refresh-today-s-phishing-and-mobile-securit",
-      "headline": "Stealer malware and phone compromise: refresh today’s phishing and mobile security look-out",
-      "risk_level": "Moderate",
-      "todays_lookout": "Credential-stealing malware and mobile device compromise",
-      "published_at": "2026-07-05T10:46:30.948334+01:00",
-      "published_label": "Sunday 05 July 2026, 10:46 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-        "https://thehackernews.com/2026/07/european-parliament-member.html"
       ]
     }
   ]
