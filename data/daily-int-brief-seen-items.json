@@ -5942,9 +5942,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-03T13:32:52.021929+01:00",
       "brief_slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk"
+    },
+    "d5d7c3b1775bb907": {
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-03T20:13:01.070702+01:00",
+      "brief_slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo"
+    },
+    "b4ba5b4eb39d7246": {
+      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-03T20:13:01.070702+01:00",
+      "brief_slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo"
+    },
+    "da984ff8e8ff4eb9": {
+      "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-03T20:13:01.070702+01:00",
+      "brief_slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo"
+    },
+    "c24f61f66f613431": {
+      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+      "title": "Danish university DTU breach exposes data of up to 200,000 people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-03T20:13:01.070702+01:00",
+      "brief_slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo",
+      "headline": "Weekend watch: SharePoint-driven ransomware activity and FortiMail zero-day exploitation",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware entry via internet-facing services + follow-on phishing using breach and IT reset themes",
+      "published_at": "2026-10-03T20:13:01.070702+01:00",
+      "published_label": "Saturday 03 October 2026, 20:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+        "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+        "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+        "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
+      ]
+    },
     {
       "slug": "2026-10-03-1332-weekend-watch-social-account-takeovers-self-hosted-ai-service-risk",
       "headline": "Weekend watch: social account takeovers + self-hosted AI service risk",

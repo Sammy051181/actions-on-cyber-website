@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Weekend watch: SharePoint-driven ransomware activity and FortiMail zero-day exploitation | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Weekend watch: SharePoint-driven ransomware activity and FortiMail zero-day exploitation</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 03 October 2026, 20:13 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Ransomware entry via internet-facing services + follow-on phishing using breach and IT reset themes
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Two themes to brief your team on today:</p>
+<ul>
+  <li><strong>Ransomware and disruption linked to internet-facing Microsoft SharePoint</strong> (attackers abusing flaws to get in, disable security tools, and deploy ransomware).</li>
+  <li><strong>Fortinet FortiMail being actively exploited as a zero-day</strong> (if you run FortiMail, assume it’s a priority check).</li>
+</ul>
+<p>Also note: a <strong>university identity/access system breach</strong> shows how stolen identity data can fuel phishing, password reset scams, and account takeover attempts against staff and students.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>SharePoint and email security gateways sit on critical paths</strong>: if they’re compromised, attackers can reach files, internal sites, and email flows quickly.</li>
+  <li><strong>SMEs are often downstream</strong>: you may not run these systems yourself, but your <strong>managed IT provider, hosting partner, school trust, or supplier</strong> might.</li>
+  <li><strong>Breach “ripple effects”</strong>: even if your organisation wasn’t breached, criminals reuse stolen contact details to make phishing more convincing (e.g., “IT support” password resets, “new login portal”, “invoice overdue”).</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>account lockouts</strong>, password resets, or MFA changes staff didn’t request.</li>
+  <li>New or unfamiliar <strong>admin accounts</strong> or permissions changes on Microsoft 365/SharePoint-related services.</li>
+  <li>Staff reporting <strong>strange SharePoint prompts</strong>, missing documents, or new “security update” messages.</li>
+  <li>Email security changes: unusual mail flow behaviour, delivery delays, or a sudden increase in <strong>spam/phishing getting through</strong>.</li>
+  <li>Security tooling suddenly <strong>disabled</strong> or reporting gaps (EDR/AV not checking in).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Internet-facing service compromise</strong>: attackers scan for exposed SharePoint / email gateway services, then use weaknesses to gain access.</li>
+  <li><strong>Disable security tools</strong> to reduce the chance of detection, then move fast to encrypt systems (ransomware) or steal data for leverage.</li>
+  <li><strong>Follow-on impersonation</strong>: using breached identity data to target staff with “IT helpdesk” and “security alert” messages to capture passwords/MFA codes.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership:</strong> do you (or your MSP) run on-prem SharePoint or FortiMail? If you’re not sure, ask.</li>
+  <li><strong>Tell staff one simple rule for the weekend:</strong> treat unexpected password reset/MFA prompts and “IT support” calls/emails as suspicious; verify via known internal contact methods.</li>
+  <li><strong>Check your backups:</strong> verify you can restore key file shares and critical systems, and that backup access is protected with MFA.</li>
+  <li><strong>Review admin access:</strong> ensure only necessary accounts have admin rights; remove stale accounts; enforce MFA for admins.</li>
+  <li><strong>Monitor for unusual logins:</strong> especially from unexpected locations or at unusual times.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>any internet-facing SharePoint</strong> (including legacy or test instances), and how are we monitoring it?</li>
+  <li>Do we use <strong>Fortinet FortiMail</strong> anywhere (including at a hosted provider)? If yes, what’s the mitigation/upgrade status and how are we validating it?</li>
+  <li>Are our <strong>EDR/AV tools reporting normally</strong> across servers, and do we alert on security tools being disabled?</li>
+  <li>What’s our <strong>ransomware recovery plan</strong> for the top 3 systems we can’t operate without on Monday morning?</li>
+  <li>Have we recently tested <strong>restore from backup</strong> (not just that backups exist)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run <strong>Fortinet FortiMail</strong>, there is reporting of <strong>active exploitation of a zero-day (CVE-2026-104286)</strong> and it has been highlighted by authorities and vendors. This is the kind of issue where SMEs should push for same-day confirmation from their IT provider on exposure, remediation status, and monitoring—rather than waiting for the next routine maintenance window.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal note today: “Do not approve unexpected password resets/MFA prompts or ‘IT support’ requests—verify via our known contact method first,” and ask your IT/MSP to confirm whether you have any internet-facing SharePoint or FortiMail in use.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Ransomware readiness for small organisations (backups, MFA, admin access, and recovery steps)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html" rel="noopener noreferrer">Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/" rel="noopener noreferrer">Fortinet warns of critical FortiMail flaw exploited in zero-day attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html" rel="noopener noreferrer">Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/" rel="noopener noreferrer">Danish university DTU breach exposes data of up to 200,000 people</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
