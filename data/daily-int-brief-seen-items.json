@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "b27915122c11cffa": {
-      "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-06T12:43:44.890667+01:00",
-      "brief_slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o"
-    },
-    "a03b650e4a238826": {
-      "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-06T12:43:44.890667+01:00",
-      "brief_slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o"
-    },
     "8189a92ce7bdf5d2": {
       "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
       "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
@@ -5970,9 +5956,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-03T20:13:01.070702+01:00",
       "brief_slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo"
+    },
+    "aac5cc1a7d26e13f": {
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-04T14:11:17.849342+01:00",
+      "brief_slug": "2026-10-04-1411-today-s-sme-cyber-look-out-microsoft-sign-in-phishing-aitm-and-risky-ai-assistan"
+    },
+    "36473df9dd8c1139": {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+      "title": "Anthropic asks Claude users to share voice data for AI model training",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-04T14:11:17.849342+01:00",
+      "brief_slug": "2026-10-04-1411-today-s-sme-cyber-look-out-microsoft-sign-in-phishing-aitm-and-risky-ai-assistan"
+    },
+    "4e1146b9767f9c64": {
+      "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+      "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-04T14:11:17.849342+01:00",
+      "brief_slug": "2026-10-04-1411-today-s-sme-cyber-look-out-microsoft-sign-in-phishing-aitm-and-risky-ai-assistan"
+    },
+    "5f13530361d7760b": {
+      "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-04T14:11:17.849342+01:00",
+      "brief_slug": "2026-10-04-1411-today-s-sme-cyber-look-out-microsoft-sign-in-phishing-aitm-and-risky-ai-assistan"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-04-1411-today-s-sme-cyber-look-out-microsoft-sign-in-phishing-aitm-and-risky-ai-assistan",
+      "headline": "Today’s SME cyber look-out: Microsoft sign-in phishing (AitM) and risky AI assistant permissions",
+      "risk_level": "Moderate",
+      "todays_lookout": "Credential theft via convincing Microsoft-style sign-in pages + AI/SaaS data-sharing and over-permission risk",
+      "published_at": "2026-10-04T14:11:17.849342+01:00",
+      "published_label": "Sunday 04 October 2026, 14:11 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+        "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+        "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
+      ]
+    },
     {
       "slug": "2026-10-03-2013-weekend-watch-sharepoint-driven-ransomware-activity-and-fortimail-zero-day-explo",
       "headline": "Weekend watch: SharePoint-driven ransomware activity and FortiMail zero-day exploitation",
@@ -9042,18 +9070,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
         "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-07-06-1243-today-s-sme-cyber-lookout-cross-platform-remote-access-malware-and-browser-add-o",
-      "headline": "Today’s SME cyber lookout: cross‑platform remote access malware and browser add‑on data theft",
-      "risk_level": "Moderate",
-      "todays_lookout": "Remote access malware + browser extension / mod abuse",
-      "published_at": "2026-07-06T12:43:44.890667+01:00",
-      "published_label": "Monday 06 July 2026, 12:43 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-        "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
       ]
     }
   ]
