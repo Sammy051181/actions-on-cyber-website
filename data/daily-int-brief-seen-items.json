@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "1bc1a16ef57f8909": {
-      "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-07T11:31:57.508950+01:00",
-      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
-    },
-    "6f6081fec769fe0e": {
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "title": "Phishing poses as big-brand job interview to steal Google accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-07T11:31:57.508950+01:00",
-      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
-    },
-    "3ed82d96ed483327": {
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-07T11:31:57.508950+01:00",
-      "brief_slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and"
-    },
-    "3d9df116e5edd7c5": {
-      "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-07T16:13:53.894335+01:00",
-      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
-    },
-    "e40de8d8661eaea5": {
-      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-07T16:13:53.894335+01:00",
-      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
-    },
-    "ebefcaa1ea7797b7": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-      "title": "Microsoft to enable Windows settings backup by default for orgs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-07T16:13:53.894335+01:00",
-      "brief_slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-"
-    },
     "30cd1218f1ee03df": {
       "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
       "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
@@ -5963,9 +5921,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-04T20:35:53.323641+01:00",
       "brief_slug": "2026-10-04-2035-look-out-extortion-and-breach-notification-scams-may-spike-after-shinyhunters-ar"
+    },
+    "6c213823f41d2565": {
+      "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-05T16:59:32.890776+01:00",
+      "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
+    },
+    "b5ce639155157349": {
+      "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-05T16:59:32.890776+01:00",
+      "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
+    },
+    "2b5b7c2cd2dfc5a5": {
+      "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+      "title": "Denmark population registry data breach affects 8.8 million people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-05T16:59:32.890776+01:00",
+      "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
+    },
+    "8529f42bd2dde732": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+      "title": "New Dell System Update flaw lets hackers gain root privileges",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-05T16:59:32.890776+01:00",
+      "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
+    },
+    "b4cc986e4abe757c": {
+      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-05T16:59:32.890776+01:00",
+      "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis",
+      "headline": "Today’s SMB Cyber Brief: credential leaks, device takeovers, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Credential/identity abuse and breach-driven phishing (plus supplier/device compromise)",
+      "published_at": "2026-10-05T16:59:32.890776+01:00",
+      "published_label": "Monday 05 October 2026, 16:59 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+        "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+        "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+        "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+        "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
+      ]
+    },
     {
       "slug": "2026-10-04-2035-look-out-extortion-and-breach-notification-scams-may-spike-after-shinyhunters-ar",
       "headline": "Look-out: extortion and breach-notification scams may spike after ShinyHunters arrest news",
@@ -9010,32 +9018,6 @@
         "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
         "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
         "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/"
-      ]
-    },
-    {
-      "slug": "2026-07-07-1613-today-s-sme-cyber-look-out-ai-coding-tools-github-workflows-data-leak-risk-plus-",
-      "headline": "Today’s SME cyber look-out: AI coding tools & GitHub workflows data leak risk, plus router backdoor warnings",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS AI workflow data leakage + small office router exposure",
-      "published_at": "2026-07-07T16:13:53.894335+01:00",
-      "published_label": "Tuesday 07 July 2026, 16:13 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-        "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/"
-      ]
-    },
-    {
-      "slug": "2026-07-07-1131-today-s-sme-cyber-lookout-fake-teams-it-support-calls-job-interview-phishing-and",
-      "headline": "Today’s SME cyber lookout: fake Teams ‘IT support’ calls, job-interview phishing, and remote-access tool risk",
-      "risk_level": "High",
-      "todays_lookout": "Impersonation-led access theft (Teams + Google) and remote-access supplier risk",
-      "published_at": "2026-07-07T11:31:57.508950+01:00",
-      "published_label": "Tuesday 07 July 2026, 11:31 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-        "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-        "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/"
       ]
     }
   ]
