@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "30cd1218f1ee03df": {
-      "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-07T19:19:20.436208+01:00",
-      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
-    },
-    "31981167c8139385": {
-      "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
-      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-07T19:19:20.436208+01:00",
-      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
-    },
-    "cede3de819da9d2a": {
-      "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
-      "title": "Hidden backdoor in Tenda router firmware grants admin access",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-07T19:19:20.436208+01:00",
-      "brief_slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw"
-    },
     "b00083c733dc2411": {
       "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
       "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
@@ -5956,9 +5935,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-05T16:59:32.890776+01:00",
       "brief_slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis"
+    },
+    "8873deea669b4d54": {
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-05T23:36:53.691266+01:00",
+      "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
+    },
+    "6f62c8557a695cae": {
+      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-05T23:36:53.691266+01:00",
+      "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
+    },
+    "f9b447af38c377a8": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-05T23:36:53.691266+01:00",
+      "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
+    },
+    "243a0ed18472aa6d": {
+      "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-05T23:36:53.691266+01:00",
+      "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
+    },
+    "d9fe3a1e916f0e9e": {
+      "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+      "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-05T23:36:53.691266+01:00",
+      "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning",
+      "headline": "Today’s SMB cyber lookout: SSO disruption risk (NetScaler), internet server scanning (HFS), and AI-enabled scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SSO disruption + exposed server scanning + AI-powered social engineering",
+      "published_at": "2026-10-05T23:36:53.691266+01:00",
+      "published_label": "Monday 05 October 2026, 23:36 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+        "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+        "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+        "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/"
+      ]
+    },
     {
       "slug": "2026-10-05-1659-today-s-smb-cyber-brief-credential-leaks-device-takeovers-and-breach-driven-phis",
       "headline": "Today’s SMB Cyber Brief: credential leaks, device takeovers, and breach-driven phishing",
@@ -9005,19 +9034,6 @@
         "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
         "https://blog.talosintelligence.com/uat-7810/",
         "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
-      ]
-    },
-    {
-      "slug": "2026-07-07-1919-today-s-smb-cyber-lookout-microsoft-365-device-code-phishing-mobile-banking-malw",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 device‑code phishing, mobile banking malware, and router backdoor risk",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover scams (M365 device-code), banking fraud on mobiles, and small-office router compromise",
-      "published_at": "2026-07-07T19:19:20.436208+01:00",
-      "published_label": "Tuesday 07 July 2026, 19:19 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-        "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
-        "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/"
       ]
     }
   ]

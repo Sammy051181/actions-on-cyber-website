@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: SSO disruption risk (NetScaler), internet server scanning (HFS), and AI-enabled scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: SSO disruption risk (NetScaler), internet server scanning (HFS), and AI-enabled scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 05 October 2026, 23:36 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SSO disruption + exposed server scanning + AI-powered social engineering
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Citrix NetScaler (ADC/Gateway) SAML/SSO disruption risk</strong>: Reports indicate a newly addressed NetScaler issue has been exploited in targeted attacks and can knock SAML deployments offline (impacting sign-in and access to business apps).</p>
+<p><strong>2) Rejetto HFS (HTTP File Server) systems being actively scanned</strong>: If you (or a supplier) still run HFS exposed to the internet, attackers may be probing it for a critical weakness.</p>
+<p><strong>3) AI-assisted attack themes in the mainstream</strong>: Banking-focused incidents and broader reporting highlight attackers using automation/AI to scale convincing lures and speed up account takeover attempts.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+<li><strong>SSO downtime becomes business downtime</strong>: If SAML/SSO breaks, staff may be locked out of Microsoft 365, email, CRM, payroll, finance or line-of-business systems.</li>
+<li><strong>Knock-on effects for outsourced IT and hosted services</strong>: If your MSP, hosting provider, or a key supplier relies on NetScaler or HFS, your operations can be impacted even if you don’t run these tools directly.</li>
+<li><strong>Disruption creates “helpdesk” scam opportunities</strong>: When sign-in issues hit, attackers often exploit the confusion with fake IT support calls/emails, password reset links, or MFA push fatigue.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Sudden spikes in staff reporting they “can’t log in” to multiple services at once (especially via SSO).</li>
+<li>Unexpected SAML/MFA prompts, repeated approval requests, or “session expired” loops.</li>
+<li>Inbound emails/chats claiming to be IT/MSP asking users to re-authenticate, install a remote tool, or share MFA codes.</li>
+<li>Unexpected server/service instability on a file-sharing or legacy web server (particularly any internet-facing file server).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>SSO disruption as cover</strong>: Attackers may trigger outages or sign-in failures and then follow up with believable “fix your access” phishing.</li>
+<li><strong>Account takeover attempts</strong>: Password spraying, session hijacking attempts, and MFA fatigue tactics become more effective when users are already struggling to sign in.</li>
+<li><strong>Opportunistic scanning</strong>: Internet-exposed servers (like HFS) can be scanned at scale; once found, attackers try to gain a foothold and pivot to file access, ransomware, or data theft.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Brief staff (5 minutes)</strong>: “If you get a login problem, don’t trust random ‘IT fix’ links. Use the normal bookmarked sign-in pages and report anything odd.”</li>
+<li><strong>Check your exposure</strong>: Confirm whether you or your suppliers use Citrix NetScaler for remote access/SSO, and whether any internet-facing file servers (including legacy tools like HFS) exist.</li>
+<li><strong>Harden sign-in support</strong>: Make sure staff know the official way to contact IT/MSP (a known phone number / portal), not via links in emails.</li>
+<li><strong>Increase monitoring today</strong>: Pay extra attention to sign-in anomalies, repeated MFA prompts, and new remote access tool installs.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do we (or any key supplier/MSP platform we depend on) use <strong>Citrix NetScaler ADC/Gateway</strong> for SSO or remote access?</li>
+<li>Have you checked whether we’re exposed to the <strong>NetScaler issue affecting SAML/SSO availability</strong>, and what mitigations/updates have been applied?</li>
+<li>What’s our <strong>fallback plan</strong> if SSO is down (break-glass admin accounts, alternate access to email/critical apps, comms plan)?</li>
+<li>Do we have any <strong>internet-facing file servers</strong> or legacy web/file services (including Rejetto HFS)? If yes, who owns them and how are they monitored?</li>
+<li>What alerts do we have in place for <strong>MFA fatigue</strong> and unusual sign-in patterns today?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Citrix has issued emergency updates relating to an exploited NetScaler issue reported to disrupt SAML/SSO. Even if you don’t manage patches yourself, treat this as a priority supplier question today: confirm whether NetScaler is in your environment (or your MSP’s) and whether updates/mitigations have been applied, plus what user-visible disruption to expect during remediation.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “If you have login/SSO problems, do not approve unexpected MFA prompts and don’t use ‘IT reset’ links from emails—contact IT/MSP via the usual number/portal.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber – “Phishing &amp; MFA fatigue: staff one-page checklist”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/" rel="noopener noreferrer">Citrix patches NetScaler SAML zero-day exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html" rel="noopener noreferrer">New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/" rel="noopener noreferrer">Rejetto HFS servers now actively scanned for critical RCE flaw</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/" rel="noopener noreferrer">South Korea probes bank breaches amid suspected AI-powered attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
