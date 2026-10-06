@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "a4bf32ad6055a423": {
-      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-08T15:40:22.618212+01:00",
-      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
-    },
-    "09713cdc0f08337b": {
-      "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-      "title": "The Verification Step Is the New ATO Battleground in 2026",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-08T15:40:22.618212+01:00",
-      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
-    },
-    "a8c2ea06620a7e08": {
-      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-08T15:40:22.618212+01:00",
-      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
-    },
-    "655b09b40550bf3d": {
-      "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-      "title": "Telco giant KDDI says data breach affects over 12 million people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-08T15:40:22.618212+01:00",
-      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
-    },
-    "15ffdd0151ee1741": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-08T15:40:22.618212+01:00",
-      "brief_slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven"
-    },
-    "26b7475c5d0d96b6": {
-      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-08T18:51:38.537092+01:00",
-      "brief_slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app"
-    },
-    "0e40a06dbfa836ba": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-08T18:51:38.537092+01:00",
-      "brief_slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app"
-    },
     "11bd55b6e6a6a556": {
       "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
       "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
@@ -5977,9 +5928,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-06T15:10:59.190180+01:00",
       "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
+    },
+    "5024a2a66caca425": {
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-06T21:58:40.928015+01:00",
+      "brief_slug": "2026-10-06-2158-asos-incident-scams-fake-ai-ad-portals-targeting-ad-accounts-and-mfa"
+    },
+    "7a6163ec70060cb5": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-06T21:58:40.928015+01:00",
+      "brief_slug": "2026-10-06-2158-asos-incident-scams-fake-ai-ad-portals-targeting-ad-accounts-and-mfa"
+    },
+    "f33daff6fbcd6751": {
+      "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+      "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-06T21:58:40.928015+01:00",
+      "brief_slug": "2026-10-06-2158-asos-incident-scams-fake-ai-ad-portals-targeting-ad-accounts-and-mfa"
+    },
+    "0aa7163c9d2cb844": {
+      "url": "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers",
+      "title": "Incident affecting ASOS customers",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-10-06T21:58:40.928015+01:00",
+      "brief_slug": "2026-10-06-2158-asos-incident-scams-fake-ai-ad-portals-targeting-ad-accounts-and-mfa"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-06-2158-asos-incident-scams-fake-ai-ad-portals-targeting-ad-accounts-and-mfa",
+      "headline": "ASOS incident scams + fake AI “ad portals” targeting ad accounts and MFA",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation & credential-theft scams (brand incident lures + ad account takeovers)",
+      "published_at": "2026-10-06T21:58:40.928015+01:00",
+      "published_label": "Tuesday 06 October 2026, 21:58 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+        "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+        "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+        "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers"
+      ]
+    },
     {
       "slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-",
       "headline": "SMB Cyber Intelligence Brief: Phishing after email takeovers, ‘ClickFix’ tricks, and MSP/RMM access risk",
@@ -9015,33 +9008,6 @@
         "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
         "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
         "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
-      ]
-    },
-    {
-      "slug": "2026-07-08-1851-today-s-smb-cyber-lookout-microsoft-365-passkey-enrolment-vishing-urgent-web-app",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 “passkey enrolment” vishing + urgent web app exposure checks",
-      "risk_level": "High",
-      "todays_lookout": "Voice phishing (vishing) to hijack Microsoft 365 logins, plus web app compromise leading to ransomware/disruption",
-      "published_at": "2026-07-08T18:51:38.537092+01:00",
-      "published_label": "Wednesday 08 July 2026, 18:51 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"
-      ]
-    },
-    {
-      "slug": "2026-07-08-1540-today-s-sme-cyber-look-out-stealth-phishing-verification-scams-and-breach-driven",
-      "headline": "Today’s SME cyber look-out: stealth phishing, “verification” scams, and breach-driven password resets",
-      "risk_level": "High",
-      "todays_lookout": "Phishing and account takeover: “verification steps”, hidden phishing pages, and breach follow-on scams",
-      "published_at": "2026-07-08T15:40:22.618212+01:00",
-      "published_label": "Wednesday 08 July 2026, 15:40 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-        "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-        "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-        "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
       ]
     }
   ]
