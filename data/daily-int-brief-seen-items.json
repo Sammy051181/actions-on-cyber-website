@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "b00083c733dc2411": {
-      "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
-      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-08T10:35:52.281481+01:00",
-      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
-    },
-    "d209aa72b2ff6de8": {
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-08T10:35:52.281481+01:00",
-      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
-    },
-    "a6db55d019e89e30": {
-      "url": "https://blog.talosintelligence.com/uat-7810/",
-      "title": "UAT-7810 continues building ORB networks using new malware",
-      "source": "Cisco Talos",
-      "seen_at": "2026-07-08T10:35:52.281481+01:00",
-      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
-    },
-    "4a3aefd50bae8a4a": {
-      "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-08T10:35:52.281481+01:00",
-      "brief_slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig"
-    },
     "a4bf32ad6055a423": {
       "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
       "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
@@ -5970,9 +5942,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-05T23:36:53.691266+01:00",
       "brief_slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning"
+    },
+    "8a072195000a84bf": {
+      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+      "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-06T15:10:59.190180+01:00",
+      "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
+    },
+    "fe8af18cdfe31847": {
+      "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-06T15:10:59.190180+01:00",
+      "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
+    },
+    "5c72c383e194ac63": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+      "title": "How to secure RMM software: 8 controls MSPs should test",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-06T15:10:59.190180+01:00",
+      "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
+    },
+    "35a5f1b872150826": {
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+      "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-06T15:10:59.190180+01:00",
+      "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
+    },
+    "d1f67c3b62dd684a": {
+      "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-06T15:10:59.190180+01:00",
+      "brief_slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-06-1510-smb-cyber-intelligence-brief-phishing-after-email-takeovers-clickfix-tricks-and-",
+      "headline": "SMB Cyber Intelligence Brief: Phishing after email takeovers, ‘ClickFix’ tricks, and MSP/RMM access risk",
+      "risk_level": "High",
+      "todays_lookout": "Phishing waves and business email compromise, plus MSP/RMM supplier risk",
+      "published_at": "2026-10-06T15:10:59.190180+01:00",
+      "published_label": "Tuesday 06 October 2026, 15:10 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+        "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+        "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+        "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+        "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html"
+      ]
+    },
     {
       "slug": "2026-10-05-2336-today-s-smb-cyber-lookout-sso-disruption-risk-netscaler-internet-server-scanning",
       "headline": "Today’s SMB cyber lookout: SSO disruption risk (NetScaler), internet server scanning (HFS), and AI-enabled scams",
@@ -9020,20 +9042,6 @@
         "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
         "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
-      ]
-    },
-    {
-      "slug": "2026-07-08-1035-smb-cyber-intelligence-brief-watch-for-router-compromise-used-as-relay-boxes-tig",
-      "headline": "SMB Cyber Intelligence Brief: Watch for router compromise used as “relay boxes” + tighten SaaS admin controls",
-      "risk_level": "Moderate",
-      "todays_lookout": "Compromised routers used as attacker relay infrastructure, and SaaS/chatbot admin-change risk",
-      "published_at": "2026-07-08T10:35:52.281481+01:00",
-      "published_label": "Wednesday 08 July 2026, 10:35 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
-        "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-        "https://blog.talosintelligence.com/uat-7810/",
-        "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
       ]
     }
   ]
