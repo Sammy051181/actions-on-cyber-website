@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — supply-chain traps, certificate trust risk, and exposed AI services | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — supply-chain traps, certificate trust risk, and exposed AI services</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 07 October 2026, 22:17 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS trust risk + software supply-chain malware
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain risk (npm):</strong> reports of multiple malicious npm packages being downloaded at scale and delivering remote access and data-stealing malware.</li>
+  <li><strong>Website / certificate trust risk:</strong> attackers compromised some country-domain registries (.gh, .sl, .as) and obtained unauthorised HTTPS certificates for several Google domains. Google says its own systems were not breached, but this is a reminder that “the padlock” isn’t a guarantee of safety if certificate issuance is abused.</li>
+  <li><strong>Exposed AI/LLM services being abused:</strong> a malware campaign is reported to be compromising exposed AI services and using them for cryptomining and as a platform to spread further.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Even if you’re not a tech company, you may rely on suppliers who ship software built with open-source components. Malicious packages can land inside legitimate tools and updates. Separately, certificate and domain ecosystem issues can increase the chance of convincing lookalike login pages, interception attempts, or confusion during sign-in to common services. Finally, if your business (or your IT provider) is experimenting with AI servers, plug-ins, or self-hosted models, exposed services can be hijacked for noisy, costly disruption (performance, cloud bills, outages).</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report being prompted to <strong>re-enter Microsoft/Google passwords</strong> unexpectedly or seeing unusual “verify your account” flows.</li>
+  <li>New or unexplained <strong>browser certificate warnings</strong>, repeated login loops, or “this connection isn’t private” messages (especially when travelling or on public Wi‑Fi).</li>
+  <li>Sudden <strong>slow servers</strong>, higher cloud/hosting bills, or spikes in CPU usage suggesting cryptomining.</li>
+  <li>Unplanned code/library changes, new dependencies, or “quick fixes” pushed into production without normal review (for teams using developers or web agencies).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Dependency poisoning:</strong> attackers publish packages that look legitimate, then rely on developers/automation to pull them in and run attacker code.</li>
+  <li><strong>Trust abuse:</strong> if HTTPS certificates can be obtained improperly, attackers may attempt more believable impersonation of well-known services, or try to reduce suspicion during credential theft attempts.</li>
+  <li><strong>Internet exposure hunting:</strong> attackers scan for openly accessible AI/LLM endpoints or management consoles and use them for cryptomining and onward activity.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff</strong>: treat unexpected login prompts as suspicious; use known bookmarks; don’t follow sign-in links from emails/DMs.</li>
+  <li><strong>Check exposure</strong>: confirm no AI/LLM services, admin panels, or remote management tools are exposed to the internet unless explicitly required.</li>
+  <li><strong>Harden sign-in</strong>: ensure MFA is enabled for email, Microsoft 365/Google, finance systems, and any admin accounts.</li>
+  <li><strong>Supplier hygiene</strong>: if you use a web agency or software developer, ask what controls they use to prevent malicious open-source dependencies entering builds.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any <strong>internet-exposed AI/LLM services</strong> (or test servers) in our environment or cloud accounts? If yes, what is the access control and monitoring?</li>
+  <li>What monitoring is in place for <strong>unusual CPU usage</strong>, unexpected new servers/containers, or cost spikes that could indicate cryptomining?</li>
+  <li>For any in-house or supplier-developed apps, do we have <strong>dependency controls</strong> (approved registries, lockfiles, review gates, and alerts for suspicious packages)?</li>
+  <li>Do we have a user-facing process for reporting <strong>certificate warnings</strong> or strange login behaviour, and do we investigate those reports?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use SonicWall SMA1000 remote access appliances, SonicWall has released hotfixes for multiple issues including a critical pre-authentication flaw. This is the kind of edge device criminals watch closely because it can lead to network access and disruption. If you don’t know whether you have these appliances, ask your IT provider today.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 3-line internal note: “Use bookmarks for logins, report certificate warnings immediately, and don’t approve unexpected sign-in/MFA prompts.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: ‘Phishing-resistant sign-in (MFA prompts, fake login pages, and staff reporting)’</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html" rel="noopener noreferrer">Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html" rel="noopener noreferrer">Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/" rel="noopener noreferrer">PoeLLM malware infects exposed AI servers in cryptomining attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html" rel="noopener noreferrer">PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html" rel="noopener noreferrer">SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
