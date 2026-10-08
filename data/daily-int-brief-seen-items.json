@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "44e86bfce82aee3f": {
-      "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T15:50:46.499129+01:00",
-      "brief_slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls"
-    },
-    "eec67c8de33d1e31": {
-      "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T19:00:56.009056+01:00",
-      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
-    },
-    "3d14a355740b65bb": {
-      "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T19:00:56.009056+01:00",
-      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
-    },
-    "2c2f445afa8d5ffb": {
-      "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T19:00:56.009056+01:00",
-      "brief_slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre"
-    },
     "3365af60dbb394cc": {
       "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
       "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
@@ -5921,9 +5893,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-08T15:34:23.679756+01:00",
       "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
+    },
+    "bf1d7ae18b6dedec": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+      "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "f9c4c3b919d252ae": {
+      "url": "https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat",
+      "title": "CISA, FBI, NSA and International Partners Warn of China-based Cybersecurity Company Enabling Threat Actors to Target Multiple Critical Infrastructure Sectors Worldwide",
+      "source": "CISA News",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "3550c28eb21e754b": {
+      "url": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+      "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
+      "source": "NCSC All Updates",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "82ee7a48c04d51c5": {
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "91772b15c7997675": {
+      "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+      "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "92f3696e16484178": {
+      "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-08T22:18:44.393846+01:00",
+      "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git",
+      "headline": "Today’s SMB cyber look-out: email account targeting, cloud disruption, and “fake GitHub” malware",
+      "risk_level": "High",
+      "todays_lookout": "Email account takeover + supplier cloud outage scams + poisoned developer downloads",
+      "published_at": "2026-10-08T22:18:44.393846+01:00",
+      "published_label": "Thursday 08 October 2026, 22:18 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+        "https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat",
+        "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+        "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+        "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+        "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
+      ]
+    },
     {
       "slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw",
       "headline": "Today’s SMB Cyber Brief: social engineering breaches, FortiGate lockouts, and software supply-chain risk",
@@ -8934,30 +8964,6 @@
         "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
         "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
         "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
-      ]
-    },
-    {
-      "slug": "2026-07-10-1900-today-s-sme-cyber-lookout-fake-installers-wordpress-site-backdoors-and-risky-fre",
-      "headline": "Today’s SME cyber lookout: fake installers, WordPress site backdoors, and risky free VPN apps",
-      "risk_level": "High",
-      "todays_lookout": "Malware via counterfeit downloads + website compromise + unsafe consumer VPN apps",
-      "published_at": "2026-07-10T19:00:56.009056+01:00",
-      "published_label": "Friday 10 July 2026, 19:00 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-        "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-        "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html"
-      ]
-    },
-    {
-      "slug": "2026-07-10-1550-today-s-smb-cyber-lookout-fake-microsoft-365-passkey-enrolment-calls",
-      "headline": "Today’s SMB cyber lookout: fake Microsoft 365 “passkey enrolment” calls",
-      "risk_level": "High",
-      "todays_lookout": "Identity phishing via fake security calls and passkey enrolment",
-      "published_at": "2026-07-10T15:50:46.499129+01:00",
-      "published_label": "Friday 10 July 2026, 15:50 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
       ]
     }
   ]
