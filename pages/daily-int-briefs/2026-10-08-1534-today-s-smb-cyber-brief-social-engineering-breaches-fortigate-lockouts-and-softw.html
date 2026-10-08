@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: social engineering breaches, FortiGate lockouts, and software supply-chain risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: social engineering breaches, FortiGate lockouts, and software supply-chain risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 08 October 2026, 15:34 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft &amp; supplier/SaaS trust (social engineering, VPN access, and software supply chain)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+<li><strong>Social engineering + credential theft</strong>: ASOS has linked a recent breach to social engineering and stolen credentials. Expect copycat phishing that claims to be “from ASOS” (or other retailers) and tries to harvest logins or payment details.</li>
+<li><strong>Remote access disruption</strong>: The FBI is warning that <strong>FortiGate / SSL VPN</strong> attacks are still ongoing and can <strong>lock out legitimate administrators</strong>. If your business relies on Fortinet VPN for remote work, this is a business continuity risk.</li>
+<li><strong>Software supply-chain exposure</strong>: A compromised <strong>npm</strong> package (“tensorlake”) was reported to have been tampered with to steal credentials and secrets. This matters if you build software in-house, use web agencies, or have suppliers shipping code into your environment.</li>
+<li><strong>“Ransomware recovery” trust risk</strong>: A ransomware recovery company CEO has been charged over alleged secret ransom payments while claiming proprietary recovery. This is a caution for any SME shopping for emergency incident support.</li>
+<li><strong>Phishing kits getting smarter</strong>: Reporting on the “Wazza” phishkit highlights increasingly sophisticated phishing infrastructure designed to evade simple blocking and filtering.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs tend to be hit hardest by <strong>credential theft</strong> (email takeover, payroll diversion, invoice fraud) and by <strong>remote access outages</strong> (VPN disruption stops staff working). Supply-chain issues (like a compromised code package) can also arrive via <strong>web developers, MSPs, and SaaS integrations</strong> without warning.</p>
+
+<h2>Warning signs</h2>
+<ul>
+<li>Staff receiving “account security”, “password reset”, “suspicious activity” or “refund” emails/SMS that create urgency and push a login link.</li>
+<li>Unexpected <strong>MFA prompts</strong> or users reporting they are suddenly “locked out”.</li>
+<li>VPN/admin consoles showing <strong>new admin users</strong>, changed permissions, or unexplained configuration changes.</li>
+<li>Developers or suppliers reporting a “dependency update” that must be applied immediately, especially if details are vague.</li>
+<li>New OAuth/app connections appearing in Microsoft 365/Google/SaaS that nobody recognises.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+<li><strong>Brand-based phishing</strong>: using high-profile incidents (like ASOS) as a believable story to steal passwords and payment details.</li>
+<li><strong>Credential replay</strong>: using stolen passwords against business email, payroll, accounting, and file-sharing tools.</li>
+<li><strong>Remote access takeover or disruption</strong>: targeting exposed VPN gateways to gain access or deny access (locking out admins) and then attempting follow-on fraud or ransomware.</li>
+<li><strong>Supply-chain entry</strong>: compromised packages or “helpful updates” used to harvest credentials, tokens, API keys, and secrets that unlock wider access.</li>
+<li><strong>Dubious incident support</strong>: during ransomware events, stressed businesses may engage “recovery” firms without clear terms—creating financial, legal, and reputational risk.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+<li><strong>Send a 2-minute staff warning</strong>: don’t click “account security” links from retailers/banks; use bookmarks/known URLs; report anything that asks for urgent login/payment details.</li>
+<li><strong>Protect business email</strong>: ensure MFA is enabled and that finance/payroll mailboxes have extra scrutiny (rules/forwarding checks).</li>
+<li><strong>Confirm remote access ownership</strong>: if you use Fortinet VPN, ask your IT provider to confirm monitoring for admin lockout attempts and that recovery access is in place.</li>
+<li><strong>Check supplier/dev pathways</strong>: if you have developers (internal or external), ask what they do to prevent malicious dependency updates and how secrets are stored/rotated.</li>
+<li><strong>Review third-party app access</strong> (OAuth/app grants): remove anything unused or unknown, especially anything with mailbox/file access.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+<li>Do we have any <strong>FortiGate / SSL VPN</strong> exposure, and what are we doing to prevent admin lockouts and detect suspicious admin activity?</li>
+<li>Do we have <strong>break-glass</strong> admin access for Microsoft 365/Google and for VPN/firewall management if normal admins are locked out?</li>
+<li>How quickly would you spot and respond to <strong>new email forwarding rules</strong>, suspicious login locations, or MFA fatigue attempts?</li>
+<li>Which suppliers can push code or integrations into our environment, and how do we control/approve <strong>dependency updates</strong>?</li>
+<li>If we suffer ransomware, what is our agreed approach to third-party “recovery” services—who we would use, what we will/won’t pay for, and what approvals are required?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business uses Fortinet FortiGate/SSL VPN, treat today’s FBI warning as a prompt to confirm your provider has applied relevant vendor guidance and that internet-facing remote access is tightly controlled and monitored. Avoid DIY changes if you don’t manage the firewall day-to-day—get confirmation in writing from your IT partner.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Ignore urgent ‘account security/refund’ messages—don’t use embedded links; go via saved bookmarks; report anything asking for logins or payment changes.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Invoice &amp; payment change anti-fraud process (call-back + two-person approval)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/" rel="noopener noreferrer">ASOS links data breach to social engineering attack, credential theft</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/" rel="noopener noreferrer">FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html" rel="noopener noreferrer">Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/" rel="noopener noreferrer">Ransomware recovery CEO charged over secret ransom payments</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html" rel="noopener noreferrer">Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

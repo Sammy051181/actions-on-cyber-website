@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "b775c45641d3bef0": {
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-10T11:29:40.974798+01:00",
-      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
-    },
-    "eb95a634a0340b77": {
-      "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T11:29:40.974798+01:00",
-      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
-    },
-    "8ff145c88e58f3bb": {
-      "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-10T11:29:40.974798+01:00",
-      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
-    },
-    "107733d883d24ed3": {
-      "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-10T11:29:40.974798+01:00",
-      "brief_slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r"
-    },
     "44e86bfce82aee3f": {
       "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
       "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
@@ -5914,9 +5886,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-07T22:17:47.439439+01:00",
       "brief_slug": "2026-10-07-2217-smb-cyber-intelligence-brief-supply-chain-traps-certificate-trust-risk-and-expos"
+    },
+    "e7ebdbc179da76f3": {
+      "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+      "title": "ASOS links data breach to social engineering attack, credential theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-08T15:34:23.679756+01:00",
+      "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
+    },
+    "049aad3b8e0ab1a7": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+      "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-08T15:34:23.679756+01:00",
+      "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
+    },
+    "a947937fc68c594b": {
+      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-08T15:34:23.679756+01:00",
+      "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
+    },
+    "8112fe6fe7db20cd": {
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+      "title": "Ransomware recovery CEO charged over secret ransom payments",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-08T15:34:23.679756+01:00",
+      "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
+    },
+    "e8a1c9ded2dd62e2": {
+      "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-08T15:34:23.679756+01:00",
+      "brief_slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-08-1534-today-s-smb-cyber-brief-social-engineering-breaches-fortigate-lockouts-and-softw",
+      "headline": "Today’s SMB Cyber Brief: social engineering breaches, FortiGate lockouts, and software supply-chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft & supplier/SaaS trust (social engineering, VPN access, and software supply chain)",
+      "published_at": "2026-10-08T15:34:23.679756+01:00",
+      "published_label": "Thursday 08 October 2026, 15:34 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+        "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+        "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+        "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+        "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html"
+      ]
+    },
     {
       "slug": "2026-10-07-2217-smb-cyber-intelligence-brief-supply-chain-traps-certificate-trust-risk-and-expos",
       "headline": "SMB Cyber Intelligence Brief — supply-chain traps, certificate trust risk, and exposed AI services",
@@ -8936,20 +8958,6 @@
       "published_label": "Friday 10 July 2026, 15:50 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
-      ]
-    },
-    {
-      "slug": "2026-07-10-1129-smb-cyber-intelligence-brief-fraud-lures-destructive-malware-and-supplier-code-r",
-      "headline": "SMB Cyber Intelligence Brief — Fraud lures, destructive malware, and supplier-code risk",
-      "risk_level": "High",
-      "todays_lookout": "Fraud and impersonation lures + destructive malware + supplier/SaaS code supply-chain risk",
-      "published_at": "2026-07-10T11:29:40.974798+01:00",
-      "published_label": "Friday 10 July 2026, 11:29 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-        "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-        "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-        "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html"
       ]
     }
   ]
