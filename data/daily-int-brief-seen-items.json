@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "3365af60dbb394cc": {
-      "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-      "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-11T09:58:57.719826+01:00",
-      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
-    },
-    "2764346b77ff5d26": {
-      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-11T09:58:57.719826+01:00",
-      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
-    },
-    "0ade65d4f76df878": {
-      "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-11T09:58:57.719826+01:00",
-      "brief_slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted"
-    },
-    "903b418d1fc24610": {
-      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-11T14:53:03.893747+01:00",
-      "brief_slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai"
-    },
-    "6a1f2bb00b6f21a5": {
-      "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-11T14:53:03.893747+01:00",
-      "brief_slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai"
-    },
     "23c14337daef23d0": {
       "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
       "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
@@ -5935,9 +5900,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-08T22:18:44.393846+01:00",
       "brief_slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git"
+    },
+    "9d4247f226b7f296": {
+      "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-09T15:21:48.067254+01:00",
+      "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
+    },
+    "5a63718732ecbc41": {
+      "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "title": "Low-cost Android phones ship with residential proxy malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-09T15:21:48.067254+01:00",
+      "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
+    },
+    "0c103a036f9d585d": {
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-09T15:21:48.067254+01:00",
+      "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
+    },
+    "484d290f7ef10868": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+      "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-09T15:21:48.067254+01:00",
+      "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
+    },
+    "8807a125f475e333": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+      "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-09T15:21:48.067254+01:00",
+      "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr",
+      "headline": "SMB Cyber Intelligence Brief: Ransomware “recovery” trust risks, risky low-cost Androids, and edge-device disruption",
+      "risk_level": "High",
+      "todays_lookout": "Business disruption and scams linked to ransomware recovery, compromised devices, and perimeter appliance risk",
+      "published_at": "2026-10-09T15:21:48.067254+01:00",
+      "published_label": "Friday 09 October 2026, 15:21 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+        "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+        "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/"
+      ]
+    },
     {
       "slug": "2026-10-08-2218-today-s-smb-cyber-look-out-email-account-targeting-cloud-disruption-and-fake-git",
       "headline": "Today’s SMB cyber look-out: email account targeting, cloud disruption, and “fake GitHub” malware",
@@ -8939,31 +8954,6 @@
         "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
         "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
         "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-07-11-1453-smb-cyber-intelligence-brief-urgent-supplier-risk-sharefile-software-supply-chai",
-      "headline": "SMB Cyber Intelligence Brief: urgent supplier risk (ShareFile) + software supply-chain tampering",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and SaaS/service disruption, plus poisoned software updates/packages",
-      "published_at": "2026-07-11T14:53:03.893747+01:00",
-      "published_label": "Saturday 11 July 2026, 14:53 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-        "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
-      ]
-    },
-    {
-      "slug": "2026-07-11-0958-weekend-lookout-urgent-action-for-sharefile-on-prem-connectors-and-risky-crafted",
-      "headline": "Weekend lookout: urgent action for ShareFile on‑prem connectors and risky crafted emails targeting webmail",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS dependency risk and email-led compromise",
-      "published_at": "2026-07-11T09:58:57.719826+01:00",
-      "published_label": "Saturday 11 July 2026, 09:58 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-        "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-        "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
       ]
     }
   ]
