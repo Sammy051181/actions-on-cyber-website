@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "23c14337daef23d0": {
-      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-11T18:15:05.929858+01:00",
-      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
-    },
-    "d5e2d6179868c4da": {
-      "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-      "title": "Police suspects Dutch hackers were involved in Odido breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-11T18:15:05.929858+01:00",
-      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
-    },
-    "3876d90cd5c8f02c": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-      "title": "New U-Boot flaws could enable stealthy firmware attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-11T18:15:05.929858+01:00",
-      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
-    },
-    "fd4596900851b0c2": {
-      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-11T18:15:05.929858+01:00",
-      "brief_slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets"
-    },
     "440f70b0e78588e2": {
       "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
@@ -5935,9 +5907,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-09T15:21:48.067254+01:00",
       "brief_slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr"
+    },
+    "5912f0c9922d4ec5": {
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-09T21:52:52.090118+01:00",
+      "brief_slug": "2026-10-09-2152-backup-platform-exploitation-check-if-your-backups-or-msp-tooling-include-ahsayc"
+    },
+    "d33e86be6de0bd5d": {
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-09T21:52:52.090118+01:00",
+      "brief_slug": "2026-10-09-2152-backup-platform-exploitation-check-if-your-backups-or-msp-tooling-include-ahsayc"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-09-2152-backup-platform-exploitation-check-if-your-backups-or-msp-tooling-include-ahsayc",
+      "headline": "Backup platform exploitation: check if your backups or MSP tooling include AhsayCBS",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/MSP backup tooling risk and follow-on compromise",
+      "published_at": "2026-10-09T21:52:52.090118+01:00",
+      "published_label": "Friday 09 October 2026, 21:52 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+      ]
+    },
     {
       "slug": "2026-10-09-1521-smb-cyber-intelligence-brief-ransomware-recovery-trust-risks-risky-low-cost-andr",
       "headline": "SMB Cyber Intelligence Brief: Ransomware “recovery” trust risks, risky low-cost Androids, and edge-device disruption",
@@ -8940,20 +8938,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
         "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/"
-      ]
-    },
-    {
-      "slug": "2026-07-11-1815-weekend-lookout-telecom-breach-scams-and-ai-code-tools-leaking-secrets",
-      "headline": "Weekend lookout: telecom-breach scams and AI code tools leaking secrets",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams + AI tooling secrets exposure",
-      "published_at": "2026-07-11T18:15:05.929858+01:00",
-      "published_label": "Saturday 11 July 2026, 18:15 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-        "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-        "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-        "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html"
       ]
     }
   ]
