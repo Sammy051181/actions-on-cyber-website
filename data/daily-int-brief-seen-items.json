@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "440f70b0e78588e2": {
-      "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-12T10:15:19.286326+01:00",
-      "brief_slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti"
-    },
-    "1c37f0a5062bb5c5": {
-      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-12T10:15:19.286326+01:00",
-      "brief_slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti"
-    },
     "36fa517ccdb8cb92": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
       "title": "Hackers exploit critical auth bypass in Gitea Docker image",
@@ -5921,9 +5907,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-09T21:52:52.090118+01:00",
       "brief_slug": "2026-10-09-2152-backup-platform-exploitation-check-if-your-backups-or-msp-tooling-include-ahsayc"
+    },
+    "9d4120ee38afb875": {
+      "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "source": "Krebs on Security",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "80ea615a8d476f8c": {
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "2578558362f02f98": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "6966a661074ee54f": {
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "efd24bc6b14734d0": {
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "7624a715a1f8ab1f": {
+      "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-10T14:39:30.415804+01:00",
+      "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we",
+      "headline": "Ransomware arrest headlines + hidden AI/agent tools: what SMEs should watch this weekend",
+      "risk_level": "Moderate",
+      "todays_lookout": "Extortion and supplier/AI agent sprawl risks (phishing and account misuse)",
+      "published_at": "2026-10-10T14:39:30.415804+01:00",
+      "published_label": "Saturday 10 October 2026, 14:39 UK time",
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+        "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+        "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+        "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+        "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+        "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html"
+      ]
+    },
     {
       "slug": "2026-10-09-2152-backup-platform-exploitation-check-if-your-backups-or-msp-tooling-include-ahsayc",
       "headline": "Backup platform exploitation: check if your backups or MSP tooling include AhsayCBS",
@@ -8926,18 +8970,6 @@
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
         "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
         "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/"
-      ]
-    },
-    {
-      "slug": "2026-07-12-1015-smb-cyber-brief-sun-12-jul-2026-supply-chain-malware-via-npm-renewed-cms-targeti",
-      "headline": "SMB Cyber Brief (Sun 12 Jul 2026): Supply-chain malware via npm + renewed CMS targeting",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/supply-chain risk and website (CMS) compromise leading to credential theft and disruption",
-      "published_at": "2026-07-12T10:15:19.286326+01:00",
-      "published_label": "Sunday 12 July 2026, 10:15 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-        "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/"
       ]
     }
   ]
