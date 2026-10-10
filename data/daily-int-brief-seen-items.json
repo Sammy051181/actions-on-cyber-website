@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "36fa517ccdb8cb92": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-12T14:55:13.440888+01:00",
-      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
-    },
-    "c1cde371766464bd": {
-      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-12T14:55:13.440888+01:00",
-      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
-    },
-    "f0d2bd0b4396707d": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-12T14:55:13.440888+01:00",
-      "brief_slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and"
-    },
-    "7c20169ea7d15f0e": {
-      "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "title": "RedHook Android malware now uses Wireless ADB for shell access",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-12T18:16:21.522716+01:00",
-      "brief_slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb"
-    },
     "b23bf6e48280a3fd": {
       "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
       "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
@@ -5949,9 +5921,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-10T14:39:30.415804+01:00",
       "brief_slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we"
+    },
+    "944cba0b0c149de6": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-10T21:03:34.408051+01:00",
+      "brief_slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access"
+    },
+    "6dabc0f8fb49ecb0": {
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+      "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-10T21:03:34.408051+01:00",
+      "brief_slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access"
+    },
+    "495445805712c77d": {
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-10T21:03:34.408051+01:00",
+      "brief_slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access"
+    },
+    "30dc1b1f3fcaab41": {
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-10T21:03:34.408051+01:00",
+      "brief_slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access",
+      "headline": "Today’s SMB Cyber Brief: fake AI tool downloads via Google Ads, plus remote access gear being actively targeted",
+      "risk_level": "High",
+      "todays_lookout": "Malvertising and remote access compromise (supplier/MSP risk)",
+      "published_at": "2026-10-10T21:03:34.408051+01:00",
+      "published_label": "Saturday 10 October 2026, 21:03 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+        "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+        "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
+      ]
+    },
     {
       "slug": "2026-10-10-1439-ransomware-arrest-headlines-hidden-ai-agent-tools-what-smes-should-watch-this-we",
       "headline": "Ransomware arrest headlines + hidden AI/agent tools: what SMEs should watch this weekend",
@@ -8946,30 +8960,6 @@
         "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
         "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
         "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
-      ]
-    },
-    {
-      "slug": "2026-07-12-1816-today-s-smb-cyber-look-out-android-malware-using-wireless-debugging-wireless-adb",
-      "headline": "Today’s SMB cyber look-out: Android malware using Wireless Debugging (Wireless ADB)",
-      "risk_level": "Moderate",
-      "todays_lookout": "Mobile device compromise and account takeover risk",
-      "published_at": "2026-07-12T18:16:21.522716+01:00",
-      "published_label": "Sunday 12 July 2026, 18:16 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/"
-      ]
-    },
-    {
-      "slug": "2026-07-12-1455-smb-cyber-brief-self-hosted-developer-tools-targeted-plus-ransomware-lessons-and",
-      "headline": "SMB Cyber Brief: Self‑hosted developer tools targeted, plus ransomware lessons and AI identity sprawl",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS-style risk in self-hosted tools + ransomware disruption readiness",
-      "published_at": "2026-07-12T14:55:13.440888+01:00",
-      "published_label": "Sunday 12 July 2026, 14:55 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-        "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-        "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/"
       ]
     }
   ]
