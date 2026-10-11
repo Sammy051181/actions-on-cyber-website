@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "b23bf6e48280a3fd": {
-      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-13T11:35:05.638516+01:00",
-      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
-    },
-    "75714a411122eeeb": {
-      "url": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
-      "title": "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting",
-      "source": "NCSC All Updates",
-      "seen_at": "2026-07-13T11:35:05.638516+01:00",
-      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
-    },
-    "8689ebe44392673e": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-      "title": "US and allies warn of Russian critical infrastructure attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-13T11:35:05.638516+01:00",
-      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
-    },
-    "c1d2b64b551f5c7e": {
-      "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-      "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-13T11:35:05.638516+01:00",
-      "brief_slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers"
-    },
     "cc098c939906a0d2": {
       "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
       "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
@@ -5949,9 +5921,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-10T21:03:34.408051+01:00",
       "brief_slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access"
+    },
+    "bf89595af7c39e7a": {
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-11T15:02:04.921582+01:00",
+      "brief_slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a"
+    },
+    "c1d0598b68547532": {
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-11T15:02:04.921582+01:00",
+      "brief_slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a"
+    },
+    "2d8b2a661271f3ed": {
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-11T15:02:04.921582+01:00",
+      "brief_slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a",
+      "headline": "Today’s SMB cyber lookout: stolen credentials, supply‑chain risk and AI‑assisted attacks",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and software supply‑chain exposure (GitHub Actions), plus AI‑assisted intrusion tactics",
+      "published_at": "2026-10-11T15:02:04.921582+01:00",
+      "published_label": "Sunday 11 October 2026, 15:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+        "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+        "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
+      ]
+    },
     {
       "slug": "2026-10-10-2103-today-s-smb-cyber-brief-fake-ai-tool-downloads-via-google-ads-plus-remote-access",
       "headline": "Today’s SMB Cyber Brief: fake AI tool downloads via Google Ads, plus remote access gear being actively targeted",
@@ -8946,20 +8952,6 @@
         "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
         "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
         "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/"
-      ]
-    },
-    {
-      "slug": "2026-07-13-1135-today-s-smb-cyber-lookout-microsoft-365-phishing-poorly-configured-routers",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 phishing + poorly configured routers",
-      "risk_level": "High",
-      "todays_lookout": "Email account takeover and network entry via weak router configuration",
-      "published_at": "2026-07-13T11:35:05.638516+01:00",
-      "published_label": "Monday 13 July 2026, 11:35 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-        "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
-        "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-        "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
       ]
     }
   ]
