@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "cc098c939906a0d2": {
-      "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-13T16:10:22.200025+01:00",
-      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
-    },
-    "c0a988e61f326c5d": {
-      "url": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-13T16:10:22.200025+01:00",
-      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
-    },
-    "9d70fa79923da413": {
-      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-13T16:10:22.200025+01:00",
-      "brief_slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an"
-    },
-    "5c213df7e73fbd33": {
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "source": "Krebs on Security",
-      "seen_at": "2026-07-13T19:05:49.874951+01:00",
-      "brief_slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac"
-    },
-    "9951731d1c253c3d": {
-      "url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-13T19:05:49.874951+01:00",
-      "brief_slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac"
-    },
-    "eca7de3409a455c0": {
-      "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-13T19:05:49.874951+01:00",
-      "brief_slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac"
-    },
     "cfe644fb99fa7be6": {
       "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
       "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
@@ -5942,9 +5900,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-11T15:02:04.921582+01:00",
       "brief_slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a"
+    },
+    "406e1eebee8a0cab": {
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-11T21:15:04.666977+01:00",
+      "brief_slug": "2026-10-11-2115-supplier-breach-fallout-watch-for-phishing-and-fake-account-update-messages"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-11-2115-supplier-breach-fallout-watch-for-phishing-and-fake-account-update-messages",
+      "headline": "Supplier breach fallout: watch for phishing and fake ‘account update’ messages",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier incident scams and data-breach ripple effects",
+      "published_at": "2026-10-11T21:15:04.666977+01:00",
+      "published_label": "Sunday 11 October 2026, 21:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+      ]
+    },
     {
       "slug": "2026-10-11-1502-today-s-smb-cyber-lookout-stolen-credentials-supply-chain-risk-and-ai-assisted-a",
       "headline": "Today’s SMB cyber lookout: stolen credentials, supply‑chain risk and AI‑assisted attacks",
@@ -8926,32 +8902,6 @@
         "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
         "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
         "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a"
-      ]
-    },
-    {
-      "slug": "2026-07-13-1905-smb-cyber-intelligence-brief-leaked-credentials-risky-browser-extensions-and-mac",
-      "headline": "SMB Cyber Intelligence Brief: leaked credentials, risky browser extensions, and macOS stealing malware",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover and data theft via exposed credentials and trusted software",
-      "published_at": "2026-07-13T19:05:49.874951+01:00",
-      "published_label": "Monday 13 July 2026, 19:05 UK time",
-      "source_urls": [
-        "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-        "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-        "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html"
-      ]
-    },
-    {
-      "slug": "2026-07-13-1610-smb-cyber-intelligence-brief-microsoft-365-device-code-phishing-spoofed-calls-an",
-      "headline": "SMB Cyber Intelligence Brief: Microsoft 365 “device code” phishing, spoofed calls, and supplier-breach fallout",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover via Microsoft 365 phishing + phone-led impersonation scams + supplier breach follow-on emails",
-      "published_at": "2026-07-13T16:10:22.200025+01:00",
-      "published_label": "Monday 13 July 2026, 16:10 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-        "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-        "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/"
       ]
     }
   ]
