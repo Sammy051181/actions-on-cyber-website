@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "cfe644fb99fa7be6": {
-      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-14T10:16:53.390984+01:00",
-      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
-    },
-    "54014ce85fb246d4": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-14T10:16:53.390984+01:00",
-      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
-    },
-    "a133d597433224c7": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-      "title": "New CrashStealer malware poses as Apple crash reporting tool",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-14T10:16:53.390984+01:00",
-      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
-    },
-    "aea6069174fd1a4c": {
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
-      "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-14T10:16:53.390984+01:00",
-      "brief_slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and"
-    },
-    "4a1fc432d4cdfa8e": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
-      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-14T15:12:22.608288+01:00",
-      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
-    },
-    "5019a8434d0696a5": {
-      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-14T15:12:22.608288+01:00",
-      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
-    },
-    "f80d3c7e9d5aff7f": {
-      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-14T15:12:22.608288+01:00",
-      "brief_slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt"
-    },
     "56c6f5f41dc61ff3": {
       "url": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
       "title": "LastPass, Bitwarden users targeted with fake security alerts",
@@ -5907,9 +5858,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-11T21:15:04.666977+01:00",
       "brief_slug": "2026-10-11-2115-supplier-breach-fallout-watch-for-phishing-and-fake-account-update-messages"
+    },
+    "58f28dbb5db2e518": {
+      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
+    },
+    "953fff0f26246420": {
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
+    },
+    "768e82c2b3a27eb9": {
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
+    },
+    "c9dce304dcc90255": {
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
+    },
+    "a1a9815eeb632a0e": {
+      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
+    },
+    "c7baac5e718b8a6f": {
+      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-12T17:43:35.711894+01:00",
+      "brief_slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-12-1743-today-s-smb-cyber-lookout-disruption-driven-phishing-website-takeover-risk-and-s",
+      "headline": "Today’s SMB cyber lookout: disruption-driven phishing, website takeover risk, and supplier knock-on effects",
+      "risk_level": "High",
+      "todays_lookout": "Incident and exploitation-driven scams + website compromise + supplier disruption",
+      "published_at": "2026-10-12T17:43:35.711894+01:00",
+      "published_label": "Monday 12 October 2026, 17:43 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+        "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+        "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+        "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+        "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+      ]
+    },
     {
       "slug": "2026-10-11-2115-supplier-breach-fallout-watch-for-phishing-and-fake-account-update-messages",
       "headline": "Supplier breach fallout: watch for phishing and fake ‘account update’ messages",
@@ -8875,33 +8884,6 @@
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
         "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03"
-      ]
-    },
-    {
-      "slug": "2026-07-14-1512-today-s-smb-lookout-microsoft-365-login-phishing-that-can-bypass-mfa-plus-stealt",
-      "headline": "Today’s SMB lookout: Microsoft 365 login phishing that can bypass MFA (plus stealthy Entra credential checks)",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft 365 / Entra ID account takeover via phishing and stealthy credential validation",
-      "published_at": "2026-07-14T15:12:22.608288+01:00",
-      "published_label": "Tuesday 14 July 2026, 15:12 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
-        "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-        "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/"
-      ]
-    },
-    {
-      "slug": "2026-07-14-1016-today-s-sme-cyber-look-out-saas-account-takeovers-poisoned-software-packages-and",
-      "headline": "Today’s SME cyber look‑out: SaaS account takeovers, poisoned software packages, and “Apple tool” stealers",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & SaaS trust abuse (OAuth/app connections), plus infostealers and router hygiene",
-      "published_at": "2026-07-14T10:16:53.390984+01:00",
-      "published_label": "Tuesday 14 July 2026, 10:16 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-        "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a"
       ]
     }
   ]
