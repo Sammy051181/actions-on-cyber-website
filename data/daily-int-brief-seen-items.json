@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "2765d5a278792502": {
-      "url": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-      "title": "​ ​AsyncAPI npm packages infected with credential-stealing malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-15T18:38:03.849994+01:00",
-      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
-    },
-    "bb49257ac2827077": {
-      "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-15T18:38:03.849994+01:00",
-      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
-    },
-    "e9ca52746d186dd5": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/",
-      "title": "The Risk of Exposed Cloud Functions and How to Harden",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-07-15T18:38:03.849994+01:00",
-      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
-    },
-    "2ec1086be1ac1ce1": {
-      "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-15T18:38:03.849994+01:00",
-      "brief_slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo"
-    },
     "1fd0f569c2cb2eab": {
       "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
@@ -5844,9 +5816,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-13T16:02:18.500693+01:00",
       "brief_slug": "2026-10-13-1602-today-s-smb-cyber-brief-mfa-gaps-cloud-outages-and-remotely-managed-systems-disr"
+    },
+    "ea27b5cc9be9a781": {
+      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-13T22:13:47.598901+01:00",
+      "brief_slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk"
+    },
+    "0dfe312cc7dd1fa6": {
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-13T22:13:47.598901+01:00",
+      "brief_slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk"
+    },
+    "92637fae567836d4": {
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-13T22:13:47.598901+01:00",
+      "brief_slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk",
+      "headline": "Today’s SMB Cyber Brief: VPN gateway attacks + retail incident scam risk",
+      "risk_level": "High",
+      "todays_lookout": "Remote access gateway compromise and supplier-impersonation scams",
+      "published_at": "2026-10-13T22:13:47.598901+01:00",
+      "published_label": "Tuesday 13 October 2026, 22:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+        "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/"
+      ]
+    },
     {
       "slug": "2026-10-13-1602-today-s-smb-cyber-brief-mfa-gaps-cloud-outages-and-remotely-managed-systems-disr",
       "headline": "Today’s SMB Cyber Brief: MFA gaps, cloud outages, and remotely managed systems disruption",
@@ -8786,20 +8792,6 @@
         "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
         "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02"
-      ]
-    },
-    {
-      "slug": "2026-07-15-1838-today-s-smb-cyber-lookout-software-supply-chain-risks-fake-trusted-apps-and-expo",
-      "headline": "Today’s SMB cyber lookout: software supply-chain risks, fake “trusted” apps, and exposed cloud functions",
-      "risk_level": "High",
-      "todays_lookout": "Supplier and software supply-chain risk (npm), plus malware masquerading as trusted apps and risky cloud misconfigurations",
-      "published_at": "2026-07-15T18:38:03.849994+01:00",
-      "published_label": "Wednesday 15 July 2026, 18:38 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-        "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/",
-        "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
       ]
     }
   ]
