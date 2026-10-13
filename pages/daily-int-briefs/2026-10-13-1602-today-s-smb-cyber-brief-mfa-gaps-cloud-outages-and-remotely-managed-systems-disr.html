@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: MFA gaps, cloud outages, and remotely managed systems disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: MFA gaps, cloud outages, and remotely managed systems disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 13 October 2026, 16:02 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover + supplier disruption (cloud/remote management) with knock-on business interruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>MFA gaps still being exploited</strong>: attackers use stolen passwords to get into entry points that are often missed by MFA rollouts (e.g., VPN, Remote Desktop and Windows logons).</li>
+  <li><strong>Cloud file access outages</strong>: a major provider reported damaged data centres leading to loss of access to cloud files for some users. This is a reminder to plan for SaaS/file sync downtime and access issues.</li>
+  <li><strong>Remote management abuse causing disruption</strong>: attackers reportedly hijacked refrigeration controllers managed remotely by maintenance firms, causing physical/business impact. Similar patterns apply to any remotely managed building/retail/warehouse systems.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often secure Microsoft 365/Google with MFA but still have “side doors” (remote access, legacy logins, shared admin accounts, third-party portals, supplier remote access) where a single stolen password can lead to ransomware or invoice fraud. Separately, outages at key suppliers can stop work immediately if you rely on cloud files, SaaS apps or remote management partners. Finally, attacks on remotely managed systems show that cyber incidents can quickly become operational incidents (lost stock, closed premises, emergency call-outs).</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>MFA/identity:</strong> login alerts for VPN/RDP/Windows sign-ins you don’t recognise; repeated MFA prompts; sign-ins at unusual times; many failed login attempts followed by a success.</li>
+  <li><strong>Cloud outage impacts:</strong> staff report they “can’t see folders”, sync clients stuck, files missing/locked, or repeated prompts to re-authenticate.</li>
+  <li><strong>Remote management/IoT/OT:</strong> unexpected supplier “maintenance” sessions; device settings changing without a scheduled job; alarms/temperature setpoints changing; sudden loss of visibility in monitoring dashboards.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Credential replay where MFA isn’t enforced</strong>: attackers try the same stolen password on VPN, RDP, Windows logon, or older admin portals that weren’t included in the MFA project.</li>
+  <li><strong>Supplier dependency pressure</strong>: during outages, scammers may send fake ‘service status’ or ‘reconnect your account’ emails to harvest passwords or payment details.</li>
+  <li><strong>Abusing trusted third parties</strong>: remote maintenance access (and the accounts/tools used by suppliers) can be a high-value route into operational systems and connected networks.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Map your real entry points</strong>: list every way someone can log into your business (VPN, RDP, Windows, email, file share, accounting/payroll, remote support tools, supplier portals) and confirm which ones have MFA.</li>
+  <li><strong>Reduce exposed remote access</strong>: if you don’t need direct RDP from the internet, remove it. Where remote access is required, ensure MFA is enforced and access is restricted to approved users/locations.</li>
+  <li><strong>Prepare for SaaS/file downtime</strong>: confirm you can access critical files offline (or via an alternative) and that you have a backup you can restore from even if the cloud provider is unavailable.</li>
+  <li><strong>Check supplier remote access</strong>: review who can remotely access building controls, EPOS-related systems, CCTV, alarms, refrigeration/HVAC or other controllers; ensure it’s time-bound, logged, and revoked when not needed.</li>
+  <li><strong>Brief staff</strong>: during any service outage, be suspicious of emails/texts asking you to “re-authenticate”, “resync”, “upgrade security”, or “change payment details”. Use known contacts and official channels.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our login paths <em>still</em> allow password-only access (VPN, RDP, Windows logon, legacy apps, admin accounts)? What’s the plan and timeline to close those gaps?</li>
+  <li>Do we have alerts for unusual VPN/RDP/Windows sign-ins and repeated failed logins? Who gets notified and how quickly?</li>
+  <li>If our main cloud file platform is down, what’s our workable “day 1” process (offline access, alternative share, restore options)?</li>
+  <li>Which third parties have remote access into our environment or premises systems? Can we enforce MFA and limit access by time/IP, plus keep audit logs?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use SAP (including SAP Cloud SDK for Python), ensure your SAP support partner confirms October security updates have been reviewed and applied where relevant. Treat this as a supplier assurance check rather than a DIY patching task if you outsource SAP management.</p>
+
+        <h2>One action today</h2>
+        <p>Today, make a one-page list of every remote/admin login route into your business (VPN, RDP, Windows, remote support tools, key SaaS portals) and confirm which are protected by MFA—then prioritise fixing any password-only access.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “MFA coverage audit (beyond email) + remote access hardening”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/" rel="noopener noreferrer">The MFA Gaps Attackers are Still Exploiting</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/" rel="noopener noreferrer">Yandex confirms service outage as users lose access to cloud files</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html" rel="noopener noreferrer">Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/" rel="noopener noreferrer">SAP warns of maximum severity OAuth2 SSRF security flaw</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
