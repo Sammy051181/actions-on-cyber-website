@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "0bb78fbc64d1f923": {
-      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
-      "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T15:21:14.773447+01:00",
-      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
-    },
-    "235a6e0478c3e237": {
-      "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-16T15:21:14.773447+01:00",
-      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
-    },
-    "cd161f1ce3949274": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
-      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T15:21:14.773447+01:00",
-      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
-    },
-    "9a667808f9a4bf6d": {
-      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-16T15:21:14.773447+01:00",
-      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
-    },
-    "752fbd7ede907e97": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
-      "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T15:21:14.773447+01:00",
-      "brief_slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r"
-    },
-    "513abd6b75600e3a": {
-      "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
-      "title": "20+ Hijacked Government Websites Became an Attack Channel",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-16T18:39:39.054985+01:00",
-      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
-    },
-    "d4b510a9d80f07f0": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
-      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T18:39:39.054985+01:00",
-      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
-    },
-    "ae03488274cf3725": {
-      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-16T18:39:39.054985+01:00",
-      "brief_slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo"
-    },
     "932d8c7a52c25bfd": {
       "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
       "title": "US charges two over laundering $43 million from investment fraud",
@@ -5837,9 +5781,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-10-14T13:52:08.341777+01:00",
       "brief_slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-"
+    },
+    "fbe33babcbabc6a0": {
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-14T21:11:40.737754+01:00",
+      "brief_slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-"
+    },
+    "d21e2d4e3bc5a0bd": {
+      "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-14T21:11:40.737754+01:00",
+      "brief_slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-"
+    },
+    "402aaeff71af9a09": {
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-14T21:11:40.737754+01:00",
+      "brief_slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-"
+    },
+    "2720649a8fdd7cf6": {
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-14T21:11:40.737754+01:00",
+      "brief_slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-",
+      "headline": "Today’s SMB Cyber Brief: phishing follow‑ons, email gateway attacks, and Nextcloud server risk",
+      "risk_level": "High",
+      "todays_lookout": "Phishing and email service compromise leading to account takeover, invoice fraud, and business disruption",
+      "published_at": "2026-10-14T21:11:40.737754+01:00",
+      "published_label": "Wednesday 14 October 2026, 21:11 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+        "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+        "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+        "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html"
+      ]
+    },
     {
       "slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-",
       "headline": "Today’s SMB Cyber Brief: Deepfake payment calls, Android banking app swapping, and an Ivanti remote access risk",
@@ -8764,34 +8750,6 @@
         "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
         "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
-      ]
-    },
-    {
-      "slug": "2026-07-16-1839-today-s-sme-cyber-lookout-trusted-sites-used-to-spread-malware-finance-app-explo",
-      "headline": "Today’s SME cyber lookout: trusted sites used to spread malware, finance-app exploitation, and SaaS login/token risks",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS compromise and “trusted site” malware delivery",
-      "published_at": "2026-07-16T18:39:39.054985+01:00",
-      "published_label": "Thursday 16 July 2026, 18:39 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
-        "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-07-16-1521-today-s-sme-cyber-lookout-fake-zoom-webex-installers-clickfix-lures-and-faster-r",
-      "headline": "Today’s SME cyber lookout: fake Zoom/Webex installers, “ClickFix” lures, and faster ransomware",
-      "risk_level": "High",
-      "todays_lookout": "Malware via fake software installs and ‘copy/paste this fix’ scams; rapid ransomware disruption",
-      "published_at": "2026-07-16T15:21:14.773447+01:00",
-      "published_label": "Thursday 16 July 2026, 15:21 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
-        "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-        "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
-        "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-        "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/"
       ]
     }
   ]
