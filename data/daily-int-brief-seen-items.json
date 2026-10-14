@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "1fd0f569c2cb2eab": {
-      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-16T10:26:55.049558+01:00",
-      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
-    },
-    "b748ab90fbca9729": {
-      "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T10:26:55.049558+01:00",
-      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
-    },
-    "1b354c85bb87723a": {
-      "url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-      "title": "Dutch police bust investment fraud ring stealing over €100 million",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-16T10:26:55.049558+01:00",
-      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
-    },
-    "bcc256bd902ff112": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
-      "title": "ABB Ability Edgenius",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-16T10:26:55.049558+01:00",
-      "brief_slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud"
-    },
     "0bb78fbc64d1f923": {
       "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
       "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
@@ -5837,9 +5809,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-13T22:13:47.598901+01:00",
       "brief_slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk"
+    },
+    "72b689a43b33aab8": {
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-14T13:52:08.341777+01:00",
+      "brief_slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-"
+    },
+    "a95ca09cfb1e0855": {
+      "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-14T13:52:08.341777+01:00",
+      "brief_slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-"
+    },
+    "7a5799db26b54ed8": {
+      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+      "title": "Hirudo Android malware replaces banking apps to evade security checks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-14T13:52:08.341777+01:00",
+      "brief_slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-"
+    },
+    "0b5b8a5c7759b503": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+      "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-14T13:52:08.341777+01:00",
+      "brief_slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-14-1352-today-s-smb-cyber-brief-deepfake-payment-calls-android-banking-app-swapping-and-",
+      "headline": "Today’s SMB Cyber Brief: Deepfake payment calls, Android banking app swapping, and an Ivanti remote access risk",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation-led fraud and remote access compromise",
+      "published_at": "2026-10-14T13:52:08.341777+01:00",
+      "published_label": "Wednesday 14 October 2026, 13:52 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+        "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+        "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+        "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure"
+      ]
+    },
     {
       "slug": "2026-10-13-2213-today-s-smb-cyber-brief-vpn-gateway-attacks-retail-incident-scam-risk",
       "headline": "Today’s SMB Cyber Brief: VPN gateway attacks + retail incident scam risk",
@@ -8778,20 +8792,6 @@
         "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
         "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
         "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/"
-      ]
-    },
-    {
-      "slug": "2026-07-16-1026-today-s-smb-cyber-lookout-ai-tool-misuse-data-leakage-and-investment-fraud",
-      "headline": "Today’s SMB cyber lookout: AI tool misuse, data leakage, and investment fraud",
-      "risk_level": "Moderate",
-      "todays_lookout": "AI-assisted scams and unapproved AI tools creating data leakage and account risk",
-      "published_at": "2026-07-16T10:26:55.049558+01:00",
-      "published_label": "Thursday 16 July 2026, 10:26 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-        "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-        "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02"
       ]
     }
   ]
