@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "d7cd26a86c1a79d5": {
-      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-17T15:01:43.762927+01:00",
-      "brief_slug": "2026-07-17-1501-today-s-sme-cyber-look-out-clickfix-scams-that-steal-microsoft-365-and-browser-s"
-    },
-    "ac32bb8bdab52dda": {
-      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T18:30:33.558954+01:00",
-      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
-    },
-    "7dc9878f07222a0c": {
-      "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-17T18:30:33.558954+01:00",
-      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
-    },
-    "88543f91771f26b0": {
-      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-17T18:30:33.558954+01:00",
-      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
-    },
-    "3600e526f20fffe1": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T18:30:33.558954+01:00",
-      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
-    },
-    "aa5c26bab24641a7": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
-      "title": "Rockwell Automation FactoryTalk DataMosaix",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-17T18:30:33.558954+01:00",
-      "brief_slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a"
-    },
     "0c63b34da7a49315": {
       "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
       "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
@@ -5823,9 +5781,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-15T13:38:48.140750+01:00",
       "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "3d53c1d5457e34e7": {
+      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "bf40b114a657e05d": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+      "title": "Fake Arch Linux packages push malware with root privileges",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "b987b9c4e049f405": {
+      "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+      "title": "Android gets AI defenses against messaging scams, fake calls",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "30a0f1da0cfb696a": {
+      "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "679425e2c5ab85db": {
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "source": "Krebs on Security",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "b1e071119d1a7018": {
+      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T20:53:14.225615+01:00",
+      "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc",
+      "headline": "Today’s SME cyber look-out: tech support scam waves, fake software packages, and scam call tactics",
+      "risk_level": "High",
+      "todays_lookout": "Scam-driven business disruption and software supply-chain risk",
+      "published_at": "2026-10-15T20:53:14.225615+01:00",
+      "published_label": "Thursday 15 October 2026, 20:53 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+        "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+        "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+        "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+        "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+        "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html"
+      ]
+    },
     {
       "slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i",
       "headline": "Today’s SMB Cyber Brief: GitHub account takeovers, fake AI tool lures, and ‘remote IT worker’ hiring fraud",
@@ -8740,32 +8756,6 @@
         "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
         "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
         "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
-      ]
-    },
-    {
-      "slug": "2026-07-17-1830-today-s-smb-cyber-brief-supplier-support-system-breach-scams-fake-coding-tests-a",
-      "headline": "Today’s SMB Cyber Brief: supplier support-system breach scams, fake coding tests, and exposed AI tools hunting cloud keys",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams + credential theft via “tests/tools” and exposed services",
-      "published_at": "2026-07-17T18:30:33.558954+01:00",
-      "published_label": "Friday 17 July 2026, 18:30 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-        "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-        "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09"
-      ]
-    },
-    {
-      "slug": "2026-07-17-1501-today-s-sme-cyber-look-out-clickfix-scams-that-steal-microsoft-365-and-browser-s",
-      "headline": "Today’s SME cyber look-out: “ClickFix” scams that steal Microsoft 365 and browser sessions",
-      "risk_level": "High",
-      "todays_lookout": "Phishing/social-engineering lures that convince staff to paste a command, leading to account takeover and cloud data theft",
-      "published_at": "2026-07-17T15:01:43.762927+01:00",
-      "published_label": "Friday 17 July 2026, 15:01 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html"
       ]
     }
   ]
