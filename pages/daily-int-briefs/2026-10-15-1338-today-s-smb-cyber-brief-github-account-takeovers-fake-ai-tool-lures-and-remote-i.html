@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: GitHub account takeovers, fake AI tool lures, and ‘remote IT worker’ hiring fraud | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: GitHub account takeovers, fake AI tool lures, and ‘remote IT worker’ hiring fraud</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 15 October 2026, 13:38 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential theft and account takeover (code repos, SaaS logins, and hiring/supplier trust)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>GitHub account compromises and secret harvesting:</strong> a campaign ("GhostAction") has targeted thousands of repositories and attempted to extract secrets from CI workflows.</li>
+  <li><strong>Fake “AI tool” downloads and lookalike sites:</strong> attackers are impersonating popular AI products to spread malware and steal browser sessions and business account access.</li>
+  <li><strong>Hiring and contractor risk:</strong> law enforcement action highlights the ongoing North Korean “remote IT worker” fraud model (fraudulent contractors using laptop farms and false identities).</li>
+  <li><strong>Software supply-chain hygiene:</strong> GitHub has tightened npm trusted publishing rules after research showed package publishing configurations could be abused.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Even if you’re not a software company, many SMEs rely on <strong>GitHub, CI/CD tools, npm packages, outsourced developers, and SaaS admin accounts</strong>. When one developer account or one CI “secret” is taken, attackers can jump into cloud services, send convincing invoice/payment emails, access customer data, or tamper with websites and apps. Separately, “fake AI” lures are hitting everyday business users—especially people experimenting with new tools for productivity.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected password reset emails or login alerts from GitHub (or any developer/SaaS platform).</li>
+  <li>New GitHub personal access tokens (PATs), SSH keys, or unfamiliar <em>“trusted publishing”</em> / CI configuration changes.</li>
+  <li>CI jobs suddenly failing, new workflow files added, or secrets being redefined/renamed.</li>
+  <li>Staff being directed to download “AI” desktop apps, browser add-ons, or “model installers” from unsolicited links.</li>
+  <li>Contractors pushing to bypass normal onboarding, refusing video calls, insisting on remote-only access immediately, or using unusual payment/identity arrangements.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>GitHub/CI secret theft → wider compromise:</strong> stolen CI secrets can unlock cloud hosting, email sending services, customer databases, or third-party SaaS APIs.</li>
+  <li><strong>Fake AI tool lure → session theft:</strong> malware can steal browser sessions, letting criminals access Microsoft 365/Google Workspace, accounting platforms, payroll portals, and CRMs without needing the password.</li>
+  <li><strong>“Remote IT worker” fraud → persistent access:</strong> a fraudulent hire placed into IT/dev roles can create accounts, plant remote access, and exfiltrate data while appearing legitimate.</li>
+  <li><strong>Supply-chain knock-on effects:</strong> compromised packages or publishing setups can introduce unwanted changes into applications and websites maintained by third parties.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Protect critical accounts:</strong> ensure MFA is enabled on GitHub and other admin tools, and review who has admin rights.</li>
+  <li><strong>Rotate and reduce secrets:</strong> review CI/CD secrets and remove any that aren’t needed. Rotate high-impact tokens (cloud keys, email service API keys, payment platform API keys).</li>
+  <li><strong>Lock down CI/CD:</strong> restrict who can change workflows, approvals, and publishing settings. Monitor for new tokens/keys.</li>
+  <li><strong>Staff message (10 minutes):</strong> remind teams not to install “AI tools” from ads/DMs or unknown sites; use only approved sources and ask IT if unsure.</li>
+  <li><strong>Hiring controls:</strong> for IT/dev contractors, require identity checks, contract paperwork, and a short live verification step (e.g., video call + ID check) before granting any access.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a list of <strong>all places secrets/tokens live</strong> (CI/CD, password manager, cloud consoles), and can we rotate them quickly if needed?</li>
+  <li>Are GitHub org security features enabled (MFA enforcement, audit logging, least-privilege access) and are alerts monitored?</li>
+  <li>How do we detect <strong>session-cookie theft</strong> or “impossible travel” logins for Microsoft 365/Google/admin portals?</li>
+  <li>What’s our onboarding process for third-party developers/contractors (device requirements, separate accounts, access reviews, offboarding)?</li>
+  <li>If a developer account is compromised, what’s our <strong>containment plan</strong> (disable tokens, pause deployments, rotate keys, customer comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has released an unusually large set of security fixes, including at least one issue reported as actively exploited. For SMEs, the practical takeaway is to confirm your patching process is working (especially for Windows and Office) and that laptops used by admins and finance staff are not falling behind on updates.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: “No one installs new ‘AI tools’ or browser add-ons from links/ads—request IT approval,” and have IT immediately review GitHub/CI secrets and recent token/key changes.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “SaaS account takeover readiness (MFA, session security, admin roles, and rapid token rotation)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html" rel="noopener noreferrer">GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html" rel="noopener noreferrer">Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html" rel="noopener noreferrer">U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/" rel="noopener noreferrer">FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html" rel="noopener noreferrer">GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html" rel="noopener noreferrer">Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

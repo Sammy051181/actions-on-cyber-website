@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "932d8c7a52c25bfd": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-      "title": "US charges two over laundering $43 million from investment fraud",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T10:21:00.388362+01:00",
-      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
-    },
-    "bdabfb821dffe1bc": {
-      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T10:21:00.388362+01:00",
-      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
-    },
-    "0a06e6307f91bede": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-      "title": "New ClickLock macOS malware traps users into revealing login password",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T10:21:00.388362+01:00",
-      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
-    },
-    "d70c88aad58913a7": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-17T10:21:00.388362+01:00",
-      "brief_slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr"
-    },
     "d7cd26a86c1a79d5": {
       "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
       "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
@@ -5809,9 +5781,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-14T21:11:40.737754+01:00",
       "brief_slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-"
+    },
+    "871699ef85217136": {
+      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "db1c119cd4bd5726": {
+      "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "6d011349c01c46dc": {
+      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "f5298475776fafd3": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "3d29c827bc05744d": {
+      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
+    },
+    "9917fb9c5e95cc7a": {
+      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-15T13:38:48.140750+01:00",
+      "brief_slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-15-1338-today-s-smb-cyber-brief-github-account-takeovers-fake-ai-tool-lures-and-remote-i",
+      "headline": "Today’s SMB Cyber Brief: GitHub account takeovers, fake AI tool lures, and ‘remote IT worker’ hiring fraud",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and account takeover (code repos, SaaS logins, and hiring/supplier trust)",
+      "published_at": "2026-10-15T13:38:48.140750+01:00",
+      "published_label": "Thursday 15 October 2026, 13:38 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+        "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+        "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+        "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+        "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+        "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+      ]
+    },
     {
       "slug": "2026-10-14-2111-today-s-smb-cyber-brief-phishing-follow-ons-email-gateway-attacks-and-nextcloud-",
       "headline": "Today’s SMB Cyber Brief: phishing follow‑ons, email gateway attacks, and Nextcloud server risk",
@@ -8736,20 +8766,6 @@
       "published_label": "Friday 17 July 2026, 15:01 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html"
-      ]
-    },
-    {
-      "slug": "2026-07-17-1021-today-s-smb-cyber-brief-investment-fraud-ransomware-disruption-macos-password-tr",
-      "headline": "Today’s SMB cyber brief: investment fraud, ransomware disruption, macOS password traps, and Fortinet urgency",
-      "risk_level": "High",
-      "todays_lookout": "Fraud and ransomware disruption, plus urgent supplier/edge-device exposure",
-      "published_at": "2026-07-17T10:21:00.388362+01:00",
-      "published_label": "Friday 17 July 2026, 10:21 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-        "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-        "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
       ]
     }
   ]
