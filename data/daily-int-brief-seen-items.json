@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "0c63b34da7a49315": {
-      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-18T09:58:14.632997+01:00",
-      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
-    },
-    "96d9ebe2a900947d": {
-      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-18T09:58:14.632997+01:00",
-      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
-    },
-    "84a8a0cf069b7d7c": {
-      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-      "title": "Abbott probes two cyber incidents amid extortion claims",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-18T09:58:14.632997+01:00",
-      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
-    },
-    "eb18b5e1d713b33c": {
-      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-18T09:58:14.632997+01:00",
-      "brief_slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks"
-    },
     "1f8fa8831f47fff5": {
       "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
@@ -5823,9 +5795,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-15T20:53:14.225615+01:00",
       "brief_slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc"
+    },
+    "7294a4c7f8b65506": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+      "title": "ARMORY CASTLE Exploits BeyondTrust",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-10-16T13:23:56.160707+01:00",
+      "brief_slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati"
+    },
+    "166fdf646185c6ed": {
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-16T13:23:56.160707+01:00",
+      "brief_slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati"
+    },
+    "d0b52638beda04f7": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-16T13:23:56.160707+01:00",
+      "brief_slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati"
+    },
+    "f6df72ea2abc993d": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-16T13:23:56.160707+01:00",
+      "brief_slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati",
+      "headline": "SMB Cyber Intelligence Brief: remote access tools and Nextcloud add-on exploitation, plus proxyjacking of network devices",
+      "risk_level": "High",
+      "todays_lookout": "Remote access & supplier tool compromise leading to account takeovers and business disruption",
+      "published_at": "2026-10-16T13:23:56.160707+01:00",
+      "published_label": "Friday 16 October 2026, 13:23 UK time",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+        "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+        "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
+      ]
+    },
     {
       "slug": "2026-10-15-2053-today-s-sme-cyber-look-out-tech-support-scam-waves-fake-software-packages-and-sc",
       "headline": "Today’s SME cyber look-out: tech support scam waves, fake software packages, and scam call tactics",
@@ -8742,20 +8756,6 @@
         "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
         "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
         "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html"
-      ]
-    },
-    {
-      "slug": "2026-07-18-0958-smb-cyber-intelligence-brief-supply-chain-tampering-and-trusted-software-risks",
-      "headline": "SMB Cyber Intelligence Brief: supply‑chain tampering and “trusted software” risks",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier & software supply-chain risk (tampered packages and trusted-signing abuse) + breach/extortion ripple effects",
-      "published_at": "2026-07-18T09:58:14.632997+01:00",
-      "published_label": "Saturday 18 July 2026, 09:58 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-        "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-        "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
       ]
     }
   ]
