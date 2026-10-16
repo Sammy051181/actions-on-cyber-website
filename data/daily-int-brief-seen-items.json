@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "1f8fa8831f47fff5": {
-      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-18T14:47:09.829429+01:00",
-      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
-    },
-    "f6538113513daf94": {
-      "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
-      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-18T14:47:09.829429+01:00",
-      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
-    },
-    "3c8f9fdd2670e9fa": {
-      "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-18T14:47:09.829429+01:00",
-      "brief_slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl"
-    },
-    "3198a5fdb24da4f9": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-18T18:13:24.348630+01:00",
-      "brief_slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio"
-    },
-    "05042d22e617047f": {
-      "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-18T18:13:24.348630+01:00",
-      "brief_slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio"
-    },
     "ac64978554ad5b7e": {
       "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
       "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
@@ -5823,9 +5788,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-16T13:23:56.160707+01:00",
       "brief_slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati"
+    },
+    "4e525e143e8c3f3d": {
+      "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+      "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
+    },
+    "23e4826e2b125739": {
+      "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
+    },
+    "d1065e8458584a93": {
+      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+      "title": "BAE Systems cyberattack disrupts US federal court operations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
+    },
+    "59c9f7ba17b69be0": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+      "title": "Investigating Ephemeral Supply Chain Tampering",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
+    },
+    "ffdcabb15288bf14": {
+      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
+    },
+    "769eb8106e41d884": {
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+      "title": "Guangzhou Juan IoT Technology EseeCloud",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-16T20:33:15.564535+01:00",
+      "brief_slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-16-2033-today-s-smb-cyber-lookout-convincing-phishing-supplier-disruption-poisoned-updat",
+      "headline": "Today’s SMB cyber lookout: convincing phishing + supplier disruption + “poisoned update” supply-chain risk",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation phishing and supplier/update-chain disruption",
+      "published_at": "2026-10-16T20:33:15.564535+01:00",
+      "published_label": "Friday 16 October 2026, 20:33 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+        "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+        "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+        "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+        "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02"
+      ]
+    },
     {
       "slug": "2026-10-16-1323-smb-cyber-intelligence-brief-remote-access-tools-and-nextcloud-add-on-exploitati",
       "headline": "SMB Cyber Intelligence Brief: remote access tools and Nextcloud add-on exploitation, plus proxyjacking of network devices",
@@ -8731,31 +8754,6 @@
         "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
         "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
         "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
-      ]
-    },
-    {
-      "slug": "2026-07-18-1813-today-s-smb-cyber-brief-credential-stealing-malware-surge-sharepoint-exploitatio",
-      "headline": "Today’s SMB Cyber Brief: Credential‑stealing malware surge + SharePoint exploitation watch-outs",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover risk (passwords/tokens) and Microsoft server exploitation leading to disruption",
-      "published_at": "2026-07-18T18:13:24.348630+01:00",
-      "published_label": "Saturday 18 July 2026, 18:13 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-        "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
-      ]
-    },
-    {
-      "slug": "2026-07-18-1447-smb-cyber-intelligence-brief-wordpress-sites-and-browser-extensions-in-the-spotl",
-      "headline": "SMB Cyber Intelligence Brief: WordPress sites and browser extensions in the spotlight",
-      "risk_level": "High",
-      "todays_lookout": "Website compromise attempts and browser-extension abuse (including AI assistant extensions)",
-      "published_at": "2026-07-18T14:47:09.829429+01:00",
-      "published_label": "Saturday 18 July 2026, 14:47 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-        "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
-        "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html"
       ]
     }
   ]
