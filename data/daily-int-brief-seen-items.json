@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "ef3919eea15f184f": {
-      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-19T18:15:03.355586+01:00",
-      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
-    },
-    "3eace55fa61213fc": {
-      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
-      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-19T18:15:03.355586+01:00",
-      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
-    },
-    "32a7886bc9a4dbc5": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
-      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-19T18:15:03.355586+01:00",
-      "brief_slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps"
-    },
     "67d5dc0782386890": {
       "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
       "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
@@ -5830,9 +5809,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-17T16:32:01.296999+01:00",
       "brief_slug": "2026-10-17-1632-connectwise-cloud-backup-incident-check-your-microsoft-365-tenant-backups-and-su"
+    },
+    "219fd9eab491daf6": {
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-17T19:29:09.144666+01:00",
+      "brief_slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-"
+    },
+    "a2dfa0394e0653a8": {
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-17T19:29:09.144666+01:00",
+      "brief_slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-"
+    },
+    "27c670c5958b65f1": {
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-17T19:29:09.144666+01:00",
+      "brief_slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-"
+    },
+    "978985bee2a5f3ab": {
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-17T19:29:09.144666+01:00",
+      "brief_slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-",
+      "headline": "Today’s SMB Cyber Brief: supply‑chain traps, VPN edge targeting, and breach‑driven scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS risk plus breach‑driven phishing (dev tooling, VPN edge, customer comms)",
+      "published_at": "2026-10-17T19:29:09.144666+01:00",
+      "published_label": "Saturday 17 October 2026, 19:29 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+        "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+        "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+      ]
+    },
     {
       "slug": "2026-10-17-1632-connectwise-cloud-backup-incident-check-your-microsoft-365-tenant-backups-and-su",
       "headline": "ConnectWise Cloud Backup incident: check your Microsoft 365 tenant, backups and supplier-themed scams",
@@ -8751,19 +8772,6 @@
         "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
         "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/"
-      ]
-    },
-    {
-      "slug": "2026-07-19-1815-today-s-smb-cyber-brief-vpn-edge-device-risk-clickfix-captcha-traps",
-      "headline": "Today’s SMB cyber brief: VPN edge-device risk + “ClickFix CAPTCHA” traps",
-      "risk_level": "High",
-      "todays_lookout": "Remote access/VPN compromise and staff tricked into running “verification” steps",
-      "published_at": "2026-07-19T18:15:03.355586+01:00",
-      "published_label": "Sunday 19 July 2026, 18:15 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-        "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
       ]
     }
   ]

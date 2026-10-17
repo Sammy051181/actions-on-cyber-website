@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: supply‑chain traps, VPN edge targeting, and breach‑driven scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: supply‑chain traps, VPN edge targeting, and breach‑driven scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 17 October 2026, 19:29 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS risk plus breach‑driven phishing (dev tooling, VPN edge, customer comms)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain risk (developer tooling):</strong> a malicious npm package (“imgdecode”) has been found hiding a Windows native addon loader as part of a wider campaign. This is a reminder that third‑party packages can be an entry point into business systems via internal apps, websites, or build servers.</li>
+  <li><strong>Internet-facing VPN / edge device targeting:</strong> researchers report attackers exploiting a Fortinet FortiOS flaw to deliver memory‑resident malware. If you rely on a managed firewall/VPN, this is a “check with your provider” moment.</li>
+  <li><strong>Data breach ripple effects:</strong> Burger King Japan disclosed a breach affecting millions of customer records. Even if you’re not directly involved, big consumer breaches often trigger copycat phishing (“refund”, “points”, “account verification”) and credential-stuffing attempts.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on a small number of suppliers for websites, apps, managed IT, and remote access. A compromised software dependency, a vulnerable edge device, or a breach-driven phishing wave can cause real disruption: account takeovers, payment fraud attempts, ransomware access, or loss of customer trust.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected MFA prompts, password reset emails, or “new device signed in” alerts for Microsoft 365, Google, payroll, finance or CRM accounts.</li>
+  <li>Staff receiving emails/texts about “refunds”, “loyalty points”, “delivery issues”, or “account verification” linked to a well-known brand breach.</li>
+  <li>Unplanned changes in website/app build behaviour (new dependencies, unusual build failures, antivirus alerts on build servers, or unsigned/unknown binaries appearing).</li>
+  <li>Remote access/VPN instability, unexplained admin logins, or configuration changes on firewalls/VPNs (especially if managed by an MSP).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Trojan packages in development pipelines:</strong> attackers publish lookalike or “useful” packages that get pulled into projects, then execute unwanted code during builds or on Windows systems.</li>
+  <li><strong>Edge compromise as a shortcut:</strong> targeting VPN/firewall appliances can give attackers a foothold without needing to phish a user first.</li>
+  <li><strong>Breach-themed social engineering:</strong> criminals piggyback on public breach news to trick staff/customers into clicking links, entering passwords, or approving payments.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff one simple rule:</strong> don’t click breach/refund/points links from emails or texts—go to the site/app directly and log in there.</li>
+  <li><strong>Protect admin and finance accounts:</strong> confirm MFA is enabled and review sign-in alerts for key accounts (email, accounting, payroll, cloud admin).</li>
+  <li><strong>If you build software or run a web agency workflow:</strong> review recent dependency additions/updates and restrict who can approve new packages in production builds.</li>
+  <li><strong>If you use a managed firewall/VPN:</strong> ask your provider to confirm whether your edge devices are affected by Fortinet exploitation reporting and what monitoring they have in place.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any internet-facing Fortinet devices (FortiOS / FortiProxy / FortiPAM / FortiSwitchManager) and are they monitored for suspicious admin sessions and config changes?</li>
+  <li>What’s our process for emergency vendor security advisories on firewalls/VPNs (same day checks, logging, and confirmation back to us)?</li>
+  <li>Do we have a controlled process for third‑party software dependencies (e.g., allow-lists, approvals, build server hardening, and rollback capability)?</li>
+  <li>Can you show us recent sign-in risk events and MFA status for our highest-risk accounts (global admin, finance, payroll)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run a Drupal website (including charity/school sites), Drupal has issued patches for critical remote code execution flaws and warned exploits may emerge soon. If your site is hosted/maintained by a supplier, ask them today to confirm your Drupal instance is covered and when it was last updated.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short staff note today: “Ignore refund/points/breach emails &amp; texts—don’t click links; go to the official site/app directly and report anything suspicious to IT/management.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Stop phishing and payment diversion fraud (staff script + reporting steps)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html" rel="noopener noreferrer">MALFEX npm Package &#x27;imgdecode&#x27; Hides Shellcode Loader in Windows Native Addon</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html" rel="noopener noreferrer">PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/" rel="noopener noreferrer">Burger King Japan data breach exposes 11 million customer records</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/" rel="noopener noreferrer">Drupal patches critical RCE flaws, warns exploits may emerge soon</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
