@@ -5823,9 +5823,27 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-10-17T12:36:24.047297+01:00",
       "brief_slug": "2026-10-17-1236-today-s-smb-cyber-lookout-msp-m365-supplier-credential-abuse-and-remote-support-"
+    },
+    "622bd95115275933": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-17T16:32:01.296999+01:00",
+      "brief_slug": "2026-10-17-1632-connectwise-cloud-backup-incident-check-your-microsoft-365-tenant-backups-and-su"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-17-1632-connectwise-cloud-backup-incident-check-your-microsoft-365-tenant-backups-and-su",
+      "headline": "ConnectWise Cloud Backup incident: check your Microsoft 365 tenant, backups and supplier-themed scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/MSP incident leading to Microsoft 365 compromise (and knock-on phishing scams)",
+      "published_at": "2026-10-17T16:32:01.296999+01:00",
+      "published_label": "Saturday 17 October 2026, 16:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+      ]
+    },
     {
       "slug": "2026-10-17-1236-today-s-smb-cyber-lookout-msp-m365-supplier-credential-abuse-and-remote-support-",
       "headline": "Today’s SMB cyber lookout: MSP/M365 supplier credential abuse and remote support tool risk",
