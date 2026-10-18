@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "67d5dc0782386890": {
-      "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
-      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-20T11:20:36.799995+01:00",
-      "brief_slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno"
-    },
-    "e1150e91b4d3d344": {
-      "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-20T11:20:36.799995+01:00",
-      "brief_slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno"
-    },
-    "dbe64c28f70c86fd": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
-      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-20T11:20:36.799995+01:00",
-      "brief_slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno"
-    },
-    "d7f945db0db66a93": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
-      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-20T11:20:36.799995+01:00",
-      "brief_slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno"
-    },
     "ff8863423d2dbc06": {
       "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
       "title": "Hugging Face warns an autonomous AI agent hacked its network",
@@ -5837,9 +5809,27 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-17T19:29:09.144666+01:00",
       "brief_slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-"
+    },
+    "1a74dd4c9004a299": {
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-18T13:02:56.987530+01:00",
+      "brief_slug": "2026-10-18-1302-connectwise-incident-check-microsoft-365-access-and-watch-for-supplier-themed-sc"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-18-1302-connectwise-incident-check-microsoft-365-access-and-watch-for-supplier-themed-sc",
+      "headline": "ConnectWise incident: check Microsoft 365 access and watch for supplier-themed scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and Microsoft 365 tenant compromise via MSP tooling",
+      "published_at": "2026-10-18T13:02:56.987530+01:00",
+      "published_label": "Sunday 18 October 2026, 13:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+      ]
+    },
     {
       "slug": "2026-10-17-1929-today-s-smb-cyber-brief-supply-chain-traps-vpn-edge-targeting-and-breach-driven-",
       "headline": "Today’s SMB Cyber Brief: supply‑chain traps, VPN edge targeting, and breach‑driven scams",
@@ -8758,20 +8748,6 @@
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
         "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
         "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-      ]
-    },
-    {
-      "slug": "2026-07-20-1120-today-s-smb-cyber-brief-supply-chain-risk-saas-credential-exposure-and-serviceno",
-      "headline": "Today’s SMB cyber brief: supply‑chain risk, SaaS credential exposure, and ServiceNow exploitation",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS incident scams and credential theft, plus supply‑chain contamination",
-      "published_at": "2026-07-20T11:20:36.799995+01:00",
-      "published_label": "Monday 20 July 2026, 11:20 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
-        "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-        "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/"
       ]
     }
   ]
