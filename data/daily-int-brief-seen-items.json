@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "1aa7731f271da367": {
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-21T10:38:44.103050+01:00",
-      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
-    },
-    "c8dac0ed07a67a1c": {
-      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-21T10:38:44.103050+01:00",
-      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
-    },
-    "9be792a0f71e6f67": {
-      "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-21T10:38:44.103050+01:00",
-      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
-    },
-    "0823fe2e9d325782": {
-      "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
-      "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-21T10:38:44.103050+01:00",
-      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
-    },
-    "f57be79927466e20": {
-      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
-      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-21T10:38:44.103050+01:00",
-      "brief_slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw"
-    },
-    "02a53136b1170d50": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-21T15:20:12.380911+01:00",
-      "brief_slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-"
-    },
-    "c18df8f6951c9d56": {
-      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-21T15:20:12.380911+01:00",
-      "brief_slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-"
-    },
     "8371d69d75b50cfb": {
       "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
       "title": "Critical wp2shell WordPress flaws exploited to install webshells",
@@ -5760,9 +5711,75 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-18T13:02:56.987530+01:00",
       "brief_slug": "2026-10-18-1302-connectwise-incident-check-microsoft-365-access-and-watch-for-supplier-themed-sc"
+    },
+    "bdcf728a9e2a0cc6": {
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "62badca6addc0ac9": {
+      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "6dda7c5d535ad3e2": {
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "3e43e08eb436698d": {
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "source": "Krebs on Security",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "d0d6e449ab456aa2": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "6300767178137d15": {
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "de332aa1deffb510": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-19T15:39:44.499842+01:00",
+      "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-",
+      "headline": "SMB Cyber Intelligence Brief: Supply‑chain traps, exposed AI keys, and third‑party ransomware risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & developer toolchain risk (GitHub/npm) plus API key exposure and third‑party incident-response trust",
+      "published_at": "2026-10-19T15:39:44.499842+01:00",
+      "published_label": "Monday 19 October 2026, 15:39 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+        "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+        "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+        "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+        "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+      ]
+    },
     {
       "slug": "2026-10-18-1302-connectwise-incident-check-microsoft-365-access-and-watch-for-supplier-themed-sc",
       "headline": "ConnectWise incident: check Microsoft 365 access and watch for supplier-themed scams",
@@ -8637,33 +8654,6 @@
         "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
         "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
-      ]
-    },
-    {
-      "slug": "2026-07-21-1520-ransomware-crews-exploiting-palo-alto-globalprotect-vpn-login-bypass-check-your-",
-      "headline": "Ransomware crews exploiting Palo Alto GlobalProtect VPN login bypass: check your remote access today",
-      "risk_level": "High",
-      "todays_lookout": "Remote access / VPN compromise leading to ransomware and business disruption",
-      "published_at": "2026-07-21T15:20:12.380911+01:00",
-      "published_label": "Tuesday 21 July 2026, 15:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-        "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
-      ]
-    },
-    {
-      "slug": "2026-07-21-1038-today-s-smb-cyber-brief-remote-access-and-saas-supplier-risk-plus-fake-code-malw",
-      "headline": "Today’s SMB Cyber Brief: remote access and SaaS supplier risk, plus “fake code” malware traps",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & remote-access compromise leading to business disruption and follow-on scams",
-      "published_at": "2026-07-21T10:38:44.103050+01:00",
-      "published_label": "Tuesday 21 July 2026, 10:38 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-        "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-        "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-        "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
-        "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
       ]
     }
   ]
