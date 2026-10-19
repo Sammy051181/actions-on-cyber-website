@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "8371d69d75b50cfb": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
-      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-21T18:44:18.584098+01:00",
-      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
-    },
-    "af160bcfd41ad561": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-21T18:44:18.584098+01:00",
-      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
-    },
-    "0edace9f3bea69f2": {
-      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-21T18:44:18.584098+01:00",
-      "brief_slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for"
-    },
     "070d62f630231312": {
       "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
       "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
@@ -5760,9 +5739,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-19T15:39:44.499842+01:00",
       "brief_slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-"
+    },
+    "98fe862721adbe7c": {
+      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-19T22:02:35.218412+01:00",
+      "brief_slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption"
+    },
+    "fd5ecf2bcb290e58": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-19T22:02:35.218412+01:00",
+      "brief_slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption"
+    },
+    "d7ef1e9370377396": {
+      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-19T22:02:35.218412+01:00",
+      "brief_slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption"
+    },
+    "13914d4891785130": {
+      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-19T22:02:35.218412+01:00",
+      "brief_slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption",
+      "headline": "Today’s SME cyber lookout: compromised software updates and SaaS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier compromise, poisoned updates and knock‑on phishing/disruption",
+      "published_at": "2026-10-19T22:02:35.218412+01:00",
+      "published_label": "Monday 19 October 2026, 22:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+        "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+        "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html"
+      ]
+    },
     {
       "slug": "2026-10-19-1539-smb-cyber-intelligence-brief-supply-chain-traps-exposed-ai-keys-and-third-party-",
       "headline": "SMB Cyber Intelligence Brief: Supply‑chain traps, exposed AI keys, and third‑party ransomware risk",
@@ -8641,19 +8662,6 @@
         "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
         "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
         "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html"
-      ]
-    },
-    {
-      "slug": "2026-07-21-1844-smb-cyber-intelligence-brief-wordpress-sites-under-active-attack-kev-warning-for",
-      "headline": "SMB Cyber Intelligence Brief: WordPress sites under active attack + KEV warning for Langflow",
-      "risk_level": "High",
-      "todays_lookout": "Website compromise and ransomware follow-on from internet-facing tools (WordPress / Langflow)",
-      "published_at": "2026-07-21T18:44:18.584098+01:00",
-      "published_label": "Tuesday 21 July 2026, 18:44 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
-        "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-        "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
       ]
     }
   ]
