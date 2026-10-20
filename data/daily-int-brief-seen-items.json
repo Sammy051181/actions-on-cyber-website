@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "e11b40a8f481da75": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T15:20:57.211068+01:00",
-      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
-    },
-    "ed069ea2809f3e41": {
-      "url": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
-      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T15:20:57.211068+01:00",
-      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
-    },
-    "8c8679da622e5e3c": {
-      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-22T15:20:57.211068+01:00",
-      "brief_slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and"
-    },
-    "8b2bec85deeb80d7": {
-      "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T18:41:19.161226+01:00",
-      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
-    },
-    "6f74290201d6dbea": {
-      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T18:41:19.161226+01:00",
-      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
-    },
-    "8fc73f794dd5983c": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-22T18:41:19.161226+01:00",
-      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
-    },
-    "7bd20d10f61c67cd": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-      "title": "Tycon Systems TPDIN-Monitor-WEB2",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-22T18:41:19.161226+01:00",
-      "brief_slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions"
-    },
     "4d491fd7a7f8e25d": {
       "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
       "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
@@ -5767,9 +5718,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-20T13:42:59.747584+01:00",
       "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "552cbee8ac3d9b61": {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+      "title": "#StopRansomware: SafePay Ransomware",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-20T20:59:44.886708+01:00",
+      "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
+    },
+    "ea6b3d531b32228e": {
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-20T20:59:44.886708+01:00",
+      "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
+    },
+    "3c30069909e9b9e6": {
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-20T20:59:44.886708+01:00",
+      "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
+    },
+    "41ada449c3483084": {
+      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-20T20:59:44.886708+01:00",
+      "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
+    },
+    "1e26274c4cd94917": {
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-20T20:59:44.886708+01:00",
+      "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh",
+      "headline": "Ransomware access is spiking: MFA-bypass VPN attacks, ‘ClickFix’ lures, and a SaaS shutdown to factor into today’s checks",
+      "risk_level": "High",
+      "todays_lookout": "Ransomware access paths (VPN/MFA bypass + phishing) and supplier/SaaS credential fallout",
+      "published_at": "2026-10-20T20:59:44.886708+01:00",
+      "published_label": "Tuesday 20 October 2026, 20:59 UK time",
+      "source_urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+        "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+        "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+        "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
+      ]
+    },
     {
       "slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w",
       "headline": "SMB Cyber Brief: Supplier incidents, cloud tooling tampering, and service outages – what to watch today",
@@ -8635,33 +8636,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
         "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-07-22-1841-today-s-sme-cyber-look-out-supplier-platform-breach-scams-ai-tool-permissions",
-      "headline": "Today’s SME cyber look-out: supplier platform breach scams + AI tool permissions",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams, shared-platform data exposure, and over-permissioned AI tools",
-      "published_at": "2026-07-22T18:41:19.161226+01:00",
-      "published_label": "Wednesday 22 July 2026, 18:41 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-        "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01"
-      ]
-    },
-    {
-      "slug": "2026-07-22-1520-today-s-smb-cyber-brief-exchange-end-date-planning-whatsapp-web-privacy-risk-and",
-      "headline": "Today’s SMB cyber brief: Exchange end-date planning, WhatsApp Web privacy risk, and AI code-review manipulation",
-      "risk_level": "Moderate",
-      "todays_lookout": "SaaS/supplier risk and staff-targeted phishing using ‘IT security updates’ as bait",
-      "published_at": "2026-07-22T15:20:57.211068+01:00",
-      "published_label": "Wednesday 22 July 2026, 15:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-        "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
-        "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
       ]
     }
   ]

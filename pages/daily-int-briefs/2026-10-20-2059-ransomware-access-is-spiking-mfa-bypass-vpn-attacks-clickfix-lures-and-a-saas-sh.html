@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Ransomware access is spiking: MFA-bypass VPN attacks, ‘ClickFix’ lures, and a SaaS shutdown to factor into today’s checks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Ransomware access is spiking: MFA-bypass VPN attacks, ‘ClickFix’ lures, and a SaaS shutdown to factor into today’s checks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 20 October 2026, 20:59 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Ransomware access paths (VPN/MFA bypass + phishing) and supplier/SaaS credential fallout
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Ransomware groups are actively breaking in using stolen/guessed passwords, phishing, and security-tool weaknesses</strong> (SafePay activity highlighted by CISA).</li>
+  <li><strong>Ongoing real-world exploitation against VPN/remote access security</strong> where attackers can <strong>bypass MFA</strong> and establish unauthorised connections (reported as used by ransomware groups).</li>
+  <li><strong>SaaS/supplier breach ripple effects</strong>: a developer platform (Zeabur) is shutting down after a second breach, with large volumes of environment variables exposed—this is a reminder that third-party secrets can leak and trigger follow-on compromise.</li>
+  <li><strong>“ClickFix” style social engineering</strong> where users are tricked into running steps that infect their own device (ROMULUS/LegionLoader delivery reported).</li>
+  <li><strong>Certificate trust risk</strong>: compromise of multiple certificate authority (CA) keys (eMudhra intermediates) can increase the chance of convincing fake websites/certificates being used in scams until ecosystem changes bed in.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>Most smaller organisations don’t get hit by “advanced hacking” first—they get hit when someone gets a foothold via <strong>remote access, a phished login, or reused passwords</strong>, then ransomware follows. Supplier incidents can also create <strong>urgent, confusing situations</strong> (service shutdowns, sudden credential resets, unexpected “security update” emails) that criminals exploit with convincing phishing.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Unexpected MFA prompts</strong> (push notifications you didn’t initiate) or users reporting “MFA fatigue”.</li>
+  <li><strong>New or unusual logins</strong> to Microsoft 365/Google/remote access/VPN—especially outside normal hours or from unusual locations.</li>
+  <li><strong>Password reset emails</strong> or “your VPN account was locked” messages staff weren’t expecting.</li>
+  <li><strong>Emails/DMs about supplier incidents</strong> urging urgent actions: “reconnect your account”, “re-enter API key”, “download this fix”, “run these steps”.</li>
+  <li><strong>Browser certificate warnings disappearing unexpectedly</strong> or staff reporting a site “looks the same but feels odd” during login/payment steps.</li>
+  <li><strong>Security tools disabled</strong>, new admin accounts, or new remote tools appearing without an approved change.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Credential-based entry</strong>: stolen passwords (from past breaches) or guessed passwords used to access email, VPN, or admin portals.</li>
+  <li><strong>MFA bypass on edge services</strong>: where remote access/security products are misconfigured or behind on security updates, attackers may create unauthorised connections that look “legitimate”.</li>
+  <li><strong>Supplier breach follow-on</strong>: exposed environment variables and secrets (API keys, tokens, database credentials) can be reused to access your cloud apps, CI/CD, or data stores if you used that supplier or hosted secrets there.</li>
+  <li><strong>ClickFix lures</strong>: fake landing pages and “security check” prompts that persuade staff to run steps locally—turning a normal web visit into a malware infection.</li>
+  <li><strong>More convincing phishing sites</strong> in the wake of CA key compromise news: criminals try to make fake login pages look more believable and “trusted”.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm your remote access is under control</strong>: list who has VPN/remote admin access, remove leavers/unused accounts, and ensure MFA is enforced for all remote access.</li>
+  <li><strong>Run a quick admin account check</strong>: verify no new global/admin accounts were created unexpectedly (Microsoft 365, Google Workspace, firewall/VPN portals, finance systems).</li>
+  <li><strong>Staff message (2 minutes)</strong>: remind people not to follow “run these steps to verify you’re human / fix your browser / security check” instructions, and to report unexpected MFA prompts immediately.</li>
+  <li><strong>Supplier sanity check</strong>: if you use developer platforms/hosting platforms where secrets may live, confirm where environment variables and keys are stored and who can access them.</li>
+  <li><strong>Backups reality check</strong>: ensure you have at least one backup that is protected from normal user login access (to reduce ransomware impact).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you confirm <strong>our VPN/remote access</strong> and security gateways are monitored, and that suspicious logins trigger an alert?</li>
+  <li>Do we have <strong>conditional access</strong> (or equivalent) to block risky sign-ins and enforce MFA for admins and remote access?</li>
+  <li>What’s our process to detect <strong>new admin accounts</strong> or privilege changes within 24 hours?</li>
+  <li>If one of our suppliers suffers a breach, how quickly can we <strong>rotate keys/tokens</strong> and identify where they are used?</li>
+  <li>What’s our tested plan for <strong>ransomware recovery</strong> (restore times, priority systems, and who does what in the first hour)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Ransomware groups are reported exploiting a previously patched authentication-bypass affecting some Palo Alto Networks PAN-OS/Prisma Access deployments. If your business (or your IT provider) uses these services for VPN/remote access, treat it as urgent to confirm you’re on the fixed versions and that logs are reviewed for unusual VPN connections since the spring/summer.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “If a website tells you to run steps/commands to ‘verify’ or ‘fix’ something, stop and report it” and remind everyone to report unexpected MFA prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Ransomware readiness checklist (backup, admin controls, MFA, and first-hour response)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a" rel="noopener noreferrer">#StopRansomware: SafePay Ransomware</a> <span class="muted">(CISA Cybersecurity Advisories)</span></li><li><a href="https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html" rel="noopener noreferrer">Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/" rel="noopener noreferrer">Zeabur shutting down after second security breach in two months</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html" rel="noopener noreferrer">Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html" rel="noopener noreferrer">Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
