@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "070d62f630231312": {
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
-    "3cfa79932498cdfe": {
-      "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
-    "5dffe4f1452b924f": {
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
-      "title": "Police dismantle Kratos phishing platform, arrest developer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
-    "f19e3d55d9f11a51": {
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
-    "7dbe7337f451898e": {
-      "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-      "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
-    "6485f682b06f4400": {
-      "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-      "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-22T10:38:09.968558+01:00",
-      "brief_slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred"
-    },
     "e11b40a8f481da75": {
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
       "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
@@ -5767,9 +5725,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-19T22:02:35.218412+01:00",
       "brief_slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption"
+    },
+    "c5b05c57ce229dc7": {
+      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "a6071b39af0b080a": {
+      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "7db63f9cd155b93b": {
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "b027e601f57288d7": {
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "2342ddb8c7ad7fec": {
+      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+      "title": "Revolut outage disrupts online banking operations worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
+    },
+    "8c6edd431152682e": {
+      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-20T13:42:59.747584+01:00",
+      "brief_slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-20-1342-smb-cyber-brief-supplier-incidents-cloud-tooling-tampering-and-service-outages-w",
+      "headline": "SMB Cyber Brief: Supplier incidents, cloud tooling tampering, and service outages – what to watch today",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, compromised downloads, and service disruption",
+      "published_at": "2026-10-20T13:42:59.747584+01:00",
+      "published_label": "Tuesday 20 October 2026, 13:42 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+        "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+        "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+        "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+        "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+        "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+      ]
+    },
     {
       "slug": "2026-10-19-2202-today-s-sme-cyber-lookout-compromised-software-updates-and-saas-disruption",
       "headline": "Today’s SME cyber lookout: compromised software updates and SaaS disruption",
@@ -8646,22 +8662,6 @@
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
         "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
         "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
-      ]
-    },
-    {
-      "slug": "2026-07-22-1038-today-s-smb-cyber-brief-ransomware-copycat-scams-microsoft-365-phishing-and-cred",
-      "headline": "Today’s SMB Cyber Brief: ransomware copycat scams, Microsoft 365 phishing, and credential-stuffing fallout",
-      "risk_level": "High",
-      "todays_lookout": "Impersonation scams + account takeover (Microsoft 365 phishing and reused passwords)",
-      "published_at": "2026-07-22T10:38:09.968558+01:00",
-      "published_label": "Wednesday 22 July 2026, 10:38 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-        "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-        "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
-        "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-        "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-        "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html"
       ]
     }
   ]
