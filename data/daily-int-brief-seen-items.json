@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "4d491fd7a7f8e25d": {
-      "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T10:35:36.861390+01:00",
-      "brief_slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri"
-    },
-    "f359f550fade57a7": {
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T10:35:36.861390+01:00",
-      "brief_slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri"
-    },
     "64a0279d0351d769": {
       "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
       "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
@@ -5753,9 +5739,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-20T20:59:44.886708+01:00",
       "brief_slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh"
+    },
+    "4c1ba1c175622d22": {
+      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-21T13:55:20.123241+01:00",
+      "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
+    },
+    "f0182a53b406878e": {
+      "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-21T13:55:20.123241+01:00",
+      "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
+    },
+    "b1018dc882649e8d": {
+      "url": "https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/",
+      "title": "Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers",
+      "source": "Cisco Talos",
+      "seen_at": "2026-10-21T13:55:20.123241+01:00",
+      "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
+    },
+    "cdb08ddee200914f": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-21T13:55:20.123241+01:00",
+      "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
+    },
+    "3433f5846096b827": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+      "title": "Microsoft says October updates didn’t actually fix VPN issues",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-21T13:55:20.123241+01:00",
+      "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti",
+      "headline": "SMB Cyber Brief: WordPress supplier incident, ransomware pressure, and VPN disruption risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier compromise + ransomware disruption + remote access/VPN reliability",
+      "published_at": "2026-10-21T13:55:20.123241+01:00",
+      "published_label": "Wednesday 21 October 2026, 13:55 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+        "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+        "https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/",
+        "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
+      ]
+    },
     {
       "slug": "2026-10-20-2059-ransomware-access-is-spiking-mfa-bypass-vpn-attacks-clickfix-lures-and-a-saas-sh",
       "headline": "Ransomware access is spiking: MFA-bypass VPN attacks, ‘ClickFix’ lures, and a SaaS shutdown to factor into today’s checks",
@@ -8624,18 +8660,6 @@
         "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
         "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/"
-      ]
-    },
-    {
-      "slug": "2026-07-23-1035-smb-cyber-intelligence-brief-fraud-after-data-theft-check-point-admin-console-ri",
-      "headline": "SMB Cyber Intelligence Brief — Fraud after data theft + Check Point admin-console risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and account-fraud attempts, plus security tooling admin access risk",
-      "published_at": "2026-07-23T10:35:36.861390+01:00",
-      "published_label": "Thursday 23 July 2026, 10:35 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-        "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
       ]
     }
   ]
