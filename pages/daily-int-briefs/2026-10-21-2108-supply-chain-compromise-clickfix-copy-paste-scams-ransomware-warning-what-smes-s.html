@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Supply-chain compromise + ‘ClickFix’ copy/paste scams + ransomware warning: what SMEs should watch today | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Supply-chain compromise + ‘ClickFix’ copy/paste scams + ransomware warning: what SMEs should watch today</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 21 October 2026, 21:08 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/software supply-chain risk and staff social-engineering (copy/paste ‘fix’ scams)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Software supply-chain compromise:</strong> reports say the popular LiteLLM Python package was compromised and used to deliver credential-stealing and a backdoor via package downloads and container images.</li>
+  <li><strong>“ClickFix” attacks surging:</strong> criminals are increasingly tricking people into <em>copying and pasting</em> commands or “fix steps” into their computer (often disguised as an AI tool install, a browser/Office fix, CAPTCHA step, or chatbot advice).</li>
+  <li><strong>Ransomware readiness:</strong> authorities have issued a warning about SafePay ransomware actors targeting multiple sectors. SMEs should treat this as a prompt to double-check backup, access and incident readiness.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supply-chain incidents bypass your usual checks:</strong> you may not be directly targeted, but you can still get hit through a dependency (developer libraries, MSP tooling, Docker images, automation scripts).</li>
+  <li><strong>ClickFix works on busy teams:</strong> it turns a normal user into the “installer” by persuading them to run steps that security tools might not expect.</li>
+  <li><strong>Ransomware impact is operational:</strong> even a short outage can halt invoicing, customer service, bookings, payroll and access to cloud apps.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>A web page, pop-up, email, or chatbot response that says: “To verify you’re human / fix this error, copy and paste this into Terminal/PowerShell/Command Prompt.”</li>
+  <li>Search results or ads offering “instant AI installer”, “ChatGPT/Claude plugin”, “Teams/Zoom/Chrome fix”, or “invoice viewer” that leads to manual command steps.</li>
+  <li>Developers/IT seeing unexpected dependency updates, new container pulls, or sudden authentication issues after a routine build/deploy.</li>
+  <li>Unexpected MFA prompts, password reset emails, or new sign-ins from unfamiliar locations (possible credential theft).</li>
+  <li>Ransomware precursors: unusual remote access logins, new admin accounts, endpoint protection disabled, or lots of failed login attempts.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain:</strong> attackers tamper with a trusted package or image so that when a team installs/updates it, malware can steal credentials (including cloud and developer secrets) or provide backdoor access.</li>
+  <li><strong>ClickFix:</strong> attackers use persuasion (“quick fix”, “verification”, “AI install”) to get a user to run instructions that download or enable malware, bypassing normal attachment and macro controls.</li>
+  <li><strong>Ransomware:</strong> stolen credentials and remote access are commonly used to spread, disrupt backups, and encrypt systems, leading to downtime and extortion.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a short staff alert:</strong> “Never copy/paste commands from a website, pop-up, email, or chatbot. If something asks you to do that, stop and report it.”</li>
+  <li><strong>For teams using Python/Docker/AI tooling:</strong> review recent installs/updates of third-party packages and container images used in production or automation; pause non-essential updates until checked.</li>
+  <li><strong>Check credential hygiene:</strong> confirm MFA is enabled on email, finance systems, and cloud admin accounts; review recent sign-in activity for anomalies.</li>
+  <li><strong>Ransomware basics check:</strong> confirm you have a recent offline/immutable backup and that you can restore key systems (file shares, finance, line-of-business apps).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we using LiteLLM (directly or through any internal tools, integrations, builds, or Docker images)? If yes, what’s the impact assessment and how are we verifying integrity?</li>
+  <li>Do we have controls to stop or warn when users are prompted to run copy/paste “fix” commands (browser protections, endpoint controls, user prompts, web filtering)?</li>
+  <li>What monitoring is in place for unusual sign-ins and credential theft (email, Microsoft 365/Google, VPN, remote access, admin accounts)?</li>
+  <li>Can you confirm our last successful restore test date and which systems are covered (including cloud data and SaaS exports)?</li>
+  <li>If ransomware hits, what is our step-by-step response plan and who must be called first (IT, insurer, legal, bank, comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of a widespread PHP issue that could lead to website/server compromise and outages. If your business runs a website or application on PHP (directly or via a web agency/host), ask today whether they’re aware and whether they’ve taken action to reduce outage risk and compromise risk.</p>
+
+        <h2>One action today</h2>
+        <p>Message all staff today: “Never copy/paste commands from a website, pop-up, email, or chatbot ‘fix’. If you’re asked to do this, stop and forward it to IT.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Phishing &amp; Social Engineering (including copy/paste ‘fix’ scams) – 2-minute staff checklist</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html" rel="noopener noreferrer">LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html" rel="noopener noreferrer">Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/" rel="noopener noreferrer">ClickFix has never been bigger, and AI tools are its most convincing lure yet</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical" rel="noopener noreferrer">CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors</a> <span class="muted">(CISA News)</span></li><li><a href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/" rel="noopener noreferrer">Widespread PHP Flaw May Cause Many Site Outages Today</a> <span class="muted">(Krebs on Security)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

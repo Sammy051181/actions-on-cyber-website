@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "64a0279d0351d769": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T15:29:48.557381+01:00",
-      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
-    },
-    "678e715aba628c27": {
-      "url": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-      "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-      "source": "Cisco Talos",
-      "seen_at": "2026-07-23T15:29:48.557381+01:00",
-      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
-    },
-    "2997be36835bb253": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T15:29:48.557381+01:00",
-      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
-    },
-    "20c1dee2f48f812e": {
-      "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
-      "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T15:29:48.557381+01:00",
-      "brief_slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant"
-    },
-    "98f3a356bca73b1b": {
-      "url": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-      "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
-      "source": "NCSC All Updates",
-      "seen_at": "2026-07-23T18:44:52.083193+01:00",
-      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
-    },
-    "eadd4f6a45de4528": {
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-      "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-23T18:44:52.083193+01:00",
-      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
-    },
-    "0aef94277d8b740f": {
-      "url": "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported",
-      "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity",
-      "source": "CISA News",
-      "seen_at": "2026-07-23T18:44:52.083193+01:00",
-      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
-    },
-    "3735cdeb2403e76a": {
-      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T18:44:52.083193+01:00",
-      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
-    },
-    "48a6e328f49bedee": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-23T18:44:52.083193+01:00",
-      "brief_slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag"
-    },
     "afe4a14794443d12": {
       "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
       "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
@@ -5774,9 +5711,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-21T13:55:20.123241+01:00",
       "brief_slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti"
+    },
+    "d9304dd4f7f5ae5d": {
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-21T21:08:32.733028+01:00",
+      "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
+    },
+    "e2527452350fa74e": {
+      "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-21T21:08:32.733028+01:00",
+      "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
+    },
+    "dc9d5e13ec1b033a": {
+      "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-21T21:08:32.733028+01:00",
+      "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
+    },
+    "7e756198cefb40cc": {
+      "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical",
+      "title": "CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+      "source": "CISA News",
+      "seen_at": "2026-10-21T21:08:32.733028+01:00",
+      "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
+    },
+    "5d15c045388ec8ec": {
+      "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "source": "Krebs on Security",
+      "seen_at": "2026-10-21T21:08:32.733028+01:00",
+      "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s",
+      "headline": "Supply-chain compromise + ‘ClickFix’ copy/paste scams + ransomware warning: what SMEs should watch today",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/software supply-chain risk and staff social-engineering (copy/paste ‘fix’ scams)",
+      "published_at": "2026-10-21T21:08:32.733028+01:00",
+      "published_label": "Wednesday 21 October 2026, 21:08 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+        "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+        "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+        "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical",
+        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
+      ]
+    },
     {
       "slug": "2026-10-21-1355-smb-cyber-brief-wordpress-supplier-incident-ransomware-pressure-and-vpn-disrupti",
       "headline": "SMB Cyber Brief: WordPress supplier incident, ransomware pressure, and VPN disruption risk",
@@ -8631,35 +8618,6 @@
         "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04"
-      ]
-    },
-    {
-      "slug": "2026-07-23-1844-today-s-sme-cyber-lookout-zimbra-zero-click-phishing-warning-microsoft-365-outag",
-      "headline": "Today’s SME cyber lookout: Zimbra ‘zero-click’ phishing warning + Microsoft 365 outage disruption scams",
-      "risk_level": "High",
-      "todays_lookout": "Email compromise risk and cloud disruption scams",
-      "published_at": "2026-07-23T18:44:52.083193+01:00",
-      "published_label": "Thursday 23 July 2026, 18:44 UK time",
-      "source_urls": [
-        "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-        "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported",
-        "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/"
-      ]
-    },
-    {
-      "slug": "2026-07-23-1529-browser-hiding-malware-linked-to-ransomware-plus-exchange-online-mailbox-quarant",
-      "headline": "Browser-hiding malware linked to ransomware, plus Exchange Online mailbox quarantine disruption",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware pre-cursor malware + Microsoft 365 email disruption scams",
-      "published_at": "2026-07-23T15:29:48.557381+01:00",
-      "published_label": "Thursday 23 July 2026, 15:29 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-        "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-        "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/"
       ]
     }
   ]
