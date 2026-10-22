@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "afe4a14794443d12": {
-      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "fafb9124e07e3f12": {
-      "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
-      "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "5518fb6b7eb971cc": {
-      "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "915e709a7e69a73a": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "852d7225f48a5e8d": {
-      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "1652d0ba9cb424a6": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
-      "title": "Weintek cMT3092X",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
-    "46ea8807abed9423": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
-      "title": "Panduit IntraVUE",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-24T10:33:15.398557+01:00",
-      "brief_slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin"
-    },
     "8bba9e0e00948187": {
       "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
@@ -5746,9 +5697,67 @@
       "source": "Krebs on Security",
       "seen_at": "2026-10-21T21:08:32.733028+01:00",
       "brief_slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s"
+    },
+    "6f676746f765de6e": {
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "b5736c37c6a72d90": {
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "db964fc55da08520": {
+      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "89c43e5d413adbb4": {
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "74d714d3ba5e87cf": {
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "bbaceb69b77dcf20": {
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T13:57:43.746172+01:00",
+      "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac",
+      "headline": "SMB Cyber Intelligence Brief — Supplier & platform incidents driving phishing and account-takeover risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incidents, stolen secrets, and follow-on phishing (MSP/SaaS/hosting)",
+      "published_at": "2026-10-22T13:57:43.746172+01:00",
+      "published_label": "Thursday 22 October 2026, 13:57 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+        "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+        "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+        "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+        "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+        "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+      ]
+    },
     {
       "slug": "2026-10-21-2108-supply-chain-compromise-clickfix-copy-paste-scams-ransomware-warning-what-smes-s",
       "headline": "Supply-chain compromise + ‘ClickFix’ copy/paste scams + ransomware warning: what SMEs should watch today",
@@ -8601,23 +8610,6 @@
         "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
         "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
         "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
-      ]
-    },
-    {
-      "slug": "2026-07-24-1033-today-s-smb-cyber-brief-ransomware-data-theft-hunts-mailbox-risk-and-fake-plugin",
-      "headline": "Today’s SMB Cyber Brief: ransomware data-theft hunts, mailbox risk, and fake ‘plugin’ installs",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware data-theft targeting exposed business apps + credential and mailbox theft + trojanised plugins",
-      "published_at": "2026-07-24T10:33:15.398557+01:00",
-      "published_label": "Friday 24 July 2026, 10:33 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-        "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
-        "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-        "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04"
       ]
     }
   ]

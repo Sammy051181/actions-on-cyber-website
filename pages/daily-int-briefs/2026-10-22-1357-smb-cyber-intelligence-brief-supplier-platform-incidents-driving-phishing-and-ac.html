@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief — Supplier &amp; platform incidents driving phishing and account-takeover risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief — Supplier &amp; platform incidents driving phishing and account-takeover risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 22 October 2026, 13:57 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incidents, stolen secrets, and follow-on phishing (MSP/SaaS/hosting)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s risk picture is dominated by <strong>supplier and platform incidents</strong> that can quickly spill into SMEs via stolen credentials, exposed API keys, or MSP/backup tooling. Be on the lookout for:</p>
+<ul>
+  <li><strong>MSP / backup supply-chain concerns</strong> involving ConnectWise Cloud Backup (as reported by Microsoft).</li>
+  <li><strong>Platform secrets exposure</strong> risk: Railway reports anomalous activity affecting some customer environment variables (i.e. “secrets”).</li>
+  <li><strong>Hosted server compromise</strong>: a Japanese VPS provider (Onamae Desktop Cloud) reports malware installed on a large number of customer servers.</li>
+  <li><strong>Software supply chain compromise</strong>: LiteLLM reports a malicious package release after its pipeline was compromised.</li>
+  <li><strong>More convincing web scams</strong> and “ClickFix” style lures: Chrome is adding scam protections and warnings when users copy suspicious commands.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on <strong>third parties</strong> for backup, hosting, websites, and business apps. When a supplier is compromised, attackers commonly pivot to customers by:</p>
+<ul>
+  <li>Stealing <strong>passwords, API keys, and app “secrets”</strong> that enable access without triggering obvious alerts.</li>
+  <li>Sending <strong>highly believable phishing</strong> that references the supplier incident (“reset your credentials”, “reconnect your backup”, “verify your account”).</li>
+  <li>Disrupting operations (website downtime, backups failing, remote tools abused), increasing pressure to make rushed decisions.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>password reset</strong> emails, MFA prompts, or “new device signed in” alerts for SaaS/admin accounts.</li>
+  <li>Backup jobs suddenly failing, agents going offline, or unusual alerts from your backup/monitoring provider.</li>
+  <li>New or unknown <strong>API keys</strong>, tokens, or “service accounts” appearing in cloud consoles, CI/CD, or integration settings.</li>
+  <li>Staff reporting websites asking them to <strong>copy/paste commands</strong> to “fix” access (a common ClickFix pattern).</li>
+  <li>Unplanned changes to DNS, hosting control panels, or server configurations; unexplained outbound traffic from servers.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Follow-on phishing</strong> timed to headlines: attackers impersonate ConnectWise/hosting/PaaS support to capture credentials or MFA codes.</li>
+  <li><strong>Token/secret replay</strong>: if environment variables or release pipeline credentials are exposed, attackers can access systems without needing user passwords.</li>
+  <li><strong>Backup and recovery sabotage</strong>: compromise of backup tooling can be used to disable backups or increase ransomware impact.</li>
+  <li><strong>Malware on hosted servers</strong>: compromised VPS instances can be used to steal data, host phishing pages, or serve as a jump point into business networks.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Re-check who has admin access</strong> to backup platforms, hosting panels, domain/DNS accounts, and CI/CD.</li>
+  <li><strong>Rotate secrets where feasible</strong>: prioritise API keys, service account credentials, and integration tokens for critical systems (finance, payroll, email, backups).</li>
+  <li>Send a quick staff note: <strong>don’t act on “supplier security alerts”</strong> from email alone—verify via your usual support portal or known contact details.</li>
+  <li>Confirm you have at least <strong>one offline/immutable backup</strong> and that you can restore a key file set.</li>
+  <li>Review web and server monitoring: look for new admin users, unexpected plugins, scheduled tasks, or unfamiliar processes.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are we affected by the <strong>ConnectWise Cloud Backup</strong> incident in any way (directly or via an MSP toolchain)? What checks have you done?</li>
+  <li>Do we store any <strong>customer/production secrets</strong> in platforms like Railway (or similar), and have we rotated them?</li>
+  <li>Which systems have <strong>privileged access</strong> via API keys/service accounts, and how quickly can we rotate them safely?</li>
+  <li>Can you show evidence that <strong>backups are running and restorable</strong> (a test restore in the last 30 days)?</li>
+  <li>What additional monitoring is in place for <strong>unusual admin activity</strong> across email, backups, hosting, and endpoint security?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you self-host developer tooling, treat <strong>high-severity GitLab security updates</strong> as a priority because compromise of source code and CI/CD often leads to stolen secrets and wider business disruption. Ask your IT provider to confirm status and whether any unusual access occurred before the update window.</p>
+
+        <h2>One action today</h2>
+        <p>Rotate (or at minimum audit) admin credentials and API keys for your backup platform, hosting/DNS accounts, and key SaaS integrations today—and document who changed what.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier Incident &amp; SaaS Compromise Checklist (verify comms, rotate secrets, review admin access, and test restores)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html" rel="noopener noreferrer">China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html" rel="noopener noreferrer">Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/" rel="noopener noreferrer">Japan&#x27;s Onamae Desktop Cloud hacked, up to 27,000 servers affected</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html" rel="noopener noreferrer">LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/" rel="noopener noreferrer">Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/" rel="noopener noreferrer">GitLab warns of new max severity code execution vulnerability</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
