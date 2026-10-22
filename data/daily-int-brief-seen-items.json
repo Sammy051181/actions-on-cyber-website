@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "8bba9e0e00948187": {
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-      "title": "Chick-fil-A data breach affects more than 13,000 customers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T15:11:03.490061+01:00",
-      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
-    },
-    "2cb10c32bd7a4272": {
-      "url": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-      "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T15:11:03.490061+01:00",
-      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
-    },
-    "d43d2a88720f40da": {
-      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T15:11:03.490061+01:00",
-      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
-    },
-    "e159988bd46b5a0a": {
-      "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T15:11:03.490061+01:00",
-      "brief_slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis"
-    },
-    "bc12474a9a3abb0e": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T18:50:52.807902+01:00",
-      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
-    },
-    "33203de2679af613": {
-      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T18:50:52.807902+01:00",
-      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
-    },
-    "5e70f980b85c0314": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-      "title": "New Dolphin X malware uses AI to rank high-value targets",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-24T18:50:52.807902+01:00",
-      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
-    },
-    "283f9b048caadb87": {
-      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-24T18:50:52.807902+01:00",
-      "brief_slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio"
-    },
     "0fad97e2f1c1223d": {
       "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
       "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
@@ -5739,9 +5683,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-22T13:57:43.746172+01:00",
       "brief_slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac"
+    },
+    "37f56369e2ff40e0": {
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "8432ce44e6fee1e8": {
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "5dc62af2c3e97dbb": {
+      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "1ed4b6e940bacb9a": {
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "5a34460990741de0": {
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "e476028eb9f1368a": {
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-22T21:06:10.635393+01:00",
+      "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte",
+      "headline": "SMB Cyber Daily Brief: supply‑chain malware risk + active exploitation against internet-facing services",
+      "risk_level": "High",
+      "todays_lookout": "Supplier / SaaS and internet-facing service risk (credential theft, compromised updates, and rapid follow-on attacks)",
+      "published_at": "2026-10-22T21:06:10.635393+01:00",
+      "published_label": "Thursday 22 October 2026, 21:06 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+        "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+        "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+        "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+        "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+        "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+      ]
+    },
     {
       "slug": "2026-10-22-1357-smb-cyber-intelligence-brief-supplier-platform-incidents-driving-phishing-and-ac",
       "headline": "SMB Cyber Intelligence Brief — Supplier & platform incidents driving phishing and account-takeover risk",
@@ -8582,34 +8584,6 @@
       "published_label": "Saturday 25 July 2026, 10:11 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html"
-      ]
-    },
-    {
-      "slug": "2026-07-24-1850-today-s-sme-cyber-brief-microsoft-365-disruption-fallout-teams-zoom-impersonatio",
-      "headline": "Today’s SME cyber brief: Microsoft 365 disruption fallout + Teams/Zoom impersonation phishing",
-      "risk_level": "High",
-      "todays_lookout": "Cloud disruption and supplier-impersonation scams (Microsoft 365/Azure) plus Teams/Zoom phishing lures",
-      "published_at": "2026-07-24T18:50:52.807902+01:00",
-      "published_label": "Friday 24 July 2026, 18:50 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-        "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-        "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-        "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
-      ]
-    },
-    {
-      "slug": "2026-07-24-1511-smb-cyber-intelligence-brief-account-takeovers-fake-ai-app-ads-and-ai-agent-phis",
-      "headline": "SMB Cyber Intelligence Brief: Account takeovers, fake AI app ads, and AI agent phishing risk",
-      "risk_level": "High",
-      "todays_lookout": "Credential stuffing + malvertising (fake AI apps) + AI/SaaS agent phishing",
-      "published_at": "2026-07-24T15:11:03.490061+01:00",
-      "published_label": "Friday 24 July 2026, 15:11 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-        "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-        "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-        "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
       ]
     }
   ]
