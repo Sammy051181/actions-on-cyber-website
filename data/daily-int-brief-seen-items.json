@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "bc184f0aa3d15eec": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T15:01:05.127678+01:00",
-      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
-    },
-    "bb8d98fdc318d866": {
-      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-25T15:01:05.127678+01:00",
-      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
-    },
-    "2771e2dd44890caa": {
-      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-25T15:01:05.127678+01:00",
-      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
-    },
-    "25ca120783f73471": {
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-      "title": "OpenAI confirms ChatGPT is down worldwide",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T15:01:05.127678+01:00",
-      "brief_slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing"
-    },
-    "761b2a971cb2b357": {
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T18:14:13.498961+01:00",
-      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
-    },
-    "207ba2c04dca1160": {
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-      "title": "Malicious sites use JavaScript to build malware in browser memory",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T18:14:13.498961+01:00",
-      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
-    },
-    "ce229faccda08040": {
-      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-      "title": "OnTrac notifies customers of data breach after network hack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T18:14:13.498961+01:00",
-      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
-    },
-    "b80be0dc24d5a6b9": {
-      "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-      "title": "Australian energy provider Origin says data breach exposes client data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-25T18:14:13.498961+01:00",
-      "brief_slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-"
-    },
     "17ff6787fa795c5a": {
       "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
       "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
@@ -5739,9 +5683,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-23T13:37:09.685625+01:00",
       "brief_slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific"
+    },
+    "64b0ac9d140d1167": {
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "6fb95eceef2a89d9": {
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "5d9f1f66a499403a": {
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "e3ceabcd0c4b4ac0": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "87bf34b6e070a947": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "76da600891769837": {
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-23T20:57:19.352095+01:00",
+      "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an",
+      "headline": "Today’s SMB lookout: firewall/VPN credential theft, faster ransomware break-ins, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Edge device & credential compromise leading to ransomware and follow‑on phishing",
+      "published_at": "2026-10-23T20:57:19.352095+01:00",
+      "published_label": "Friday 23 October 2026, 20:57 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+        "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+        "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+        "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+      ]
+    },
     {
       "slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific",
       "headline": "Today’s SMB cyber lookout: supplier alerts, credential re-use fallout, and certificate confusion",
@@ -8572,34 +8574,6 @@
         "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
         "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
         "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
-      ]
-    },
-    {
-      "slug": "2026-07-25-1814-saturday-brief-sextortion-emails-malicious-trading-crypto-ads-and-breach-driven-",
-      "headline": "Saturday brief: Sextortion emails, malicious “trading/crypto” ads, and breach-driven phishing",
-      "risk_level": "High",
-      "todays_lookout": "Breach-driven scams and malvertising leading to credential theft and malware",
-      "published_at": "2026-07-25T18:14:13.498961+01:00",
-      "published_label": "Saturday 25 July 2026, 18:14 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-        "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-        "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-        "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
-      ]
-    },
-    {
-      "slug": "2026-07-25-1501-today-s-smb-cyber-brief-hotel-wi-fi-microsoft-365-login-traps-real-time-phishing",
-      "headline": "Today’s SMB cyber brief: hotel Wi‑Fi Microsoft 365 login traps, real‑time phishing, and SaaS disruption",
-      "risk_level": "High",
-      "todays_lookout": "Credential theft and account takeover (especially Microsoft 365), plus SaaS dependency disruption",
-      "published_at": "2026-07-25T15:01:05.127678+01:00",
-      "published_label": "Saturday 25 July 2026, 15:01 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-        "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-        "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"
       ]
     }
   ]
