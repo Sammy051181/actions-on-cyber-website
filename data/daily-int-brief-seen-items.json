@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "0fad97e2f1c1223d": {
-      "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-25T10:11:55.614820+01:00",
-      "brief_slug": "2026-07-25-1011-cyber-story-smes-should-watch-today"
-    },
     "bc184f0aa3d15eec": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
       "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
@@ -5725,9 +5718,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-22T21:06:10.635393+01:00",
       "brief_slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte"
+    },
+    "ea40ccd76acf9cc8": {
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-23T13:37:09.685625+01:00",
+      "brief_slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific"
+    },
+    "1e6095c6e828de75": {
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-23T13:37:09.685625+01:00",
+      "brief_slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific"
+    },
+    "23aef87bc2645199": {
+      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-23T13:37:09.685625+01:00",
+      "brief_slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-23-1337-today-s-smb-cyber-lookout-supplier-alerts-credential-re-use-fallout-and-certific",
+      "headline": "Today’s SMB cyber lookout: supplier alerts, credential re-use fallout, and certificate confusion",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, leaked secrets, and knock-on phishing/credential-stuffing",
+      "published_at": "2026-10-23T13:37:09.685625+01:00",
+      "published_label": "Friday 23 October 2026, 13:37 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+        "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+        "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
+      ]
+    },
     {
       "slug": "2026-10-22-2106-smb-cyber-daily-brief-supply-chain-malware-risk-active-exploitation-against-inte",
       "headline": "SMB Cyber Daily Brief: supply‑chain malware risk + active exploitation against internet-facing services",
@@ -8573,17 +8600,6 @@
         "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
         "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
         "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"
-      ]
-    },
-    {
-      "slug": "2026-07-25-1011-cyber-story-smes-should-watch-today",
-      "headline": "Cyber story SMEs should watch today",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier, scam or disruption risk",
-      "published_at": "2026-07-25T10:11:55.614820+01:00",
-      "published_label": "Saturday 25 July 2026, 10:11 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html"
       ]
     }
   ]
