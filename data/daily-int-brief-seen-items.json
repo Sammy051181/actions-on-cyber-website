@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "d3aafaf0b39734ab": {
-      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-26T14:54:45.976928+01:00",
-      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
-    },
-    "29cf8850175497ec": {
-      "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-26T14:54:45.976928+01:00",
-      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
-    },
-    "272cc44a5c21921f": {
-      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-26T14:54:45.976928+01:00",
-      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
-    },
-    "7846896441102bae": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-      "title": "Updated Cyber Threat Actor Naming System",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-07-26T14:54:45.976928+01:00",
-      "brief_slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p"
-    },
     "5c3b2927268feb4b": {
       "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
       "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
@@ -5725,9 +5697,75 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-24T12:59:21.096727+01:00",
       "brief_slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a"
+    },
+    "63d6bc3687b50b5c": {
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "92749712f9150ad2": {
+      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "title": "You gave your AI agent access, but who is giving it orders?",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "43513002b0c380e9": {
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "9d0cfa945b257eb4": {
+      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "a5d4387518b81efb": {
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "ae5fe3ec49b34664": {
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "7c53f743c08237d2": {
+      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T16:55:39.523034+01:00",
+      "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo",
+      "headline": "Today’s SME cyber lookout: AI agents with “too much access”, plus ongoing mass exploit attempts",
+      "risk_level": "High",
+      "todays_lookout": "AI agent misuse + mass internet exploit attempts + abandoned software risk",
+      "published_at": "2026-10-24T16:55:39.523034+01:00",
+      "published_label": "Saturday 24 October 2026, 16:55 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+        "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+        "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+        "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+        "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html"
+      ]
+    },
     {
       "slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a",
       "headline": "Today’s SMB cyber lookout: stolen access tokens, software supply-chain surprises, and “AI features” data-sharing decisions",
@@ -8560,20 +8598,6 @@
       "published_label": "Sunday 26 July 2026, 18:14 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-07-26-1454-sunday-cyber-look-out-ai-assisted-scams-supplier-dev-tool-risk-and-why-your-it-p",
-      "headline": "Sunday cyber look-out: AI-assisted scams, supplier/dev tool risk, and why your IT partner should be watching",
-      "risk_level": "Moderate",
-      "todays_lookout": "AI-assisted phishing & developer supply-chain traps; self-managed platform exposure",
-      "published_at": "2026-07-26T14:54:45.976928+01:00",
-      "published_label": "Sunday 26 July 2026, 14:54 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-        "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-        "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-        "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/"
       ]
     }
   ]
