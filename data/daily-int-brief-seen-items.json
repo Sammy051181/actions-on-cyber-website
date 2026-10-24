@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "5c3b2927268feb4b": {
-      "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-      "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-26T18:14:37.786540+01:00",
-      "brief_slug": "2026-07-26-1814-today-s-lookout-software-supply-chain-risk-via-github-pypi-dependencies"
-    },
     "c2fbf638a7b054d5": {
       "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
       "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
@@ -8587,17 +8580,6 @@
       "published_label": "Monday 27 July 2026, 11:50 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
-      ]
-    },
-    {
-      "slug": "2026-07-26-1814-today-s-lookout-software-supply-chain-risk-via-github-pypi-dependencies",
-      "headline": "Today’s lookout: software supply-chain risk via GitHub/PyPI dependencies",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS risk – dependency supply-chain attacks (open-source packages)",
-      "published_at": "2026-07-26T18:14:37.786540+01:00",
-      "published_label": "Sunday 26 July 2026, 18:14 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/"
       ]
     }
   ]
