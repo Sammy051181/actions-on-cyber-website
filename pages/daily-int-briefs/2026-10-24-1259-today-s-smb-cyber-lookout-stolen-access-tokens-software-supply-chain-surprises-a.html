@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: stolen access tokens, software supply-chain surprises, and “AI features” data-sharing decisions | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: stolen access tokens, software supply-chain surprises, and “AI features” data-sharing decisions</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 24 October 2026, 12:59 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Credential &amp; API token theft + supplier/supply-chain risk (AI/dev tooling) and knock-on scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is speed: attackers are using stolen credentials and API tokens to move fast (minutes, not days), plus there’s a reminder that supplier mistakes (like leaked keys or tampered packages) can quickly ripple into customer environments.</p>
+<ul>
+  <li><strong>Stolen tokens and MFA phishing:</strong> attackers grabbing GitHub/API tokens or tricking staff into approving sign-ins can lead to rapid access and data theft.</li>
+  <li><strong>Software supply-chain incident (dev/AI tooling):</strong> a leaked master key was reportedly used to push a malicious package release in the LiteLLM ecosystem—relevant to anyone using AI/dev libraries through automated dependency updates.</li>
+  <li><strong>Actively exploited flaws flagged by CISA:</strong> reports of exploitation affecting Collabora Online Built‑in CODE Server and Arista VeloCloud Orchestrator (important if you or your IT provider run these).</li>
+  <li><strong>Google AI features and data sharing choices:</strong> if staff enable personalised AI features in Search/Gemini with connected services (e.g., Gmail/Photos), it may affect what data is shared and how ads are targeted—this is a governance and privacy decision for organisations.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on SaaS, outsourced IT, and “auto-updating” software stacks. If a single account, token, or supplier component is compromised, attackers can:</p>
+<ul>
+  <li>access email, files, CRM or code repositories and quietly export data;</li>
+  <li>send convincing internal/phishing emails from real accounts (leading to invoice fraud);</li>
+  <li>tamper with software builds or updates that then spread the impact further.</li>
+</ul>
+<p>Because these attacks can unfold quickly, the biggest gap is often <strong>time-to-detect</strong> and <strong>time-to-disable access</strong>.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected MFA prompts or staff reporting “MFA fatigue” (many prompts in a short period).</li>
+  <li>New logins from unusual locations/at unusual times, or “impossible travel” alerts.</li>
+  <li>New API keys/tokens created, permissions widened, or security settings changed without a ticket/change request.</li>
+  <li>Unplanned dependency/library updates in projects, or builds suddenly pulling in new versions without explanation.</li>
+  <li>Users enabling new AI/personalisation features without business approval, especially if it requests access to other services’ data.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Token theft:</strong> stealing GitHub, cloud, or SaaS tokens (from laptops, logs, chat tools, browser storage, or poorly stored secrets) to bypass password resets.</li>
+  <li><strong>MFA phishing:</strong> luring a user to a fake sign-in page and capturing session details or pushing repeated MFA prompts until one is approved.</li>
+  <li><strong>Supply-chain tampering:</strong> getting malicious code into a package/update so downstream organisations ingest it during normal updates or CI/CD builds.</li>
+  <li><strong>Exploitation of internet-facing management tools:</strong> if a supplier product is exposed online (often via an MSP), exploitation can become an entry point into multiple customer environments.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Run a quick access review:</strong> list who has admin access to email, file storage, finance platforms, and code repos; remove stale accounts and enforce least privilege.</li>
+  <li><strong>Rotate and re-check high-risk tokens:</strong> prioritise GitHub, CI/CD, cloud admin, backup system, and any “master keys” used by automation.</li>
+  <li><strong>Turn on/verify alerting:</strong> alerts for new OAuth app grants, new API keys, MFA method changes, and unusual sign-ins.</li>
+  <li><strong>Dependency hygiene:</strong> pause “auto-merge” dependency updates where possible; require review for new/unknown packages; confirm you can identify what version was deployed and when.</li>
+  <li><strong>AI feature governance:</strong> decide whether staff can connect business accounts (e.g., Gmail/Workspace) to personalised AI features; document an approved approach.</li>
+  <li><strong>Prepare comms:</strong> remind staff: don’t approve unexpected MFA prompts; report them immediately.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you show us <strong>recent sign-in alerts</strong> and how quickly you respond to suspicious logins?</li>
+  <li>Do we have <strong>conditional access</strong> (location/device rules) and is it enforced for admins?</li>
+  <li>How do you manage and rotate <strong>API tokens/service accounts</strong> used by integrations and automation?</li>
+  <li>Do we run or use <strong>Collabora Online (Built-in CODE Server)</strong> or <strong>Arista VeloCloud Orchestrator</strong> anywhere (directly or via an MSP), and are they internet-exposed?</li>
+  <li>What controls do we have to reduce <strong>supply-chain risk</strong> (dependency pinning, approval gates, integrity checks, and rollback capability)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>CISA has flagged active exploitation affecting Collabora Online Built‑in CODE Server and Arista VeloCloud Orchestrator. If you use these products (often via an MSP), treat this as urgent: confirm exposure, apply vendor fixes/mitigations, and review logs for unusual admin activity.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for a 15‑minute review of admin accounts and active API tokens (email, file sharing, finance, code/CI), and rotate anything high-risk or unknown.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Rapid account takeover response” (MFA prompt handling, token/key rotation, and emergency access review)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/" rel="noopener noreferrer">Machine speed attacks require machine speed detection and response</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html" rel="noopener noreferrer">CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html" rel="noopener noreferrer">Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html" rel="noopener noreferrer">Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

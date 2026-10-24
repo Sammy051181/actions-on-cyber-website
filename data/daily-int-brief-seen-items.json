@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "17ff6787fa795c5a": {
-      "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-26T10:23:23.055336+01:00",
-      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
-    },
-    "a7df7ffa5e05842f": {
-      "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-26T10:23:23.055336+01:00",
-      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
-    },
-    "6fdd8513ac9daf93": {
-      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-26T10:23:23.055336+01:00",
-      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
-    },
-    "8083b86f8749ba30": {
-      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-26T10:23:23.055336+01:00",
-      "brief_slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an"
-    },
     "d3aafaf0b39734ab": {
       "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
       "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
@@ -5725,9 +5697,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-23T20:57:19.352095+01:00",
       "brief_slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an"
+    },
+    "32ea969a27fc0c32": {
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-24T12:59:21.096727+01:00",
+      "brief_slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a"
+    },
+    "ad7396463092f2b2": {
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T12:59:21.096727+01:00",
+      "brief_slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a"
+    },
+    "c2f353f11fcac607": {
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T12:59:21.096727+01:00",
+      "brief_slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a"
+    },
+    "ed6cb319ad856dfd": {
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-24T12:59:21.096727+01:00",
+      "brief_slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-24-1259-today-s-smb-cyber-lookout-stolen-access-tokens-software-supply-chain-surprises-a",
+      "headline": "Today’s SMB cyber lookout: stolen access tokens, software supply-chain surprises, and “AI features” data-sharing decisions",
+      "risk_level": "High",
+      "todays_lookout": "Credential & API token theft + supplier/supply-chain risk (AI/dev tooling) and knock-on scams",
+      "published_at": "2026-10-24T12:59:21.096727+01:00",
+      "published_label": "Saturday 24 October 2026, 12:59 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+        "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+        "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+      ]
+    },
     {
       "slug": "2026-10-23-2057-today-s-smb-lookout-firewall-vpn-credential-theft-faster-ransomware-break-ins-an",
       "headline": "Today’s SMB lookout: firewall/VPN credential theft, faster ransomware break-ins, and breach-driven phishing",
@@ -8560,20 +8574,6 @@
         "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
         "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
         "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/"
-      ]
-    },
-    {
-      "slug": "2026-07-26-1023-sunday-brief-malvertising-builds-malware-in-your-browser-clickfix-forum-scams-an",
-      "headline": "Sunday brief: Malvertising ‘builds’ malware in your browser, ClickFix forum scams, and ransomware ops scaling up",
-      "risk_level": "High",
-      "todays_lookout": "Malvertising & “ClickFix” social engineering leading to malware/ransomware",
-      "published_at": "2026-07-26T10:23:23.055336+01:00",
-      "published_label": "Sunday 26 July 2026, 10:23 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-        "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-        "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-        "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
       ]
     }
   ]
