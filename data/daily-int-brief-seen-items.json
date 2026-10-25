@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "c2fbf638a7b054d5": {
-      "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-27T11:50:38.595889+01:00",
-      "brief_slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates"
-    },
     "3e98a5e938668834": {
       "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
       "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
@@ -8569,17 +8562,6 @@
         "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
         "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
         "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
-      ]
-    },
-    {
-      "slug": "2026-07-27-1150-today-s-smb-lookout-reduce-risk-from-rushed-open-source-updates",
-      "headline": "Today’s SMB lookout: reduce risk from “rushed” open‑source updates",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS risk from automated dependency updates",
-      "published_at": "2026-07-27T11:50:38.595889+01:00",
-      "published_label": "Monday 27 July 2026, 11:50 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
       ]
     }
   ]
