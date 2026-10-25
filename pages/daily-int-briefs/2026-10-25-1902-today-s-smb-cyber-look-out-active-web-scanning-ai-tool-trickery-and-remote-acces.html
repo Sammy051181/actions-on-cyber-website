@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber look-out: active web scanning, AI tool trickery, and remote access “one device to many” risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber look-out: active web scanning, AI tool trickery, and remote access “one device to many” risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 25 October 2026, 19:02 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access and supplier tooling risk (plus active scanning of internet-facing services)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three practical watch-outs today:</p>
+<ul>
+  <li><strong>Internet-wide scanning and exploitation attempts</strong> against a PHP web component (reported as being used in a real intrusion), with rapid follow-on activity once a foothold is gained.</li>
+  <li><strong>AI coding/automation tools being tricked by local instruction files</strong> (e.g., a malicious “instructions” file sitting in a Downloads folder) to pull in unsafe software dependencies.</li>
+  <li><strong>Remote access mesh / admin access misconfigurations</strong> where compromising <em>one</em> device could allow attackers to reach other systems on the same private network.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li>SMEs are often targeted by <strong>automated scanning</strong> because it’s cheap and works at scale—especially against internet-facing websites, portals and self-hosted services.</li>
+  <li>Many smaller organisations increasingly rely on <strong>AI tools</strong> (directly or via developers/IT providers). If those tools can be steered into installing rogue packages, it can become a supply-chain entry point.</li>
+  <li>Remote access tooling (including private network overlays and “easy SSH” features) is widely used by <strong>MSPs and outsourced IT</strong>. If set up too permissively, one compromised laptop can become a stepping stone into servers and line-of-business systems.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unusual spikes in website/app traffic, strange requests in web logs, or repeated failed login attempts to admin panels.</li>
+  <li>Unexpected new admin accounts, changed MFA settings, or password resets no one requested.</li>
+  <li>Developer or IT machines suddenly installing new packages, toolchains, or browser extensions “automatically”.</li>
+  <li>Remote access sessions at odd hours, from new devices, or from locations that don’t match your staff/suppliers.</li>
+  <li>Security tools being disabled or “exceptions” added without a clear change request.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Automated scanning → quick compromise → credential harvesting</strong>: attackers look for exposed services, then rapidly move to grab password hashes and expand access.</li>
+  <li><strong>AI agent / coding assistant steering</strong>: a planted instruction file (for example in Downloads) may influence an AI tool to install a malicious dependency, giving attackers a foothold on a workstation or in a build process.</li>
+  <li><strong>“One device to many” pivoting</strong>: if a single laptop is compromised, attackers may use allowed remote access pathways to reach servers it can connect to, potentially escalating privileges and impacting multiple systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm what is internet-facing</strong>: ask your IT provider for a quick list of externally exposed services (websites, portals, remote admin) and whether monitoring/alerting is in place.</li>
+  <li><strong>Reinforce account hygiene</strong>: ensure MFA is enabled for admin access, and review admin users/groups for anything unexpected.</li>
+  <li><strong>AI tool safety check (if you use them)</strong>: ensure staff/devs understand that “instruction” files and downloaded content can influence AI tooling. Encourage using approved package sources and change review before installing dependencies.</li>
+  <li><strong>Remote access review</strong>: verify remote access rules follow least privilege (who/what can connect to what), and that lost/stolen devices can be rapidly revoked.</li>
+  <li><strong>Backups and recovery</strong>: confirm backups are current and that someone can restore key systems quickly (especially file shares and finance systems).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any <strong>internet-exposed</strong> web apps/services that could be caught by broad scanning, and are we alerted to unusual probing?</li>
+  <li>Which remote access tools (including private network/mesh tooling) are in use, and do access rules prevent a compromised user device from reaching servers unnecessarily?</li>
+  <li>How quickly can you <strong>disable/revoke</strong> a single device’s access if it’s suspected compromised?</li>
+  <li>Do you monitor for <strong>unexpected package installs</strong> or risky developer workstation changes (where applicable)?</li>
+  <li>What is the agreed process for emergency changes (e.g., blocking traffic, rotating credentials) and who signs off?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of active exploitation and scanning tied to a PHP component (“PHP2Shell”) and separate concerns about remote access tooling configurations that can enable lateral movement. You don’t need to chase technical details today—ask your IT provider to confirm whether any affected components or risky configurations exist in your environment, and what monitoring is in place for suspicious access and rapid follow-on activity.</p>
+
+        <h2>One action today</h2>
+        <p>Ask your IT provider today for a 15-minute confirmation of (1) what services you have exposed to the internet, and (2) whether any single user device can reach critical servers via remote access/mesh tooling—and what would be done immediately if a device is suspected compromised.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Actions On Cyber “Supplier &amp; MSP Security Questions” checklist (use it to review remote access, monitoring, and emergency response expectations).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html" rel="noopener noreferrer">PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/" rel="noopener noreferrer">AI coding agents hijacked using AGENTS.md file in Downloads folder</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html" rel="noopener noreferrer">Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

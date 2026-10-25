@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "3e98a5e938668834": {
-      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-27T16:12:26.447677+01:00",
-      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
-    },
-    "8cf0bb9ecf31a414": {
-      "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-27T16:12:26.447677+01:00",
-      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
-    },
-    "a95dd26365a570d9": {
-      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-27T16:12:26.447677+01:00",
-      "brief_slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools"
-    },
-    "c9d9f99a67fd8241": {
-      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-27T18:55:07.691738+01:00",
-      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
-    },
-    "0dbbf636baae4cec": {
-      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-27T18:55:07.691738+01:00",
-      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
-    },
-    "7c7cdda876d9d947": {
-      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-27T18:55:07.691738+01:00",
-      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
-    },
-    "8c3cf13619552cfd": {
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-      "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-27T18:55:07.691738+01:00",
-      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
-    },
-    "5937bd850a8b331f": {
-      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-27T18:55:07.691738+01:00",
-      "brief_slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi"
-    },
     "641ea5c9eac6a71f": {
       "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
       "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
@@ -5732,9 +5676,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-24T16:55:39.523034+01:00",
       "brief_slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo"
+    },
+    "da19872bd8ebd641": {
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-25T19:02:18.720926+00:00",
+      "brief_slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces"
+    },
+    "5db2cad8ad53b4cb": {
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-25T19:02:18.720926+00:00",
+      "brief_slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces"
+    },
+    "33f7736e74631c3e": {
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-25T19:02:18.720926+00:00",
+      "brief_slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces",
+      "headline": "Today’s SMB cyber look-out: active web scanning, AI tool trickery, and remote access “one device to many” risk",
+      "risk_level": "High",
+      "todays_lookout": "Remote access and supplier tooling risk (plus active scanning of internet-facing services)",
+      "published_at": "2026-10-25T19:02:18.720926+00:00",
+      "published_label": "Sunday 25 October 2026, 19:02 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+        "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+      ]
+    },
     {
       "slug": "2026-10-24-1655-today-s-sme-cyber-lookout-ai-agents-with-too-much-access-plus-ongoing-mass-explo",
       "headline": "Today’s SME cyber lookout: AI agents with “too much access”, plus ongoing mass exploit attempts",
@@ -8534,34 +8512,6 @@
         "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
         "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
         "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
-      ]
-    },
-    {
-      "slug": "2026-07-27-1855-smb-cyber-intelligence-brief-supplier-breach-ripple-effects-and-finance-team-phi",
-      "headline": "SMB Cyber Intelligence Brief: Supplier breach ripple-effects and finance-team phishing",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams, credential theft and ransomware ripple effects",
-      "published_at": "2026-07-27T18:55:07.691738+01:00",
-      "published_label": "Monday 27 July 2026, 18:55 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-        "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-        "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-        "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-        "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
-      ]
-    },
-    {
-      "slug": "2026-07-27-1612-fake-microsoft-teams-update-phishing-is-installing-remote-access-tools",
-      "headline": "Fake Microsoft Teams update phishing is installing remote access tools",
-      "risk_level": "High",
-      "todays_lookout": "Phishing lures installing remote access / RMM tools via fake Teams updates",
-      "published_at": "2026-07-27T16:12:26.447677+01:00",
-      "published_label": "Monday 27 July 2026, 16:12 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-        "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-        "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
       ]
     }
   ]
