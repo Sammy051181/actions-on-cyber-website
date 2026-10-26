@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: Microsoft 365 token-replay logins and GitHub token theft leaking secrets | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: Microsoft 365 token-replay logins and GitHub token theft leaking secrets</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 26 October 2026, 14:15 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud account takeover (Microsoft 365) and supplier/dev account token theft
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Microsoft 365 account takeovers that bypass “normal” MFA prompts</strong> via stolen sign-in sessions (token replay). This can lead to mailbox access, email forwarding rules, and payment diversion scams.</p>
+<p><strong>2) GitHub token theft leading to leaked secrets</strong> (API keys, cloud credentials, signing keys) by abusing GitHub Actions logs. This is especially relevant if you use developers, agencies, DevOps contractors, or CI/CD.</p>
+<p><strong>3) Ongoing cryptocurrency “investment” scams</strong> (often started via social media, messaging apps, or friendly introductions) which can also be used as a pretext for business payment fraud.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Email compromise is still the fastest route to invoice fraud</strong>: attackers read threads, learn who approves payments, then impersonate suppliers or directors.</li>
+  <li><strong>M365 compromise can become a wider breach</strong>: password resets, shared files, Teams chats, and customer data may be accessible depending on permissions.</li>
+  <li><strong>GitHub secrets leakage can be a business outage</strong>: stolen API keys can mean unexpected cloud spend, service disruption, or data exposure—often before anyone notices.</li>
+  <li><strong>Third parties increase risk</strong>: outsourced IT, web developers, or agencies may have access to your M365 tenant, your GitHub org, or your DNS/website hosting.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Users report being <strong>unexpectedly logged out</strong> of Microsoft 365, then later see <strong>“sent” emails they didn’t send</strong>.</li>
+  <li><strong>New or changed inbox rules</strong> (e.g., auto-forwarding, moving emails to RSS/Archive, marking as read).</li>
+  <li><strong>Unusual sign-ins</strong> for key accounts (finance, directors, shared mailboxes) at odd hours or from unfamiliar locations/devices.</li>
+  <li>Supplier bank details “suddenly changed”, or urgent requests to pay to a new account.</li>
+  <li>In GitHub: unexpected workflow/activity, runs appearing and disappearing, or staff receiving <strong>unexpected requests to re-authorise</strong> access.</li>
+  <li>Developers/IT mention “secrets” being rotated, or unexplained failures connecting to cloud services/payment gateways.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Adversary-in-the-middle sign-in pages</strong> can trick users into logging in, then capture the session so attackers can access M365 without repeatedly triggering MFA in the expected way.</li>
+  <li>Once inside email, attackers commonly <strong>monitor conversations</strong>, then time a payment diversion (“new bank details”) to match real invoices.</li>
+  <li>With stolen GitHub tokens, attackers can <strong>extract repository secrets</strong> and then use those credentials to access cloud hosting, storage, or customer environments.</li>
+  <li>Crypto scams can be used to <strong>pressure quick transfers</strong> and can also be a cover story to normalise unusual payments.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff (especially finance) today:</strong> never accept bank detail changes by email alone; verify using a known phone number from your records (not from the email).</li>
+  <li><strong>Check Microsoft 365 for risky mailbox rules</strong> on finance/director accounts and shared mailboxes (forwarding, hidden rules, “mark as read”).</li>
+  <li><strong>Review sign-in activity</strong> for privileged users (global admins), finance users, and anyone with access to payments.</li>
+  <li><strong>Lock down GitHub access</strong>: ensure tokens are not long-lived where avoidable, remove old contractor access, and confirm who can manage Actions/workflows.</li>
+  <li><strong>Rotate exposed secrets quickly</strong> if anything looks suspicious (API keys, webhooks, cloud keys) and document what was rotated and why.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>How are we detecting <strong>token-replay / suspicious session sign-ins</strong> in Microsoft 365, and what’s our response playbook for suspected mailbox compromise?</li>
+  <li>Do we have alerts for <strong>new inbox forwarding rules</strong>, unusual OAuth/app consent, and anomalous sign-in patterns on privileged and finance accounts?</li>
+  <li>Which accounts have <strong>admin rights</strong> in Microsoft 365, and do we use separate admin accounts (not daily-use mailboxes) for administration?</li>
+  <li>For GitHub (or our developer suppliers): who can <strong>create/modify workflows</strong>, who can view Actions logs, and how do we protect/rotate secrets used in CI/CD?</li>
+  <li>If a developer token is stolen, what is the <strong>containment plan</strong> (access removal, secret rotation, audit of deployments)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There is reporting of active exploitation of two PHP remote code execution flaws referred to as “PHP2Shell”. If you run a PHP-based website/app (or use a web agency/host), ask them to confirm whether any affected components are in use and what monitoring/mitigation is in place—prioritising anything internet-facing that could lead to website compromise or downtime.</p>
+
+        <h2>One action today</h2>
+        <p>Phone-verify any supplier bank detail change request today using a known number from your records (not from the email), and remind finance staff to treat “urgent” payment changes as suspicious.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Invoice &amp; Bank Detail Change Verification Checklist” for finance teams and approvers.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html" rel="noopener noreferrer">Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html" rel="noopener noreferrer">Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/" rel="noopener noreferrer">Chinese man extradited for role in $36 million cryptocurrency scam</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/" rel="noopener noreferrer">PHP2Shell security flaws now sucessfully exploited in the wild</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

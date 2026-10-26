@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "641ea5c9eac6a71f": {
-      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-28T10:47:49.153255+01:00",
-      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
-    },
-    "635ff0da3d382dd7": {
-      "url": "https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover",
-      "title": "When cyber attacks happen: helping organisations recover",
-      "source": "NCSC All Updates",
-      "seen_at": "2026-07-28T10:47:49.153255+01:00",
-      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
-    },
-    "b0231053be0f6e75": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-28T10:47:49.153255+01:00",
-      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
-    },
-    "8cd2b59ae471c314": {
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-28T10:47:49.153255+01:00",
-      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
-    },
-    "953c9254dfa40fb0": {
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-28T10:47:49.153255+01:00",
-      "brief_slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n"
-    },
     "f51be5d7337c1e9e": {
       "url": "https://blog.talosintelligence.com/ir-trends-q2-2026/",
       "title": "IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains",
@@ -5697,9 +5662,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-25T19:02:18.720926+00:00",
       "brief_slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces"
+    },
+    "399172439712b08d": {
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-26T14:15:10.865104+00:00",
+      "brief_slug": "2026-10-26-1415-today-s-smb-cyber-brief-microsoft-365-token-replay-logins-and-github-token-theft"
+    },
+    "a26d3a2a0bb03d72": {
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-26T14:15:10.865104+00:00",
+      "brief_slug": "2026-10-26-1415-today-s-smb-cyber-brief-microsoft-365-token-replay-logins-and-github-token-theft"
+    },
+    "5a51b4b30386a9ec": {
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-26T14:15:10.865104+00:00",
+      "brief_slug": "2026-10-26-1415-today-s-smb-cyber-brief-microsoft-365-token-replay-logins-and-github-token-theft"
+    },
+    "7c54e769948b6fc7": {
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-26T14:15:10.865104+00:00",
+      "brief_slug": "2026-10-26-1415-today-s-smb-cyber-brief-microsoft-365-token-replay-logins-and-github-token-theft"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-26-1415-today-s-smb-cyber-brief-microsoft-365-token-replay-logins-and-github-token-theft",
+      "headline": "Today’s SMB cyber brief: Microsoft 365 token-replay logins and GitHub token theft leaking secrets",
+      "risk_level": "High",
+      "todays_lookout": "Cloud account takeover (Microsoft 365) and supplier/dev account token theft",
+      "published_at": "2026-10-26T14:15:10.865104+00:00",
+      "published_label": "Monday 26 October 2026, 14:15 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+        "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+        "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+        "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+      ]
+    },
     {
       "slug": "2026-10-25-1902-today-s-smb-cyber-look-out-active-web-scanning-ai-tool-trickery-and-remote-acces",
       "headline": "Today’s SMB cyber look-out: active web scanning, AI tool trickery, and remote access “one device to many” risk",
@@ -8497,21 +8504,6 @@
         "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
         "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
         "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-07-28-1047-today-s-smb-cyber-brief-third-party-breach-lures-and-active-attacks-on-on-prem-n",
-      "headline": "Today’s SMB cyber brief: third‑party breach lures and active attacks on on‑prem network/admin tools",
-      "risk_level": "High",
-      "todays_lookout": "Supplier breach follow‑on scams + attacks targeting on‑prem management platforms",
-      "published_at": "2026-07-28T10:47:49.153255+01:00",
-      "published_label": "Tuesday 28 July 2026, 10:47 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-        "https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover",
-        "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-        "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-        "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
       ]
     }
   ]
