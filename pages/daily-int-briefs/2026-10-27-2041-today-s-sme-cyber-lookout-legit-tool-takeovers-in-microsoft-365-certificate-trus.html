@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: “legit tool” takeovers in Microsoft 365 + certificate trust changes | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: “legit tool” takeovers in Microsoft 365 + certificate trust changes</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 27 October 2026, 20:41 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Account takeover using legitimate tools and sessions (especially Microsoft 365) plus supplier trust/certificate disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Today’s theme is attackers getting into businesses by <strong>abusing legitimate tools and trusted sessions</strong> (especially Microsoft 365) so activity looks “normal”. At the same time, <strong>certificate trust changes</strong> and <strong>device security updates</strong> can cause unexpected access or sign-in issues if your environment is behind on updates.</p>
+<ul>
+  <li><strong>Microsoft 365 session abuse</strong>: logins that look valid, followed by mailbox rules, MFA prompts, file sharing changes, or new devices being registered.</li>
+  <li><strong>Use of legitimate IT/admin tools</strong>: remote access and scripting used to blend in with normal IT activity.</li>
+  <li><strong>Certificate trust disruption</strong>: Windows trust changes can affect secure connections, app installs, and signed components in some environments.</li>
+  <li><strong>Mobile device risk</strong>: iPhones/iPads on older versions may still be in use in SMEs (execs, sales teams, BYOD) and targeted attacks can start with a crafted file.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on Microsoft 365, a small number of admin accounts, and outsourced IT. That makes “quiet” takeovers dangerous: attackers can <strong>change bank details, steal invoices, access payroll/HR data,</strong> or use your email to scam customers and suppliers—without tripping obvious malware alarms.</p>
+<p>Separately, certificate/trust changes and delayed device updates can create <strong>business disruption</strong> (staff can’t sign in, apps break, VPN/remote tools fail) at exactly the moment you need reliable access.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Repeated MFA prompts, or staff reporting “I didn’t request this” approvals.</li>
+  <li>New mailbox rules (e.g., auto-forwarding, deleting messages, hiding alerts) or unexpected “Inbox is empty” reports.</li>
+  <li>Unexpected sharing links created in OneDrive/SharePoint, or lots of downloads at odd hours.</li>
+  <li>New devices appearing in your Microsoft 365/Entra device lists, or admin role assignments changing.</li>
+  <li>Customers/suppliers saying they received odd payment requests “from you”.</li>
+  <li>Sudden TLS/certificate errors on Windows machines or line-of-business apps after updates (or because updates haven’t been applied).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Stolen sessions/credentials</strong> to get into Microsoft 365 without “breaking in” (then change email rules and file permissions).</li>
+  <li><strong>Living-off-the-land</strong>: using tools your IT team already uses (remote management, PowerShell-like activity, admin portals) to avoid detection.</li>
+  <li><strong>Invoice/payment diversion</strong>: monitor email threads, then jump in at the right time with “updated bank details”.</li>
+  <li><strong>Targeted mobile compromise</strong>: older iOS/iPadOS devices can be used as an entry point to access email, MFA prompts, files and chats.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff</strong>: never approve unexpected MFA prompts; report them immediately.</li>
+  <li><strong>Check Microsoft 365 basics</strong>: review recent sign-ins for finance/admin users; look for new forwarding rules and suspicious mailbox rules.</li>
+  <li><strong>Finance control</strong>: reinforce call-back verification for any bank detail changes (use a known number, not the email thread).</li>
+  <li><strong>Device hygiene</strong>: ensure iPhones/iPads used for work are updated and managed (or at least required to have a passcode + latest OS).</li>
+  <li><strong>Prepare for disruption</strong>: if you see certificate warnings or sign-in failures, treat it as an IT incident (don’t bypass security prompts to “get work done”).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have <strong>alerting for suspicious Microsoft 365 sign-ins</strong> (impossible travel, new device, unusual locations) and mailbox forwarding/rule creation?</li>
+  <li>Which accounts have <strong>admin roles</strong>, and are they protected with stronger controls than normal user accounts?</li>
+  <li>Can we quickly <strong>invalidate sessions</strong> and force sign-out if we suspect a takeover?</li>
+  <li>Do we have a <strong>documented process</strong> for investigating “MFA spam” reports?</li>
+  <li>Are Windows devices receiving the relevant <strong>trust/certificate updates</strong> reliably (including machines that don’t get automatic trust updates)?</li>
+  <li>What is our <strong>BYOD stance</strong> for phones accessing Microsoft 365 (minimum OS level, device encryption/passcodes, remote wipe)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Keep an eye on <strong>Windows out-of-band trust changes</strong> (certificate distrust updates) and ensure work iPhones/iPads—especially older devices—are updated, as Apple has backported fixes for an exploited issue to older models. Treat unexpected certificate warnings or sudden access failures as a signal to involve IT, not something to click through.</p>
+
+        <h2>One action today</h2>
+        <p>Today, have finance/admin users review their Microsoft 365 account activity and mailbox rules, and remind all staff to report unexpected MFA prompts immediately.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Microsoft 365 account takeover quick checks (mailbox rules, forwarding, sign-ins, MFA prompts) and payment-change verification</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/" rel="noopener noreferrer">The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/" rel="noopener noreferrer">Microsoft releases Windows OOB updates to distrust eMudhra certificates</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html" rel="noopener noreferrer">Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/" rel="noopener noreferrer">Apple backports CoreGraphics zero-day patches to older iPhones</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

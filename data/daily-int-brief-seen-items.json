@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "c12616944c9c5a37": {
-      "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-29T15:30:40.565447+01:00",
-      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
-    },
-    "10d1989fdc09df6b": {
-      "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-29T15:30:40.565447+01:00",
-      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
-    },
-    "d10f408793887a18": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
-      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-29T15:30:40.565447+01:00",
-      "brief_slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris"
-    },
-    "a6b054a21115de21": {
-      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-29T18:37:46.916005+01:00",
-      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
-    },
-    "5fe225fb7aff5599": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-29T18:37:46.916005+01:00",
-      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
-    },
-    "8f44a724389475a9": {
-      "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
-      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-29T18:37:46.916005+01:00",
-      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
-    },
-    "afe089cbd0d84735": {
-      "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-29T18:37:46.916005+01:00",
-      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
-    },
-    "ee677153c8bcc350": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
-      "title": "ABB KNX Update Tool",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-29T18:37:46.916005+01:00",
-      "brief_slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup"
-    },
     "8f821d2f9cd7a216": {
       "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
       "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
@@ -5641,9 +5585,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-27T13:11:41.069551+00:00",
       "brief_slug": "2026-10-27-1311-today-s-smb-cyber-brief-ai-powered-fake-login-pages-breach-driven-scams-and-incr"
+    },
+    "11f0e618d0252f2c": {
+      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-27T20:41:34.942283+00:00",
+      "brief_slug": "2026-10-27-2041-today-s-sme-cyber-lookout-legit-tool-takeovers-in-microsoft-365-certificate-trus"
+    },
+    "536e322981d163ba": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-27T20:41:34.942283+00:00",
+      "brief_slug": "2026-10-27-2041-today-s-sme-cyber-lookout-legit-tool-takeovers-in-microsoft-365-certificate-trus"
+    },
+    "6e33a6040a7d5deb": {
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-27T20:41:34.942283+00:00",
+      "brief_slug": "2026-10-27-2041-today-s-sme-cyber-lookout-legit-tool-takeovers-in-microsoft-365-certificate-trus"
+    },
+    "a40721cff07a0d8d": {
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-27T20:41:34.942283+00:00",
+      "brief_slug": "2026-10-27-2041-today-s-sme-cyber-lookout-legit-tool-takeovers-in-microsoft-365-certificate-trus"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-27-2041-today-s-sme-cyber-lookout-legit-tool-takeovers-in-microsoft-365-certificate-trus",
+      "headline": "Today’s SME cyber lookout: “legit tool” takeovers in Microsoft 365 + certificate trust changes",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover using legitimate tools and sessions (especially Microsoft 365) plus supplier trust/certificate disruption",
+      "published_at": "2026-10-27T20:41:34.942283+00:00",
+      "published_label": "Tuesday 27 October 2026, 20:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+        "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+        "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+      ]
+    },
     {
       "slug": "2026-10-27-1311-today-s-smb-cyber-brief-ai-powered-fake-login-pages-breach-driven-scams-and-incr",
       "headline": "Today’s SMB cyber brief: AI-powered fake login pages, breach-driven scams, and increased account takeover risk",
@@ -8410,34 +8396,6 @@
         "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
         "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
         "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/"
-      ]
-    },
-    {
-      "slug": "2026-07-29-1837-today-s-smb-cyber-brief-coordinated-disruption-credential-reuse-after-ai-dev-sup",
-      "headline": "Today’s SMB cyber brief: coordinated disruption, credential reuse after AI/Dev supplier incident, and payment-diversion fraud",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/credential fallout and payment diversion scams amid disruption-focused attacks",
-      "published_at": "2026-07-29T18:37:46.916005+01:00",
-      "published_label": "Wednesday 29 July 2026, 18:37 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-        "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
-        "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07"
-      ]
-    },
-    {
-      "slug": "2026-07-29-1530-smb-cyber-intelligence-brief-supplier-dns-hijack-fallout-ai-agent-permission-ris",
-      "headline": "SMB Cyber Intelligence Brief: Supplier DNS hijack fallout & AI agent permission risk",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams and misdirected logins; AI agent over-permission risk",
-      "published_at": "2026-07-29T15:30:40.565447+01:00",
-      "published_label": "Wednesday 29 July 2026, 15:30 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-        "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-        "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/"
       ]
     }
   ]
