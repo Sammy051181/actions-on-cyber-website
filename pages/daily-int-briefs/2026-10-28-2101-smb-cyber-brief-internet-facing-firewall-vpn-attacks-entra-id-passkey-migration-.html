@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Brief: internet-facing firewall/VPN attacks, Entra ID passkey migration, and breach-driven scams | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Brief: internet-facing firewall/VPN attacks, Entra ID passkey migration, and breach-driven scams</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 28 October 2026, 21:01 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Internet-facing appliance attacks + cloud identity changes + breach-driven phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Internet-facing firewall/VPN and other network appliances under active attack</strong> via flaws affecting web management interfaces.</li>
+  <li><strong>Microsoft Entra ID (Azure AD) sign-in changes coming</strong>: SMS and voice authentication retirement is approaching, pushing organisations towards phishing-resistant sign-in (e.g., passkeys).</li>
+  <li><strong>Breach headlines likely to trigger scam waves</strong> ("your account was affected" lures), including a large ISP-related breach.</li>
+  <li><strong>Business app risk for HR/finance teams</strong>: reports of exploited Oracle PeopleSoft issues (relevant if you or a supplier host or access PeopleSoft).</li>
+  <li><strong>Android mobile risk is changing</strong>: Google is enabling one-tap installs from approved third-party app stores in some regions, which may affect how you manage staff devices.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs are often targeted because they rely on a small number of critical systems (Microsoft 365/Entra ID, a single firewall/VPN, and a handful of key suppliers). If a firewall/VPN is compromised, attackers can gain a foothold that leads to ransomware and business disruption. At the same time, identity changes (like retiring SMS/voice MFA) can create last-minute access problems if not planned. Finally, high-profile breach stories frequently drive convincing phishing and phone scams aimed at finance and admin staff.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Firewall/VPN:</strong> unexpected reboots, new admin accounts, configuration changes you didn’t authorise, unusual outbound connections, or remote access being enabled/changed.</li>
+  <li><strong>Microsoft sign-ins:</strong> users reporting repeated MFA prompts, new device registration prompts they didn’t start, or being told to “re-verify” by email/phone.</li>
+  <li><strong>Scam activity:</strong> emails/SMS claiming to be from an ISP, Microsoft, or “security team” urging urgent password resets or invoice/payment changes.</li>
+  <li><strong>Business systems:</strong> unusual login activity to HR/finance portals (including PeopleSoft), new integrations, or unexpected data exports.</li>
+  <li><strong>Mobile:</strong> employees installing apps from unfamiliar app stores, or “one-tap install” prompts outside your normal app deployment process.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromise an exposed device</strong> (firewall/VPN/ADC) via its web management interface, then move laterally into file shares, backups, or cloud admin accounts.</li>
+  <li><strong>Use MFA disruption and user confusion</strong> (especially around authentication changes) to socially engineer staff into approving sign-ins or handing over verification codes.</li>
+  <li><strong>Leverage breach news as a pretext</strong>: “We detected suspicious activity on your ISP/Microsoft account—click to secure it,” leading to credential theft.</li>
+  <li><strong>Target HR/finance platforms</strong> to steal staff data, payroll details, or to enable payment diversion.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm your internet-facing devices are not exposed unnecessarily:</strong> ensure admin interfaces for firewall/VPN and similar appliances are not openly reachable from the internet unless there is a clear, documented need.</li>
+  <li><strong>Check for unusual changes:</strong> review recent admin logins and configuration changes on firewall/VPN and your main cloud tenant (Microsoft 365/Entra ID).</li>
+  <li><strong>Prepare for Entra ID MFA changes:</strong> identify users still using SMS/voice MFA and plan a controlled move to phishing-resistant options (e.g., passkeys) ahead of February 2027.</li>
+  <li><strong>Brief staff (especially finance/admin):</strong> today’s likely scam theme is “security alert / breach notice / re-verify your account” plus payment-change requests. Reinforce call-back to known numbers and no credential entry from email links.</li>
+  <li><strong>Mobile policy check:</strong> if you allow BYOD or unmanaged Android, remind staff to install apps only via your approved method/store and to be wary of third-party app stores.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which of our systems are <strong>internet-facing</strong> (firewall/VPN/admin portals), and which of those have <strong>web management exposed</strong>?</li>
+  <li>Do we have <strong>central logging and alerting</strong> for firewall/VPN admin logins and configuration changes? Who reviews it, and how often?</li>
+  <li>What is our <strong>Entra ID MFA transition plan</strong> (who is still on SMS/voice, timelines, user comms, and support plan)?</li>
+  <li>Do any of our <strong>suppliers</strong> use or host Oracle PeopleSoft for us (HR/payroll/finance), and what assurance have they given about remediation and monitoring?</li>
+  <li>What is our stance on <strong>Android app installation</strong> (MDM in place, allowed stores, and blocking unknown sources)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of active exploitation affecting network infrastructure web management interfaces (“PHP2Shell”) and reported exploitation of Oracle PeopleSoft (patched under a single identifier). For SMEs, the key action is to urgently review any internet-facing appliances and business apps (including those run by suppliers) and confirm your IT provider has a documented process to apply vendor fixes quickly and verify there are no unauthorised configuration changes afterwards.</p>
+
+        <h2>One action today</h2>
+        <p>Get your IT provider to confirm today whether any firewall/VPN/web admin interfaces are exposed to the internet and to review the last 7 days of admin logins/config changes for anything unexpected.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Phishing-resistant sign-in (passkeys/MFA) rollout plan for SMEs</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/" rel="noopener noreferrer">InfraTrust report warns of exploited flaws in critical network infrastructure</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/" rel="noopener noreferrer">Microsoft urges Entra ID admins to migrate users to passkeys</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/" rel="noopener noreferrer">Sony ISP subsidiary data breach exposes 2.5 million customer records</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html" rel="noopener noreferrer">ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html" rel="noopener noreferrer">Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html" rel="noopener noreferrer">PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

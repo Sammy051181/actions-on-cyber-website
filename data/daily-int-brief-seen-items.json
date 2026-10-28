@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "5226afe42a903f3d": {
-      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-30T15:30:40.727271+01:00",
-      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
-    },
-    "691699a9f32a9b7a": {
-      "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-30T15:30:40.727271+01:00",
-      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
-    },
-    "c446184a12ad0dbf": {
-      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-30T15:30:40.727271+01:00",
-      "brief_slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a"
-    },
-    "459f40727e656d26": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
-      "title": "Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-07-30T18:47:56.147188+01:00",
-      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
-    },
-    "034520a44f9946fb": {
-      "url": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
-      "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-07-30T18:47:56.147188+01:00",
-      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
-    },
-    "f62495d075184976": {
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "source": "Krebs on Security",
-      "seen_at": "2026-07-30T18:47:56.147188+01:00",
-      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
-    },
-    "c286bac49280d314": {
-      "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-30T18:47:56.147188+01:00",
-      "brief_slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network"
-    },
     "364711796e4c94f4": {
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
       "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
@@ -5613,9 +5564,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-28T14:00:20.206019+00:00",
       "brief_slug": "2026-10-28-1400-ransomware-disruption-cloud-login-phishing-and-e-commerce-script-tampering-today"
+    },
+    "f2c961bbdd371d7e": {
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "a7b8cf39a163bb04": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "cfdef39189ea2bb2": {
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "1417a62a4b3735ea": {
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "346aefdaad097d5a": {
+      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "257599f0048efc91": {
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-28T21:01:47.308354+00:00",
+      "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-",
+      "headline": "SMB Cyber Brief: internet-facing firewall/VPN attacks, Entra ID passkey migration, and breach-driven scams",
+      "risk_level": "High",
+      "todays_lookout": "Internet-facing appliance attacks + cloud identity changes + breach-driven phishing",
+      "published_at": "2026-10-28T21:01:47.308354+00:00",
+      "published_label": "Wednesday 28 October 2026, 21:01 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+        "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+        "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+        "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+      ]
+    },
     {
       "slug": "2026-10-28-1400-ransomware-disruption-cloud-login-phishing-and-e-commerce-script-tampering-today",
       "headline": "Ransomware disruption, cloud login phishing, and e‑commerce script tampering: today’s SME look‑outs",
@@ -8369,33 +8378,6 @@
         "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
         "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
         "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
-      ]
-    },
-    {
-      "slug": "2026-07-30-1847-today-s-smb-cyber-brief-supply-chain-tampering-risky-streaming-sticks-on-network",
-      "headline": "Today’s SMB Cyber Brief: supply‑chain tampering, risky “streaming sticks” on networks, and cloud trust anxiety",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier & SaaS trust scams, plus risky unmanaged devices on the network",
-      "published_at": "2026-07-30T18:47:56.147188+01:00",
-      "published_label": "Thursday 30 July 2026, 18:47 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
-        "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
-        "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-        "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
-      ]
-    },
-    {
-      "slug": "2026-07-30-1530-smb-cyber-intelligence-brief-rails-app-risk-copilot-document-prompt-carry-over-a",
-      "headline": "SMB Cyber Intelligence Brief: Rails app risk, Copilot document prompt carry-over, and software supply-chain lessons",
-      "risk_level": "High",
-      "todays_lookout": "Cloud/SaaS and supplier risk (web apps, Microsoft 365 Copilot content integrity, software supply chain)",
-      "published_at": "2026-07-30T15:30:40.727271+01:00",
-      "published_label": "Thursday 30 July 2026, 15:30 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-        "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-        "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
       ]
     }
   ]
