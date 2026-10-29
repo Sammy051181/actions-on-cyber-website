@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "5538f32502a05e67": {
-      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-31T15:33:24.338655+01:00",
-      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
-    },
-    "65dc8ba86df182d9": {
-      "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T15:33:24.338655+01:00",
-      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
-    },
-    "82d450915eb17be1": {
-      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-31T15:33:24.338655+01:00",
-      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
-    },
-    "0134de5ca7fd6fb4": {
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
-      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T15:33:24.338655+01:00",
-      "brief_slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software"
-    },
-    "7b0535bbb7f51436": {
-      "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
-      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T18:51:28.545507+01:00",
-      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
-    },
-    "b06dad6c3071ec1f": {
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T18:51:28.545507+01:00",
-      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
-    },
-    "2d601d2e82293a63": {
-      "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
-      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T18:51:28.545507+01:00",
-      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
-    },
-    "0426967600dbf1dd": {
-      "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
-      "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T18:51:28.545507+01:00",
-      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
-    },
-    "f5592a08f538ab49": {
-      "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-31T18:51:28.545507+01:00",
-      "brief_slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on"
-    },
     "e0cbfbb17f2a64cb": {
       "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
       "title": "Amgen says cloud data breach exposed patient health, proprietary info",
@@ -5620,9 +5557,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-29T14:15:40.648851+00:00",
       "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
+    },
+    "45dcc2eb64d36fed": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-29T21:06:47.169819+00:00",
+      "brief_slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr"
+    },
+    "96402b0bba36a553": {
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-29T21:06:47.169819+00:00",
+      "brief_slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr"
+    },
+    "d9e7c9ddc0eb7fb8": {
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-29T21:06:47.169819+00:00",
+      "brief_slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr"
+    },
+    "e1215293558dcf35": {
+      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-29T21:06:47.169819+00:00",
+      "brief_slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr",
+      "headline": "Today’s SMB cyber lookout: fake AI apps, risky browser extensions, and SD‑WAN compromise fallout",
+      "risk_level": "High",
+      "todays_lookout": "Impersonation and endpoint compromise via ‘AI tools’ and browser add-ons, plus network edge/SD‑WAN supplier risk",
+      "published_at": "2026-10-29T21:06:47.169819+00:00",
+      "published_label": "Thursday 29 October 2026, 21:06 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+        "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+        "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+        "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/"
+      ]
+    },
     {
       "slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c",
       "headline": "Today’s SMB cyber lookout: remote-access disruption, helpdesk vishing, and leaked cloud keys",
@@ -8365,35 +8344,6 @@
         "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
         "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
-      ]
-    },
-    {
-      "slug": "2026-07-31-1851-today-s-smb-cyber-lookout-qr-code-scams-clickfix-tricks-and-ai-scaled-attacks-on",
-      "headline": "Today’s SMB cyber lookout: QR-code scams, “ClickFix” tricks, and AI-scaled attacks on exposed systems",
-      "risk_level": "High",
-      "todays_lookout": "Quishing and social-engineering leading to account takeover and malware, amplified by AI-assisted attacker tooling",
-      "published_at": "2026-07-31T18:51:28.545507+01:00",
-      "published_label": "Friday 31 July 2026, 18:51 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
-        "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-        "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
-        "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
-        "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html"
-      ]
-    },
-    {
-      "slug": "2026-07-31-1533-today-s-smb-cyber-lookout-device-code-phishing-supplier-trust-slips-and-software",
-      "headline": "Today’s SMB cyber lookout: device code phishing, supplier trust slips, and software supply‑chain risk",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover via modern phishing + supplier / developer supply-chain scams",
-      "published_at": "2026-07-31T15:33:24.338655+01:00",
-      "published_label": "Friday 31 July 2026, 15:33 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-        "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-        "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
       ]
     }
   ]

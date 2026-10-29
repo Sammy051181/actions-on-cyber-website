@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: fake AI apps, risky browser extensions, and SD‑WAN compromise fallout | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: fake AI apps, risky browser extensions, and SD‑WAN compromise fallout</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 29 October 2026, 21:06 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Impersonation and endpoint compromise via ‘AI tools’ and browser add-ons, plus network edge/SD‑WAN supplier risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Fake “ChatGPT” / “Claude” desktop apps</strong> being used to install unwanted software (including crypto-miners) via lookalike downloads and fake repositories.</li>
+  <li><strong>Malicious Chrome extensions at scale</strong> (hundreds of extensions, millions of installs reported) hijacking searches and routing traffic via tracking/redirect infrastructure.</li>
+  <li><strong>Cisco SD-WAN controller compromise</strong>: reports of attackers exploiting an authentication-bypass flaw to plant malware (“KeyDrift”) intended to steal encryption keys used to protect site-to-site traffic.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on browsers, extensions, and “quick utility” downloads to get work done. That makes them a prime target for low-effort compromise that can still cause real disruption: slower devices, lost productivity, account takeover attempts, and knock-on risk to finance and client data.</p>
+<p>If you use a managed network provider, MSP, or have SD-WAN equipment managed by a third party, compromise at the network edge can be hard for a small internal team to spot—yet it can undermine trust in connections between sites, branches, and cloud services.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff report they installed a “ChatGPT/Claude app” from an unofficial source, or IT sees new “AI” apps appearing unexpectedly.</li>
+  <li>Sudden browser behaviour changes: searches redirecting, new toolbars, homepage changes, or persistent “recommended extension” pop-ups.</li>
+  <li>Devices running hot/slow with high CPU usage (possible miner activity), especially soon after installing an app or extension.</li>
+  <li>Unexplained login prompts, repeated MFA requests, or sessions being logged out across services (possible follow-on credential/token theft attempts).</li>
+  <li>For multi-site businesses: unusual VPN/SD-WAN alerts, unexplained config changes, or connectivity behaving oddly across locations.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Brand impersonation</strong>: pushing “desktop AI assistants” that look legitimate to get staff to run software outside normal procurement.</li>
+  <li><strong>Browser-as-a-target</strong>: weaponising extensions to redirect traffic, capture browsing data, and set up future phishing/credential theft opportunities.</li>
+  <li><strong>Network edge footholds</strong>: exploiting weaknesses in SD-WAN controllers to install malware designed to steal encryption keys, potentially weakening confidentiality of traffic between sites.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a quick staff note</strong>: only use AI tools via approved web links (or company-managed app stores) and do not install “ChatGPT/Claude desktop apps” unless IT has approved them.</li>
+  <li><strong>Do a browser extension sweep</strong>: remove anything non-essential; block installation of unapproved extensions where possible; review new extensions added in the last 30 days.</li>
+  <li><strong>Check endpoint health</strong>: investigate machines with sustained high CPU usage and any recent unauthorised software installs.</li>
+  <li><strong>If you use SD-WAN</strong>: confirm who manages it (internal/MSP/telecom) and ask for evidence they have reviewed exposure and controller logs in light of the reported exploitation.</li>
+  <li><strong>Reinforce download hygiene</strong>: discourage “quick installs” from search results, ads, and unofficial code repositories.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Can you provide a list of <strong>approved browser extensions</strong> and confirm we can restrict installs to that list?</li>
+  <li>What is our current control for <strong>unauthorised software</strong> (application allow-listing, device management, EDR), and how quickly would we detect a crypto-miner?</li>
+  <li>Do we operate or depend on <strong>Cisco SD-WAN controllers</strong> (directly or via a managed service)? If yes, what checks have you done for suspicious access/config changes, and what is the remediation plan?</li>
+  <li>How are we monitoring for <strong>browser-based data leakage</strong> (extensions, token/session theft indicators, risky redirects)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business (or your network provider) uses Cisco Catalyst SD-WAN controllers, treat this as a priority supplier/edge-risk check: reports describe exploitation of an authentication-bypass issue (CVE-2026-20127) to deploy malware. The key action for SMEs is to confirm ownership (who patches it) and get written assurance the platform has been reviewed and brought up to date.</p>
+
+        <h2>One action today</h2>
+        <p>Today, review and remove any non-essential Chrome extensions across staff browsers (or ask your IT provider to enforce an approved extension allow-list).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Phishing &amp; safe downloads” staff mini-checklist (what to install, what to avoid, and how to report suspicious prompts).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/" rel="noopener noreferrer">Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html" rel="noopener noreferrer">Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html" rel="noopener noreferrer">Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/" rel="noopener noreferrer">Chrome extensions with 13.4 million installs caught hijacking searches</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
