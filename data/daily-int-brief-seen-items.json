@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "364711796e4c94f4": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
-      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T10:51:54.156936+01:00",
-      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
-    },
-    "e63683e834969b44": {
-      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-07-31T10:51:54.156936+01:00",
-      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
-    },
-    "6d59866226821ffe": {
-      "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
-      "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-07-31T10:51:54.156936+01:00",
-      "brief_slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams"
-    },
     "5538f32502a05e67": {
       "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
       "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
@@ -5606,9 +5585,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-28T21:01:47.308354+00:00",
       "brief_slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-"
+    },
+    "4665f17a8f062865": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-29T14:15:40.648851+00:00",
+      "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
+    },
+    "7d482c1bcf9fa313": {
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-29T14:15:40.648851+00:00",
+      "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
+    },
+    "7cd598614444dd0a": {
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-29T14:15:40.648851+00:00",
+      "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
+    },
+    "fe297ce9439a7675": {
+      "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+      "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+      "source": "Cisco Talos",
+      "seen_at": "2026-10-29T14:15:40.648851+00:00",
+      "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
+    },
+    "026f7c77fb5eab48": {
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-29T14:15:40.648851+00:00",
+      "brief_slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-29-1415-today-s-smb-cyber-lookout-remote-access-disruption-helpdesk-vishing-and-leaked-c",
+      "headline": "Today’s SMB cyber lookout: remote-access disruption, helpdesk vishing, and leaked cloud keys",
+      "risk_level": "High",
+      "todays_lookout": "Remote-access and firewall disruption + helpdesk impersonation scams",
+      "published_at": "2026-10-29T14:15:40.648851+00:00",
+      "published_label": "Thursday 29 October 2026, 14:15 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+        "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+        "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+        "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html"
+      ]
+    },
     {
       "slug": "2026-10-28-2101-smb-cyber-brief-internet-facing-firewall-vpn-attacks-entra-id-passkey-migration-",
       "headline": "SMB Cyber Brief: internet-facing firewall/VPN attacks, Entra ID passkey migration, and breach-driven scams",
@@ -8365,19 +8394,6 @@
         "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
         "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
         "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
-      ]
-    },
-    {
-      "slug": "2026-07-31-1051-teams-it-support-vishing-driving-ransomware-fake-macos-update-scams",
-      "headline": "Teams ‘IT support’ vishing driving ransomware + fake macOS update scams",
-      "risk_level": "High",
-      "todays_lookout": "Impersonation scams via Teams/remote support leading to ransomware",
-      "published_at": "2026-07-31T10:51:54.156936+01:00",
-      "published_label": "Friday 31 July 2026, 10:51 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
-        "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-        "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
       ]
     }
   ]

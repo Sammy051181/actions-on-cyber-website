@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: remote-access disruption, helpdesk vishing, and leaked cloud keys | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: remote-access disruption, helpdesk vishing, and leaked cloud keys</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 29 October 2026, 14:15 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote-access and firewall disruption + helpdesk impersonation scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes worth acting on today:</p>
+<ul>
+  <li><strong>Remote-access disruption risk:</strong> attackers are actively exploiting an issue that can <strong>crash Cisco ASA/FTD SSL VPN</strong> devices, potentially taking remote working and site-to-site access offline.</li>
+  <li><strong>Internet-exposed admin portals being targeted:</strong> reports of active exploitation against <strong>Palo Alto Networks management interfaces</strong> that are exposed to the internet.</li>
+  <li><strong>Social engineering pressure:</strong> incident responders are seeing <strong>IT helpdesk impersonation (vishing)</strong> and <strong>rising ransomware/pre-ransomware activity</strong>.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Downtime hits hardest:</strong> if your firewall/VPN crashes, you may lose remote access, VoIP, shared drives, cloud access paths, or connections between sites—stopping work and delaying customer service.</li>
+  <li><strong>SMEs often rely on one provider:</strong> if your MSP hosts or manages the firewall/VPN, their response speed determines your outage duration.</li>
+  <li><strong>Helpdesk scams bypass “good” tech:</strong> a convincing phone call can trick staff into handing over MFA codes, resetting passwords, or installing remote tools—leading to account takeover and ransomware.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Sudden VPN instability:</strong> frequent disconnects, repeated reboots, or remote users unable to connect (especially if it starts without any internal change).</li>
+  <li><strong>Unexpected IT calls:</strong> callers claiming to be “your IT team/MSP/Microsoft” urging urgent action, password resets, or requesting one-time codes.</li>
+  <li><strong>Admin access anomalies:</strong> firewall or network admin portals being accessed at unusual times, from unfamiliar locations, or repeated failed logins.</li>
+  <li><strong>Ransomware “warm-up” behaviour:</strong> new admin accounts, remote tools appearing, or unusual file activity before any ransom note.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Business disruption:</strong> crashing edge devices to force outages, distract IT, or create pressure to accept risky “support” help.</li>
+  <li><strong>Abusing exposed management interfaces:</strong> targeting internet-accessible admin pages on network devices that were never meant to be public-facing.</li>
+  <li><strong>Helpdesk vishing:</strong> impersonating IT to persuade staff to approve MFA prompts, share codes, or “verify” login details.</li>
+  <li><strong>Credential and key reuse:</strong> stolen or exposed cloud/API credentials (e.g. from public code repositories) can enable access to SaaS, backups, or AI/cloud tools—sometimes without triggering obvious alarms.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm your exposure:</strong> list what you use for firewall/VPN (Cisco ASA/FTD? Palo Alto?), who manages it (MSP or in-house), and whether any <strong>management interface is exposed to the internet</strong>.</li>
+  <li><strong>Set a “no codes on calls” rule:</strong> tell staff <strong>never</strong> to share MFA codes or approve MFA prompts because of a phone call. Use a call-back procedure to a known number.</li>
+  <li><strong>Prepare for an outage:</strong> ensure you have a documented fallback for critical work (alternate remote access method, local contact list, offline invoicing/process notes, and how to reach your MSP).</li>
+  <li><strong>Check logging/alerts:</strong> make sure someone will notice repeated VPN crashes, firewall reboots, or unusual admin logins today (even a simple email/SMS alert helps).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are any of our firewall/VPN <strong>management interfaces exposed to the internet</strong>? If yes, what’s the business reason and what extra controls are in place?</li>
+  <li>Do we use <strong>Cisco ASA/FTD SSL VPN</strong> anywhere, and are we affected by the actively exploited crash issue? What is your mitigation/upgrade plan and timeline?</li>
+  <li>Do we have monitoring for <strong>device reboots/crashes</strong> and repeated remote-access failures, and who is on-call if it happens?</li>
+  <li>What is our <strong>ransomware readiness</strong> status (backup isolation, restore testing, privileged access controls), given the reported increase in cases?</li>
+  <li>Do you have a process to detect <strong>leaked credentials</strong> (especially cloud/API keys) and rotate them quickly if found?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your business (or MSP) runs Cisco ASA/FTD SSL VPN or has Palo Alto management interfaces, treat today as a prompt to confirm whether you are exposed and whether fixes/mitigations have been applied. This is less about routine patching and more about avoiding sudden remote-access outages and reducing the chance of internet-exposed admin surfaces being targeted.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to staff: “IT will never ask for your MFA code or to approve a login over the phone”—and require a call-back to a known internal/MSP number for any urgent ‘helpdesk’ request.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Helpdesk impersonation (vishing) &amp; MFA push fatigue – staff script and call-back procedure</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/" rel="noopener noreferrer">New Cisco firewall zero-day exploited to crash SSL VPN devices</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html" rel="noopener noreferrer">Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html" rel="noopener noreferrer">Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://blog.talosintelligence.com/ir-trends-q3-2026/" rel="noopener noreferrer">IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases</a> <span class="muted">(Cisco Talos)</span></li><li><a href="https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html" rel="noopener noreferrer">26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
