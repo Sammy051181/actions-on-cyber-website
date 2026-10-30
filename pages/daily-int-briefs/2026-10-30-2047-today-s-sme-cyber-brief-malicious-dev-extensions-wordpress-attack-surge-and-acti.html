@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME Cyber Brief: malicious dev extensions, WordPress attack surge, and “actively exploited” platform risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME Cyber Brief: malicious dev extensions, WordPress attack surge, and “actively exploited” platform risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 30 October 2026, 20:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; SaaS risk plus website takeover attempts
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes SMEs should pay attention to today:</strong></p>
+<ul>
+  <li><strong>Software supply-chain risk via “trusted” marketplaces:</strong> a malicious version of a Claude Code extension was distributed via Cursor’s extension marketplace for around 11 hours, aiming to plant persistent remote access (SSH backdoors) on developer machines.</li>
+  <li><strong>Website takeover attempts at scale:</strong> reports of very high volumes of attack attempts against a recently patched WordPress Core remote-code-execution issue (large scanning activity often follows public patches).</li>
+  <li><strong>Actively exploited internet-facing platforms:</strong> CISA has added GitLab remote code execution and a Cisco firewall denial-of-service issue to its Known Exploited Vulnerabilities list, signalling observed exploitation in the wild.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Developer tools are business tools:</strong> even small teams using code editors, extensions and package managers can be exposed. A compromised developer laptop can lead to source code theft, credential theft, and wider network compromise.</li>
+  <li><strong>WordPress is common in SMEs:</strong> high scanning volume means even “small” sites get probed. A compromised site can be used for malware delivery, payment diversion, SEO spam, or as a stepping stone into email and customer data.</li>
+  <li><strong>GitLab and firewalls sit on critical paths:</strong> if you host GitLab or rely on an MSP/SaaS that does, exploitation can mean outages, data exposure, or a foothold for ransomware.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Developer endpoints:</strong> unexpected prompts for credentials/keys, new background processes, unusual outbound connections, or changes to SSH configuration/authorised keys.</li>
+  <li><strong>WordPress sites:</strong> sudden admin logins, new administrator accounts, unknown plugins/themes appearing, strange redirects, unexpected changes to homepage content, or warnings from your hosting provider.</li>
+  <li><strong>GitLab / network edge:</strong> unexpected restarts, high CPU, service instability, spikes in inbound traffic, or unexplained authentication events.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Extension marketplace compromise/impersonation:</strong> attackers publish lookalike or trojanised extensions where busy teams install quickly, trusting the marketplace brand.</li>
+  <li><strong>“Patch-gap” scanning:</strong> once a WordPress fix is public, attackers rapidly scan for sites that haven’t updated yet, attempting automated takeover.</li>
+  <li><strong>Internet-facing service exploitation:</strong> where GitLab or firewall management/interfaces are exposed, attackers may exploit weaknesses to gain access, disrupt services, steal data, or create a path to ransomware.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Check your exposure:</strong> confirm whether anyone in your organisation uses Cursor marketplace extensions (or similar) and review recently installed extensions, especially those added in the last 48 hours.</li>
+  <li><strong>Lock down website administration:</strong> ensure WordPress auto-updates are enabled where appropriate, remove unused plugins/themes, and verify admin accounts and MFA.</li>
+  <li><strong>Confirm ownership of “internet-facing” services:</strong> if you self-host GitLab (or your MSP does), make sure there is an owner accountable for updates, monitoring, and log review.</li>
+  <li><strong>Backups and recovery:</strong> verify you have a recent, restorable backup for your website and critical systems (and that you can actually restore it).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any <strong>developer endpoints</strong> using Cursor marketplace extensions, and can we confirm what was installed and when?</li>
+  <li>Are our <strong>WordPress sites</strong> set to auto-update core and security updates, and who monitors for compromise indicators?</li>
+  <li>Do we host (or rely on a supplier hosting) <strong>GitLab</strong> or similar code platforms? Is it internet-facing, and how quickly are security fixes applied?</li>
+  <li>Which <strong>Cisco firewall</strong> models/services do we run, and do we have monitoring/alerts for service disruption?</li>
+  <li>If we suspect compromise, what is the <strong>containment plan</strong> (isolation steps, password resets, log preservation, customer comms)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s risk is less about “new bugs” and more about <strong>attackers moving fast after fixes are released</strong>. Prioritise updates for WordPress Core (if you manage sites) and ensure your IT provider confirms remediation plans for any internet-facing GitLab and Cisco firewall exposure flagged as actively exploited.</p>
+
+        <h2>One action today</h2>
+        <p>Have your IT provider (or internal admin) review and approve all code-editor extensions installed in the last 48 hours, removing anything unverified and rotating any developer credentials if suspicious activity is found.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; SaaS Security Quick Checklist (including how to validate marketplaces, manage admin access, and prove backups can restore).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/" rel="noopener noreferrer">Malicious Claude Code extension on Cursor planted SSH backdoors</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html" rel="noopener noreferrer">WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html" rel="noopener noreferrer">CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

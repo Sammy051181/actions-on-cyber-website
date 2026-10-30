@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "93672d4a35e04c86": {
-      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T14:53:19.454607+01:00",
-      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
-    },
-    "0fa86a6b2f57fc9d": {
-      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-01T14:53:19.454607+01:00",
-      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
-    },
-    "67fd5bee3590021f": {
-      "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-      "title": "Arch Linux disables AUR package adoption to stop malware flood",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T14:53:19.454607+01:00",
-      "brief_slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey"
-    },
-    "8a2c99fa930a0297": {
-      "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-01T18:13:18.730102+01:00",
-      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
-    },
-    "d7e6c8399f800753": {
-      "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
-      "title": "JetBrains warns of critical TeamCity remote code execution flaw",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T18:13:18.730102+01:00",
-      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
-    },
-    "097fcbe5b08ca7e5": {
-      "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-01T18:13:18.730102+01:00",
-      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
-    },
-    "e64f30381c40bc65": {
-      "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-      "title": "Rails patches critical Active Storage flaw with RCE potential",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T18:13:18.730102+01:00",
-      "brief_slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli"
-    },
     "e6ea006c3681d918": {
       "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
@@ -5606,9 +5557,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-30T14:06:24.087157+00:00",
       "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "c1aa108c641e73b7": {
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T20:47:04.114987+00:00",
+      "brief_slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti"
+    },
+    "8fc971e55b17c65a": {
+      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-30T20:47:04.114987+00:00",
+      "brief_slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti"
+    },
+    "8927f234f52baad7": {
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-30T20:47:04.114987+00:00",
+      "brief_slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti",
+      "headline": "Today’s SME Cyber Brief: malicious dev extensions, WordPress attack surge, and “actively exploited” platform risks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & SaaS risk plus website takeover attempts",
+      "published_at": "2026-10-30T20:47:04.114987+00:00",
+      "published_label": "Friday 30 October 2026, 20:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+        "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+      ]
+    },
     {
       "slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p",
       "headline": "Today’s SMB Cyber Brief: supplier incidents + trojanised extensions driving fresh phishing and account-takeover risk",
@@ -8341,33 +8326,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
         "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
-      ]
-    },
-    {
-      "slug": "2026-08-01-1813-today-s-sme-cyber-look-out-risky-cheap-smart-devices-on-your-network-plus-suppli",
-      "headline": "Today’s SME cyber look-out: risky “cheap smart” devices on your network, plus supplier patch urgency",
-      "risk_level": "High",
-      "todays_lookout": "Rogue devices and supplier/platform compromise risk",
-      "published_at": "2026-08-01T18:13:18.730102+01:00",
-      "published_label": "Saturday 01 August 2026, 18:13 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-        "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
-        "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-        "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
-      ]
-    },
-    {
-      "slug": "2026-08-01-1453-supplier-script-compromise-check-third-party-web-tags-and-payment-crypto-journey",
-      "headline": "Supplier script compromise: check third‑party web tags and payment/crypto journeys",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS script tampering and supply-chain knock-on risk",
-      "published_at": "2026-08-01T14:53:19.454607+01:00",
-      "published_label": "Saturday 01 August 2026, 14:53 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-        "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-        "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/"
       ]
     }
   ]
