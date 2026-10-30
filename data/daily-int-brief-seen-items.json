@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "e0cbfbb17f2a64cb": {
-      "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T10:20:19.841466+01:00",
-      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
-    },
-    "b854b6f9db795aeb": {
-      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-01T10:20:19.841466+01:00",
-      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
-    },
-    "ef832fb7175ff4cb": {
-      "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-01T10:20:19.841466+01:00",
-      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
-    },
-    "2f554f1c5995f48e": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
-      "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-01T10:20:19.841466+01:00",
-      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
-    },
-    "0bef394e8ba869a8": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
-      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-01T10:20:19.841466+01:00",
-      "brief_slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd"
-    },
     "93672d4a35e04c86": {
       "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
       "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
@@ -5585,9 +5550,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-10-29T21:06:47.169819+00:00",
       "brief_slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr"
+    },
+    "84f3cbb9776b6ff8": {
+      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "title": "Binance probes potential $5.8 billion crypto-theft hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "d563e9e1aaec1f91": {
+      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "a173c7429370150e": {
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "96442c511701b8db": {
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "4b53227f9f3bab60": {
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "2602dfd8795f57de": {
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "651570ec01bc8df7": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
+    },
+    "bc4258f9677bca1e": {
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-30T14:06:24.087157+00:00",
+      "brief_slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-30-1406-today-s-smb-cyber-brief-supplier-incidents-trojanised-extensions-driving-fresh-p",
+      "headline": "Today’s SMB Cyber Brief: supplier incidents + trojanised extensions driving fresh phishing and account-takeover risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and trojanised developer/AI tooling",
+      "published_at": "2026-10-30T14:06:24.087157+00:00",
+      "published_label": "Friday 30 October 2026, 14:06 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+        "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+        "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+        "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+        "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+        "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+        "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+        "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+      ]
+    },
     {
       "slug": "2026-10-29-2106-today-s-smb-cyber-lookout-fake-ai-apps-risky-browser-extensions-and-sd-wan-compr",
       "headline": "Today’s SMB cyber lookout: fake AI apps, risky browser extensions, and SD‑WAN compromise fallout",
@@ -8329,21 +8368,6 @@
         "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
         "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
         "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/"
-      ]
-    },
-    {
-      "slug": "2026-08-01-1020-today-s-smb-cyber-lookout-cloud-supplier-breaches-targeted-phishing-and-fake-upd",
-      "headline": "Today’s SMB cyber lookout: cloud supplier breaches, targeted phishing, and “fake update” traps on public Wi‑Fi",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & cloud data exposure + phishing and fake update malware",
-      "published_at": "2026-08-01T10:20:19.841466+01:00",
-      "published_label": "Saturday 01 August 2026, 10:20 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-        "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-        "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-        "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
       ]
     }
   ]
