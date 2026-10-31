@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "33d64b684b386f21": {
-      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-02T14:52:50.256766+01:00",
-      "brief_slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing"
-    },
-    "2273073f02d3d368": {
-      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-02T18:14:10.804770+01:00",
-      "brief_slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for"
-    },
     "44aca34a590464ae": {
       "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
@@ -5599,9 +5585,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-31T13:38:45.113119+00:00",
       "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
+    },
+    "a4df36c045ad0e87": {
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-31T19:58:23.717282+00:00",
+      "brief_slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su"
+    },
+    "09f142bd2640f272": {
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-31T19:58:23.717282+00:00",
+      "brief_slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su"
+    },
+    "33f30c5083f66cd6": {
+      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-31T19:58:23.717282+00:00",
+      "brief_slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su",
+      "headline": "SMB Cyber Intelligence Brief: supplier breach fallout, AI-link traps, and remote-support risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + leaked secrets/API keys + remote support session risk",
+      "published_at": "2026-10-31T19:58:23.717282+00:00",
+      "published_label": "Saturday 31 October 2026, 19:58 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+        "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+        "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+      ]
+    },
     {
       "slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-",
       "headline": "Today’s SME cyber lookout: infostealers using AI, supplier breach follow‑on scams, and rising DDoS disruption",
@@ -8328,28 +8348,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
         "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-08-02-1814-chrome-moves-to-curb-new-tab-hijacker-extensions-what-smes-should-watch-for",
-      "headline": "Chrome moves to curb “New Tab” hijacker extensions — what SMEs should watch for",
-      "risk_level": "Moderate",
-      "todays_lookout": "Browser extension hijacks and managed device policy risk",
-      "published_at": "2026-08-02T18:14:10.804770+01:00",
-      "published_label": "Sunday 02 August 2026, 18:14 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"
-      ]
-    },
-    {
-      "slug": "2026-08-02-1452-crypto-wallet-theft-story-likely-to-drive-urgent-update-and-seed-phrase-phishing",
-      "headline": "Crypto wallet theft story likely to drive ‘urgent update’ and seed‑phrase phishing scams",
-      "risk_level": "Moderate",
-      "todays_lookout": "Impersonation scams off the back of a high-profile crypto theft (fake wallet updates, seed phrase theft)",
-      "published_at": "2026-08-02T14:52:50.256766+01:00",
-      "published_label": "Sunday 02 August 2026, 14:52 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
       ]
     }
   ]

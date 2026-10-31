@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief: supplier breach fallout, AI-link traps, and remote-support risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief: supplier breach fallout, AI-link traps, and remote-support risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 31 October 2026, 19:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams + leaked secrets/API keys + remote support session risk
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Supplier breach leading to secret/key misuse:</strong> Cloud hosting platform <strong>Northflank</strong> is warning customers to rotate credentials and secrets after a breach where customers’ AI API keys were abused.</p>
+<p><strong>2) “Shared AI link” risk (now fixed, but the tactic will continue):</strong> Researchers reported a flaw where a malicious <strong>ChatGPT share link</strong> could run attacker code in the victim’s logged-in session and expose private chats; OpenAI fixed it.</p>
+<p><strong>3) Remote support exposure:</strong> TeamViewer fixed a flaw where a <strong>malicious/compromised remote computer</strong> (the device being controlled) could attack the computer used to control it (the viewer). This is especially relevant for MSPs/outsourced IT supporting many small organisations.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>API keys and stored secrets are “keys to the kingdom”.</strong> If they’re taken from a supplier platform, attackers can run up costs (especially AI usage), access data, or pivot into other systems.</li>
+  <li><strong>Supplier incidents trigger impersonation scams.</strong> When a breach hits the news, criminals often follow with fake “urgent rotation” emails, fake invoices, or “support” calls.</li>
+  <li><strong>AI tools are now business systems.</strong> Staff may paste customer info, contracts, or internal plans into AI chats. Anything that exposes conversations can become a data breach.</li>
+  <li><strong>Remote support tools are business-critical.</strong> If a support session can be turned against your IT team’s machine, it increases the risk of wider compromise across multiple clients.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected <strong>spikes in AI usage</strong> or billing alerts (tokens/credits consumed faster than normal).</li>
+  <li>Supplier emails urging immediate action, especially ones that ask you to <strong>log in via a link</strong>, install something, or share recovery codes.</li>
+  <li>New or unusual <strong>API keys created</strong>, secrets accessed, or configuration changes you can’t explain.</li>
+  <li>Staff reporting “helpful” links to shared AI chats, prompts, or summaries that they weren’t expecting.</li>
+  <li>IT/support reporting crashes, odd behaviour, or unexpected prompts during remote sessions.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Abuse stolen API keys</strong> to generate costs, access connected services, or test other stolen credentials.</li>
+  <li><strong>Follow-on phishing</strong>: pretending to be your cloud provider/MSP to “help rotate secrets”, capturing logins and MFA codes.</li>
+  <li><strong>Data exposure via AI tools</strong>: tricking staff into opening malicious shared links or reusing sensitive chat content in unsafe ways.</li>
+  <li><strong>Remote support pivot</strong>: compromising a device first, then using remote sessions to target the supporting technician/admin machine.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Inventory and rotate:</strong> Identify what secrets/API keys you store in Northflank (and similar platforms) and rotate them. Prioritise keys with broad permissions and any that touch billing, data, or production systems.</li>
+  <li><strong>Turn on/verify alerts:</strong> Ensure billing/usage alerts exist for AI providers and cloud accounts (so spikes are caught early).</li>
+  <li><strong>Communicate a short staff warning:</strong> “Don’t click ‘shared AI chat’ links you weren’t expecting; don’t paste customer data into AI; report anything that looks like an urgent supplier reset.”</li>
+  <li><strong>Remote support hygiene:</strong> Ask your IT/MSP to confirm TeamViewer is updated and that remote support is done from hardened admin devices, not general-use PCs.</li>
+  <li><strong>Log review:</strong> Check for unusual login locations, new tokens/keys, or mass secret reads in your cloud/SaaS audit logs.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we store any <strong>secrets/API keys</strong> in Northflank (or similar platforms)? Which ones were rotated, and when?</li>
+  <li>What <strong>monitoring</strong> is in place for abnormal API usage and cost spikes (AI and cloud)? Who gets the alerts?</li>
+  <li>Can you show our <strong>audit trail</strong> for key/secret access and recent changes?</li>
+  <li>Are remote-support tools (including TeamViewer) <strong>kept current</strong>, and are support sessions run from <strong>privileged, locked-down devices</strong>?</li>
+  <li>What is our plan if an admin/support machine is suspected compromised (isolation, credential resets, customer notification steps)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>While today’s priority is supplier/credential fallout, it’s also a good moment to confirm your remote-support tooling is up to date: TeamViewer has fixed a flaw where the machine being controlled could potentially attack the controller’s machine during a session. If you outsource IT, ask for written confirmation that their remote-support estate is updated and managed.</p>
+
+        <h2>One action today</h2>
+        <p>Rotate any API keys and secrets stored in third-party platforms you use (starting with Northflank) and enable billing/usage alerts to catch abuse fast.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier incident response (how to verify provider messages, rotate credentials safely, and monitor for follow-on scams)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/" rel="noopener noreferrer">Northflank security breach leads to abuse of customers&#x27; AI API keys</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html" rel="noopener noreferrer">A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html" rel="noopener noreferrer">TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
