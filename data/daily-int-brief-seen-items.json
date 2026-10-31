@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "e6ea006c3681d918": {
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-02T10:20:00.942806+01:00",
-      "brief_slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk"
-    },
-    "8be23122adabfc50": {
-      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-02T10:20:00.942806+01:00",
-      "brief_slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk"
-    },
     "33d64b684b386f21": {
       "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
       "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
@@ -5578,9 +5564,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-30T20:47:04.114987+00:00",
       "brief_slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti"
+    },
+    "ef006b6d1900eae3": {
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "source": "Cisco Talos",
+      "seen_at": "2026-10-31T13:38:45.113119+00:00",
+      "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
+    },
+    "41cdd41993708079": {
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "source": "BleepingComputer",
+      "seen_at": "2026-10-31T13:38:45.113119+00:00",
+      "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
+    },
+    "b84dfe472134279a": {
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-31T13:38:45.113119+00:00",
+      "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
+    },
+    "293569318dde9da7": {
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-31T13:38:45.113119+00:00",
+      "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
+    },
+    "c305d693e177d5ef": {
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "source": "The Hacker News",
+      "seen_at": "2026-10-31T13:38:45.113119+00:00",
+      "brief_slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-10-31-1338-today-s-sme-cyber-lookout-infostealers-using-ai-supplier-breach-follow-on-scams-",
+      "headline": "Today’s SME cyber lookout: infostealers using AI, supplier breach follow‑on scams, and rising DDoS disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + credential theft (infostealers) + online service disruption (DDoS)",
+      "published_at": "2026-10-31T13:38:45.113119+00:00",
+      "published_label": "Saturday 31 October 2026, 13:38 UK time",
+      "source_urls": [
+        "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+        "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+        "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+      ]
+    },
     {
       "slug": "2026-10-30-2047-today-s-sme-cyber-brief-malicious-dev-extensions-wordpress-attack-surge-and-acti",
       "headline": "Today’s SME Cyber Brief: malicious dev extensions, WordPress attack surge, and “actively exploited” platform risks",
@@ -8314,18 +8350,6 @@
       "published_label": "Sunday 02 August 2026, 14:52 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
-      ]
-    },
-    {
-      "slug": "2026-08-02-1020-today-s-sme-cyber-look-out-ai-assisted-attacks-and-telecom-dependency-risk",
-      "headline": "Today’s SME cyber look-out: AI-assisted attacks and telecom dependency risk",
-      "risk_level": "Moderate",
-      "todays_lookout": "AI-assisted attack automation + telecom/MFA dependency disruption",
-      "published_at": "2026-08-02T10:20:00.942806+01:00",
-      "published_label": "Sunday 02 August 2026, 10:20 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-        "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
       ]
     }
   ]
