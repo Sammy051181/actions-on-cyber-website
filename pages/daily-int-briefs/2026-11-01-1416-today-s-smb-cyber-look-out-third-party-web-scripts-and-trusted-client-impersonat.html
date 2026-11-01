@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber look-out: third‑party web scripts and “trusted client” impersonation risk | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber look-out: third‑party web scripts and “trusted client” impersonation risk</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 01 November 2026, 14:16 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS risk and web supply-chain tampering (plus exposed management API trust issues)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Third-party web scripts being hijacked</strong> (a supplier-style issue): a reported case shows attackers replacing a website’s externally loaded performance/analytics script and using it to steal value from signed-in users.</p>
+<p><strong>2) “Trusted client” impersonation risk in virtualisation/cluster tooling</strong>: a reported critical issue in Canonical’s LXD/MicroCloud could allow an attacker to impersonate a trusted client if they can reach the HTTPS management API and have the trusted client’s public certificate.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Web supply-chain incidents don’t just hit big brands.</strong> If your site loads scripts from marketing, chat, analytics, cookie tools, A/B testing, payment widgets, or monitoring providers, a compromise upstream can impact your customers (and your reputation) quickly.</li>
+  <li><strong>Hosted services and MSP-managed platforms are a dependency.</strong> If your IT provider uses Linux virtualisation/clusters, an exposed or poorly segmented management interface increases the “blast radius” of a single mistake.</li>
+  <li><strong>Financial impact can be direct.</strong> The reported incident involved unauthorised transactions affecting logged-in users—SMEs can face chargebacks, support costs, and regulatory/reporting pressure even when the root cause is third-party.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected customer complaints: “my account did something I didn’t do”, sudden logouts, unusual purchases/refunds, or changes to account settings.</li>
+  <li>New or changed external scripts on your website that nobody can explain (especially performance/analytics tags).</li>
+  <li>Website performance monitoring showing new third-party calls, domains, or script hashes changing more often than normal.</li>
+  <li>Admin portals or management APIs visible from the public internet (or accessible from too many networks).</li>
+  <li>Unusual activity in cloud/virtualisation environments (unexpected VM actions, configuration changes, new trusted clients, or sudden admin operations).</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Web script tampering:</strong> attackers target an outside supplier (or a weak integration) so your site unknowingly serves altered JavaScript to visitors, enabling account actions or redirection while users are signed in.</li>
+  <li><strong>Impersonation of trusted clients:</strong> where management APIs are reachable, an attacker may attempt to present themselves as a trusted client to gain access to a cluster and its workloads.</li>
+  <li><strong>Follow-on scams:</strong> once an incident is public, criminals often send fake “security alert” emails to customers and staff, pushing password resets, wallet connections, “refund forms”, or urgent payment confirmations.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Inventory your website’s third-party scripts</strong> (tag manager, analytics, chat widgets, cookie tools, speed monitoring, payment widgets) and confirm who owns each integration and who can change it.</li>
+  <li><strong>Turn on change control for web tags:</strong> restrict who can publish changes, require approval, and enable alerts for new tags/scripts.</li>
+  <li><strong>Ask for monitoring:</strong> ensure your provider monitors your site for unexpected third-party script changes and suspicious browser-side activity patterns.</li>
+  <li><strong>Reduce exposure of management interfaces:</strong> confirm that virtualisation/cluster management APIs are not openly reachable and are constrained to VPN/admin networks with strong access controls.</li>
+  <li><strong>Prepare customer comms:</strong> have a short, ready-to-send notice template for “we’re investigating unusual activity; here’s what we will/won’t ask you to do”.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which third-party scripts do we load on our website, and how do you detect and alert on unexpected changes?</li>
+  <li>Who can publish changes in our tag manager / website integrations, and is there an approval workflow?</li>
+  <li>Do we use LXD/MicroCloud anywhere (directly or via hosting/MSP platforms)? If yes, is the management API exposed to the internet or only to a restricted admin network?</li>
+  <li>What logs/alerts would tell us if a trusted client or admin action was impersonated or abused?</li>
+  <li>What’s our incident process if a supplier script is compromised—how quickly can we disable third-party tags sitewide?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your organisation (or your MSP) uses Canonical LXD/MicroCloud, treat this as a priority risk review: confirm whether any HTTPS management APIs are reachable beyond tightly controlled admin networks, and ask for the supplier’s remediation guidance to be applied promptly. This is less about “patch everything” and more about ensuring management surfaces are not exposed and trust relationships are properly governed.</p>
+
+        <h2>One action today</h2>
+        <p>Get a list of every third‑party script/tag your website loads and restrict who can publish changes (enable alerts for any new or modified tags).</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Third‑party &amp; supplier access review (website tags, SaaS, MSP and change control)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html" rel="noopener noreferrer">Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html" rel="noopener noreferrer">CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

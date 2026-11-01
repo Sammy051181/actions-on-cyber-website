@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "44aca34a590464ae": {
-      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T11:51:27.098082+01:00",
-      "brief_slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti"
-    },
-    "0a3d3912cd46c461": {
-      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T11:51:27.098082+01:00",
-      "brief_slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti"
-    },
     "a15b4f3614497933": {
       "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
       "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
@@ -5606,9 +5592,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-10-31T19:58:23.717282+00:00",
       "brief_slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su"
+    },
+    "3c8da2a0b6d392cf": {
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-01T14:16:06.765875+00:00",
+      "brief_slug": "2026-11-01-1416-today-s-smb-cyber-look-out-third-party-web-scripts-and-trusted-client-impersonat"
+    },
+    "47c9e2c2f127bea1": {
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-01T14:16:06.765875+00:00",
+      "brief_slug": "2026-11-01-1416-today-s-smb-cyber-look-out-third-party-web-scripts-and-trusted-client-impersonat"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-01-1416-today-s-smb-cyber-look-out-third-party-web-scripts-and-trusted-client-impersonat",
+      "headline": "Today’s SMB cyber look-out: third‑party web scripts and “trusted client” impersonation risk",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS risk and web supply-chain tampering (plus exposed management API trust issues)",
+      "published_at": "2026-11-01T14:16:06.765875+00:00",
+      "published_label": "Sunday 01 November 2026, 14:16 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+        "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
+      ]
+    },
     {
       "slug": "2026-10-31-1958-smb-cyber-intelligence-brief-supplier-breach-fallout-ai-link-traps-and-remote-su",
       "headline": "SMB Cyber Intelligence Brief: supplier breach fallout, AI-link traps, and remote-support risk",
@@ -8336,18 +8348,6 @@
         "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
         "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
-      ]
-    },
-    {
-      "slug": "2026-08-03-1151-msp-tool-risk-n-able-n-central-server-takeovers-plus-ai-model-supply-chain-cauti",
-      "headline": "MSP tool risk: N-able N-central server takeovers (plus AI model supply-chain caution)",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/MSP platform compromise and downstream business disruption",
-      "published_at": "2026-08-03T11:51:27.098082+01:00",
-      "published_label": "Monday 03 August 2026, 11:51 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-        "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
       ]
     }
   ]
