@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "a15b4f3614497933": {
-      "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-03T16:14:25.459533+01:00",
-      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
-    },
-    "a71a79482b5b0878": {
-      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T16:14:25.459533+01:00",
-      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
-    },
-    "8f03bf579ace704a": {
-      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T16:14:25.459533+01:00",
-      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
-    },
-    "484b7de72129a32f": {
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-      "title": "Inside the Underground Business of the Android BTMOB RAT malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-03T16:14:25.459533+01:00",
-      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
-    },
-    "000b4c51e3b2ed33": {
-      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T16:14:25.459533+01:00",
-      "brief_slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing"
-    },
-    "5c95936bd1598870": {
-      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T19:03:57.683270+01:00",
-      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
-    },
-    "1ebcd51a8367b8d0": {
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-03T19:03:57.683270+01:00",
-      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
-    },
-    "5264422e426d2ea1": {
-      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-03T19:03:57.683270+01:00",
-      "brief_slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co"
-    },
     "d3d8e65b0f59a7a3": {
       "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
       "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
@@ -5606,9 +5550,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-01T14:16:06.765875+00:00",
       "brief_slug": "2026-11-01-1416-today-s-smb-cyber-look-out-third-party-web-scripts-and-trusted-client-impersonat"
+    },
+    "5d7adb06ae584dbc": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-01T20:29:52.097762+00:00",
+      "brief_slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures"
+    },
+    "e1dc1203c72851bb": {
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-01T20:29:52.097762+00:00",
+      "brief_slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures"
+    },
+    "d6448e6ee754fd41": {
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-01T20:29:52.097762+00:00",
+      "brief_slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures",
+      "headline": "Today’s SME cyber lookout: crypto-payment scams and “urgent account reset” lures",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/brand impersonation scams (crypto, accounts, password resets) and knock-on fraud risk",
+      "published_at": "2026-11-01T20:29:52.097762+00:00",
+      "published_label": "Sunday 01 November 2026, 20:29 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+        "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+        "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
+      ]
+    },
     {
       "slug": "2026-11-01-1416-today-s-smb-cyber-look-out-third-party-web-scripts-and-trusted-client-impersonat",
       "headline": "Today’s SMB cyber look-out: third‑party web scripts and “trusted client” impersonation risk",
@@ -8320,34 +8298,6 @@
         "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
         "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/"
-      ]
-    },
-    {
-      "slug": "2026-08-03-1903-today-s-sme-cyber-lookout-vpn-msp-tool-attacks-plus-malware-bypassing-passkey-co",
-      "headline": "Today’s SME cyber lookout: VPN & MSP tool attacks, plus malware bypassing “passkey” comfort",
-      "risk_level": "High",
-      "todays_lookout": "Remote access and IT supplier tool compromise leading to ransomware and account takeover",
-      "published_at": "2026-08-03T19:03:57.683270+01:00",
-      "published_label": "Monday 03 August 2026, 19:03 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-        "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-        "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html"
-      ]
-    },
-    {
-      "slug": "2026-08-03-1614-uk-police-contact-data-leak-expect-convincing-impersonation-and-phishing",
-      "headline": "UK police contact-data leak: expect convincing impersonation and phishing",
-      "risk_level": "High",
-      "todays_lookout": "Impersonation scams and credential phishing using breached UK contact details",
-      "published_at": "2026-08-03T16:14:25.459533+01:00",
-      "published_label": "Monday 03 August 2026, 16:14 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-        "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-        "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-        "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
       ]
     }
   ]
