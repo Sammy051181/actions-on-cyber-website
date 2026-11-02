@@ -1,68 +1,5 @@
 {
   "seen_urls": {
-    "d3d8e65b0f59a7a3": {
-      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-04T10:50:14.944853+01:00",
-      "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
-    },
-    "1074e28188214862": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-04T10:50:14.944853+01:00",
-      "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
-    },
-    "8698d528d3bfa483": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-04T10:50:14.944853+01:00",
-      "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
-    },
-    "da4061a77e664dfa": {
-      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-04T10:50:14.944853+01:00",
-      "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
-    },
-    "490a320f59bde25f": {
-      "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-      "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-04T10:50:14.944853+01:00",
-      "brief_slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures"
-    },
-    "db6c2ae7b2b21caa": {
-      "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-04T15:38:23.597202+01:00",
-      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
-    },
-    "3356ba58fa21399b": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-04T15:38:23.597202+01:00",
-      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
-    },
-    "4b6302d9f5c48ebc": {
-      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-04T15:38:23.597202+01:00",
-      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
-    },
-    "79321c6c50ff9d2e": {
-      "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-04T15:38:23.597202+01:00",
-      "brief_slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk"
-    },
     "bc208a99b0f1cf42": {
       "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
       "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
@@ -5571,9 +5508,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-01T20:29:52.097762+00:00",
       "brief_slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures"
+    },
+    "0f81648bf5c6b707": {
+      "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+      "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-02T17:02:42.460619+00:00",
+      "brief_slug": "2026-11-02-1702-nas-ransomware-llmjacking-cloud-bill-shocks-infostealers-targeting-email-and-sla"
+    },
+    "098ee6ddbe901d2f": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+      "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-11-02T17:02:42.460619+00:00",
+      "brief_slug": "2026-11-02-1702-nas-ransomware-llmjacking-cloud-bill-shocks-infostealers-targeting-email-and-sla"
+    },
+    "b1c1d30dd8ee58aa": {
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-02T17:02:42.460619+00:00",
+      "brief_slug": "2026-11-02-1702-nas-ransomware-llmjacking-cloud-bill-shocks-infostealers-targeting-email-and-sla"
+    },
+    "53069937df157c21": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+      "title": "Hackers disrupt refrigeration systems at European supermarkets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-02T17:02:42.460619+00:00",
+      "brief_slug": "2026-11-02-1702-nas-ransomware-llmjacking-cloud-bill-shocks-infostealers-targeting-email-and-sla"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-02-1702-nas-ransomware-llmjacking-cloud-bill-shocks-infostealers-targeting-email-and-sla",
+      "headline": "NAS ransomware + “LLMJacking” cloud bill shocks + infostealers targeting email and Slack",
+      "risk_level": "High",
+      "todays_lookout": "Business disruption and unexpected costs via compromised accounts, NAS ransomware, and supplier/cloud dependency",
+      "published_at": "2026-11-02T17:02:42.460619+00:00",
+      "published_label": "Monday 02 November 2026, 17:02 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+        "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+        "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+      ]
+    },
     {
       "slug": "2026-11-01-2029-today-s-sme-cyber-lookout-crypto-payment-scams-and-urgent-account-reset-lures",
       "headline": "Today’s SME cyber lookout: crypto-payment scams and “urgent account reset” lures",
@@ -8269,35 +8248,6 @@
         "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
         "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog"
-      ]
-    },
-    {
-      "slug": "2026-08-04-1538-today-s-smb-cyber-lookout-fake-zoom-adobe-updates-installing-remote-access-passk",
-      "headline": "Today’s SMB cyber lookout: fake Zoom/Adobe updates installing remote access + passkey and software supply-chain risks",
-      "risk_level": "High",
-      "todays_lookout": "Fake software update scams and remote access tool abuse (plus passkey & supplier/dev supply-chain risk)",
-      "published_at": "2026-08-04T15:38:23.597202+01:00",
-      "published_label": "Tuesday 04 August 2026, 15:38 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-        "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-        "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-        "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html"
-      ]
-    },
-    {
-      "slug": "2026-08-04-1050-smb-cyber-brief-tue-04-aug-2026-hotel-wi-fi-account-theft-clickfix-malware-lures",
-      "headline": "SMB Cyber Brief (Tue 04 Aug 2026): hotel Wi‑Fi account theft, ClickFix malware lures, and MSP tool risk",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover and malware via travel Wi‑Fi and ‘ClickFix’ social engineering, plus MSP tool (N-central) supplier risk",
-      "published_at": "2026-08-04T10:50:14.944853+01:00",
-      "published_label": "Tuesday 04 August 2026, 10:50 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-        "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-        "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-        "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/"
       ]
     }
   ]
