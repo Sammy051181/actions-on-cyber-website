@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "716e0f587a9c7e8e": {
-      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-05T15:31:15.458471+01:00",
-      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
-    },
-    "b4f3d444777d8f3b": {
-      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-05T15:31:15.458471+01:00",
-      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
-    },
-    "e7d8afd8e4921efb": {
-      "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-05T15:31:15.458471+01:00",
-      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
-    },
-    "53e4a2d136429937": {
-      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-05T15:31:15.458471+01:00",
-      "brief_slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens"
-    },
-    "b8de3a001b73a65e": {
-      "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-05T18:53:14.959423+01:00",
-      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
-    },
-    "75eec0e8b4a4109f": {
-      "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-      "title": "How AI-powered phishing killed blocklists for good",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-05T18:53:14.959423+01:00",
-      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
-    },
-    "4dcce587c04dd0d3": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-05T18:53:14.959423+01:00",
-      "brief_slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati"
-    },
     "b41d695ada7747c6": {
       "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
       "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
@@ -5522,9 +5473,83 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-03T15:05:32.675134+00:00",
       "brief_slug": "2026-11-03-1505-smb-cyber-intelligence-brief-ransomware-disruption-supplier-outages-and-payment-"
+    },
+    "c5631e1fe7c280d4": {
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "bcfb2e41fbecf9d2": {
+      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "9c59a38943c4d0ce": {
+      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "cf2ea752df828dba": {
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "62e23c789fbfd2f8": {
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "1ad3ad4143cb6c94": {
+      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "a8dc2b16ab89a42c": {
+      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
+    },
+    "aa724a9a8e5dab63": {
+      "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+      "title": "Artificial intelligence and cyber intrusion",
+      "source": "NCSC Threat Reports",
+      "seen_at": "2026-11-03T21:46:20.952565+00:00",
+      "brief_slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-03-2146-smb-cyber-intelligence-brief-llm-api-key-hijacks-nas-ransomware-risk-and-supplie",
+      "headline": "SMB Cyber Intelligence Brief: LLM ‘API key’ hijacks, NAS ransomware risk, and supplier breach ripple-effects",
+      "risk_level": "High",
+      "todays_lookout": "Cloud cost blowouts and business disruption via stolen AI/API keys, NAS ransomware, and supplier breach scams",
+      "published_at": "2026-11-03T21:46:20.952565+00:00",
+      "published_label": "Tuesday 03 November 2026, 21:46 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+        "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+        "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+        "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+        "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+        "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+        "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+        "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion"
+      ]
+    },
     {
       "slug": "2026-11-03-1505-smb-cyber-intelligence-brief-ransomware-disruption-supplier-outages-and-payment-",
       "headline": "SMB Cyber Intelligence Brief: ransomware disruption, supplier outages, and payment/crypto platform theft risks",
@@ -8195,33 +8220,6 @@
         "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
         "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
         "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html"
-      ]
-    },
-    {
-      "slug": "2026-08-05-1853-today-s-smb-cyber-brief-phishing-using-support-tools-and-msp-platform-exploitati",
-      "headline": "Today’s SMB cyber brief: phishing using “support” tools, and MSP/platform exploitation risk",
-      "risk_level": "High",
-      "todays_lookout": "Phishing leading to remote access + supplier/MSP tooling disruption risk",
-      "published_at": "2026-08-05T18:53:14.959423+01:00",
-      "published_label": "Wednesday 05 August 2026, 18:53 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-        "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
-      ]
-    },
-    {
-      "slug": "2026-08-05-1531-today-s-smb-cyber-lookout-microsoft-365-login-approvals-leaked-automation-tokens",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 login approvals, leaked automation tokens, and fake extensions",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover and SaaS token leakage (Microsoft 365, automation tools, extensions)",
-      "published_at": "2026-08-05T15:31:15.458471+01:00",
-      "published_label": "Wednesday 05 August 2026, 15:31 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-        "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-        "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
       ]
     }
   ]
