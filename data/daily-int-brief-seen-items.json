@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "376accbc001ddf74": {
-      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-06T15:33:43.238268+01:00",
-      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
-    },
-    "45c69e058649c376": {
-      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-06T15:33:43.238268+01:00",
-      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
-    },
-    "4c338a28ee4465db": {
-      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-06T15:33:43.238268+01:00",
-      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
-    },
-    "167589835478151c": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
-      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-06T15:33:43.238268+01:00",
-      "brief_slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da"
-    },
     "7b5a120ec5550640": {
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
       "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
@@ -5501,9 +5473,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-04T15:24:33.686951+00:00",
       "brief_slug": "2026-11-04-1524-today-s-smb-cyber-brief-calendar-invite-phishing-website-supply-chain-risk-and-w"
+    },
+    "622646b53531b976": {
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-04T21:51:55.123943+00:00",
+      "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
+    },
+    "096e4f5225026f13": {
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-04T21:51:55.123943+00:00",
+      "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
+    },
+    "94833255da64ec91": {
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-04T21:51:55.123943+00:00",
+      "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
+    },
+    "b8bdafeefd728191": {
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-04T21:51:55.123943+00:00",
+      "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
+    },
+    "05d712189c612534": {
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-04T21:51:55.123943+00:00",
+      "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams",
+      "headline": "Hosting & password-manager incidents: reset access, watch for supplier-themed scams",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + credential/session theft and knock-on account takeover",
+      "published_at": "2026-11-04T21:51:55.123943+00:00",
+      "published_label": "Wednesday 04 November 2026, 21:51 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+        "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+        "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+        "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+        "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/"
+      ]
+    },
     {
       "slug": "2026-11-04-1524-today-s-smb-cyber-brief-calendar-invite-phishing-website-supply-chain-risk-and-w",
       "headline": "Today’s SMB cyber brief: Calendar invite phishing, website supply‑chain risk, and WordPress attacks in the wild",
@@ -8174,20 +8196,6 @@
         "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
         "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
         "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-08-06-1533-smb-cyber-intelligence-brief-ai-ask-links-grey-market-ai-tools-and-web-app-to-da",
-      "headline": "SMB Cyber Intelligence Brief — AI “Ask” links, grey-market AI tools, and web-app-to-database takeovers",
-      "risk_level": "High",
-      "todays_lookout": "AI tool misuse & web app compromise leading to business data exposure and disruption",
-      "published_at": "2026-08-06T15:33:43.238268+01:00",
-      "published_label": "Thursday 06 August 2026, 15:33 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-        "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-        "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/"
       ]
     }
   ]
