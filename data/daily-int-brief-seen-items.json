@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "7b5a120ec5550640": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
-      "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-08-07T09:21:11.433168+01:00",
-      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
-    },
-    "cc3545b0d1d0cecc": {
-      "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-07T09:21:11.433168+01:00",
-      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
-    },
-    "58eb3ce5569a189e": {
-      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "seen_at": "2026-08-07T09:21:11.433168+01:00",
-      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
-    },
-    "67ef6de8627292be": {
-      "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-07T09:21:11.433168+01:00",
-      "brief_slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-"
-    },
-    "e7fa1f5e0b0290eb": {
-      "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-07T14:37:45.325300+01:00",
-      "brief_slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f"
-    },
-    "278baa51bdae89fa": {
-      "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-      "title": "North Carolina Ports confirms cyberattack disrupting operations",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-07T14:37:45.325300+01:00",
-      "brief_slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f"
-    },
     "005c5ebee9c69e34": {
       "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
       "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
@@ -5508,9 +5466,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-04T21:51:55.123943+00:00",
       "brief_slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams"
+    },
+    "a51c8636f9bc2a09": {
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-05T15:26:48.117116+00:00",
+      "brief_slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s"
+    },
+    "e357dd7a35d8f16c": {
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-05T15:26:48.117116+00:00",
+      "brief_slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s"
+    },
+    "49acf98068f7a42d": {
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-05T15:26:48.117116+00:00",
+      "brief_slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s"
+    },
+    "e5838da8e52e7046": {
+      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-05T15:26:48.117116+00:00",
+      "brief_slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s",
+      "headline": "Today’s SMB cyber brief: service-desk impersonation, password manager alerts, and supplier-breach scam risk",
+      "risk_level": "High",
+      "todays_lookout": "Account takeover via helpdesk social engineering + supplier incident phishing",
+      "published_at": "2026-11-05T15:26:48.117116+00:00",
+      "published_label": "Thursday 05 November 2026, 15:26 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+        "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+        "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+        "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
+      ]
+    },
     {
       "slug": "2026-11-04-2151-hosting-password-manager-incidents-reset-access-watch-for-supplier-themed-scams",
       "headline": "Hosting & password-manager incidents: reset access, watch for supplier-themed scams",
@@ -8170,32 +8170,6 @@
         "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
         "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
         "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
-      ]
-    },
-    {
-      "slug": "2026-08-07-1437-today-s-smb-cyber-brief-microsoft-365-finance-payroll-phishing-disruption-risk-f",
-      "headline": "Today’s SMB cyber brief: Microsoft 365 finance/payroll phishing + disruption risk from port cyberattack",
-      "risk_level": "High",
-      "todays_lookout": "Microsoft 365 account takeover aimed at payroll/finance, plus supplier/logistics disruption scams",
-      "published_at": "2026-08-07T14:37:45.325300+01:00",
-      "published_label": "Friday 07 August 2026, 14:37 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-        "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
-      ]
-    },
-    {
-      "slug": "2026-08-07-0921-today-s-smb-cyber-brief-helpdesk-vishing-clickfix-lures-cloud-account-extortion-",
-      "headline": "Today’s SMB Cyber Brief: Helpdesk vishing + “ClickFix” lures + cloud account extortion lessons",
-      "risk_level": "High",
-      "todays_lookout": "Helpdesk vishing and fake security migrations targeting cloud logins (plus macOS “ClickFix” lures)",
-      "published_at": "2026-08-07T09:21:11.433168+01:00",
-      "published_label": "Friday 07 August 2026, 09:21 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
-        "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-        "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
       ]
     }
   ]
