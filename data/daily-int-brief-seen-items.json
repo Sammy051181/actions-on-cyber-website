@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "005c5ebee9c69e34": {
-      "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-      "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-07T18:06:32.225857+01:00",
-      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
-    },
-    "e3210aa833510865": {
-      "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-07T18:06:32.225857+01:00",
-      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
-    },
-    "2749aa1817e21038": {
-      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-07T18:06:32.225857+01:00",
-      "brief_slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o"
-    },
     "37859bd4cd5d193a": {
       "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
       "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
@@ -5494,9 +5473,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-05T15:26:48.117116+00:00",
       "brief_slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s"
+    },
+    "2ae34dc126e9b640": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-05T21:58:45.112045+00:00",
+      "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
+    },
+    "83e08e4c6c08d1c0": {
+      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "title": "DigiCert data breach exposes customer information, identity documents",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-05T21:58:45.112045+00:00",
+      "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
+    },
+    "56bfa02295d43c2b": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-05T21:58:45.112045+00:00",
+      "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
+    },
+    "0104ffe0a06b05b6": {
+      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-05T21:58:45.112045+00:00",
+      "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
+    },
+    "90a9e74aa19bf7e0": {
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-05T21:58:45.112045+00:00",
+      "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo",
+      "headline": "Today’s SMB cyber lookout: fake ‘OpenAI/SpaceX’ event invites, DigiCert breach fallout, and Linux server access risk",
+      "risk_level": "High",
+      "todays_lookout": "Account-takeover phishing and supplier-breach follow-on scams",
+      "published_at": "2026-11-05T21:58:45.112045+00:00",
+      "published_label": "Thursday 05 November 2026, 21:58 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+        "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+        "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+        "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+        "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+      ]
+    },
     {
       "slug": "2026-11-05-1526-today-s-smb-cyber-brief-service-desk-impersonation-password-manager-alerts-and-s",
       "headline": "Today’s SMB cyber brief: service-desk impersonation, password manager alerts, and supplier-breach scam risk",
@@ -8157,19 +8186,6 @@
         "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
         "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
-      ]
-    },
-    {
-      "slug": "2026-08-07-1806-inbox-led-payment-fraud-and-microsoft-365-account-persistence-today-s-sme-look-o",
-      "headline": "Inbox-led payment fraud and Microsoft 365 account persistence: today’s SME look-out",
-      "risk_level": "High",
-      "todays_lookout": "Invoice/payment diversion using real email threads, plus longer-term cloud access after a single infected device",
-      "published_at": "2026-08-07T18:06:32.225857+01:00",
-      "published_label": "Friday 07 August 2026, 18:06 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-        "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-        "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
       ]
     }
   ]
