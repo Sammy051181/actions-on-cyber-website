@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "efca8e4dba84b569": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-08T17:51:01.325403+01:00",
-      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
-    },
-    "ab2cf02445d4050e": {
-      "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T17:51:01.325403+01:00",
-      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
-    },
-    "8eab464cc4e63c77": {
-      "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T17:51:01.325403+01:00",
-      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
-    },
-    "453404a975a88668": {
-      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-      "title": "Swiss government SharePoint breach compromised 200 accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-08T17:51:01.325403+01:00",
-      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
-    },
-    "928199c4605279db": {
-      "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T17:51:01.325403+01:00",
-      "brief_slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data"
-    },
     "43410792e1608026": {
       "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
@@ -5494,9 +5459,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-11-06T15:00:36.159233+00:00",
       "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
+    },
+    "b432728a569b5bf4": {
+      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-06T21:29:14.844397+00:00",
+      "brief_slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows"
+    },
+    "319e7df558d145a4": {
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-06T21:29:14.844397+00:00",
+      "brief_slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows"
+    },
+    "25aea6b559a69eae": {
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-06T21:29:14.844397+00:00",
+      "brief_slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows",
+      "headline": "Today’s SME cyber lookout: trojanised GitHub tools, risky WordPress update windows, and NAS/Plex break-ins",
+      "risk_level": "High",
+      "todays_lookout": "Trojanised tools and actively exploited internet-facing services (WordPress and NAS/Plex)",
+      "published_at": "2026-11-06T21:29:14.844397+00:00",
+      "published_label": "Friday 06 November 2026, 21:29 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+        "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+        "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/"
+      ]
+    },
     {
       "slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme",
       "headline": "Supplier credential exposure + active attacks on refrigeration monitoring: what SMEs should check today",
@@ -8145,21 +8144,6 @@
       "published_label": "Monday 10 August 2026, 09:50 UK time",
       "source_urls": [
         "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
-      ]
-    },
-    {
-      "slug": "2026-08-08-1751-trojanised-video-meeting-installers-and-ai-tools-leaking-business-data",
-      "headline": "Trojanised video meeting installers, and AI tools leaking business data",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS risk and “trusted app” installer tampering",
-      "published_at": "2026-08-08T17:51:01.325403+01:00",
-      "published_label": "Saturday 08 August 2026, 17:51 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-        "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-        "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-        "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-        "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
       ]
     }
   ]

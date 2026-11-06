@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: trojanised GitHub tools, risky WordPress update windows, and NAS/Plex break-ins | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: trojanised GitHub tools, risky WordPress update windows, and NAS/Plex break-ins</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 06 November 2026, 21:29 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Trojanised tools and actively exploited internet-facing services (WordPress and NAS/Plex)
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes worth acting on today:</p>
+<ul>
+  <li><strong>Trojanised “security tools” on GitHub</strong> that plant backdoors and steal credentials/data.</li>
+  <li><strong>WordPress sites still at risk during some update installs</strong> for an actively exploited issue (a small “window” while files unpack).</li>
+  <li><strong>QNAP NAS devices being breached via Plex-related attacks</strong> (QNAP is warning customers about active exploitation).</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>SMEs rely on a small number of key systems</strong> (website, file storage/NAS, and cloud accounts). One compromise can quickly become an outage, fraud, or data breach.</li>
+  <li><strong>Outsourced IT and contractors often use GitHub</strong>. A single “helpful” tool or script pulled from a repo can introduce a backdoor into your environment.</li>
+  <li><strong>Websites and NAS boxes are common entry points</strong>. If exposed to the internet, attackers can move fast and automate scanning.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff or IT suppliers asking to run a “new security checker”, “log collector”, “incident response script”, or “hardening tool” downloaded from a GitHub repo that isn’t already approved.</li>
+  <li>Unexpected new admin users in WordPress, plugin/theme settings changes, or strange scheduled tasks/crons after an update.</li>
+  <li>NAS behaving oddly: new user accounts, unknown apps/packages installed, unusual outbound traffic, or ransomware-style file changes.</li>
+  <li>Sudden account lockouts or MFA prompts for email, Microsoft 365/Google, password managers, or remote access tools.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>GitHub trojans:</strong> attackers publish “useful” security projects that quietly deploy an infostealer/backdoor once run, then harvest browser passwords, tokens, SSH keys, or cloud credentials.</li>
+  <li><strong>WordPress timing window:</strong> attackers target sites while updates are being applied, aiming to run code before the fix fully takes effect.</li>
+  <li><strong>NAS/Plex paths:</strong> attackers target exposed Plex/NAS services, gain a foothold, then pivot to steal files or deploy ransomware.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Put a temporary rule in place:</strong> no one runs new “security tools/scripts” from GitHub (or anywhere) unless your IT owner approves the repo and validates the source.</li>
+  <li><strong>Website owners:</strong> schedule WordPress updates for a defined maintenance window and ensure you have a tested rollback (backup + restore plan). If you use an agency, confirm they follow a safe update process.</li>
+  <li><strong>If you have a QNAP NAS:</strong> check whether Plex Media Server is installed and confirm it’s updated via the QNAP App Center. Review remote exposure (is the NAS or Plex reachable from the internet?).</li>
+  <li><strong>Fast containment prep:</strong> make sure you can quickly disable compromised accounts, rotate passwords, and revoke sessions (especially for email and cloud storage).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a policy for using third-party tools/scripts (including GitHub) during support work? What’s the approval and logging process?</li>
+  <li>For our WordPress site(s), who applies updates, and what’s the safe procedure during installation (maintenance mode / reduced exposure / monitoring)?</li>
+  <li>Do any of our systems expose WordPress admin, Plex, or NAS management to the internet? If yes, why, and what extra controls are in place?</li>
+  <li>Do we have alerting for new admin users (WordPress/NAS) and unusual outbound traffic?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Vendor guidance today highlights active exploitation against services commonly found in SMEs (notably WordPress update scenarios and QNAP NAS/Plex). Treat internet-facing services as priority items: update only via planned maintenance windows, confirm success, and verify admin accounts and logs immediately afterwards.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day internal note: ‘Do not run any new security tools/scripts from GitHub (or links in tickets/emails) unless approved by IT’—and ask IT to confirm whether any WordPress or QNAP/Plex services are internet-exposed.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber ‘Third‑party access &amp; contractor tool approval’ mini-checklist (who can run what, from where, with what logging) alongside your ‘Website/NAS emergency rollback plan’ checklist.</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/" rel="noopener noreferrer">Fake security tools on GitHub push backdoors and infostealers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html" rel="noopener noreferrer">Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/" rel="noopener noreferrer">QNAP says hackers breaching NAS devices in Plex2Shell attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
