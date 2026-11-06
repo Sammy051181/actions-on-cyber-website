@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "37859bd4cd5d193a": {
-      "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T08:58:37.560407+01:00",
-      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
-    },
-    "e7092c00880a133b": {
-      "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T08:58:37.560407+01:00",
-      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
-    },
-    "7f2f0040ed3dddf4": {
-      "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T08:58:37.560407+01:00",
-      "brief_slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom"
-    },
-    "62e6df9d879f730c": {
-      "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T14:11:36.538140+01:00",
-      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
-    },
-    "92a77f3ffeabd187": {
-      "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-08T14:11:36.538140+01:00",
-      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
-    },
-    "c5ecbaec5f990434": {
-      "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-08T14:11:36.538140+01:00",
-      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
-    },
-    "ab513bf86405d81c": {
-      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-08T14:11:36.538140+01:00",
-      "brief_slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre"
-    },
     "efca8e4dba84b569": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
       "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
@@ -5508,9 +5459,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-05T21:58:45.112045+00:00",
       "brief_slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo"
+    },
+    "a3b94f1fb170a2b6": {
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-06T15:00:36.159233+00:00",
+      "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
+    },
+    "68f16abad4265550": {
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-06T15:00:36.159233+00:00",
+      "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
+    },
+    "bdfce63afd432194": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-06T15:00:36.159233+00:00",
+      "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
+    },
+    "cddef5bb18e3bcbf": {
+      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-11-06T15:00:36.159233+00:00",
+      "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
+    },
+    "384cea25d0e901e6": {
+      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "title": "Post-Quantum Questions to Ask Your Vendors",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-11-06T15:00:36.159233+00:00",
+      "brief_slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-06-1500-supplier-credential-exposure-active-attacks-on-refrigeration-monitoring-what-sme",
+      "headline": "Supplier credential exposure + active attacks on refrigeration monitoring: what SMEs should check today",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, credential/token theft, and operational disruption (cold-chain monitoring)",
+      "published_at": "2026-11-06T15:00:36.159233+00:00",
+      "published_label": "Friday 06 November 2026, 15:00 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+        "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+        "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+        "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+        "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
+      ]
+    },
     {
       "slug": "2026-11-05-2158-today-s-smb-cyber-lookout-fake-openai-spacex-event-invites-digicert-breach-fallo",
       "headline": "Today’s SMB cyber lookout: fake ‘OpenAI/SpaceX’ event invites, DigiCert breach fallout, and Linux server access risk",
@@ -8159,33 +8160,6 @@
         "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
         "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
         "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
-      ]
-    },
-    {
-      "slug": "2026-08-08-1411-today-s-smb-cyber-brief-msp-tooling-risk-webmail-account-takeover-tricks-and-bre",
-      "headline": "Today’s SMB cyber brief: MSP tooling risk, webmail account-takeover tricks, and breach-driven phishing",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & SaaS risk + email account takeover + breach-driven scams",
-      "published_at": "2026-08-08T14:11:36.538140+01:00",
-      "published_label": "Saturday 08 August 2026, 14:11 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-        "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-        "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-        "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-08-08-0858-today-s-smb-cyber-lookout-urgent-it-migration-phone-calls-fake-click-to-fix-prom",
-      "headline": "Today’s SMB cyber lookout: urgent ‘IT migration’ phone calls, fake ‘Click to fix’ prompts, and risky software dependencies",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover scams via phone + fake-fix prompts + supplier/dependency risk",
-      "published_at": "2026-08-08T08:58:37.560407+01:00",
-      "published_label": "Saturday 08 August 2026, 08:58 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
       ]
     }
   ]
