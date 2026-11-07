@@ -5480,9 +5480,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-06T21:29:14.844397+00:00",
       "brief_slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows"
+    },
+    "3851f16593ec3bf0": {
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-07T13:59:31.006338+00:00",
+      "brief_slug": "2026-11-07-1359-today-s-smb-cyber-lookout-remote-access-bypass-attempts-leaked-secrets-via-ai-co"
+    },
+    "2e68c49691546005": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-11-07T13:59:31.006338+00:00",
+      "brief_slug": "2026-11-07-1359-today-s-smb-cyber-lookout-remote-access-bypass-attempts-leaked-secrets-via-ai-co"
+    },
+    "9989e939e148877e": {
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-07T13:59:31.006338+00:00",
+      "brief_slug": "2026-11-07-1359-today-s-smb-cyber-lookout-remote-access-bypass-attempts-leaked-secrets-via-ai-co"
+    },
+    "ea5950eadcc7d41a": {
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-07T13:59:31.006338+00:00",
+      "brief_slug": "2026-11-07-1359-today-s-smb-cyber-lookout-remote-access-bypass-attempts-leaked-secrets-via-ai-co"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-07-1359-today-s-smb-cyber-lookout-remote-access-bypass-attempts-leaked-secrets-via-ai-co",
+      "headline": "Today’s SMB cyber lookout: remote access bypass attempts, leaked secrets via AI coding tools, and backup disruption risk",
+      "risk_level": "High",
+      "todays_lookout": "Remote access & supplier/tooling risk (VPN, AI dev tools, backups)",
+      "published_at": "2026-11-07T13:59:31.006338+00:00",
+      "published_label": "Saturday 07 November 2026, 13:59 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+        "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/"
+      ]
+    },
     {
       "slug": "2026-11-06-2129-today-s-sme-cyber-lookout-trojanised-github-tools-risky-wordpress-update-windows",
       "headline": "Today’s SME cyber lookout: trojanised GitHub tools, risky WordPress update windows, and NAS/Plex break-ins",
