@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "3603f0bf7b4e68eb": {
-      "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-      "title": "Valve notifies Steam hardware customers of a data breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-10T14:42:43.390849+01:00",
-      "brief_slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today"
-    },
-    "836316e1e79d5ad4": {
-      "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
-      "title": "LexisNexis shuts down services after suspicious activity on servers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-10T14:42:43.390849+01:00",
-      "brief_slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today"
-    },
-    "cdcb04f053b50d7b": {
-      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-10T14:42:43.390849+01:00",
-      "brief_slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today"
-    },
-    "3df9f34363e74412": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-10T14:42:43.390849+01:00",
-      "brief_slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today"
-    },
-    "582c10ab4e3263d7": {
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
-      "title": "#StopRansomware: Gunra Ransomware",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-10T18:07:32.302189+01:00",
-      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
-    },
-    "1b13f7171cfd26a6": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-10T18:07:32.302189+01:00",
-      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
-    },
-    "b02e825d52875460": {
-      "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-10T18:07:32.302189+01:00",
-      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
-    },
-    "e4cbe4f1c2f955e0": {
-      "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-10T18:07:32.302189+01:00",
-      "brief_slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b"
-    },
     "39f20a787adea7b2": {
       "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
@@ -5529,9 +5473,27 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-07T20:13:53.131715+00:00",
       "brief_slug": "2026-11-07-2013-today-s-smb-cyber-lookout-supplier-led-payment-fraud-and-brand-impersonation-gif"
+    },
+    "f3cdbd0ed89247a3": {
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-08T20:28:16.111018+00:00",
+      "brief_slug": "2026-11-08-2028-third-party-cloud-breach-expect-follow-on-phishing-and-supplier-risk-questions"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-08-2028-third-party-cloud-breach-expect-follow-on-phishing-and-supplier-risk-questions",
+      "headline": "Third‑party cloud breach: expect follow‑on phishing and supplier risk questions",
+      "risk_level": "Moderate",
+      "todays_lookout": "Supplier/SaaS cloud breach follow‑on scams",
+      "published_at": "2026-11-08T20:28:16.111018+00:00",
+      "published_label": "Sunday 08 November 2026, 20:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/"
+      ]
+    },
     {
       "slug": "2026-11-07-2013-today-s-smb-cyber-lookout-supplier-led-payment-fraud-and-brand-impersonation-gif",
       "headline": "Today’s SMB cyber lookout: supplier-led payment fraud and brand impersonation gift card scams",
@@ -8182,34 +8144,6 @@
         "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
         "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
         "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical"
-      ]
-    },
-    {
-      "slug": "2026-08-10-1807-ransomware-affiliates-target-remote-access-gear-ai-boosted-phishing-raises-the-b",
-      "headline": "Ransomware affiliates target remote access gear; AI-boosted phishing raises the bar",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware entry via remote access appliances + convincing AI-assisted phishing",
-      "published_at": "2026-08-10T18:07:32.302189+01:00",
-      "published_label": "Monday 10 August 2026, 18:07 UK time",
-      "source_urls": [
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
-        "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-        "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-        "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html"
-      ]
-    },
-    {
-      "slug": "2026-08-10-1442-supplier-outages-and-breach-themed-scams-what-smes-should-watch-today",
-      "headline": "Supplier outages and breach-themed scams: what SMEs should watch today",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and third‑party service disruption",
-      "published_at": "2026-08-10T14:42:43.390849+01:00",
-      "published_label": "Monday 10 August 2026, 14:42 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-        "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
-        "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
       ]
     }
   ]
