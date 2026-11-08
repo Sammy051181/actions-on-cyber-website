@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "43410792e1608026": {
-      "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
-      "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-10T09:50:32.433619+01:00",
-      "brief_slug": "2026-08-10-0950-malicious-vs-code-extensions-check-what-s-installed-and-lock-down-extension-inst"
-    },
     "3603f0bf7b4e68eb": {
       "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
       "title": "Valve notifies Steam hardware customers of a data breach",
@@ -8217,17 +8210,6 @@
         "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
         "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-08-10-0950-malicious-vs-code-extensions-check-what-s-installed-and-lock-down-extension-inst",
-      "headline": "Malicious VS Code extensions: check what’s installed and lock down extension installs",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/app store risk (developer tools) leading to credential theft",
-      "published_at": "2026-08-10T09:50:32.433619+01:00",
-      "published_label": "Monday 10 August 2026, 09:50 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
       ]
     }
   ]
