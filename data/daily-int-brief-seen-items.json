@@ -1,75 +1,5 @@
 {
   "seen_urls": {
-    "39f20a787adea7b2": {
-      "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-11T09:14:56.558354+01:00",
-      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
-    },
-    "1e9db20c81453290": {
-      "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T09:14:56.558354+01:00",
-      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
-    },
-    "d38595acce9573b0": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T09:14:56.558354+01:00",
-      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
-    },
-    "4c624f6c9bd5a27e": {
-      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-11T09:14:56.558354+01:00",
-      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
-    },
-    "273a693b084308bc": {
-      "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical",
-      "title": "CISA, FBI and Partners Warn Organizations of Gunra Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
-      "source": "CISA News",
-      "seen_at": "2026-08-11T09:14:56.558354+01:00",
-      "brief_slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity"
-    },
-    "4bfb2490760d3848": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T14:41:38.748319+01:00",
-      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
-    },
-    "8b3f1bd3315e097f": {
-      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-      "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-11T14:41:38.748319+01:00",
-      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
-    },
-    "78717ca6ff867f89": {
-      "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T14:41:38.748319+01:00",
-      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
-    },
-    "729f36dc6beff8cd": {
-      "url": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T14:41:38.748319+01:00",
-      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
-    },
-    "5019d0f42a889b71": {
-      "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-11T14:41:38.748319+01:00",
-      "brief_slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge"
-    },
     "bc8bdcb78a9e1664": {
       "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
       "title": "Wesco confirms security incident after ExfilSquad claims data theft",
@@ -5480,9 +5410,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-08T20:28:16.111018+00:00",
       "brief_slug": "2026-11-08-2028-third-party-cloud-breach-expect-follow-on-phishing-and-supplier-risk-questions"
+    },
+    "2d302e9d23c02c21": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-09T17:28:09.532087+00:00",
+      "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
+    },
+    "dca9748487c3dfb8": {
+      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-09T17:28:09.532087+00:00",
+      "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
+    },
+    "3b71139034dea396": {
+      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-09T17:28:09.532087+00:00",
+      "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
+    },
+    "e58a25e722f029ae": {
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-09T17:28:09.532087+00:00",
+      "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
+    },
+    "58a4982824420547": {
+      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-09T17:28:09.532087+00:00",
+      "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026",
+      "headline": "SMB Cyber Intelligence Brief (UK) — Monday 09 November 2026",
+      "risk_level": "High",
+      "todays_lookout": "Remote access compromise (SSH/Linux) plus supplier-account takeover themes and breach-driven scams",
+      "published_at": "2026-11-09T17:28:09.532087+00:00",
+      "published_label": "Monday 09 November 2026, 17:28 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+        "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+        "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+        "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+        "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
+      ]
+    },
     {
       "slug": "2026-11-08-2028-third-party-cloud-breach-expect-follow-on-phishing-and-supplier-risk-questions",
       "headline": "Third‑party cloud breach: expect follow‑on phishing and supplier risk questions",
@@ -8114,36 +8094,6 @@
         "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
         "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
         "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/"
-      ]
-    },
-    {
-      "slug": "2026-08-11-1441-today-s-smb-cyber-look-out-ransomware-exploitation-including-sharepoint-and-urge",
-      "headline": "Today’s SMB cyber look‑out: ransomware exploitation (including SharePoint) and “urgent access” scams",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware disruption risk + urgent IT/access and payment-change social engineering",
-      "published_at": "2026-08-11T14:41:38.748319+01:00",
-      "published_label": "Tuesday 11 August 2026, 14:41 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-        "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-        "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-        "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-        "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
-      ]
-    },
-    {
-      "slug": "2026-08-11-0914-smb-cyber-brief-wordpress-supply-chain-compromise-and-fresh-ransomware-activity",
-      "headline": "SMB Cyber Brief: WordPress supply-chain compromise and fresh ransomware activity",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS compromise leading to website takeover and follow-on ransomware disruption",
-      "published_at": "2026-08-11T09:14:56.558354+01:00",
-      "published_label": "Tuesday 11 August 2026, 09:14 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-        "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-        "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-        "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-        "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical"
       ]
     }
   ]

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>SMB Cyber Intelligence Brief (UK) — Monday 09 November 2026 | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>SMB Cyber Intelligence Brief (UK) — Monday 09 November 2026</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Monday 09 November 2026, 17:28 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Remote access compromise (SSH/Linux) plus supplier-account takeover themes and breach-driven scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Active exploitation of OpenSSH (“SSHole”)</strong> being reported, with attackers seeking remote access to Linux systems, credential theft and persistence.</li>
+  <li><strong>Default / weak admin credentials causing supplier-style compromise</strong>: reporting highlights how basic defaults (e.g. “admin/admin”) can enable full takeover of identity/app infrastructure, leading to account takeover and downstream customer impact.</li>
+  <li><strong>Breach-driven scam activity around big platforms</strong>: an alleged crypto exchange breach claim has been denied, but situations like this commonly trigger waves of phishing, fake “security alerts”, and fake “account verification” messages.</li>
+  <li><strong>Operational technology (OT) / facilities systems being targeted</strong> (cold-chain/refrigeration controllers). For organisations with warehouses, catering, pharmacies, labs, or facilities management suppliers, treat internet-connected controllers as high-risk.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on a small number of internet-facing services (remote access, hosted servers, managed IT tools, SaaS identity/login, and building/facilities systems). If attackers get in via SSH or a supplier login stack, they can quickly move to: email takeover, invoice fraud, data theft, and ransomware disruption.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unrecognised SSH login attempts or new user accounts appearing on Linux servers.</li>
+  <li>Unexpected password reset emails, MFA prompts, or “new device signed in” alerts for Microsoft 365/Google/admin portals.</li>
+  <li>Staff receiving messages about a “Binance/MEXC/security incident” urging urgent logins, KYC checks, or wallet transfers.</li>
+  <li>Facilities alerts: refrigeration/HVAC settings changing unexpectedly, devices going offline repeatedly, or remote access being enabled without a change request.</li>
+  <li>Increased helpdesk tickets about locked accounts, missing emails, or “rules/forwarding” set up in mailboxes.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Remote access first:</strong> attackers target exposed SSH services on the internet to gain a foothold, then hunt for saved credentials and admin access.</li>
+  <li><strong>“It’s just a default password”:</strong> weak/default admin logins on third-party systems (including identity providers and management consoles) can enable broad customer account takeovers.</li>
+  <li><strong>Scam amplification:</strong> even unverified breach chatter can be used to craft convincing phishing (“your account is affected—verify now”), especially for finance teams and directors.</li>
+  <li><strong>Operational disruption:</strong> targeting controllers for cold-chain/monitoring can cause stock loss, downtime, and safety issues—often before anyone realises it’s cyber-related.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Run a quick “remote access exposure” check</strong>: confirm which systems are reachable from the internet (especially SSH to Linux). If you don’t need direct internet access, restrict it.</li>
+  <li><strong>Reset any default credentials</strong> on admin consoles, facilities controllers, and supplier portals; ensure unique passwords and MFA where available.</li>
+  <li><strong>Send a staff note</strong> (especially finance/admin): be cautious of “security incident” emails/texts about crypto/exchanges or account verification; don’t click links—use known bookmarks or type the address manually.</li>
+  <li><strong>Review mailbox protections</strong>: check for suspicious forwarding rules and unusual sign-in locations for key accounts (finance, payroll, senior leadership).</li>
+  <li><strong>Facilities/fleet checks (where relevant)</strong>: ask your facilities contractor whether any monitoring/control systems are internet-accessible and how remote access is secured and logged.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any Linux servers with SSH exposed to the internet? If yes, what controls are in place (MFA/jump box/IP allowlisting/log monitoring)?</li>
+  <li>Are we actively monitoring for unusual SSH activity and new privileged accounts?</li>
+  <li>Which supplier/SaaS systems are critical to our login and access (identity provider, SSO, remote management tools), and how do we know default credentials are not in use?</li>
+  <li>Can you confirm our incident playbook for “email account takeover” (who is called, how finance approvals change, how mail forwarding is checked)?</li>
+  <li>For any building/warehouse monitoring systems we use: who owns security patching, credential management, and remote access logs—us, you, or the facilities vendor?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There is reporting of active exploitation of an OpenSSH issue (“SSHole”, referenced as CVE-2026-123158). If you run Linux systems with SSH, treat this as urgent: ensure your IT support confirms exposure, mitigations, and update status—especially for internet-facing servers and any third-party hosted Linux instances.</p>
+
+        <h2>One action today</h2>
+        <p>Send a 2-minute internal warning to staff (especially finance/admin) to ignore “security incident/verification” links and only sign in via saved bookmarks or known URLs, while IT checks whether any SSH-exposed Linux systems exist.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Invoice fraud &amp; payment change controls (anti-BEC)”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/" rel="noopener noreferrer">Hackers exploit SSHole OpenSSH flaw to breach Linux systems</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html" rel="noopener noreferrer">⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/default-adminadmin-server-password.html" rel="noopener noreferrer">Default &#x27;admin:admin&#x27; Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/" rel="noopener noreferrer">Binance denies data breach after alleged ShinyHunters claims</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html" rel="noopener noreferrer">U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
