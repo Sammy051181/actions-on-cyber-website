@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: cloud supplier access abuse, virtualisation takeovers, and “official notice” phishing | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: cloud supplier access abuse, virtualisation takeovers, and “official notice” phishing</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Tuesday 10 November 2026, 21:47 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS trust abuse + business disruption (cloud, virtualisation) + phishing themes
+        </div>
+
+        <h2>What to look out for today</h2>
+<p>Three themes SMEs should pay attention to today:</p>
+<ul>
+  <li><strong>Cloud supplier trust being abused:</strong> attackers used compromised AWS identity/access linked to a third-party platform to get into multiple customers’ AWS environments and exfiltrate data.</li>
+  <li><strong>Virtualisation management takeover risk:</strong> active exploitation reported against a virtualisation management product used to administer VM servers.</li>
+  <li><strong>Phishing dressed up as “official admin/court” notices:</strong> email lures designed to look like judicial/administrative messages to push recipients into opening attachments or clicking links.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supplier access can bypass your defences:</strong> even if your own admin accounts are well protected, a trusted third-party connection can become the weak link.</li>
+  <li><strong>VM platforms are “one-to-many” targets:</strong> if a VM management console is taken over, multiple servers and services can be affected at once—fast business disruption.</li>
+  <li><strong>Phishing remains the most common entry point:</strong> “urgent legal/admin” themes are designed to trigger quick action from office, finance and HR teams.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Cloud/AWS:</strong> unexpected alerts about new logins, new access keys, role changes, or unusual data downloads (especially outside normal hours).</li>
+  <li><strong>Unfamiliar third-party activity:</strong> a supplier account or integration suddenly requesting broader permissions or re-authentication.</li>
+  <li><strong>Virtualisation:</strong> admin logins from new locations, new admin users, unexpected snapshots/exports, VM shutdowns, or configuration changes you didn’t schedule.</li>
+  <li><strong>Phishing (court/admin):</strong> “case reference” style emails, pressure to respond quickly, attachments that require enabling content, or links to “view documents”.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Abusing trusted access:</strong> attackers may use a supplier’s compromised identity to access customer cloud resources, then quietly copy data or plant persistence.</li>
+  <li><strong>Taking over management layers:</strong> if a VM management interface is exploited, attackers can gain broad control over multiple servers without needing to breach each one.</li>
+  <li><strong>Social engineering for first access:</strong> fake official notices are used to get a foothold (remote access tools / malware), which can lead to invoice fraud, data theft, or ransomware.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Inventory trusted access:</strong> list your key SaaS/platform suppliers and any integrations that have privileged access to your cloud, email, finance, or backups.</li>
+  <li><strong>Reduce blast radius:</strong> ensure third-party access is least-privilege and time-bounded where possible; remove unused integrations and old accounts.</li>
+  <li><strong>Raise staff awareness:</strong> warn teams (especially admin, HR and finance) about “court/official notice” emails—don’t open unexpected attachments; verify via known channels.</li>
+  <li><strong>Check monitoring:</strong> confirm you have alerts for suspicious admin activity in cloud and virtualisation platforms (new admin users, permission changes, unusual exports/downloads).</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Which third-party services/integrations have <strong>privileged</strong> access to our cloud and business systems, and when was that access last reviewed?</li>
+  <li>Do we have <strong>alerting</strong> in place for: new access keys, role/policy changes, unusual data transfers, and logins from new locations?</li>
+  <li>Are our virtualisation management systems <strong>internet-exposed</strong>? If so, what controls are in place (MFA, IP allow-lists/VPN, logging, rapid isolation plan)?</li>
+  <li>If a supplier tells us they’ve had an incident, what is our <strong>playbook</strong> for checking our environment (accounts, tokens, integrations, logs) within the first 24 hours?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There is reporting of <strong>active exploitation</strong> against a virtualisation management product used to administer VM servers. If your organisation uses Xen Orchestra/XCP-ng (or you’re unsure), treat this as urgent: confirm exposure, restrict admin access paths, and ensure your provider is tracking vendor guidance and remediation.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal alert to staff: be cautious of “court/legal/admin notice” emails today—do not open unexpected attachments or links; report to IT—and ask your IT provider to confirm any privileged third-party cloud access has been reviewed this week.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier &amp; SaaS Access Review Checklist (third-party access, least privilege, offboarding, and incident response questions)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/" rel="noopener noreferrer">Hackers exploit trusted AWS access to breach multiple cloud environments</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/" rel="noopener noreferrer">Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html" rel="noopener noreferrer">Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "dc7fe6e1bf207ec0": {
-      "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T18:11:14.160223+01:00",
-      "brief_slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb"
-    },
-    "e767b9f5f3248f80": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-      "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-12T18:11:14.160223+01:00",
-      "brief_slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb"
-    },
-    "72e2cac84654bc7a": {
-      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-12T18:11:14.160223+01:00",
-      "brief_slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb"
-    },
-    "c0354b09ca60572e": {
-      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T18:11:14.160223+01:00",
-      "brief_slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb"
-    },
     "1d2292fea9dd3005": {
       "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
       "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
@@ -5368,9 +5340,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-10T15:34:29.090156+00:00",
       "brief_slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br"
+    },
+    "ddf41e717f52acfd": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-10T21:47:56.255409+00:00",
+      "brief_slug": "2026-11-10-2147-today-s-smb-cyber-lookout-cloud-supplier-access-abuse-virtualisation-takeovers-a"
+    },
+    "f71a910c08b11a93": {
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-10T21:47:56.255409+00:00",
+      "brief_slug": "2026-11-10-2147-today-s-smb-cyber-lookout-cloud-supplier-access-abuse-virtualisation-takeovers-a"
+    },
+    "af8c1df07c8f17c5": {
+      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-10T21:47:56.255409+00:00",
+      "brief_slug": "2026-11-10-2147-today-s-smb-cyber-lookout-cloud-supplier-access-abuse-virtualisation-takeovers-a"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-10-2147-today-s-smb-cyber-lookout-cloud-supplier-access-abuse-virtualisation-takeovers-a",
+      "headline": "Today’s SMB cyber lookout: cloud supplier access abuse, virtualisation takeovers, and “official notice” phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS trust abuse + business disruption (cloud, virtualisation) + phishing themes",
+      "published_at": "2026-11-10T21:47:56.255409+00:00",
+      "published_label": "Tuesday 10 November 2026, 21:47 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+        "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+        "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html"
+      ]
+    },
     {
       "slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br",
       "headline": "SMB Cyber Brief: MSP platform disruption risk, SaaS ‘trusted access’ breaches, and breach-driven phishing",
@@ -7972,20 +7978,6 @@
         "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
         "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
         "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
-      ]
-    },
-    {
-      "slug": "2026-08-12-1811-today-s-smb-cyber-brief-fake-vpn-browser-add-ons-fake-remote-hires-and-risky-usb",
-      "headline": "Today’s SMB Cyber Brief: Fake VPN browser add‑ons, fake remote hires, and risky USB drop attacks",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover and endpoint compromise via “helpful” tools (VPN extensions), hiring abuse, and physical/USB intrusion",
-      "published_at": "2026-08-12T18:11:14.160223+01:00",
-      "published_label": "Wednesday 12 August 2026, 18:11 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-        "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-        "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-        "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
       ]
     }
   ]
