@@ -1,103 +1,5 @@
 {
   "seen_urls": {
-    "bc8bdcb78a9e1664": {
-      "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T18:11:19.042712+01:00",
-      "brief_slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio"
-    },
-    "d41df8b64332995d": {
-      "url": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T18:11:19.042712+01:00",
-      "brief_slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio"
-    },
-    "65e45d86703293e9": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
-      "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-11T18:11:19.042712+01:00",
-      "brief_slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio"
-    },
-    "b566b358a523ac5f": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "1fa2facc3f30d0ff": {
-      "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "5e90b81f34e75b09": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "cf109a85f8e0dda5": {
-      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "4cc0270f88d8d7c1": {
-      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
-      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "ef7a70b327b6f817": {
-      "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "5eca0a7b43d27d46": {
-      "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "00914884b0e1da5a": {
-      "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
-      "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-12T09:39:07.366833+01:00",
-      "brief_slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo"
-    },
-    "685f5af5505e3a91": {
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T14:45:06.756272+01:00",
-      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
-    },
-    "76131b3384450071": {
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-12T14:45:06.756272+01:00",
-      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
-    },
-    "215b91448d4dcac6": {
-      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "source": "Krebs on Security",
-      "seen_at": "2026-08-12T14:45:06.756272+01:00",
-      "brief_slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta"
-    },
     "dc7fe6e1bf207ec0": {
       "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
@@ -5445,9 +5347,43 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-09T17:28:09.532087+00:00",
       "brief_slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026"
+    },
+    "e87452b09e8afa84": {
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-10T15:34:29.090156+00:00",
+      "brief_slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br"
+    },
+    "ee5e2ceda03abe1e": {
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-10T15:34:29.090156+00:00",
+      "brief_slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br"
+    },
+    "d6705ab398b4f944": {
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-10T15:34:29.090156+00:00",
+      "brief_slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-10-1534-smb-cyber-brief-msp-platform-disruption-risk-saas-trusted-access-breaches-and-br",
+      "headline": "SMB Cyber Brief: MSP platform disruption risk, SaaS ‘trusted access’ breaches, and breach-driven phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS incidents leading to outages, account compromise and convincing phishing",
+      "published_at": "2026-11-10T15:34:29.090156+00:00",
+      "published_label": "Tuesday 10 November 2026, 15:34 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+        "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+        "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+      ]
+    },
     {
       "slug": "2026-11-09-1728-smb-cyber-intelligence-brief-uk-monday-09-november-2026",
       "headline": "SMB Cyber Intelligence Brief (UK) — Monday 09 November 2026",
@@ -8050,50 +7986,6 @@
         "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
         "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
         "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
-      ]
-    },
-    {
-      "slug": "2026-08-12-1445-today-s-smb-cyber-lookout-supplier-platform-exposure-ai-logs-active-vcenter-atta",
-      "headline": "Today’s SMB cyber lookout: supplier platform exposure (AI logs) + active vCenter attacks",
-      "risk_level": "High",
-      "todays_lookout": "Supplier & SaaS risk and credential exposure (AI tooling) plus infrastructure compromise (vCenter)",
-      "published_at": "2026-08-12T14:45:06.756272+01:00",
-      "published_label": "Wednesday 12 August 2026, 14:45 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-        "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-        "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/"
-      ]
-    },
-    {
-      "slug": "2026-08-12-0939-today-s-smb-cyber-lookout-vpn-disruption-fake-job-interview-malware-and-a-develo",
-      "headline": "Today’s SMB cyber lookout: VPN disruption, fake “job interview” malware, and a developer supply-chain sting",
-      "risk_level": "High",
-      "todays_lookout": "Remote access disruption + IT staff social engineering + supplier/dependency credential exposure",
-      "published_at": "2026-08-12T09:39:07.366833+01:00",
-      "published_label": "Wednesday 12 August 2026, 09:39 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-        "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-        "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-        "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-        "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
-        "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-        "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-        "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/"
-      ]
-    },
-    {
-      "slug": "2026-08-11-1811-smb-cyber-intelligence-brief-supplier-incident-scams-and-trusted-update-confusio",
-      "headline": "SMB Cyber Intelligence Brief: supplier-incident scams and ‘trusted update’ confusion",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams, fake invoice/payment changes, and ‘update/download’ impersonation",
-      "published_at": "2026-08-11T18:11:19.042712+01:00",
-      "published_label": "Tuesday 11 August 2026, 18:11 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-        "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-        "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/"
       ]
     }
   ]
