@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "edfb56fa72f5ce91": {
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-13T18:11:14.691951+01:00",
-      "brief_slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent"
-    },
-    "a4f4d669c4c81cd8": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-13T18:11:14.691951+01:00",
-      "brief_slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent"
-    },
     "2ef1deb56f009fc1": {
       "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
       "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
@@ -5333,9 +5319,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-11T15:09:36.762042+00:00",
       "brief_slug": "2026-11-11-1509-today-s-smb-cyber-brief-supplier-breaches-phone-system-risk-and-unexpected-cloud"
+    },
+    "9d0e65808ab58d16": {
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "99d239565756098b": {
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "f7bee101ee0275bf": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "c13c660071cbc757": {
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "d875e13ba5ae8418": {
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "d8637e378806af0b": {
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-11T22:41:17.549729+00:00",
+      "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi",
+      "headline": "Today’s SMB cyber lookout: supplier breach scams, AWS credential theft, and certificate trust issues",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams + cloud credential theft + certificate trust disruption",
+      "published_at": "2026-11-11T22:41:17.549729+00:00",
+      "published_label": "Wednesday 11 November 2026, 22:41 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+        "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+        "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+        "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+        "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+      ]
+    },
     {
       "slug": "2026-11-11-1509-today-s-smb-cyber-brief-supplier-breaches-phone-system-risk-and-unexpected-cloud",
       "headline": "Today’s SMB cyber brief: supplier breaches, phone system risk, and ‘unexpected cloud/AI spend’",
@@ -7924,18 +7968,6 @@
         "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
         "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
         "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
-      ]
-    },
-    {
-      "slug": "2026-08-13-1811-today-s-sme-cyber-look-out-supplier-breach-phishing-and-actively-exploited-vcent",
-      "headline": "Today’s SME cyber look-out: supplier-breach phishing and actively exploited vCenter weakness",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams + MSP/virtualisation disruption risk",
-      "published_at": "2026-08-13T18:11:14.691951+01:00",
-      "published_label": "Thursday 13 August 2026, 18:11 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-        "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
       ]
     }
   ]
