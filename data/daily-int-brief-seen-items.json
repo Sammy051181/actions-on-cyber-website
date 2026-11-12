@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "4c9d6b022a5d05c3": {
-      "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T18:10:43.403929+01:00",
-      "brief_slug": "2026-08-14-1810-today-s-smb-cyber-lookout-google-workspace-token-hijacks-saas-platform-targeting"
-    },
-    "99dadd313b8cdbdf": {
-      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T18:10:43.403929+01:00",
-      "brief_slug": "2026-08-14-1810-today-s-smb-cyber-lookout-google-workspace-token-hijacks-saas-platform-targeting"
-    },
-    "f3d1727276b91814": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T18:10:43.403929+01:00",
-      "brief_slug": "2026-08-14-1810-today-s-smb-cyber-lookout-google-workspace-token-hijacks-saas-platform-targeting"
-    },
     "f425d96c2c87797e": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
       "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
@@ -5347,9 +5326,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-12T15:57:57.996419+00:00",
       "brief_slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin"
+    },
+    "be3a38dc184a3a26": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-12T22:14:23.722081+00:00",
+      "brief_slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup"
+    },
+    "0c7b196fe26ffd91": {
+      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-12T22:14:23.722081+00:00",
+      "brief_slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup"
+    },
+    "2fa347656b166d57": {
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-12T22:14:23.722081+00:00",
+      "brief_slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup"
+    },
+    "5af37a8a0588718d": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+      "title": "Hackers plant GSocket on Linux servers for persistent access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-12T22:14:23.722081+00:00",
+      "brief_slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup",
+      "headline": "Today’s SMB cyber lookout: Microsoft 365 disruption + remote support tool abuse + supplier breach knock-on",
+      "risk_level": "High",
+      "todays_lookout": "Cloud disruption and IT supplier impersonation scams (Microsoft 365 / remote support tools)",
+      "published_at": "2026-11-12T22:14:23.722081+00:00",
+      "published_label": "Thursday 12 November 2026, 22:14 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+        "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+        "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+        "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
+      ]
+    },
     {
       "slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin",
       "headline": "Today’s SMB cyber lookout: MSP remote-tool compromises and “Google session” phishing",
@@ -7929,19 +7950,6 @@
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
         "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13"
-      ]
-    },
-    {
-      "slug": "2026-08-14-1810-today-s-smb-cyber-lookout-google-workspace-token-hijacks-saas-platform-targeting",
-      "headline": "Today’s SMB cyber lookout: Google Workspace token hijacks, SaaS platform targeting, and macOS remote access abuse",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover and remote access abuse (with knock-on supplier/SaaS disruption risk)",
-      "published_at": "2026-08-14T18:10:43.403929+01:00",
-      "published_label": "Friday 14 August 2026, 18:10 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-        "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
       ]
     }
   ]
