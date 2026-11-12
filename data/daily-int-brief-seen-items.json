@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "2ef1deb56f009fc1": {
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T09:36:58.117833+01:00",
-      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
-    },
-    "dace2be75c679582": {
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T09:36:58.117833+01:00",
-      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
-    },
-    "df1d901c6dd98219": {
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T09:36:58.117833+01:00",
-      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
-    },
-    "3fd53cb513b85787": {
-      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-14T09:36:58.117833+01:00",
-      "brief_slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri"
-    },
-    "815fb64a5a953d1e": {
-      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T14:41:07.479194+01:00",
-      "brief_slug": "2026-08-14-1441-supplier-breach-watch-ringcentral-account-data-exposure-raises-phishing-and-take"
-    },
-    "ba32a4944ff6fdd9": {
-      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-14T14:41:07.479194+01:00",
-      "brief_slug": "2026-08-14-1441-supplier-breach-watch-ringcentral-account-data-exposure-raises-phishing-and-take"
-    },
     "4c9d6b022a5d05c3": {
       "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
       "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
@@ -5361,9 +5319,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-11T22:41:17.549729+00:00",
       "brief_slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi"
+    },
+    "8ecf3ded8f74d009": {
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-12T15:57:57.996419+00:00",
+      "brief_slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin"
+    },
+    "cd877208a9d9554b": {
+      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-12T15:57:57.996419+00:00",
+      "brief_slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin"
+    },
+    "b1fc427f51ef7a02": {
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-12T15:57:57.996419+00:00",
+      "brief_slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin"
+    },
+    "52b2d8e10bade960": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-12T15:57:57.996419+00:00",
+      "brief_slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-12-1557-today-s-smb-cyber-lookout-msp-remote-tool-compromises-and-google-session-phishin",
+      "headline": "Today’s SMB cyber lookout: MSP remote-tool compromises and “Google session” phishing",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/MSP compromise risk + Google account session-hijack phishing",
+      "published_at": "2026-11-12T15:57:57.996419+00:00",
+      "published_label": "Thursday 12 November 2026, 15:57 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+        "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+        "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/"
+      ]
+    },
     {
       "slug": "2026-11-11-2241-today-s-smb-cyber-lookout-supplier-breach-scams-aws-credential-theft-and-certifi",
       "headline": "Today’s SMB cyber lookout: supplier breach scams, AWS credential theft, and certificate trust issues",
@@ -7942,32 +7942,6 @@
         "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
         "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
-      ]
-    },
-    {
-      "slug": "2026-08-14-1441-supplier-breach-watch-ringcentral-account-data-exposure-raises-phishing-and-take",
-      "headline": "Supplier breach watch: RingCentral account data exposure raises phishing and takeover risk",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and account takeover attempts",
-      "published_at": "2026-08-14T14:41:07.479194+01:00",
-      "published_label": "Friday 14 August 2026, 14:41 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-        "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
-      ]
-    },
-    {
-      "slug": "2026-08-14-0936-today-s-smb-cyber-brief-phone-led-investment-scams-ransomware-defence-bypass-tri",
-      "headline": "Today’s SMB cyber brief: phone-led investment scams, ransomware defence bypass tricks, and iPhone threat alerts",
-      "risk_level": "High",
-      "todays_lookout": "Social engineering scams + ransomware disruption tactics + targeted mobile account risk",
-      "published_at": "2026-08-14T09:36:58.117833+01:00",
-      "published_label": "Friday 14 August 2026, 09:36 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-        "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-        "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-        "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
       ]
     }
   ]

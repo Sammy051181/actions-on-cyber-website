@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: MSP remote-tool compromises and “Google session” phishing | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: MSP remote-tool compromises and “Google session” phishing</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Thursday 12 November 2026, 15:57 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/MSP compromise risk + Google account session-hijack phishing
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) MSP and remote support tool compromise risk:</strong> reports of active attacks abusing compromised ScreenConnect environments to push unauthorised remote-access tooling onto customer devices.</p>
+<p><strong>2) Google session hijacking phishing:</strong> a campaign using convincing links and <strong>calendar invites</strong> to trick staff into handing over access to live Google sessions (so passwords alone don’t save you).</p>
+<p><strong>3) Developer and supplier risk via GitHub account takeovers:</strong> hijacked GitHub accounts used to plant a “secret stealer” into repositories/CI workflows, potentially exposing credentials used by builds and deployments.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>MSP tooling is a force multiplier:</strong> if your IT provider’s remote management or support tool is misused, attackers can reach many customer machines quickly.</li>
+  <li><strong>Session hijacking bypasses “we have MFA” assumptions:</strong> if an attacker steals a live session, they may access mail, files, or admin consoles without needing to re-enter credentials.</li>
+  <li><strong>Supply chain ripple effects:</strong> even if you don’t use GitHub directly, your website/app vendor might. Stolen build secrets can lead to tampered updates, data access, or service disruption.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected pop-ups or installer prompts for remote access/support software, or a new “support” tool appearing on devices.</li>
+  <li>Emails/calendar invites urging you to “review a document”, “join a meeting”, “approve access”, or “restore your account”, especially with time pressure.</li>
+  <li>Unusual Google Workspace activity: sign-ins you don’t recognise, new browser sessions, new OAuth/third-party app access, or new forwarding/sharing rules.</li>
+  <li>IT supplier communications about “urgent re-install”, “new remote agent”, or “temporary access” that don’t follow your normal process.</li>
+  <li>For organisations with software/dev activity: unexpected CI failures, new workflow changes, or secrets/keys being rotated without explanation.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Compromised remote support tooling:</strong> attackers leverage trusted remote-control channels to deploy additional remote-access clients, move laterally, and steal data without triggering obvious alarms.</li>
+  <li><strong>Calendar invite phishing + live proxying:</strong> staff click a link that looks safe; the attacker captures a live session and can act as the user (mail, files, approvals), sometimes in real time.</li>
+  <li><strong>GitHub/CI secrets theft:</strong> attackers use stolen developer accounts to add code or workflow steps that exfiltrate credentials used for cloud hosting, deployments, or third-party services.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Tell staff one simple rule:</strong> treat unexpected calendar invites and “document review” links as suspicious. Verify via a separate channel (Teams/phone) before clicking.</li>
+  <li><strong>Lock down remote support:</strong> confirm who is allowed to initiate remote sessions, ensure sessions are logged, and require approval/notification for unattended access.</li>
+  <li><strong>Review Google account security basics:</strong> check for unfamiliar sessions/devices, remove unknown third-party app access, and confirm MFA is enabled for all users.</li>
+  <li><strong>If you use a web/app developer or agency:</strong> ask whether they’ve checked for unauthorised GitHub/CI changes and rotated exposed secrets.</li>
+  <li><strong>Have a “supplier incident” script ready:</strong> if you receive an urgent message about remote tools or access changes, pause and verify authenticity before acting.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or you) use ScreenConnect or similar remote support tooling, and have you checked for any suspicious changes or unauthorised remote agents on customer devices?</li>
+  <li>What alerts/logs do you have for: new remote access tools installed, new admin accounts, and remote sessions outside normal hours?</li>
+  <li>Can you show how you restrict remote access (least privilege, approval for unattended access, and audit logs we can review)?</li>
+  <li>What’s our process if a supplier tool is compromised—how quickly can you isolate endpoints and revoke remote access?</li>
+  <li>If we rely on a developer/agency: do they use GitHub and CI, and do they have a process to detect repo/workflow tampering and rotate secrets quickly?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Microsoft has confirmed some recent Windows updates can cause SQL Server performance/stability issues. If you run line-of-business systems on SQL Server, ask your IT support to review whether you’re affected and to plan any remediation carefully to avoid unplanned downtime.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff note: “Be wary of unexpected calendar invites and document links—verify via phone/Teams before clicking,” and remind everyone how to report suspicious invites/emails internally.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Phishing &amp; Business Email Compromise (BEC) quick checks” checklist (including supplier-change verification and out-of-band approval steps).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/" rel="noopener noreferrer">Active ScreenConnect attacks breach MSPs, impact dozens of organizations</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html" rel="noopener noreferrer">Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html" rel="noopener noreferrer">Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/" rel="noopener noreferrer">Microsoft: Recent Windows updates cause SQL Server performance issues</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
