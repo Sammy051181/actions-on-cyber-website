@@ -1,75 +1,5 @@
 {
   "seen_urls": {
-    "f425d96c2c87797e": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "de4f35c2e82cef5f": {
-      "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-      "title": "Data analyst sent to prison for stealing data, extorting employer",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "ae84b1aab0beb676": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
-      "title": "Siemens Desigo DXR and PXC Controllers",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "a8ad91edb2bea185": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
-      "title": "ANDRITZ HIPASE-250 and 250 SCALA",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "10341ae0af0fff16": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-      "title": "Haiwell IoT Cloud HMI Gateway",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "cf3bb9f4d022e023": {
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "title": "Flow Neuroscience FL-100",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "3264c8ab3a0b5253": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
-      "title": "Siemens LOGO! Soft Comfort",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-15T08:43:23.338403+01:00",
-      "brief_slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today"
-    },
-    "adf27a5de8bb50c1": {
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-      "title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T13:57:58.276265+01:00",
-      "brief_slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q"
-    },
-    "00e63bf6755c35b9": {
-      "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T13:57:58.276265+01:00",
-      "brief_slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q"
-    },
-    "8e33415aceb996c5": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-      "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T13:57:58.276265+01:00",
-      "brief_slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q"
-    },
     "2ef1bbe49955c9fa": {
       "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
@@ -5354,9 +5284,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-12T22:14:23.722081+00:00",
       "brief_slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup"
+    },
+    "b32ccd39bcb9fea1": {
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "afe79ee14497cedd": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "ec46d2ca2fd1c7f3": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "d25f99854f909af5": {
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "69d1a63879fd152b": {
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "d32b5f97fc676bf8": {
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T15:22:32.041260+00:00",
+      "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-",
+      "headline": "Today’s SMB cyber lookout: invoice/payment change fraud, MSP tool risk, and stolen cloud credentials",
+      "risk_level": "High",
+      "todays_lookout": "Fake payment changes + supplier/MSP compromise leading to account takeover",
+      "published_at": "2026-11-13T15:22:32.041260+00:00",
+      "published_label": "Friday 13 November 2026, 15:22 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+        "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+        "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+        "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+        "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+        "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+      ]
+    },
     {
       "slug": "2026-11-12-2214-today-s-smb-cyber-lookout-microsoft-365-disruption-remote-support-tool-abuse-sup",
       "headline": "Today’s SMB cyber lookout: Microsoft 365 disruption + remote support tool abuse + supplier breach knock-on",
@@ -7920,36 +7908,6 @@
       "published_label": "Saturday 15 August 2026, 17:39 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/"
-      ]
-    },
-    {
-      "slug": "2026-08-15-1357-today-s-smb-cyber-look-out-ai-assisted-impersonation-watermark-confusion-and-a-q",
-      "headline": "Today’s SMB cyber look-out: AI-assisted impersonation, ‘watermark’ confusion, and a quick Windows patch check",
-      "risk_level": "Moderate",
-      "todays_lookout": "AI impersonation and trust signals (plus routine patch verification)",
-      "published_at": "2026-08-15T13:57:58.276265+01:00",
-      "published_label": "Saturday 15 August 2026, 13:57 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-        "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/"
-      ]
-    },
-    {
-      "slug": "2026-08-15-0843-supplier-led-bank-fraud-and-insider-extortion-practical-checks-for-smes-today",
-      "headline": "Supplier-led bank fraud and insider extortion: practical checks for SMEs today",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident scams, payment fraud and insider data theft",
-      "published_at": "2026-08-15T08:43:23.338403+01:00",
-      "published_label": "Saturday 15 August 2026, 08:43 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-        "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-        "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13"
       ]
     }
   ]

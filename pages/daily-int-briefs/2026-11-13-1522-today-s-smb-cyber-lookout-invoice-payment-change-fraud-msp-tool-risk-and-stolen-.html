@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber lookout: invoice/payment change fraud, MSP tool risk, and stolen cloud credentials | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber lookout: invoice/payment change fraud, MSP tool risk, and stolen cloud credentials</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 13 November 2026, 15:22 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Fake payment changes + supplier/MSP compromise leading to account takeover
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>Three themes to brief staff on today:</strong></p>
+<ul>
+  <li><strong>Invoice and bank-detail change scams</strong> made more convincing (including where AI or automation is involved in invoice processing).</li>
+  <li><strong>Managed service provider (MSP) / remote support tool risk</strong>: malware designed to spread from a customer device to MSP technician machines and then onward to other client networks.</li>
+  <li><strong>Cloud and email account takeover</strong> via stolen credentials and secrets (e.g., keys and tokens found in code repositories), leading to fraud and disruption.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs are attractive targets because a single compromised mailbox, remote support session, or finance workflow can quickly lead to:</p>
+<ul>
+  <li><strong>Misrouted payments</strong> (supplier bank details quietly changed).</li>
+  <li><strong>Wider compromise via trusted IT access</strong> if an MSP or remote tool is abused.</li>
+  <li><strong>Cloud disruption and data exposure</strong> if attackers obtain API keys, service credentials, or admin sessions.</li>
+</ul>
+<p>These attacks often look like normal business activity (a supplier email, a helpdesk session, a “routine” invoice), which is why simple verification steps make a big difference.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Any request to <strong>change bank details</strong>, especially if it adds urgency or asks to bypass “normal process”.</li>
+  <li>Invoices that look normal but have <strong>new bank details</strong> or subtle changes to beneficiary name/sort code/account number.</li>
+  <li>Emails that appear to come from a colleague/supplier but contain <strong>odd phrasing</strong>, unusual timing, or pressure to act quickly.</li>
+  <li>Unexpected remote support prompts, new remote agents installed, or IT asking for access in a way that’s <strong>not your usual process</strong>.</li>
+  <li>Unexplained logins, MFA prompts you didn’t initiate, or new “apps/integrations” added to Microsoft 365/Google/finance platforms.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Payment diversion via email manipulation:</strong> criminals send a malicious or carefully crafted email that leads staff (or an automation/AI agent) to update supplier bank details without the right checks.</li>
+  <li><strong>MSP pivoting:</strong> attackers compromise one organisation, then use remote management/support pathways to reach an MSP technician environment and potentially other customers.</li>
+  <li><strong>Secrets harvesting:</strong> criminals abuse compromised developer accounts and repositories to find credentials (tokens/keys), then use them to access cloud services, data, or automate fraud.</li>
+  <li><strong>Ransomware enablement:</strong> stolen credentials and remote tool access are commonly used as stepping stones to deploy ransomware or wipe/disable systems.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Re-confirm your payment change process:</strong> bank-detail changes must be verified via a known, independent channel (e.g., call a verified number from your records, not the email).</li>
+  <li><strong>Add a “2-person rule” for first-time or changed bank details</strong> (maker/checker approval in finance).</li>
+  <li><strong>Lock down who can change supplier bank details</strong> in your finance/payroll systems and review recent changes.</li>
+  <li><strong>Ask your MSP how they are monitoring remote tool abuse</strong> and how they separate technician access between customers.</li>
+  <li><strong>Check cloud/email security basics:</strong> ensure MFA is on, review recent sign-ins, and remove unknown app integrations.</li>
+  <li><strong>If you build software or use GitHub:</strong> confirm secrets scanning is enabled and that no keys/tokens are stored in repos; rotate any credentials you suspect may have been exposed.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>“If a customer device is compromised, what stops it spreading to technician machines and then to other clients?”</li>
+  <li>“How do you secure and monitor remote support tooling (including alerts for unusual remote sessions and deployments)?”</li>
+  <li>“Do you enforce separate privileged accounts per customer, and do you use conditional access / device checks for admin logins?”</li>
+  <li>“Can you show us how we’re alerted to suspicious sign-ins and new app integrations in Microsoft 365/Google?”</li>
+  <li>“Do you help us implement (or audit) maker/checker controls for supplier bank changes in our finance platform?”</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use a managed security gateway or rely on an MSP to run one, confirm they have a clear process to rapidly address actively exploited perimeter issues and to validate monitoring afterwards. Even when a supplier says mitigations are in place, you want written confirmation of what was done, when, and what extra monitoring is enabled for follow-on activity.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to finance: “No bank detail changes are actioned from email alone—verify using a known phone number and require a second approver.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Supplier bank detail change &amp; invoice fraud verification (call-back + maker/checker)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/" rel="noopener noreferrer">How one AI agent exposed five critical enterprise security gaps</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/" rel="noopener noreferrer">New worm-like &#x27;SCKit&#x27; malware targets MSPs in ScreenConnect attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/" rel="noopener noreferrer">Hackers compromise 4,800 GitHub accounts to steal cloud credentials</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html" rel="noopener noreferrer">Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html" rel="noopener noreferrer">Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html" rel="noopener noreferrer">FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
