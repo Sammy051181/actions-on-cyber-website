@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB cyber brief: Firewall gateway attacks, cloud VM mitigation reboots, and tampered hardware wallets | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB cyber brief: Firewall gateway attacks, cloud VM mitigation reboots, and tampered hardware wallets</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 13 November 2026, 21:58 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; platform risk causing business disruption (security gateways, cloud VMs, hardware device supply chain)
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Security gateway / firewall compromise and disruption:</strong> reporting suggests some Check Point gateway devices have been actively targeted, including cases linked to follow-on malware affecting VMware ESXi environments.</li>
+  <li><strong>Cloud VM maintenance that needs a restart window:</strong> Google Cloud is warning some customers on newer AMD “Turin” hosts that mitigations require a guest OS update and a stop/start of VMs.</li>
+  <li><strong>Device supply-chain tampering:</strong> Trezor confirmed hardware implants in a small number of Safe 5 wallets sold via a specific reseller, designed to steal recovery phrases.</li>
+  <li><strong>AI agent safety (process issue):</strong> reminder that AI agents connected to business tools can be tricked into taking unsafe actions if permissions and approvals aren’t set up carefully.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often depend on a small number of key systems to stay operational: a security gateway to access the internet and VPN, a virtualised server stack (including ESXi), and cloud-hosted services. If a gateway is compromised, it can become the stepping stone into the business. If cloud mitigations require VM stop/start, even a well-run business can face unplanned downtime. And supply-chain tampering is a reminder that “hardware security” still depends on where you buy from and how you verify devices.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>VPN users report <strong>sudden inability to connect</strong> or unusual MFA prompts; new/unknown VPN accounts appear.</li>
+  <li><strong>Unexpected configuration changes</strong> on your firewall/security gateway (new admin users, new rules, changed remote access settings).</li>
+  <li><strong>VMware ESXi hosts</strong> show unexplained service interruptions, missing VMs, or management access behaving oddly.</li>
+  <li>Cloud workloads show <strong>unplanned reboots</strong> or your provider flags that instances need stop/start to apply mitigations.</li>
+  <li>For crypto (if your organisation holds any): staff report a “new hardware wallet” arrived from a reseller and asks for recovery phrase in an unusual way; device packaging or provenance seems off.</li>
+  <li>AI/automation: an AI tool suggests exporting data, changing payment details, or sending bulk emails without a clear business reason.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Gateway-to-network pivot:</strong> attackers who gain high privileges on an internet-facing gateway may use it to move further into the network, access admin interfaces, or deploy disruptive malware.</li>
+  <li><strong>Disruption as leverage:</strong> wiping or knocking out virtual hosts (e.g., ESXi) can create sudden downtime that pressures a business into rushed decisions.</li>
+  <li><strong>Cloud co-tenancy concerns:</strong> cloud/CPU issues can matter most when an attacker already has a foothold (e.g., can run code in a VM) and tries to learn more than they should.</li>
+  <li><strong>Supply-chain theft:</strong> tampered devices can defeat otherwise good security practices by capturing secrets at setup time.</li>
+  <li><strong>AI agent prompt/permission abuse:</strong> attackers may plant instructions inside tickets, emails, or documents that cause an over-permissioned AI agent to take unauthorised actions.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Confirm ownership and monitoring of your gateway/firewall:</strong> who manages it (in-house or MSP), how logs are reviewed, and how quickly emergency fixes can be applied.</li>
+  <li><strong>Check for recent admin changes:</strong> review recent administrative logins and configuration changes on security gateways and remote access services.</li>
+  <li><strong>Protect ESXi management paths:</strong> ensure ESXi management interfaces aren’t exposed unnecessarily and confirm you have offline/immutable backups and a restore plan you’ve tested.</li>
+  <li><strong>Plan cloud maintenance windows:</strong> if you use Google Cloud VMs, ask your provider/team whether any workloads need a stop/start after OS updates, and schedule downtime to avoid surprises.</li>
+  <li><strong>Hardware wallet hygiene (if relevant):</strong> only procure via trusted channels, quarantine and verify any new devices, and follow vendor guidance if you bought from the named reseller.</li>
+  <li><strong>AI agent guardrails:</strong> ensure any AI agent connected to business systems has least privilege and requires human approval for exports, payment changes, account changes, or bulk communications.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Are any of our <strong>security gateways</strong> affected by the actively targeted Check Point issue, and what evidence do we have (logs/alerts) that we’re clean?</li>
+  <li>Do we have a <strong>known-good backup</strong> for critical servers and virtual machines that’s protected from deletion/wiping, and when was a restore last tested?</li>
+  <li>If we run on Google Cloud, are any workloads on hosts impacted by the AMD “Turin” mitigations, and what’s our <strong>stop/start plan</strong> (timing, comms, rollback)?</li>
+  <li>What’s our process for <strong>emergency hotfixes</strong> to security appliances (change control, out-of-hours response, verification)?</li>
+  <li>If we use AI tools/agents: what permissions do they have, and what actions require <strong>human approval</strong>?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s patch watch is about <strong>emergency fixes and planned restarts</strong>: Check Point has issued hotfixes for an issue described as actively exploited, and Google Cloud notes that some mitigations for AMD “Turin” environments require a guest OS update plus a VM stop/start. Ensure you know which systems you run, who applies urgent fixes, and how you schedule downtime safely.</p>
+
+        <h2>One action today</h2>
+        <p>Today, ask your IT provider to review your security gateway/firewall for recent admin/config changes and confirm whether emergency hotfixes (and any required reboots) are needed this weekend.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Ransomware readiness for SMEs (backups, restore testing, and critical supplier dependencies)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/" rel="noopener noreferrer">Check Point warns of zero-day flaw exploited for root access</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/" rel="noopener noreferrer">Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html" rel="noopener noreferrer">Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/" rel="noopener noreferrer">Trezor confirms crypto-stealing implants in three wallets, releases fix</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html" rel="noopener noreferrer">Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html" rel="noopener noreferrer">When an AI Agent Goes Wrong, Can You Stop It?</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

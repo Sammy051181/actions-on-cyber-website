@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "2ef1bbe49955c9fa": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-15T17:39:47.104298+01:00",
-      "brief_slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux"
-    },
     "0a6826eb0448c7a0": {
       "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
       "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
@@ -5326,9 +5319,67 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-13T15:22:32.041260+00:00",
       "brief_slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-"
+    },
+    "02c1dcd61c66dc6c": {
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+      "title": "Check Point warns of zero-day flaw exploited for root access",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
+    },
+    "97c01e9fc4639398": {
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
+    },
+    "34b40f857b9f9cf5": {
+      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
+    },
+    "d2962957f52f8763": {
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
+    },
+    "ea8f2c6821428bc1": {
+      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
+    },
+    "ed1f4b35eca7ef25": {
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-13T21:58:44.750068+00:00",
+      "brief_slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-13-2158-today-s-smb-cyber-brief-firewall-gateway-attacks-cloud-vm-mitigation-reboots-and",
+      "headline": "Today’s SMB cyber brief: Firewall gateway attacks, cloud VM mitigation reboots, and tampered hardware wallets",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & platform risk causing business disruption (security gateways, cloud VMs, hardware device supply chain)",
+      "published_at": "2026-11-13T21:58:44.750068+00:00",
+      "published_label": "Friday 13 November 2026, 21:58 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+        "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+        "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+        "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+        "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+        "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+      ]
+    },
     {
       "slug": "2026-11-13-1522-today-s-smb-cyber-lookout-invoice-payment-change-fraud-msp-tool-risk-and-stolen-",
       "headline": "Today’s SMB cyber lookout: invoice/payment change fraud, MSP tool risk, and stolen cloud credentials",
@@ -7897,17 +7948,6 @@
       "published_label": "Sunday 16 August 2026, 17:41 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
-      ]
-    },
-    {
-      "slug": "2026-08-15-1739-smb-cyber-intelligence-brief-router-gateway-devices-being-roped-into-a-new-linux",
-      "headline": "SMB Cyber Intelligence Brief: Router/gateway devices being roped into a new Linux botnet",
-      "risk_level": "Moderate",
-      "todays_lookout": "Router and gateway compromise turning devices into traffic relays",
-      "published_at": "2026-08-15T17:39:47.104298+01:00",
-      "published_label": "Saturday 15 August 2026, 17:39 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/"
       ]
     }
   ]
