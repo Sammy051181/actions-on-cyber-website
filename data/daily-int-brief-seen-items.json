@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "0a6826eb0448c7a0": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-16T17:41:13.630118+01:00",
-      "brief_slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack"
-    },
     "847da71208bc87c8": {
       "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
@@ -5389,9 +5382,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-14T14:07:48.664860+00:00",
       "brief_slug": "2026-11-14-1407-weekend-smb-cyber-brief-msp-tool-risk-windows-privilege-escalation-chatter-and-f"
+    },
+    "2396f465be9396c9": {
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-14T20:42:28.381968+00:00",
+      "brief_slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr"
+    },
+    "53b1d1645f89232b": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "title": "Microsoft says November security updates cause printing issues",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-14T20:42:28.381968+00:00",
+      "brief_slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr"
+    },
+    "9c5c30b78fe1e9b2": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+      "title": "Microsoft confirms Windows activation failures after November updates",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-14T20:42:28.381968+00:00",
+      "brief_slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr",
+      "headline": "Today’s SMB cyber lookout: malicious marketplace extensions + Microsoft update disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/marketplace incident scams and business disruption from software updates",
+      "published_at": "2026-11-14T20:42:28.381968+00:00",
+      "published_label": "Saturday 14 November 2026, 20:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
+      ]
+    },
     {
       "slug": "2026-11-14-1407-weekend-smb-cyber-brief-msp-tool-risk-windows-privilege-escalation-chatter-and-f",
       "headline": "Weekend SMB Cyber Brief: MSP tool risk, Windows privilege-escalation chatter, and fake AI-tool websites",
@@ -7979,17 +8006,6 @@
         "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
         "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
         "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/"
-      ]
-    },
-    {
-      "slug": "2026-08-16-1741-today-s-sme-lookout-macos-clickfix-scams-leading-to-browser-session-hijack",
-      "headline": "Today’s SME lookout: macOS ‘ClickFix’ scams leading to browser session hijack",
-      "risk_level": "High",
-      "todays_lookout": "Fake fix prompts (ClickFix) and macOS browser session theft",
-      "published_at": "2026-08-16T17:41:13.630118+01:00",
-      "published_label": "Sunday 16 August 2026, 17:41 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
       ]
     }
   ]
