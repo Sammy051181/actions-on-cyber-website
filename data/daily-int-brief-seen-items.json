@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "854ad5325b12e6af": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-      "title": "Microsoft confirms GitHub is down worldwide",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T17:44:30.209871+01:00",
-      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
-    },
-    "5ab36643acff495f": {
-      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-      "title": "How MCP Servers Can Expose Enterprise Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-17T17:44:30.209871+01:00",
-      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
-    },
-    "9da7db7cc2a65cda": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T17:44:30.209871+01:00",
-      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
-    },
-    "c7510fc0ce5f9849": {
-      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T17:44:30.209871+01:00",
-      "brief_slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris"
-    },
     "e4644ae7413d4b4a": {
       "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
       "title": "Pokémon Center data breach exposes customer info, cancels some orders",
@@ -5368,9 +5340,43 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-15T14:44:47.731337+00:00",
       "brief_slug": "2026-11-15-1444-today-s-sme-cyber-look-out-trojanised-extensions-and-persuasive-work-tool-social"
+    },
+    "288ae0a72da3a810": {
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-15T21:01:40.538432+00:00",
+      "brief_slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta"
+    },
+    "ddd80cd3bed8cfd4": {
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-15T21:01:40.538432+00:00",
+      "brief_slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta"
+    },
+    "e577b898eca3316f": {
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-15T21:01:40.538432+00:00",
+      "brief_slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta",
+      "headline": "Today’s SMB cyber look-out: supplier-linked data leaks and AI-assisted attacks targeting Microsoft 365 and MSP chains",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, cloud/M365 takeovers, and breach follow-on phishing",
+      "published_at": "2026-11-15T21:01:40.538432+00:00",
+      "published_label": "Sunday 15 November 2026, 21:01 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+        "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+        "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+      ]
+    },
     {
       "slug": "2026-11-15-1444-today-s-sme-cyber-look-out-trojanised-extensions-and-persuasive-work-tool-social",
       "headline": "Today’s SME cyber look-out: trojanised extensions and persuasive “work tool” social engineering",
@@ -7942,20 +7948,6 @@
         "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
         "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
         "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog"
-      ]
-    },
-    {
-      "slug": "2026-08-17-1744-today-s-smb-cyber-brief-github-outage-disruption-ai-agent-mcp-secret-leakage-ris",
-      "headline": "Today’s SMB Cyber Brief: GitHub outage disruption + AI agent/MCP “secret leakage” risk",
-      "risk_level": "Moderate",
-      "todays_lookout": "Cloud/SaaS disruption scams and secret exposure via AI tooling",
-      "published_at": "2026-08-17T17:44:30.209871+01:00",
-      "published_label": "Monday 17 August 2026, 17:44 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-        "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-        "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-        "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/"
       ]
     }
   ]
