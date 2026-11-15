@@ -1,54 +1,5 @@
 {
   "seen_urls": {
-    "847da71208bc87c8": {
-      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T08:59:31.472030+01:00",
-      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
-    },
-    "0748ca510918d820": {
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T08:59:31.472030+01:00",
-      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
-    },
-    "6565f68216623d65": {
-      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T08:59:31.472030+01:00",
-      "brief_slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons"
-    },
-    "f632e57bed8cc4fc": {
-      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-17T14:04:29.310215+01:00",
-      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
-    },
-    "1982bb8549d62c4e": {
-      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "title": "Philips and GE investigating Clop ransomware data theft claims",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T14:04:29.310215+01:00",
-      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
-    },
-    "651dff2e0053b34f": {
-      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-      "title": "French tax authority data breach affects 678,000 individuals",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T14:04:29.310215+01:00",
-      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
-    },
-    "47cc0c0a32769532": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
-      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-17T14:04:29.310215+01:00",
-      "brief_slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-"
-    },
     "854ad5325b12e6af": {
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
       "title": "Microsoft confirms GitHub is down worldwide",
@@ -5403,9 +5354,35 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-14T20:42:28.381968+00:00",
       "brief_slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr"
+    },
+    "d5585df40181d87d": {
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-15T14:44:47.731337+00:00",
+      "brief_slug": "2026-11-15-1444-today-s-sme-cyber-look-out-trojanised-extensions-and-persuasive-work-tool-social"
+    },
+    "0eb645ca70f53d6a": {
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-15T14:44:47.731337+00:00",
+      "brief_slug": "2026-11-15-1444-today-s-sme-cyber-look-out-trojanised-extensions-and-persuasive-work-tool-social"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-15-1444-today-s-sme-cyber-look-out-trojanised-extensions-and-persuasive-work-tool-social",
+      "headline": "Today’s SME cyber look-out: trojanised extensions and persuasive “work tool” social engineering",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/SaaS and extension marketplace risk, plus social engineering aimed at getting staff to install or approve tools",
+      "published_at": "2026-11-15T14:44:47.731337+00:00",
+      "published_label": "Sunday 15 November 2026, 14:44 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+        "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
+      ]
+    },
     {
       "slug": "2026-11-14-2042-today-s-smb-cyber-lookout-malicious-marketplace-extensions-microsoft-update-disr",
       "headline": "Today’s SMB cyber lookout: malicious marketplace extensions + Microsoft update disruption",
@@ -7979,33 +7956,6 @@
         "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
         "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
         "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/"
-      ]
-    },
-    {
-      "slug": "2026-08-17-1404-ransomware-targeting-vmware-management-servers-plus-breach-driven-impersonation-",
-      "headline": "Ransomware targeting VMware management servers, plus breach-driven impersonation scams to watch",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware & supplier-impersonation scams (IT platform risk + breach ripple effects)",
-      "published_at": "2026-08-17T14:04:29.310215+01:00",
-      "published_label": "Monday 17 August 2026, 14:04 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-        "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-        "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/"
-      ]
-    },
-    {
-      "slug": "2026-08-17-0859-supplier-disruption-data-breach-expect-impersonation-and-downtime-knock-ons",
-      "headline": "Supplier disruption + data breach: expect impersonation and downtime knock-ons",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier outage scams and data-breach follow-on phishing",
-      "published_at": "2026-08-17T08:59:31.472030+01:00",
-      "published_label": "Monday 17 August 2026, 08:59 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-        "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/"
       ]
     }
   ]
