@@ -1,61 +1,5 @@
 {
   "seen_urls": {
-    "e4644ae7413d4b4a": {
-      "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-18T08:53:09.221486+01:00",
-      "brief_slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale"
-    },
-    "51cdb8f86fccc11b": {
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-18T08:53:09.221486+01:00",
-      "brief_slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale"
-    },
-    "499cd8c9d62306bc": {
-      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T08:53:09.221486+01:00",
-      "brief_slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale"
-    },
-    "c8f5936ef6e38497": {
-      "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T08:53:09.221486+01:00",
-      "brief_slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale"
-    },
-    "82660a1cedeef7c6": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-18T08:53:09.221486+01:00",
-      "brief_slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale"
-    },
-    "727e9dd4d812f1f3": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-      "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-18T14:06:30.026489+01:00",
-      "brief_slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today"
-    },
-    "77045d80f7ad69e1": {
-      "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T14:06:30.026489+01:00",
-      "brief_slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today"
-    },
-    "8d518de522f49304": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-18T14:06:30.026489+01:00",
-      "brief_slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today"
-    },
     "6f9e97f4de864e46": {
       "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
       "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
@@ -5361,9 +5305,51 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-15T21:01:40.538432+00:00",
       "brief_slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta"
+    },
+    "91e784d7cca7318c": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-16T16:59:26.469823+00:00",
+      "brief_slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple"
+    },
+    "0d946a07bc289f65": {
+      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+      "title": "Fandango says hackers stole payment card details from checkout pages",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-16T16:59:26.469823+00:00",
+      "brief_slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple"
+    },
+    "d6a0c3df6c7fff40": {
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-16T16:59:26.469823+00:00",
+      "brief_slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple"
+    },
+    "f5ef776679d8464c": {
+      "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-16T16:59:26.469823+00:00",
+      "brief_slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple",
+      "headline": "Today’s SMB Cyber Brief: Microsoft 365 outage lessons, card-checkout breach ripple effects, and AI app key theft",
+      "risk_level": "Moderate",
+      "todays_lookout": "Cloud disruption + supplier breach follow-on scams + exposed SaaS/AI keys",
+      "published_at": "2026-11-16T16:59:26.469823+00:00",
+      "published_label": "Monday 16 November 2026, 16:59 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+        "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+        "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+        "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/"
+      ]
+    },
     {
       "slug": "2026-11-15-2101-today-s-smb-cyber-look-out-supplier-linked-data-leaks-and-ai-assisted-attacks-ta",
       "headline": "Today’s SMB cyber look-out: supplier-linked data leaks and AI-assisted attacks targeting Microsoft 365 and MSP chains",
@@ -7920,34 +7906,6 @@
         "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
         "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/"
-      ]
-    },
-    {
-      "slug": "2026-08-18-1406-microsoft-365-disruption-cloud-app-abuse-what-smes-should-watch-today",
-      "headline": "Microsoft 365 disruption & cloud-app abuse: what SMEs should watch today",
-      "risk_level": "High",
-      "todays_lookout": "Cloud productivity disruption + SharePoint/Teams credential theft + ransomware follow-on risk",
-      "published_at": "2026-08-18T14:06:30.026489+01:00",
-      "published_label": "Tuesday 18 August 2026, 14:06 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-        "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/"
-      ]
-    },
-    {
-      "slug": "2026-08-18-0853-smb-cyber-brief-supplier-breach-ripple-effects-cloud-account-data-for-sale",
-      "headline": "SMB Cyber Brief: Supplier breach ripple effects + cloud account data for sale",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams, fake delivery/order messages, and cloud account takeover",
-      "published_at": "2026-08-18T08:53:09.221486+01:00",
-      "published_label": "Tuesday 18 August 2026, 08:53 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-        "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-        "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-        "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-        "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog"
       ]
     }
   ]

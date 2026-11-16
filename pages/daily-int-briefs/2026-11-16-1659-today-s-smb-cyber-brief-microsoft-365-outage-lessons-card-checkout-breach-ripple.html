@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SMB Cyber Brief: Microsoft 365 outage lessons, card-checkout breach ripple effects, and AI app key theft | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SMB Cyber Brief: Microsoft 365 outage lessons, card-checkout breach ripple effects, and AI app key theft</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">Moderate</span>
+        <span>Monday 16 November 2026, 16:59 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Cloud disruption + supplier breach follow-on scams + exposed SaaS/AI keys
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Microsoft 365 reliability and contingency planning:</strong> Microsoft says a months-old bug caused last week’s global Microsoft 365 outage via a cascading failure affecting networking gateway servers.</li>
+  <li><strong>Payment card “checkout page” compromise:</strong> Ticket seller Fandango says hackers stole payment card details entered on its checkout pages. This type of incident often leads to follow-on fraud and convincing customer-support scams.</li>
+  <li><strong>AI/SaaS key theft targeting:</strong> Amazon reports an “AI agent” campaign hunting weaknesses in internet-exposed AI apps (e.g. LiteLLM/One API/Dify) to steal API keys stored inside, then using stolen keys to power further searching.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Business disruption:</strong> If you rely on Microsoft 365 for email, Teams, SharePoint/OneDrive, identity sign-in or line-of-business add-ins, an outage can halt work, invoicing, customer response and operations.</li>
+  <li><strong>Financial impact:</strong> Card-theft incidents can trigger chargebacks, fraud queries, and reputational issues—plus increased scam calls/emails claiming to be “billing support”.</li>
+  <li><strong>Unexpected cloud spend and data exposure:</strong> Stolen AI/provider API keys can lead to runaway costs, service suspension, and potential leakage of prompts/data if systems are misused.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Microsoft 365:</strong> staff reporting sign-in problems, Teams messages not sending, SharePoint/OneDrive files failing to open/sync, or repeated re-authentication prompts.</li>
+  <li><strong>Payments:</strong> customers or staff seeing unexplained card transactions after a purchase; increased “did you make this payment?” calls; sudden spikes in refund requests.</li>
+  <li><strong>API keys/AI apps:</strong> unusual usage spikes, unexpected bills, alerts about quota limits, new unknown integrations, or logs showing access from unfamiliar locations/services.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Outage-themed phishing:</strong> emails or calls claiming to be Microsoft/your IT provider asking users to “re-login”, “reconnect Teams”, or approve a new MFA prompt to fix access.</li>
+  <li><strong>Refund/chargeback scams:</strong> criminals impersonating a merchant or payment support, offering a “refund”, and pushing victims to share card details, one-time codes, or install remote-support tools.</li>
+  <li><strong>API key harvesting:</strong> attackers probing internet-exposed AI tooling and admin panels to extract stored provider keys, then using them for further automated scanning and expensive model usage.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Agree your “M365 outage mode”:</strong> document how you’ll communicate (phone/SMS/WhatsApp), how to access critical contacts, and how to handle urgent customer requests if email/Teams is down.</li>
+  <li><strong>Brief front-office/finance staff:</strong> treat outage/refund/billing calls and emails as high-risk today—verify via known numbers and avoid clicking “account fix” links.</li>
+  <li><strong>Check key hygiene:</strong> inventory where AI/provider API keys are stored; rotate any keys that are shared widely or stored in web apps; enable alerts for unusual spend/usage where available.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li><strong>Resilience:</strong> “What is our agreed plan if Microsoft 365 is unavailable for a day—how do we access contacts, documents, and customer requests?”</li>
+  <li><strong>Identity controls:</strong> “Do we have conditional access / sign-in alerts that would flag unusual logins during outage-themed phishing waves?”</li>
+  <li><strong>Key management:</strong> “Do we have a register of API keys (AI, payment, comms) and a process to rotate and monitor them? Are any keys stored in internet-exposed tools?”</li>
+  <li><strong>Web payment risk:</strong> “If we take card payments online, how are checkout pages monitored for tampering and how quickly would we detect a skimmer-type incident?”</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you run any internet-facing Linux services (web/SSH), ask your IT provider to confirm they’re tracking the newly reported “NoisyTCP” issue that can crash some Linux servers under default configurations, and that protective mitigations/monitoring are in place while updates are assessed.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal note today: treat any “Microsoft 365 fix”, “refund/chargeback”, or “urgent re-login” messages as suspicious and verify via a known phone number before taking action.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: SME Business Continuity for Cloud/SaaS Outages (one-page checklist)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/" rel="noopener noreferrer">Microsoft says months-old bug caused global Microsoft 365 outage</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/" rel="noopener noreferrer">Fandango says hackers stole payment card details from checkout pages</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html" rel="noopener noreferrer">Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/" rel="noopener noreferrer">New NoisyTCP vulnerability lets attackers crash Linux servers</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
