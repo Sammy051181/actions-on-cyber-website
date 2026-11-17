@@ -1,89 +1,5 @@
 {
   "seen_urls": {
-    "6f9e97f4de864e46": {
-      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T17:47:45.733029+01:00",
-      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
-    },
-    "5e10185b7da23e8f": {
-      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T17:47:45.733029+01:00",
-      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
-    },
-    "baa27ed0fe16d8c9": {
-      "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-18T17:47:45.733029+01:00",
-      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
-    },
-    "25a892e0e0743a39": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-18T17:47:45.733029+01:00",
-      "brief_slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish"
-    },
-    "ee1a3760dd26f889": {
-      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T08:53:53.940624+01:00",
-      "brief_slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri"
-    },
-    "851d3dad36226e49": {
-      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-19T08:53:53.940624+01:00",
-      "brief_slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri"
-    },
-    "3db875d507ead183": {
-      "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T08:53:53.940624+01:00",
-      "brief_slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri"
-    },
-    "c960f83a4e1fa057": {
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T08:53:53.940624+01:00",
-      "brief_slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri"
-    },
-    "5ef6f15942f813cd": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-      "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-19T14:07:37.073458+01:00",
-      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
-    },
-    "d147b16777527f66": {
-      "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T14:07:37.073458+01:00",
-      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
-    },
-    "c0cb35055ffec7a2": {
-      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T14:07:37.073458+01:00",
-      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
-    },
-    "7519abc26fd1c7cd": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
-      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-19T14:07:37.073458+01:00",
-      "brief_slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to"
-    },
     "3480c475467139bf": {
       "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
       "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
@@ -5333,9 +5249,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-16T16:59:26.469823+00:00",
       "brief_slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple"
+    },
+    "b6e25351df538f83": {
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-17T16:52:29.465909+00:00",
+      "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
+    },
+    "54e4290953ac1ddd": {
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-17T16:52:29.465909+00:00",
+      "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
+    },
+    "ac17c0218f3e057f": {
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-17T16:52:29.465909+00:00",
+      "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
+    },
+    "6279c3ce26f4a586": {
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-17T16:52:29.465909+00:00",
+      "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
+    },
+    "0ca7f638e6a0b164": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+      "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-11-17T16:52:29.465909+00:00",
+      "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th",
+      "headline": "Today’s SME cyber lookout: web supply-chain malvertising + Microsoft 365 session theft",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams, web supply-chain risk, and Microsoft 365 account takeover phishing",
+      "published_at": "2026-11-17T16:52:29.465909+00:00",
+      "published_label": "Tuesday 17 November 2026, 16:52 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+        "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+        "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+        "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+        "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
+      ]
+    },
     {
       "slug": "2026-11-16-1659-today-s-smb-cyber-brief-microsoft-365-outage-lessons-card-checkout-breach-ripple",
       "headline": "Today’s SMB Cyber Brief: Microsoft 365 outage lessons, card-checkout breach ripple effects, and AI app key theft",
@@ -7864,48 +7830,6 @@
         "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
         "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
         "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
-      ]
-    },
-    {
-      "slug": "2026-08-19-1407-ransomware-pressure-wordpress-as-a-launchpad-malware-and-mac-credential-theft-to",
-      "headline": "Ransomware pressure, WordPress-as-a-launchpad malware, and Mac credential theft: today’s SME lookout",
-      "risk_level": "High",
-      "todays_lookout": "Malware and ransomware-enabled account theft (WordPress lures, macOS stealers) and knock-on disruption",
-      "published_at": "2026-08-19T14:07:37.073458+01:00",
-      "published_label": "Wednesday 19 August 2026, 14:07 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-        "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-        "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-        "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/"
-      ]
-    },
-    {
-      "slug": "2026-08-19-0853-today-s-sme-cyber-lookout-ransomware-helpers-supplier-platform-data-theft-and-ri",
-      "headline": "Today’s SME cyber lookout: ransomware “helpers”, supplier platform data theft, and risky AI-assistant links",
-      "risk_level": "High",
-      "todays_lookout": "Extortion follow‑ons and link-based data grabs (ransomware + connected apps)",
-      "published_at": "2026-08-19T08:53:53.940624+01:00",
-      "published_label": "Wednesday 19 August 2026, 08:53 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-        "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-        "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-        "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html"
-      ]
-    },
-    {
-      "slug": "2026-08-18-1747-smb-cyber-intelligence-brief-watch-for-saas-portal-scraping-breach-fuelled-phish",
-      "headline": "SMB Cyber Intelligence Brief: Watch for SaaS portal scraping, breach‑fuelled phishing, and code supply‑chain traps",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/SaaS data exposure scams and portal scraping",
-      "published_at": "2026-08-18T17:47:45.733029+01:00",
-      "published_label": "Tuesday 18 August 2026, 17:47 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-        "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-        "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/"
       ]
     }
   ]
