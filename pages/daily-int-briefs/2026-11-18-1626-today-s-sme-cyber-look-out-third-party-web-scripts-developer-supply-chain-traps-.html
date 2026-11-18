@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber look-out: third‑party web scripts, developer supply‑chain traps, and Apple service disruption | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber look-out: third‑party web scripts, developer supply‑chain traps, and Apple service disruption</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Wednesday 18 November 2026, 16:26 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier &amp; software supply-chain risk (website scripts, packages, cloud credentials) plus SaaS disruption
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Third-party website script compromise risk:</strong> reports say attackers abused Optimizely (a website personalisation/A-B testing tool) so that many well-known sites unknowingly served malware to visitors.</p>
+<p><strong>2) Developer supply-chain and credential theft:</strong> a Microsoft-related Python package on PyPI (“agent-framework”) was reportedly compromised briefly to steal cloud credentials.</p>
+<p><strong>3) Cloud keys in public images:</strong> exposed secrets in public Docker Hub images are reportedly stolen within seconds of publication.</p>
+<p><strong>4) Apple dependency disruption:</strong> Apple reported outages affecting services including iCloud Mail and Apple School Manager.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>You can be affected without being targeted:</strong> if staff browse an infected site, a device may be exposed even though your business wasn’t the intended victim.</li>
+  <li><strong>Websites and marketing tools are shared dependencies:</strong> if you use third-party scripts (testing, analytics, chat widgets), a supplier issue can quickly become your incident.</li>
+  <li><strong>Small dev teams are a prime target:</strong> one compromised package or leaked key can hand attackers access to cloud systems, code repos, or customer data.</li>
+  <li><strong>Operational impact:</strong> iCloud Mail / Apple School Manager disruption can break communications, account sign-in, and school admin workflows.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>On your website:</strong> unusual pop-ups/redirects; sudden spikes in blocked scripts; reports from customers that your site “looks odd” or triggers security warnings.</li>
+  <li><strong>On staff devices:</strong> browser behaving strangely after visiting mainstream websites; repeated sign-in prompts; unexplained new browser extensions.</li>
+  <li><strong>In cloud/admin logs:</strong> new API keys created unexpectedly; login alerts from unusual locations; sudden permission changes on service accounts.</li>
+  <li><strong>For Apple users:</strong> widespread mail delivery issues, repeated authentication prompts, or inability to access Apple School Manager/Schoolwork.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>“Trusted site” infection:</strong> attackers rely on staff visiting reputable websites that happen to load compromised third-party scripts.</li>
+  <li><strong>Developer lure and package poisoning:</strong> attackers slip credential-stealing code into popular dependencies so it runs during development or automation work.</li>
+  <li><strong>Secret harvesting:</strong> attackers continuously scan public container images and code for exposed keys, then use them immediately for cloud access.</li>
+  <li><strong>Outage-driven phishing:</strong> during high-profile service disruption, criminals often send fake “restore your account” emails and bogus support calls.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>For website owners:</strong> inventory third-party scripts (A/B testing, analytics, tag managers, chat). If you use Optimizely or similar tooling, ask your web partner what monitoring and rollback controls are in place.</li>
+  <li><strong>For IT/admin:</strong> review recent admin sign-ins and newly created API keys/service accounts in your cloud platforms; investigate anything you don’t recognise.</li>
+  <li><strong>For dev/technical teams:</strong> double-check recent dependency updates and any automated builds since 17–18 Nov; be extra cautious with “quick update” prompts.</li>
+  <li><strong>For everyone:</strong> remind staff not to “fix” account issues via links in emails during outages; use bookmarks/known portals instead.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have a current list of <strong>third-party scripts</strong> on our website, and can we disable them quickly if needed?</li>
+  <li>How do we <strong>monitor</strong> for unexpected changes to website content (including third-party tags)?</li>
+  <li>Do we have <strong>alerting</strong> for abnormal cloud sign-ins and new key creation? Who reviews those alerts daily?</li>
+  <li>What controls do we have to prevent/limit damage from <strong>leaked credentials</strong> (short-lived keys, least privilege, secret scanning, rapid revocation)?</li>
+  <li>What’s our <strong>fallback plan</strong> if iCloud/Apple School Manager or other key SaaS tools go down (alternate mail access, comms channel, offline procedures)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>This is mainly a <strong>supplier/supply-chain</strong> issue rather than a single patching story. The practical focus today is tightening control over third-party web scripts and developer dependencies, and checking cloud access logs/keys for anything unusual following recent supply-chain reports.</p>
+
+        <h2>One action today</h2>
+        <p>Today, list the third-party scripts and tags running on your website (A/B testing, analytics, chat) and confirm you can disable them quickly if a supplier issue is suspected.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: Third‑party &amp; supplier risk quick check (websites, SaaS and MSPs)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/" rel="noopener noreferrer">Attackers Used Optimizely to A/B Test Malware on Top Websites</a> <span class="muted">(Krebs on Security)</span></li><li><a href="https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html" rel="noopener noreferrer">Attackers Compromise Microsoft&#x27;s Agent Framework PyPI Package to Steal Cloud Credentials</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/" rel="noopener noreferrer">Cloud keys leaked in Docker Hub images are stolen within seconds</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/" rel="noopener noreferrer">Apple reports outages affecting iCloud Mail, AppleCare and more</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

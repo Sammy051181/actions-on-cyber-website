@@ -1,82 +1,5 @@
 {
   "seen_urls": {
-    "3480c475467139bf": {
-      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-19T17:46:06.215472+01:00",
-      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
-    },
-    "b3d652ff51df4921": {
-      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-19T17:46:06.215472+01:00",
-      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
-    },
-    "95cffd3568d060e4": {
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
-      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-19T17:46:06.215472+01:00",
-      "brief_slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers"
-    },
-    "2b2f8778b75699ef": {
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T08:55:56.192284+01:00",
-      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
-    },
-    "eac982b66ebccc44": {
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
-      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T08:55:56.192284+01:00",
-      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
-    },
-    "fd9aa5790c84cee2": {
-      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T08:55:56.192284+01:00",
-      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
-    },
-    "36ba4d341c0804d5": {
-      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T08:55:56.192284+01:00",
-      "brief_slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti"
-    },
-    "237d26e3f1f2ca16": {
-      "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-20T14:10:21.097322+01:00",
-      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
-    },
-    "7aa10154e2ca3cd0": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-      "title": "New Manic Android malware can exfiltrate data through nearby devices",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T14:10:21.097322+01:00",
-      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
-    },
-    "1c6b6eea4c8b2950": {
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T14:10:21.097322+01:00",
-      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
-    },
-    "e9af320d90c544ae": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T14:10:21.097322+01:00",
-      "brief_slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo"
-    },
     "e466cd90008a4db1": {
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
       "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
@@ -5284,9 +5207,51 @@
       "source": "Google Threat Intelligence",
       "seen_at": "2026-11-17T16:52:29.465909+00:00",
       "brief_slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th"
+    },
+    "e010dc913600f8d7": {
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "source": "Krebs on Security",
+      "seen_at": "2026-11-18T16:26:05.459594+00:00",
+      "brief_slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-"
+    },
+    "533b590042a01508": {
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-18T16:26:05.459594+00:00",
+      "brief_slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-"
+    },
+    "2cac7202a964b936": {
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-18T16:26:05.459594+00:00",
+      "brief_slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-"
+    },
+    "d82820a08fcb4635": {
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-18T16:26:05.459594+00:00",
+      "brief_slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-",
+      "headline": "Today’s SME cyber look-out: third‑party web scripts, developer supply‑chain traps, and Apple service disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier & software supply-chain risk (website scripts, packages, cloud credentials) plus SaaS disruption",
+      "published_at": "2026-11-18T16:26:05.459594+00:00",
+      "published_label": "Wednesday 18 November 2026, 16:26 UK time",
+      "source_urls": [
+        "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+        "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+        "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+        "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/"
+      ]
+    },
     {
       "slug": "2026-11-17-1652-today-s-sme-cyber-lookout-web-supply-chain-malvertising-microsoft-365-session-th",
       "headline": "Today’s SME cyber lookout: web supply-chain malvertising + Microsoft 365 session theft",
@@ -7789,47 +7754,6 @@
         "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
         "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
         "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
-      ]
-    },
-    {
-      "slug": "2026-08-20-1410-smb-cyber-intelligence-brief-android-banking-malware-urgent-remote-access-platfo",
-      "headline": "SMB Cyber Intelligence Brief — Android banking malware & urgent remote access platform risk",
-      "risk_level": "High",
-      "todays_lookout": "Mobile banking fraud + remote access/SaaS compromise risk",
-      "published_at": "2026-08-20T14:10:21.097322+01:00",
-      "published_label": "Thursday 20 August 2026, 14:10 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-        "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-        "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
-      ]
-    },
-    {
-      "slug": "2026-08-20-0855-today-s-smb-cyber-brief-ransomware-recovery-impersonation-scams-ai-saas-disrupti",
-      "headline": "Today’s SMB Cyber Brief: “Ransomware recovery” impersonation scams, AI/SaaS disruption, and breach-driven phishing",
-      "risk_level": "High",
-      "todays_lookout": "Supplier incident scams and urgent-payment fraud during ransomware and SaaS disruption",
-      "published_at": "2026-08-20T08:55:56.192284+01:00",
-      "published_label": "Thursday 20 August 2026, 08:55 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
-        "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-        "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/"
-      ]
-    },
-    {
-      "slug": "2026-08-19-1746-today-s-smb-cyber-lookout-password-spraying-surges-and-cctv-iot-device-takeovers",
-      "headline": "Today’s SMB cyber lookout: password-spraying surges and CCTV/IoT device takeovers",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover attempts via password-spraying + insecure internet-connected devices",
-      "published_at": "2026-08-19T17:46:06.215472+01:00",
-      "published_label": "Wednesday 19 August 2026, 17:46 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-        "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
       ]
     }
   ]
