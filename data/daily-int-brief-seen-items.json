@@ -1,110 +1,5 @@
 {
   "seen_urls": {
-    "e466cd90008a4db1": {
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
-      "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
-      "source": "Google Threat Intelligence",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "41d45d363a36e857": {
-      "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-      "title": "How MSPs can catch phishing attacks email filters miss",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "88c8957eed48de4f": {
-      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "541e0309d10b7da7": {
-      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "0a363bcfbc5d957d": {
-      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-      "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "b398c07080514782": {
-      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-20T17:49:55.348840+01:00",
-      "brief_slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri"
-    },
-    "630ad3fed036364e": {
-      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-21T08:56:14.550600+01:00",
-      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
-    },
-    "000b292e537a8c93": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T08:56:14.550600+01:00",
-      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
-    },
-    "41850b0deaa2721c": {
-      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-21T08:56:14.550600+01:00",
-      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
-    },
-    "42c3afc04079c9f5": {
-      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-21T08:56:14.550600+01:00",
-      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
-    },
-    "70f2277fb6a228ef": {
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-      "title": "Johnson Controls Simplex Incident Manager",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-21T08:56:14.550600+01:00",
-      "brief_slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco"
-    },
-    "4afb6e3d2eca76f5": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T14:09:44.888252+01:00",
-      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
-    },
-    "7cc11dd0cff08b09": {
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T14:09:44.888252+01:00",
-      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
-    },
-    "c28837178a4227a5": {
-      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T14:09:44.888252+01:00",
-      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
-    },
-    "24de1cffcbc07dae": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T14:09:44.888252+01:00",
-      "brief_slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight"
-    },
     "5af2f8bcbf22f962": {
       "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
       "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
@@ -5235,9 +5130,75 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-18T16:26:05.459594+00:00",
       "brief_slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-"
+    },
+    "c3f1d9d987e86306": {
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "6ebe391a8b41bbc0": {
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "3208f46dd1690335": {
+      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "993f9d718221ef41": {
+      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "eb38241a0eaffa22": {
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "88c544823e0d1532": {
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "967cc7919da4028e": {
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
+      "title": "ARMORY CASTLE Exploits vSphere",
+      "source": "Google Threat Intelligence",
+      "seen_at": "2026-11-19T16:32:27.067961+00:00",
+      "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno",
+      "headline": "Supplier incidents + deepfake impersonation: tighten verification and watch for knock-on disruption",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and SaaS/MSP disruption (email security) + identity verification gaps",
+      "published_at": "2026-11-19T16:32:27.067961+00:00",
+      "published_label": "Thursday 19 November 2026, 16:32 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+        "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+        "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+        "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+        "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+        "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/"
+      ]
+    },
     {
       "slug": "2026-11-18-1626-today-s-sme-cyber-look-out-third-party-web-scripts-developer-supply-chain-traps-",
       "headline": "Today’s SME cyber look-out: third‑party web scripts, developer supply‑chain traps, and Apple service disruption",
@@ -7709,51 +7670,6 @@
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
         "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
-      ]
-    },
-    {
-      "slug": "2026-08-21-1409-smb-cyber-intelligence-brief-identity-comms-platforms-in-the-spotlight",
-      "headline": "SMB Cyber Intelligence Brief — Identity & comms platforms in the spotlight",
-      "risk_level": "High",
-      "todays_lookout": "Cloud identity takeover and comms-platform targeting (with follow-on phishing)",
-      "published_at": "2026-08-21T14:09:44.888252+01:00",
-      "published_label": "Friday 21 August 2026, 14:09 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-        "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-        "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/"
-      ]
-    },
-    {
-      "slug": "2026-08-21-0856-smb-cyber-intelligence-brief-cloud-identity-software-supply-chain-and-oauth-acco",
-      "headline": "SMB Cyber Intelligence Brief — Cloud identity, software supply chain, and OAuth account takeovers",
-      "risk_level": "High",
-      "todays_lookout": "Cloud identity and supplier/software supply-chain risk (plus account takeover via legitimate login flows)",
-      "published_at": "2026-08-21T08:56:14.550600+01:00",
-      "published_label": "Friday 21 August 2026, 08:56 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-        "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-        "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-        "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01"
-      ]
-    },
-    {
-      "slug": "2026-08-20-1749-smb-cyber-intelligence-brief-phishing-via-real-login-flows-website-compromise-ri",
-      "headline": "SMB Cyber Intelligence Brief: phishing via real login flows, website compromise risk, and payment/POS fraud themes",
-      "risk_level": "High",
-      "todays_lookout": "Phishing that abuses real sign-in flows + common SaaS/website entry points",
-      "published_at": "2026-08-20T17:49:55.348840+01:00",
-      "published_label": "Thursday 20 August 2026, 17:49 UK time",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
-        "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-        "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-        "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-        "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
       ]
     }
   ]
