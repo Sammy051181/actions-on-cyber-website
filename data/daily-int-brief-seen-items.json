@@ -1,47 +1,5 @@
 {
   "seen_urls": {
-    "5af2f8bcbf22f962": {
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-21T17:50:20.397488+01:00",
-      "brief_slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks"
-    },
-    "befbe5399e8065d8": {
-      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-21T17:50:20.397488+01:00",
-      "brief_slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks"
-    },
-    "e9e0eed4def8f092": {
-      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-22T08:45:09.196276+01:00",
-      "brief_slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste"
-    },
-    "b4bdc1ce93f33bd8": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-22T13:59:41.463228+01:00",
-      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
-    },
-    "4b6135796923fbea": {
-      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-22T13:59:41.463228+01:00",
-      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
-    },
-    "eaaed4290b794f92": {
-      "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-22T13:59:41.463228+01:00",
-      "brief_slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages"
-    },
     "a068075960f8a725": {
       "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
       "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
@@ -5179,9 +5137,51 @@
       "source": "Google Threat Intelligence",
       "seen_at": "2026-11-19T16:32:27.067961+00:00",
       "brief_slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno"
+    },
+    "63176744cc4b38aa": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "title": "N-able says recent security breach led to major service outage",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-20T16:07:49.240052+00:00",
+      "brief_slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir"
+    },
+    "c3a9fb72b6dce4b4": {
+      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-20T16:07:49.240052+00:00",
+      "brief_slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir"
+    },
+    "823ccfebdf7ab435": {
+      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-20T16:07:49.240052+00:00",
+      "brief_slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir"
+    },
+    "8991c2c279cde04d": {
+      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-20T16:07:49.240052+00:00",
+      "brief_slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir",
+      "headline": "Today’s SMB cyber lookout: supplier outages, breach follow-on scams, and ageing firewalls",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and service disruption (MSP/email filtering) plus internet-edge risk",
+      "published_at": "2026-11-20T16:07:49.240052+00:00",
+      "published_label": "Friday 20 November 2026, 16:07 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+        "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+        "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+        "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
+      ]
+    },
     {
       "slug": "2026-11-19-1632-supplier-incidents-deepfake-impersonation-tighten-verification-and-watch-for-kno",
       "headline": "Supplier incidents + deepfake impersonation: tighten verification and watch for knock-on disruption",
@@ -7634,42 +7634,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
         "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
-      ]
-    },
-    {
-      "slug": "2026-08-22-1359-today-s-sme-cyber-look-out-email-server-exploitation-malicious-software-packages",
-      "headline": "Today’s SME cyber look-out: email server exploitation, malicious software packages, and chatbot data leaks",
-      "risk_level": "High",
-      "todays_lookout": "Supplier and platform risk: email compromise + software supply chain + AI tool data leakage",
-      "published_at": "2026-08-22T13:59:41.463228+01:00",
-      "published_label": "Saturday 22 August 2026, 13:59 UK time",
-      "source_urls": [
-        "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-        "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html"
-      ]
-    },
-    {
-      "slug": "2026-08-22-0845-today-s-smb-cyber-lookout-microsoft-teams-phishing-delivering-new-credential-ste",
-      "headline": "Today’s SMB cyber lookout: Microsoft Teams phishing delivering new credential-stealing malware",
-      "risk_level": "High",
-      "todays_lookout": "Teams phishing and account takeover leading to malware and business email compromise",
-      "published_at": "2026-08-22T08:45:09.196276+01:00",
-      "published_label": "Saturday 22 August 2026, 08:45 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
-      ]
-    },
-    {
-      "slug": "2026-08-21-1750-smb-cyber-intelligence-brief-cloud-keys-exposure-and-trusted-tool-abuse-risks",
-      "headline": "SMB Cyber Intelligence Brief — Cloud keys exposure and “trusted tool” abuse risks",
-      "risk_level": "High",
-      "todays_lookout": "Cloud account takeover risk (leaked keys) and trusted security tooling being abused",
-      "published_at": "2026-08-21T17:50:20.397488+01:00",
-      "published_label": "Friday 21 August 2026, 17:50 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-        "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
       ]
     }
   ]
