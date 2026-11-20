@@ -1,19 +1,5 @@
 {
   "seen_urls": {
-    "a068075960f8a725": {
-      "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-22T17:39:13.943444+01:00",
-      "brief_slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel"
-    },
-    "6966acdf0cc363e2": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-22T17:39:13.943444+01:00",
-      "brief_slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel"
-    },
     "a0e4824b388dcd83": {
       "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
@@ -5165,9 +5151,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-20T16:07:49.240052+00:00",
       "brief_slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir"
+    },
+    "37781c126ada2617": {
+      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "a1277bddeebe52e0": {
+      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "e40617893cabf092": {
+      "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "0b4042589720c604": {
+      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "4b0033536e5760bb": {
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "b22eec5809ce5c9c": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-11-20T22:40:11.458267+00:00",
+      "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures",
+      "headline": "Friday briefing: breach-driven phishing + ‘ClickFix’ malware lures",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/breach-themed scams and fake “fix” prompts delivering remote access",
+      "published_at": "2026-11-20T22:40:11.458267+00:00",
+      "published_label": "Friday 20 November 2026, 22:40 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+        "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+        "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+        "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+        "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+        "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      ]
+    },
     {
       "slug": "2026-11-20-1607-today-s-smb-cyber-lookout-supplier-outages-breach-follow-on-scams-and-ageing-fir",
       "headline": "Today’s SMB cyber lookout: supplier outages, breach follow-on scams, and ageing firewalls",
@@ -7622,18 +7666,6 @@
       "source_urls": [
         "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
         "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
-      ]
-    },
-    {
-      "slug": "2026-08-22-1739-smb-cyber-brief-malware-spread-via-car-head-unit-updates-supplier-update-channel",
-      "headline": "SMB Cyber Brief: Malware spread via car head-unit updates (supplier/update-channel risk)",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier/update-channel compromise leading to hidden network access (proxy botnet)",
-      "published_at": "2026-08-22T17:39:13.943444+01:00",
-      "published_label": "Saturday 22 August 2026, 17:39 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
       ]
     }
   ]
