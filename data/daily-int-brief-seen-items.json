@@ -1,26 +1,5 @@
 {
   "seen_urls": {
-    "a0e4824b388dcd83": {
-      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-23T08:46:35.553590+01:00",
-      "brief_slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp"
-    },
-    "51c8d451f6eb936f": {
-      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-23T08:46:35.553590+01:00",
-      "brief_slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp"
-    },
-    "6b617776fd344f09": {
-      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-23T14:00:49.906294+01:00",
-      "brief_slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster"
-    },
     "b423251955043778": {
       "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
@@ -5193,9 +5172,43 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-11-20T22:40:11.458267+00:00",
       "brief_slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures"
+    },
+    "15f220796a18084d": {
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-21T15:20:24.391837+00:00",
+      "brief_slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-"
+    },
+    "0736dd63e3ff1a03": {
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-21T15:20:24.391837+00:00",
+      "brief_slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-"
+    },
+    "5896797fd3159e6e": {
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "source": "Krebs on Security",
+      "seen_at": "2026-11-21T15:20:24.391837+00:00",
+      "brief_slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-",
+      "headline": "Today’s SME Cyber Brief: vCenter attacks, Windows 11 auto-upgrades, and ransomware “recovery” scams",
+      "risk_level": "High",
+      "todays_lookout": "Business disruption + supplier/IT estate risk + ransomware response scams",
+      "published_at": "2026-11-21T15:20:24.391837+00:00",
+      "published_label": "Saturday 21 November 2026, 15:20 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+        "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+      ]
+    },
     {
       "slug": "2026-11-20-2240-friday-briefing-breach-driven-phishing-clickfix-malware-lures",
       "headline": "Friday briefing: breach-driven phishing + ‘ClickFix’ malware lures",
@@ -7643,29 +7656,6 @@
       "published_label": "Sunday 23 August 2026, 17:42 UK time",
       "source_urls": [
         "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
-      ]
-    },
-    {
-      "slug": "2026-08-23-1400-today-s-smb-cyber-lookout-identity-reuse-makes-breaches-and-scams-spread-faster",
-      "headline": "Today’s SMB cyber lookout: identity reuse makes breaches and scams spread faster",
-      "risk_level": "Moderate",
-      "todays_lookout": "Breach ripple effects and account takeover via reused identifiers",
-      "published_at": "2026-08-23T14:00:49.906294+01:00",
-      "published_label": "Sunday 23 August 2026, 14:00 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/"
-      ]
-    },
-    {
-      "slug": "2026-08-23-0846-today-s-smb-cyber-lookout-social-platform-privacy-news-used-for-scams-check-supp",
-      "headline": "Today’s SMB cyber lookout: social-platform privacy news used for scams + check supplier exposure to high-impact network patches",
-      "risk_level": "Moderate",
-      "todays_lookout": "Supplier incident & privacy-news scams; managed network platform patch risk",
-      "published_at": "2026-08-23T08:46:35.553590+01:00",
-      "published_label": "Sunday 23 August 2026, 08:46 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-        "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
       ]
     }
   ]
