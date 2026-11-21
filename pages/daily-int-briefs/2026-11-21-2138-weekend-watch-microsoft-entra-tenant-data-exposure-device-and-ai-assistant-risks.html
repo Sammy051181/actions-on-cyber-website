@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Weekend watch: Microsoft Entra tenant data exposure + device and AI-assistant risks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Weekend watch: Microsoft Entra tenant data exposure + device and AI-assistant risks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Saturday 21 November 2026, 21:38 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier incident scams and cloud identity targeting
+        </div>
+
+        <h2>What to look out for today</h2>
+<p><strong>1) Microsoft Entra tenant data exposure</strong>: reports say attackers exploited a flaw in <em>Microsoft Entra Connect Health</em> and accessed some tenant information (including admin email addresses and configuration details). Expect follow-on phishing aimed at Microsoft 365/Entra admins and finance teams.</p>
+<p><strong>2) Suspicious Android TV boxes / “streaming sticks” on business Wi‑Fi</strong>: the BADBOX botnet has returned, affecting a broad range of generic Android TV boxes and pushing large-scale ad-fraud activity. These devices can sit quietly on networks and create risk you don’t expect from a “TV gadget”.</p>
+<p><strong>3) AI assistant / chat data exposure themes</strong>: research shows how a single malicious webpage could potentially access private conversations and connected-account credentials in an AI assistant context. Separately, Signal is moving to restrict screenshots by default to reduce AI agents reading chats—useful reminder that assistants and “helpful” device features can become new data-leak paths.</p>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Supplier incidents become phishing fuel</strong>: if admin email addresses and tenant configuration details are exposed, attackers can tailor highly believable emails and calls (e.g. “Microsoft partner support”, “your tenant is misconfigured”, “urgent security action required”).</li>
+  <li><strong>Cloud identity is your front door</strong>: most SMEs rely on Microsoft 365/Entra for email, files, and logins. A successful phish or admin takeover can quickly become invoice fraud, data theft, or business disruption.</li>
+  <li><strong>“Non-business” devices create business risk</strong>: cheap Android boxes used in reception areas, staff rooms, or meeting rooms can create an unmanaged foothold on the same network as business systems.</li>
+  <li><strong>AI features can leak sensitive info</strong>: assistants embedded in browsers/phones may access content in ways staff don’t expect, increasing the chance of accidental disclosure.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Emails or calls claiming to be from Microsoft/your IT provider asking you to “verify tenant details”, “re-sync Entra”, or “approve an urgent security change”.</li>
+  <li>Unexpected MFA prompts, password reset emails, or new device sign-in alerts for Microsoft 365/Entra admin accounts.</li>
+  <li>Requests to install a “support tool”, click a link to a “security portal”, or approve a consent/permissions screen you weren’t expecting.</li>
+  <li>Unknown Android/TV/streaming devices showing up on your Wi‑Fi, or complaints about slow Wi‑Fi with no obvious cause.</li>
+  <li>Staff using AI assistants with access to business accounts, especially when clicking unfamiliar links while signed in.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Targeted admin phishing</strong> using real tenant/admin details to sound legitimate, aiming to steal Microsoft 365 credentials or get an admin to approve access.</li>
+  <li><strong>Invoice/payment diversion</strong>: once inside email, attackers often monitor finance threads and change bank details at the right moment.</li>
+  <li><strong>Session/cookie theft and consent tricks</strong>: getting a user to approve access (or reuse an existing sign-in session) can bypass “I would spot a fake password page”.</li>
+  <li><strong>Network footholds via unmanaged devices</strong>: compromised Android TV boxes can be used as persistent “always on” devices that are rarely checked.</li>
+  <li><strong>Data leakage via assistant workflows</strong>: a malicious page or integration could expose chat history or connected-account details depending on how tools are set up.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Brief staff (10 minutes)</strong>: warn about Microsoft/IT “urgent security” emails and calls this weekend. Tell people not to click, not to approve prompts, and to escalate internally.</li>
+  <li><strong>Protect admin accounts</strong>: confirm MFA is on for all admin accounts; reduce the number of global admins; ensure admin accounts are separate from day-to-day email where possible.</li>
+  <li><strong>Check sign-in alerts</strong>: review recent sign-ins for admin accounts and investigate unusual locations/devices.</li>
+  <li><strong>Find and isolate unknown devices</strong>: review your router/Wi‑Fi client list for unknown Android/TV devices; move guest/IoT devices to a separate network (or remove them).</li>
+  <li><strong>Set a rule of thumb for AI tools</strong>: don’t connect AI assistants to business accounts unless IT has approved it; avoid using assistants for sensitive client/HR/finance content.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Have you checked whether our Microsoft 365/Entra environment shows any unusual admin sign-ins or changes in the last 7 days?</li>
+  <li>Do we have a clear list of <strong>who</strong> has admin roles, and can we reduce it?</li>
+  <li>Can you confirm MFA is enforced for admins and that conditional access (or equivalent controls) is in place for admin sign-ins?</li>
+  <li>Do we have an “IoT/guest” Wi‑Fi network separated from business systems, and is it actually being used for TVs/meeting room devices?</li>
+  <li>What’s our process if someone approves an unexpected MFA prompt or clicks a convincing ‘Microsoft security’ link out of hours?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>Today’s most actionable issues are <strong>identity and supplier-driven</strong> rather than a normal patch scramble. If your organisation uses Linux-based virtualisation or specialist cryptography tools via third-party software, ask your IT provider to confirm they track kernel/library security updates through your hosting and software suppliers (so you’re not relying on ad-hoc patching).</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal alert telling staff to treat any “Microsoft/IT urgent tenant security” emails or calls as suspicious this weekend and to report them before clicking or approving any MFA/consent prompts.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber checklist: “Stop invoice fraud and fake bank detail change requests”</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/" rel="noopener noreferrer">Microsoft Entra Connect Health flaw exploited to steal tenant data</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/" rel="noopener noreferrer">BADBOX botnet returns with record-breaking 40 billion daily ad requests</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html" rel="noopener noreferrer">A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html" rel="noopener noreferrer">Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

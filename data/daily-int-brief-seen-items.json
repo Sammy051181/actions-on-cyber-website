@@ -1,12 +1,5 @@
 {
   "seen_urls": {
-    "b423251955043778": {
-      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-23T17:42:29.274280+01:00",
-      "brief_slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions"
-    },
     "e14279b772b46caa": {
       "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
       "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
@@ -5193,9 +5186,51 @@
       "source": "Krebs on Security",
       "seen_at": "2026-11-21T15:20:24.391837+00:00",
       "brief_slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-"
+    },
+    "cd00c38abb0c60dd": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-21T21:38:40.308826+00:00",
+      "brief_slug": "2026-11-21-2138-weekend-watch-microsoft-entra-tenant-data-exposure-device-and-ai-assistant-risks"
+    },
+    "9c3f2473640f00b5": {
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-21T21:38:40.308826+00:00",
+      "brief_slug": "2026-11-21-2138-weekend-watch-microsoft-entra-tenant-data-exposure-device-and-ai-assistant-risks"
+    },
+    "059e30cfca7341a0": {
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-21T21:38:40.308826+00:00",
+      "brief_slug": "2026-11-21-2138-weekend-watch-microsoft-entra-tenant-data-exposure-device-and-ai-assistant-risks"
+    },
+    "c5410e0ea07b3ca7": {
+      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-21T21:38:40.308826+00:00",
+      "brief_slug": "2026-11-21-2138-weekend-watch-microsoft-entra-tenant-data-exposure-device-and-ai-assistant-risks"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-21-2138-weekend-watch-microsoft-entra-tenant-data-exposure-device-and-ai-assistant-risks",
+      "headline": "Weekend watch: Microsoft Entra tenant data exposure + device and AI-assistant risks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier incident scams and cloud identity targeting",
+      "published_at": "2026-11-21T21:38:40.308826+00:00",
+      "published_label": "Saturday 21 November 2026, 21:38 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+        "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+        "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+        "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
+      ]
+    },
     {
       "slug": "2026-11-21-1520-today-s-sme-cyber-brief-vcenter-attacks-windows-11-auto-upgrades-and-ransomware-",
       "headline": "Today’s SME Cyber Brief: vCenter attacks, Windows 11 auto-upgrades, and ransomware “recovery” scams",
@@ -7645,17 +7680,6 @@
         "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
         "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
         "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html"
-      ]
-    },
-    {
-      "slug": "2026-08-23-1742-today-s-smb-cyber-lookout-android-malware-abusing-vpn-permissions",
-      "headline": "Today’s SMB cyber lookout: Android malware abusing VPN permissions",
-      "risk_level": "Moderate",
-      "todays_lookout": "Mobile malware on staff Android devices (VPN permission abuse)",
-      "published_at": "2026-08-23T17:42:29.274280+01:00",
-      "published_label": "Sunday 23 August 2026, 17:42 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
       ]
     }
   ]
