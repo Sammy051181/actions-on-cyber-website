@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Sunday brief: payment card breach risk + router cloud management compromise | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Sunday brief: payment card breach risk + router cloud management compromise</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 22 November 2026, 21:44 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier breach scams and remote access device compromise
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Supplier breach fallout:</strong> Cleverbridge says attackers stole <strong>payment card data including card numbers and CVVs</strong>. Expect follow-on fraud attempts and convincing “account/payment security” messages.</li>
+  <li><strong>Remote access device compromise:</strong> GL.iNet says attackers exploited a flaw in its <strong>cloud remote management</strong> service to install malware on some customers’ <strong>routers and KVM devices</strong>, with reports of backdoors providing remote access.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>Card fraud and chargebacks:</strong> If your business or customers used Cleverbridge for purchases, you may see disputed transactions, replacement cards, or “verification” calls/emails that look legitimate.</li>
+  <li><strong>Business disruption risk:</strong> A compromised router can be a stepping-stone into email, file shares, cloud apps, and payment workflows—often without obvious signs until something breaks or money moves.</li>
+  <li><strong>Supplier dependency:</strong> These issues sit outside your office—inside a supplier platform or cloud management layer—so normal endpoint antivirus may not help.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Unexpected “Cleverbridge” emails or calls asking you to <strong>confirm card details</strong>, reset passwords, or “verify” invoices/subscriptions.</li>
+  <li>Customers reporting fraud shortly after purchases; unusual spikes in refunds/chargebacks.</li>
+  <li>Routers/KVMs behaving oddly: slow internet, random reboots, settings changed, new admin accounts, or remote access enabled when you didn’t enable it.</li>
+  <li>New outbound connections from network devices you don’t recognise, or alerts from your firewall/MSP about unusual traffic.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>“Breach-confirmation” phishing:</strong> criminals use the news as cover to send fake security notices that harvest passwords or card details.</li>
+  <li><strong>Payment diversion:</strong> finance teams may be targeted with “urgent card re-entry” or “update billing” requests that route payments to criminals.</li>
+  <li><strong>Network foothold:</strong> if a router or KVM device is backdoored, attackers can monitor traffic, attempt logins to cloud services, and move towards email takeover and payment fraud.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Run a quick supplier exposure check:</strong> confirm whether your business uses Cleverbridge for any purchases/subscriptions (or used it recently) and note which mailbox receives purchase receipts.</li>
+  <li><strong>Brief finance/admin staff (5 minutes):</strong> do not act on “payment security” emails; verify by going to the supplier via bookmarks/known portals or calling known numbers (not numbers in emails).</li>
+  <li><strong>Review card activity:</strong> check business card statements for small “test” charges and unexpected transactions; tighten approval thresholds for refunds/credits today.</li>
+  <li><strong>Check remote management exposure:</strong> if you use GL.iNet cloud remote management, confirm which devices are enrolled, who has access, and whether any devices show unexpected configuration changes.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have any <strong>GL.iNet</strong> routers or KVM/remote access devices in use, and are any managed via the vendor’s <strong>cloud remote management</strong>?</li>
+  <li>Can you review logs/alerts for unusual outbound connections or configuration changes from network devices over the last 7–14 days?</li>
+  <li>Do we enforce <strong>MFA</strong> on cloud admin accounts and vendor portals, and do we have an up-to-date list of who can access them?</li>
+  <li>What’s our process for handling <strong>supplier breach follow-on phishing</strong> (mail filtering, banner warnings, and a clear “verify out-of-band” procedure for finance)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If you use GL.iNet’s cloud-managed devices, treat this as an urgent maintenance check: confirm what mitigations or updates GL.iNet has provided and ensure your devices and their cloud management accounts are secured. The main immediate risk for SMEs is compromised remote access infrastructure rather than a single workstation infection.</p>
+
+        <h2>One action today</h2>
+        <p>Send a short internal note to finance/admin staff today: “If you receive any Cleverbridge/payment-security message or any request to change payment details, do not reply—verify using our saved supplier portal/bookmarked site or a known phone number.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>CTA: Use the Actions On Cyber “Payment change &amp; supplier breach scam checks” mini-checklist (finance verification and call-back process).</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/" rel="noopener noreferrer">Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/" rel="noopener noreferrer">Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>

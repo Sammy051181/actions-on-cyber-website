@@ -1,33 +1,5 @@
 {
   "seen_urls": {
-    "eef5e5ff1cf8c96d": {
-      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-24T17:54:29.950401+01:00",
-      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
-    },
-    "5157632da92a9e2c": {
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-24T17:54:29.950401+01:00",
-      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
-    },
-    "5a4c9da06b51c567": {
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-      "title": "Microsoft Teams now lets admins block external bots from meetings",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-24T17:54:29.950401+01:00",
-      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
-    },
-    "a0a0d84fcc932409": {
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-24T17:54:29.950401+01:00",
-      "brief_slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona"
-    },
     "ab19b111baf20bee": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
@@ -5214,9 +5186,35 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-22T15:16:06.524176+00:00",
       "brief_slug": "2026-11-22-1516-sunday-brief-cloud-supplier-breach-zero-retention-ai-data-risk-whatsapp-scam-ang"
+    },
+    "c75a4d0a4b580d8c": {
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-22T21:44:59.994890+00:00",
+      "brief_slug": "2026-11-22-2144-sunday-brief-payment-card-breach-risk-router-cloud-management-compromise"
+    },
+    "f7511684402b8adf": {
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-22T21:44:59.994890+00:00",
+      "brief_slug": "2026-11-22-2144-sunday-brief-payment-card-breach-risk-router-cloud-management-compromise"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-22-2144-sunday-brief-payment-card-breach-risk-router-cloud-management-compromise",
+      "headline": "Sunday brief: payment card breach risk + router cloud management compromise",
+      "risk_level": "High",
+      "todays_lookout": "Supplier breach scams and remote access device compromise",
+      "published_at": "2026-11-22T21:44:59.994890+00:00",
+      "published_label": "Sunday 22 November 2026, 21:44 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+      ]
+    },
     {
       "slug": "2026-11-22-1516-sunday-brief-cloud-supplier-breach-zero-retention-ai-data-risk-whatsapp-scam-ang",
       "headline": "Sunday brief: cloud supplier breach + ‘zero retention’ AI data risk + WhatsApp scam angle",
@@ -7666,20 +7664,6 @@
         "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
         "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
-      ]
-    },
-    {
-      "slug": "2026-08-24-1754-today-s-smb-cyber-lookout-fake-verification-pop-ups-stealing-passwords-impersona",
-      "headline": "Today’s SMB cyber lookout: Fake “verification” pop-ups stealing passwords + impersonation scams",
-      "risk_level": "High",
-      "todays_lookout": "Phishing and fake verification lures leading to password theft, plus impersonation-driven data-theft attempts",
-      "published_at": "2026-08-24T17:54:29.950401+01:00",
-      "published_label": "Monday 24 August 2026, 17:54 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-        "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-        "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/"
       ]
     }
   ]
