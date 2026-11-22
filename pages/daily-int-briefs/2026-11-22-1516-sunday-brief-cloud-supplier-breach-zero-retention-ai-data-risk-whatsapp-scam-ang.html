@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Sunday brief: cloud supplier breach + ‘zero retention’ AI data risk + WhatsApp scam angle | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Sunday brief: cloud supplier breach + ‘zero retention’ AI data risk + WhatsApp scam angle</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Sunday 22 November 2026, 15:16 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier/SaaS incidents and message-led scams
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Cloud supplier breach ripple effects:</strong> Rackspace says attackers accessed its Rackspace Spot platform using compromised credentials and could access <em>Kubernetes secrets</em> in customer clusters and deploy unauthorised workloads.</li>
+  <li><strong>AI tool/data handling risk:</strong> Reports that attackers stole data from within several AI inference providers for months, including requests marked <em>Zero Data Retention</em>. OpenRouter reportedly removed three providers after the findings.</li>
+  <li><strong>WhatsApp scam angle:</strong> WhatsApp patched issues including an Android bug Meta suspects was used in connection with scam messages. This is most relevant if staff use WhatsApp/WhatsApp Business for customer comms.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<ul>
+  <li><strong>You inherit supplier incidents:</strong> Even if your own systems are fine, a platform breach can expose credentials, tokens, secrets, or let attackers run up cloud bills via unauthorised workloads.</li>
+  <li><strong>“We didn’t store it” may not be true in practice:</strong> If you paste customer data, contracts, payroll info, or credentials into AI tools, you may be relying on promises that can fail at a supplier level.</li>
+  <li><strong>WhatsApp is a business channel now:</strong> Many SMEs use it for bookings, invoices, deliveries, and client updates. Scammy links and social engineering can quickly lead to payment diversion or account takeover.</li>
+</ul>
+
+<h2>Warning signs</h2>
+<ul>
+  <li><strong>Cloud:</strong> unexpected compute usage, new workloads you don’t recognise, higher-than-normal cloud spend, alerts about new service accounts, API keys, or secret changes.</li>
+  <li><strong>Customer-facing issues:</strong> odd outbound traffic, performance drops, or complaints about spam coming from your services.</li>
+  <li><strong>AI usage:</strong> staff mentioning they pasted sensitive client documents into an AI tool “just to summarise it”, or using multiple AI plugins/providers without approval.</li>
+  <li><strong>Messaging:</strong> WhatsApp messages urging urgent action, “verification”, “security update”, or “invoice overdue” with links—especially if sent outside usual business hours or in broken English.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Abuse of stolen cloud secrets:</strong> attackers use exposed Kubernetes secrets/tokens to access other services, move laterally, or deploy crypto-miners/unauthorised workloads.</li>
+  <li><strong>Follow-on phishing:</strong> criminals frequently capitalise on supplier incidents by sending fake “support/security reset” emails to harvest credentials.</li>
+  <li><strong>AI prompt/data theft:</strong> if prompts are captured at a provider, attackers could learn confidential business plans, client details, or internal procedures that make later fraud easier.</li>
+  <li><strong>WhatsApp scam delivery:</strong> messages designed to push staff into tapping a link, approving a “request”, or moving a conversation to a different number to bypass normal checks.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>If you use Rackspace Spot (or your MSP does):</strong> confirm whether you are affected, review recent cluster changes, and rotate any sensitive credentials/secrets that could have been exposed (prioritise admin tokens and CI/CD credentials).</li>
+  <li><strong>Do a 15-minute AI data check:</strong> remind staff not to paste passwords, API keys, client PII, payroll data, or contracts into AI tools unless it’s an approved, documented process.</li>
+  <li><strong>Re-brief staff on WhatsApp hygiene:</strong> don’t click links from unknown numbers; treat “account verification/security update” messages as suspicious; verify payment requests via a second channel.</li>
+  <li><strong>Finance control:</strong> re-emphasise call-back verification for any bank detail changes or urgent payment demands—especially if initiated via messaging apps.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we (or any of our suppliers) use <strong>Rackspace Spot</strong> or run managed Kubernetes where this could apply?</li>
+  <li>What <strong>monitoring</strong> do we have for unusual cloud workload creation and spend spikes?</li>
+  <li>If secrets may be exposed, what’s our <strong>rotation plan</strong> (Kubernetes secrets, API keys, service accounts, CI/CD tokens) and who owns it?</li>
+  <li>Which <strong>AI tools/providers</strong> are approved for staff use, and what data is prohibited from being entered?</li>
+  <li>Do we have a policy for <strong>WhatsApp/WhatsApp Business</strong> use (device security, backups, admin control, and what to do when a scam message is received)?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>If your staff use <strong>WhatsApp or WhatsApp Business on Android</strong>, ensure the app is updated promptly. WhatsApp has reported fixing issues including one it suspects was used in connection with scam messages—updates won’t stop all scams, but they reduce avoidable risk.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day note to staff: no sensitive data into AI tools unless approved, and verify any payment/bank detail change requests via a call-back—especially if they start on WhatsApp.</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: Supplier incident response mini-checklist (what to ask vendors + how to handle reset/rotation safely)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/" rel="noopener noreferrer">Rackspace Spot breach let hackers access customer Kubernetes secrets</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html" rel="noopener noreferrer">OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html" rel="noopener noreferrer">WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams</a> <span class="muted">(The Hacker News)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
