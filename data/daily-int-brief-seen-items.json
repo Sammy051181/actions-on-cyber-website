@@ -1,82 +1,5 @@
 {
   "seen_urls": {
-    "ab19b111baf20bee": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-25T08:57:12.061309+01:00",
-      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
-    },
-    "7cdfd185bcfa807b": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-25T08:57:12.061309+01:00",
-      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
-    },
-    "62298a83d4d48134": {
-      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-25T08:57:12.061309+01:00",
-      "brief_slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-"
-    },
-    "99cf59e09495b7a8": {
-      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-25T14:10:23.361687+01:00",
-      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
-    },
-    "56d9611be3038104": {
-      "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-25T14:10:23.361687+01:00",
-      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
-    },
-    "2f69a5761f47aee3": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-25T14:10:23.361687+01:00",
-      "brief_slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a"
-    },
-    "6390d9c4dbeda298": {
-      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-25T17:54:32.948540+01:00",
-      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
-    },
-    "887eefd9521c2a87": {
-      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-25T17:54:32.948540+01:00",
-      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
-    },
-    "f728a38d182fe151": {
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-25T17:54:32.948540+01:00",
-      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
-    },
-    "2e3b78a4e6c20431": {
-      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-25T17:54:32.948540+01:00",
-      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
-    },
-    "96ee145e40ff15e7": {
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-25T17:54:32.948540+01:00",
-      "brief_slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson"
-    },
     "3edbe2a627d91e2d": {
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
       "title": "Hackers abuse npm mirrors to host phishing redirect pages",
@@ -5200,9 +5123,51 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-22T21:44:59.994890+00:00",
       "brief_slug": "2026-11-22-2144-sunday-brief-payment-card-breach-risk-router-cloud-management-compromise"
+    },
+    "2da724996ccb9ddb": {
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-23T19:13:46.291005+00:00",
+      "brief_slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p"
+    },
+    "89ef724f9ef49976": {
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-23T19:13:46.291005+00:00",
+      "brief_slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p"
+    },
+    "8dee64bf666c5ac0": {
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-23T19:13:46.291005+00:00",
+      "brief_slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p"
+    },
+    "3077523564b045f2": {
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-23T19:13:46.291005+00:00",
+      "brief_slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p",
+      "headline": "SMB Cyber Brief: MSP tooling and email security suppliers in the spotlight (plus payment fraud warnings)",
+      "risk_level": "High",
+      "todays_lookout": "Supplier/MSP security incidents and payment fraud",
+      "published_at": "2026-11-23T19:13:46.291005+00:00",
+      "published_label": "Monday 23 November 2026, 19:13 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+        "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+        "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+      ]
+    },
     {
       "slug": "2026-11-22-2144-sunday-brief-payment-card-breach-risk-router-cloud-management-compromise",
       "headline": "Sunday brief: payment card breach risk + router cloud management compromise",
@@ -7623,47 +7588,6 @@
         "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
         "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
         "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/"
-      ]
-    },
-    {
-      "slug": "2026-08-25-1754-identity-verification-scams-are-rising-and-breaches-can-fuel-convincing-imperson",
-      "headline": "Identity verification scams are rising — and breaches can fuel convincing impersonation",
-      "risk_level": "Moderate",
-      "todays_lookout": "Impersonation & account recovery scams (hire-to-pay, supplier and support desk fraud)",
-      "published_at": "2026-08-25T17:54:32.948540+01:00",
-      "published_label": "Tuesday 25 August 2026, 17:54 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-        "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-        "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-        "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/"
-      ]
-    },
-    {
-      "slug": "2026-08-25-1410-today-s-smb-cyber-lookout-microsoft-365-2fa-bypass-phishing-fake-captcha-lures-a",
-      "headline": "Today’s SMB cyber lookout: Microsoft 365 ‘2FA-bypass’ phishing, fake CAPTCHA lures, and ongoing Zimbra email server compromises",
-      "risk_level": "High",
-      "todays_lookout": "Account takeover phishing (Microsoft 365) and email system compromise risk",
-      "published_at": "2026-08-25T14:10:23.361687+01:00",
-      "published_label": "Tuesday 25 August 2026, 14:10 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-        "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/"
-      ]
-    },
-    {
-      "slug": "2026-08-25-0857-today-s-smb-cyber-lookout-wordpress-sso-break-ins-and-actively-exploited-oracle-",
-      "headline": "Today’s SMB cyber lookout: WordPress SSO break-ins and actively exploited Oracle WebLogic risk",
-      "risk_level": "High",
-      "todays_lookout": "Website and server takeover risk via authentication and internet-facing services",
-      "published_at": "2026-08-25T08:57:12.061309+01:00",
-      "published_label": "Tuesday 25 August 2026, 08:57 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-        "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
       ]
     }
   ]
