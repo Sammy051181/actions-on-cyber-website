@@ -1,89 +1,5 @@
 {
   "seen_urls": {
-    "3edbe2a627d91e2d": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T08:58:14.016740+01:00",
-      "brief_slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams"
-    },
-    "4de8e9117e9dd32c": {
-      "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-26T08:58:14.016740+01:00",
-      "brief_slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams"
-    },
-    "b300bf62ab6cfed1": {
-      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T08:58:14.016740+01:00",
-      "brief_slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams"
-    },
-    "7bfe97eb7dc88b94": {
-      "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T08:58:14.016740+01:00",
-      "brief_slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams"
-    },
-    "ea2647337858e2f5": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T14:15:48.283740+01:00",
-      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
-    },
-    "f601fe4cfa27db52": {
-      "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-26T14:15:48.283740+01:00",
-      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
-    },
-    "635b3ba14547f07b": {
-      "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-26T14:15:48.283740+01:00",
-      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
-    },
-    "2e7f77b49688cca8": {
-      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-      "title": "LACMA data breach last year exposed social security and medical data",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T14:15:48.283740+01:00",
-      "brief_slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-"
-    },
-    "26c52789df0be9e6": {
-      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-26T17:58:43.121769+01:00",
-      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
-    },
-    "9da814d3675d77e5": {
-      "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-      "title": "Boston Scientific says cyberattack disrupted operations globally",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T17:58:43.121769+01:00",
-      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
-    },
-    "64bb7d2fc9f2e4bf": {
-      "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
-      "title": "Snowflake ends service-account passwords. Now comes the hard part",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T17:58:43.121769+01:00",
-      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
-    },
-    "8415d773bae65b60": {
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
-      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-26T17:58:43.121769+01:00",
-      "brief_slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec"
-    },
     "bc84881d1e28dd31": {
       "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
       "title": "Carhartt data breach exposes information of 12.9 million accounts",
@@ -5151,9 +5067,59 @@
       "source": "The Hacker News",
       "seen_at": "2026-11-23T19:13:46.291005+00:00",
       "brief_slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p"
+    },
+    "c4ed564253ff3bb5": {
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-24T18:53:06.438214+00:00",
+      "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
+    },
+    "a251bdbac4c3ddf9": {
+      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-24T18:53:06.438214+00:00",
+      "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
+    },
+    "351ef75337d427e1": {
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-24T18:53:06.438214+00:00",
+      "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
+    },
+    "47c6e40ac66c9d3b": {
+      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-24T18:53:06.438214+00:00",
+      "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
+    },
+    "7b86d265d0e5ec07": {
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-24T18:53:06.438214+00:00",
+      "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk",
+      "headline": "Today’s SMB cyber brief: vishing for logins, and cloud/API secrets at risk",
+      "risk_level": "High",
+      "todays_lookout": "Vishing-driven account takeovers + cloud/API key exposure (supplier and Azure)",
+      "published_at": "2026-11-24T18:53:06.438214+00:00",
+      "published_label": "Tuesday 24 November 2026, 18:53 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+        "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+        "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+        "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/"
+      ]
+    },
     {
       "slug": "2026-11-23-1913-smb-cyber-brief-msp-tooling-and-email-security-suppliers-in-the-spotlight-plus-p",
       "headline": "SMB Cyber Brief: MSP tooling and email security suppliers in the spotlight (plus payment fraud warnings)",
@@ -7546,48 +7512,6 @@
         "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
         "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
         "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
-      ]
-    },
-    {
-      "slug": "2026-08-26-1758-today-s-sme-cyber-brief-session-stealing-docusign-emails-disruption-ripple-effec",
-      "headline": "Today’s SME cyber brief: session-stealing “DocuSign” emails, disruption ripple effects, and service-account changes",
-      "risk_level": "High",
-      "todays_lookout": "Supplier-branded phishing and SaaS dependency disruption",
-      "published_at": "2026-08-26T17:58:43.121769+01:00",
-      "published_label": "Wednesday 26 August 2026, 17:58 UK time",
-      "source_urls": [
-        "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-        "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-        "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
-        "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/"
-      ]
-    },
-    {
-      "slug": "2026-08-26-1415-today-s-smb-cyber-brief-self-hosted-git-risk-website-video-library-exposure-and-",
-      "headline": "Today’s SMB Cyber Brief: self‑hosted Git risk, website/video library exposure, and fraud crackdowns",
-      "risk_level": "High",
-      "todays_lookout": "Supplier/SaaS & self-hosted service compromise leading to account takeover, fraud and business disruption",
-      "published_at": "2026-08-26T14:15:48.283740+01:00",
-      "published_label": "Wednesday 26 August 2026, 14:15 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-        "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-        "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-        "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/"
-      ]
-    },
-    {
-      "slug": "2026-08-26-0858-today-s-smb-cyber-lookout-trusted-link-phishing-and-apple-support-voice-ai-scams",
-      "headline": "Today’s SMB cyber lookout: trusted-link phishing and “Apple Support” voice AI scams",
-      "risk_level": "High",
-      "todays_lookout": "Phishing themes: trusted hosting links + AI voice calls requesting codes",
-      "published_at": "2026-08-26T08:58:14.016740+01:00",
-      "published_label": "Wednesday 26 August 2026, 08:58 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-        "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-        "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-        "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/"
       ]
     }
   ]
