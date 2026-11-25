@@ -5102,9 +5102,59 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-24T18:53:06.438214+00:00",
       "brief_slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk"
+    },
+    "da2703c97fc2d132": {
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-25T17:57:45.955274+00:00",
+      "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
+    },
+    "347042e7abf2992c": {
+      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-25T17:57:45.955274+00:00",
+      "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
+    },
+    "6c5bc98dced3225c": {
+      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-25T17:57:45.955274+00:00",
+      "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
+    },
+    "da78c9293f40e55b": {
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-25T17:57:45.955274+00:00",
+      "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
+    },
+    "820a6be24763a542": {
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-25T17:57:45.955274+00:00",
+      "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks",
+      "headline": "Today’s SMB cyber lookout: vishing for SSO logins, plus supplier and plugin risks",
+      "risk_level": "High",
+      "todays_lookout": "Phone-call (vishing) takeover of cloud/SSO accounts leading to data theft and extortion",
+      "published_at": "2026-11-25T17:57:45.955274+00:00",
+      "published_label": "Wednesday 25 November 2026, 17:57 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+        "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+        "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+        "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
+      ]
+    },
     {
       "slug": "2026-11-24-1853-today-s-smb-cyber-brief-vishing-for-logins-and-cloud-api-secrets-at-risk",
       "headline": "Today’s SMB cyber brief: vishing for logins, and cloud/API secrets at risk",
