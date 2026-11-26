@@ -1,40 +1,5 @@
 {
   "seen_urls": {
-    "bc84881d1e28dd31": {
-      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-      "title": "Carhartt data breach exposes information of 12.9 million accounts",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-27T19:17:23.765973+01:00",
-      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
-    },
-    "4448077476edb29e": {
-      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "source": "Krebs on Security",
-      "seen_at": "2026-08-27T19:17:23.765973+01:00",
-      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
-    },
-    "e686c25ec9525a4e": {
-      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-27T19:17:23.765973+01:00",
-      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
-    },
-    "2d87a31b8a90daad": {
-      "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-      "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-27T19:17:23.765973+01:00",
-      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
-    },
-    "63e61204dff51d14": {
-      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-      "title": "ATF confirms “major incident” after recent Qilin breach claims",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-27T19:17:23.765973+01:00",
-      "brief_slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk"
-    },
     "6f01060b6e115f8e": {
       "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
       "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
@@ -5137,9 +5102,67 @@
       "source": "BleepingComputer",
       "seen_at": "2026-11-25T17:57:45.955274+00:00",
       "brief_slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks"
+    },
+    "57d73d788295d6a0": {
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "34599e7b6c56f4b3": {
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "deebe28bb42d9ba3": {
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "29838573f890e4f7": {
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "918f8236c2b641c6": {
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "c0fdeca5bfd2c130": {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "seen_at": "2026-11-26T17:42:34.168838+00:00",
+      "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password",
+      "headline": "Today’s SMB Cyber Brief: Gmail/Outlook email spying via fake extensions + 1Password supplier breach fallout",
+      "risk_level": "High",
+      "todays_lookout": "Credential theft and email access via fake browser extensions, social ads and brand-impersonation lures",
+      "published_at": "2026-11-26T17:42:34.168838+00:00",
+      "published_label": "Thursday 26 November 2026, 17:42 UK time",
+      "source_urls": [
+        "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+        "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+        "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+        "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+        "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
+      ]
+    },
     {
       "slug": "2026-11-25-1757-today-s-smb-cyber-lookout-vishing-for-sso-logins-plus-supplier-and-plugin-risks",
       "headline": "Today’s SMB cyber lookout: vishing for SSO logins, plus supplier and plugin risks",
@@ -7547,21 +7570,6 @@
         "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
         "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
         "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
-      ]
-    },
-    {
-      "slug": "2026-08-27-1917-smb-cyber-intelligence-brief-breach-driven-scams-software-supply-chain-risk",
-      "headline": "SMB Cyber Intelligence Brief: breach-driven scams + software supply-chain risk",
-      "risk_level": "High",
-      "todays_lookout": "Breach-driven login attacks and supplier/supply-chain scams",
-      "published_at": "2026-08-27T19:17:23.765973+01:00",
-      "published_label": "Thursday 27 August 2026, 19:17 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-        "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-        "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-        "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-        "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
       ]
     }
   ]
