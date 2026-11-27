@@ -1,89 +1,5 @@
 {
   "seen_urls": {
-    "6f01060b6e115f8e": {
-      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "ba3feda904b048f6": {
-      "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "6edaa432ae0551ea": {
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "9ef134c66a556534": {
-      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "d78fd3b9a03a8b41": {
-      "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-      "title": "ServiceNow warns of three max severity security vulnerabilities",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "fbf67621099f4f5d": {
-      "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "1d72b9fabc7d9d40": {
-      "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
-      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-28T20:26:19.900498+01:00",
-      "brief_slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl"
-    },
-    "ad39520079f764e7": {
-      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-29T14:10:03.342944+01:00",
-      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
-    },
-    "f774114eb52e3b3c": {
-      "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-      "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-29T14:10:03.342944+01:00",
-      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
-    },
-    "890fcf73be2f3ef7": {
-      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-29T14:10:03.342944+01:00",
-      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
-    },
-    "96dd7b00fdd973a3": {
-      "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-      "source": "BleepingComputer",
-      "seen_at": "2026-08-29T14:10:03.342944+01:00",
-      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
-    },
-    "e2642e9280511854": {
-      "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-      "source": "The Hacker News",
-      "seen_at": "2026-08-29T14:10:03.342944+01:00",
-      "brief_slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda"
-    },
     "2ac80c657999bd25": {
       "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
@@ -5144,9 +5060,51 @@
       "source": "CISA Cybersecurity Advisories",
       "seen_at": "2026-11-26T17:42:34.168838+00:00",
       "brief_slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password"
+    },
+    "d8fcf47e119ce6e7": {
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-27T17:26:58.082927+00:00",
+      "brief_slug": "2026-11-27-1726-today-s-sme-cyber-lookout-tampered-downloads-rogue-apps-and-active-web-perimeter"
+    },
+    "c60eeeaa334b435f": {
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "source": "The Hacker News",
+      "seen_at": "2026-11-27T17:26:58.082927+00:00",
+      "brief_slug": "2026-11-27-1726-today-s-sme-cyber-lookout-tampered-downloads-rogue-apps-and-active-web-perimeter"
+    },
+    "319bafb516c229f7": {
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-27T17:26:58.082927+00:00",
+      "brief_slug": "2026-11-27-1726-today-s-sme-cyber-lookout-tampered-downloads-rogue-apps-and-active-web-perimeter"
+    },
+    "85d71203b57ce129": {
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "source": "BleepingComputer",
+      "seen_at": "2026-11-27T17:26:58.082927+00:00",
+      "brief_slug": "2026-11-27-1726-today-s-sme-cyber-lookout-tampered-downloads-rogue-apps-and-active-web-perimeter"
     }
   },
   "published_briefs": [
+    {
+      "slug": "2026-11-27-1726-today-s-sme-cyber-lookout-tampered-downloads-rogue-apps-and-active-web-perimeter",
+      "headline": "Today’s SME cyber lookout: tampered downloads, rogue apps, and active web/perimeter attacks",
+      "risk_level": "High",
+      "todays_lookout": "Supplier and software supply-chain risk (trojanised installers/updates) plus active compromise of web and edge systems",
+      "published_at": "2026-11-27T17:26:58.082927+00:00",
+      "published_label": "Friday 27 November 2026, 17:26 UK time",
+      "source_urls": [
+        "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+        "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+        "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+      ]
+    },
     {
       "slug": "2026-11-26-1742-today-s-smb-cyber-brief-gmail-outlook-email-spying-via-fake-extensions-1password",
       "headline": "Today’s SMB Cyber Brief: Gmail/Outlook email spying via fake extensions + 1Password supplier breach fallout",
@@ -7538,38 +7496,6 @@
         "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
         "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
         "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html"
-      ]
-    },
-    {
-      "slug": "2026-08-29-1410-papercut-zero-day-in-active-use-major-breach-fallout-what-smes-should-watch-toda",
-      "headline": "PaperCut zero‑day in active use + major breach fallout: what SMEs should watch today",
-      "risk_level": "High",
-      "todays_lookout": "Ransomware and supplier breach scams, plus business disruption via print/identity systems",
-      "published_at": "2026-08-29T14:10:03.342944+01:00",
-      "published_label": "Saturday 29 August 2026, 14:10 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-        "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-        "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-        "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html"
-      ]
-    },
-    {
-      "slug": "2026-08-28-2026-smb-cyber-intelligence-brief-donation-sites-printing-systems-and-file-sharing-pl",
-      "headline": "SMB Cyber Intelligence Brief: donation sites, printing systems and file-sharing platforms in the firing line",
-      "risk_level": "High",
-      "todays_lookout": "Web plugin and business-platform compromise leading to ransomware, data theft and follow-on phishing",
-      "published_at": "2026-08-28T20:26:19.900498+01:00",
-      "published_label": "Friday 28 August 2026, 20:26 UK time",
-      "source_urls": [
-        "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-        "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-        "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-        "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-        "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-        "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-        "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
       ]
     }
   ]

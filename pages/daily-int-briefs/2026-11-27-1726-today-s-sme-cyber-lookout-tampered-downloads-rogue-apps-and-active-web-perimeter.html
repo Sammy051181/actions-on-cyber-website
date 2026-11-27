@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daily SMB cyber intelligence brief from Actions On Cyber. Plain-English cyber risks, scams, supplier incidents and practical actions for small and medium-sized businesses." />
+  <title>Today’s SME cyber lookout: tampered downloads, rogue apps, and active web/perimeter attacks | Actions On Cyber</title>
+  <link rel="stylesheet" href="../../assets/styles.css" />
+  <link rel="icon" href="../../assets/actions-on-cyber-logo.png" type="image/png" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>Free practical cybersecurity guidance for organisations without a security team.</div>
+    <a href="mailto:hello@actionsoncyber.com">hello@actionsoncyber.com</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../../index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;">
+      <img
+        src="../../assets/actions-on-cyber-logo.png"
+        alt="Actions On Cyber"
+        style="width:220px !important;max-width:220px !important;height:auto !important;display:block !important;object-fit:contain !important;"
+      />
+    </a>
+
+    <nav class="nav">
+      <a href="../../pages/daily-int-brief.html">Daily Intelligence</a>
+      <a href="../../pages/daily-vulnerability-brief.html">Daily Vulnerabilities</a>
+      <a href="../../pages/field-manual.html">Field Manual</a>
+      <a href="../../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Daily SMB Cyber Intelligence Brief</p>
+      <h1>Today’s SME cyber lookout: tampered downloads, rogue apps, and active web/perimeter attacks</h1>
+      <p class="lede">What small and medium-sized businesses should look out for today.</p>
+      <div class="meta-row">
+        <span class="tag">High</span>
+        <span>Friday 27 November 2026, 17:26 UK time</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <article class="content-main">
+        <div class="callout">
+          <strong>Today’s look-out:</strong> Supplier and software supply-chain risk (trojanised installers/updates) plus active compromise of web and edge systems
+        </div>
+
+        <h2>What to look out for today</h2>
+<ul>
+  <li><strong>Trojanised “official” software downloads and updates</strong> (Q-Dir and DesktopOK installers reportedly tampered with on the vendor’s own website, including via the update process).</li>
+  <li><strong>Rogue / abused app delivery</strong> where a Microsoft Store app was used as part of a chain to deliver a remote access trojan (RAT).</li>
+  <li><strong>Active attacks on common business web and perimeter systems</strong>, including Drupal website takeovers and targeted exploitation of internet-exposed firewall management interfaces.</li>
+</ul>
+
+<h2>Why this matters to smaller businesses</h2>
+<p>SMEs often rely on “trusted” sources (vendor sites, app stores, auto-updaters) and a small number of key systems (website CMS, firewall/VPN). When those trust points are abused, a single employee install or a single exposed admin interface can lead to business-wide disruption: stolen credentials, remote control of devices, data access, and knock-on fraud (invoice/payment diversion) even without ransomware.</p>
+
+<h2>Warning signs</h2>
+<ul>
+  <li>Staff reporting <strong>unexpected security prompts</strong>, new admin pop-ups, or tools asking for elevated permissions “to update”.</li>
+  <li><strong>AV/EDR alerts</strong> after installing or updating everyday utilities (especially file managers, desktop tools, “snipping”/productivity utilities).</li>
+  <li><strong>Unusual remote-access behaviour</strong>: new remote-control software appearing, unknown services starting, or devices contacting unfamiliar domains.</li>
+  <li>Website symptoms: <strong>unexpected redirects</strong>, new admin accounts, altered pages, or customers reporting strange behaviour.</li>
+  <li>Firewall/VPN symptoms: <strong>configuration changes you didn’t make</strong>, new admin users, or management access enabled/exposed unexpectedly.</li>
+</ul>
+
+<h2>How attackers may exploit the situation</h2>
+<ul>
+  <li><strong>Supply-chain tampering</strong>: attackers modify installers/updates so the victim installs the malware themselves, bypassing many “don’t click links” habits.</li>
+  <li><strong>Trojan delivery via trusted branding</strong>: users are more likely to run software that looks signed/legitimate or comes via an app ecosystem, then the malware provides remote control.</li>
+  <li><strong>Internet-exposed admin interfaces</strong>: attackers scan for reachable management portals (websites, firewalls) and attempt takeover, leading to persistence and data access.</li>
+</ul>
+
+<h2>What to do today</h2>
+<ul>
+  <li><strong>Send a short staff note</strong>: only install software your business has approved; avoid “handy utilities” found via search results; report any update prompt that looks unusual.</li>
+  <li><strong>Review endpoints for recent installs</strong> (last 7 days): flag new “desktop utilities”, “snipping tools”, remote admin tools, or anything installed outside your normal process.</li>
+  <li><strong>Check your website and admin accounts</strong>: confirm CMS admin users are expected, MFA is enabled, and the site hasn’t been modified.</li>
+  <li><strong>Confirm firewall/VPN management access</strong> is not exposed to the internet and that MFA/logging is enabled for administration.</li>
+  <li><strong>Be extra cautious with payment change requests</strong> over the next few days (a common follow-on after device or email access): verify changes out-of-band.</li>
+</ul>
+
+<h2>Ask your IT provider</h2>
+<ul>
+  <li>Do we have an <strong>approved software list</strong> and a controlled way for staff to request/install tools?</li>
+  <li>Can you <strong>audit recent software installations</strong> across our devices and flag anything unusual?</li>
+  <li>Is our <strong>EDR/antivirus</strong> configured to alert on suspicious installers, persistence, and remote admin tools?</li>
+  <li>Is our <strong>firewall/VPN management interface</strong> restricted (not internet-exposed), protected by MFA, and monitored?</li>
+  <li>For our website/CMS, do we have <strong>monitoring and quick restore</strong> (known-good backups) if a takeover happens?</li>
+</ul>
+
+<h2>Patch watch - only one short paragraph, and only if relevant</h2>
+<p>There are reports of <strong>active attacks</strong> against Drupal sites and against certain firewall platforms where management interfaces are exposed. If you run your own website or manage your own firewall/VPN, treat this as a prompt to urgently confirm you’re on supported versions, administration is locked down, and your IT provider is actively monitoring vendor advisories and applying fixes promptly.</p>
+
+        <h2>One action today</h2>
+        <p>Send a same-day staff message: “Do not install or update non-approved utilities; if you see an unexpected update/install prompt, stop and report it to IT immediately.”</p>
+
+        <h2>Related Actions On Cyber resource</h2>
+        <p>Actions On Cyber: “Software installs &amp; admin access control” mini-checklist (approved apps, least privilege, MFA on admin portals)</p>
+
+        <h2>Sources</h2>
+        <ul><li><a href="https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html" rel="noopener noreferrer">Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html" rel="noopener noreferrer">Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control</a> <span class="muted">(The Hacker News)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/" rel="noopener noreferrer">Drupal warns of new site takeover flaw exploited in attacks</a> <span class="muted">(BleepingComputer)</span></li><li><a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/" rel="noopener noreferrer">Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks</a> <span class="muted">(BleepingComputer)</span></li></ul>
+
+        <p class="muted">
+          This brief is for general awareness and does not replace advice from your IT provider,
+          legal adviser, insurer or incident response specialist.
+        </p>
+      </article>
+
+      <aside class="content-side">
+        <div class="card">
+          <h2>Need patch details?</h2>
+          <p>This intelligence brief focuses on what to look out for. For exploited vulnerabilities and patch priorities, use the Daily Vulnerability Brief.</p>
+          <a class="button" href="../daily-vulnerability-brief.html">View Vulnerability Brief</a>
+        </div>
+
+        <div class="card">
+          <h2>Ask your IT provider</h2>
+          <p>Use the questions in this brief to check supplier exposure, account protection, logging and business continuity.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Actions On Cyber. Practical cybersecurity guidance for small organisations.</p>
+  </div>
+</footer>
+</body>
+</html>
